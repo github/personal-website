@@ -1,5 +1,36 @@
 {% include header.html %}
 
-  {{ content }}
+{% assign user = site.github.organization_members[0] %}
+
+<div class="d-md-flex">
+  <div class="flex-self-stretch border-bottom border-md-bottom-0 border-md-right col-md-5 col-lg-4 col-xl-3 px-4 py-6 px-lg-6">
+    <img src="{{ user.avatar_url }}" class="circle mb-3" style="max-width: 150px;">
+    <h1 class="mb-2">{{ site.title }}</h1>
+    <p class="mb-3 f4 text-gray">
+      Hi! I'm Ben. I love two things: bridges and smiling. I'm an aspiring developer who is learning how to use GitHub to build the stuff I wish existed. I'm looking to meet other developers who can help to contribute to the projects I have started.
+    </p>
+    <div class="f4 mb-6">
+      <div class="mb-3">
+        {% octicon mark-github height:20 class:"mr-1 v-align-middle" aria-label:GitHub %}
+        <a href="https://github.com/{{ user.login }}">
+          @{{ user.login }}
+        </a>
+      </div>
+      <div class="mb-3">
+        {% octicon mail height:20 class:"mr-1 v-align-middle" aria-label:Email %}
+        <a href="mailto:{{ user.email }}">
+          {{ site.email }}
+        </a>
+      </div>
+      <div class="">
+        {% octicon location height:20 class:"mr-1 v-align-middle" aria-label:Location %}
+        Austin, TX
+      </div>
+    </div>
+  </div>
+  <div class="px-4 py-6 px-lg-6">
+    {{ content }}
+  </div>
+</div>
 
 {% include footer.html %}

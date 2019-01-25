@@ -8,28 +8,29 @@
   <p class="col-lg-8 mx-auto mb-3 f3 text-gray">
     Hi! I'm Ben. I love two things: bridges and smiling. I'm an aspiring developer who is learning how to use GitHub to build the stuff I wish existed. I'm looking to meet other developers who can help to contribute to the projects I have started.
   </p>
-  <div class="f4 mb-3">
-    <div class="d-inline-block mr-3">
+  <div class="f4 mb-6">
+    <div class="d-md-inline-block mr-3">
       {% octicon mark-github height:20 class:"mr-1 v-align-middle" aria-label:GitHub %}
       <a href="https://github.com/{{ user.login }}">
         @{{ user.login }}
       </a>
     </div>
-    <div class="d-inline-block mr-3">
+    <div class="d-md-inline-block mr-3">
       {% octicon mail height:20 class:"mr-1 v-align-middle" aria-label:Email %}
       <a href="mailto:{{ user.email }}">
         {{ site.email }}
       </a>
     </div>
-    <div class="d-inline-block">
+    <div class="d-md-inline-block">
       {% octicon location height:20 class:"mr-1 v-align-middle" aria-label:Location %}
-      <a href="https://github.com/{{ user.login }}">
-        Austin, TX
-      </a>
+      Austin, TX
     </div>
   </div>
+
+  {{ content }}
+
 </div>
 
-{{ content }}
+
 
 {% include footer.html %}
