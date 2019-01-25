@@ -5,15 +5,17 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Home</title>
+    <title>{{ site.github.project_title }}</title>
+    <link href="/assets/styles.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     {% assign user = site.github.organization_members[0] %}
 
-    {{ site.github.project_title }}
-    <hr>
-    <h1>{{ user.login }}</h1>
-    <img src="{{ user.avatar_url }}">
+    <div class="container-lg p-responsive">
+      <h1>{{ site.github.project_title }}</h1>
+      <p>{{ user.login }}</p>
+      <img src="{{ user.avatar_url }}">
+    </div>
 
     <!--//header></header>
     <script>
