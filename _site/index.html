@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+  </head>
+  <body>
+    {{ site.title }}
+    {% jsonball feed from url https://api.github.com/users/brandonrosage %}
+    {% for user in feed %}
+      <h1 style="color:red;">{{ user.name }}</h1>
+    {% endfor %}
+
+    <header></header>
+    <script>
+      var body = document.querySelector('body');
+      var requestURL = 'https://api.github.com/users/brandonrosage';
+      var request = new XMLHttpRequest();
+      request.open('GET', requestURL);
+      request.responseType = 'json';
+      request.send();
+
+      request.onload = function() {
+        populateBody(request.response);
+      }
+
+      function populateBody(jsonObj) {
+        var myH1 = document.createElement('h1');
+        myH1.textContent = jsonObj['name'];
+        body.appendChild(myH1);
+      }
+    </script>
+  </body>
+</html>
