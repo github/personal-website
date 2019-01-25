@@ -1,21 +1,25 @@
 ---
 ---
-
 <!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>{{ site.github.project_title }}</title>
+    <title>{{ site.title }}</title>
     <link href="/assets/styles.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    {% assign user = site.github.organization_members[0] %}
-
     <div class="container-lg p-responsive">
-      <h1>{{ site.github.project_title }}</h1>
-      <p>{{ user.login }}</p>
-      <img src="{{ user.avatar_url }}">
+      <h1>{{ site.title }}</h1>
+      <p>{{ site.description }}</p>
+      <p class="text-bold">{{ site.github.owner.login }}</p>
+      <img src="{{ site.github.owner.avatar_url }}">
     </div>
+    
+    <ul>
+    {% for repository in site.github.public_repositories %}
+      <li>[{{ repository.name }}]({{ repository.html_url }})</li>
+    {% endfor %}
+    </ul>
 
     <!--//header></header>
     <script>

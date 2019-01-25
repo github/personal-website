@@ -245,6 +245,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-github-metadata
 
 BUNDLED WITH
    1.16.1

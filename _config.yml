@@ -1,5 +1,6 @@
-title: Brandon Rosage
-description: description XYZ
+
+plugins:
+  - jekyll-github-metadata
 
 sass:
   sass_dir: node_modules
