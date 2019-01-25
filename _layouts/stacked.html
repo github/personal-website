@@ -26,8 +26,66 @@
       Austin, TX
     </div>
   </div>
+</div>
+<div class="py-6 p-responsive bg-gray-light">
+  <div class="container-lg mx-auto">
 
-  {{ content }}
+    <div class="my-6">
+      <h2 class="text-center">My Projects</h2>
+      <p class="f4 mb-4 text-gray text-center">GitHub repositories that I've contributed to</p>
+      <div class="d-flex flex-wrap gutter-condensed mb-4">
+        <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+          {% include repo-card.html %}
+        </div>
+        <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+          {% include repo-card.html %}
+        </div>
+        <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+          {% include repo-card.html %}
+        </div>
+        <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+          {% include repo-card.html %}
+        </div>
+        <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+          {% include repo-card.html %}
+        </div>
+      </div>
+    </div>
+
+    <div class="my-6">
+      <h2 class="text-center">My Interests</h2>
+      <p class="f4 mb-4 text-gray text-center">Topics that I want to learn more about</p>
+      <div class="d-flex flex-wrap gutter-condensed mb-4">
+        <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+          {% include topic-card.html %}
+        </div>
+        <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+          {% include topic-card.html %}
+        </div>
+        <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+          {% include topic-card.html %}
+        </div>
+      </div>
+    </div>
+
+    <div class="my-6">
+      <h2 class="text-center">My Organizations</h2>
+      <p class="f4 mb-4 text-gray text-center">Teams I belong to</p>
+      <div class="d-flex flex-wrap gutter-condensed mb-4">
+        <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+          {% include org-card.html %}
+        </div>
+        <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+          {% include org-card.html %}
+        </div>
+        <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+          {% include org-card.html %}
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
 
 </div>
 
