@@ -6,7 +6,6 @@
  */
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /** 1. Change the default font family in all browsers (opinionated). 2. Prevent adjustments of font size after orientation changes in IE and iOS. */
-@import url("https://fonts.googleapis.com/css?family=Rubik:400,500,700,900");
 html { font-family: sans-serif; /* 1 */ -ms-text-size-adjust: 100%; /* 2 */ -webkit-text-size-adjust: 100%; /* 2 */ }
 
 /** Remove the margin in all browsers (opinionated). */
@@ -3769,4 +3768,3 @@ a.tabnav-extra:hover { color: #0366d6; text-decoration: none; }
   .pb-xl-12 { padding-bottom: 128px !important; }
   /* Set a 128px padding to the top & bottom at the xl breakpoint */
   .py-xl-12 { padding-top: 128px !important; padding-bottom: 128px !important; } }
-.github-component { font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol; }
