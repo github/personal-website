@@ -1,5 +1,17 @@
 {% include header.html %}
 
-  {{ content }}
+{% assign user = site.github.organization_members[0] %}
+
+<div class="container-lg py-6 p-responsive text-center">
+  <img src="{{ user.avatar_url }}" class="circle mb-3" style="max-width: 180px;">
+  <h1 class="h0 mb-2">{{ site.github.project_title }}</h1>
+  <p class="f4">
+    <a href="https://github.com/{{ user.login }}">
+      @{{ user.login }}
+    </a>
+  </p>
+</div>
+
+{{ content }}
 
 {% include footer.html %}
