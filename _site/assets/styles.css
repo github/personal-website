@@ -3769,4 +3769,4 @@ a.tabnav-extra:hover { color: #0366d6; text-decoration: none; }
   .pb-xl-12 { padding-bottom: 128px !important; }
   /* Set a 128px padding to the top & bottom at the xl breakpoint */
   .py-xl-12 { padding-top: 128px !important; padding-bottom: 128px !important; } }
-body { font-family: 'Rubik', sans-serif; }
+.github-component { font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol; }
