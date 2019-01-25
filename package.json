@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/github/profile-generator#readme",
   "dependencies": {
-    "primer-core": "^6.10.9"
+    "primer-core": "^6.10.9",
+    "primer-marketing": "^6.3.3"
   }
 }
