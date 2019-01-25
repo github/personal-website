@@ -14,31 +14,22 @@
       <p class="text-bold">{{ site.github.owner.login }}</p>
       <img src="{{ site.github.owner.avatar_url }}">
     </div>
-    
+
     <ul>
-    {% for repository in site.github.public_repositories %}
+    {% for repository in site.github.public_repositories limit: 4 %}
       <li>[{{ repository.name }}]({{ repository.html_url }})</li>
     {% endfor %}
     </ul>
 
-    <!--//header></header>
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+></script>
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
+    <div class="container-lg p-responsive">
+      <div class="calendar"></div>
+    </div>
     <script>
-      var body = document.querySelector('body');
-      var requestURL = 'https://api.github.com/users/brandonrosage';
-      var request = new XMLHttpRequest();
-      request.open('GET', requestURL);
-      request.responseType = 'json';
-      request.send();
-
-      request.onload = function() {
-        populateBody(request.response);
-      }
-
-      function populateBody(jsonObj) {
-        var myH1 = document.createElement('h1');
-        myH1.textContent = jsonObj['name'];
-        body.appendChild(myH1);
-      }
-    </script //-->
+      GitHubCalendar(".calendar", "{{ site.github.owner.login }}", { responsive: true });
+    </script>
   </body>
 </html>
