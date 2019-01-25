@@ -5,13 +5,14 @@
     <title>Home</title>
   </head>
   <body>
-    {{ site.title }}
-    {% jsonball feed from url https://api.github.com/users/brandonrosage %}
-    {% for user in feed %}
-      <h1 style="color:red;">{{ user.name }}</h1>
-    {% endfor %}
+    
 
-    <header></header>
+    profile-generator
+    <hr>
+    <h1>BenEmdon</h1>
+    <img src="https://avatars0.githubusercontent.com/u/11095731?v=4">
+
+    <!--//header></header>
     <script>
       var body = document.querySelector('body');
       var requestURL = 'https://api.github.com/users/brandonrosage';
@@ -29,6 +30,6 @@
         myH1.textContent = jsonObj['name'];
         body.appendChild(myH1);
       }
-    </script>
+    </script //-->
   </body>
 </html>

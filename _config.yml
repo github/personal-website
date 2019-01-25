@@ -1,12 +1,5 @@
-title: brandonrosage
+title: Brandon Rosage
 description: description XYZ
-
-plugins:
-  - jekyll-jsonball
 
 sass:
   sass_dir: node_modules
-
-jekyll_get:
-  data: user
-  json: 'https://api.github.com/users/brandonrosage'
