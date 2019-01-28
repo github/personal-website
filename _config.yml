@@ -1,4 +1,4 @@
-repository: primer/primer
+repository: sophshep/manager-resources
 
 sass:
   sass_dir: node_modules
@@ -6,3 +6,11 @@ sass:
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
+
+topics:
+  - name: Web design
+    github_name: web-design
+  - name: CSS
+    github_name: css
+  - name: Sass
+    github_name: sass
