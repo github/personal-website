@@ -1,10 +1,7 @@
 repository: sophshep/manager-resources
 
-style: dark
-
 sass:
   load_paths:
-    - _sass
     - node_modules
 
 plugins:
