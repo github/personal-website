@@ -1,4 +1,4 @@
-<div class="github-component height-full text-left border border-gray-light bg-white rounded-1 p-3">
+<div class="github-component height-full text-left {% if site.style == 'dark' %}box-shadow{% else %}border border-gray-light{% endif %} bg-white rounded-1 p-3">
   <div class="d-flex flex-justify-between flex-items-start mb-1">
     <h1 class="f4 lh-condensed mb-1">
       <a href="{{ repository.html_url }}">
