@@ -1,7 +1,11 @@
 repository: sophshep/manager-resources
 
+style: dark
+
 sass:
-  sass_dir: node_modules
+  load_paths:
+    - _sass
+    - node_modules
 
 plugins:
   - jekyll-octicons
@@ -9,8 +13,11 @@ plugins:
 
 topics:
   - name: Web design
-    github_name: web-design
+
   - name: CSS
     github_name: css
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+
   - name: Sass
     github_name: sass
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png

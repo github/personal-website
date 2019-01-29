@@ -50,9 +50,9 @@ GIT
       terminal-table (~> 1.4)
 
 GIT
-  remote: git://github.com/jekyll/github-metadata.git
-  revision: 6e08726766e3011a7c22327dfb102a7dc4c523f0
-  branch: master
+  remote: git://github.com/kenyonj/github-metadata.git
+  revision: 6be52b767cb555b07abdd06b2c2c7e185eb9bb51
+  branch: jk-add-repo-stars-forks-hireable
   specs:
     jekyll-github-metadata (2.10.0)
       jekyll (~> 3.4)

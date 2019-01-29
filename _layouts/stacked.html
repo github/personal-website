@@ -4,21 +4,25 @@
 
 <div class="container-lg py-6 p-responsive text-center">
   <img src="{{ user.avatar_url }}" class="circle mb-3" style="max-width: 150px;">
-  <h1 class="mb-2 lh-condensed">{{ user.name }}</h1>
+  <h1 class="mb-2 lh-condensed">{% if user.name %}{{ user.name }}{% else %}{{ user.login }}{% endif %}</h1>
   <p class="col-lg-8 mx-auto mb-3 f3 text-gray">
     {{ user.bio }}
   </p>
   <div class="f4 mb-6">
-    <div class="d-md-inline-block mr-3">
-      {% octicon mark-github height:20 class:"mr-1 v-align-middle" aria-label:GitHub %}
-      <a href="https://github.com/{{ user.login }}">
-        @{{ user.login }}
-      </a>
-    </div>
-    <div class="d-md-inline-block">
-      {% octicon location height:20 class:"mr-1 v-align-middle" aria-label:Location %}
-      {{ user.location }}
-    </div>
+    {% if user.name %}
+      <div class="d-md-inline-block mr-3">
+        {% octicon mark-github height:20 class:"mr-1 v-align-middle" aria-label:GitHub %}
+        <a href="https://github.com/{{ user.login }}">
+          @{{ user.login }}
+        </a>
+      </div>
+    {% endif %}
+    {% if user.location %}
+      <div class="d-md-inline-block">
+        {% octicon location height:20 class:"mr-1 v-align-middle" aria-label:Location %}
+        {{ user.location }}
+      </div>
+    {% endif %}
   </div>
 
   {{ content }}
