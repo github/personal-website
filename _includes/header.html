@@ -1,3 +1,13 @@
+{% if site.style == 'dark' %}
+  {% assign icon_color = "#ffffff" %}
+{% else %}
+  {% assign icon_color = "#24292e" %}
+{% endif %}
+
+{% assign posts_total = site.posts | size %}
+
+{% assign user = site.github.owner %}
+
 <!doctype html>
 <html>
   <head>
