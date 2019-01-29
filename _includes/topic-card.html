@@ -1,18 +1,35 @@
-<div class="github-component">
-  <div class="position-relative hover-grow height-full text-center border border-gray-light rounded-1 bg-white p-5">
-    {% if topic.github_name %}
-      <a href="https://github.com/topics/{{ topic.github_name }}" class="no-underline d-flex flex-column flex-justify-center" data-ga-click="Topics, go to sql, location:boxes">
-        <img src="https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/{{ topic.github_name }}/{{ topic.github_name }}.png" width="64" height="64" class="mx-auto rounded-1 mb-3" alt="{{ topic.name }}">
-        <p class="f3 lh-condensed text-center link-gray-dark mb-0 mt-1">{{ topic.name }}</p>
-        {% if topic.description %}
-          <p class="f5 text-gray text-center mb-0 mt-1">{{ topic.description }}</p>
-        {% endif %}
-      </a>
+{% if topic.github_name %}
+  <a href="https://github.com/topics/{{ topic.github_name }}" class="github-component position-relative hover-grow height-full no-underline d-flex flex-column flex-justify-center text-center border border-gray-light rounded-1 bg-white p-5">
+    {% if topic.image_url %}
+      <img src="{{ topic.image_url }}" width="64" height="64" class="mx-auto rounded-1 mb-3" alt="{{ topic.name }}">
     {% else %}
-      <p class="f3 lh-condensed text-center link-gray-dark mb-0 mt-1">{{ topic.name }}</p>
-      {% if topic.description %}
-        <p class="f5 text-gray text-center mb-0 mt-1">{{ topic.description }}</p>
-      {% endif %}
+      <div
+        class="bg-blue-light f4 text-gray-light text-bold rounded-1 flex-shrink-0 text-center mx-auto mb-3"
+        style="width:64px; height:64px; line-height:64px;"
+      >
+        #
+      </div>
+    {% endif %}
+    <p class="f3 lh-condensed text-center link-gray-dark mb-0 mt-1">{{ topic.name }}</p>
+    {% if topic.description %}
+      <p class="f5 text-gray text-center mb-0 mt-1">{{ topic.description }}</p>
+    {% endif %}
+  </a>
+{% else %}
+  <div class="github-component position-relative height-full text-center border border-gray-light rounded-1 bg-white p-5">
+    {% if topic.image_url %}
+      <img src="{{ topic.image_url }}" width="64" height="64" class="mx-auto rounded-1 mb-3" alt="{{ topic.name }}">
+    {% else %}
+      <div
+        class="bg-blue-light f4 text-gray-light text-bold rounded-1 flex-shrink-0 text-center mx-auto mb-3"
+        style="width:64px; height:64px; line-height:64px;"
+      >
+        #
+      </div>
+    {% endif %}
+    <p class="f3 lh-condensed text-center mb-0 mt-1">{{ topic.name }}</p>
+    {% if topic.description %}
+      <p class="f5 text-gray text-center mb-0 mt-1">{{ topic.description }}</p>
     {% endif %}
   </div>
-</div>
+{% endif %}
