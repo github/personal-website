@@ -1,13 +1,5 @@
 {% include header.html %}
 
-{% if site.style == 'dark' %}
-  {% assign icon_color = "#ffffff" %}
-{% else %}
-  {% assign icon_color = "#24292e" %}
-{% endif %}
-
-{% assign user = site.github.owner %}
-
 <div class="d-md-flex" style="height: 100vh">
   <div class="flex-self-stretch {% if site.style == 'dark' %}bg-gray-dark{% else %}border-bottom border-md-none border-md-right border-gray-light bg-white{% endif %} col-md-5 col-lg-4 col-xl-3 px-4 px-md-6 px-lg-7 py-6">
     <img src="{{ user.avatar_url }}" class="circle mb-3" style="max-width: 150px;">
@@ -53,6 +45,10 @@
       {% include projects.html %}
 
       {% include interests.html %}
+
+      {% unless post_size == 0 %}
+        {% include thoughts.html %}
+      {% endunless %}
     </div>
   </div>
 </div>

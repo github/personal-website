@@ -1,5 +1,7 @@
 repository: sophshep/manager-resources
 
+style: light
+
 sass:
   load_paths:
     - node_modules
@@ -7,6 +9,17 @@ sass:
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
+
+permalink: /:year/:month/:day/:title/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "stacked"
+      is_post: true
 
 topics:
   - name: Web design
