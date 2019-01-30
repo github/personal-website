@@ -38,16 +38,28 @@
 
   <div class="col-md-7 col-lg-8 col-xl-9 px-4 py-6 px-lg-7">
     <div class="mx-auto" style="max-width: 900px;">
-      <div class="{% if site.style == 'dark' %}text-white{% endif %} mb-6">
-        {{ content }}
+
+      <div class="f4 {% if site.style == 'dark' %}text-white{% endif %} mb-6">
+        {% if page.is_post %}
+          <div class="f4 {% if site.style == 'dark' %}text-white{% endif %}">
+            <p class="f5"><a href="/" class="d-flex flex-items-center {% if site.style == 'dark' %}text-white{% endif %}">{% octicon chevron-left height:16 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Home %}Home</a></p>
+            <h1 class="f00-light lh-condensed">{{ page.title }}</h1>
+            <p class="mb-5">Published {{ page.date | date: "%b %d, %Y"}}</p>
+            {{ content }}
+          </div>
+        {% else %}
+          {{ content }}
+        {% endif %}
       </div>
 
-      {% include projects.html %}
+      {% unless page.is_post %}
+        {% include projects.html %}
 
-      {% include interests.html %}
+        {% include interests.html %}
 
-      {% unless post_size == 0 %}
-        {% include thoughts.html %}
+        {% unless post_size == 0 %}
+          {% include thoughts.html %}
+        {% endunless %}
       {% endunless %}
     </div>
   </div>
