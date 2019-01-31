@@ -2,7 +2,7 @@
 
 <div class="container-lg py-6 p-responsive text-center">
   <img src="{{ user.avatar_url }}" class="circle mb-3" style="max-width: 150px;">
-  <h1 class="{% if site.style == 'dark' %}text-white{% endif %} mb-2 lh-condensed">{% if user.name %}{{ user.name }}{% else %}{{ user.login }}{% endif %}</h1>
+  <h1 class="{% if site.style == 'dark' %}text-white{% endif %} h0-mktg mb-2 lh-condensed">{% if user.name %}{{ user.name }}{% else %}{{ user.login }}{% endif %}</h1>
   <p class="col-lg-8 mx-auto mb-3 f3 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
     {{ user.bio }}
   </p>

@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/github/pages-gem.git
-  revision: 06ff297fa077969851f9fd6f00ec5da8d1c33a60
+  revision: 1640e2a24d04fda34bc2ac3e9e6ea67a53190cad
   branch: master
   specs:
     github-pages (193)
@@ -45,13 +45,13 @@ GIT
       listen (= 3.1.5)
       mercenary (~> 0.3)
       minima (= 2.5.0)
-      nokogiri (>= 1.8.2, < 2.0)
+      nokogiri (>= 1.8.5, < 2.0)
       rouge (= 2.2.1)
       terminal-table (~> 1.4)
 
 GIT
   remote: git://github.com/kenyonj/github-metadata.git
-  revision: 6be52b767cb555b07abdd06b2c2c7e185eb9bb51
+  revision: 8b621118ad31a07f2d756923407977543c7968bf
   branch: jk-add-repo-stars-forks-hireable
   specs:
     jekyll-github-metadata (2.10.0)
