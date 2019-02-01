@@ -1,6 +1,6 @@
 repository: sophshep/manager-resources
 
-style: light
+style: dark
 
 sass:
   load_paths:
