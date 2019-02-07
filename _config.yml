@@ -1,10 +1,7 @@
 repository: sophshep/manager-resources
 
+layout: sidebar
 style: light
-
-sass:
-  load_paths:
-    - node_modules
 
 plugins:
   - jekyll-octicons
@@ -18,15 +15,14 @@ defaults:
       path: "" # an empty string here means all files in the project
       type: "posts"
     values:
-      layout: "sidebar"
-      is_post: true
+      layout: "post"
 
 topics:
-  - name: Web design
-
   - name: CSS
     github_name: css
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+
+  - name: Web design
 
   - name: Sass
     github_name: sass
