@@ -58,6 +58,12 @@ GIT
       jekyll (~> 3.4)
       octokit (~> 4.0, != 4.4.0)
 
+PATH
+  remote: .
+  specs:
+    github-personal-website (0.1.1)
+      jekyll (~> 3.7)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -229,6 +235,7 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
+    rake (12.3.1)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
@@ -259,9 +266,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler (~> 2.0.1)
   github-pages!
+  github-personal-website!
   jekyll-github-metadata!
   jekyll-octicons
+  rake (~> 12.0)
 
 BUNDLED WITH
    2.0.1
