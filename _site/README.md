@@ -1,50 +1,82 @@
-# github-personal-website
+# Personal website starter
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+This repository gives you the code you'll need to kickstart a personal website that showcases your work as a software developer. And when you manage the code in a GitHub repository, it will automatically render a webpage with the owner's profile information, including a photo, bio, and repositories.
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
+Your personal website is waiting to be personalized, though. It includes space to highlight your specific areas of interest in software development, like languages or industries. And it's standing by to publish your next great blog post.
 
-TODO: Delete this and the text above, and describe your gem
-
+It's all possible using the combination of [Jekyll](https://jekyllrb.com/docs/) (for building your website), [GitHub Pages](https://pages.github.com/) (for hosting your website), and [GitHub's API](https://developer.github.com/v3/) (for automatically populating your website with content).
 
 ## Installation
 
-Add this line to your Jekyll site's `Gemfile`:
+### Fork the `github/personal-website` repo
 
-```ruby
-gem "github-personal-website"
+You'll be making your own copy of the "personal website starter" repository so you have your own project to customize. A "fork" is a copy of a repository. So select "Fork" atop [the `github/personal-website` repository](https://github.com/github/personal-website).
+
+Once you've found a home for your forked repository, it's yours. You're the owner, so you're ready to publish, if you wish.
+
+### Install in your local development environment
+
+Once you've found a home for your forked repository, [clone it](https://help.github.com/articles/cloning-a-repository/).
+
+#### Install Jekyll
+
+Jekyll is a [Ruby Gem](https://jekyllrb.com/docs/ruby-101/#gems) that can be installed on most systems.
+
+1. Install a full [Ruby development environment](https://jekyllrb.com/docs/installation/)
+2. Install Jekyll and [bundler](/docs/ruby-101/#bundler) [gems](/docs/ruby-101/#gems)
 ```
-
-And add this line to your Jekyll site's `_config.yml`:
-
-```yaml
-theme: github-personal-website
+gem install jekyll bundler
 ```
+3. Change into your new directory
+```
+cd personal-website
+```
+4. Build the site and make it available on a local server
+```
+bundle exec jekyll serve
+```
+5. Now browse to [http://localhost:4000](http://localhost:4000)
 
-And then execute:
+### Publish
 
-    $ bundle
+When you host your personal website's code on GitHub, you get the support of free hosting through GitHub Pages.
 
-Or install it yourself as:
+**The fastest approach** is to rename your repository `username.github.io`, where `username` is your GitHub username (or organization name). Then, the next time you push any changes to your repository's `master` branch, they'll be accessible on the web at your `username.github.io` address.
 
-    $ gem install github-personal-website
+**If you want to use a custom domain**, however, you'll want to add it to your repository's "Custom domain" settings on github.com. And then register and/or [configure your domain with a DNS provider](https://help.github.com/articles/quick-start-setting-up-a-custom-domain/).
 
-## Usage
+## Customization
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+It's your website, and you control the source code. So you can custom everything, if you like. But we've provided a handful of quick customizations for you to consider as you get your website off the ground.
 
-## Contributing
+### Quick configuration changes
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Most customizations can be done in a matter of seconds, by revising your repository's `_config.yml` file. Just remember to restart your local server each time you save new changes so your Jekyll-powered website rebuilds correctly:
 
-## Development
+1. Shut down your server by entering the keyboard command <kbd>CTRL</kbd>+<kbd>c</kbd>
+2. Restart your server: `jekyll serve`
 
-To set up your environment to develop this theme, run `bundle install`.
 
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+#### Layout
 
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `github-personal-website.gemspec` accordingly.
+By default, your website will display in a two-column layout on larger-screen devices, with your photo, name, and basic information displayed in a left-aligned "sidebar." But you can quickly switch to a "stacked" single-column layout by changing the line in your `_config.yml` file that reads `layout: sidebar` to `layout: stacked`.
+
+#### Style
+
+By default, your website appears with a "light" white and gray background, with dark text. But you can quickly switch to a "dark" background with white text by changing the line in your `_config.yml` file that reads `style: light` to `style: dark`.
+
+#### Topics
+
+Your website comes pre-configured with three topics (e.g. "Web design" and "Sass") that appear in a section titled "My Interests." These are also stored in your repository's `_config.yml` file, where you can define each topic's name and two other optional details:
+
+- `web_url`: The web address you'd like to your topic to link to (e.g. `https://github.com/topics/sass`).
+- `image_url`: The web address of an (ideally square) image that you'd like to appear with your topic.
+
+### Pages and blog posts
+
+
+
+### Content and templates
 
 ## License
 

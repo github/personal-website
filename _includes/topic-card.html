@@ -1,5 +1,5 @@
-{% if topic.github_name %}
-  <a href="https://github.com/topics/{{ topic.github_name }}" class="github-component position-relative hover-grow height-full no-underline d-flex flex-column flex-justify-center text-center border border-gray-light rounded-1 bg-white p-5">
+{% if topic.web_url %}
+  <a href="{{ topic.web_url }}" class="github-component position-relative hover-grow height-full no-underline d-flex flex-column flex-justify-center text-center border border-gray-light rounded-1 bg-white p-5">
     {% if topic.image_url %}
       <img src="{{ topic.image_url }}" width="64" height="64" class="mx-auto rounded-1 mb-3" alt="{{ topic.name }}">
     {% else %}
