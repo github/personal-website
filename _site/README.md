@@ -72,11 +72,80 @@ Your website comes pre-configured with three topics (e.g. "Web design" and "Sass
 - `web_url`: The web address you'd like to your topic to link to (e.g. `https://github.com/topics/sass`).
 - `image_url`: The web address of an (ideally square) image that you'd like to appear with your topic.
 
-### Pages and blog posts
+## Adding pages
 
+To **add a page** to your website (e.g. detailed resume):
 
+1. Create a new `.html` or `.md` file at the root of your repository.
+2. Give it a filename that you want to be used in the page's URL (e.g. `http://yoursite.dev/filename`).
+3. At the start of your file, include the following [front matter](https://jekyllrb.com/docs/front-matter/):
 
-### Content and templates
+```
+---
+layout: default
+---
+```
+
+4. Save.
+
+## Adding blog posts
+
+To **add a blog post** to your website:
+
+1. Create a new `.md` file in your repository's `/_posts/` directory.
+2. Give it a filename using the following format:
+
+```
+YEAR-MONTH-DAY-title.MARKUP
+```
+
+3. At the start of your file, include the following [front matter](https://jekyllrb.com/docs/front-matter/):
+
+```
+---
+title: "The title of my blog post"
+---
+```
+
+Your website comes with a placeholder blog post that you can reference. Notably, its [front matter](https://jekyllrb.com/docs/front-matter/) declares `published` as `false`, so that it won't appear on your website.
+
+While you _can_ also define a `layout` in the front matter, your website is pre-configured to assign the `post` layout to all of the posts in your `/_posts/` directory. So you don't have to declare that in your posts, if you don't want to.
+
+Jekyll's conventions for authoring and managing blog posts is very flexible. You can [learn more in Jekyll's documentation for "Posts."](https://jekyllrb.com/docs/posts/)
+
+## Content and templates
+
+To give you a sound foundation to start your personal website, your repository includes a handful of "includes" -- dynamic `.html` files that are re-used throughout your website. They're all stored in the `/_includes/` directory.
+
+There are the usual suspects, like `header.html` and `footer.html`. But there are few more worth pointing out:
+
+- `interests.html`: A heading and dynamic list of "My Interests," which is populated with the [topics](#topics) you list in your `_config.yml`.
+- `masthead.html`: A collection of your avatar, name, bio, and other metadata that's displayed prominently on all your webpages to help identify what the website is about.
+- `post-card.html`: A compact, summarized presentation of a blog post, re-used to display a listing of your latest blog posts.
+- `projects.html`: A heading and dynamic list of "My Projects," which is populated with a listing of your newest GitHub repositories.
+- `repo-card.html`: A compact, summarized presentation of a repository, re-used to display a listing of your GitHub repositories.
+- `thoughts.html`: A heading and dynamic list of "My Thoughts," which is populated with a listing of your latest blog posts.
+- `topic-card.html`: A compact, summarized presentation of a topic (defined in your `_config.yml`), re-used to display a listing of your interests.
+
+### Layouts
+
+Your repository comes with three layouts:
+
+- **default**: Not used by any of the built-in pages or posts, but useful for any new pages you create.
+- **home**: Used by your `index.html` homepage to display listings of your projects, interests, and (optionally) your blog posts.
+- **post**: Used by default by the posts in your `/_posts/` directory.
+
+Jekyll's convention for defining layouts is very flexible. You can [learn more about customizing your layouts in the Jekyll "Layouts" docs.](https://jekyllrb.com/docs/layouts/)
+
+## Styles
+
+Your website is pre-configured to use [a very flexible CSS framework called "Primer,"](https://styleguide.github.com/primer/) alongside any custom styles you write in your `/assets/styles.scss` Sass stylesheet. It's currently referenced within your `styles.scss` file, using the CSS import at-rule:
+
+```
+@import url('https://unpkg.com/primer/build/build.css');
+```
+
+You are, of course, welcome to remove it or replace it with another framework. Just bear in mind that the HTML that your website came pre-packaged with references multiple Primer "utility classes" to define things like column widths, margins, and background colors.
 
 ## License
 
