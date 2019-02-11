@@ -1,4 +1,6 @@
-# Personal website starter
+# Get started building your personal website
+
+### Showcase your software development skills
 
 This repository gives you the code you'll need to kickstart a personal website that showcases your work as a software developer. And when you manage the code in a GitHub repository, it will automatically render a webpage with the owner's profile information, including a photo, bio, and repositories.
 
@@ -16,7 +18,9 @@ Once you've found a home for your forked repository, it's yours. You're the owne
 
 ### Install in your local development environment
 
-Once you've found a home for your forked repository, [clone it](https://help.github.com/articles/cloning-a-repository/).
+If you want to manage your website in a local web development environment, you'll be using [Ruby](https://jekyllrb.com/docs/installation/).
+
+Once you've found a home for your forked repository, **[clone it](https://help.github.com/articles/cloning-a-repository/)**.
 
 #### Install Jekyll
 
