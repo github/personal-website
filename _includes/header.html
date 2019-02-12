@@ -8,13 +8,13 @@
 
 {% assign posts_total = site.posts | size %}
 
-{% assign user = site.github.owner %}
+{% assign user = site.github.owner | jsonify %}
 
 <!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>{{ site.github.owner.name }}</title>
+    <title>{{ user.name }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="/assets/styles.css" rel="stylesheet" type="text/css">
   </head>
