@@ -1,18 +1,17 @@
-<div class="github-component height-full text-left {% if site.style == 'dark' %}box-shadow{% else %}border border-gray-light{% endif %} bg-white rounded-1 p-3">
-  <div class="d-flex flex-justify-between flex-items-start mb-1">
-    <h1 class="f4 lh-condensed mb-1">
-      <a href="{{ repository.html_url }}">
-        {% octicon repo height:20 class:"mr-1 v-align-middle" fill:"#586069" aria-label:repo %}
-        {{ repository.name }}
-      </a>
-    </h1>
-  </div>
-  <div class="text-gray mb-2 ws-normal">{{ repository.description }}</div>
-  <div class="d-flex f6 mt-2 text-gray">
-    {% if repository.language %}
-        <span class="repo-language-color ml-0 mr-1" style="background-color:{{ site.data.colors[repository.language]["color"] }}"></span>
-        <span class="mr-3" itemprop="programmingLanguage">{{ repository.language }}</span>
-    {% endif %}
+<div class="github-component d-flex flex-column flex-justify-between height-full text-left {% if site.style == 'dark' %}box-shadow{% else %}border border-gray-light{% endif %} bg-white rounded-1 p-3">
+  <div>
+    <div class="d-flex flex-justify-between flex-items-start mb-1">
+      <h1 class="f4 lh-condensed mb-1">
+        <a href="{{ repository.html_url }}">
+          {% octicon repo height:20 class:"mr-1 v-align-middle" fill:"#586069" aria-label:repo %}
+          <span class="text-normal">{{ repository.owner.login }} /</span>
+          {{ repository.name }}
+        </a>
+      </h1>
+    </div>
+    <div class="text-gray mb-2 ws-normal">{{ repository.description }}</div>
+    </div>
+    <div class="d-flex f6">
     {% if repository.stargazers_count %}
       <a href="{{ repository.html_url }}/stargazers" class="d-inline-block link-gray mr-4">
         <svg class="octicon octicon-star mr-1" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path></svg>{{ repository.stargazers_count }}
