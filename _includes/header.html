@@ -10,10 +10,17 @@
 
 {% assign user = site.github.owner %}
 
+{% if page.path contains '_posts' %}
+  {% assign meta_description = page.content | strip_html | strip_newlines | truncate: 300 %}
+{% else %}
+  {% assign meta_description = user.bio | strip_html | strip_newlines | truncate: 300 %}
+{% endif %}
+
 <!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="description" content="{{ meta_description }}" />
     <title>{{ user.name }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="{{ "/assets/styles.css" | absolute_url }}" rel="stylesheet" type="text/css">
