@@ -3,11 +3,11 @@
 Gem::Specification.new do |spec|
   spec.name          = "github-personal-website"
   spec.version       = "0.1.1"
-  spec.authors       = ["Brandon Rosage"]
-  spec.email         = ["brandonrosage@github.com"]
+  spec.authors       = ["Temitayo Ogunlolu"]
+  spec.email         = ["temitayo094@gmail.com"]
 
-  spec.summary       = "Jekyll theme for software developers intered in creating a personal website."
-  spec.homepage      = "http://github.dev."
+  spec.summary       = "Temitayo Ogunlolu personal website."
+  spec.homepage      = "http://temitayo.me."
   spec.license       = "MIT"
 
   spec.files = `git ls-files -z`.split("\x0").select do |f|
