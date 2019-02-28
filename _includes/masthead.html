@@ -4,7 +4,10 @@
   {% assign metadata_styles = 'd-flex flex-items-center mb-3' %}
 {% endif %}
 
-<img src="{{ user.avatar_url }}" class="circle mb-3" style="max-width: 150px;">
+<div class="{{ metadata_styles }}" style="text-align:center">
+  <img src="{{ user.avatar_url }}" class="circle mb-3" style="max-width: 150px;">
+</div>
+
 <h1 class="{% if site.style == 'dark' %}text-white{% endif %} mb-2 lh-condensed">{% if user.name %}{{ user.name }}{% else %}{{ user.login }}{% endif %}</h1>
 <p class="mb-3 f4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
   {{ user.bio }}
@@ -37,5 +40,253 @@
     {% if user.hireable %}
       <span title="Hire me" class="d-inline-block f5 rounded-2 text-white bg-green py-1 px-2">Available for hire</span>
     {% endif %}
+  </div>
+  <hr>
+  <div class="f4 mb-6">
+    <div class="{{ metadata_styles }}">
+      <h2>
+        {% octicon milestone height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+        <span>Professional</span>
+      </h2>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon primitive-dot height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+      <span style="margin-right: 10px">JAVASCRIPT</span>
+      <span class="Progress Progress--large" style="width: 100%">
+        <span class="Progress-value bg-gray-dark" style="width: 90%;"></span>
+      </span>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon primitive-dot height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+      <span style="margin-right: 10px">NODEJS</span>
+      <span class="Progress Progress--large" style="width: 100%">
+        <span class="Progress-value bg-gray-dark" style="width: 90%;"></span>
+      </span>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon primitive-dot height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+      <span style="margin-right: 10px">TYPESCRIPT</span>
+      <span class="Progress Progress--large" style="width: 100%">
+        <span class="Progress-value bg-gray-dark" style="width: 80%;"></span>
+      </span>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon primitive-dot height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+      <span style="margin-right: 10px">HTML5</span>
+      <span class="Progress Progress--large" style="width: 100%">
+        <span class="Progress-value bg-gray-dark" style="width: 85%;"></span>
+      </span>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon primitive-dot height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+      <span style="margin-right: 10px">SCSS</span>
+      <span class="Progress Progress--large" style="width: 100%">
+        <span class="Progress-value bg-gray-dark" style="width: 80%;"></span>
+      </span>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon primitive-dot height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+      <span style="margin-right: 10px">SQL</span>
+      <span class="Progress Progress--large" style="width: 100%">
+        <span class="Progress-value bg-gray-dark" style="width: 70%;"></span>
+      </span>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon primitive-dot height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+      <span style="margin-right: 10px">GIT</span>
+      <span class="Progress Progress--large" style="width: 100%">
+        <span class="Progress-value bg-gray-dark" style="width: 75%;"></span>
+      </span>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon primitive-dot height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+      <span style="margin-right: 10px">PYTHON</span>
+      <span class="Progress Progress--large" style="width: 100%">
+        <span class="Progress-value bg-gray-dark" style="width: 75%;"></span>
+      </span>
+    </div>
+  </div>
+  <hr>
+  <div class="f4 mb-6">
+    <div class="{{ metadata_styles }}">
+      <h2>
+        {% octicon milestone height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+        <span>Frameworks/Libs</span>
+      </h2>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon primitive-dot height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+      <span style="margin-right: 10px">ANGULAR</span>
+      <span class="Progress Progress--large" style="width: 100%">
+        <span class="Progress-value bg-gray-dark" style="width: 90%;"></span>
+      </span>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon primitive-dot height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+      <span style="margin-right: 10px">NESTJS</span>
+      <span class="Progress Progress--large" style="width: 100%">
+        <span class="Progress-value bg-gray-dark" style="width: 90%;"></span>
+      </span>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon primitive-dot height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+      <span style="margin-right: 10px">EXPRESS</span>
+      <span class="Progress Progress--large" style="width: 100%">
+        <span class="Progress-value bg-gray-dark" style="width: 90%;"></span>
+      </span>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon primitive-dot height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+      <span style="margin-right: 10px">MOLECULEJS</span>
+      <span class="Progress Progress--large" style="width: 100%">
+        <span class="Progress-value bg-gray-dark" style="width: 80%;"></span>
+      </span>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon primitive-dot height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+      <span style="margin-right: 10px">REACT</span>
+      <span class="Progress Progress--large" style="width: 100%">
+        <span class="Progress-value bg-gray-dark" style="width: 70%;"></span>
+      </span>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon primitive-dot height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+      <span style="margin-right: 10px">ELECTRON</span>
+      <span class="Progress Progress--large" style="width: 100%">
+        <span class="Progress-value bg-gray-dark" style="width: 90%;"></span>
+      </span>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon primitive-dot height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+      <span style="margin-right: 10px">BULMA</span>
+      <span class="Progress Progress--large" style="width: 100%">
+        <span class="Progress-value bg-gray-dark" style="width: 75%;"></span>
+      </span>
+    </div>
+  </div>
+  <hr>
+  <div class="f4 mb-6">
+    <div class="{{ metadata_styles }}">
+      <h2>
+        {% octicon milestone height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+        <span>Tools</span>
+      </h2>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon primitive-dot height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+      <span style="margin-right: 10px">TAPE</span>
+      <span class="Progress Progress--large" style="width: 100%">
+        <span class="Progress-value bg-gray-dark" style="width: 90%;"></span>
+      </span>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon primitive-dot height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+      <span style="margin-right: 10px">JEST</span>
+      <span class="Progress Progress--large" style="width: 100%">
+        <span class="Progress-value bg-gray-dark" style="width: 90%;"></span>
+      </span>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon primitive-dot height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+      <span style="margin-right: 10px">JASMINE</span>
+      <span class="Progress Progress--large" style="width: 100%">
+        <span class="Progress-value bg-gray-dark" style="width: 90%;"></span>
+      </span>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon primitive-dot height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+      <span style="margin-right: 10px">CYPRESS</span>
+      <span class="Progress Progress--large" style="width: 100%">
+        <span class="Progress-value bg-gray-dark" style="width: 90%;"></span>
+      </span>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon primitive-dot height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+      <span style="margin-right: 10px">PROTACTOR</span>
+      <span class="Progress Progress--large" style="width: 100%">
+        <span class="Progress-value bg-gray-dark" style="width: 90%;"></span>
+      </span>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon primitive-dot height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+      <span style="margin-right: 10px">TRAVIS</span>
+      <span class="Progress Progress--large" style="width: 100%">
+        <span class="Progress-value bg-gray-dark" style="width: 90%;"></span>
+      </span>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon primitive-dot height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+      <span style="margin-right: 10px">COVERWALL</span>
+      <span class="Progress Progress--large" style="width: 100%">
+        <span class="Progress-value bg-gray-dark" style="width: 90%;"></span>
+      </span>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon primitive-dot height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+      <span style="margin-right: 10px">DOCKER</span>
+      <span class="Progress Progress--large" style="width: 100%">
+        <span class="Progress-value bg-gray-dark" style="width: 60%;"></span>
+      </span>
+    </div>
+  </div>
+  <hr>
+  <div class="f4 mb-6">
+    <div class="{{ metadata_styles }}">
+      <h2>
+        {% octicon milestone height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+        <span>Languages</span>
+      </h2>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon primitive-dot height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+      <span style="margin-right: 10px">PORTUGUESE</span>
+      <span class="Progress Progress--large" style="width: 100%">
+        <span class="Progress-value bg-gray-dark" style="width: 90%;"></span>
+      </span>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon primitive-dot height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+      <span style="margin-right: 10px">ENGLISH</span>
+      <span class="Progress Progress--large" style="width: 100%">
+        <span class="Progress-value bg-gray-dark" style="width: 80%;"></span>
+      </span>
+    </div>
+  </div>
+  <hr>
+  <div class="f4 mb-6">
+    <div class="{{ metadata_styles }}">
+      <h2>
+        {% octicon milestone height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+        <span>Hobbies</span>
+      </h2>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon primitive-dot height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+      <span style="margin-right: 10px">FATHER/HUSBAND</span>
+      <span class="Progress Progress--large" style="width: 100%">
+        <span class="Progress-value bg-gray-dark" style="width: 99%;"></span>
+      </span>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon primitive-dot height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+      <span style="margin-right: 10px">GUITAR</span>
+      <span class="Progress Progress--large" style="width: 100%">
+        <span class="Progress-value bg-gray-dark" style="width: 70%;"></span>
+      </span>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon primitive-dot height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+      <span style="margin-right: 10px">SPORTS</span>
+      <span class="Progress Progress--large" style="width: 100%">
+        <span class="Progress-value bg-gray-dark" style="width: 60%;"></span>
+      </span>
+    </div>
+    <div class="{{ metadata_styles }}">
+      {% octicon primitive-dot height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
+      <span style="margin-right: 10px">BRICOLAGE</span>
+      <span class="Progress Progress--large" style="width: 100%">
+        <span class="Progress-value bg-gray-dark" style="width: 40%;"></span>
+      </span>
+    </div>
   </div>
 {% endif %}
