@@ -24,6 +24,22 @@
             <p class="f5"><a href="/" class="d-flex flex-items-center {% if site.style == 'dark' %}text-white{% endif %}">{% octicon chevron-left height:16 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Home %}Home</a></p>
             <h1 class="f00-light lh-condensed">{{ page.title }}</h1>
             <p class="{% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %} mb-5">Published {{ page.date | date: "%b %d, %Y"}}</p>
+            {% if site.social_media %}
+              <div class="col-sm-4 col-lg-3 d-flex flex-wrap flex-items-center d-sm-block float-sm-right border rounded-2 bg-white p-3 mb-5 ml-md-5">
+                <h3 class="mr-3 mr-sm-0">Share</h3>
+                <ul class="d-flex d-sm-block list-style-none">
+                  {% for account in site.social_media %}
+                    <li class="mt-sm-3">
+                      {% assign service_shortname = account[0] %}
+                      {% assign service = site.data.social_media[service_shortname] %}
+                      <a href="{% include social_media_share_url.html service=service_shortname title=page.title permalink=page.url %}" title="Share on {{ service.name }}" class="d-flex flex-items-center">
+                        <div style="width:32px">{{ service.icon_svg }}</div><span class="d-none d-sm-inline-block text-gray-light">{{ service.name }}</span>
+                      </a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            {% endif %}
             <div class="article">
               {{ content }}
             </div>
