@@ -35,11 +35,15 @@ gem install jekyll bundler
 ```
 cd personal-website
 ```
-4. Build the site and make it available on a local server
+4. Install missing gems
+```
+bundle install
+```
+5. Build the site and make it available on a local server
 ```
 bundle exec jekyll serve
 ```
-5. Now browse to [http://localhost:4000](http://localhost:4000)
+6. Now browse to [http://localhost:4000](http://localhost:4000)
 
 ### Publish
 
