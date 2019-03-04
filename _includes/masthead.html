@@ -35,7 +35,7 @@
       </div>
     {% endif %}
     {% if site.social_media %}
-      <div class="d-flex flex-wrap flex-items-start">
+      <div class="d-flex flex-wrap flex-items-start {% if site.layout == 'stacked' %}flex-justify-center mt-1 mt-md-3{% endif %}">
         {% for account in site.social_media %}
           <div class="mr-3 mb-3">
             {% assign service_shortname = account[0] %}
