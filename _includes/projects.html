@@ -6,10 +6,16 @@
   {% else %}
     {% assign sort_order = 'pushed_at' %}
   {% endif %}
-  {% assign filtered_repos = site.github.public_repositories | sort: sort_order | reverse %}
-  {% for repository in filtered_repos | limit: 10 %}
-    <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
-      {% include repo-card.html %}
-    </div>
+  {% if exclude_forks %}
+    {% assign filtered_repos = site.github.public_repositories | where:'fork', false | sort: sort_order | reverse %}
+  {% else %}
+    {% assign filtered_repos = site.github.public_repositories | sort: sort_order | reverse %}
+  {% endif %}
+  {% for repository in filtered_repos | limit: 9 %}
+    {% unless site.excluded_projects contains repository.name %}
+      <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+        {% include repo-card.html %}
+      </div>
+    {% endunless %}
   {% endfor %}
 </div>
