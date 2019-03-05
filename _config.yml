@@ -20,6 +20,11 @@ projects_sort_by: pushed
 #   - pushed
 #   - stars
 
+exclude_forks: true
+
+excluded_projects:
+# - Your-Repo-Name
+
 topics:
   - name: CSS
     web_url: https://github.com/topics/css
