@@ -2,6 +2,7 @@
 ---
 @import url('https://unpkg.com/primer/build/build.css');
 @import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700,900');
+@import 'highlight-syntax';
 
 body {
   font-family: 'Rubik', sans-serif;
@@ -25,4 +26,16 @@ body {
   width: 18px;
   height: auto;
   vertical-align: middle;
+
+.article {
+  h1, h2, h3, h4,
+  .highlight {
+    margin-bottom: 16px;
+  }
+
+  blockquote {
+    color: #6a737d;
+    border-left: 2px solid #959da5;
+    padding-left: 16px;
+  }
 }
