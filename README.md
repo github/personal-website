@@ -82,11 +82,11 @@ Your website comes pre-configured with three topics (e.g. "Web design" and "Sass
 
 #### Social Media
 
-Your website supports linking to your Twitter, YouTube, Facebook, and LinkedIn accounts. To add your accounts, you can your usernames to your repository's `_config.yml` file under a `social_media` line like so:
+Your website supports linking to your Twitter, Dribbble, YouTube, Facebook, and LinkedIn accounts. To add your accounts, you can your usernames to your repository's `_config.yml` file under a `social_media` line like so:
 ```
 social_media:
-  twitter: github
-  youtube: github
+  twitter: <your_username>
+  youtube: <your_username>
 ```
 The links will appear underneath your basic information in the sidebar.
 
