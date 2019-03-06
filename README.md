@@ -80,6 +80,16 @@ Your website comes pre-configured with three topics (e.g. "Web design" and "Sass
 - `web_url`: The web address you'd like to your topic to link to (e.g. `https://github.com/topics/sass`).
 - `image_url`: The web address of an (ideally square) image that you'd like to appear with your topic.
 
+#### Social Media
+
+Your website supports linking to your Twitter, YouTube, Facebook, and LinkedIn accounts. To add your accounts, you can your usernames to your repository's `_config.yml` file under a `social_media` line like so:
+```
+social_media:
+  twitter: github
+  youtube: github
+```
+The links will appear underneath your basic information in the sidebar.
+
 ## Adding pages
 
 To **add a page** to your website (e.g. detailed resume):
