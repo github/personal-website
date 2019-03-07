@@ -4,18 +4,25 @@
   {% assign icon_color = "#24292e" %}
 {% endif %}
 
-{% assign content = page.content | strip_newlines %}
+{% assign content = page.content %}
 
 {% assign posts_total = site.posts | size %}
 
 {% assign user = site.github.owner %}
 
+{% if page.path contains '_posts' %}
+  {% assign meta_description = page.content | strip_html | strip_newlines | xml_escape | truncate: 300 %}
+{% else %}
+  {% assign meta_description = user.bio | strip_html | strip_newlines | xml_escape | truncate: 300 %}
+{% endif %}
+
 <!doctype html>
-<html>
+<html class="height-full">
   <head>
     <meta charset="utf-8">
+    <meta name="description" content="{{ meta_description }}" />
     <title>{{ user.name }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="{{ "/assets/styles.css" | absolute_url }}" rel="stylesheet" type="text/css">
   </head>
-  <body class="bg-white" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
+  <body class="bg-white height-full" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>

@@ -35,11 +35,15 @@ gem install jekyll bundler
 ```
 cd personal-website
 ```
-4. Build the site and make it available on a local server
+4. Install missing gems
+```
+bundle install
+```
+5. Build the site and make it available on a local server
 ```
 bundle exec jekyll serve
 ```
-5. Now browse to [http://localhost:4000](http://localhost:4000)
+6. Now browse to [http://localhost:4000](http://localhost:4000)
 
 ### Publish
 
@@ -47,27 +51,27 @@ When you host your personal website's code on GitHub, you get the support of fre
 
 **The fastest approach** is to rename your repository `username.github.io`, where `username` is your GitHub username (or organization name). Then, the next time you push any changes to your repository's `master` branch, they'll be accessible on the web at your `username.github.io` address.
 
-**If you want to use a custom domain**, however, you'll want to add it to your repository's "Custom domain" settings on github.com. And then register and/or [configure your domain with a DNS provider](https://help.github.com/articles/quick-start-setting-up-a-custom-domain/).
+**If you want to use a custom domain**, you'll want to add it to your repository's "Custom domain" settings on github.com. And then register and/or [configure your domain with a DNS provider](https://help.github.com/articles/quick-start-setting-up-a-custom-domain/).
 
 ## Customization
 
-It's your website, and you control the source code. So you can custom everything, if you like. But we've provided a handful of quick customizations for you to consider as you get your website off the ground.
+It's your website, and you control the source code. So you can customize everything, if you like. But we've provided a handful of quick customizations for you to consider as you get your website off the ground.
 
 ### Quick configuration changes
 
 Most customizations can be done in a matter of seconds, by revising your repository's `_config.yml` file. Just remember to restart your local server each time you save new changes so your Jekyll-powered website rebuilds correctly:
 
 1. Shut down your server by entering the keyboard command <kbd>CTRL</kbd>+<kbd>c</kbd>
-2. Restart your server: `jekyll serve`
+2. Restart your server: `bundle exec jekyll serve`
 
 
 #### Layout
 
-By default, your website will display in a two-column layout on larger-screen devices, with your photo, name, and basic information displayed in a left-aligned "sidebar." But you can quickly switch to a "stacked" single-column layout by changing the line in your `_config.yml` file that reads `layout: sidebar` to `layout: stacked`.
+Your website will display in a two-column layout by default on larger-screen devices, with your photo, name, and basic information displayed in a left-aligned "sidebar." You can quickly switch to a "stacked" single-column layout by changing the line in your `_config.yml` file that reads `layout: sidebar` to `layout: stacked`.
 
 #### Style
 
-By default, your website appears with a "light" white and gray background, with dark text. But you can quickly switch to a "dark" background with white text by changing the line in your `_config.yml` file that reads `style: light` to `style: dark`.
+Your website appears with a "light" white and gray background by default, with dark text. You can quickly switch to a "dark" background with white text by changing the line in your `_config.yml` file that reads `style: light` to `style: dark`.
 
 #### Topics
 
@@ -75,6 +79,31 @@ Your website comes pre-configured with three topics (e.g. "Web design" and "Sass
 
 - `web_url`: The web address you'd like to your topic to link to (e.g. `https://github.com/topics/sass`).
 - `image_url`: The web address of an (ideally square) image that you'd like to appear with your topic.
+
+#### Social media
+
+Your website supports linking and sharing to social media services you're using, including Facebook, Dribbble, LinkedIn, Twitter, and YouTube. To identify the services you use:
+
+1. Edit your repository's `_config.yml` file.
+2. Add a `social_media` dictionary line, and represent the services you like in a simple `key: value` form:
+
+```
+social_media:
+  facebook: your_username
+  dribbble: your_username
+  linkedin: your_username
+  twitter: your_username
+  youtube: your_username
+```
+
+Links to your profile for each of the services you define will appear in the `<header>` of your website, appended to your bio. And if those services support sharing, any blog posts that you publish will include links to share that post using each social media service.
+
+**Note**: This feature is supported by two files in your repository:
+
+- `/_data/social_media.yml`: Defines each of the supported services, including variable name, display name, URL path, and SVG icon.
+- `/_includes/social_media_share_url.html`: Outputs the share URL required for any of the supported social media services that support sharing URLs.
+
+If you're interested in adding a social media service that's not already supported in this repo, you can edit these two files to build that support.
 
 ## Adding pages
 
@@ -89,8 +118,6 @@ To **add a page** to your website (e.g. detailed resume):
 layout: default
 ---
 ```
-
-4. Save.
 
 ## Adding blog posts
 
@@ -113,7 +140,7 @@ title: "The title of my blog post"
 
 Your website comes with a placeholder blog post that you can reference. Notably, its [front matter](https://jekyllrb.com/docs/front-matter/) declares `published` as `false`, so that it won't appear on your website.
 
-While you _can_ also define a `layout` in the front matter, your website is pre-configured to assign the `post` layout to all of the posts in your `/_posts/` directory. So you don't have to declare that in your posts, if you don't want to.
+While you can define a `layout` in the front matter, your website is pre-configured to assign the `post` layout to all of the posts in your `/_posts/` directory. So you don't have to declare that in your posts.
 
 Jekyll's conventions for authoring and managing blog posts is very flexible. You can [learn more in Jekyll's documentation for "Posts."](https://jekyllrb.com/docs/posts/)
 
@@ -143,13 +170,16 @@ Jekyll's convention for defining layouts is very flexible. You can [learn more a
 
 ## Styles
 
-Your website is pre-configured to use [a very flexible CSS framework called "Primer,"](https://styleguide.github.com/primer/) alongside any custom styles you write in your `/assets/styles.scss` Sass stylesheet. It's currently referenced within your `styles.scss` file, using the CSS import at-rule:
+Your website is pre-configured to use [GitHub's very flexible CSS framework called "Primer,"](https://styleguide.github.com/primer/). It's currently referenced within your `styles.scss` file, using the CSS import at-rule:
 
 ```
 @import url('https://unpkg.com/primer/build/build.css');
 ```
 
 You are, of course, welcome to remove it or replace it with another framework. Just bear in mind that the HTML that your website came pre-packaged with references multiple Primer "utility classes" to define things like column widths, margins, and background colors.
+
+You also have the option to add on to and extend Primer's styles by adding custom CSS to your `/assets/styles.scss` Sass stylesheet. By editing this file, you can customize your website's color scheme, typography, and more.
+
 
 ## License
 
