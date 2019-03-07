@@ -80,15 +80,30 @@ Your website comes pre-configured with three topics (e.g. "Web design" and "Sass
 - `web_url`: The web address you'd like to your topic to link to (e.g. `https://github.com/topics/sass`).
 - `image_url`: The web address of an (ideally square) image that you'd like to appear with your topic.
 
-#### Social Media
+#### Social media
 
-Your website supports linking to your Twitter, Dribbble, YouTube, Facebook, and LinkedIn accounts. To add your accounts, you can add your usernames to your repository's `_config.yml` file under a `social_media` line like so:
+Your website supports linking and sharing to social media services you're using, including Facebook, Dribbble, LinkedIn, Twitter, and YouTube. To identify the services you use:
+
+1. Edit your repository's `_config.yml` file.
+2. Add a `social_media` dictionary line, and represent the services you like in a simple `key: value` form:
+
 ```
 social_media:
-  twitter: <your_username>
-  youtube: <your_username>
+  facebook: your_username
+  dribbble: your_username
+  linkedin: your_username
+  twitter: your_username
+  youtube: your_username
 ```
-The links will appear underneath your basic information in the sidebar.
+
+Links to your profile for each of the services you define will appear in the `<header>` of your website, appended to your bio. And if those services support sharing, any blog posts that you publish will include links to share that post using each social media service.
+
+**Note**: This feature is supported by two files in your repository:
+
+- `/_data/social_media.yml`: Defines each of the supported services, including variable name, display name, URL path, and SVG icon.
+- `/_includes/social_media_share_url.html`: Outputs the share URL required for any of the supported social media services that support sharing URLs.
+
+If you're interested in adding a social media service that's not already supported in this repo, you can edit these two files to build that support.
 
 ## Adding pages
 
