@@ -1,6 +1,8 @@
 layout: sidebar
 style: light
 
+encoding: UTF-8
+
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
