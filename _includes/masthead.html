@@ -34,6 +34,19 @@
         {{ user.location }}
       </div>
     {% endif %}
+    {% if site.social_media %}
+      <div class="d-flex flex-wrap flex-items-start {% if site.layout == 'stacked' %}flex-justify-center mt-1 mt-md-3{% endif %}">
+        {% for account in site.social_media %}
+          <div class="mr-3 mb-3">
+            {% assign service_shortname = account[0] %}
+            {% assign service = site.data.social_media[service_shortname] %}
+            <a href="{{ service.profile_url_prefix }}{{ account[1] }}" title="{{ service.name }}: {{ account[1] }}">
+              {{ service.icon_svg }}<span class="d-none">{{ service.name }}</span>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
     {% if user.hireable %}
       <span title="Hire me" class="d-inline-block f5 rounded-2 text-white bg-green py-1 px-2">Available for hire</span>
     {% endif %}
