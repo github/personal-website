@@ -36,7 +36,7 @@ social_media:
   # twitter: your_username
   # youtube: your_username
 
-interests:
+interest:
   limit: 6
   topics:
     - name: CSS
