@@ -34,7 +34,7 @@ projects:
   # linkedin: your_username
   # stackoverflow: your_user_id
   # twitter: your_username
-  # youtube: your_username
+  medium: "@aadibajpai"
 
 topics:
   - name: CSS
