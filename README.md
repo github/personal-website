@@ -91,6 +91,7 @@ Your website comes pre-configured with three topics (e.g. "Web design" and "Sass
 
 - `web_url`: The web address you'd like to your topic to link to (e.g. `https://github.com/topics/sass`).
 - `image_url`: The web address of an (ideally square) image that you'd like to appear with your topic.
+- `limit`: The maximum number of topics that will be displayed in the "My Interests." section. Out of the box, this number is set to `6`.
 
 #### Social media
 
