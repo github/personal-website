@@ -43,6 +43,24 @@ bundle install
 ```
 bundle exec jekyll serve
 ```
+
+You should see something like:
+
+```
+Configuration file: /octocat/personal-website/_config.yml
+            Source: /octocat/personal-website
+       Destination: /octocat/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+   GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
+                    done in 14.729 seconds.
+ Auto-regeneration: enabled for '/octocat/personal-website'
+    Server address: http://127.0.0.1:4000
+  Server running... press ctrl-c to stop.
+```
+
+Don't worry about the GitHub API errors. They are caused because it's run in a dev enviornment and not on GitHub Pages.
+
 6. Now browse to [http://localhost:4000](http://localhost:4000)
 
 ### Publish
