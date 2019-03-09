@@ -36,6 +36,8 @@ projects:
   # stackoverflow: your_user_id
   # twitter: your_username
   # youtube: your_username
+  # instagram: your_username
+  # unsplash: your_username
 
 topics:
   - name: CSS
