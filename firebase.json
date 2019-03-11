@@ -2,7 +2,7 @@
   "hosting": {
     "public": "_site",
     "predeploy": [
-      "jekyll build"
+      "bundle exec jekyll build"
     ],
     "ignore": [
       "firebase.json",
