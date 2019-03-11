@@ -1,9 +1,6 @@
 {
   "hosting": {
     "public": "_site",
-    "predeploy": [
-      "bundle exec jekyll build"
-    ],
     "ignore": [
       "firebase.json",
       "Gemfile",

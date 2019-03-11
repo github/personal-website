@@ -8,6 +8,8 @@ plugins:
 
 permalink: /:year/:month/:day/:title/
 
+# github: [metadata]
+
 defaults:
   -
     scope:
