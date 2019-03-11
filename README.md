@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/AppleEducate/website.svg?branch=master)](https://travis-ci.org/AppleEducate/website)
+
 # Get started building your personal website
 
 ### Showcase your software development skills

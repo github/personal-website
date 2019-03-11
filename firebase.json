@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "_site",
+    "predeploy": [
+      "jekyll build"
+    ],
+    "ignore": [
+      "firebase.json",
+      "Gemfile",
+      "Gemfile.lock",
+      "Rakefile",
+      "CNAME",
+      "README.md"
+    ]
+  }
+}
