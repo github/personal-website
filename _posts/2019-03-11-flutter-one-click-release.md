@@ -2,8 +2,8 @@
 layout: post
 title:  "Flutter + Fastlane (One Click Beta)"
 date:   2019-03-11
-categories: flutter ios android
-tags: flutter ci cd automation fastlane AppStore google play
+categories: [flutter, ios, android]
+tags: [flutter, ci/cd, automation, fastlane, AppStore, Google Play]
 ---
 
 ## 1. Install Flutter

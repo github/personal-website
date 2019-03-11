@@ -2,8 +2,8 @@
 layout: post
 title:  "Launching... Space Curiosity"
 date:   2019-03-10
-categories: flutter ios android
-tags: flutter SpaceX nasa iss planets space
+categories: [flutter, ios, android]
+tags: [flutter, SpaceX, nasa, iss, planets, space]
 ---
 
 # Launching… Space Curiosity!

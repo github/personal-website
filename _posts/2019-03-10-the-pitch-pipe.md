@@ -2,8 +2,8 @@
 layout: post
 title:  "The Pitch Pipe"
 date:   2019-03-10
-categories: ios android music
-tags: pitch pipe music sheet teachers education
+categories: [ios, android, music]
+tags: [pitch pipe, music, sheet music, teachers, education]
 ---
 
 > Sheet Music Made Easy
