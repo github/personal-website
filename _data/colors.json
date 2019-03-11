@@ -308,7 +308,7 @@
         "url": "https://github.com/trending?l=DM"
     },
     "Dockerfile": {
-        "color": "#0db7ed",
+        "color": "#384d54",
         "url": "https://github.com/trending?l=Dockerfile"
     },
     "Dogescript": {
@@ -416,7 +416,7 @@
         "url": "https://github.com/trending?l=Frege"
     },
     "Game Maker Language": {
-        "color": "#8fb200",
+        "color": "#71b417",
         "url": "https://github.com/trending?l=Game-Maker-Language"
     },
     "GAMS": {
@@ -436,7 +436,7 @@
         "url": "https://github.com/trending?l=GDB"
     },
     "GDScript": {
-        "color": null,
+        "color": "#355570",
         "url": "https://github.com/trending?l=GDScript"
     },
     "Genie": {
@@ -464,7 +464,7 @@
         "url": "https://github.com/trending?l=GLSL"
     },
     "Glyph": {
-        "color": "#e4cc98",
+        "color": "#c1ac7f",
         "url": "https://github.com/trending?l=Glyph"
     },
     "Gnuplot": {
@@ -472,7 +472,7 @@
         "url": "https://github.com/trending?l=Gnuplot"
     },
     "Go": {
-        "color": "#375eab",
+        "color": "#00ADD8",
         "url": "https://github.com/trending?l=Go"
     },
     "Golo": {
@@ -632,7 +632,7 @@
         "url": "https://github.com/trending?l=Kotlin"
     },
     "KRL": {
-        "color": "#28431f",
+        "color": "#28430A",
         "url": "https://github.com/trending?l=KRL"
     },
     "LabVIEW": {
@@ -1080,7 +1080,7 @@
         "url": "https://github.com/trending?l=R"
     },
     "Racket": {
-        "color": "#22228f",
+        "color": "#3c5caa",
         "url": "https://github.com/trending?l=Racket"
     },
     "Ragel": {
@@ -1128,7 +1128,7 @@
         "url": "https://github.com/trending?l=REXX"
     },
     "Ring": {
-        "color": "#0e60e3",
+        "color": "#2D54CB",
         "url": "https://github.com/trending?l=Ring"
     },
     "RobotFramework": {
@@ -1340,7 +1340,7 @@
         "url": "https://github.com/trending?l=Vala"
     },
     "VCL": {
-        "color": "#0298c3",
+        "color": "#148AA8",
         "url": "https://github.com/trending?l=VCL"
     },
     "Verilog": {
