@@ -6,5 +6,5 @@ categories: [flutter, auth, ios, android]
 
 ## TLDR
 
-You can find the final source code [here](https://github.com/AppleEducate/flutter_login)
+You can find the final source code [here](https://github.com/AppleEducate/flutter_login).
 
