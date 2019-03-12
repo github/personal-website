@@ -7,9 +7,10 @@ categories: [flutter, music, ios, android]
 
 ## TLDR
 
-You can find the final source code [here](https://github.com/AppleEducate/flutter_piano/tree/5k)/
+You can find the final source code [here](https://github.com/AppleEducate/flutter_piano/tree/5k).
 
 This piano uses only `5032` bytes of Dart Code!
+
 
 ## What you will learn
 
@@ -21,11 +22,13 @@ This piano uses only `5032` bytes of Dart Code!
 * Using `SafeArea` and `Semantics`
 * Building an app with minimal code
 
+
 ## What you need
 
 * [Flutter SDK](https://flutter.dev/docs/get-started/install) Installed ([More Info](https://flutter.dev/docs/get-started/codelab))
 * A `.sf2` SoundFont File like [this one](https://github.com/AppleEducate/flutter_piano/blob/5k/assets/sounds/Piano.sf2)
 * Physical iOS device (iOS Simulator does not work with this plugin for playing the sounds) or Android Emulator/Device
+
 
 ## Setting Up
 
@@ -117,6 +120,7 @@ Now we can start with the UI! When you run the application now it should start i
 
 ![landscape](/assets/images/flutter_piano/landscape.png){:width="75%"}
 
+
 ## Step 1
 
 To make it eaiser to read lets remove the comments. Use "find and replace" and search for `\/\/.*`
@@ -198,6 +202,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 ```
 
+
 ## Step 2
 
 Delete the `MyHomePage` widget so you are left with this.
@@ -246,6 +251,7 @@ class MyApp extends StatelessWidget {
 
 ```
 
+
 ## Step 3
 
 Change `MyApp` to a `StatefulWidget`. You can do this quickly by selecting `MyApp` and choose "Convert to StatefulWidget" with the helper.
@@ -278,6 +284,7 @@ class _MyAppState extends State<MyApp> {
 }
 
 ```
+
 
 # Step 4
 
@@ -326,6 +333,7 @@ class _MyAppState extends State<MyApp> {
 Now build and run your app, it should look like this.
 
 ![dark-mode](/assets/images/flutter_piano/darkmode.png){:width="75%"}
+
 
 ## Step 5
 
@@ -395,6 +403,7 @@ class _MyAppState extends State<MyApp> {
 }
 
 ```
+
 
 ## Step 6
 
@@ -472,6 +481,7 @@ class _MyAppState extends State<MyApp> {
 
 ```
 
+
 ## Step 7
 
 Now we need to build the octave section that will be repeated. Since every octave is identical we can repeat the octaves with minor adjustments.
@@ -539,6 +549,7 @@ class _MyAppState extends State<MyApp> {
 }
 
 ```
+
 
 ## Step 8
 
@@ -718,6 +729,7 @@ const BorderRadiusGeometry borderRadius = BorderRadius.only(
 
 ```
 
+
 ## Step 9
 
 Time to add midi by adding the following import to the top of the file:
@@ -838,6 +850,7 @@ Now when you run the app it should look like this:
 
 Almost there! Now let's give our user some control.
 
+
 ## Step 10
 
 Add these settings to the `Drawer`
@@ -866,6 +879,7 @@ Divider(),
 Now you should see this:
 
 ![settings](/assets/images/flutter_piano/settings.png){:width="75%"}
+
 
 ## Step 11
 
