@@ -8,7 +8,7 @@ tags: [pitch pipe, music, sheet music, teachers, education]
 
 > Sheet Music Made Easy
 
-![app-icon](/assets/images/the-pitch-pipe/icon.png){:class="img-responsive"}
+![app-icon](/assets/images/the-pitch-pipe/icon.png){:width="75%"}
 
 Looking for the perfect pitch pipe companion? 
 Need more features that just playing a note? 

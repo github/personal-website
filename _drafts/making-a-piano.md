@@ -21,6 +21,6 @@ You can either create a new project with Android Studio or VSCode using the GUI 
 
 Now that you have your project created it should look like this.
 
-![app-icon](/assets/images/flutter_piano/starter.png){:class="img-responsive"}
+![app-icon](/assets/images/flutter_piano/starter.png){:width="75%"}
 
 

@@ -10,13 +10,13 @@ tags: [flutter, ci/cd, automation, fastlane, AppStore, Google Play]
 
 [Download Flutter](https://flutter.io/get-started/install/)
 
-![flutter](/assets/images/flutter/logo.jpg){:class="img-responsive"}
+![flutter](/assets/images/flutter/logo.jpg){:width="75%"}
 
 ## 2. Create new Flutter Project
 
 If you are pretty new to Flutter you can check out [this useful guide](https://flutter.io/get-started/codelab/) on how to create a new project step by step. 
 
-![cross-platform](/assets/images/flutter/cross-platform.jpg){:class="img-responsive"}
+![cross-platform](/assets/images/flutter/cross-platform.jpg){:width="75%"}
 
 ## 3. Create App in iTunes Connect
 
@@ -27,7 +27,7 @@ If you are not familiar with iTunes Connect, check out [this article](https://cl
 
 Setting up an app in the Google Play Console can be tricky, make sure to check out the [official reference](https://support.google.com/googleplay/android-developer/answer/113469?hl=en-GB) and [this guide](https://medium.com/mindorks/upload-your-first-android-app-on-play-store-step-by-step-ee0de9123ac0) if you are having trouble. 
 
-![fastlane](/assets/images/flutter/fastlane.jpg){:class="img-responsive"}
+![fastlane](/assets/images/flutter/fastlane.jpg){:width="75%"}
 
 ## 5. Navigate to Project > ios and Setup Fastlane
 
@@ -118,7 +118,7 @@ Sometimes it will fail and you will need to run:
 
 - For iOS `increment_build_number` set up Generic Versioning by enabling the agvtool. 
 
-![version-bump](/assets/images/flutter/version-bump.gif){:class="img-responsive"}
+![version-bump](/assets/images/flutter/version-bump.gif){:width="75%"}
 [Source](https://medium.com/xcblog/agvtool-automating-ios-build-and-version-numbers-454cab6f1bbe)
 
 ## 8. Metadata (Optional)
@@ -133,11 +133,11 @@ Sometimes it will fail and you will need to run:
 
 Right now everything is working just by the command line. If you navigate to your project in terminal by adding "cd " and dragging in the project folder and hitting Enter, you can type "cd ios && fastlane beta" or "cd android && fastlane beta" and both will run fastlane.
 
-![terminal](/assets/images/flutter/terminal-drag.gif){:class="img-responsive"}
+![terminal](/assets/images/flutter/terminal-drag.gif){:width="75%"}
 
 If you want to be able to submit your app to Google Play and the App Store with one click we will be using [Automator](http://www.applegazette.com/os-x/getting-started-automator-workflows-mac/). Create a new Automator Application. And Search for "Ask for Confirmation" and "Run AppleScript" and drag in.
 
-![fastlane](/assets/images/flutter/automator.jpg){:class="img-responsive"}
+![fastlane](/assets/images/flutter/automator.jpg){:width="75%"}
 
 Here is the Script for beta and release. You will need to create a Automator Application for both Beta and Release for each app you want automated. Save it where ever you want and create an Alias to be but on the Desktop.
 
