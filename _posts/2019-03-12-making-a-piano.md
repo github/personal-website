@@ -62,7 +62,7 @@ Because our app will only work in landscape we need to update those settings as 
 
 navigate to the `/android/app/src/main/AndroidManifest.xml` and add this line inside `<activity` in the `<application`:
 
-``` xml
+```
 android:screenOrientation="landscape"
 ```
 
@@ -108,7 +108,7 @@ Example:
 
 navigate to `/ios/Runner/info.plist` and change:
 
-``` plist
+```
 <key>UISupportedInterfaceOrientations</key>
 <array>
     <string>UIInterfaceOrientationLandscapeLeft</string>
