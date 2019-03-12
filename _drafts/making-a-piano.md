@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Building A Piano with Flutter with only 5k bytes"
+title:  "Building A Piano with Flutter"
 categories: [flutter, music, ios, android]
 ---
 
@@ -8,6 +8,7 @@ categories: [flutter, music, ios, android]
 
 You can find the final source code [here](https://github.com/AppleEducate/flutter_piano/tree/5k)/
 
+This piano uses only `5032` bytes of Dart Code!
 
 ## What you will learn
 
