@@ -62,5 +62,9 @@ topics:
     web_url: https://github.com/topics/mastodon
     image_url: https://raw.githubusercontent.com/github/explore/d004ed8f8b3a409f46c89be097d6ab0ee207cea9/topics/mastodon/mastodon.png
 
+  - name: Markdown
+    web_url: https://github.com/topics/markdown
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/markdown/markdown.png
+
 
 theme: jekyll-theme-hacker
