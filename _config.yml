@@ -28,7 +28,7 @@ projects:
     # - repo-name
 
  social_media:
-   mastodon: "geezus42:mastodon.org"
+   mastodon: geezus42
    discord: geezus42
    keybase: geezus_42
    signal: geezus42
