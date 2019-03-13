@@ -61,6 +61,8 @@ Configuration file: /octocat/personal-website/_config.yml
 
 Don't worry about the GitHub API errors. They are caused because it's run in a dev enviornment and not on GitHub Pages.
 
+You can set a GitHub API Token by setting the JEKYLL_GITHUB_TOKEN to your personal access token.
+
 6. Now browse to [http://localhost:4000](http://localhost:4000)
 
 ### Publish
