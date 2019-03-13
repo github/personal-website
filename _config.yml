@@ -48,6 +48,10 @@ topics:
     web_url: https://github.com/topics/python
   
   - name: Infosec
+  
+  - name: Mastodon
+    web_url: https://github.com/topics/mastodon
+    image_url: https://raw.githubusercontent.com/github/explore/d004ed8f8b3a409f46c89be097d6ab0ee207cea9/topics/mastodon/mastodon.png
 
 
 theme: jekyll-theme-hacker
