@@ -62,7 +62,7 @@ It's your website, and you control the source code. So you can customize everyth
 Most customizations can be done in a matter of seconds, by revising your repository's `_config.yml` file. Just remember to restart your local server each time you save new changes so your Jekyll-powered website rebuilds correctly:
 
 1. Shut down your server by entering the keyboard command <kbd>CTRL</kbd>+<kbd>c</kbd>
-2. Restart your server: `bundle exec jekyll serve`
+2. Restart your server: `jekyll serve`
 
 
 #### Layout
