@@ -44,10 +44,19 @@ topics:
     web_url: https://github.com/topics/linux
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/linux/linux.png
   
+  - name: Command line interface
+    web_url: https://github.com/topics/cli
+  
   - name: Python
     web_url: https://github.com/topics/python
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/python/python.png
   
-  - name: Infosec
+  - name: Security
+    web_url: https://github.com/topics/security
+  
+  - name: Raspberry Pi
+    web_url: https://github.com/topics/raspberry-pi
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/raspberry-pi/raspberry-pi.png
   
   - name: Mastodon
     web_url: https://github.com/topics/mastodon
