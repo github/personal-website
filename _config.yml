@@ -28,7 +28,7 @@ projects:
     # - repo-name
 
  social_media:
-   mastodon: geezus42\:\matrix.org
+  # mastodon: geezus42:matrix.org
    discord: geezus42
    keybase: geezus_42
    signal: geezus42
