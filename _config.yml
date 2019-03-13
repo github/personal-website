@@ -28,7 +28,7 @@ projects:
     # - repo-name
 
  social_media:
-   mastodon: geezus42
+  # mastodon: geezus42
    discord: geezus42
    keybase: geezus_42
    signal: geezus42
@@ -62,7 +62,7 @@ topics:
     web_url: https://github.com/topics/raspberry-pi
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/raspberry-pi/raspberry-pi.png
   
-  - name: Mastodon
+#  - name: Mastodon
 #    web_url: https://github.com/topics/mastodon
 #    image_url: https://raw.githubusercontent.com/github/explore/d004ed8f8b3a409f46c89be097d6ab0ee207cea9/topics/mastodon/mastodon.png
 
