@@ -2,20 +2,33 @@
 
 {% capture post_body %}
   {% if site.social_media %}
-    <div class="col-sm-4 col-lg-3 d-flex flex-wrap flex-items-center d-sm-block float-sm-right border rounded-2 bg-white p-3 mb-5 ml-md-5">
-      <h3 class="text-gray-dark mr-3 mr-sm-0">Share</h3>
-      <ul class="d-flex d-sm-block list-style-none">
-        {% for account in site.social_media %}
-          <li class="mt-sm-3">
-            {% assign service_shortname = account[0] %}
-            {% assign service = site.data.social_media[service_shortname] %}
-            <a href="{% include social_media_share_url.html service=service_shortname title=page.title permalink=page.url %}" title="Share on {{ service.name }}" class="d-flex flex-items-center">
-              <div style="width:32px">{{ service.icon_svg }}</div><span class="d-none d-sm-inline-block text-gray-light">{{ service.name }}</span>
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
+    {% assign shareable_social_media = '' | split: ',' %}
+
+    {% for account in site.social_media %}
+      {% assign service_shortname = account[0] %}
+      {% assign service = site.data.social_media[service_shortname] %}
+
+      {% if service.share_url_prefix %}
+        {% assign shareable_social_media = shareable_social_media | push: service %}
+      {% endif %}
+    {% endfor %}
+
+    {% assign total_shareable_services = shareable_social_media | size %}
+
+    {% if total_shareable_services > 0 %}
+      <div class="col-sm-4 col-lg-3 d-flex flex-wrap flex-items-center d-sm-block float-sm-right border rounded-2 bg-white p-3 mb-5 ml-md-5">
+        <h3 class="text-gray-dark mr-3 mr-sm-0">Share</h3>
+        <ul class="d-flex d-sm-block list-style-none">
+          {% for service in shareable_social_media %}
+            <li class="mt-sm-3">
+              <a href="{{ service.share_url_prefix }}{{ page.url | prepend: site.url | prepend: site.baseurl | url_encode }}" title="Share on {{ service.name }}" class="d-flex flex-items-center">
+                <div style="width:32px">{{ service.icon_svg }}</div><span class="d-none d-sm-inline-block text-gray-light">{{ service.name }}</span>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
   {% endif %}
   <div class="article">
     {{ content }}
@@ -34,7 +47,7 @@
     </div>
   </div>
 {% else %}
-  <div class="d-md-flex {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
+  <div class="d-md-flex height-full {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
     <div class="flex-self-stretch {% if site.style == 'dark' %}bg-gray-dark{% else %}border-md-right border-gray-light bg-white{% endif %} col-md-5 col-lg-4 col-xl-3 px-4 px-md-6 px-lg-7 py-6">
       {% include masthead.html metadata=true %}
     </div>
