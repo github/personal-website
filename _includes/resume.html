@@ -1,7 +1,5 @@
-<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>My Projects</h2>
-<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}"><a href="/projects/">A rundown of some of the projects I've built.</a></p>
-
-<!--
+<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>My Resumé</h2>
+<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}"><a href="/resume/">A quick look at my education and recent experience.</a></p>
 <div class="d-sm-flex flex-wrap gutter-condensed mb-4">
   {% if site.projects.sort_by == 'stars' %}
     {% assign sort_order = 'stargazers_count', 'last' %}
@@ -23,4 +21,3 @@
     {% endunless %}
   {% endfor %}
 </div>
--->

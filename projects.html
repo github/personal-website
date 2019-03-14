@@ -1,0 +1,78 @@
+---
+layout: default
+title: Recent Projects
+permalink: /projects/
+---
+<p>Unfortunately when you work for a company writing code you can't make that public (except in some cases).
+  Most of the development work I did at Harvest was internal, workflow-type work.  Although I can't post the code
+  here, I've created a description of a number of the projects that I worked on, and what they accomplished.</p>
+
+<hr />
+
+<h3>Customer Support</h3>
+
+<a href=""><h4>Support Stats</h4></a>
+<p>The Support Stats project was the first "side project" I worked on during my time at Harvest. The code I wrote
+  for it has since been replaced, but the original idea/metrics live on in a new iteration.</p>
+
+<a href=""><h4>Workflow hacks, notifiers</h4></a>
+
+<p>I developed a series of shell scripts, and pieces of code that tied in to the Zendesk API to help notify us of new
+  support tickets. I spoke about a number of these hacks in a <a href="https://www.youtube.com/watch?v=WC6VPcvrpCs">Userconf</a>
+  talk that I gave on reducing customer response times.</p>
+
+<hr />
+<h3>Quality Assurance</h3>
+
+<a href=""><h4>QA Stats</h4></a>
+<p>Similar in concept to Support Stats, I was looking for a way to quantify some of the areas we worked on in QA.
+  This project was interesting because it tapped into a number of different APIs from a number of different products.</p>
+
+<a href=""><h4>Smoke Test Suite</h4></a>
+
+<p>The Smoke Test Suite was the first set of automated tests I wrote in QA. The goal of this suite was to identify the
+  critical parts of our applications and run a series of automated tests on those areas each time the application was
+  deployed. This suite had to integrate with our existing CI workflow, it had to execute quickly and it had to notify
+  us (through Slack) in the event of a failure.</p>
+
+<a href=""><h4>Android Build Pipeline</h4></a>
+
+<p>The Harvest Android app is automatically built in a CI environment every time the master branch is updated. An
+  artifact .apk file is produced in this process. We wanted to be able to run some automated tests against this file to
+  ensure that no regressions had been introduced. In order to do so, I wrote a connector, in Ruby, that received a webhook
+  from the Android build, translated the JSON received into the format needed, fetched the .apk from the latest build and
+  transferred it to the automated testing process.</p>
+
+<a href=""><h4>Android Automated Tests</h4></a>
+
+<p>Written in Appium/Ruby, this test suite runs against every new Android build. It receives the output from the "translator"
+  piece, and kicks off a new set of tests executing in parallel in a continuous integration environment. The tests themselves
+  are run on virtual devices hosted by Sauce Labs. Failures are posted to Slack.</p>
+
+<a href=""><h4>Automated regression suite</h4></a>
+
+<p>This is a completely selfish project. I wanted a toolkit that would help me to test across all of Harvest's apps to do a
+  quick check for any regressions that might have been introduced. This suite is designed to be run locally, in parallel
+  against Harvest's staging environment. I even built in support for Harvest's test case management software, so that results
+  from an automated test run would pass/fail test cases automatically.</p>
+
+<a href=""><h4>Automated Integrations Checker</h4></a>
+
+<p>Harvest maintains <a href="https://getharvest.com/integrations/">a directory of integrations</a> on it's public web site.
+  As this list grew, it became increasingly difficult to keep track whether an integration had moved (so the page we were linking
+  to produced a 404) or whether the integration disappeared altogether. This started as a Hack Week project, and in that time I
+  developed a proof of concept.  After Hack Week, I enhanced it and added in Slack notifications when integrations change.</p>
+
+<a href=""><h4>Wordpress automations</h4></a>
+
+<p>Coming to Harvest, I had a fair amount of experience working with <a href="https://wordpress.org/">Wordpress</a> so I gradually
+  took over maintenance of the Harvest blog. I wrote some automations that tie into the deploy process for the Harvest blog and
+  automatically perform various upgrade actions and checks.</p>
+
+<hr />
+<h3>Open Source</h3>
+
+<a href="https://github.com/morvader/ExploratoryTestingChromeExtension"><h4>Exploratory Testing Chrome Extension</h4></a>
+
+<p>Contributed a major UI overhaul to the Exploratory Testing Chrome Extension written by Francisco Moreno. Plenty of ideas
+  for future enhancements!</p>
