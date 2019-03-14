@@ -27,11 +27,11 @@ projects:
     projects:
     # - repo-name
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
-   linkedin: ismailkoksal
+  linkedin: ismailkoksal
   # medium: @your_username
   # stackoverflow: your_user_id
   # telegram: your_username
