@@ -36,7 +36,7 @@ Make your life easier and automate your builds to beta and production!
 Now you can call this script!
 
 - For beta: `./release.sh beta`
-- For production: `./release.sh` release
+- For production: `./release.sh release`
 
 
 ## Overview
