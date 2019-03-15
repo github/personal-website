@@ -40,4 +40,14 @@ social_media:
   # vk: your_username
 
 topics:
-  
+  - name: Resumé
+    description: Education, work history, skills and languages. Pretty much what you'd expect to find on a resumé!
+    web_url: /resume/
+    image_url:
+    octicon: person
+
+  - name: Recent Projects
+    description: An outline of projects I developed and an in-depth case study of some of the solutions produced.
+    web_url: /projects/
+    image_url:
+    octicon: project

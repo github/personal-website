@@ -7,7 +7,13 @@
         class="bg-blue-light f4 text-gray-light text-bold rounded-1 flex-shrink-0 text-center mx-auto mb-3"
         style="width:64px; height:64px; line-height:64px;"
       >
+      {% if topic.octicon == 'project' %}
+        {% octicon project height:64 class:"mr-2 v-align-middle" fill:#0366d6 aria-label:{{ topic.octicon }} %}
+      {% elsif topic.octicon == 'person' %}
+        {% octicon person height:64 class:"mr-2 v-align-middle" fill:#0366d6 aria-label:{{ topic.octicon }} %}
+      {% else %}
         #
+      {% endif %}
       </div>
     {% endif %}
     <p class="f3 lh-condensed text-center link-gray-dark mb-0 mt-1">{{ topic.name }}</p>

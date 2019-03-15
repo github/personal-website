@@ -9,7 +9,7 @@ permalink: /projects/
 
 <hr />
 
-<h3>Customer Support</h3>
+<h2>Customer Support</h2>
 
 <a href=""><h4>Support Stats</h4></a>
 <p>The Support Stats project was the first "side project" I worked on during my time at Harvest. The code I wrote
@@ -22,7 +22,7 @@ permalink: /projects/
   talk that I gave on reducing customer response times.</p>
 
 <hr />
-<h3>Quality Assurance</h3>
+<h2>Quality Assurance</h2>
 
 <a href=""><h4>QA Stats</h4></a>
 <p>Similar in concept to Support Stats, I was looking for a way to quantify some of the areas we worked on in QA.
@@ -59,7 +59,7 @@ permalink: /projects/
 <a href=""><h4>Automated Integrations Checker</h4></a>
 
 <p>Harvest maintains <a href="https://getharvest.com/integrations/">a directory of integrations</a> on it's public web site.
-  As this list grew, it became increasingly difficult to keep track whether an integration had moved (so the page we were linking
+  As this list grew, it became increasingly difficult to keep track of whether an integration had moved (so the page we were linking
   to produced a 404) or whether the integration disappeared altogether. This started as a Hack Week project, and in that time I
   developed a proof of concept.  After Hack Week, I enhanced it and added in Slack notifications when integrations change.</p>
 
@@ -69,8 +69,16 @@ permalink: /projects/
   took over maintenance of the Harvest blog. I wrote some automations that tie into the deploy process for the Harvest blog and
   automatically perform various upgrade actions and checks.</p>
 
+<a href=""><h4>Harvest Help Center pre-publication checker</h4></a>
+
+<p>Harvest's support team produces new content and edits existing content for the Harvest Help Center. This is, by and large, written
+  in MarkDown and automatically translated to HTML/templated when published. If there was a syntax error in the MarkDown, then the build
+  would fail and parts of the Help Center would break. The practice used to be publish, and then manually check changes; but that was error
+  prone. I implemented a system that would check edits before they were published live and warn of syntax errors, before they affected the
+  production version.</p>
+
 <hr />
-<h3>Open Source</h3>
+<h2>Open Source</h2>
 
 <a href="https://github.com/morvader/ExploratoryTestingChromeExtension"><h4>Exploratory Testing Chrome Extension</h4></a>
 
