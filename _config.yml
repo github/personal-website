@@ -1,36 +1,33 @@
-layout: stacked
+layout: sidebar
 style: dark
 
-plugins: 
+plugins:
   - jekyll-octicons
   - jekyll-github-metadata
   - jemoji
 
 permalink: /:year/:month/:day/:title/
 
-defaults: 
-  - scope: 
+defaults:
+  -
+    scope:
       path: "" # an empty string here means all files in the project
       type: "posts"
-    values: 
+    values:
       layout: "post"
 
-projects: 
+projects:
   sort_by: pushed
   # sort_by options:
   #   - pushed
   #   - stars
   limit: 9
-  exclude: 
+  exclude:
     forks: true
-    projects: 
+    projects:
     # - repo-name
 
- social_media: 
-   mastodon: geezus42
-   discord: geezus42
-   keybase: geezus_42
-   signal: geezus42
+# social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
@@ -38,11 +35,11 @@ projects:
   # medium: @your_username
   # stackoverflow: your_user_id
   # telegram: your_username
-   twitter: geezustx
+  # twitter: your_username
   # youtube: your_username
   # vk: your_username
 
-topics: 
+topics:
   - name: Linux
     web_url: https://github.com/topics/linux
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/linux/linux.png
@@ -68,3 +65,6 @@ topics:
   - name: Markdown
     web_url: https://github.com/topics/markdown
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/markdown/markdown.png
+
+
+theme: jekyll-theme-hacker
