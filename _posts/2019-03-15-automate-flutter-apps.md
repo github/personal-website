@@ -12,7 +12,9 @@ You can find the script [here](https://gist.github.com/AppleEducate/774b36e32d7e
 
 <script src="https://gist.github.com/AppleEducate/774b36e32d7efa882cca8dd16da6e74c.js"></script>
 
+
 Make your life easier and automate your builds to beta and production!
+
 
 ## What you need
 
@@ -20,12 +22,14 @@ Make your life easier and automate your builds to beta and production!
 - [build_runner](https://pub.dartlang.org/packages/build_runner) as a dependency
 - Git Project in VCS
 
+
 ## Initial Setup
 
 - Download [this file](https://gist.github.com/AppleEducate/774b36e32d7efa882cca8dd16da6e74c)
 - Put it at the root level of your flutter project
 - Open the terminal and navigate to your project location
 - Enter this command: chmod +x release.sh
+
 
 ## Usage
 
