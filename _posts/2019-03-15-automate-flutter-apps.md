@@ -43,3 +43,4 @@ Now you can call this script!
 - Clean Project
 - Rebuild classes
 - Add commit messages
+- Updates Cocoa Pods
