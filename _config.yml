@@ -34,10 +34,13 @@ projects:
   # linkedin: your_username
   # medium: @your_username
   # stackoverflow: your_user_id
+  # telegram: your_username
   # twitter: your_username
   # youtube: your_username
   # instagram: your_username
   # unsplash: your_username
+  # vk: your_username
+
 
 topics:
   - name: CSS
