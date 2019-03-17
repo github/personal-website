@@ -105,7 +105,7 @@ social_media:
   dribbble: your_username  
   facebook: your_username
   linkedin: your_username
-  medium: your_username
+  medium: "@your_username" <!--- Note that some medium accounts do not use "@" --->
   stackoverflow: your_user_id
   twitter: your_username
   youtube: your_username
