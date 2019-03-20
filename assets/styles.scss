@@ -37,3 +37,10 @@
     padding-left: 16px;
   }
 }
+
+// fixes issue with last social media icon pushing the entire flex off-center on masthead.html page
+.d-flex {
+  .mb-3:last-child {
+    margin-right: 0 !important;
+  }
+}
