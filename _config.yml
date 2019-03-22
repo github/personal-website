@@ -17,7 +17,7 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: stars
+	sort_by: stars
   # sort_by options:
   #   - pushed
   #   - stars
@@ -31,11 +31,11 @@ projects:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
-   linkedin: petricadaniel
+	linkedin: petricadaniel
   # medium: @your_username
-   stackoverflow: 4928374
+  stackoverflow: 4928374
   # telegram: your_username
-   twitter: daniel_petrica
+  twitter: daniel_petrica
   # youtube: your_username
   # vk: your_username
 
