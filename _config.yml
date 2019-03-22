@@ -17,7 +17,7 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
+  sort_by: stars
   # sort_by options:
   #   - pushed
   #   - stars
@@ -27,15 +27,15 @@ projects:
     projects:
     # - repo-name
 
-# social_media:
+ social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
-  # linkedin: your_username
+   linkedin: petricadaniel
   # medium: @your_username
-  # stackoverflow: your_user_id
+   stackoverflow: 4928374
   # telegram: your_username
-  # twitter: your_username
+   twitter: daniel_petrica
   # youtube: your_username
   # vk: your_username
 
