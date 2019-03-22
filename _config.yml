@@ -21,11 +21,11 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 3
   exclude:
     forks: true
     projects:
-    # - repo-name
+      # - fake-news-bot
 
 social_media:
   # behance: your_username
