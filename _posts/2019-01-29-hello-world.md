@@ -3,6 +3,33 @@ title: "Welcome to Jekyll!"
 published: true
 ---
 
-**Hello world**, this is my first Jekyll blog post.
+缀初网络技术(上海)有限公司，PPIO 存储公链开发和全球运营团队。由原 PPTV 创始人姚欣创立，在美国硅谷、新加坡、香港、上海四地拥有 office。创始团队来自于谷歌微软\BAT\华为 PPTV 等国内知名大型互联网及 IT 公司的高管及核心员工。国内 office 位于上海浦东软件园。
 
-I hope you like it!
+关于 PPLabs 公司介绍及集中答疑： https://www.linkedin.com/pulse/%E5%85%B3%E4%BA%8Epplabs%E5%85%AC%E5%8F%B8%E4%BB%8B%E7%BB%8D%E5%8F%8A%E9%9B%86%E4%B8%AD%E7%AD%94%E7%96%91-ash-ma/
+
+联合创始人：王闻宇（ CEO ），二十年资深技术人，连续成功创业者。曾任 PPTV 联合创始人、首席架构师时，独立完成 PPTV 早期核心代码，主导 PPTV 点播、PP 视频加速器、PP 离线云盘等分布式存储项目。精通 P2P 技术、存储技术、流媒体技术、网络安全技术，具有数亿用户量级产品的实战经验。在 PPTV 被收购后，创办嘉车科技，担任联合创始人、CTO，带队攻关嵌入式软硬件技术、深度学习与神经网络，并基于 Android 深度定制开发极豆车联网操作系统。2018 年发起 PPIO 项目，基于区块链技术的分布式云存储，致力于研发比传统中心化架构更加安全、高速 、低成本的去中心化存储系统。
+github 地址： https://github.com/omnigeeker
+medium 主页： https://medium.com/@omnigeeker
+
+关于我们项目的信息，请点击 https://www.pp.io/进行了解
+项目白皮书（英文）： https://github.com/PPIO/Whitepaper
+公司领英主页： https://www.linkedin.com/company/pplabs
+
+简历投递 /内推邮箱： ash@pplabs.org
+
+区块链核心开发工程师（ 2 人：中级和高级）
+职位描述：
+1、负责区块链核心协议及接口设计
+2、负责区块链核心模块的设计、开发及单元测试
+3、负责相关区块链技术方案及架构研究
+任职要求：
+1、至少两年以上相关开发经验，熟悉 Golang，C/C++或 Python 一种或多种程序设计语言；
+2、深刻理解计算机网络系统，有分布式，点对点网络协议或应用开发经验；
+3、熟悉多线程、网络编程、异步 IO 等技术；
+4、流利的英文读写能力；
+5、具备较好的沟通和表达能力；
+6、工作积极主动，富有责任心；
+优先条件
+1、有密码学知识背景或网络安全相关产品开发经验；
+2、有比特币、以太坊、IPFS 或 FileCoin 相关开发经验者优先；
+3、主导或参与过其它网络方向大型开源项目；
