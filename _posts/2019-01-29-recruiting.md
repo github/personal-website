@@ -9,7 +9,7 @@ published: true
 
 ### 联合创始人：
 王闻宇（ CEO ），二十年资深技术人，连续成功创业者。曾任 PPTV 联合创始人、首席架构师时，独立完成 PPTV 早期核心代码，主导 PPTV 点播、PP 视频加速器、PP 离线云盘等分布式存储项目。精通 P2P 技术、存储技术、流媒体技术、网络安全技术，具有数亿用户量级产品的实战经验。在 PPTV 被收购后，创办嘉车科技，担任联合创始人、CTO，带队攻关嵌入式软硬件技术、深度学习与神经网络，并基于 Android 深度定制开发极豆车联网操作系统。2018 年发起 PPIO 项目，基于区块链技术的分布式云存储，致力于研发比传统中心化架构更加安全、高速 、低成本的去中心化存储系统。
-- [github 地址](_https://github.com/omnigeeker)
+- [github 地址](https://github.com/omnigeeker)
 - [medium 主页](https://medium.com/@omnigeeker)
 - [项目白皮书（英文)](https://github.com/PPIO/Whitepaper) 
 - [公司领英主页]( https://www.linkedin.com/company/pplabs)
