@@ -4,7 +4,7 @@
 
 This repository gives you the code you'll need to kickstart a personal website to showcases your work as a software developer. When you manage the code in a GitHub repository, it will automatically render a webpage with the owner's profile information, photo, bio, and repositories.
 
-Your website is waiting to be personalized. It includes a space to highlight your specific areas of interest in software development, languages, and industries. Your webiste is also standing by to publish your next great blog post.
+Your website is waiting to be personalized! It includes a space to highlight your specific areas of interest in software development, languages, and industries. Your website is also standing by to publish your next great blog post.
 
 This is all possible using the combination of [Jekyll](https://jekyllrb.com/docs/) (for building your website), [GitHub Pages](https://pages.github.com/) (for hosting your website), and [GitHub's API](https://developer.github.com/v3/) (for automatically populating your website with content).
 
