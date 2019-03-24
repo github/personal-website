@@ -24,8 +24,6 @@ projects:
   exclude:
     projects:
       - personal-website
-        clojure-exploration 
-        dot-files 
         paip-clj 
         benwtrent.github.io
 
