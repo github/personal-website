@@ -6,46 +6,43 @@ plugins:
   - jekyll-github-metadata
   - jemoji
 
+user.email: ben.w.trent@gmail.com  
 permalink: /:year/:month/:day/:title/
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
       type: "posts"
     values:
       layout: "post"
 
 projects:
-  sort_by: pushed
-  # sort_by options:
-  #   - pushed
-  #   - stars
-  limit: 9
+  sort_by: 
+    - pushed
+      stars
+  limit: 5
   exclude:
-    forks: true
     projects:
-    # - repo-name
+      - personal-website
+        clojure-exploration 
+        dot-files 
+        paip-clj 
+        benwtrent.github.io
 
-# social_media:
-  # behance: your_username
-  # dribbble: your_username
-  # facebook: your_username
-  # linkedin: your_username
-  # medium: @your_username
-  # stackoverflow: your_user_id
-  # telegram: your_username
-  # twitter: your_username
-  # youtube: your_username
-  # vk: your_username
+social_media:
+  stackoverflow: 1818849
+  twitter: benwtrent
+  linkedin: benjamin-trent
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: Machine Learning
+    web_url: https://github.com/topics/machine-learning
+    image_url: https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/bltfa7a3570a287d7ec/5c11d9ada6ed043c0dbb01a9/icon-machine-learning-bb.svg
 
-  - name: Web design
-
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Clojure
+    web_url: https://github.com/topics/clojure
+    image_url: https://raw.githubusercontent.com/github/explore/a4f50275e9736bcd9f255084c4908627f5dd9069/topics/clojure/clojure.png
+  
+  - name: Elasticsearch
+    web_url: https://github.com/elastic/elasticsearch
+    image_url: https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt280217a63b82a734/5bbdaacf63ed239936a7dd56/elastic-logo.svg

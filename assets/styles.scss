@@ -1,9 +1,13 @@
 ---
 ---
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
 @import url('https://unpkg.com/primer/build/build.css');
 @import 'highlight-syntax';
 
+body {
+  font-family: "Fira Sans";
 
+}
 // If a user adds a custom font, this component will stop it from bleeding into GitHub components:
 .github-component {
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol !important;
@@ -36,4 +40,7 @@
     border-left: 2px solid #959da5;
     padding-left: 16px;
   }
+  font-family: "Fira Sans";
+  color: #000;
+  background: white;
 }
