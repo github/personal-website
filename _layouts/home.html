@@ -12,18 +12,19 @@
       {% include projects.html %}
     </div>
 
+    {% unless posts_total == 0 %}
+      <div class="my-6">
+        {% include thoughts.html %}
+      </div>
+    {% endunless %}
+
     {% if site.topics %}
       <div class="my-6">
         {% include interests.html %}
       </div>
     {% endif %}
 
-    {% unless posts_total == 0 %}
-      <div class="my-6">
-        {% include thoughts.html %}
       </div>
-    {% endunless %}
-  </div>
 {% else %}
   <div class="d-md-flex {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
     <div class="flex-self-stretch {% if site.style == 'dark' %}bg-gray-dark{% else %}border-md-right border-gray-light bg-white{% endif %} col-md-5 col-lg-4 col-xl-3 px-4 px-md-6 px-lg-7 py-6">
