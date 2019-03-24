@@ -38,6 +38,7 @@ projects:
   # twitter: your_username
   # youtube: your_username
   # vk: your_username
+  # web: http://your_website
 
 topics:
   - name: CSS
