@@ -6,7 +6,6 @@ plugins:
   - jekyll-github-metadata
   - jemoji
 
-user.email: ben.w.trent@gmail.com  
 permalink: /:year/:month/:day/:title/
 
 defaults:
@@ -20,12 +19,11 @@ projects:
   sort_by: 
     - pushed
       stars
-  limit: 5
+  limit: 7
   exclude:
     projects:
-      - personal-website
-        paip-clj 
-        benwtrent.github.io
+      - benwtrent.github.io 
+      - paip-clj 
 
 social_media:
   stackoverflow: 1818849
