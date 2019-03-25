@@ -110,6 +110,8 @@ social_media:
   telegram: your_username
   twitter: your_username
   youtube: your_username
+  instagram: your_username
+  unsplash: your_username
   vk: your_username
 ```
 
