@@ -15,8 +15,6 @@ published: true
 - [公司领英主页]( https://www.linkedin.com/company/pplabs)
 - 关于我们项目的信息，请点击 [项目主页](https://www.pp.io/)进行了解
 
-**简历投递 /内推邮箱： ash@pplabs.org**
-
 ## 招聘职位：区块链核心开发工程师（ 2 人：中级和高级）
 ### 职位描述：
 1.  负责区块链核心协议及接口设计
@@ -33,3 +31,5 @@ published: true
 1.  有密码学知识背景或网络安全相关产品开发经验；
 1.  有比特币、以太坊、IPFS 或 FileCoin 相关开发经验者优先；
 1.  主导或参与过其它网络方向大型开源项目；
+
+**简历投递邮箱：ash@pplabs.org**
