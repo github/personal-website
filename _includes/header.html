@@ -11,18 +11,22 @@
 {% assign user = site.github.owner %}
 
 {% if page.path contains '_posts' %}
+  {% assign page_title = page.title %}
   {% assign meta_description = page.content | strip_html | strip_newlines | xml_escape | truncate: 300 %}
 {% else %}
+  {% assign page_title = user.name %}
   {% assign meta_description = user.bio | strip_html | strip_newlines | xml_escape | truncate: 300 %}
 {% endif %}
 
 <!doctype html>
-<html class="height-full">
+<html>
   <head>
     <meta charset="utf-8">
+    <title>{{ page_title }}</title>
     <meta name="description" content="{{ meta_description }}" />
-    <meta name="og:image" content="{{ user.avatar_url }}" />
-    <title>{{ user.name }}</title>
+    <meta property="og:title" content="{{ user.name }}" />
+    <meta property="og:image" content="{{ user.avatar_url }}" />
+    <meta property="og:description" content="{{ meta_description }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="{{ "/assets/styles.css" | relative_url }}" rel="stylesheet" type="text/css">
   </head>
