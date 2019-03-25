@@ -41,7 +41,6 @@ projects:
   # unsplash: your_username
   # vk: your_username
 
-
 topics:
   - name: CSS
     web_url: https://github.com/topics/css
