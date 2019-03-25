@@ -19,7 +19,7 @@
 {% endif %}
 
 <!doctype html>
-<html>
+<html class="min-height-full">
   <head>
     <meta charset="utf-8">
     <title>{{ page_title }}</title>
@@ -30,4 +30,4 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="{{ "/assets/styles.css" | relative_url }}" rel="stylesheet" type="text/css">
   </head>
-  <body class="bg-white height-full" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
+  <body class="bg-white min-height-full" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
