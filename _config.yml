@@ -33,7 +33,7 @@ social_media:
 topics:
   - name: Machine Learning
     web_url: https://github.com/topics/machine-learning
-    image_url: https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/bltfa7a3570a287d7ec/5c11d9ada6ed043c0dbb01a9/icon-machine-learning-bb.svg
+    image_url: https://upload.wikimedia.org/wikipedia/commons/4/46/Colored_neural_network.svg 
 
   - name: Clojure
     web_url: https://github.com/topics/clojure
