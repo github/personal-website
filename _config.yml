@@ -41,6 +41,7 @@ projects:
   # instagram: your_username
   # unsplash: your_username
   # vk: your_username
+  # website: http://your_website_url
 
 topics:
   - name: CSS
