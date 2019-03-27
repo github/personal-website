@@ -1,5 +1,9 @@
 layout: sidebar
-style: light
+style: dark
+
+projects: 
+  - exclude: 
+      forks: true
 
 plugins:
   - jekyll-octicons
@@ -16,12 +20,43 @@ defaults:
       layout: "post"
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: Express
+    web_url: https://github.com/topics/express
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/express/express.png
 
-  - name: Web design
+  - name: JavaScript
+    web_url: https://github.com/topics/javascript
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/javascript/javascript.png
 
   - name: Sass
     web_url: https://github.com/topics/sass
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+
+  - name: React
+    web_url: https://github.com/topics/react
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/react/react.png
+
+  - name: Vue
+    web_url: https://github.com/topics/vue
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/vue/vue.png
+
+  - name: Clojure
+    web_url: https://github.com/topics/clojure
+    image_url: https://raw.githubusercontent.com/github/explore/a4f50275e9736bcd9f255084c4908627f5dd9069/topics/clojure/clojure.png
+
+  - name: Express
+    web_url: https://github.com/topics/express
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/express/express.png
+
+designs:
+  - name: Express
+    web_url: https://github.com/topics/express
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/express/express.png
+
+
+social_media:
+  behance: your_username
+  hackerrank: your_username
+  linkedin: your_username
+  stackoverflow: your_user_id
+  twitter: tayo_lolu
