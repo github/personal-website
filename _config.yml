@@ -49,9 +49,17 @@ topics:
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/express/express.png
 
 designs:
-  - name: Express
-    web_url: https://github.com/topics/express
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/express/express.png
+  - name: Close
+    web_url: https://temilolu.github.io/close/
+    image_url: https://res.cloudinary.com/temity/image/upload/v1553774061/Screenshot_2019-03-28_00.45.44.png
+
+  - name: Fixouroil
+    web_url: http://fixouroil.com/
+    image_url: https://res.cloudinary.com/temity/image/upload/v1553774971/Screenshot_2019-03-28_13.08.48.png
+
+  - name: BudgIT
+    web_url: http://yourbudgit.com
+    image_url: https://res.cloudinary.com/temity/image/upload/v1553775079/Screenshot_2019-03-28_13.10.26.png
 
 
 social_media:

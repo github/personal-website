@@ -1,0 +1,9 @@
+<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>My Designs</h2>
+<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">Some of my designs, more to come.</p>
+<div class="d-flex flex-wrap gutter-condensed mb-4">
+  {% for design in site.designs limit: 6 %}
+    <div class="col-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+      {% include design-card.html %}
+    </div>
+  {% endfor %}
+</div>
