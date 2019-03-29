@@ -14,7 +14,7 @@ published: true
 - [项目白皮书（英文)](https://github.com/PPIO/Whitepaper) 
 - [公司领英主页]( https://www.linkedin.com/company/pplabs)
 - 关于我们项目的信息，请点击 [项目主页](https://www.pp.io/)进行了解
-
+---
 ## 岗位：Web前端开发工程师
 
 ### 工作职责
@@ -34,7 +34,7 @@ published: true
 - 有开发开源项目的经历，如有 `GitHub` 账号或技术博客，请在简历中写明；
 - 对界面设计和用户体验有深入的研究，追求完美的用户体验；
 - 有网盘类工具开发经验的优先；
-
+---
 
 ## 岗位：Golang-Web后端开发工程师
 
