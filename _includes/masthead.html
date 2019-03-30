@@ -40,7 +40,7 @@
           <div class="mr-3 mb-3">
             {% assign service_shortname = account[0] %}
             {% assign service = site.data.social_media[service_shortname] %}
-            <a href="{{ service.profile_url_prefix }}{{ account[1] }}" title="{{ service.name }}: {{ account[1] }}" class="tooltipped tooltipped-se" aria-label="{{ service.name }}: {{ account[1] }}">
+            <a href="{{ service.profile_url_prefix }}{{ account[1] }}" class="tooltipped tooltipped-se" aria-label="{{ service.name }}: {{ account[1] }}">
               {{ service.icon_svg }}<span class="d-none">{{ service.name }}</span>
             </a>
           </div>
