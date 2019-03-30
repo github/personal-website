@@ -27,29 +27,35 @@ projects:
     projects:
     # - repo-name
 
-# social_media:
-  # behance: your_username
-  # dribbble: your_username
-  # facebook: your_username
-  # hackerrank: your_username
-  # linkedin: your_username
-  # medium: @your_username
-  # stackoverflow: your_user_id
-  # telegram: your_username
-  # twitter: your_username
-  # youtube: your_username
-  # instagram: your_username
-  # unsplash: your_username
-  # vk: your_username
-  # website: http://your_website_url
+social_media:
+  #ehance: your_username
+  #dribbble: your_username
+  #facebook: your_username
+  hackerrank: Fr33man
+  linkedin: 煜-邱-332055131
+  #medium: your_username
+  #stackoverflow: your_user_id
+  #telegram: your_username
+  twitter: FreemanQiu
+  #youtube: your_username
+  #instagram: your_username
+  #unsplash: your_username
+  #vk: your_username
+  website: https://www.iamc0rey.com
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  # - name: CSS
+  #   web_url: https://github.com/topics/css
+  #   image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
 
-  - name: Web design
+  - name: Deep learning
+    web_url: https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html#sphx-glr-beginner-blitz-cifar10-tutorial-py
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Reinforcement Learning
+    web_url: https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html
+
+
+  # - name: Sass
+  #   web_url: https://github.com/topics/sass
+  #   image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+
