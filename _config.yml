@@ -1,5 +1,5 @@
 layout: sidebar
-style: light
+style: dark 
 
 plugins:
   - jekyll-octicons
@@ -27,16 +27,16 @@ projects:
     projects:
     # - repo-name
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
-  # facebook: your_username
+  facebook: fobo66
   # hackerrank: your_username
   # linkedin: your_username
-  # medium: @your_username
-  # stackoverflow: your_user_id
-  # telegram: your_username
-  # twitter: your_username
+  medium: "@fobo66"
+  stackoverflow: 4606884
+  telegram: fobo66
+  twitter: fobo66
   # youtube: your_username
   # instagram: your_username
   # unsplash: your_username
@@ -44,12 +44,8 @@ projects:
   # website: http://your_website_url
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
-
+  - name: Android
+    web_url: https://github.com/topics/android
+    image_url: https://raw.githubusercontent.com/github/explore/a3520d60fbf9b0bdd0b7d563a1a3ed596acd8489/topics/android/android.png
+  
   - name: Web design
-
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
