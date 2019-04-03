@@ -14,7 +14,7 @@ published: true
 - [项目白皮书（英文)](https://github.com/PPIO/Whitepaper) 
 - [公司领英主页]( https://www.linkedin.com/company/pplabs)
 - 关于我们项目的信息，请点击 [项目主页](https://www.pp.io/)进行了解
-
+- 内推邮箱：ash@pplabs.org
 ### 岗位：Web前端开发工程师
 
 #### 工作职责
@@ -271,3 +271,5 @@ published: true
 #### 优先条件
 - 有网盘类工具开发经验的优先；
 - 有开发开源项目的经历，如有 `GitHub` 账号或技术博客，请在简历中写明。
+
+- 内推邮箱：ash@pplabs.org
