@@ -1,0 +1,1778 @@
+﻿<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<meta http-equiv=Content-Type content="text/html; charset=unicode">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List
+href="PPIO%20-%20A%20private,%20stable%20and%20affordable%20decentralized%20storage..files/filelist.xml">
+<link rel=Edit-Time-Data
+href="PPIO%20-%20A%20private,%20stable%20and%20affordable%20decentralized%20storage..files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>PPIO - A private, stable and affordable decentralized storage.</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>shoushan ma</o:Author>
+  <o:LastAuthor>shoushan ma</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>1</o:TotalTime>
+  <o:Created>2019-04-02T13:36:00Z</o:Created>
+  <o:LastSaved>2019-04-02T13:37:00Z</o:LastSaved>
+  <o:Pages>4</o:Pages>
+  <o:Words>764</o:Words>
+  <o:Characters>4358</o:Characters>
+  <o:Lines>36</o:Lines>
+  <o:Paragraphs>10</o:Paragraphs>
+  <o:CharactersWithSpaces>5112</o:CharactersWithSpaces>
+  <o:Version>16.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData
+href="PPIO%20-%20A%20private,%20stable%20and%20affordable%20decentralized%20storage..files/themedata.thmx">
+<link rel=colorSchemeMapping
+href="PPIO%20-%20A%20private,%20stable%20and%20affordable%20decentralized%20storage..files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Print</w:View>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>ZH-CN</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="375">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hashtag"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Unresolved Mention"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<link rel=Stylesheet type="text/css" media=all
+href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Roboto">
+<link rel=Stylesheet type="text/css" media=all
+href="../../../../static/css/style-page/index.435cee56ccd6e0109c73.css">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
+@font-face
+	{font-family:"Segoe UI Emoji";
+	panose-1:2 11 5 2 4 2 4 2 2 3;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:3 33554432 0 0 1 0;}
+@font-face
+	{font-family:"microsoft yahei";
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-alt:Cambria;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:auto;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+h1
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"标题 1 字符";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:24.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+h2
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"标题 2 字符";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:18.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+h3
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"标题 3 字符";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:3;
+	font-size:13.5pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+h4
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"标题 4 字符";
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:4;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-priority:99;
+	mso-style-link:"页眉 字符";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	border:none;
+	mso-border-bottom-alt:solid windowtext .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 1.0pt 0cm;
+	font-size:9.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-priority:99;
+	mso-style-link:"页脚 字符";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+a:link, span.MsoHyperlink
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+code
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"批注框文本 字符";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.nav-handler
+	{mso-style-name:nav-handler;
+	mso-style-unhide:no;}
+span.handler-bar
+	{mso-style-name:handler-bar;
+	mso-style-unhide:no;}
+span.1
+	{mso-style-name:"标题 1 字符";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"标题 1";
+	mso-ansi-font-size:22.0pt;
+	mso-bidi-font-size:22.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;
+	mso-font-kerning:22.0pt;
+	font-weight:bold;}
+span.logo-image
+	{mso-style-name:logo-image;
+	mso-style-unhide:no;}
+span.2
+	{mso-style-name:"标题 2 字符";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"标题 2";
+	mso-ansi-font-size:16.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:"等线 Light";
+	mso-ascii-font-family:"等线 Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"等线 Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"等线 Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-weight:bold;}
+p.tip, li.tip, div.tip
+	{mso-style-name:tip;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.comment, li.comment, div.comment
+	{mso-style-name:comment;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.nav-item, li.nav-item, div.nav-item
+	{mso-style-name:nav-item;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.intro, li.intro, div.intro
+	{mso-style-name:intro;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.3
+	{mso-style-name:"标题 3 字符";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"标题 3";
+	mso-ansi-font-size:16.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+span.4
+	{mso-style-name:"标题 4 字符";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"标题 4";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"等线 Light";
+	mso-ascii-font-family:"等线 Light";
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"等线 Light";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:"等线 Light";
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-weight:bold;}
+p.advantage-intro, li.advantage-intro, div.advantage-intro
+	{mso-style-name:advantage-intro;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.more
+	{mso-style-name:more;
+	mso-style-unhide:no;}
+p.sce-intro, li.sce-intro, div.sce-intro
+	{mso-style-name:sce-intro;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.community-subtitle, li.community-subtitle, div.community-subtitle
+	{mso-style-name:community-subtitle;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.community-splitter, li.community-splitter, div.community-splitter
+	{mso-style-name:community-splitter;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.copyright, li.copyright, div.copyright
+	{mso-style-name:copyright;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.a
+	{mso-style-name:"批注框文本 字符";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:批注框文本;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.a0
+	{mso-style-name:"页眉 字符";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页眉;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.a1
+	{mso-style-name:"页脚 字符";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页脚;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-font-kerning:0pt;}
+ /* Page Definitions */
+ @page
+	{mso-footnote-separator:url("PPIO%20-%20A%20private\,%20stable%20and%20affordable%20decentralized%20storage..files/header.html") fs;
+	mso-footnote-continuation-separator:url("PPIO%20-%20A%20private\,%20stable%20and%20affordable%20decentralized%20storage..files/header.html") fcs;
+	mso-endnote-separator:url("PPIO%20-%20A%20private\,%20stable%20and%20affordable%20decentralized%20storage..files/header.html") es;
+	mso-endnote-continuation-separator:url("PPIO%20-%20A%20private\,%20stable%20and%20affordable%20decentralized%20storage..files/header.html") ecs;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:普通表格;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+</style>
+<![endif]-->
+<meta charset=UTF-8>
+<meta name=description
+content="PPIO is a decentralized data storage and delivery platform for developers who value affordability, speed, and privacy.">
+<meta name=keywords
+content="PPIO, decentralized data storage, decentralized storage, decentralized network, blockchain storage, blockchain future, affordable storage, cheap storage, absolutely safe storage, safe storage, private storage">
+<meta name=author content="PPIO, Inc.">
+<meta property="og:type" content=website>
+<meta property="og:site_name" content=PPIO>
+<meta property="og:title"
+content="PPIO - A private, stable and affordable decentralized storage.">
+<meta property="og:description"
+content="PPIO is a decentralized data storage and delivery platform for developers who value affordability, speed, and privacy.">
+<meta property="og:url" content="https://pp.io">
+<meta property="og:image" content="https://pp.io/share.png">
+<meta property="og:image:alt" content=PPIO>
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:site" content="@PPLabs_PPIO">
+<meta property="twitter:creator" content="@PPLabs_PPIO">
+<meta property="twitter:title"
+content="PPIO - A private, stable and affordable decentralized storage.">
+<meta property="twitter:description"
+content="PPIO is a decentralized data storage and delivery platform for developers who value affordability, speed, and privacy.">
+<meta property="twitter:url" content="https://pp.io">
+<meta property="twitter:image" content="https://pp.io/share.png">
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name=HandheldFriendly content=True>
+<meta name=MobileOptimized content=320>
+<meta http-equiv=cleartype content=on>
+<meta http-equiv=X-UA-Compatible content=IE-edge>
+<meta name=renderer content=webkit>
+<meta name=format-detection content="telephone=no">
+<link rel=canonical href="https://pp.io">
+<link rel="shortcut icon" type="image/png"
+href="data:image/png;base64,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">
+<meta name=theme-color content="#ffffff">
+<link rel=canonical href="https://pp.io">
+<meta name=apple-mobile-web-app-title content=PPIO>
+<meta name=apple-mobile-web-app-capable content=yes>
+<meta name=apple-mobile-web-app-status-bar-style content="#ffffff">
+<meta name=msapplication-navbutton-color content="#ffffff">
+<meta name=msapplication-TileColor content="#ffffff">
+<link rel=apple-touch-icon-precomposed
+href="../../../../static/img/icon_128.5b2f7da.png">
+<link rel=apple-touch-icon-precomposed sizes=114x114
+href="../../../../static/img/icon_144.16d6d46.png">
+<link rel=apple-touch-icon-precomposed sizes=144x144
+href="../../../../static/img/icon_144.16d6d46.png">
+<link rel=apple-touch-icon-precomposed sizes=180x180
+href="../../../../static/img/icon_192.c4257f6.png">
+<noscript></noscript>
+<link rel=preload
+href="../../../../static/css/style-page/index.435cee56ccd6e0109c73.css" as=style>
+<link rel=preload href="../../../../static/js/runtime.967e7535c76ed4c4fe77.js"
+as=script>
+<link rel=preload
+href="../../../../static/js/picturefill.8b3bc6334b826f4e77e8.js" as=script>
+<link rel=preload
+href="../../../../static/js/browsehappy.1f7414c09fd30468e4ec.js" as=script>
+<link rel=preload
+href="../../../../static/js/page/index.5ae51e1755bd99ef0aec.js" as=script>
+<link rel=prefetch href="https://www.pp.io/docs/guide/">
+<link rel=prefetch href="https://www.pp.io/docs/">
+<link rel=prefetch
+href="PPIO%20-%20A%20private,%20stable%20and%20affordable%20decentralized%20storage..html">
+<link rel=prefetch href="https://blog.pp.io">
+<link rel=prefetch href="https://github.com/ppio">
+
+<script  type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "PPIO",
+  "url": "http://www.pp.io",
+  "sameAs": [
+    "https://www.facebook.com/PPIO-178595523020994/",
+    "https://twitter.com/PPLabs_PPIO",
+    "https://medium.com/@ppio",
+    "https://www.youtube.com/channel/UCFRyuBY-PxoSaFmj5Evs5kQ",
+    "https://www.linkedin.com/company/pplabs/",
+    "https://github.com/ppio",
+    "https://www.reddit.com/r/ppio",
+    "https://author.baidu.com/home/1622354645176193",
+    "https://www.zhihu.com/org/ppio-62/activities",
+    "https://www.toutiao.com/m1608201460696068/"
+  ]
+}
+</script>
+
+<script>
+!function(e,t,n,c,o,a,f){e.fbq||(o=e.fbq=function(){o.callMethod?o.callMethod.apply(o,arguments):o.queue.push(arguments)},e._fbq||(e._fbq=o),(o.push=o).loaded=!0,o.version="2.0",o.queue=[],(a=t.createElement(n)).async=!0,a.src="https://connect.facebook.net/en_US/fbevents.js",(f=t.getElementsByTagName(n)[0]).parentNode.insertBefore(a,f))}(window,document,"script"),fbq("init","252217735722372"),fbq("track","PageView")
+</script>
+
+<script  async src="https://www.googletagmanager.com/gtag/js?id=UA-128641089-1">
+</script>
+
+<script>
+function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-128641089-1"),gtag("config","AW-768911138")
+</script>
+
+<script>
+function gtag_report_conversion(n){return gtag("event","conversion",{send_to:"AW-768911138/wtNyCJPB1pYBEKLO0u4C",event_callback:function(){if(void 0!==n){var e=document.createElement("a");e.target="_blank",e.href=n,e.click()}}}),!1}
+</script>
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-128641089-1","auto"),ga("send","pageview")
+</script>
+
+<script  async src="https://www.google-analytics.com/analytics.js">
+</script>
+
+<script  type="text/javascript" src="/static/js/runtime.967e7535c76ed4c4fe77.js">
+</script>
+
+<script  type="text/javascript" src="/static/js/picturefill.8b3bc6334b826f4e77e8.js">
+</script>
+
+<script  type="text/javascript" src="/static/js/browsehappy.1f7414c09fd30468e4ec.js">
+</script>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2049"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=ZH-CN link=blue vlink=purple style='tab-interval:21.0pt'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal><span lang=EN-US><span style='mso-no-proof:yes'><img
+width=1 height=1 id="_x0000_i1047"
+src="https://www.facebook.com/tr?id=252217735722372&amp;ev=PageView&amp;noscript=1"
+alt="https://www.facebook.com/tr?id=252217735722372&amp;ev=PageView&amp;noscript=1"></span>---<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US>layout: default<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US>---<o:p></o:p></span></p>
+
+<div>
+
+<h1><span lang=EN style='mso-ansi-language:EN'><header class="ppio-header header_default">PPIO
+<o:p></o:p></span></h1>
+
+<p class=MsoNormal><span lang=EN style='mso-ansi-language:EN'><a
+href="https://www.pp.io/docs/" target="_self"><nav class="nav">Docs </a><a
+href="https://www.pp.io/download.html" target="_self">Download </a><a
+href="https://blog.pp.io" target="_self">Blog </a><a href="javascript:void(0);"
+id=nav-discord>Discord </a><a href="https://github.com/ppio" target="_blank">Github
+</a><o:p></o:p></span></p>
+
+</nav></div>
+
+<div>
+
+<div>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt;font-family:"microsoft yahei",serif;
+color:white;mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="图片_x0020_2" o:spid="_x0000_i1046" type="#_x0000_t75"
+ style='width:167.25pt;height:60pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="PPIO%20-%20A%20private,%20stable%20and%20affordable%20decentralized%20storage..files/image001.png"
+  o:title="67412791"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=223 height=80
+src="PPIO%20-%20A%20private,%20stable%20and%20affordable%20decentralized%20storage..files/image001.png"
+v:shapes="图片_x0020_2"><![endif]></header></span><span lang=EN style='mso-ansi-language:
+EN'><o:p></o:p></span></p>
+
+<h2><span lang=EN style='mso-ansi-language:EN'>A decentralized data storage and
+delivery platform for developers that value affordability, speed, and privacy<o:p></o:p></span></h2>
+
+<div>
+
+<p class=MsoNormal><span lang=EN style='mso-ansi-language:EN'><a
+href="https://www.pp.io/docs/guide/">Get Started</a> <o:p></o:p></span></p>
+
+</div>
+
+<div>
+
+<p class=tip><span lang=EN style='mso-ansi-language:EN'>As easy as ABC<o:p></o:p></span></p>
+
+</div>
+
+<div>
+
+<div>
+
+<p class=comment><span lang=EN style='mso-ansi-language:EN'># create a bucket<o:p></o:p></span></p>
+
+<p><span class=GramE><span lang=EN style='mso-ansi-language:EN'>$ .</span></span><span
+lang=EN style='mso-ansi-language:EN'>/<span class=SpellE>poss</span>
+create-bucket --bucket=test<o:p></o:p></span></p>
+
+<p class=MsoNormal><code><span lang=EN-US><o:p>&nbsp;</o:p></span></code></p>
+
+<p class=comment><span lang=EN style='mso-ansi-language:EN'># upload a file to
+POSS</span></p>
+
+<p><span class=GramE><span lang=EN style='mso-ansi-language:EN'>$ .</span></span><span
+lang=EN style='mso-ansi-language:EN'>/<span class=SpellE>poss</span> put-object
+--bucket=test --<span class=SpellE>chiprice</span>=100 --key=/test.png
+--expires=2019-04-01 --body=/home/u/test.png<o:p></o:p></span></p>
+
+<p class=MsoNormal><code><span lang=EN-US><o:p>&nbsp;</o:p></span></code></p>
+
+<p class=comment><span lang=EN style='mso-ansi-language:EN'># get a file from
+POSS</span></p>
+
+<p><span class=GramE><span lang=EN style='mso-ansi-language:EN'>$ .</span></span><span
+lang=EN style='mso-ansi-language:EN'>/<span class=SpellE>poss</span> get-object
+--bucket=test --key=/test.png --<span class=SpellE>chiprice</span>=100 --<span
+class=SpellE>outfile</span>=/home/u/test-poss.png<o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div id=download>
+
+<div>
+
+<div>
+
+<p class=nav-item><span lang=EN style='mso-ansi-language:EN'>Demo APP<o:p></o:p></span></p>
+
+<p class=nav-item><span lang=EN style='mso-ansi-language:EN'>PPIO CLI<o:p></o:p></span></p>
+
+<p class=nav-item><span lang=EN style='mso-ansi-language:EN'>PPIO SDK<o:p></o:p></span></p>
+
+</div>
+
+<div>
+
+<div>
+
+<p class=intro><span lang=EN style='mso-ansi-language:EN'>Demo app is our
+official app based on PPIO. It is a simple personal storage cloud disk that you
+can use to upload, download and share your files. All operations are
+decentralized. The code of this app is also open source. <a
+href="https://pp.io/docs/how_to_use_ppio_demo.html" target="_blank">(Know more
+about how to use the demo app)</a> <o:p></o:p></span></p>
+
+<div>
+
+<p class=MsoNormal><span lang=EN style='mso-ansi-language:EN'><a
+href="https://resource.testnet.pp.io/demo/release/windows-amd64/latest/ppio-demo.exe"
+target="_blank" data-type=demo-windows>Windows </a><a
+href="https://resource.testnet.pp.io/demo/release/macos/latest/ppio-demo.dmg"
+target="_blank" data-type=demo-macos>macOS </a><a
+href="https://resource.testnet.pp.io/demo/release/android/latest/ppio-demo.apk"
+target="_blank">Android </a><a href="https://github.com/ppio/ppio-demo-desktop"
+target="_blank" data-type=demo-github>Github </a><o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+<div>
+
+<p class=intro><span lang=EN style='mso-ansi-language:EN'>PPIO CLI is the
+command line interface of PPIO. The command of PPIO CLI starts with `<span
+class=SpellE>poss</span>`. You can use the PPIO CLI to complete uploading and
+downloading of files and so on.<a href="https://www.pp.io/docs/concept/"
+target="_blank">(Know more about PPIO CLI)</a> <o:p></o:p></span></p>
+
+<div>
+
+<p class=MsoNormal><span lang=EN style='mso-ansi-language:EN'><a
+href="https://resource.testnet.pp.io/poss/release/windows-amd64/latest/poss.exe"
+target="_blank" data-type=cli-windows>Windows </a><a
+href="https://resource.testnet.pp.io/poss/release/macos/latest/poss"
+target="_blank" data-type=cli-macos>macOS </a><a
+href="https://resource.testnet.pp.io/poss/release/linux-amd64/latest/poss"
+target="_blank" data-type=cli-linux>Linux </a><o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+<div>
+
+<p class=intro><span lang=EN style='mso-ansi-language:EN'>We now only have PPIO
+SDK for Node.js and Android. This PPIO demo app is developed by the PPIO SDK<a
+href="https://www.pp.io/docs/sdk/" target="_blank">(This is the guide of PPIO
+SDK)</a>. <o:p></o:p></span></p>
+
+<div>
+
+<p class=MsoNormal><span lang=EN style='mso-ansi-language:EN'><a
+href="https://github.com/ppio/ppio-sdk-js" target="_blank"
+data-type=sdk-nodejs>Node.js </a><o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div id=advantages>
+
+<div>
+
+<h3><span lang=EN style='mso-ansi-language:EN'>Advantages<o:p></o:p></span></h3>
+
+<div>
+
+<p class=MsoNormal><span lang=EN style='mso-ansi-language:EN'><a
+href="https://blog.pp.io/why-ppio-can-achieve-a-lower-price-than-cloud-services-like-aws/"
+target="_blank" data-type=Affordability><span lang=EN-US style='mso-ansi-language:
+EN-US'><o:p></o:p></span></a></span></p>
+
+<div>
+
+<div>
+
+<p class=MsoNormal><span lang=EN-US><a
+href="https://blog.pp.io/why-ppio-can-achieve-a-lower-price-than-cloud-services-like-aws/"
+target="_blank"><span lang=EN style='mso-ansi-language:EN;mso-no-proof:yes;
+text-decoration:none;text-underline:none'><img border=0 id="_x0000_i1045"
+src="../../../../static/img/advantage_aff.85dfe20.png" alt=affordable></span></a></span></p>
+
+<h4><u><span lang=EN style='color:blue;mso-ansi-language:EN'><a
+href="https://blog.pp.io/why-ppio-can-achieve-a-lower-price-than-cloud-services-like-aws/"
+target="_blank">Affordability<o:p></o:p></a></span></u></h4>
+
+</div>
+
+<p class=advantage-intro><u><span lang=EN style='color:blue;mso-ansi-language:
+EN'><a
+href="https://blog.pp.io/why-ppio-can-achieve-a-lower-price-than-cloud-services-like-aws/"
+target="_blank">PPIO significantly cuts the price tag, by making use of the
+vast amount of bandwidth and storage resources sitting idle on the Internet.<o:p></o:p></a></span></u></p>
+
+<span href="javascript:void(0);" target="_blank">
+
+<p class=MsoNormal><span class=more><u><span lang=EN style='color:blue;
+mso-ansi-language:EN'><a
+href="https://blog.pp.io/why-ppio-can-achieve-a-lower-price-than-cloud-services-like-aws/"
+target="_blank">detail <span style='font-family:"Segoe UI Emoji",sans-serif;
+mso-bidi-font-family:"Segoe UI Emoji"'>➡</span></span> <o:p></o:p></a></span></u></span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN style='mso-ansi-language:EN'><a
+href="https://blog.pp.io/how-ppio-protects-your-data/" target="_blank"
+data-type="Privacy &amp; Security"><span lang=EN-US style='mso-ansi-language:
+EN-US'><o:p></o:p></span></a></span></p>
+
+<div>
+
+<div>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt;font-family:"microsoft yahei",serif;
+color:white;mso-no-proof:yes'><a
+href="https://blog.pp.io/how-ppio-protects-your-data/" target="_blank"><span
+style='color:white;text-decoration:none;text-underline:none'><!--[if gte vml 1]><v:shape
+ id="图片_x0020_4" o:spid="_x0000_i1044" type="#_x0000_t75" style='width:78.75pt;
+ height:89.25pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="PPIO%20-%20A%20private,%20stable%20and%20affordable%20decentralized%20storage..files/image002.png"
+  o:title="113BC85E"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=105 height=119
+src="PPIO%20-%20A%20private,%20stable%20and%20affordable%20decentralized%20storage..files/image002.png"
+v:shapes="图片_x0020_4"><![endif]></span></a></span></p>
+
+<h4><u><span lang=EN style='color:blue;mso-ansi-language:EN'><a
+href="https://blog.pp.io/how-ppio-protects-your-data/" target="_blank">Privacy
+&amp; Security<o:p></o:p></a></span></u></h4>
+
+</div>
+
+<p class=advantage-intro><u><span lang=EN style='color:blue;mso-ansi-language:
+EN'><a href="https://blog.pp.io/how-ppio-protects-your-data/" target="_blank">PPIO’s
+decentralized storage network uses unique data partition and encryption
+algorithms, which ensures that user data can only be indexed and retrieved by a
+unique private key. <o:p></o:p></a></span></u></p>
+
+<span href="javascript:void(0);" target="_blank">
+
+<p class=MsoNormal><span class=more><u><span lang=EN style='color:blue;
+mso-ansi-language:EN'><a href="https://blog.pp.io/how-ppio-protects-your-data/"
+target="_blank">detail <span style='font-family:"Segoe UI Emoji",sans-serif;
+mso-bidi-font-family:"Segoe UI Emoji"'>➡</span></span> <o:p></o:p></a></span></u></span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN style='mso-ansi-language:EN'><a
+href="https://blog.pp.io/why-is-the-transfer-speed-of-decentralized-storage-faster/"
+target="_blank" data-type="Efficiency &amp; Stability"><span lang=EN-US
+style='mso-ansi-language:EN-US'><o:p></o:p></span></a></span></p>
+
+<div>
+
+<div>
+
+<p class=MsoNormal><span lang=EN-US><a
+href="https://blog.pp.io/why-is-the-transfer-speed-of-decentralized-storage-faster/"
+target="_blank"><span lang=EN style='mso-ansi-language:EN;mso-no-proof:yes;
+text-decoration:none;text-underline:none'><img border=0 id="_x0000_i1043"
+src="../../../../static/img/advantage_eff.ae7ec1e.png" alt=efficient></span></a></span></p>
+
+<h4><u><span lang=EN style='color:blue;mso-ansi-language:EN'><a
+href="https://blog.pp.io/why-is-the-transfer-speed-of-decentralized-storage-faster/"
+target="_blank">Efficiency &amp; Stability<o:p></o:p></a></span></u></h4>
+
+</div>
+
+<p class=advantage-intro><u><span lang=EN style='color:blue;mso-ansi-language:
+EN'><a
+href="https://blog.pp.io/why-is-the-transfer-speed-of-decentralized-storage-faster/"
+target="_blank">PPIO is designed from the ground up to perform efficiently on a
+global scale, by leveraging the founding team’s experience from running
+decentralized networks with hundreds of millions of users.<o:p></o:p></a></span></u></p>
+
+<span href="javascript:void(0);" target="_blank">
+
+<p class=MsoNormal><span class=more><u><span lang=EN style='color:blue;
+mso-ansi-language:EN'><a
+href="https://blog.pp.io/why-is-the-transfer-speed-of-decentralized-storage-faster/"
+target="_blank">detail <span style='font-family:"Segoe UI Emoji",sans-serif;
+mso-bidi-font-family:"Segoe UI Emoji"'>➡</span></span> <o:p></o:p></a></span></u></span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN style='mso-ansi-language:EN'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</div>
+
+</div>
+
+<div id=scenarios>
+
+<div>
+
+<h3><span lang=EN style='mso-ansi-language:EN'>Application Scenarios<o:p></o:p></span></h3>
+
+<div>
+
+<div>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt;font-family:"microsoft yahei",serif;
+color:white;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="图片_x0020_6"
+ o:spid="_x0000_i1042" type="#_x0000_t75" style='width:42pt;height:42pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="PPIO%20-%20A%20private,%20stable%20and%20affordable%20decentralized%20storage..files/image003.png"
+  o:title="430CA0C7"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=56 height=56
+src="PPIO%20-%20A%20private,%20stable%20and%20affordable%20decentralized%20storage..files/image003.png"
+v:shapes="图片_x0020_6"><![endif]></span><span lang=EN style='mso-ansi-language:
+EN'><o:p></o:p></span></p>
+
+<h4><span lang=EN style='mso-ansi-language:EN'>Decentralized Apps<o:p></o:p></span></h4>
+
+<p class=sce-intro><span lang=EN style='mso-ansi-language:EN'>Your smart
+contracts or other decentralized application data on the blockchain can be
+stored on external storage by utilizing PPIO’s APIs.<o:p></o:p></span></p>
+
+</div>
+
+<div>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt;font-family:"microsoft yahei",serif;
+color:white;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="图片_x0020_7"
+ o:spid="_x0000_i1041" type="#_x0000_t75" style='width:42pt;height:42pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="PPIO%20-%20A%20private,%20stable%20and%20affordable%20decentralized%20storage..files/image004.png"
+  o:title="2322741C"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=56 height=56
+src="PPIO%20-%20A%20private,%20stable%20and%20affordable%20decentralized%20storage..files/image004.png"
+v:shapes="图片_x0020_7"><![endif]></span><span lang=EN style='mso-ansi-language:
+EN'><o:p></o:p></span></p>
+
+<h4><span lang=EN style='mso-ansi-language:EN'>Data Exchange<o:p></o:p></span></h4>
+
+<p class=sce-intro><span lang=EN style='mso-ansi-language:EN'>PPIO provides
+ways to match file assets sellers &amp; buyers and can handle transactions
+safely and reliably, without requiring an intermediate party.<o:p></o:p></span></p>
+
+</div>
+
+<div>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt;font-family:"microsoft yahei",serif;
+color:white;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="图片_x0020_8"
+ o:spid="_x0000_i1040" type="#_x0000_t75" style='width:42pt;height:42pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="PPIO%20-%20A%20private,%20stable%20and%20affordable%20decentralized%20storage..files/image005.png"
+  o:title="D9BF0D6D"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=56 height=56
+src="PPIO%20-%20A%20private,%20stable%20and%20affordable%20decentralized%20storage..files/image005.png"
+v:shapes="图片_x0020_8"><![endif]></span><span lang=EN style='mso-ansi-language:
+EN'><o:p></o:p></span></p>
+
+<h4><span lang=EN style='mso-ansi-language:EN'>Media Streaming<o:p></o:p></span></h4>
+
+<p class=sce-intro><span lang=EN style='mso-ansi-language:EN'>PPIO provides
+cost-effective bandwidth resources that help reduce the costs of content
+distribution significantly.<o:p></o:p></span></p>
+
+</div>
+
+<div>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt;font-family:"microsoft yahei",serif;
+color:white;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="图片_x0020_9"
+ o:spid="_x0000_i1039" type="#_x0000_t75" style='width:42pt;height:42pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="PPIO%20-%20A%20private,%20stable%20and%20affordable%20decentralized%20storage..files/image006.png"
+  o:title="7DB21C8A"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=56 height=56
+src="PPIO%20-%20A%20private,%20stable%20and%20affordable%20decentralized%20storage..files/image006.png"
+v:shapes="图片_x0020_9"><![endif]></span><span lang=EN style='mso-ansi-language:
+EN'><o:p></o:p></span></p>
+
+<h4><span lang=EN style='mso-ansi-language:EN'>Data Warehouse<o:p></o:p></span></h4>
+
+<p class=sce-intro><span lang=EN style='mso-ansi-language:EN'>PPIO can store a
+huge <span class=GramE>amount</span> of datasets, replacing traditional
+unreliable local data storage and expensive cloud storage.<o:p></o:p></span></p>
+
+</div>
+
+<div>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt;font-family:"microsoft yahei",serif;
+color:white;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="图片_x0020_10"
+ o:spid="_x0000_i1038" type="#_x0000_t75" style='width:42pt;height:42pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="PPIO%20-%20A%20private,%20stable%20and%20affordable%20decentralized%20storage..files/image007.png"
+  o:title="22E46F03"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=56 height=56
+src="PPIO%20-%20A%20private,%20stable%20and%20affordable%20decentralized%20storage..files/image007.png"
+v:shapes="图片_x0020_10"><![endif]></span><span lang=EN style='mso-ansi-language:
+EN'><o:p></o:p></span></p>
+
+<h4><span lang=EN style='mso-ansi-language:EN'>Private Data Storage<o:p></o:p></span></h4>
+
+<p class=sce-intro><span lang=EN style='mso-ansi-language:EN'>Due to its
+decentralized nature, PPIO's storage network is ideal for private network
+storage applications.<o:p></o:p></span></p>
+
+</div>
+
+<div>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:9.0pt;font-family:"microsoft yahei",serif;
+color:white;mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="图片_x0020_11"
+ o:spid="_x0000_i1037" type="#_x0000_t75" style='width:42pt;height:42pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="PPIO%20-%20A%20private,%20stable%20and%20affordable%20decentralized%20storage..files/image008.png"
+  o:title="A11FD528"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=56 height=56
+src="PPIO%20-%20A%20private,%20stable%20and%20affordable%20decentralized%20storage..files/image008.png"
+v:shapes="图片_x0020_11"><![endif]></span><span lang=EN style='mso-ansi-language:
+EN'><o:p></o:p></span></p>
+
+<h4><span lang=EN style='mso-ansi-language:EN'>Enterprise Data Storage<o:p></o:p></span></h4>
+
+<p class=sce-intro><span lang=EN style='mso-ansi-language:EN'>PPIO can slash
+costs for enterprise data storage, while providing high performance services.<o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div id=cummunity>
+
+<div>
+
+<h3><span lang=EN style='mso-ansi-language:EN'>Stay in Touch<o:p></o:p></span></h3>
+
+<p class=community-subtitle><span lang=EN style='mso-ansi-language:EN'>Chat
+with the team on Discord<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN style='mso-ansi-language:EN'><a
+href="javscript:void()" id=join-btn>Join Our Discord</a> <o:p></o:p></span></p>
+
+<p class=community-splitter><span lang=EN style='mso-ansi-language:EN'>or<o:p></o:p></span></p>
+
+<p class=community-subtitle><span lang=EN style='mso-ansi-language:EN'>Be the
+first to hear when we're live<o:p></o:p></span></p>
+
+<div>
+
+<input type=email id=subscribe-email placeholder=email>
+
+<p class=MsoNormal><span lang=EN style='mso-ansi-language:EN'><button class="subscribe-btn">Subscribe</button>
+<o:p></o:p></span></p>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<div>
+
+<p class=MsoNormal><span lang=EN style='mso-ansi-language:EN'><a
+href="https://www.facebook.com/PPIO-178595523020994/" target="_blank"><footer class="ppio-footer footer_default">facebook</a>
+<a href="https://twitter.com/PPLabs_PPIO" target="_blank">twitter</a> <a
+href="https://medium.com/@ppio" target="_blank">medium</a> <a
+href="https://www.youtube.com/channel/UCFRyuBY-PxoSaFmj5Evs5kQ" target="_blank">youtube</a>
+<a href="https://www.linkedin.com/company/pplabs/" target="_blank">linkedin</a>
+<a href="https://github.com/ppio" target="_blank">github</a> <o:p></o:p></span></p>
+
+</div>
+
+<h1><span lang=EN style='mso-ansi-language:EN'>PPIO <o:p></o:p></span></h1>
+
+<p class=copyright><span lang=EN style='mso-ansi-language:EN'>Copyright © 2019
+PPIO Inc. All Rights Reserved.<o:p></o:p></span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN style='mso-ansi-language:EN'><script  type="text/javascript" src="/static/js/page/index.5ae51e1755bd99ef0aec.js">
+</script></footer></span><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
