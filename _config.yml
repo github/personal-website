@@ -32,6 +32,8 @@ social_media:
   # dribbble: your_username
   facebook: fobo66
   # hackerrank: your_username
+  # instagram: your_username
+  # keybase: your_username
   # linkedin: your_username
   medium: "@fobo66"
   stackoverflow: 4606884
@@ -42,6 +44,7 @@ social_media:
   # unsplash: your_username
   # vk: your_username
   # website: http://your_website_url
+  # youtube: your_username
 
 topics:
   - name: Android
