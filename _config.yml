@@ -8,6 +8,8 @@ plugins:
 
 permalink: /:year/:month/:day/:title/
 
+google_analytics: UA-58749162-2
+
 defaults:
   -
     scope:
@@ -50,5 +52,3 @@ topics:
   - name: Android
     web_url: https://github.com/topics/android
     image_url: https://raw.githubusercontent.com/github/explore/a3520d60fbf9b0bdd0b7d563a1a3ed596acd8489/topics/android/android.png
-  
-  - name: Web design
