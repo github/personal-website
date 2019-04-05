@@ -28,3 +28,9 @@ published: true
 ### 6. 常规的面试流程/反馈时长
 
 常情况下，简历筛选-->远程笔试-->远程沟通/电话面试-->部门2轮面试（-->合伙人/CEO终面）-->offer阶段--onboard阶段。每一轮面试会在5个工作日内反馈（如果没有反馈，一般是有其他更合适人选，未通过的人选不能一一通知）
+
+### 7. 简历投递途径
+- 邮箱直达HR： ash@pplabs.org
+- [Boss直聘](https://www.zhipin.com/gongsir/5ba2ae5248837b0d1n192Nq0FQ~~.html?ka=company-jobs)
+- [拉勾网](https://www.lagou.com/gongsi/j443505.html)
+- [猎聘网](https://www.liepin.com/company/9566183)
