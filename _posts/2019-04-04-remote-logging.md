@@ -14,7 +14,7 @@ There are several services, and I'm going to compare them by price, ease-to-use 
 
 ## Bugfender
 
-Bugfender is a dedicated service for improving quality of the apps. They provide an SDK for each major platform, not only mobile. They allow you to collect crashes from users and see information about users' devices, so you can debug crashes with all the necessary context. It's quite expensive, but features appear to be worth it.
+Bugfender is a dedicated service for improving quality of the apps. They provide an SDK for each major platform, not only mobile. They allow you to cosllect crashes from users and see information about users' devices, so you can debug crashes with all the necessary context. It's quite expensive, but features appear to be worth it.
 
 ## Crashlytics
 
@@ -22,15 +22,16 @@ Crashlytics is now part of Firebase, so it's extremely easy to integrate. Crash 
 
 For convenience, you can create your own Timber.Tree  to log to Crashlytics. They don't provide it from scratch, but it's trivial to write one by yourself.
 
-# Loggly
+## Loggly
 
 Loggly is very expensive, but advanced service in terms of logging . They allow you to see insights in your logs and analyse them easily. There is a free plan though, but it's very limited even for hobbyist developers, as for me. Paid plans offer integrations with various services like JIRA or Github, log history and many more, you can check here.
 They're providing Timber.Tree, so you basically don't need to bother with writing your own and can start with Loggly right away.
 
-# Papertrail (now InsightOps)
+## Papertrail (now InsightOps)
+
 They have free plan but it's very limited. However, paid plans are reasonably priced.
 
-# Hyperlog
+## Hyperlog
 
 Hyperlog is an open source library to push logs to Logstash, which is a part of ELK stack created for analysing logs. It can also send your logs to RequestBin, service for inspecting HTTP payloads.
 
@@ -38,7 +39,8 @@ ELK goes for Elasticsearch, Logstash, Kibana - services for storing, collect
 
 Basically, Hyperlog is a Timber.Tree, so you can start using it right after you get ELK stack up and running (hope it's not your responsibility).
 
-# Hosted ELK stack with custom LogService
+## Hosted ELK stack with custom LogService
+
 This is the most complex solution you can implement, so most of the teams will unlikely use it. However, if your organization wants to have everything onsite and don't trust third-parties, you can go for it.
 
 Not only you will need ELK stack to be set up, but you will need to use Hyperlog mentioned above or write your own LogService to gather and send logs to Elasticsearch. There are plenty of existing implementations (e.g. this or this), but they are outdated. I would suggest not to use them and write your own log sender with help of WorkManager or use HyperLog.
