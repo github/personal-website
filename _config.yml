@@ -4,6 +4,7 @@ style: light
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
+  - jemoji
 
 permalink: /:year/:month/:day/:title/
 
@@ -14,6 +15,34 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+projects:
+  sort_by: pushed
+  # sort_by options:
+  #   - pushed
+  #   - stars
+  limit: 9
+  exclude:
+    forks: true
+    projects:
+    # - repo-name
+
+# social_media:
+  # behance: your_username
+  # dribbble: your_username
+  # facebook: your_username
+  # hackerrank: your_username
+  # instagram: your_username
+  # keybase: your_username
+  # linkedin: your_username
+  # medium: your_username
+  # stackoverflow: your_user_id
+  # telegram: your_username
+  # twitter: your_username
+  # unsplash: your_username
+  # vk: your_username
+  # website: http://your_website_url
+  # youtube: your_username
 
 topics:
   - name: CSS
