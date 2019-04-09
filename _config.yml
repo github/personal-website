@@ -18,12 +18,12 @@ defaults:
 topics:
   - name: PPIO
     web_url: https://pp.io
-    image_url: https://www.pp.io/docs/logo.png
+    image_url: https://media.licdn.com/dms/image/C510BAQGJ0BNE7Zoa4g/company-logo_100_100/0?e=1562803200&v=beta&t=C9_auklRbeDzA9Wj_QJmbEw_1mAkXT5smYXjY23qkYk
 
   - name: We are hiring
     web_url: https://www.indeedjobs.com/pplabs/jobs/_hl/en_US
     image_url: https://d3nbup7htlluyi.cloudfront.net/5c00b8ef5da4962f66df2d92/logo/89a32ce3bd106b7261b2098d095e25ed67ocqvqq.png
-  
+
   - name: About Me
     web_url: https://www.linkedin.com/in/ash-ma1989
     image_url: https://ss0.bdstatic.com/-0U0bnSm1A5BphGlnYG/tam-ogel/ae60db54936bb024336e75c7c90a8578_121_121.jpg
