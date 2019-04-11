@@ -3,6 +3,9 @@ title: "Remote logging for mobile apps"
 published: false
 ---
 
+![Photo by Mildly Useful on Unsplash](/assets/mildly-useful-249033-unsplash.jpg)
+*Photo by [Mildly Useful](https://unsplash.com/@usefulcollective) on Unsplash*
+
 Hello! In this article, I'm going to review some of the existing services that provide you the possibility to perform logging in production in a safe way. No more struggle with attaching log files to feedback and spending hours on figuring out what went wrong without any clues.
 
 Generally, logging in production is considered harmful, because you can expose sensitive information from your application to hackers. It's a serious security trait, but disabling logs in production may not be the best solution: you won't be able to see the state of your app during investigation of the strange crashes or suspicious feedbacks coming from users. So, it's needed to find healthy compromise between security and logging.
@@ -18,7 +21,7 @@ There are several services, and I'm going to compare them by price, ease-to-use 
 
 ## Crashlytics
 
-[Crashlytics](https://firebase.google.com/docs/crashlytics/) is now part of Firebase, so it's extremely easy to integrate and use by following [these instructions](https://firebase.google.com/docs/crashlytics/get-started). Crash reporting works like a charm and helps fix crashes easily. Their SDK allow you to share dlogs, but you can only see logged info together with exception information. If your app uses exceptions for any incorrect situation, either fatal or non-fatal, it can be enough for you. In my case, it was not enough.
+[Crashlytics](https://firebase.google.com/docs/crashlytics/) is now part of Firebase, so it's extremely easy to integrate and use by following [these instructions](https://firebase.google.com/docs/crashlytics/get-started). Crash reporting works like a charm and helps fix crashes easily. Their SDK allow you to share logs, but you can only see logged info together with exception information. If your app uses exceptions for any incorrect situation, either fatal or non-fatal, it can be enough for you. In my case, it was not enough.
 
 For convenience, you can create your own `Timber.Tree`  to log to Crashlytics. They don't provide it from scratch, but it's trivial to write one by yourself.
 
