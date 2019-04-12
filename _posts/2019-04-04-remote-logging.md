@@ -38,7 +38,7 @@ There are third-party `Timber.Tree` for Papertrail [available](https://github.co
 
 ## Hyperlog
 
-[Hyperlog](https://github.com/hypertrack/hyperlog-android) is an open source library to push logs to Logstash, which is a part of ELK stack created for analysing logs. It can also send your logs to [RequestBin](https://requestbin.fullcontact.com/), service for inspecting HTTP payloads.
+[Hyperlog](https://github.com/hypertrack/hyperlog-android) is an open source library to push logs to Logstash, which is a part of ELK stack created for analyzing logs. It can also send your logs to [RequestBin](https://requestbin.fullcontact.com/), service for inspecting HTTP payloads.
 
 [ELK](https://www.elastic.co/elk-stack) goes for Elasticsearch, Logstash, Kibana - services for storing, collecting and monitoring logs. Despite they are mostly used for web apps, we can send logs from our apps to ELK as well. Deployment and configuring of the ELK stack is out of scope of this article, so you can find details [here](https://logz.io/learn/complete-guide-elk-stack/). You can also choose one of the ELK stack providers, there are quite a lot of them.
 

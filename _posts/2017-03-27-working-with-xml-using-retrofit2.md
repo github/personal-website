@@ -5,11 +5,11 @@ published: true
 
 Hello!
 
-Sometimes you need to work with some API that was created years ago, or contains more semantics that JSON allows. That APIs mostly created with XML. It’s pretty ugly format, hard to read by humans, but it’s still relevant, and sadly we need to know how to work with it. It’s not so obvious in Java as it appears to be. I’ve spent two days struggling figuring out why it’s not working. Internet has not so much relevant information about it, so I decided to write it myself. I’ve used it in Android project, but since Retrofit2 is a general Java library, you can use it in Java projects as well.
+Sometimes you need to work with some API that was created years ago, or contains more semantics that JSON allows. That APIs mostly created with XML. It’s pretty ugly format, hard to read  by humans, but it’s still relevant, and sadly we need to know how to work with it. It’s not so obvious in Java as it appears to be. I’ve spent two days struggling figuring out why it’s not working. Internet has not so much relevant information about it, so I decided to write it myself. I’ve used it in Android project, but since Retrofit2 is a general Java library, you can use it in Java projects as well.
 
 *Disclaimer: SimpleXML project is no longer maintained, so use this guide at your own risk. If you’re going to use Retrofit2 not on Android, you can use [JAXB converter](https://github.com/square/retrofit/tree/master/retrofit-converters/jaxb) (Android doesn’t support JAXB).*
 
-So, let’s get started. First of all, I recommend to use [SimpleXML framework](http://simple.sourceforge.net) to work with XML in Java, because with it you will write less code than with native instruments such as XPP or `javax.xml.*`. And, what is most important for us, it’s already integrated with Retrofit2, so you don’t need to include it separatedly in your project, just use Retrofit Converter.
+So, let’s get started. First of all, I recommend to use [SimpleXML framework](http://simple.sourceforge.net) to work with XML in Java, because with it you will write less code than with native instruments such as XPP or `javax.xml.*`. And, what is most important for us, it’s already integrated with Retrofit2, so you don’t need to include it separately in your project, just use Retrofit Converter.
 
 So, our dependencies will look like this:
 
@@ -43,7 +43,7 @@ ServerAPI api = new Retrofit.Builder()
                 .build().create(ServerAPI.class);
 ```
 
-Important note: to make SimpleXML work as expected, you should use AnnotationStrategy. To avoid SimpleXML crashes because of empty XML tags, you should use non-strict mode. It’s higly recommended, even if you pretty sure that your XML will never have empty tags. Shortly, you should construct converter factory like this:
+Important note: to make SimpleXML work as expected, you should use AnnotationStrategy. To avoid SimpleXML crashes because of empty XML tags, you should use non-strict mode. It’s highly recommended, even if you pretty sure that your XML will never have empty tags. Shortly, you should construct converter factory like this:
 
 ```java
 SimpleXmlConverterFactory.createNonStrict(
