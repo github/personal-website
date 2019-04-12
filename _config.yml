@@ -119,7 +119,7 @@ topics:
 
   - name: Typescript
     web_url: https://github.com/topics/typescript
-    image_url: https://raw.githubusercontent.com/github/explore//9f270b9ddad21705ebd33f4602a0aec0d22cbe4e/topics/typescript/typescript.png
+    image_url: https://raw.githubusercontent.com/github/explore/9f270b9ddad21705ebd33f4602a0aec0d22cbe4e/topics/typescript/typescript.png
 
   - name: Web Components
     web_url: https://github.com/topics/web-components
