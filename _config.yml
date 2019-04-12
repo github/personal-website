@@ -128,3 +128,12 @@ topics:
   - name: Webpack
     web_url: https://github.com/topics/webpack
     image_url: https://raw.githubusercontent.com/github/explore/9f270b9ddad21705ebd33f4602a0aec0d22cbe4e/topics/webpack/webpack.png
+
+certifications:
+  - name: Google Mobile Sites
+    web_url: https://github.com/topics/webpack
+    image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1024px-Google_%22G%22_Logo.svg.png
+
+  - name: Certified ScrumMaster (CSM)
+    web_url: https://bcert.me/bc/html/show-badge.html?b=fincsanf
+    image_url: https://bcert.me/bc/html/img/badges/generated/badge-7227.png
