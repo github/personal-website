@@ -27,8 +27,8 @@ For convenience, you can create your own `Timber.Tree`  to log to Crashlytics. T
 
 ## Loggly
 
-[Loggly](https://www.loggly.com) is very expensive, but advanced service in terms of logging . They allow you to see insights in your logs and analyse them easily. There is a free plan though, but it's very limited even for hobbyist developers, as for me. Paid plans offer integrations with various services like JIRA or Github, log history and many more, you can check here.
-They're providing `Timber.Tree`, so you basically don't need to bother with writing your own and can start with Loggly right away.
+[Loggly](https://www.loggly.com) is very expensive, but advanced service in terms of logging . They allow you to see insights in your logs and analyse them easily. There is a free plan though, but it's very limited even for hobbyist developers, as for me. Paid plans offer integrations with various services like JIRA or Github, log history and many more, you can check [here](https://www.loggly.com/plans-and-pricing/).
+They're providing `Timber.Tree`, so you basically don't need to bother with writing your own and can start with Loggly right away. [Here](https://www.loggly.com/docs/android-logs/) are the instructions for setup Loggly
 
 ## Papertrail
 
