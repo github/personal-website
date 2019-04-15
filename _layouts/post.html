@@ -21,7 +21,7 @@
         <ul class="d-flex d-sm-block list-style-none">
           {% for service in shareable_social_media %}
             <li class="mt-sm-3">
-              <a href="{{ service.share_url_prefix }}{{ page.url | prepend: site.baseurl | prepend: site.url | url_encode }}" title="Share on {{ service.name }}" class="d-flex flex-items-center">
+              <a href="{{ service.share_url_prefix }}{{ page.url | absolute_url | url_encode }}" title="Share on {{ service.name }}" class="d-flex flex-items-center">
                 <div style="width:32px">{{ service.icon_svg }}</div><span class="d-none d-sm-inline-block text-gray-light">{{ service.name }}</span>
               </a>
             </li>
