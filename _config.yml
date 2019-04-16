@@ -48,7 +48,7 @@ social_media:
 topics:
   - name: MySQL
     web_url: https://www.mysql.com
-    image_url: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    image_url: https://sqldep.com/s/pages/img/dialect-logo-mysql.799d32c02b0b.png
 
   - name: Node.js
     web_url: https://nodejs.org
@@ -76,7 +76,7 @@ topics:
 
   - name: docker
     web_url: https://www.docker.com/
-    image_url: https://www.docker.com/sites/default/files/social/docker_facebook_share.png
+    image_url: https://i.pinimg.com/originals/7e/2b/a3/7e2ba333c7dc041661db89dc663b4490.png
 
   - name: React Native
     web_url: https://facebook.github.io/react-native/
@@ -84,7 +84,7 @@ topics:
 
   - name: next.js
     web_url: https://nextjs.org/
-    image_url: https://seeklogo.com/images/N/next-js-logo-7929BCD36F-seeklogo.com.png
+    image_url: https://cdn.auth0.com/blog/logos/nextjs-logo.png
 
   - name: Debian
     web_url: https://www.debian.org
