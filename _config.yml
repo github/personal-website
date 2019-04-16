@@ -74,4 +74,24 @@ topics:
     web_url: https://github.com/
     image_url: https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-19/288981919427_f45f04edd92902a96859_512.png
 
+  - name: docker
+    web_url: https://www.docker.com/
+    image_url: https://www.docker.com/sites/default/files/social/docker_facebook_share.png
+
+  - name: React Native
+    web_url: https://facebook.github.io/react-native/
+    image_url: https://facebook.github.io/react-native/img/header_logo.png
+
+  - name: next.js
+    web_url: https://nextjs.org/
+    image_url: https://seeklogo.com/images/N/next-js-logo-7929BCD36F-seeklogo.com.png
+
+  - name: Debian
+    web_url: https://www.debian.org
+    image_url: https://www.kjbweb.net/wp-content/uploads/2016/11/Debian-Logo.jpg
+
+  - name: Raspberry Pi
+    web_url: https://www.raspberrypi.org/
+    image_url: https://www.open-homeautomation.com/wp-content/uploads/2016/06/raspberry-pi-logo-300x300.jpg
+
 theme: jekyll-theme-cayman
