@@ -17,5 +17,5 @@ published: true
 - [github 地址](https://github.com/omnigeeker)
 - [medium 主页](https://medium.com/@omnigeeker)
 
-### 联合创始人
+#### 联合创始人
 吴季丹，10年+互联网产品经验，曾任PPTV网络电视、阿里巴巴（虾米音乐、天天动听等）产品负责人，包括移动端、TV等多端产品，有过多款亿级用户内容产品的团队及管理工作，精通视频、音乐、轻娱乐的产品商业设计。
