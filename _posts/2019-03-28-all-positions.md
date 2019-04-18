@@ -278,3 +278,6 @@ published: true
 - 有开发开源项目的经历，如有 `GitHub` 账号或技术博客，请在简历中写明。
 
 ### 内推邮箱：ash@pplabs.org
+
+<div id="commento"></div>
+<script src="https://cdn.commento.io/js/commento.js"></script>
