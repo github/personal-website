@@ -38,6 +38,3 @@ published: true
 1.  主导或参与过其它网络方向大型开源项目；
 
 **简历投递邮箱：ash@pplabs.org**
-
-<div id="commento"></div>
-<script src="https://cdn.commento.io/js/commento.js"></script>
