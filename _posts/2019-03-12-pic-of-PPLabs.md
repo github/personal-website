@@ -1,6 +1,8 @@
 ---
 title: "PPLabs实况呈现"
 published: true
+categories: [简介]
+tags: [非招聘内容]
 ---
 
 #### 去年测试网上线，内部庆祝下

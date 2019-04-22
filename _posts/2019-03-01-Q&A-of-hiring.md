@@ -1,6 +1,8 @@
 ---
 title: "[PPLabs招聘答疑（非官方）]"
 published: true
+categories: [简介]
+tags: [非招聘内容]
 ---
 
 **以下内容为HR就招聘中大家比较关注的内容，就公司实际情况总结而来，非官方发布。**

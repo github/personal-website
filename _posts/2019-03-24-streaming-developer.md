@@ -1,8 +1,8 @@
 ---
 title: "招聘：[分布式云存储+区块链][流媒体开发]"
 published: true
-categories: [blog, 招聘]
-tags: [流媒体, 开发]
+categories: [招聘]
+tags: [技术职位]
 ---
 
 ### 公司简介
