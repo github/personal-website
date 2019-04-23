@@ -255,6 +255,7 @@ DEPENDENCIES
   github-pages
   jekyll-github-metadata
   jekyll-octicons
+  jemoji
 
 BUNDLED WITH
    2.0.1
