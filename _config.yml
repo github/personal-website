@@ -28,10 +28,12 @@ projects:
     # - repo-name
 
 social_media:
-  mastodon: geezus42
-  discord: geezus42
-  keybase: geezus_42
-  signal: geezus42
+  mastodon: Geezus42
+  discord: Geezus42
+  keybase: Geezus_42
+  signal: Geezus42
+  telegram: Geezus42
+  twitter: Geezustx
   # behance: your_username
   # hackerrank: your_username
   # instagram: your_username
@@ -41,8 +43,6 @@ social_media:
   # linkedin: your_username
   # medium: @your_username
   # stackoverflow: your_user_id
-  telegram: Geezus42
-  twitter: geezustx
   # website: http://your_website_url
   # youtube: your_username
   # vk: your_username
