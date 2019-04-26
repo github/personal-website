@@ -37,3 +37,31 @@
     padding-left: 16px;
   }
 }
+
+h4 {
+  margin-top: 20px !important;
+}
+
+h1 {
+  font-family: timberline, sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
+
+h2, h3, h4 {
+  font-family: trajan-sans-pro,sans-serif !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
+}
+
+a > h1.mb-2 {
+  color: black !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+p.mb-3 {
+  font-size: 11px !important;
+}
