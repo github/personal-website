@@ -18,9 +18,9 @@ defaults:
 
 projects:
   sort_by: pushed
-  # sort_by options:
+   sort_by options:
   #   - pushed
-  #   - stars
+     - stars
   limit: 9
   exclude:
     forks: true
@@ -28,24 +28,24 @@ projects:
     # - repo-name
 
 social_media:
-  mastodon: Geezus42
   discord: Geezus42
   keybase: Geezus_42
+  mastodon: Geezus42
   signal: Geezus42
   telegram: Geezus42
   twitter: Geezustx
   # behance: your_username
-  # hackerrank: your_username
-  # instagram: your_username
-  # unsplash: your_username
   # dribbble: your_username
   # facebook: your_username
+  # hackerrank: your_username
+  # instagram: your_username
   # linkedin: your_username
   # medium: @your_username
   # stackoverflow: your_user_id
+  # unsplash: your_username
+  # vk: your_username
   # website: http://your_website_url
   # youtube: your_username
-  # vk: your_username
 
 topics:
   - name: Linux
