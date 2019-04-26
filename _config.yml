@@ -33,13 +33,17 @@ social_media:
   keybase: geezus_42
   signal: geezus42
   # behance: your_username
+  # hackerrank: your_username
+  # instagram: your_username
+  # unsplash: your_username
   # dribbble: your_username
   # facebook: your_username
   # linkedin: your_username
   # medium: @your_username
   # stackoverflow: your_user_id
-  # telegram: your_username
+  telegram: @Geezus42
   twitter: geezustx
+  # website: http://your_website_url
   # youtube: your_username
   # vk: your_username
 
@@ -71,4 +75,3 @@ topics:
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/markdown/markdown.png
 
 
-theme: jekyll-theme-hacker
