@@ -1,6 +1,6 @@
 ---
 title: "Remote logging for mobile apps"
-published: false
+published: true
 ---
 
 ![Photo by Mildly Useful on Unsplash](/assets/mildly-useful-249033-unsplash.jpg)
@@ -23,24 +23,19 @@ There are several services, and I'm going to compare them by price, ease-to-use 
 
 [Crashlytics](https://firebase.google.com/docs/crashlytics/) is now part of Firebase, so it's extremely easy to integrate and use by following [these instructions](https://firebase.google.com/docs/crashlytics/get-started). Crash reporting works like a charm and helps fix crashes easily. Their SDK allow you to share logs, but you can only see logged info together with exception information. If your app uses exceptions for any incorrect situation, either fatal or non-fatal, it can be enough for you. In my case, it was not enough.
 
-For convenience, you can create your own `Timber.Tree`  to log to Crashlytics. They don't provide it from scratch, but it's trivial to write one by yourself.
+For convenience, you can create your own `Timber.Tree`  to log to Crashlytics. They don't provide it from scratch, but it's easy to write one by yourself, just like [this](https://gist.github.com/jonfinerty/3e24867df66cd6e14c5937a72ed6d50a).
 
 ## Loggly
 
-[Loggly](https://www.loggly.com) is very expensive, but advanced service in terms of logging . They allow you to see insights in your logs and analyse them easily. There is a free plan though, but it's very limited even for hobbyist developers, as for me. Paid plans offer integrations with various services like JIRA or Github, log history and many more, you can check [here](https://www.loggly.com/plans-and-pricing/).
-They're providing `Timber.Tree`, so you basically don't need to bother with writing your own and can start with Loggly right away. [Here](https://www.loggly.com/docs/android-logs/) are the instructions for setup Loggly
+[Loggly](https://www.loggly.com) is very expensive, but advanced service in terms of logging. They allow you to see insights in your logs and analyse them easily. There is a free plan though, but it's very limited even for hobbyist developers, as for me. Paid plans offer integrations with various services like JIRA or Github, log history and many more, you can check [here](https://www.loggly.com/plans-and-pricing/).
 
-## Papertrail
-
-[Papertrail](https://papertrailapp.com/) has free plan but it's very limited. However, paid plans are reasonably priced.
-
-There are third-party `Timber.Tree` for Papertrail [available](https://github.com/jdsingh/papertrail-timber).
+They're providing `Timber.Tree`, so you basically don't need to bother with writing your own and can start with Loggly right away. [Here](https://www.loggly.com/docs/android-logs/) are the instructions for setup Loggly for Android.
 
 ## Hyperlog
 
-[Hyperlog](https://github.com/hypertrack/hyperlog-android) is an open source library to push logs to Logstash, which is a part of ELK stack created for analyzing logs. It can also send your logs to [RequestBin](https://requestbin.fullcontact.com/), service for inspecting HTTP payloads.
+[Hyperlog](https://github.com/hypertrack/hyperlog-android) is an open source library to send your logs to [ELK](https://www.elastic.co/elk-stack) or [RequestBin](https://requestbin.fullcontact.com/), service for inspecting HTTP payloads.
 
-[ELK](https://www.elastic.co/elk-stack) goes for Elasticsearch, Logstash, Kibana - services for storing, collecting and monitoring logs. Despite they are mostly used for web apps, we can send logs from our apps to ELK as well. Deployment and configuring of the ELK stack is out of scope of this article, so you can find details [here](https://logz.io/learn/complete-guide-elk-stack/). You can also choose one of the ELK stack providers, there are quite a lot of them.
+ELK goes for Elasticsearch, Logstash, Kibana - services for storing, collecting and monitoring logs. Despite they are mostly used for web apps, we can send logs from our apps to ELK as well. Deployment and configuring of the ELK stack is out of scope of this article, but you can find details [here](https://logz.io/learn/complete-guide-elk-stack/). You can also choose one of the ELK stack providers, there are quite a lot of them.
 
 Basically, Hyperlog is a `Timber.Tree`, so you can start using it right after you get ELK stack up and running (hope it's not your responsibility).
 
@@ -49,3 +44,9 @@ Basically, Hyperlog is a `Timber.Tree`, so you can start using it right after yo
 This is the most complex solution you can implement, so most of the teams will unlikely use it. However, if your organization wants to have everything onsite and don't trust third-parties, you can go for it.
 
 Not only you will need ELK stack to be set up, but you will need to write your own `LogService`. There are plenty of existing implementations (e.g. [this](https://github.com/Labgoo/android-logstash-logger) or [this](https://gist.github.com/PatrykGala/55603fe4259d812fdc0ffbc9e63eaabc)), but they are outdated. I would suggest not to use them and write your own log sender with help of `WorkManager` or use HyperLog.
+
+Basically, this approach is free of charge, if you have all the required infrastructure. You will only invest tremendous amount of time to make it work for you. So, I would recommend to consider your resources before starting deploying ELK and writing everything from scratch.
+
+---------
+
+In this artice, I've reviewed some remote logging solutions for Android in terms of features and price
