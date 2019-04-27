@@ -42,4 +42,9 @@
   min-height: 100vh;
 }
 
+.article img {
+  width: 100%;
+  height: auto;
+}
+
 img + em { display: block; text-align: center;}
