@@ -39,11 +39,11 @@ They're providing `Timber.Tree`, so you basically don't need to bother with writ
 
 ## Hyperlog
 
-[Hyperlog](https://github.com/hypertrack/hyperlog-android) is an open source library to send your logs to [ELK](https://www.elastic.co/elk-stack) or [RequestBin](https://requestbin.fullcontact.com/), service for inspecting HTTP payloads.
+[Hyperlog](https://github.com/hypertrack/hyperlog-android) is a free and open source library to send your logs to [ELK](https://www.elastic.co/elk-stack) or [RequestBin](https://requestbin.fullcontact.com/), service for inspecting HTTP payloads.
 
 ELK goes for Elasticsearch, Logstash, Kibana - services for storing, collecting and monitoring logs. Despite they are mostly used for web apps, we can send logs from our apps to ELK as well. Deployment and configuring of the ELK stack is out of scope of this article, but you can find details [here](https://logz.io/learn/complete-guide-elk-stack/). You can also choose one of the ELK stack providers, there are quite a lot of them.
 
-Basically, Hyperlog is a `Timber.Tree`, so you can start using it right after you get ELK stack up and running (hope it's not your responsibility).
+Basically, Hyperlog is a `Timber.Tree`, so you can start using it right after you get ELK stack up and running (hope it's not your responsibility). You can find more details about HyperLog setup and usage in [this amazing article](https://android.jlelse.eu/android-remote-logger-library-for-debugging-343443bd38b7).
 
 ## Custom LogService for ELK
 
