@@ -17,7 +17,13 @@ There are several services, and I'm going to compare them by price, ease-to-use 
 
 ## Bugfender
 
-[Bugfender](https://bugfender.com) is a dedicated service for improving quality of the apps. They provide an SDK for each major platform, not only mobile. They allow you to collect crashes from users and see information about users' devices, so you can debug crashes with all the necessary context. It's quite expensive, but features appear to be worth it.
+[Bugfender](https://bugfender.com) is a dedicated service for improving quality of the apps. They provide an SDK for each major platform, not only mobile.
+
+Bugfender, besides remote logging,  allow you to collect crashes from users and see information about users' devices, so you can debug crashes with all the necessary context.
+
+Bugfender SDK can be easily wrapped by `Timber.Tree`. [Here](http://support.bugfender.com/supported-logging-frameworks) is the list of all supported logging frameworks with examples. So, it's quite easy to start using it.
+
+It's quite expensive, but there is a very limited free plan. You can check their pricing [here](https://bugfender.com/pricing/).
 
 ## Crashlytics
 
@@ -49,4 +55,4 @@ Basically, this approach is free of charge, if you have all the required infrast
 
 ---------
 
-In this artice, I've reviewed some remote logging solutions for Android in terms of features and price
+In this article, I've reviewed some remote logging solutions for Android in terms of features and price. Feel free to share and discuss it. Hope that it will be useful for you.
