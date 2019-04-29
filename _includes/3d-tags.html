@@ -7,22 +7,21 @@
   <script src="/assets/3d-tags/tagcloud.min.js"></script>
   <link rel=stylesheet href=/assets/3d-tags/tagcloud.min.css>
 </head>
-
 <body>
-  <div style="height: 400px; width: 400px;">
+  <div style="height: 150px; width: 400px;">
     <div class="tagcloud">
-      <a href="1">tex123t1</a>
-      <a href="2">tex2t</a>
-      <a href="3">text3</a>
-      <a href="4">tex4t</a>
-      <a href="5">tex5t</a>
-      <a href="6">te6xt</a>
-      <a href="7">tex7t</a>
+      {% for category in site.categories %}
+      {% for post in category[1] %}
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {% endfor %}
+      {% endfor %}
     </div>
   </div>
-  <script>
-    var tc = tagcloud();
-  </script>
-  </body>
+  <div>
+    <script>
+      var tc = tagcloud();
+    </script>
+  </div>
+</body>
 
 </html>

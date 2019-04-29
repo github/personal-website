@@ -6,10 +6,10 @@
       {{ content }}
     </div>
 
-    <div class="my-6">
+    <!-- <div class="my-6">
       {% include projects.html %}
-    </div>
-
+    </div> -->
+    {% include 3d-tags.html %}
     <div class="my-6">
       {% include categories.html %}
     </div>
@@ -40,8 +40,8 @@
             {{ content }}
           </div>
         {% endunless %}
-
-        {% include projects.html %}
+        {% include 3d-tags.html %}
+        <!-- {% include projects.html %} -->
         <div class="my-6">
           {% include categories.html %}
         </div>
