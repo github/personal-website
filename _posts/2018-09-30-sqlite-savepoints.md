@@ -16,7 +16,7 @@ Savepoints may be useful for step-by-step operations that involve database and w
 If you really need to use savepoints, here is the trick: always start SQL statement for rolling back to particular savepoint with semicolon. Like this:
 
 ```java
-sqliteDb.execSql(“;ROLLBACK TO savepointName;”);
+sqliteDb.execSql(";ROLLBACK TO savepointName;");
 ```
 
 That’s it for useful tricks. If you want to read a story behind this line of code and how do we get this, keep reading.
