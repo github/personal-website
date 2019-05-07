@@ -11,6 +11,16 @@
       {{ content }}
       <div id="commento"></div>
       <script src="https://cdn.commento.io/js/commento.js"></script>
+      {% include backToTop.html %}
+      <script src="{{ " /assets/btt/main.js " | prepend: site.baseurl }}" charset="utf-8"></script>
+      <script src="{{ " /assets/btt/smooth-scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script>
+      <script type="text/javascript">
+        smoothScroll.init({
+          speed: 500, // Integer. How fast to complete the scroll in milliseconds
+          easing: 'easeInOutCubic', // Easing pattern to use
+          offset: 20, // Integer. How far to offset the scrolling anchor location in pixels
+        });
+      </script>
     </div>
   </div>
 {% else %}
@@ -18,16 +28,6 @@
     <div class="flex-self-stretch {% if site.style == 'dark' %}bg-gray-dark{% else %}border-md-right border-gray-light bg-white{% endif %} col-md-5 col-lg-4 col-xl-3 px-4 px-md-6 px-lg-7 py-6">
       {% include masthead.html metadata=true %}
     </div>
-    {% include backToTop.html %}
-    <script src="{{ " /assets/btt/main.js " | prepend: site.baseurl }}" charset="utf-8"></script>
-    <script src="{{ " /assets/btt/smooth-scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script>
-    <script type="text/javascript">
-      smoothScroll.init({
-        speed: 500, // Integer. How fast to complete the scroll in milliseconds
-        easing: 'easeInOutCubic', // Easing pattern to use
-        offset: 20, // Integer. How far to offset the scrolling anchor location in pixels
-      });
-    </script>
     <div class="col-md-7 col-lg-8 col-xl-9 px-4 py-6 px-lg-7 border-top border-md-top-0 bg-gray-light" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
       <div class="mx-auto" style="max-width: 900px;">
         <div class="f4 {% if site.style == 'dark' %}text-white{% endif %} mb-6">
@@ -38,6 +38,16 @@
             {{ content }}
             <div id="commento"></div>
             <script src="https://cdn.commento.io/js/commento.js"></script>
+            {% include backToTop.html %}
+            <script src="{{ " /assets/btt/main.js " | prepend: site.baseurl }}" charset="utf-8"></script>
+            <script src="{{ " /assets/btt/smooth-scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script>
+            <script type="text/javascript">
+              smoothScroll.init({
+                speed: 500, // Integer. How fast to complete the scroll in milliseconds
+                easing: 'easeInOutCubic', // Easing pattern to use
+                offset: 20, // Integer. How far to offset the scrolling anchor location in pixels
+              });
+            </script>
           </div>
         </div>
       </div>
