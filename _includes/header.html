@@ -31,6 +31,7 @@
     <link href="{{ "/assets/styles.css" | relative_url }}" rel="stylesheet" type="text/css">
     {% if site.google_analytics and jekyll.environment == 'production' %}
       {% include analytics.html %}
+      {% include cookie-consent.html %}
     {% endif %}
   </head>
   <body class="bg-white min-height-full" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
