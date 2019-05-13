@@ -1,2 +1,13 @@
-  </body>
-</html>
+<footer class="g-footer">
+  <section> Ash在招聘 ©
+  {% assign current = "now" | date: "%Y" | plus: 0%}
+  {% unless site.footer.since and site.footer.since == current %}
+    {{ site.footer.since }}
+    -
+  {% endunless %}
+  {{ current }}
+  </section>
+  <section style="padding:10px;">
+    <col>莫愁前路无知己，天下谁人不识君<col>
+  </section>
+</footer>
