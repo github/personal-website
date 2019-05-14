@@ -7,9 +7,10 @@ tags: [非招聘内容]
 
 ### 公司简介
 缀初网络技术(上海)有限公司，PPIO 存储公链开发和全球运营团队。由原 PPTV 创始人姚欣创立，在美国硅谷、新加坡、香港、上海四地拥有 office。创始团队来自于谷歌微软\BAT\华为 PPTV 等国内知名大型互联网及 IT 公司的高管及核心员工。国内 office 位于上海浦东软件园。
-- [项目白皮书（英文)](https://github.com/PPIO/Whitepaper/?ash)
 - [公司领英主页]( https://www.linkedin.com/company/pplabs/?ash)
-- 关于我们项目的信息，请点击 [项目主页](https://www.pp.io/?ash)进行了解
+- [项目官网](https://www.pp.io/?ash)
+- [项目白皮书（英文)](https://github.com/PPIO/Whitepaper/?ash)
+- [PPIO在知乎](https://www.zhihu.com/org/ppio-62/activities/?ash)
 
 #### 创始人：
 姚欣（董事长），蓝驰创投合伙人，原上海聚力传媒技术有限公司创始人兼首席执行官、PPLive 创始人，AI 创业营发起人。自 PPTV 被收购退出后，现任蓝驰创投合伙人，投资并关注 AI 及互联网科技行业；

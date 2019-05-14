@@ -22,4 +22,11 @@ tags: [非招聘内容]
 ![第一桌](/assets/pics/pic-of-PPLabs-9c1d860d.JPG)
 ![麻将不缺人](/assets/pics/pic-of-PPLabs-9289461d.JPG)
 
+#### Jump挑战
+![攀岩比赛](/assets/pics/jump.JPG)
+![ball fighting](/assets/pics/ball-fighting.png)
+
+#### PPIO篮球队
+<img src='/assets/pics/basketball-team.JPG' alt="" title="篮球队">
+
 不会美图，大家见谅，轻喷
