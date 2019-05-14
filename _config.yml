@@ -1,12 +1,12 @@
 layout: sidebar
 style: dark
 
+
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
   - jemoji
-
-permalink: /:year/:month/:day/:title/
+permalink: /:title/
 
 defaults:
   -
@@ -21,7 +21,7 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 6
+  limit: 12
   exclude:
     forks: false
     projects:
@@ -50,6 +50,11 @@ social_media:
   # youtube: your_username
 
 topics:
+  
+  - name: JavaScript
+    web_url: https://github.com/topics/javascript
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png
+    
   - name: CSS
     web_url: https://github.com/topics/css
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
@@ -57,7 +62,3 @@ topics:
   - name: Python
     web_url: https://github.com/topics/python
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png
-
-  - name: JavaScript
-    web_url: https://github.com/topics/javascript
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png
