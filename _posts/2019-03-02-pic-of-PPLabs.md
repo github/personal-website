@@ -27,6 +27,6 @@ tags: [非招聘内容]
 ![ball fighting](/assets/pics/ball-fighting.png)
 
 #### PPIO篮球队
-<img src='/assets/pics/basketball-team.JPG' alt="" title="篮球队">
+<img src="/assets/pics/basketball-team.JPG" alt="basketball" title="篮球队">
 
 不会美图，大家见谅，轻喷
