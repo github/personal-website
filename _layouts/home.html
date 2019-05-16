@@ -21,7 +21,7 @@
         {% include interests.html %}
       </div>
     {% endif %}
-
+{% include backToTop.html %}
   </div>
 {% else %}
   <div class="d-md-flex min-height-full {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
@@ -53,7 +53,7 @@
         {% endif %}
       </div>
     </div>
+    {% include backToTop.html %}
   </div>
 {% endif %}
-
 {% include footer.html %}

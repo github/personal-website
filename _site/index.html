@@ -227,8 +227,58 @@
         
       </div>
     </div>
+    <style media="screen">
+  .scroll {
+    z-index: 10000;
+    display: none;
+    height: 60px;
+    width: 60px;
+    background:url("../../../../../assets/img/top.png") no-repeat 4px 5px;
+    background-size: 50px 50px;
+    color: #222;
+    line-height: 24px;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+</style>
+<div class="scroll">
+  <div style ="padding-top: 70%;padding-left: 10px;">
+    <span class="scrollpercent" style="margin-left: -2px"></span>
+    <span style="margin-left: -4px; margin-right: 4px">%</span>
   </div>
+</div>
 
+<script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script src="/assets/js/util.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    if (utils.isMobile()) {
+      $('.scroll').hide();
+      return;
+    }
+    $(window).scroll(function() {
+      let scrollValue = $(window).scrollTop();
+
+      var scrollPercentRounded = Math.round((scrollValue / utils.getContentVisibilityHeight()) * 100);
+      var scrollPercentMaxed = (scrollPercentRounded > 100) ? 100 : scrollPercentRounded;
+
+      $('.scrollpercent').html(scrollPercentMaxed);
+      scrollValue > 100 ? $('.scroll').fadeIn() : $('.scroll').fadeOut();
+    });
+
+    $('.scroll').click(function() {
+      $('html, body').animate({
+        scrollTop: 0
+      }, 300);
+    })
+  })
+</script>
+
+  </div>
 
 <footer class="g-footer">
   <section> Ash在招聘 ©
