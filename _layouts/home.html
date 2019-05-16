@@ -5,21 +5,16 @@
     <div {% if site.style == 'dark' %}class="text-white"{% endif %}>
       {{ content }}
     </div>
-
-    <!-- <div class="my-6">
-      {% include projects.html %}
-    </div> -->
-    {% include 3d-tags.html %}
+    {% unless posts_total > 5 %}
+    <div class="my-6">
+      {% include 3d-tags.html %}
+    </div>
+    {% endunless %}
+    {% unless posts_total == 0 %}
     <div class="my-6">
       {% include categories.html %}
     </div>
-
-    <!-- {% unless posts_total == 0 %}
-      <div class="my-6">
-        {% include thoughts.html %}
-      </div>
-    {% endunless %} -->
-    <hr/>
+    {% endunless %}
     <hr/>
     {% if site.topics %}
       <div class="my-6">
@@ -40,20 +35,22 @@
             {{ content }}
           </div>
         {% endunless %}
-        {% include 3d-tags.html %}
-        <!-- {% include projects.html %} -->
+        {% unless posts_total > 5 %}
+        <div class="my-6">
+          {% include 3d-tags.html %}
+        </div>
+        {% endunless %}
+        {% unless posts_total == 0 %}
         <div class="my-6">
           {% include categories.html %}
         </div>
-        <!-- {% unless posts_total == 0 %}
-          {% include thoughts.html %}
-        {% endunless %} -->
-        <hr/>
-        <hr/>
-        {% if site.topics %}
+        {% endunless %}
+      <hr/>
+      {% if site.topics %}
+        <div class="my-6">
           {% include interests.html %}
+        </div>
         {% endif %}
-
       </div>
     </div>
   </div>

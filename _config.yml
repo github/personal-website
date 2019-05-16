@@ -46,7 +46,7 @@ social_media:
 
 topics:
   - name: PPIO
-    web_url: https://pp.io/?ash
+    web_url: https://pp.io/?from=ash
     image_url: https://media.licdn.com/dms/image/C510BAQGJ0BNE7Zoa4g/company-logo_100_100/0?e=1562803200&v=beta&t=C9_auklRbeDzA9Wj_QJmbEw_1mAkXT5smYXjY23qkYk
 
   - name: We are hiring
