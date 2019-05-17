@@ -9,6 +9,9 @@
       <h3 class="f00-light lh-condensed">{{ page.title }}</h3>
       <p class="{% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %} mb-5">Published {{ page.date | date: "%b %d, %Y"}}</p>
       {{ content }}
+      <br>
+      <p class="f5"><a href="/" class="d-flex flex-items-center {% if site.style == 'dark' %}text-white{% endif %}">{% octicon chevron-left height:26 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Home %}Back to Home</a></p>
+      <div id="commento"></div>
       <div id="commento"></div>
       <script src="https://cdn.commento.io/js/commento.js"></script>
       {% include backToTop.html %}
@@ -27,6 +30,8 @@
             <h3 class="f00-light lh-condensed">{{ page.title }}</h3>
             <p class="{% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %} mb-5">Published {{ page.date | date: "%b %d, %Y"}}</p>
             {{ content }}
+            <br>
+            <p class="f4"><a href="/" class="d-flex flex-items-center {% if site.style == 'dark' %}text-white{% endif %}">{% octicon chevron-left height:26 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Home %}Back to Home</a></p>
             <div id="commento"></div>
             <script src="https://cdn.commento.io/js/commento.js"></script>
             {% include backToTop.html %}
