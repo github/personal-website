@@ -41,5 +41,3 @@ tags: [非招聘内容]
 - [拉勾网](https://www.lagou.com/gongsi/j443505.html)
 - [猎聘网](https://www.liepin.com/company/9566183)
 - 邮箱直达HR： ash@pplabs.org
-
-#### [返回主页](https://ashma.info)
