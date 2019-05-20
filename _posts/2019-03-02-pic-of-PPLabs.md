@@ -32,6 +32,9 @@ tags: [非招聘内容]
 #### PPIO篮球队
 <img src="/assets/pics/basketball-team.jpg" alt="basketball" title="篮球队" width="auto">
 
+#### PPLabs满一周岁
+![一周岁英雄墙](/assets/pics/the-first-anniversary.png)
+
 <hr/>
 ……更多精彩等待后续
 #### [返回主页](https://ashma.info)
