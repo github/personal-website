@@ -1,1 +1,6 @@
-/_site
+*.gem
+.bundle
+.sass-cache
+_site/
+Gemfile.lock
+**/.ruby-version
