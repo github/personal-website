@@ -184,6 +184,36 @@ While you can define a `layout` in the front matter, your website is pre-configu
 
 Jekyll's conventions for authoring and managing blog posts is very flexible. You can [learn more in Jekyll's documentation for "Posts."](https://jekyllrb.com/docs/posts/)
 
+#### Post Comments
+
+To enable comments on your posts edit `_config.yml` and un-comment the `post_comments` section. 
+
+**Note:** By default, [Disqus](https://disqus.com/) and [CommentBox](https://commentbox.io) are supported from within the `post` layout.
+
+```yaml
+post_comments:
+  service: commentbox.io
+```
+
+Then, open `_data/comments.yml` and enter your identifier for your service. 
+
+* For **commentbox.io**, this is the indentifier provided after you create a new site. _ie: `1234567890123456-proj`_
+* For **disqus**, this is the custom domain they provide you. _ie: `my-domain-net.disqus.com`._
+
+```yaml
+commentbox.io:
+  identifier: XXXXXXXXXXXXXXXX-proj
+```
+
+In order to actually get the comments to display on a post, you need to add the `comments` entry to your posts [front matter](https://jekyllrb.com/docs/front-matter/).
+
+```
+---
+title: "My Blog Post"
+comments: true
+---
+```
+
 ## Content and templates
 
 To give you a sound foundation to start your personal website, your repository includes a handful of "includes" -- dynamic `.html` files that are re-used throughout your website. They're all stored in the `/_includes/` directory.
