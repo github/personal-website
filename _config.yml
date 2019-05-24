@@ -24,7 +24,8 @@ projects:
   #   - stars
   limit: 12
   exclude:
-    forks: false
+    archived: false
+    forks: true
     projects:
     # - repo-name
 
@@ -40,6 +41,7 @@ social_media:
   # instagram: your_username
   # keybase: your_username
   # linkedin: your_username
+  # mastodon: your_username
   # medium: your_username
   # telegram: your_username
   # unsplash: your_username
