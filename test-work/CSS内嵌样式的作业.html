@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>CSS内嵌样式的作业</title>
+  <style type="text/css">
+    @keyframes gooo {
+      100% {
+        border: 2px double red;
+        transform: scale(1.2);
+      }
+    }
+
+    .pic {
+      max-width: 200px;
+      max-height: 200px;
+      clear: both;
+      display: block;
+      margin: 0 auto;
+      border: 2px double yellow;
+    }
+
+    .pic:hover {
+      animation: gooo 1s linear;
+    }
+  </style>
+</head>
+
+<body>
+  <div align="center">
+    <h1>关于《火影忍者》</h1>
+  </div>
+  <div>
+    <img class="pic" src="naruto.jpg" alt="火影忍者">
+  </div>
+  <pre><h1 align="center">This is naruto！！！</h1></pre>
+</body>
+
+</html>

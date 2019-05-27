@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>CSS定位与布局作业</title>
+  <style type="text/css">
+    div {
+      margin: 0 auto;
+      width: 300px;
+      height: 300px;
+      background-color: black;
+      position: relative;
+      z-index: 2;
+    }
+
+    .one {
+      width: 50px;
+      height: 50px;
+      background-color: red;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: 0;
+    }
+
+    .two {
+      width: 50px;
+      height: 50px;
+      background-color: red;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+
+    .three {
+      width: 50px;
+      height: 50px;
+      background-color: red;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
+
+    .four {
+      width: 50px;
+      height: 50px;
+      background-color: red;
+      position: absolute;
+      right: 0px;
+      bottom: 0px;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <div class="one">1</div>
+    <div class="two">2</div>
+    <div class="three">3</div>
+    <div class="four">4</div>
+  </div>
+</body>
+
+</html>
