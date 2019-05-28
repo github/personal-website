@@ -23,6 +23,7 @@ projects:
   #   - stars
   limit: 9
   exclude:
+    archived: false
     forks: false
     projects:
     # - repo-name
