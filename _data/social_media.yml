@@ -44,7 +44,7 @@ mastodon:
 matrix:
   name: Matrix
   profile_url_prefix: https://matrix.to/#/@
-  icon_svg: '<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN""http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 900.000000 900.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,900.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none"> <path d="M1900 4500 l0 -2600 2600 0 2600 0 0 2600 0 2600 -2600 0 -2600 0 0 -2600z m4700 -95 l0 -2235 -390 0 -390 0 0 690 0 690 55 0 55 0 0 955 0 955 -55 0 -55 0 0 590 0 590 390 0 390 0 0 -2235z m-3520 75 l0 -930 -75 0 -75 0 0 930 0 930 75 0 75 0 0 -930z"/></g></svg>'
+  icon_svg: '<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN""http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 900.000000 900.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,900.000000) fill="#000000" stroke="none"> <path d="M1900 4500 l0 -2600 2600 0 2600 0 0 2600 0 2600 -2600 0 -2600 0 0 -2600z m4700 -95 l0 -2235 -390 0 -390 0 0 690 0 690 55 0 55 0 0 955 0 955 -55 0 -55 0 0 590 0 590 390 0 390 0 0 -2235z m-3520 75 l0 -930 -75 0 -75 0 0 930 0 930 75 0 75 0 0 -930z"/></g></svg>'
 
 medium:
   name: Medium
