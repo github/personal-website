@@ -19,6 +19,7 @@
   </head>
   <body>
     <div>
+      <p class="f5"><a href="/" class="d-flex flex-items-center {% if site.style == 'dark' %}text-white{% endif %}">{% octicon chevron-left height:26 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Home %}主页</a></p>
       <h4 align=center>我的微信号码是：mashoushan，添加时请备注姓名</h4>
       <h4 align=center>或者保存下面图片，使用微信扫描添加</h4>
       <h4 align=center>添加时请务必备注姓名</h4>
@@ -26,3 +27,4 @@
     </div>
   </body>
 </html>
+{% include footer.html %}
