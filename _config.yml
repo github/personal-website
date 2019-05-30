@@ -43,7 +43,7 @@ social_media:
   # vk: your_username
   website: http://ashma.info
   # youtube: your_username
-  WeChat: /?请备注姓名喔
+  WeChat:
 
 topics:
   - name: PPIO官网
