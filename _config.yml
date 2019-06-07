@@ -1,23 +1,36 @@
 layout: sidebar
-style: dark
+style: light
 
-projects: 
-  - exclude: 
-      forks: true
+repositories:
+  - name: QuickBuy
+    description: Mini amazon for low volume internet sales. Built with React, Apollo GraphQL, GraphQL Yoga & Prisma
+    web_url: https://github.com/temilolu/QuickBuy
+
+  - name: OneBnB
+    description: Enhancing local experiences through home sharing built in React.
+    web_url: https://github.com/temilolu/oneBnB
+
+  - name: OnePress
+    description: Reverse engineering wordpress.com by building a similar full-stack version with Vue/firebase.
+    web_url: https://github.com/temilolu/onepress
+
+  - name: OneFleet
+    description: Logistic management platform for asset tracking build in Angular
+    web_url: https://github.com/temilolu/onefleet
+
+  - name: OneTelegram
+    description: Telegram web client built in react, redux and unit tested in jest
+    web_url: https://github.com/temilolu/onetelegram
+
+  - name: OneTask
+    description: Organize your daily experience with Todist look alike
+    web_url: https://github.com/temilolu/onetask
 
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
 
 permalink: /:year/:month/:day/:title/
-
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts"
-    values:
-      layout: "post"
 
 topics:
   - name: Express
@@ -28,43 +41,6 @@ topics:
     web_url: https://github.com/topics/javascript
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/javascript/javascript.png
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
-
   - name: React
     web_url: https://github.com/topics/react
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/react/react.png
-
-  - name: Vue
-    web_url: https://github.com/topics/vue
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/vue/vue.png
-
-  - name: Clojure
-    web_url: https://github.com/topics/clojure
-    image_url: https://raw.githubusercontent.com/github/explore/a4f50275e9736bcd9f255084c4908627f5dd9069/topics/clojure/clojure.png
-
-  - name: Express
-    web_url: https://github.com/topics/express
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/express/express.png
-
-designs:
-  - name: Close
-    web_url: https://temilolu.github.io/close/
-    image_url: https://res.cloudinary.com/temity/image/upload/v1553774061/Screenshot_2019-03-28_00.45.44.png
-
-  - name: Fixouroil
-    web_url: http://fixouroil.com/
-    image_url: https://res.cloudinary.com/temity/image/upload/v1553774971/Screenshot_2019-03-28_13.08.48.png
-
-  - name: BudgIT
-    web_url: http://yourbudgit.com
-    image_url: https://res.cloudinary.com/temity/image/upload/v1553775079/Screenshot_2019-03-28_13.10.26.png
-
-
-social_media:
-  behance: your_username
-  hackerrank: your_username
-  linkedin: your_username
-  stackoverflow: your_user_id
-  twitter: tayo_lolu
