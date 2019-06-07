@@ -12,17 +12,15 @@
       {% include projects.html %}
     </div>
 
+
+
     {% if site.topics %}
       <div class="my-6">
         {% include interests.html %}
       </div>
     {% endif %}
 
-    {% unless posts_total == 0 %}
-      <div class="my-6">
-        {% include thoughts.html %}
-      </div>
-    {% endunless %}
+   }
   </div>
 {% else %}
   <div class="d-md-flex {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
@@ -40,13 +38,15 @@
 
         {% include projects.html %}
 
+       
+
         {% if site.topics %}
           {% include interests.html %}
         {% endif %}
 
-        {% unless posts_total == 0 %}
-          {% include thoughts.html %}
-        {% endunless %}
+      
+
+        
       </div>
     </div>
   </div>

@@ -1,7 +1,34 @@
 layout: sidebar
 style: light
 
+<<<<<<< HEAD
 encoding: UTF-8
+=======
+repositories:
+  - name: QuickBuy
+    description: Mini amazon for low volume internet sales. Built with React, Apollo GraphQL, GraphQL Yoga & Prisma
+    web_url: https://github.com/temilolu/QuickBuy
+
+  - name: OneBnB
+    description: Enhancing local experiences through home sharing built in React.
+    web_url: https://github.com/temilolu/oneBnB
+
+  - name: OnePress
+    description: Reverse engineering wordpress.com by building a similar full-stack version with Vue/firebase.
+    web_url: https://github.com/temilolu/onepress
+
+  - name: OneFleet
+    description: Logistic management platform for asset tracking build in Angular
+    web_url: https://github.com/temilolu/onefleet
+
+  - name: OneTelegram
+    description: Telegram web client built in react, redux and unit tested in jest
+    web_url: https://github.com/temilolu/onetelegram
+
+  - name: OneTask
+    description: Organize your daily experience with Todist look alike
+    web_url: https://github.com/temilolu/onetask
+>>>>>>> master
 
 plugins:
   - jekyll-octicons
@@ -9,21 +36,15 @@ plugins:
 
 permalink: /:year/:month/:day/:title/
 
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts"
-    values:
-      layout: "post"
-
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: Express
+    web_url: https://github.com/topics/express
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/express/express.png
 
-  - name: Web design
+  - name: JavaScript
+    web_url: https://github.com/topics/javascript
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/javascript/javascript.png
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: React
+    web_url: https://github.com/topics/react
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/react/react.png
