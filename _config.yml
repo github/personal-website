@@ -1,6 +1,9 @@
 layout: sidebar
 style: light
 
+<<<<<<< HEAD
+encoding: UTF-8
+=======
 repositories:
   - name: QuickBuy
     description: Mini amazon for low volume internet sales. Built with React, Apollo GraphQL, GraphQL Yoga & Prisma
@@ -25,6 +28,7 @@ repositories:
   - name: OneTask
     description: Organize your daily experience with Todist look alike
     web_url: https://github.com/temilolu/onetask
+>>>>>>> master
 
 plugins:
   - jekyll-octicons
