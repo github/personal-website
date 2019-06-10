@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style type="text/css">
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 50px;
+      height: 50px;
+      position: fixed;
+      left: 15px;
+      bottom: 15px;
+      z-index: 10;
+    }
+
+    .box {
+      width: 50px;
+      height: 50px;
+      /* 控制子元素保持3D转换 */
+      transform-style: preserve-3d;
+      /* 测试代码 */
+      /* transform: rotateX(45deg) rotateY(45deg); */
+      animation: ro 10s linear infinite;
+
+    }
+
+    @keyframes ro {
+      0% {
+        transform: rotateX(0deg) rotateZ(0deg)rotateZ(0deg);
+      }
+
+      100% {
+        transform: rotateX(720deg) rotateZ(360deg)rotateZ(-720deg);
+      }
+    }
+
+    .box-page {
+      width: 50px;
+      height: 50px;
+      border : 1px solid #000;
+      background-color: white;
+      /* 位置初始化 */
+      position: absolute;
+      transform-style: preserve-3d;
+    }
+
+    .top {
+      /* background-color: red; */
+      transform: translateZ(25px);
+    }
+
+    .bottom {
+      /* background-color: yellow; */
+      transform: translateZ(-25px) rotateX(180deg);
+    }
+
+    .left {
+      /* background-color: blue; */
+      transform: translateX(-25px) rotateY(90deg);
+    }
+
+    .right {
+      /* background-color: green; */
+      transform: translateX(25px) rotateY(90deg);
+    }
+
+    .before {
+      /* background-color: gray; */
+      transform: translateY(25px) rotateX(-90deg);
+    }
+
+    .back {
+      /* background-color: orange; */
+      transform: translateY(-25px) rotateX(90deg);
+    }
+    .text{
+      text-align: center;
+      font-size: 14px;
+    }
+    .text:link {
+    color: #000000;
+    text-decoration: none
+    }
+    .text:visited {
+    color: #000000;
+    text-decoration: none
+    }
+    .text:hover {
+    color: red;
+    font-size: 110%;
+    text-decoration: none;
+    }
+    .text:active {
+    color: #ff7f24;
+    text-decoration: none;
+    }
+
+  </style>
+</head>
+
+<body>
+  <!-- 容器 -->
+  <div class="container">
+    <div class="box">
+      <div class="box-page top"><a class="text" href="https://www.gerensuodeshui.cn/index_fun.html">个税计算器</a></div>
+      <div class="box-page bottom"><a class="text" href="https://getlantern.org/en_US/index.html">推荐个梯子</a></div>
+      <div class="box-page left"><a class="text" href="http://mebook.cc/">免费书籍单</a></div>
+      <div class="box-page right"><a class="text" href="https://get.black1ce.com/">黑冰工具箱</a></div>
+      <div class="box-page before"><a class="text" href="https://learngitbranching.js.org/">学习Git</a></div>
+      <div class="box-page back"><a class="text" href="https://commento.io/">网站评论</a></div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    var arr = document.querySelectorAll(".box-page");
+    // 遍历每个面
+    for (var n = 0; n < arr.length; n++) {
+      var divs = document.createElement("div");
+      divs.style.cssText = "width:50px;height:50px;box-sizing:border-box;background-size:50px 50px;position:absolute;";
+      arr[n].appendChild(divs);
+    }
+  </script>
+</body>
+
+</html>
