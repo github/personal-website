@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML Academy: Мишка</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <script>
+      // Picture element HTML5 shiv
+      document.createElement( "picture" );
+    </script>
+    <script src="js/picturefill.min.js" async></script>
+  </head>
+  <body>
+    <header class="page-header page-header--catalog">
+      <nav class="main-nav">
+        <div class="main-nav__wrapper">
+          <div class="main-nav__wrap-logo">
+            <a href="index.html">
+              <picture>
+                <source media="(min-width: 1150px)" srcset="img/mishka-logo-desktop.svg">
+                <source media="(min-width: 768px)" srcset="img/mishka-logo-tablet.svg">
+                <img src="img/mishka-logo-mobile.svg" alt="Мишка">
+              </picture>
+            </a>
+
+            <button class="main-nav__toggle  main-nav__toggle--closed" type="button">Открыть меню</button>
+          </div>
+
+          <ul class="main-nav__list main-nav__list--closed">
+            <li class="main-nav__item  main-nav__item--catalog">
+              <a>Каталог товаров</a>
+            </li>
+            <li class="main-nav__item  main-nav__item--order">
+              <a href="form.html">Вязание на заказ</a>
+            </li>
+            <li class="main-nav__item  main-nav__item--search">
+              <a href="#">Поиск по сайту</a>
+            </li>
+            <li class="main-nav__item  main-nav__item--cart">
+              <a href="#">Корзина: пока пуста</a>
+            </li>
+            <li class="main-nav__item  main-nav__item--new">
+              <a href="#">Новые поступления</a>
+            </li>
+            <li class="main-nav__item  main-nav__item--sale">
+              <a href="#">Распродажа</a>
+            </li>
+            <li class="main-nav__item  main-nav__item--hidden">
+              <span>Бесплатная доставка по России</span>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <h1 class="page-header__title  page-header__title--catalog">Каталог товаров</h1>
+    </header>
+
+    <main class="page-catalog">
+      <section class="catalog">
+        <article class="catalog__item  catalog-item">
+          <div class="catalog-item__img">
+            <picture>
+              <source media="(min-width: 1150px)" srcset="img/photo-1-desktop.jpg">
+              <source media="(min-width: 768px)" srcset="img/photo-1-tablet.jpg">
+              <img src="img/photo-1-mobile.jpg" width="260" height="195" alt="Зайчик-попрыгайчик">
+            </picture>
+          </div>
+
+          <a href="#" class="catalog-item__description">
+            <h2 class="catalog-item__name">Зайчик-попрыгайчик</h2>
+            <span class="catalog-item__parameters">Рост 30 см, вес 200 г</span>
+            <span class="catalog-item__price">1 200 pуб.</span>
+          </a>
+        </article>
+
+        <article class="catalog__item  catalog-item">
+          <div class="catalog-item__img">
+            <picture>
+              <source media="(min-width: 1150px)" srcset="img/photo-2-desktop.jpg">
+              <source media="(min-width: 768px)" srcset="img/photo-2-tablet.jpg">
+              <img src="img/photo-2-mobile.jpg" width="260" height="195" alt="Корзинка для белья">
+            </picture>
+          </div>
+
+          <a href="#" class="catalog-item__description">
+            <h2 class="catalog-item__name">Корзинка для белья</h2>
+            <span class="catalog-item__parameters">Диаметр 15 см, высота 10 см</span>
+            <span class="catalog-item__price">690 pуб.</span>
+          </a>
+        </article>
+
+        <article class="catalog__item  catalog-item">
+          <div class="catalog-item__img">
+            <picture>
+              <source media="(min-width: 1150px)" srcset="img/photo-3-desktop.jpg">
+              <source media="(min-width: 768px)" srcset="img/photo-3-tablet.jpg">
+              <img src="img/photo-3-mobile.jpg" width="260" height="195" alt="Большая корзинка для игрушек">
+            </picture>
+          </div>
+
+          <a href="#" class="catalog-item__description">
+            <h2 class="catalog-item__name">Большая корзинка для игрушек</h2>
+            <span class="catalog-item__parameters">Диаметр 30 см, высота 30 см</span>
+            <span class="catalog-item__price">1 500 pуб.</span>
+          </a>
+        </article>
+
+        <article class="catalog__item  catalog-item  catalog-item--video">
+          <h2 class="catalog-item__name  catalog-item__name--video">Процесс производства</h2>
+          <div class="catalog-item__img  catalog-item__img--video">
+            <picture>
+              <source media="(min-width: 1150px)" srcset="img/video-desktop.jpg">
+              <source media="(min-width: 768px)" srcset="img/video-tablet.jpg">
+              <img src="img/play.jpg" width="260" height="150" alt="Процесс производства">
+            </picture>
+          </div>
+
+          <p class="catalog-item__content">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
+
+          <a class="btn  btn--catalog" href="#">Сделать заказ</a>
+        </article>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <div class="page-footer__wrapper">
+        <a href="index.html" class="page-footer__logo">
+          <svg class="page-footer__logo-mishka" id="mishka-logo-mobile" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="32.5 20.2 85.6 35" style="enable-background:new 32.5 20.2 85.6 35;" xml:space="preserve">
+            <g>
+              <path d="M36.6,46.5c0-3.5-0.3-6.9-0.4-10.4c0-0.3,0-0.7,0-1c0,0.1,0.1,0.2,0.1,0.4c0.5,1.4,1.1,2.7,1.8,3.9
+                c0.7,1.2,1.1,2.6,1.5,3.9c-0.2,0.2-0.3,0.4-0.2,0.6c0,0.2,0.1,0.2,0.2,0.3c0.5,0.5,1.5,0.2,2.1,0c0.2-0.1,0.5-0.2,0.7-0.4
+                c0.3-0.2,0.7-0.6,0.6-1c0-0.1,0-0.2-0.1-0.2c0.4-1.1,0.6-2.2,0.8-3.3c0.2-1.2,0.7-2.3,1.1-3.5c0,0.5,0.1,1,0.1,1.6
+                c0.2,2.1,0,4.3,0,6.4c0,0.7,0,1.4,0.2,2.1c0.1,0.3,0.3,1.5,0.2,1.6c-0.5,0.5-0.4,1.1,0.3,1.2c0.8,0.2,1.8-0.1,2.3-0.6
+                c1-0.9,0.5-2.4,0.3-3.6c-0.4-2,0.1-4.2,0-6.2c-0.1-2.3-0.4-4.5-0.4-6.8c0-1.8,0.3-3.7-0.3-5.5c0-0.2,0.1-0.4,0.1-0.6
+                c0.2-0.9-2.8-0.4-3.2,0.4c-0.3,0.2-0.4,0.5-0.3,0.8c0,0.1,0.1,0.1,0.1,0.2c-0.6,2.7-1.3,5.3-2.2,7.9c-0.3,1-0.7,2-1.1,3
+                c-0.5-0.9-1-1.9-1.4-2.8c-1.2-2.9-2.2-5.8-3.6-8.6c0.2-1.3-2.7-1.2-3.3,0c-0.7,1.4-0.6,2.9-0.4,4.4c0.3,1.7,0.3,3.4,0.3,5.1
+                c0,3.3,0.3,6.7,0.4,10c-0.3,0.3-0.4,0.7-0.1,1.2c0.1,0.2,0.3,0.3,0.5,0.5C34.5,48.2,36.6,47.7,36.6,46.5z"/>
+              <path d="M54.8,28.1c-0.1-0.6-3.4,0.1-3.3,0.9c0.3,1.8,0.2,3.6,0.1,5.4c0,1.7,0.4,3.3,0.6,5c0.2,1.7-0.1,3.5,0.1,5.2
+                c0.1,0.8,0.6,2.3,0.1,3c-0.4,0.4,1.2,0.3,1.3,0.3c0.6-0.1,1.5-0.3,1.9-0.9c0.6-0.7,0.2-2,0-2.8c-0.3-1.7-0.1-3.5-0.2-5.3
+                c-0.1-1.7-0.6-3.3-0.7-4.9C55,32,55.1,30.1,54.8,28.1z"/>
+              <path d="M58,34.8c0.9,2.5,4.6,1.3,6.6,1.5c3.2,0.2,2.3,4.6,2.3,6.6c0,1.1,1,2.9,0.2,3.8c-0.5,0.6-1.7,0.6-2.4,0.6
+                c-0.7,0.1-1.9,0.3-2.3-0.4c-0.8-1.2,0.1-3.2-0.1-4.6c-0.1-0.8-3.4-0.1-3.3,0.9c0.3,2.2-1.2,5.2,2,5.6c2.1,0.2,4.4-0.1,6.3-0.8
+                c1-0.3,1.9-0.8,2.7-1.5c0.9-0.8,0.6-2,0.4-3c-0.6-2.5,0.6-5.3-1-7.5c-1.7-2.3-5-0.7-7.2-1.3C61,34.5,61,32.9,61,31.9
+                c0-1.2-0.1-2.3-0.2-3.5c-0.1-0.9,0-1.8,0.6-2.4c0.1-0.1,0.7-0.3,0.7-0.3c0.3-0.1,0.6-0.1,0.9-0.1c1.3-0.1,3.9,0.2,3.4,2.1
+                c-0.2,0.9,3,0.4,3.3-0.5c1-3.9-6.1-3.1-8.2-2.6c-1.9,0.5-3.9,1.6-4,3.7c-0.1,1,0.2,2,0.3,3C57.8,32.5,57.5,33.7,58,34.8z"/>
+              <path d="M72.4,36.7c-0.1,1.8-0.2,3.6-0.2,5.4c0,0.9,0.1,1.8,0.3,2.8c0.1,0.8,0.4,2,0.2,2.8c-0.2,0.6,3,0.2,3.3-0.6
+                c0.5-1.5-0.2-3.4-0.3-4.9c-0.1-1.5,0-2.9,0.1-4.4c1.7-0.1,3.4-0.2,5.1,0c0.1,1.2,0.2,2.3,0.3,3.5c0.1,1,0.2,1.9,0.2,2.9
+                c0,0.9,0.1,2.1-0.2,2.9c-0.7,1.7,2.7,1.6,3.1,0.3c0.6-1.6,0.4-3.5,0.3-5.2C84.3,40,84,38,84,35.9c-0.1-3.2-0.6-6.3-0.6-9.5
+                c0-1.7-3.3-1.1-3.3,0.3c0,3,0.4,6,0.6,9.1c0,0.1,0,0.1,0,0.2c-1.6,0-3.3,0.1-4.9,0.2c0.2-3.9-0.5-7.8-0.4-11.7
+                c0-0.5-3.3-0.1-3.3,0.9C71.9,29.2,72.5,32.9,72.4,36.7z"/>
+              <path d="M86.5,42c-0.3,0.3-0.2,0.4,0,0.5c0,1.5,0,2.9-0.2,4.4c-0.4,0.6,0.4,1,0.9,1c0,0,0.1,0,0.1,0c0.6,0,2.2-0.3,2.3-1.1
+                c0.2-1.8,0.2-3.5,0.2-5.3c1.3-1.4,2.4-3.1,3.4-4.7c0.6,1.2,1.2,2.5,1.7,3.9c0.7,2.3,1.9,4.4,2.6,6.8c0.5,1.5,3.8,0.6,3.3-0.9
+                c-0.7-2.3-1.9-4.5-2.6-6.8c-0.8-2.3-2-4.4-3-6.6c0.8-1.6,1.7-3.3,2.5-5c0.7-1.5,1.2-3.2,2.6-4.3c0.5-0.4,0.5-0.8-0.2-0.8
+                c-0.7-0.1-1.7,0.2-2.3,0.6c-1.2,1-2,2.2-2.7,3.6c-0.8,1.7-1.6,3.4-2.5,5.1c-0.1,0.1-0.1,0.2-0.2,0.4c-0.4,0.3-0.7,0.6-0.5,1.1
+                c-0.7,1.3-1.3,2.6-2.1,3.9c-0.3-4.7-0.8-9.3-1-14c0-1.1-3.3-0.4-3.3,0.9C85.7,30.4,86.5,36.2,86.5,42C86.5,42,86.5,42,86.5,42z"/>
+              <path d="M118,35.8c-0.2-0.7-1.2-0.7-1.9-0.6c0-0.3,0-0.6,0-0.8c-0.1-2.2-0.1-4.5-0.3-6.8c-0.2-2.1-1.3-2.8-3.3-2.7
+                c-2,0.1-4.4,0.4-6.3,1.2c-2.2,0.9-3.4,2.5-3.8,4.8c-0.5,2.5,0.2,5.2,0.3,7.8c0.1,3,0.1,5.9,0.1,8.9c0,0.5,3.3,0,3.3-0.9
+                c0-2.3,0-4.7,0-7c0-0.7,0-1.4-0.1-2.1c1.2-0.5,3.1,0,4.3,0.1c0.9,0.1,1.8-0.1,2.7-0.2c0,1.9,0.1,3.9,0.2,5.9c0,1,0.4,3-0.3,3.8
+                c-0.4,0.4,1.2,0.3,1.3,0.3c0.7-0.1,1.5-0.3,1.9-0.9c0.8-0.9,0.4-3.2,0.3-4.3c-0.1-1.6-0.1-3.2-0.1-4.8
+                C117.1,37.1,118.2,36.5,118,35.8z M111.4,35.6c-1.9,0-3.8-0.3-5.7,0c-0.1-1.1-0.2-2.1-0.3-3.2c-0.1-2,0.1-4.7,1.9-5.9
+                c0.5-0.3,1.4-0.3,2-0.4c0.8-0.1,1.6-0.3,2.4,0.2c1,0.7,0.8,3.1,0.8,4.1c0,1.7,0.2,3.4,0.3,5.1C112.3,35.6,111.8,35.6,111.4,35.6z"
+                />
+              <path d="M51.2,24.3c0,0.2,0,0.4,0.1,0.5c0,0,0,0.1,0,0.1c0,0.1,0,0.2,0,0.3c0.1,0.2,0.2,0.3,0.4,0.4c0.3,0.2,0.7,0.2,1.1,0.2
+                c0.4,0,0.9-0.2,1.2-0.4c0.1-0.1,0.1-0.1,0.2-0.2c0.4-0.3,0.8-0.7,0.6-1.1c-0.4-0.9-0.4-1.9-0.3-2.9c0-0.8-0.8-1.1-1.5-1
+                c-0.6,0.1-1.8,0.5-1.8,1.3c0,0.8-0.1,1.7,0.1,2.5C51.2,24.1,51.2,24.2,51.2,24.3z"/>
+              </g>
+            <g class="page-footer__logo  page-footer__logo--line">
+              <path d="M112.7,53.5c-1.6-0.6-3.3-0.6-4.9-0.8c-1.6-0.2-3.2-0.4-4.9-0.6c-1.6,0.1-3.3,0-5,0.1l-4.9,0.3c-6.5,0.3-13,0.3-19.5,0.1
+              c-6.5-0.1-13-0.5-19.6-0.5c-3.3,0-6.6,0.1-9.9,0.2c-1.6,0.3-3.2,0.5-4.9,0.9c-1.6,0.4-3.1,0.9-4.8,1c1.6,0.4,3.3,0.3,5,0.3
+              c1.6,0,3.2,0.1,4.9,0.2c3.2-0.2,6.5-0.2,9.7-0.3c6.5,0,13,0.3,19.6,0.5c6.5,0.1,13.1,0.2,19.7-0.1l4.9-0.3c1.6-0.1,3.2-0.1,4.8-0.1
+              c1.6-0.1,3.3-0.3,4.9-0.5c1.7-0.2,3.2-0.6,4.9-0.5l0.1,0l0-0.1c0-0.2,0-0.3,0-0.5C112.8,53.3,112.8,53.4,112.7,53.5z"/>
+            </g>
+          </svg>
+        </a>
+
+        <section class="page-footer__social">
+          <a href="#" class="page-footer__social-btn  page-footer__social-btn--inst">Инстаграм</a>
+          <a href="#" class="page-footer__social-btn  page-footer__social-btn--fb">Фейсбук</a>
+          <a href="#" class="page-footer__social-btn  page-footer__social-btn--tw">Твиттер</a>
+        </section>
+
+        <section class="page-footer__copyright">
+          Разработано
+          <a href="#">
+            <svg class="page-footer__logo-svg" width="27" height="34">
+              <use xlink:href="img/htmlacademy.svg#htmlacademy"></use>
+            </svg>
+          </a>
+        </section>
+      </div>
+    </footer>
+
+    <section class="modal-content">
+      <h2 class="modal-content__title">Добавить в корзину</h2>
+      <form class="modal-content__form" action="https://echo.htmlacademy.ru" method="post">
+        <p class="modal-content__form-title">Выберите размер:</p>
+
+        <input id="s" type="radio" name="size" checked>
+        <label for="s">S</label>
+
+        <input id="l" type="radio" name="size">
+        <label for="l">L</label>
+
+        <input id="m" type="radio" name="size">
+        <label for="m">M</label>
+
+        <button class="btn btn--modal-content" type="submit">Добавить</button>
+      </form>
+    </section>
+
+    <div class="modal-overlay"></div>
+
+    <script src="js/script.min.js"></script>
+  </body>
+</html>

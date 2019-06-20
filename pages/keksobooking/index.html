@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Keksobooking</title>
+</head>
+<body>
+<header class="header">
+  <h1 class="header__logo">KEKSOBOOKING</h1>
+  <h2 class="header__motto">Кексы по соседству</h2>
+</header>
+<main>
+  <section class="tokyo">
+    <img src="img/main.jpg" alt="Tokyo" width="1200" height="700">
+    <div class="tokyo__filters-container">
+      <form action="#" class="tokyo__filters" autocomplete="off">
+        <label><select name="housing_type" id="housing_type" class="tokyo__filter">
+          <option value="any" selected>Любой тип жилья</option>
+          <option value="flat">Квартира</option>
+          <option value="house">Дом</option>
+          <option value="bungalo">Сарай</option>
+        </select></label>
+        <label><select name="housing_price" id="housing_price" class="tokyo__filter">
+          <option value="any" selected>Любая</option>
+          <option value="middle">10000 - 50000&#x20bd;</option>
+          <option value="low">до 10000&#x20bd;</option>
+          <option value="high">от 50000&#x20bd;</option>
+        </select></label>
+        <label><select name="housing_room-number" id="housing_room-number" class="tokyo__filter">
+          <option value="any" selected>Любое число комнат</option>
+          <option value="1">Одна комната</option>
+          <option value="2">Две комнаты</option>
+          <option value="3">Три комнаты</option>
+        </select></label>
+        <label><select name="housing_guests-number" id="housing_guests-number" class="tokyo__filter">
+          <option value="any" selected>Любое число гостей</option>
+          <option value="1">Один гость</option>
+          <option value="2">Два гостя</option>
+        </select></label>
+        <fieldset id="housing_features" class="tokyo__filter-set">
+          <label class="feature">
+            <input type="checkbox" name="feature" value="wifi"><span
+            class="feature__image  feature__image--wifi"></span>
+          </label>
+          <label class="feature">
+            <input type="checkbox" name="feature" value="dishwasher"><span
+            class="feature__image  feature__image--dishwasher"></span>
+          </label>
+          <label class="feature">
+            <input type="checkbox" name="feature" value="parking"><span
+            class="feature__image  feature__image--parking"></span>
+          </label>
+          <label class="feature">
+            <input type="checkbox" name="feature" value="washer"><span
+            class="feature__image  feature__image--washer"></span>
+          </label>
+          <label class="feature">
+            <input type="checkbox" name="feature" value="elevator"><span
+            class="feature__image  feature__image--elevator"></span>
+          </label>
+          <label class="feature">
+            <input type="checkbox" name="feature" value="conditioner"><span
+            class="feature__image  feature__image--conditioner"></span>
+          </label>
+        </fieldset>
+      </form>
+    </div>
+    <div class="tokyo__pin-map">
+      <div class="pin  pin__main" tabindex="0"><img src="img/main-pin-image.png" alt="Main Pin" class="rounded" width="40" height="44"></div>
+    </div>
+    <div id="offer-dialog" class="dialog  hidden">
+      <div class="dialog__title"><img src="img/avatars/user01.png" alt="Avatar" width="70" height="70">
+        <a href="#" class="dialog__close" tabindex="0"><img src="img/close.svg" alt="close" width="22" height="22"></a>
+      </div>
+      <div class="dialog__panel">
+        <h3 class="lodge__title">Уютное гнездышко для молодоженов</h3>
+        <p class="lodge__address">102-0082 Tōkyō-to, Chiyoda-ku, Ichibanchō, 14−3</p>
+        <h3 class="lodge__price">5200&#x20bd;/ночь</h3>
+        <h4 class="lodge__type">Квартира</h4>
+        <p class="lodge__rooms-and-guests">2 комнаты для 3 гостей</p>
+        <p class="lodge__checkin-time">Заед после 14:00, выезд до 10:00</p>
+        <div class="lodge__features">
+          <span class="feature__image  feature__image--wifi"></span>
+          <span class="feature__image  feature__image--dishwasher"></span>
+          <span class="feature__image  feature__image--parking"></span>
+          <span class="feature__image  feature__image--washer"></span>
+          <span class="feature__image  feature__image--elevator"></span>
+          <span class="feature__image  feature__image--conditioner"></span>
+        </div>
+        <p class="lodge__description">Великолепная квартира-студия в центре Токио. Подходит как туристам, так и
+          бизнесменам. Квартира полностью укомплектована и имеет свежий ремонт.</p>
+        <div class="lodge__photos">
+          <img src="https://placehold.it/52x42" alt="Lodge photo" width="52" height="42">
+          <img src="https://placehold.it/52x42" alt="Lodge photo" width="52" height="42">
+          <img src="https://placehold.it/52x42" alt="Lodge photo" width="52" height="42">
+          <img src="https://placehold.it/52x42" alt="Lodge photo" width="52" height="42">
+          <img src="https://placehold.it/52x42" alt="Lodge photo" width="52" height="42">
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="notice">
+    <h2 class="notice__title">Ваше объявление</h2>
+    <div class="notice__header">
+      <div class="notice__description">Ваша фотография (для карты)</div>
+      <div class="notice__photo">
+        <div class="notice__preview"><img src="img/muffin.png" alt="User Avatar" width="40" height="44"></div>
+        <div class="drop-zone  upload">
+          <input type="file">
+          <span class="drop-zone">Загрузите или&nbsp;перетащите сюда фото</span>
+        </div>
+        <p class="notice__info">Заполните все обязательные поля, назначьте цену, загрузите фотографии. Придумайте интересное описание. Оно сделает объявление более живым и привлекательным. Получившееся объявление должно давать гостям полное представление о вашем жилье.</p>
+      </div>
+    </div>
+    <form class="notice__form"
+          action="https://1510.dump.academy/keksobooking"
+          method="post"
+          enctype="multipart/form-data"
+          autocomplete="off">
+      <div class="form__content">
+        <div class="form__panel">
+          <div class="form__element  form__element--wide">
+            <label for="title">Заголовок объявления</label>
+            <input id="title" name="title" type="text" placeholder="Милая, уютная квартирка, например" minlength="30" maxlength="100" required>
+          </div>
+          <div class="form__row">
+            <div class="form__element">
+              <label for="type">Тип жилья</label>
+              <select id="type" name="type">
+                <option value="flat" selected>Квартира</option>
+                <option value="bungalo">Лачуга</option>
+                <option value="house">Дом</option>
+                <option value="palace">Дворец</option>
+              </select>
+            </div>
+            <div class="form__element">
+              <label for="price">Цена за ночь, руб.</label>
+              <input id="price" name="price" type="number" placeholder="5000" value="1000" min="0" max="1000000" required>
+            </div>
+          </div>
+          <div class="form__row">
+            <div class="form__element">
+              <label for="room_number">Кол-во комнат</label>
+              <select id="room_number" name="rooms">
+                <option value="1" selected>1 комната</option>
+                <option value="2">2 комнаты</option>
+                <option value="3">3 комнаты</option>
+                <option value="100">100 комнат</option>
+              </select>
+            </div>
+            <div class="form__element">
+              <label for="capacity">Количество мест</label>
+              <select id="capacity" name="capacity">
+                <option value="3">для 3 гостей</option>
+                <option value="2">для 2 гостей</option>
+                <option value="1" selected>для 1 гостя</option>
+                <option value="0">не для гостей</option>
+              </select>
+            </div>
+          </div>
+          <div class="form__element  form__element--wide">
+            <label for="description">Описание (не обязательно)</label>
+            <textarea id="description" name="description" placeholder="Здесь расскажите о том, какое ваше жилье замечательное и вообще"></textarea>
+          </div>
+        </div>
+        <div class="form__panel">
+          <div class="form__element  form__element--wide">
+            <label for="address">Адрес</label>
+            <input id="address" name="address" type="text" placeholder="x: 600, y: 350" pattern="x: [0-9]{1,4}, y: [0-9]{1,3}" required>
+          </div>
+          <div class="form__row">
+            <div class="form__element">
+              <label for="timein">Время заезда и выезда</label>
+              <select id="timein" name="timein">
+                <option value="12:00" selected>После 12</option>
+                <option value="13:00">После 13</option>
+                <option value="14:00">После 14</option>
+              </select>
+            </div>
+            <div class="form__element">
+              <label for="timeout">&nbsp;</label>
+              <select id="timeout" name="timeout" title="Time to go out">
+                <option value="12:00" selected>Выезд до 12</option>
+                <option value="13:00">Выезд до 13</option>
+                <option value="14:00">Выезд до 14</option>
+              </select>
+            </div>
+          </div>
+          <div class="form__element">
+            <label>Удобства: wi-fi, кухня, парковка, стиралка, лифт, кондиционер</label>
+            <fieldset id="features" name="features">
+              <label class="feature">
+                <input type="checkbox" name="features" value="wifi"><span
+                class="feature__image  feature__image--wifi"></span>
+              </label>
+              <label class="feature">
+                <input type="checkbox" name="features" value="dishwasher"><span
+                class="feature__image  feature__image--dishwasher"></span>
+              </label>
+              <label class="feature">
+                <input type="checkbox" name="features" value="parking"><span
+                class="feature__image  feature__image--parking"></span>
+              </label>
+              <label class="feature">
+                <input type="checkbox" name="features" value="washer"><span
+                class="feature__image  feature__image--washer"></span>
+              </label>
+              <label class="feature">
+                <input type="checkbox" name="features" value="elevator"><span
+                class="feature__image  feature__image--elevator"></span>
+              </label>
+              <label class="feature">
+                <input type="checkbox" name="features" value="conditioner"><span
+                class="feature__image  feature__image--conditioner"></span>
+              </label>
+            </fieldset>
+          </div>
+          <div class="form__element">
+            <label>Фотографии жилья</label>
+            <div class="form__photo-container">
+              <div class="drop-zone  upload">
+                <input type="file">
+                <span class="drop-zone">Загрузите или&nbsp;перетащите сюда фото</span>
+              </div>
+              <div class="form__photo"></div>
+              <div class="form__photo"></div>
+              <div class="form__photo"></div>
+              <div class="form__photo"></div>
+              <div class="form__photo"></div>
+              <div class="form__photo"></div>
+              <div class="form__photo"></div>
+              <div class="form__photo"></div>
+              <div class="form__photo"></div>
+              <div class="form__photo"></div>
+              <div class="form__photo"></div>
+              <div class="form__photo"></div>
+              <div class="form__photo"></div>
+              <div class="form__photo"></div>
+              <div class="form__photo"></div>
+              <div class="form__photo"></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <button class="form__submit" type="submit">Опубликовать</button>
+    </form>
+  </div>
+</main>
+<footer class="footer container">
+  <div class="center-wrapper">
+    <section class="footer-logo">
+      Сделано в <a tabindex="1" href="https://htmlacademy.ru" class="footer-logo-link"><img src="img/ha-logo.png" class="footer-logo-image" width="130" alt="HTML Academy"/>HTML Academy</a> &copy; 2017
+    </section>
+    <nav class="footer-social">
+      <a href="https://twitter.com/htmlacademy_ru" class="footer-social-item footer-social-item-twitter" target="_blank" rel="nofollow">Twitter</a>
+      <a href="https://www.instagram.com/htmlacademy/" class="footer-social-item footer-social-item-instagram" target="_blank" rel="nofollow">Instagtam</a>
+      <a href="https://www.facebook.com/htmlacademy" class="footer-social-item footer-social-item-facebook" target="_blank" rel="nofollow">Facebook</a>
+      <a href="https://vk.com/htmlacademy" class="footer-social-item footer-social-item-vk" target="_blank" rel="nofollow">VK</a>
+    </nav>
+  </div>
+</footer>
+
+<template id="lodge-template" class="hidden">
+  <div class="dialog__panel">
+    <h3 class="lodge__title"></h3>
+    <p class="lodge__address"></p>
+    <h3 class="lodge__price"></h3>
+    <h4 class="lodge__type"></h4>
+    <p class="lodge__rooms-and-guests"></p>
+    <p class="lodge__checkin-time"></p>
+    <div class="lodge__features">
+    </div>
+    <p class="lodge__description"></p>
+    <div class="lodge__photos">
+    </div>
+  </div>
+</template>
+
+<script src="js/backend.js"></script>
+<script src="js/card.js"></script>
+<script src="js/pin.js"></script>
+<script src="js/show-card.js"></script>
+<script src="js/map.js"></script>
+<script src="js/synchronize-fields.js"></script>
+<script src="js/form.js"></script>
+
+</body>
+</html>

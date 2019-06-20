@@ -1,0 +1,694 @@
+body {
+    background-color: #f0f0ea;
+    margin: 0 auto;
+    max-width: 1200px;
+
+    font-size: 16px;
+    font-family: Roboto, Arial, sans-serif;
+
+    color: #353535;
+}
+
+h1 {
+    color: #343434;
+    font-size: 29px;
+}
+
+h2 {
+    color: #343434;
+    font-size: 15px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+button[type=submit] {
+    box-sizing: content-box;
+    width: 206px;
+    height: 60px;
+
+    background-color: white;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Roboto, Arial, sans-serif;
+
+    border-radius: 8px;
+    border: 4px solid #ffaa99;
+}
+
+button[type=submit]:hover {
+    border-color: #ff6d51;
+}
+
+button[type=submit]:active {
+    outline: none;
+    border-color: #ff6d51;
+    background-color: #ff6d51;
+    color: white;
+}
+
+input[type=text], input[type=number], select, textarea {
+    box-sizing: border-box;
+
+    font-size: 18px;
+    line-height: 26px;
+    padding-left: 14px;
+
+    height: 42px;
+    width: 222px;
+
+    border: 1px solid #d9d9d3;
+    border-radius: 4px;
+    background-color: white;
+}
+
+input[type=text]:hover, input[type=number]:hover, select:hover, textarea:hover {
+    border-color: #ffaa99;
+}
+
+input[type=text]:focus, input[type=number]:focus, select:focus, textarea:focus {
+    outline: none;
+    box-shadow: 0 0 4px 1px #ff6547;
+}
+
+input[type=text]:valid:focus, input[type=number]:valid:focus {
+  outline: none;
+  box-shadow: 0 0 4px 1px #21DE35;
+}
+
+input[type=text].error {
+  border: 1px solid red;
+}
+
+select {
+    text-indent: 10px;
+}
+
+select option:hover {
+    background-color: #ff6547;
+}
+
+.hidden {
+  display: none;
+}
+
+.feature {
+    box-sizing: border-box;
+    width: 70px;
+    min-width: 70px;
+    height: 45px;
+    min-height: 45px;
+
+    margin-right: 10px;
+
+    float: left;
+
+    position: relative;
+}
+
+.feature:last-child {
+    margin-right: 0;
+}
+
+.feature span {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    box-sizing: border-box;
+
+    border-radius: 4px;
+    border: 1px solid #d9d9d3;
+}
+
+.feature input {
+    position: absolute;
+}
+
+.feature input:hover + span {
+    border-color: #ffaa99;
+}
+
+.feature input:checked + span {
+    background-color: #ff6547;
+    border-color: #ff6547;
+}
+
+.feature__image {
+    box-sizing: border-box;
+    width: 70px;
+    min-width: 70px;
+    height: 45px;
+    min-height: 45px;
+
+    background: white url(../img/features-sprite.png) no-repeat;
+}
+
+.feature__image--dishwasher {
+    background-position: 0 -7px;
+}
+
+.feature__image--elevator {
+    background-position: 5px -61px;
+}
+
+.feature__image--conditioner {
+    background-position: 7px -117px;
+}
+
+.feature__image--parking {
+    background-position: 5px -173px;
+}
+
+.feature__image--washer {
+    background-position: 7px -229px;
+}
+
+.feature__image--wifi {
+    background-position: 3px -285px;
+}
+
+.upload {
+    position: relative;
+
+    box-sizing: border-box;
+    margin-right: 5px;
+
+    width: 146px;
+    min-width: 146px;
+    max-width: 146px;
+    height: 70px;
+
+    text-align: center;
+    vertical-align: middle;
+
+    border-radius: 4px;
+
+    color: #cdcdc7;
+
+    border: 2px dashed #b3b3ad;
+}
+
+.upload input {
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+    width:100%;
+    height:100%;
+}
+
+.upload:hover {
+    border-color: #ff6547;
+    color: #ff6547;
+}
+
+.header {
+    z-index: 100;
+
+    position: absolute;
+    margin: 0 auto;
+    width: 1200px;
+    text-align: center;
+
+    text-transform: uppercase;
+}
+
+.header__logo {
+    margin: 20px 0 0;
+}
+
+.header__motto {
+    margin: 0;
+    padding: 0;
+}
+
+.tokyo {
+    position: relative;
+}
+
+.tokyo__filters-container {
+    width: 1200px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    background-color: rgba(3, 28, 45, 0.5);
+
+    height: 46px;
+}
+
+.tokyo__filters {
+    width: 960px;
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.tokyo__filter {
+    font-size: 14px;
+    text-indent: 0;
+
+    width: 160px;
+    height: 30px;
+
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.tokyo__filter-set {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+    display: inline;
+}
+
+.tokyo__filter-set .feature {
+    width: 30px;
+    min-width: 30px;
+    height: 28px;
+    min-height: 28px;
+}
+
+.tokyo__filter-set .feature__image {
+    width: 30px;
+    min-width: 30px;
+    height: 28px;
+    min-height: 28px;
+
+    background-size: 100%;
+}
+
+.tokyo__filter-set .feature__image--dishwasher {
+    background-position: 0 1px;
+}
+
+.tokyo__filter-set .feature__image--elevator {
+    background-position: 2px -22px;
+}
+
+.tokyo__filter-set .feature__image--conditioner {
+    background-position: 2px -46px;
+}
+
+.tokyo__filter-set .feature__image--parking {
+    background-position: 2px -70px;
+}
+
+.tokyo__filter-set .feature__image--washer {
+    background-position: 2px -94px;
+}
+
+.tokyo__filter-set .feature__image--wifi {
+    background-position: 1px -118px;
+}
+
+.notice {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.notice__message {
+  margin: 0 auto;
+  font-size: 30px;
+  line-height: 32px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.notice__message--error {
+  background-color: red;
+}
+
+.notice__message--success {
+  background-color: green;
+}
+
+.notice__title {
+    font-family: Roboto, serif;
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
+
+.notice__photo {
+    display: flex;
+    flex-direction: row;
+
+    align-items: flex-start;
+}
+
+.notice__photo div {
+    margin-right: 10px;
+}
+
+.notice__preview {
+    box-sizing: border-box;
+
+    width: 70px;
+    height: 70px;
+    min-width: 70px;
+
+    border-radius: 4px;
+    border: 4px transparent;
+
+    overflow: hidden;
+
+    text-align: center;
+
+    background: #dadad4;
+}
+
+.notice__preview:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.notice__preview img {
+    vertical-align: middle;
+}
+
+.notice__info {
+    margin: 0;
+    align-self: flex-start;
+}
+
+.form__content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.form__panel {
+    width: 470px;
+}
+
+.form__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form__element {
+    margin-bottom: 10px;
+}
+
+.form__element label {
+    font-size: 14px;
+    display: block;
+}
+
+.form__element--wide input {
+    width: 100%;
+    display: block;
+}
+
+.form__element--wide textarea {
+    width: 100%;
+    height: 214px;
+}
+
+.form__photo-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form__photo {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+
+    width: 70px;
+    height: 70px;
+    min-width: 70px;
+    max-width: 70px;
+
+    border-radius: 4px;
+    border: 4px transparent;
+
+    background: #dadad4;
+}
+
+.form__submit {
+    display: block;
+    margin: 35px auto;
+}
+
+.footer {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 960px;
+    padding: 20px 0 40px;
+
+    font-size: 12px;
+
+    border-top: solid 1px #cccccc;
+}
+
+.footer .center-wrapper {
+    display: flex;
+}
+
+.footer a {
+    color: #353535;
+}
+
+.footer-logo,
+.footer-social {
+    flex-basis: 50%;
+    width: 50%;
+}
+
+.footer-logo {
+    position: relative;
+
+    padding-top: 55px;
+}
+
+.footer-logo-link:hover {
+    opacity: 0.6;
+}
+
+.footer-logo-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.footer-social {
+    text-align: right;
+}
+
+.footer-social-item {
+    display: inline-block;
+    width: 29px;
+    height: 29px;
+    margin-left: 10px;
+    overflow: hidden;
+
+    list-style: none;
+    font-size: 0;
+    vertical-align: top;
+    text-indent: -1999em;
+
+    background: url("../img/social-sprite.png") no-repeat -59px -59px;
+    opacity: 0.6;
+}
+
+.footer-social-item:hover {
+    opacity: 1;
+}
+
+.footer-social-item-instagram {
+    background-position: -10px -59px;
+}
+
+.footer-social-item-facebook {
+    background-position: -59px -10px;
+}
+
+.footer-social-item-vk {
+    background-position: -10px -10px;
+}
+
+.dialog {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+
+    width: 230px;
+    height: 510px;
+}
+
+.dialog__title {
+    position: relative;
+}
+
+.dialog__close {
+    position: absolute;
+
+    right: 0;
+    bottom: 0;
+}
+
+.dialog__panel {
+    background-color: white;
+
+    padding: 4px;
+
+    border-radius: 4px;
+    border: 2px solid transparent;
+}
+
+.lodge__title {
+    margin: 0 0 4px;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.lodge__address {
+    margin: 0 0 10px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.lodge__price {
+    margin: 0 0 10px;
+    font-size: 22px;
+    line-height: 16px;
+}
+
+.lodge__type {
+    margin: 0;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.lodge__rooms-and-guests {
+    margin: 0;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.lodge__checkin-time {
+    margin: 0;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.lodge__features {
+    margin: 10px 0;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.lodge__features .feature__image {
+    display: block;
+
+    width: 30px;
+    min-width: 30px;
+    height: 28px;
+    min-height: 28px;
+
+    background-size: 100%;
+}
+
+.lodge__features .feature__image--dishwasher {
+    background-position: 0 1px;
+}
+
+.lodge__features .feature__image--elevator {
+    background-position: 2px -23px;
+}
+
+.lodge__features .feature__image--conditioner {
+    background-position: 2px -49px;
+}
+
+.lodge__features .feature__image--parking {
+    background-position: 2px -75px;
+}
+
+.lodge__features .feature__image--washer {
+    background-position: 2px -101px;
+}
+
+.lodge__features .feature__image--wifi {
+    background-position: 1px -126px;
+}
+
+.lodge__description {
+    margin: 0 0 10px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.lodge__photos img {
+  margin: 0 1px;
+  width: 52px;
+  height: 42px;
+}
+
+.pin {
+    position: absolute;
+
+    width: 56px;
+    height: 75px;
+
+    top: 340px;
+    left: 536px;
+
+    background-image: url("../img/pin.png");
+}
+
+.pin:hover {
+    cursor: pointer;
+}
+
+.pin:focus img {
+  box-shadow: 0 0 30px rgb(128, 30, 0);
+}
+
+.pin--active {
+    background-image: url("../img/pin-active.png");
+}
+
+.pin img {
+    margin-left: 3px;
+    margin-top: 3px;
+    padding: 5px;
+}
+
+.pin__main {
+    width: 75px;
+    height: 94px;
+
+    top: 300px;
+    left: 600px;
+    background-image: url("../img/main-pin.png");
+}
+
+.pin__main img {
+    margin-left: 7px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.rounded {
+    border-radius: 50%;
+}

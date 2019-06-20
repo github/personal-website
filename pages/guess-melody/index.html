@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Угадай мелодию</title>
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<main class="app">
+  <svg xmlns="http://www.w3.org/2000/svg" style="position: absolute; left: -1200em;">
+    <filter id="blur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5"></feGaussianBlur>
+      <feOffset dx="0" dy="0"></feOffset>
+      <feMerge>
+        <feMergeNode></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+  </svg>
+  <section class="main"></section>
+</main>
+
+<footer class="footer">
+  <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+    <img src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" alt="Creative Commons License" width="88" height="31" style="border-width:0">
+  </a>
+  <section class="copyright">
+    <a class="copyright__logo" href="https://htmlacademy.ru"><img src="img/logo-htmla.svg" width="144" height="49" alt="HTML Academy"></a>
+    <p class="copyright__text">Сделано в <a class="copyright__link" href="https://htmlacademy.ru">HTML Academy</a></p>
+  </section>
+</footer>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,1095 @@
+@charset "UTF-8";
+/* stylelint-disable */
+/*! normalize.scss v0.1.0 | MIT License | based on git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `block-borderlate` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+[hidden],
+block-borderlate {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't atblock-bordert to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+/*
+ * Каркас сайта
+ */
+@font-face {
+  font-family: "Fira Sans";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/FiraSans-Light.woff2") format("woff2"), url("../fonts/FiraSans-Light.woff") format("woff"); }
+
+@font-face {
+  font-family: "Fira Sans";
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+  src: url("../fonts/FiraSans-LightItalic.woff2") format("woff2"), url("../fonts/FiraSans-LightItalic.woff") format("woff"); }
+
+@font-face {
+  font-family: "Fira Sans";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/FiraSans-Medium.woff2") format("woff2"), url("../fonts/FiraSans-Medium.woff") format("woff"); }
+
+@font-face {
+  font-family: "Fira Sans";
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+  src: url("../fonts/FiraSans-MediumItalic.woff2") format("woff2"), url("../fonts/FiraSans-MediumItalic.woff") format("woff"); }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  position: relative;
+  box-sizing: border-box;
+  height: 100%;
+  background: #1d121f linear-gradient(90deg, #1d121f, #270a17); }
+
+.content-box-component {
+  box-sizing: content-box; }
+
+body {
+  font-family: "Fira Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #230d1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  min-height: 1000px;
+  background: url("../img/vinyl.png") center no-repeat; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden; }
+
+.app {
+  position: relative;
+  margin-bottom: 50px;
+  padding-top: 10px;
+  width: 780px; }
+
+.main > div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 850px;
+  width: 780px; }
+  .main > div > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+.splash-screen {
+  -webkit-transform: translateY(70px);
+          transform: translateY(70px); }
+
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: translateY(-2000px);
+            transform: translateY(-2000px); }
+  70% {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px); }
+  90% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px); }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0); } }
+
+@keyframes bounce {
+  0% {
+    -webkit-transform: translateY(-2000px);
+            transform: translateY(-2000px); }
+  70% {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px); }
+  90% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px); }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0); } }
+
+/*
+ * Стили для футера сайта
+ */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  width: 780px; }
+
+.copyright {
+  text-align: right;
+  color: #f0eed5;
+  white-space: nowrap; }
+
+.copyright__logo:hover, .copyright__logo:focus {
+  opacity: 0.8; }
+
+.copyright__logo:active {
+  opacity: 0.6; }
+
+.copyright__text {
+  margin: 0;
+  margin-top: 10px; }
+
+.copyright__link {
+  color: #ff9749; }
+  .copyright__link:hover, .copyright__link:focus {
+    color: #f00000; }
+
+/*
+ * Стили для логотипа сайта
+ */
+.logo {
+  width: 186px;
+  height: 83px;
+  font-size: 0;
+  background: url("../img/melody-logo.png") center no-repeat; }
+
+/*
+ * Приветственный экран игры: правила игры и кнопка начала
+ */
+.welcome {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%; }
+
+.welcome__logo {
+  margin: 0;
+  margin-top: 220px; }
+
+.welcome__button {
+  position: absolute;
+  left: 350px;
+  top: 420px;
+  padding: 0;
+  width: 0;
+  height: 0;
+  background: transparent;
+  border-color: transparent;
+  border-left-color: #ff9749;
+  border-width: 70px 0 70px 100px; }
+  .welcome__button:hover {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05); }
+  .welcome__button:active {
+    -webkit-transform: scale(1.04);
+            transform: scale(1.04); }
+
+.welcome__rules-title {
+  margin: 0;
+  font-family: "Fira Sans", "Arial", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 33px;
+  color: #230d1a;
+  margin-top: 300px; }
+
+.welcome__text {
+  margin: 0;
+  margin-top: 10px;
+  text-align: center; }
+
+.welcome__rules-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center; }
+
+/*
+ * Общие стили для кнопок
+ */
+.button {
+  font-family: "Fira Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  padding: 5px 20px;
+  color: #230d1a;
+  background-color: #f0eed5;
+  border: 3px solid #ff9749;
+  border-radius: 15px; }
+  .button:disabled {
+    color: #808080;
+    border: 4px solid #ffc396; }
+  .button:hover {
+    color: #ff9749; }
+
+/*
+ * Игровые экраны
+ */
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%; }
+
+.game__header {
+  display: flex;
+  margin-bottom: 210px;
+  width: 100%; }
+
+.game__back {
+  position: relative;
+  margin-left: 50px;
+  z-index: 1;
+  width: 260px; }
+  .game__back::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 25px;
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/right-arrow.svg");
+    background-repeat: no-repeat;
+    background-size: 40px;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg); }
+  .game__back:hover {
+    opacity: 0.8; }
+  .game__back:active, .game__back:focus {
+    opacity: 0.6; }
+
+.game__mistakes {
+  display: flex;
+  justify-content: flex-end;
+  width: 260px; }
+
+.game__screen {
+  position: relative;
+  z-index: 1;
+  width: 440px;
+  text-align: center; }
+
+.game__title {
+  margin: 0;
+  font-family: "Fira Sans", "Arial", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 33px;
+  color: #230d1a;
+  margin-bottom: 30px; }
+
+.game__answer {
+  width: 35px;
+  height: 49px; }
+
+.game__check {
+  display: block;
+  width: 35px;
+  height: 49px;
+  font-size: 0;
+  background-image: url("../img/sprite.png");
+  background-position: -5px -123px;
+  cursor: pointer; }
+
+.game__input:checked + .game__check {
+  background-position: -5px -5px; }
+
+.game__input:focus + .game__check {
+  outline: -webkit-focus-ring-color auto 5px; }
+
+.game__submit {
+  font-family: "Fira Sans", "Arial", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  margin-top: 30px;
+  padding: 5px 20px;
+  font-size: 24px; }
+
+.game__track {
+  margin-bottom: 120px;
+  width: 100%;
+  height: 55px;
+  text-align: left;
+  background-image: url("../img/player-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-animation: fadein 1000ms ease-out;
+          animation: fadein 1000ms ease-out;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1; }
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes fadein {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.game__artist {
+  display: flex;
+  justify-content: space-between; }
+
+/*
+ * Стили для игрового таймера
+ */
+.timer {
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  top: 65px;
+  width: 100%;
+  height: 100%; }
+
+.timer__line {
+  width: 100%;
+  height: 100%;
+  fill: transparent;
+  stroke: #ff9749;
+  stroke-width: 15px; }
+
+.timer__value {
+  width: 260px;
+  font-size: 30px;
+  color: #ff9749;
+  text-align: center; }
+
+.timer__dots {
+  -webkit-animation: blink 1000ms steps(1, end) infinite;
+          animation: blink 1000ms steps(1, end) infinite; }
+
+.timer__value--finished {
+  -webkit-animation: shrink 2000ms infinite;
+          animation: shrink 2000ms infinite;
+  color: red; }
+  .timer__value--finished .timer__dots {
+    -webkit-animation: none;
+            animation: none; }
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 1; } }
+
+@keyframes blink {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 1; } }
+
+@-webkit-keyframes shrink {
+  0% {
+    -webkit-transform: translateX(-50%) scale(1);
+            transform: translateX(-50%) scale(1); }
+  50% {
+    -webkit-transform: translateX(-50%) scale(1.1);
+            transform: translateX(-50%) scale(1.1); }
+  100% {
+    -webkit-transform: translateX(-50%) scale(1);
+            transform: translateX(-50%) scale(1); } }
+
+@keyframes shrink {
+  0% {
+    -webkit-transform: translateX(-50%) scale(1);
+            transform: translateX(-50%) scale(1); }
+  50% {
+    -webkit-transform: translateX(-50%) scale(1.1);
+            transform: translateX(-50%) scale(1.1); }
+  100% {
+    -webkit-transform: translateX(-50%) scale(1);
+            transform: translateX(-50%) scale(1); } }
+
+/*
+ * Стили для трека на экране игры на выбор жанра
+ */
+.track {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; }
+
+.track__button {
+  width: 39px;
+  height: 53px;
+  border: none;
+  background-color: transparent;
+  background-image: url("../img/sprite.png");
+  cursor: pointer; }
+  .track__button--play {
+    background-position: -5px -241px; }
+  .track__button--pause {
+    background-position: -5px -294px; }
+
+.track__status {
+  width: 330px;
+  height: 55px;
+  background-image: url("../img/player-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-animation: fadein 1000ms ease-out;
+          animation: fadein 1000ms ease-out;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1; }
+
+@keyframes fadein {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/*
+ * Стили для блока исполнителя в игре на выбор исполнителя
+ */
+.artist {
+  position: relative;
+  width: 134px;
+  color: #230d1a;
+  text-align: center;
+  cursor: pointer; }
+
+.artist__picture {
+  margin-bottom: 5px;
+  width: 134px;
+  height: 134px;
+  background-color: #f0eed5;
+  border: solid 5px #230d1a;
+  border-radius: 134px;
+  cursor: pointer; }
+
+.artist:hover .artist__picture,
+.artist__input:focus + .artist__name .artist__picture {
+  border-color: #ff9749; }
+
+.artist:active .artist__picture {
+  border-color: #f00000; }
+
+.artist__text {
+  margin: 0;
+  margin-bottom: 5px; }
+
+.artist__time {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 134px;
+  color: #ffffff;
+  font-weight: 500;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%); }
+
+/*
+ * Общие стили для экранов с результатами игры
+ */
+.result {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%; }
+
+.result__logo {
+  margin: 0;
+  margin-top: 220px; }
+
+.result__title {
+  margin: 0;
+  font-family: "Fira Sans", "Arial", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 33px;
+  color: #230d1a;
+  text-align: center;
+  margin-top: 50px; }
+
+.result__total {
+  margin: 0;
+  font-family: "Fira Sans", "Arial", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 33px;
+  color: #230d1a;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 130px;
+  width: 500px; }
+  .result__total--fail {
+    margin-top: 170px; }
+
+.result__text {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 16px; }
+
+.result__replay {
+  position: relative;
+  margin-top: 30px;
+  padding: 0;
+  padding-right: 40px;
+  color: #ff9749;
+  font-size: 30px;
+  border: none;
+  background: transparent; }
+  .result__replay::after {
+    position: absolute;
+    content: "";
+    width: 27px;
+    height: 25px;
+    top: 50%;
+    right: 0;
+    background-image: url("../img/sprite.png");
+    background-position: -5px -357px;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%); }
+  .result__replay:hover, .result__replay:focus {
+    color: #f00000; }
+    .result__replay:hover::after, .result__replay:focus::after {
+      background-position: -5px -392px; }
+
+/*
+ * Стили для экрана с результатами игры на выбор исполнителя
+ */
+.result--artist .result__title {
+  margin-top: 20px; }
+
+.result--artist .result__replay {
+  margin-top: 15px; }
+
+.result--artist .result__total {
+  margin: 0; }
+
+.result__answer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 500px; }
+
+/*
+ * Стили для экрана с результатами игры на выбор исполнителя.
+ * Список всех треков.
+ */
+.result--list .result__title {
+  margin-bottom: 10px;
+  margin-top: 230px;
+  width: 200px; }
+
+.result--list .result__text {
+  font-family: "Fira Sans", "Arial", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  margin: 0;
+  margin-bottom: 5px; }
+
+.result--list .result__total {
+  position: relative;
+  margin: 0;
+  font-size: 16px; }
+  .result--list .result__total::before {
+    position: absolute;
+    content: "~";
+    top: -35px;
+    left: 50%;
+    font-size: 50px;
+    line-height: 50px;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%); }
+
+.result--list .result__replay {
+  margin-top: 10px; }
+
+.result__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 450px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #f0eed5; }
+
+.result__item--correct {
+  color: #36b742;
+  font-weight: 500; }
+
+.result__extra {
+  margin-left: 15px;
+  font-style: italic; }
+
+/*
+ * Стили для экрана с результатами игры на выбор жанра
+ */
+.result--genre .result__title {
+  margin-bottom: 10px;
+  margin-top: 230px;
+  width: 200px; }
+
+.result--genre .result__text {
+  margin: 0; }
+
+.result--genre .result__total {
+  margin: 0; }
+
+.result__correct {
+  display: flex;
+  margin-top: 40px; }
+
+.correct {
+  width: 35px;
+  height: 49px;
+  background-image: url("../img/sprite.png");
+  background-position: -5px -64px; }
+
+.result__wrong {
+  display: flex;
+  margin-top: 60px; }
+
+.wrong {
+  width: 35px;
+  height: 49px;
+  background-image: url("../img/sprite.png");
+  background-position: -5px -182px; }
+
+.result__genre {
+  margin: 0;
+  margin-top: 30px; }
+
+/*
+ * Стили для модальных окон
+ */
+.modal {
+  position: absolute;
+  z-index: 1;
+  top: 375px;
+  padding: 50px 20px;
+  text-align: center;
+  font-size: 18px;
+  background-color: #f0eed5;
+  border: 5px solid rgba(0, 0, 0, 0.8);
+  border-radius: 50px;
+  -webkit-animation: bounce 0.6s;
+          animation: bounce 0.6s; }
+  .modal--hidden {
+    display: none; }
+
+.modal__title {
+  margin: 0;
+  margin-bottom: 15px; }
+
+.modal__text {
+  margin: 0;
+  margin-bottom: 20px; }
+
+.modal__close {
+  position: absolute;
+  right: -30px;
+  top: -30px;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  background-image: url("../img/icon-cross.svg");
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  border: none; }
+  .modal__close:hover {
+    opacity: 0.8; }
+  .modal__close:focus {
+    opacity: 0.6; }
+
+.modal__button {
+  font-family: "Fira Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500; }
+  .modal__button:not(:last-of-type) {
+    margin-right: 10px; }
+
+/*
+ * Стили для чего-то неизвестного
+ */
+.main-mistakes {
+  font-size: 2em;
+  font-weight: 300;
+  right: 40px;
+  top: 8px;
+  position: absolute; }
