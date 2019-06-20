@@ -21,12 +21,12 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 12
   exclude:
     archived: false
     forks: true
     projects:
-    # - repo-name
+      - template-gulp
 
 # social_media:
   # behance: your_username
