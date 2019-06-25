@@ -65,3 +65,30 @@ a:hover {
 p.mb-3 {
   font-size: 11px !important;
 }
+
+@media print {
+  div.col-md-5 {
+    display: none !important;
+  }
+  div.col-md-7 {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  p {
+    font-size: 16px !important;
+    line-height: 22px !important;
+  }
+  h3 {
+    font-size: 22px !important;
+    margin-bottom: 10px !important;
+  }
+  h4 {
+    font-size: 20px !important;
+    margin-bottom: 15px !important;
+  }
+  a {
+    color: black !important;
+    text-decoration: none !important;
+  }
+}
