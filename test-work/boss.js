@@ -1,5 +1,5 @@
 
-  var canvas=document.getElementById('myCanvas');
+  var canvas= $("#myCanvas")[0];
   var pen=canvas.getContext("2d");
   pen.lineWidth=50;
   pen.strokeStyle="red";
