@@ -58,7 +58,7 @@ topics:
 
   - name: Javascript
     web_url: https://github.com/topics/Javascript
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+    image_url: logo/js 
 
   - name: c
     web_url: https://github.com/topics/c
@@ -66,7 +66,7 @@ topics:
 
   - name: c++
     web_url: https://github.com/topics/c++
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/c++/c++.png
 
   - name: nodejs
     web_url: https://github.com/topics/nodejs
