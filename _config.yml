@@ -30,10 +30,10 @@ projects:
 
 # social_media:
   # behance: your_username
-  # dribbble: your_username
-  # facebook: your_username
+   #dribbble: your_username
+   facebook: nitin madhukar
   # hackerrank: your_username
-  # instagram: your_username
+   instagram: nitin._.madhukar
   # keybase: your_username
   # linkedin: your_username
   # mastodon: your_username
@@ -43,7 +43,7 @@ projects:
   # twitter: your_username
   # unsplash: your_username
   # vk: your_username
-  # website: http://your_website_url
+   website: https://nitinmadhukar.github.io/personal-website/
   # youtube: your_username
 
 topics:
