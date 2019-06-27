@@ -59,7 +59,7 @@ topics:
     
   - name: Javascript
     web_url: https://github.com/topics/Javascript
-    image_url: https://github.com/github/explore/blob/master/topics/cpp/cpp.png?raw=true
+    image_url: https://github.com/github/explore/blob/master/topics/javascript/javascript.png?raw=true
 
   - name: c
     web_url: https://github.com/topics/c
@@ -71,11 +71,11 @@ topics:
 
   - name: nodejs
     web_url: https://github.com/topics/nodejs
-    image_url: https://github.com/github/explore/blob/master/topics/cpp/cpp.png?raw=true
+    image_url: https://github.com/github/explore/blob/master/topics/nodejs/nodejs.png?raw=true
 
   - name: html
     web_url: https://github.com/topics/html
-    image_url: https://github.com/github/explore/blob/master/topics/cpp/cpp.png?raw=true
+    image_url: https://github.com/github/explore/blob/master/topics/html/html.png?raw=true
 
   - name: mongodb
     web_url: https://github.com/topics/mongodb
