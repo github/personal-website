@@ -1,5 +1,5 @@
-layout: stack
-style: light
+layout: stacked
+style: dark
 
 plugins:
   - jekyll-octicons
