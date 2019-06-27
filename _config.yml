@@ -52,26 +52,32 @@ topics:
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
 
   
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+    name: git
+    web_url: https://github.com/topics/git
+    image_url: https://github.com/github/explore/blob/master/topics/git/git.png?raw=true
 
+    
   - name: Javascript
     web_url: https://github.com/topics/Javascript
-    
+    image_url: https://github.com/github/explore/blob/master/topics/cpp/cpp.png?raw=true
 
   - name: c
     web_url: https://github.com/topics/c
     image_url: https://github.com/github/explore/blob/master/topics/c/c.png?raw=true
+
   - name: c++
     web_url: https://github.com/topics/c++
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/c++/c++.png
+    image_url: https://github.com/github/explore/blob/master/topics/cpp/cpp.png?raw=true
 
   - name: nodejs
     web_url: https://github.com/topics/nodejs
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+    image_url: https://github.com/github/explore/blob/master/topics/cpp/cpp.png?raw=true
 
-  - name: html5
-    web_url: https://github.com/topics/html5
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: html
+    web_url: https://github.com/topics/html
+    image_url: https://github.com/github/explore/blob/master/topics/cpp/cpp.png?raw=true
+
+  - name: mongodb
+    web_url: https://github.com/topics/mongodb
+    image_url: https://github.com/github/explore/blob/master/topics/mongodb/mongodb.png?raw=true
 
