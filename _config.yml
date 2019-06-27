@@ -1,4 +1,4 @@
-layout: stack
+layout: sidebar
 style: dark
 
 plugins:
@@ -43,7 +43,7 @@ projects:
   # twitter: your_username
   # unsplash: your_username
   # vk: your_username
-    website: https://nitinmadhukar.github.io/personal-website/
+    website: http://your_website_url
   # youtube: your_username
 
 topics:
