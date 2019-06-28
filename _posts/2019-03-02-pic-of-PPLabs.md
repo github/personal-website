@@ -15,6 +15,10 @@ tags: [非招聘内容]
 <img src="/assets/pics/company-pic-5.jpg" alt="小道" title="小道" width="auto">
 <img src="/assets/pics/company-pic-6.jpg" alt="阳台" title="阳台" width="auto">
 
+#### 英雄生日会
+<img src="/assets/pics/birthday1.jpg" alt="表演" title="表演" width="auto">
+<img src="/assets/pics/birthday3.jpg" alt="表演" title="表演" width="auto">
+
 #### 团队合影
 <img src="/assets/pics/company-pic-2.jpg" alt="集体拍照" title="集体拍照" width="auto">
 
@@ -24,6 +28,8 @@ tags: [非招聘内容]
 
 #### PPIO篮球队
 <img src="/assets/pics/basketball-team.jpg" alt="basketball" title="篮球队" width="auto">
+<img src="/assets/pics/basketball2.jpg" alt="basketball" title="篮球队" width="auto">
+<img src="/assets/pics/fujima-ball.jpg" alt="basketball" title="篮球队" width="auto">
 <br>
 <br>
 
