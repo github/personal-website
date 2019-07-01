@@ -58,3 +58,8 @@ tags: [非招聘内容]
 - [拉勾网](https://www.lagou.com/gongsi/j443505.html)
 - [猎聘网](https://www.liepin.com/company/9566183)
 - 邮箱直达HR： ash@pplabs.org
+<hr>
+
+[关于办公环境及团队日常照片](http://ashma.info/2019/03/02/pic-of-PPLabs/)
+
+<hr>
