@@ -13,6 +13,7 @@ layout: default
 
 <body>
   <h2 style="text-align:center">PPLabs前端测试题目</h2>
+  <hr>
   <h4>测试题目说明</h4>
   <pre>
     您好，您已经通过简历筛选，邀请您参加进一步的技术笔试。
@@ -23,12 +24,15 @@ layout: default
     如有其他问题，可邮件至：ash@pplabs.org或在招聘渠道与我联系。
 </pre>
   <h4>测试题(问答题):</h4>
+  <hr>
   <h5>1.添加代码使得如下代码每隔一秒输出一个数字</h5>
-    <pre>
+  <pre>
       for (var i = 0; i < 5; i++) {
         // to do
     </pre>
+  <hr>
   <h5>2.写一个函数，对于一个排好序的数组，如果当中有两个数的和为某个给定的数target，返回true，否则false，时间复杂度O(n) </h5>
+  <hr>
   <h5>3.以下代码的执行结果是什么? 并解释原因</h5>
   <pre>
     setTimeout(function() {
@@ -48,7 +52,8 @@ layout: default
     }
     async1()
     console.log(8)
-</pre>
+  </pre>
+  <hr>
   <h5>4.请根据面对对象编程的思想，设计一个类型 Cash 用于表达人民币，使得：</h5>
   <pre>
     class Cash {
@@ -62,6 +67,7 @@ layout: default
     　　console.log(`${cash3}`, `${cash4}`, `${cash5}`);
 </pre>
   <h5>在以上代码执行的时候，输出结果为：1元7角1分, 1元7角1分, 1元7角1分</h5>
+  <hr>
   <h5>5.基于 touch 事件写一个JS手势库，只需要识别 swipe。实现目标：</h5>
   <pre>
     var touchEl = new Toucher(element)
@@ -69,6 +75,7 @@ layout: default
     console.log(e.direction) // 打印出滑动的方向
     })
 </pre>
+  <hr>
   <h5>6.实现一个EventEmitter类，这个类包含以下方法： on（监听事件，该事件可以被触发多次）- once（也是监听事件，但只能被触发一次）- fire（触发指定的事件）- off（移除指定事件的某个回调方法或者所有回调方法）</h5>
   <pre>
     class EventEmitter {
