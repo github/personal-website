@@ -1,5 +1,5 @@
 ---
-title: "招聘：[分布式云存储][后端开发工程师]"
+title: "招聘：[后端开发工程师]"
 published: true
 categories: [招聘]
 tags: [技术职位]

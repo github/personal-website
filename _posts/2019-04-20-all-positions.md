@@ -1,5 +1,5 @@
 ---
-title: "[汇总空缺职位][分布式云存储+区块链项目][PPLabs]"
+title: "[汇总空缺职位][PPLabs]"
 published: true
 categories: [招聘]
 tags: [技术职位]
