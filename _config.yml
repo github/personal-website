@@ -50,7 +50,11 @@ topics:
   - name: Source Code of the Universe
     web_url: http://theunapologists.com/a-beginners-guide-to-quantum-mechanics
     image_url: https://www.outerplaces.com/images/user_upload/lhc.gif
-  
+   
+   - name: Random Stuff
+    web_url: https://libraryofbabel.info/
+    image_url: https://raw.githubusercontent.com/popsauce/popsauce.github.io/master/bis.jpg
+
   - name: CSS
     web_url: https://github.com/topics/css
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
