@@ -24,9 +24,11 @@ projects:
   limit: 12
   exclude:
     archived: false
-    forks: true
+    forks: false
     projects:
       - template-gulp
+      - what-to-watch-React
+      - 293513-kekstagram
 
 social_media:
   # behance: your_username
