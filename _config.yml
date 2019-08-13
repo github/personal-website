@@ -27,6 +27,7 @@ projects:
     forks: false
     projects:
       - template-gulp
+      - React-boilerplate
       - 293513-kekstagram
       - serjsidelnikov.github.io
 
