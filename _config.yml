@@ -21,7 +21,7 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 12
+  limit: 15
   exclude:
     archived: false
     forks: false
