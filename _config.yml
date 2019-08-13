@@ -27,7 +27,6 @@ projects:
     forks: false
     projects:
       - template-gulp
-      - what-to-watch-React
       - 293513-kekstagram
       - serjsidelnikov.github.io
 
