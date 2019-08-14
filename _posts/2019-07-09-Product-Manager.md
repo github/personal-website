@@ -26,7 +26,7 @@ tags: [产品职位]
 
 #### 产品信息
 - [PPIO产品](https://www.pp.io/?from=ash)
-- [基于PPIO孵化的海外应用](https://bonusvpn.com/?from=ash)
+- [基于PPIO孵化的海外应用(需海外ip访问)](https://bonusvpn.com/?from=ash)
 
 #### 薪酬水平
 1. 15-30k * 14
