@@ -12,9 +12,15 @@
       {% include projects.html %}
     </div>
 
+    {% if site.interests %}
+    <<div class="my-6">
+      {% include involvement.html %}
+    </div>
+    {% endif %}
+
     {% if site.topics %}
       <div class="my-6">
-        {% include interests.html %}
+        {% include learning.html %}
       </div>
     {% endif %}
 
@@ -40,8 +46,12 @@
 
         {% include projects.html %}
 
+        {% if site.involvements %}
+          {% include involvement.html %}
+        {% endif %}
+
         {% if site.topics %}
-          {% include interests.html %}
+          {% include learning.html %}
         {% endif %}
 
         {% unless posts_total == 0 %}
