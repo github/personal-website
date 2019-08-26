@@ -1,5 +1,5 @@
 layout: sidebar
-style: light
+style: dark
 
 plugins:
   - jekyll-octicons
@@ -50,9 +50,8 @@ social_media:
 
 involvements:
   - name: FIRST Robotics Competition
-    web_url: involvements/firstroboticscompetition
-    image_url: assets/images/FIRSTRobotics_IconVert_RGB.png
-
+    web_url: firstroboticscompetition
+    image_url: assets/images/firstroboticscompetition.png
   - name:
 
 topics:
