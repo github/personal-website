@@ -1,6 +1,6 @@
 layout: stacked
 style: light
-theme: slate
+theme: jekyll-theme-slate
 
 plugins:
   - jekyll-octicons
