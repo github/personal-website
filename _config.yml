@@ -64,12 +64,3 @@ topics:
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png
 
 
-managements:
-
-  - name: Mannoviny.cz
-    web_url: http://mannoviny.cz
-    image_url: http://www.mannoviny.cz/wp-content/uploads/2018/10/B-Michaela-Švábenicka.png
-
-  - name: JavaScript
-    web_url: https://github.com/topics/javascript
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png
