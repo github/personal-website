@@ -55,3 +55,7 @@
 img {
   max-width: 60%;
 }
+h1.text-white > a:nth-child(1) {
+  text-decoration: none;
+  color: white !important;
+}
