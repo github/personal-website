@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["image|lib/src/image.dart","image|lib/src/exif_data.dart","image|lib/src/transform/flip.dart","image|lib/src/transform/copy_rotate.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

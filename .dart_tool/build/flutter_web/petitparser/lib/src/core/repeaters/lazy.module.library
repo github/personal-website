@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["petitparser|lib/src/core/contexts/context.dart","petitparser|lib/src/core/contexts/result.dart","petitparser|lib/src/core/parser.dart","petitparser|lib/src/core/repeaters/limited.dart","petitparser|lib/src/core/repeaters/unbounded.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["js|lib/js.dart","js|lib/js_util.dart","firebase|lib/src/firestore.dart","firebase|lib/src/func.dart","firebase|lib/src/interop/firebase_interop.dart","firebase|lib/src/interop/firestore_interop.dart","firebase|lib/src/interop/js_interop.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","html"],"hasMain":false}

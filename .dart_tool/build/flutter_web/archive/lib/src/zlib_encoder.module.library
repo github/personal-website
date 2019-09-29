@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["archive|lib/src/util/adler32.dart","archive|lib/src/util/byte_order.dart","archive|lib/src/util/input_stream.dart","archive|lib/src/util/output_stream.dart","archive|lib/src/zlib/deflate.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

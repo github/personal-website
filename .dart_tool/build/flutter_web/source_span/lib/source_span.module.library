@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["source_span|lib/src/file.dart","source_span|lib/src/location.dart","source_span|lib/src/location_mixin.dart","source_span|lib/src/span.dart","source_span|lib/src/span_exception.dart","source_span|lib/src/span_mixin.dart","source_span|lib/src/span_with_context.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

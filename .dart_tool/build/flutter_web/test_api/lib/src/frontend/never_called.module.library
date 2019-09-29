@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["stack_trace|lib/stack_trace.dart","test_api|lib/src/util/placeholder.dart","test_api|lib/src/utils.dart","test_api|lib/src/frontend/expect.dart","test_api|lib/src/frontend/future_matchers.dart","test_api|lib/src/frontend/utils.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"],"hasMain":false}

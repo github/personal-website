@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["source_span|lib/source_span.dart","html|lib/src/constants.dart","html|lib/src/encoding_parser.dart","html|lib/src/utils.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["collection","convert"],"hasMain":false}

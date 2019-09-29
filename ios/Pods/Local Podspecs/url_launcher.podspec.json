@@ -1,0 +1,26 @@
+{
+  "name": "url_launcher",
+  "version": "0.0.1",
+  "summary": "Flutter plugin for launching a URL.",
+  "description": "A Flutter plugin for making the underlying platform (Android or iOS) launch a URL.",
+  "homepage": "https://github.com/flutter/plugins/tree/master/packages/url_launcher",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "Flutter Team": "flutter-dev@googlegroups.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "public_header_files": "Classes/**/*.h",
+  "dependencies": {
+    "Flutter": [
+
+    ]
+  },
+  "platforms": {
+    "ios": "8.0"
+  }
+}

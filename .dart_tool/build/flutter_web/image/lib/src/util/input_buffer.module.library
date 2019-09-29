@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["image|lib/src/image_exception.dart","image|lib/src/internal/bit_operators.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["typed_data"],"hasMain":false}

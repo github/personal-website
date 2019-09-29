@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["flutter|lib/foundation.dart","flutter|lib/src/gestures/lsq_solver.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["ui"],"hasMain":false}

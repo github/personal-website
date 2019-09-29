@@ -1,0 +1,6 @@
+framework module clipboard_manager {
+  umbrella header "clipboard_manager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["crypto|lib/src/digest.dart","crypto|lib/src/hash.dart","crypto|lib/src/hmac.dart","crypto|lib/src/md5.dart","crypto|lib/src/sha1.dart","crypto|lib/src/sha256.dart","crypto|lib/src/sha512.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

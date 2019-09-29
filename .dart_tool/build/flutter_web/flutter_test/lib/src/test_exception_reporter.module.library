@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["flutter|lib/foundation.dart","stack_trace|lib/stack_trace.dart","test_api|lib/test_api.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

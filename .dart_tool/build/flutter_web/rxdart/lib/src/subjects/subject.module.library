@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["rxdart|lib/src/observables/observable.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"],"hasMain":false}

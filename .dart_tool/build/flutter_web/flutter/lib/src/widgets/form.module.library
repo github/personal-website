@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["flutter|lib/src/widgets/framework.dart","flutter|lib/src/widgets/navigator.dart","flutter|lib/src/widgets/will_pop_scope.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

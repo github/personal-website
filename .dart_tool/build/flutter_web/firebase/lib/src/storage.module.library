@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["js|lib/js.dart","firebase|lib/src/app.dart","firebase|lib/src/interop/storage_interop.dart","firebase|lib/src/js.dart","firebase|lib/src/utils.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"],"hasMain":false}

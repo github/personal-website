@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["flutter|lib/rendering.dart","flutter|lib/src/widgets/framework.dart","flutter|lib/src/widgets/notification_listener.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

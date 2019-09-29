@@ -1,0 +1,50 @@
+name: personal_website
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  bloc: ^0.15.0
+  flutter_bloc: ^0.21.0
+  cupertino_icons: ^0.1.2
+  carousel_slider: ^1.3.1
+  intl: ^0.16.0
+  flutter_html: ^0.11.0
+  markdown: ^2.1.1
+  zefyr: ^0.8.0
+  fb_auth: ^0.0.2+1
+  universal_html: ^1.1.6
+  firebase: ^5.0.4
+  cloud_firestore: ^0.12.9+4
+  file_picker: ^1.4.2
+  image_picker: ^0.6.1+4
+  firebase_storage: ^3.0.6
+  clipboard_manager: ^0.0.4
+  clippy: ^1.0.0
+  flutter_logger: ^0.0.6
+  flutter_colorpicker: ^0.2.6
+  extended_text: ^0.6.6
+  extended_text_field: ^0.4.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/pages/
+    - assets/images/
+    - assets/images/flutter/
+    - assets/images/flutter_piano/
+    - assets/images/flutter_x/
+    - assets/images/gifs/
+    - assets/images/space-curiosity/
+    - assets/images/the-pitch-pipe/

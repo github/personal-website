@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["xml|lib/src/xml_events/converters/event_decoder.dart","xml|lib/src/xml_events/converters/event_encoder.dart","xml|lib/src/xml_events/event.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["convert"],"hasMain":false}

@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["collection|lib/src/unmodifiable_wrappers.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["collection","math"],"hasMain":false}

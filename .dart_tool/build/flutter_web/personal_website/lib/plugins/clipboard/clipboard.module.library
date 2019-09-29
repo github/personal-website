@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":[],"parts":[],"conditionalDeps":[{"$default":"personal_website|lib/plugins/clipboard/unsupported.dart","dart.library.html":"personal_website|lib/plugins/clipboard/web.dart","dart.library.io":"personal_website|lib/plugins/clipboard/mobile.dart"}],"sdkDeps":[],"hasMain":false}

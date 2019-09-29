@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["path|lib/path.dart","archive|lib/src/io/input_file_stream.dart","archive|lib/src/io/output_file_stream.dart","archive|lib/src/archive_file.dart","archive|lib/src/gzip_encoder.dart","archive|lib/src/tar_encoder.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["io"],"hasMain":false}

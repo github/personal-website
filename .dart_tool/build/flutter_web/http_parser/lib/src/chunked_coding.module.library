@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["http_parser|lib/src/chunked_coding/encoder.dart","http_parser|lib/src/chunked_coding/decoder.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["convert"],"hasMain":false}

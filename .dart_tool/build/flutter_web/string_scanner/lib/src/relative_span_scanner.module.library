@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["source_span|lib/source_span.dart","string_scanner|lib/src/exception.dart","string_scanner|lib/src/line_scanner.dart","string_scanner|lib/src/span_scanner.dart","string_scanner|lib/src/string_scanner.dart","string_scanner|lib/src/utils.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

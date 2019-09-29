@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["clippy|lib/src/clipboard.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","html"],"hasMain":false}

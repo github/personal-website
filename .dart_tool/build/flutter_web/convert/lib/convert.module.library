@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["convert|lib/src/accumulator_sink.dart","convert|lib/src/byte_accumulator_sink.dart","convert|lib/src/hex.dart","convert|lib/src/identity_codec.dart","convert|lib/src/percent.dart","convert|lib/src/string_accumulator_sink.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

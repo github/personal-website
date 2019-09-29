@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["matcher|lib/src/interfaces.dart","matcher|lib/src/pretty_print.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

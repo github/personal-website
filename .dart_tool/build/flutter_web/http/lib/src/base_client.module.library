@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["http|lib/src/base_request.dart","http|lib/src/client.dart","http|lib/src/exception.dart","http|lib/src/request.dart","http|lib/src/response.dart","http|lib/src/streamed_response.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","convert","typed_data"],"hasMain":false}

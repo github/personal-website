@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["matcher|lib/matcher.dart"],"parts":["quiver|lib/testing/src/equality/equality.dart"],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

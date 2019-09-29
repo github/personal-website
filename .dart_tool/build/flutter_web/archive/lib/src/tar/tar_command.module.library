@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["archive|lib/archive.dart","archive|lib/archive_io.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["io"],"hasMain":false}

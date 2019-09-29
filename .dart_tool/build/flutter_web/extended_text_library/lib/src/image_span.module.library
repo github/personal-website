@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["flutter|lib/material.dart","extended_text_library|lib/src/extended_widget_span.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["ui"],"hasMain":false}

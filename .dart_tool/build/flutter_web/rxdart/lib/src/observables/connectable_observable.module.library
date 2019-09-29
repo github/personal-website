@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["rxdart|lib/rxdart.dart","rxdart|lib/src/observables/replay_observable.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"],"hasMain":false}

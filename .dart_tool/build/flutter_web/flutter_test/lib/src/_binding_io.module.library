@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["flutter|lib/services.dart","flutter|lib/widgets.dart","meta|lib/meta.dart","path|lib/path.dart","flutter_test|lib/src/binding.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","convert","io","typed_data"],"hasMain":false}

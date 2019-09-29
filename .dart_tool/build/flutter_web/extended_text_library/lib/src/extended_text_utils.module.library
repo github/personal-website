@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["extended_text_library|lib/src/special_inline_span_base.dart","flutter|lib/material.dart","flutter|lib/services.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["math"],"hasMain":false}

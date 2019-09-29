@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["source_span|lib/source_span.dart","boolean_selector|lib/src/all.dart","boolean_selector|lib/src/impl.dart","boolean_selector|lib/src/none.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

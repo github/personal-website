@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["flutter|lib/gestures.dart","flutter|lib/material.dart","html|lib/dom.dart","html|lib/parser.dart","flutter_html|lib/image_properties.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["convert"],"hasMain":false}

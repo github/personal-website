@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["http_parser|lib/src/authentication_challenge.dart","http_parser|lib/src/case_insensitive_map.dart","http_parser|lib/src/chunked_coding.dart","http_parser|lib/src/http_date.dart","http_parser|lib/src/media_type.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

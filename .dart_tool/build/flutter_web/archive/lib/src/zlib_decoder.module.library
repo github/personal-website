@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["archive|lib/src/util/input_stream.dart"],"parts":[],"conditionalDeps":[{"$default":"archive|lib/src/zlib/zlib_decoder_stub.dart","dart.library.io":"archive|lib/src/zlib/_zlib_decoder_io.dart","dart.library.js":"archive|lib/src/zlib/_zlib_decoder_js.dart"}],"sdkDeps":[],"hasMain":false}

@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["flutter|lib/animation.dart","flutter|lib/foundation.dart","flutter|lib/gestures.dart","flutter|lib/rendering.dart","flutter|lib/scheduler.dart","flutter|lib/src/material/constants.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

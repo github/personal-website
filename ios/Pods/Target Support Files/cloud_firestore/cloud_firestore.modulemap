@@ -1,0 +1,6 @@
+framework module cloud_firestore {
+  umbrella header "cloud_firestore-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["stack_trace|lib/src/chain.dart","stack_trace|lib/src/frame.dart","stack_trace|lib/src/lazy_trace.dart","stack_trace|lib/src/unparsed_frame.dart","stack_trace|lib/src/utils.dart","stack_trace|lib/src/vm_trace.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["math"],"hasMain":false}

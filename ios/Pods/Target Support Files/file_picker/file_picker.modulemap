@@ -1,0 +1,6 @@
+framework module file_picker {
+  umbrella header "file_picker-umbrella.h"
+
+  export *
+  module * { export * }
+}

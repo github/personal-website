@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["charcode|lib/charcode.dart","meta|lib/meta.dart","source_span|lib/source_span.dart","string_scanner|lib/src/exception.dart","string_scanner|lib/src/utils.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["charcode|lib/ascii.dart","charcode|lib/html_entity.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

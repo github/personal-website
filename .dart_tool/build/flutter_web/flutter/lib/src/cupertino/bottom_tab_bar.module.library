@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["flutter|lib/widgets.dart","flutter|lib/src/cupertino/colors.dart","flutter|lib/src/cupertino/theme.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["ui"],"hasMain":false}

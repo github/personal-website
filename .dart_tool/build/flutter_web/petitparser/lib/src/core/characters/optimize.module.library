@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["petitparser|lib/src/core/characters/char.dart","petitparser|lib/src/core/characters/predicate.dart","petitparser|lib/src/core/characters/range.dart","petitparser|lib/src/core/characters/ranges.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

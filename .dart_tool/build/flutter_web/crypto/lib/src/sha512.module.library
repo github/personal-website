@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["crypto|lib/src/digest.dart","crypto|lib/src/hash.dart","crypto|lib/src/utils.dart"],"parts":[],"conditionalDeps":[{"$default":"crypto|lib/src/sha512_fastsinks.dart","dart.library.js":"crypto|lib/src/sha512_slowsinks.dart"}],"sdkDeps":["convert"],"hasMain":false}

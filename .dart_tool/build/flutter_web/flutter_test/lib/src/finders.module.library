@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["flutter|lib/gestures.dart","flutter|lib/material.dart","meta|lib/meta.dart","flutter_test|lib/src/all_elements.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

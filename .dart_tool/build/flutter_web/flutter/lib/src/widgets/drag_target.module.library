@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["flutter|lib/gestures.dart","flutter|lib/rendering.dart","flutter|lib/services.dart","flutter|lib/src/widgets/basic.dart","flutter|lib/src/widgets/binding.dart","flutter|lib/src/widgets/framework.dart","flutter|lib/src/widgets/overlay.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

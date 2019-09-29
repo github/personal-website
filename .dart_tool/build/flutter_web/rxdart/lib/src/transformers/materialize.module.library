@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["rxdart|lib/src/utils/notification.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"],"hasMain":false}

@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["stack_trace|lib/src/chain.dart","stack_trace|lib/src/lazy_chain.dart","stack_trace|lib/src/lazy_trace.dart","stack_trace|lib/src/trace.dart","stack_trace|lib/src/utils.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"],"hasMain":false}

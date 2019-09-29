@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["archive|lib/src/bzip2/bzip2.dart","archive|lib/src/bzip2/bz2_bit_writer.dart","archive|lib/src/util/archive_exception.dart","archive|lib/src/util/byte_order.dart","archive|lib/src/util/input_stream.dart","archive|lib/src/util/output_stream.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["typed_data"],"hasMain":false}

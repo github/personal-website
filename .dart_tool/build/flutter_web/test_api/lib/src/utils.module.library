@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["async|lib/async.dart","collection|lib/collection.dart","matcher|lib/matcher.dart","path|lib/path.dart","stream_channel|lib/stream_channel.dart","term_glyph|lib/term_glyph.dart","test_api|lib/src/backend/operating_system.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","convert","math","typed_data"],"hasMain":false}

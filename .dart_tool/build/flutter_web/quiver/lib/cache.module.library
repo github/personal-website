@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["quiver|lib/collection.dart"],"parts":["quiver|lib/src/cache/cache.dart","quiver|lib/src/cache/map_cache.dart"],"conditionalDeps":[],"sdkDeps":["async","collection"],"hasMain":false}

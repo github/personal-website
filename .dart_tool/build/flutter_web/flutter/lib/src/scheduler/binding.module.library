@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["collection|lib/collection.dart","flutter|lib/foundation.dart","flutter|lib/services.dart","flutter|lib/src/scheduler/debug.dart","flutter|lib/src/scheduler/priority.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","collection","developer","ui"],"hasMain":false}

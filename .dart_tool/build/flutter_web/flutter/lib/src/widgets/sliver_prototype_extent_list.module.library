@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["flutter|lib/rendering.dart","flutter|lib/src/widgets/basic.dart","flutter|lib/src/widgets/framework.dart","flutter|lib/src/widgets/sliver.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

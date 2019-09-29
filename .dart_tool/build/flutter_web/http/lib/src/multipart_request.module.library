@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["http|lib/src/base_request.dart","http|lib/src/boundary_characters.dart","http|lib/src/byte_stream.dart","http|lib/src/multipart_file.dart","http|lib/src/utils.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","convert","math"],"hasMain":false}

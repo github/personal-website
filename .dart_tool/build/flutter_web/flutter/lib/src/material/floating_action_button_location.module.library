@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["flutter|lib/widgets.dart","flutter|lib/src/material/scaffold.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["math"],"hasMain":false}

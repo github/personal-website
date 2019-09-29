@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["image|lib/image.dart","path|lib/path.dart","test_api|lib/test_api.dart","flutter_test|lib/src/goldens.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","io","math","typed_data"],"hasMain":false}

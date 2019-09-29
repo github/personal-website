@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["flutter|lib/foundation.dart","flutter|lib/src/painting/binding.dart","flutter|lib/src/painting/debug.dart","flutter|lib/src/painting/image_provider.dart","flutter|lib/src/painting/image_stream.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","io","typed_data","ui"],"hasMain":false}

@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["flutter|lib/src/semantics/binding.dart","flutter|lib/src/semantics/debug.dart","flutter|lib/src/semantics/semantics.dart","flutter|lib/src/semantics/semantics_service.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["source_span|lib/source_span.dart","csslib|lib/src/preprocessor_options.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

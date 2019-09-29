@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["petitparser|lib/src/debug/continuation.dart","petitparser|lib/src/debug/profile.dart","petitparser|lib/src/debug/progress.dart","petitparser|lib/src/debug/trace.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

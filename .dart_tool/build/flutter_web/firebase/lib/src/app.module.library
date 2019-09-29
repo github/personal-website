@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["firebase|lib/src/auth.dart","firebase|lib/src/database.dart","firebase|lib/src/firestore.dart","firebase|lib/src/interop/app_interop.dart","firebase|lib/src/interop/firebase_interop.dart","firebase|lib/src/js.dart","firebase|lib/src/storage.dart","firebase|lib/src/utils.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"],"hasMain":false}

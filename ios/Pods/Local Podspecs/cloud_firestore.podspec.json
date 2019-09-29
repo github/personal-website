@@ -1,0 +1,34 @@
+{
+  "name": "cloud_firestore",
+  "version": "0.0.1",
+  "summary": "Firestore plugin for Flutter.",
+  "description": "Firestore plugin for Flutter.",
+  "homepage": "https://github.com/flutter/firestore",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "Flutter Team": "flutter-dev@googlegroups.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "public_header_files": "Classes/**/*.h",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "dependencies": {
+    "Flutter": [
+
+    ],
+    "Firebase/Core": [
+
+    ],
+    "Firebase/Firestore": [
+      "~> 6.0"
+    ]
+  },
+  "static_framework": true,
+  "prepare_command": "echo // Generated file, do not edit > Classes/UserAgent.h\necho \"#define LIBRARY_VERSION @\\\"0.12.9-4\\\"\" >> Classes/UserAgent.h\necho \"#define LIBRARY_NAME @\\\"flutter-fire-fst\\\"\" >> Classes/UserAgent.h"
+}

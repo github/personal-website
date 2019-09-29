@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["image|lib/src/internal/internal.dart","image|lib/src/formats/webp/vp8l.dart","image|lib/src/formats/webp/vp8l_bit_reader.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["typed_data"],"hasMain":false}

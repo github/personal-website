@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["flutter|lib/src/physics/simulation.dart","flutter|lib/src/physics/tolerance.dart","flutter|lib/src/physics/utils.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["math"],"hasMain":false}

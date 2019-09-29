@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["async|lib/src/delegate/stream_subscription.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"],"hasMain":false}

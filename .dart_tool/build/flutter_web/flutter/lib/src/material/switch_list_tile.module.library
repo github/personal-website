@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["flutter|lib/widgets.dart","flutter|lib/src/material/list_tile.dart","flutter|lib/src/material/switch.dart","flutter|lib/src/material/theme.dart","flutter|lib/src/material/theme_data.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

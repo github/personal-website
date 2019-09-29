@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["stream_channel|lib/stream_channel.dart","test_api|lib/src/backend/stack_trace_formatter.dart","test_api|lib/src/util/stack_trace_mapper.dart","test_api|lib/src/remote_listener.dart","test_api|lib/src/suite_channel_manager.dart","personal_website|test/widget_test.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["ui","html","js"],"hasMain":true}

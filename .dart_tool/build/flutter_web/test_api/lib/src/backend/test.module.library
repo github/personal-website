@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["stack_trace|lib/stack_trace.dart","test_api|lib/src/backend/group.dart","test_api|lib/src/backend/group_entry.dart","test_api|lib/src/backend/live_test.dart","test_api|lib/src/backend/metadata.dart","test_api|lib/src/backend/suite.dart","test_api|lib/src/backend/suite_platform.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

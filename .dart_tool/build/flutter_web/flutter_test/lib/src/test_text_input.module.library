@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["flutter|lib/services.dart","flutter_test|lib/flutter_test.dart","flutter|lib/foundation.dart","flutter_test|lib/src/widget_tester.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","typed_data"],"hasMain":false}

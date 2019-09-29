@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["image|lib/src/image.dart","image|lib/src/draw/fill.dart","image|lib/src/util/min_max.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

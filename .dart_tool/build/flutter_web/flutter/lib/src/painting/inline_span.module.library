@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["flutter|lib/foundation.dart","flutter|lib/gestures.dart","flutter|lib/src/painting/basic_types.dart","flutter|lib/src/painting/text_painter.dart","flutter|lib/src/painting/text_span.dart","flutter|lib/src/painting/text_style.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["ui"],"hasMain":false}

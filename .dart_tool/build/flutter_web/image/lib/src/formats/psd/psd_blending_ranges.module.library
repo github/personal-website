@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["image|lib/src/util/input_buffer.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["typed_data"],"hasMain":false}
