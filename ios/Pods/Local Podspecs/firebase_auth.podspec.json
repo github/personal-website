@@ -1,0 +1,34 @@
+{
+  "name": "firebase_auth",
+  "version": "0.0.1",
+  "summary": "Firebase Auth plugin for Flutter.",
+  "description": "Firebase Auth plugin for Flutter.",
+  "homepage": "https://github.com/FirebaseExtended/flutterfire/tree/master/packages/firebase_auth",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "Flutter Team": "flutter-dev@googlegroups.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "public_header_files": "Classes/**/*.h",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "dependencies": {
+    "Flutter": [
+
+    ],
+    "Firebase/Auth": [
+      "~> 6.0"
+    ],
+    "Firebase/Core": [
+
+    ]
+  },
+  "static_framework": true,
+  "prepare_command": "echo // Generated file, do not edit > Classes/UserAgent.h\necho \"#define LIBRARY_VERSION @\\\"0.14.0-5\\\"\" >> Classes/UserAgent.h\necho \"#define LIBRARY_NAME @\\\"flutter-fire-auth\\\"\" >> Classes/UserAgent.h"
+}

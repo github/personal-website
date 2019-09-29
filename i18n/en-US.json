@@ -1,0 +1,27 @@
+{
+    "title": "Rody Davis",
+    "ok": "Ok",
+    "cancel": "Cancel",
+    "settings": {
+        "title": "Settings",
+        "darkMode": "Dark Mode",
+        "useSystem": "System Brightness"
+    },
+    "about": {
+        "title": "About"
+    },
+    "apps": {
+        "title": "Apps"
+    },
+    "projects": {
+        "title": "Projects"
+    },
+    "blog": {
+        "title": "Blog",
+        "image_source": "Image Source"
+    },
+    "home": {
+        "title": "Home"
+    },
+    "privacy_policy": "Privacy Policy"
+}

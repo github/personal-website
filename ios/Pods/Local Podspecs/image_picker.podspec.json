@@ -1,0 +1,26 @@
+{
+  "name": "image_picker",
+  "version": "0.0.1",
+  "summary": "Flutter plugin that shows an image picker.",
+  "description": "Flutter plugin that shows an image picker.",
+  "homepage": "https://github.com/flutter/plugins/tree/master/packages/image_picker",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "Flutter Team": "flutter-dev@googlegroups.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "public_header_files": "Classes/**/*.h",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "dependencies": {
+    "Flutter": [
+
+    ]
+  }
+}
