@@ -5,6 +5,7 @@ import 'package:personal_website/data/blocs/blocs.dart';
 import '../../data/utils/constants.dart';
 import '../../generated/i18n.dart';
 import '../apps/screen.dart';
+import '../blog/edit_post.dart';
 import '../blog/screen.dart';
 import '../home/screen.dart';
 import '../pages/about.dart';
@@ -55,11 +56,6 @@ class AppScaffold extends StatelessWidget {
                                         context, HomeScreen.routeName),
                                   ),
                                   FlatButton(
-                                    child: Text(I18n.of(context).blogTitle),
-                                    onPressed: () => Navigator.pushNamed(
-                                        context, BlogScreen.routeName),
-                                  ),
-                                  FlatButton(
                                     child: Text(I18n.of(context).appsTitle),
                                     onPressed: () => Navigator.pushNamed(
                                         context, AppsScreen.routeName),
@@ -73,6 +69,16 @@ class AppScaffold extends StatelessWidget {
                                     child: Text(I18n.of(context).aboutTitle),
                                     onPressed: () => Navigator.pushNamed(
                                         context, AboutScreen.routeName),
+                                  ),
+                                  FlatButton(
+                                    child: Text(I18n.of(context).blogTitle),
+                                    onPressed: () => Navigator.pushNamed(
+                                        context, BlogScreen.routeName),
+                                  ),
+                                  IconButton(
+                                    icon: Icon(Icons.add),
+                                    onPressed: () => Navigator.pushNamed(
+                                        context, EditPostScreen.routeName),
                                   ),
                                 ],
                               ),

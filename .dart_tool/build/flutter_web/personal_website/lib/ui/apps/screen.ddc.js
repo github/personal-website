@@ -207,7 +207,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: null,
         name: "data",
         column: 33,
-        line: 39,
+        line: 40,
         file: null
       });
     },
@@ -220,7 +220,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: C12 || CT.C12,
         name: null,
         column: 28,
-        line: 39,
+        line: 40,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
       });
     },
@@ -230,7 +230,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: null,
         name: "automaticallyImplyLeading",
         column: 21,
-        line: 38,
+        line: 39,
         file: null
       });
     },
@@ -240,7 +240,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: null,
         name: "title",
         column: 21,
-        line: 39,
+        line: 40,
         file: null
       });
     },
@@ -253,7 +253,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: C15 || CT.C15,
         name: null,
         column: 19,
-        line: 36,
+        line: 37,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
       });
     },
@@ -263,7 +263,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: null,
         name: "icon",
         column: 55,
-        line: 53,
+        line: 54,
         file: null
       });
     },
@@ -276,7 +276,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: C19 || CT.C19,
         name: null,
         column: 44,
-        line: 53,
+        line: 54,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
       });
     },
@@ -286,7 +286,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: null,
         name: "child",
         column: 37,
-        line: 53,
+        line: 54,
         file: null
       });
     },
@@ -296,7 +296,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: null,
         name: "onPressed",
         column: 37,
-        line: 54,
+        line: 55,
         file: null
       });
     },
@@ -309,7 +309,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: C22 || CT.C22,
         name: null,
         column: 35,
-        line: 52,
+        line: 53,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
       });
     },
@@ -319,7 +319,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: null,
         name: "data",
         column: 66,
-        line: 58,
+        line: 59,
         file: null
       });
     },
@@ -332,7 +332,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: C26 || CT.C26,
         name: null,
         column: 44,
-        line: 58,
+        line: 59,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
       });
     },
@@ -342,7 +342,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: null,
         name: "child",
         column: 37,
-        line: 58,
+        line: 59,
         file: null
       });
     },
@@ -352,7 +352,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: null,
         name: "onPressed",
         column: 37,
-        line: 59,
+        line: 60,
         file: null
       });
     },
@@ -365,7 +365,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: C29 || CT.C29,
         name: null,
         column: 35,
-        line: 57,
+        line: 58,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
       });
     },
@@ -375,7 +375,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: null,
         name: "data",
         column: 66,
-        line: 63,
+        line: 64,
         file: null
       });
     },
@@ -388,7 +388,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: C33 || CT.C33,
         name: null,
         column: 44,
-        line: 63,
+        line: 64,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
       });
     },
@@ -398,7 +398,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: null,
         name: "child",
         column: 37,
-        line: 63,
+        line: 64,
         file: null
       });
     },
@@ -408,7 +408,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: null,
         name: "onPressed",
         column: 37,
-        line: 64,
+        line: 65,
         file: null
       });
     },
@@ -421,7 +421,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: C36 || CT.C36,
         name: null,
         column: 35,
-        line: 62,
+        line: 63,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
       });
     },
@@ -431,7 +431,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: null,
         name: "data",
         column: 66,
-        line: 68,
+        line: 69,
         file: null
       });
     },
@@ -444,7 +444,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: C40 || CT.C40,
         name: null,
         column: 44,
-        line: 68,
+        line: 69,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
       });
     },
@@ -454,7 +454,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: null,
         name: "child",
         column: 37,
-        line: 68,
+        line: 69,
         file: null
       });
     },
@@ -464,7 +464,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: null,
         name: "onPressed",
         column: 37,
-        line: 69,
+        line: 70,
         file: null
       });
     },
@@ -477,7 +477,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: C43 || CT.C43,
         name: null,
         column: 35,
-        line: 67,
+        line: 68,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
       });
     },
@@ -487,7 +487,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: null,
         name: "data",
         column: 66,
-        line: 73,
+        line: 74,
         file: null
       });
     },
@@ -500,7 +500,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: C47 || CT.C47,
         name: null,
         column: 44,
-        line: 73,
+        line: 74,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
       });
     },
@@ -510,7 +510,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: null,
         name: "child",
         column: 37,
-        line: 73,
+        line: 74,
         file: null
       });
     },
@@ -520,7 +520,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: null,
         name: "onPressed",
         column: 37,
-        line: 74,
+        line: 75,
         file: null
       });
     },
@@ -533,7 +533,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: C50 || CT.C50,
         name: null,
         column: 35,
-        line: 72,
+        line: 73,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
       });
     },
@@ -541,9 +541,9 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
       return C55 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "children",
-        column: 33,
-        line: 51,
+        name: "icon",
+        column: 54,
+        line: 79,
         file: null
       });
     },
@@ -555,8 +555,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: C54 || CT.C54,
         name: null,
-        column: 38,
-        line: 50,
+        column: 43,
+        line: 79,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
       });
     },
@@ -564,79 +564,79 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
       return C58 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "child",
-        column: 31,
-        line: 50,
+        name: "icon",
+        column: 37,
+        line: 79,
+        file: null
+      });
+    },
+    get C59() {
+      return C59 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "onPressed",
+        column: 37,
+        line: 80,
         file: null
       });
     },
     get C57() {
-      return C57 = dart.constList([C58 || CT.C58], widget_inspector._Location);
+      return C57 = dart.constList([C58 || CT.C58, C59 || CT.C59], widget_inspector._Location);
     },
     get C56() {
       return C56 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: C57 || CT.C57,
         name: null,
-        column: 29,
-        line: 49,
+        column: 35,
+        line: 78,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
       });
-    },
-    get C61() {
-      return C61 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "icon",
-        column: 56,
-        line: 88,
-        file: null
-      });
-    },
-    get C60() {
-      return C60 = dart.constList([C61 || CT.C61], widget_inspector._Location);
-    },
-    get C59() {
-      return C59 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C60 || CT.C60,
-        name: null,
-        column: 45,
-        line: 88,
-        file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
-      });
-    },
-    get C64() {
-      return C64 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "icon",
-        column: 56,
-        line: 89,
-        file: null
-      });
-    },
-    get C63() {
-      return C63 = dart.constList([C64 || CT.C64], widget_inspector._Location);
     },
     get C62() {
       return C62 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C63 || CT.C63,
+        parameterLocations: null,
+        name: "children",
+        column: 33,
+        line: 52,
+        file: null
+      });
+    },
+    get C61() {
+      return C61 = dart.constList([C62 || CT.C62], widget_inspector._Location);
+    },
+    get C60() {
+      return C60 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C61 || CT.C61,
         name: null,
-        column: 45,
-        line: 89,
+        column: 38,
+        line: 51,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
       });
     },
-    get C67() {
-      return C67 = dart.const({
+    get C65() {
+      return C65 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "tooltip",
-        column: 39,
-        line: 85,
+        name: "child",
+        column: 31,
+        line: 51,
         file: null
+      });
+    },
+    get C64() {
+      return C64 = dart.constList([C65 || CT.C65], widget_inspector._Location);
+    },
+    get C63() {
+      return C63 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C64 || CT.C64,
+        name: null,
+        column: 29,
+        line: 50,
+        file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
       });
     },
     get C68() {
@@ -644,121 +644,121 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "icon",
-        column: 39,
-        line: 87,
+        column: 56,
+        line: 94,
         file: null
       });
     },
-    get C69() {
-      return C69 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "onPressed",
-        column: 39,
-        line: 90,
-        file: null
-      });
+    get C67() {
+      return C67 = dart.constList([C68 || CT.C68], widget_inspector._Location);
     },
     get C66() {
-      return C66 = dart.constList([C67 || CT.C67, C68 || CT.C68, C69 || CT.C69], widget_inspector._Location);
-    },
-    get C65() {
-      return C65 = dart.const({
+      return C66 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C66 || CT.C66,
+        parameterLocations: C67 || CT.C67,
         name: null,
-        column: 44,
-        line: 84,
+        column: 45,
+        line: 94,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
       });
-    },
-    get C70() {
-      return C70 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C1 || CT.C1,
-        name: null,
-        column: 42,
-        line: 98,
-        file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
-      });
-    },
-    get C73() {
-      return C73 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "builder",
-        column: 33,
-        line: 82,
-        file: null
-      });
-    },
-    get C72() {
-      return C72 = dart.constList([C73 || CT.C73], widget_inspector._Location);
     },
     get C71() {
       return C71 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C72 || CT.C72,
+        parameterLocations: null,
+        name: "icon",
+        column: 56,
+        line: 95,
+        file: null
+      });
+    },
+    get C70() {
+      return C70 = dart.constList([C71 || CT.C71], widget_inspector._Location);
+    },
+    get C69() {
+      return C69 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C70 || CT.C70,
         name: null,
-        column: 38,
-        line: 81,
+        column: 45,
+        line: 95,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
+      });
+    },
+    get C74() {
+      return C74 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "tooltip",
+        column: 39,
+        line: 91,
+        file: null
+      });
+    },
+    get C75() {
+      return C75 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "icon",
+        column: 39,
+        line: 93,
+        file: null
       });
     },
     get C76() {
       return C76 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "child",
-        column: 31,
-        line: 81,
+        name: "onPressed",
+        column: 39,
+        line: 96,
         file: null
       });
     },
-    get C75() {
-      return C75 = dart.constList([C76 || CT.C76], widget_inspector._Location);
+    get C73() {
+      return C73 = dart.constList([C74 || CT.C74, C75 || CT.C75, C76 || CT.C76], widget_inspector._Location);
     },
-    get C74() {
-      return C74 = dart.const({
+    get C72() {
+      return C72 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C75 || CT.C75,
+        parameterLocations: C73 || CT.C73,
         name: null,
-        column: 29,
-        line: 80,
+        column: 44,
+        line: 90,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
       });
-    },
-    get C79() {
-      return C79 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "children",
-        column: 27,
-        line: 48,
-        file: null
-      });
-    },
-    get C78() {
-      return C78 = dart.constList([C79 || CT.C79], widget_inspector._Location);
     },
     get C77() {
       return C77 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C78 || CT.C78,
+        parameterLocations: C1 || CT.C1,
         name: null,
-        column: 32,
-        line: 47,
+        column: 42,
+        line: 104,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
       });
     },
-    get C82() {
-      return C82 = dart.const({
+    get C80() {
+      return C80 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "data",
-        column: 25,
-        line: 46,
+        name: "builder",
+        column: 33,
+        line: 88,
         file: null
+      });
+    },
+    get C79() {
+      return C79 = dart.constList([C80 || CT.C80], widget_inspector._Location);
+    },
+    get C78() {
+      return C78 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C79 || CT.C79,
+        name: null,
+        column: 38,
+        line: 87,
+        file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
       });
     },
     get C83() {
@@ -766,21 +766,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "child",
-        column: 25,
-        line: 47,
+        column: 31,
+        line: 87,
         file: null
       });
     },
-    get C81() {
-      return C81 = dart.constList([C82 || CT.C82, C83 || CT.C83], widget_inspector._Location);
+    get C82() {
+      return C82 = dart.constList([C83 || CT.C83], widget_inspector._Location);
     },
-    get C80() {
-      return C80 = dart.const({
+    get C81() {
+      return C81 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C81 || CT.C81,
+        parameterLocations: C82 || CT.C82,
         name: null,
-        column: 30,
-        line: 45,
+        column: 29,
+        line: 86,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
       });
     },
@@ -788,166 +788,222 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
       return C86 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "color",
-        column: 23,
-        line: 44,
-        file: null
-      });
-    },
-    get C87() {
-      return C87 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "child",
-        column: 23,
-        line: 45,
+        name: "children",
+        column: 27,
+        line: 49,
         file: null
       });
     },
     get C85() {
-      return C85 = dart.constList([C86 || CT.C86, C87 || CT.C87], widget_inspector._Location);
+      return C85 = dart.constList([C86 || CT.C86], widget_inspector._Location);
     },
     get C84() {
       return C84 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: C85 || CT.C85,
         name: null,
-        column: 28,
-        line: 43,
+        column: 32,
+        line: 48,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
+      });
+    },
+    get C89() {
+      return C89 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "data",
+        column: 25,
+        line: 47,
+        file: null
       });
     },
     get C90() {
       return C90 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "preferredSize",
-        column: 21,
-        line: 42,
+        name: "child",
+        column: 25,
+        line: 48,
         file: null
       });
+    },
+    get C88() {
+      return C88 = dart.constList([C89 || CT.C89, C90 || CT.C90], widget_inspector._Location);
+    },
+    get C87() {
+      return C87 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C88 || CT.C88,
+        name: null,
+        column: 30,
+        line: 46,
+        file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
+      });
+    },
+    get C93() {
+      return C93 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "color",
+        column: 23,
+        line: 45,
+        file: null
+      });
+    },
+    get C94() {
+      return C94 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "child",
+        column: 23,
+        line: 46,
+        file: null
+      });
+    },
+    get C92() {
+      return C92 = dart.constList([C93 || CT.C93, C94 || CT.C94], widget_inspector._Location);
     },
     get C91() {
       return C91 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "child",
-        column: 21,
-        line: 43,
-        file: null
-      });
-    },
-    get C89() {
-      return C89 = dart.constList([C90 || CT.C90, C91 || CT.C91], widget_inspector._Location);
-    },
-    get C88() {
-      return C88 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C89 || CT.C89,
+        parameterLocations: C92 || CT.C92,
         name: null,
-        column: 19,
-        line: 41,
+        column: 28,
+        line: 44,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
-      });
-    },
-    get C92() {
-      return C92 = dart.const({
-        __proto__: app_drawer.AppDrawer.prototype,
-        key: null,
-        permanentlyDisplay: false
-      });
-    },
-    get C95() {
-      return C95 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "appBar",
-        column: 13,
-        line: 35,
-        file: null
-      });
-    },
-    get C96() {
-      return C96 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "drawer",
-        column: 13,
-        line: 107,
-        file: null
       });
     },
     get C97() {
       return C97 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "body",
-        column: 13,
-        line: 110,
+        name: "preferredSize",
+        column: 21,
+        line: 43,
         file: null
       });
-    },
-    get C94() {
-      return C94 = dart.constList([C95 || CT.C95, C96 || CT.C96, C97 || CT.C97], widget_inspector._Location);
-    },
-    get C93() {
-      return C93 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C94 || CT.C94,
-        name: null,
-        column: 18,
-        line: 34,
-        file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
-      });
-    },
-    get C100() {
-      return C100 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "child",
-        column: 11,
-        line: 34,
-        file: null
-      });
-    },
-    get C99() {
-      return C99 = dart.constList([C100 || CT.C100], widget_inspector._Location);
     },
     get C98() {
       return C98 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C99 || CT.C99,
+        parameterLocations: null,
+        name: "child",
+        column: 21,
+        line: 44,
+        file: null
+      });
+    },
+    get C96() {
+      return C96 = dart.constList([C97 || CT.C97, C98 || CT.C98], widget_inspector._Location);
+    },
+    get C95() {
+      return C95 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C96 || CT.C96,
         name: null,
-        column: 9,
-        line: 33,
+        column: 19,
+        line: 42,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
+      });
+    },
+    get C99() {
+      return C99 = dart.const({
+        __proto__: app_drawer.AppDrawer.prototype,
+        key: null,
+        permanentlyDisplay: false
+      });
+    },
+    get C102() {
+      return C102 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "appBar",
+        column: 13,
+        line: 36,
+        file: null
       });
     },
     get C103() {
       return C103 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "children",
-        column: 7,
-        line: 31,
+        name: "drawer",
+        column: 13,
+        line: 113,
         file: null
-      });
-    },
-    get C102() {
-      return C102 = dart.constList([C103 || CT.C103], widget_inspector._Location);
-    },
-    get C101() {
-      return C101 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C102 || CT.C102,
-        name: null,
-        column: 12,
-        line: 30,
-        file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
       });
     },
     get C104() {
       return C104 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "body",
+        column: 13,
+        line: 116,
+        file: null
+      });
+    },
+    get C101() {
+      return C101 = dart.constList([C102 || CT.C102, C103 || CT.C103, C104 || CT.C104], widget_inspector._Location);
+    },
+    get C100() {
+      return C100 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C101 || CT.C101,
+        name: null,
+        column: 18,
+        line: 35,
+        file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
+      });
+    },
+    get C107() {
+      return C107 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "child",
+        column: 11,
+        line: 35,
+        file: null
+      });
+    },
+    get C106() {
+      return C106 = dart.constList([C107 || CT.C107], widget_inspector._Location);
+    },
+    get C105() {
+      return C105 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C106 || CT.C106,
+        name: null,
+        column: 9,
+        line: 34,
+        file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
+      });
+    },
+    get C110() {
+      return C110 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "children",
+        column: 7,
+        line: 32,
+        file: null
+      });
+    },
+    get C109() {
+      return C109 = dart.constList([C110 || CT.C110], widget_inspector._Location);
+    },
+    get C108() {
+      return C108 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C109 || CT.C109,
+        name: null,
+        column: 12,
+        line: 31,
+        file: "org-dartlang-app:///packages/personal_website/ui/common/app_scaffold.dart"
+      });
+    },
+    get C111() {
+      return C111 = dart.const({
         __proto__: edge_insets.EdgeInsets.prototype,
         bottom: 0,
         right: 0,
@@ -955,8 +1011,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         left: 0
       });
     },
-    get C105() {
-      return C105 = dart.const({
+    get C112() {
+      return C112 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: C1 || CT.C1,
         name: null,
@@ -965,8 +1021,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: "org-dartlang-app:///packages/personal_website/ui/home/landing.dart"
       });
     },
-    get C108() {
-      return C108 = dart.const({
+    get C115() {
+      return C115 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "padding",
@@ -975,69 +1031,13 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C109() {
-      return C109 = dart.const({
+    get C116() {
+      return C116 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "child",
         column: 11,
         line: 12,
-        file: null
-      });
-    },
-    get C107() {
-      return C107 = dart.constList([C108 || CT.C108, C109 || CT.C109], widget_inspector._Location);
-    },
-    get C106() {
-      return C106 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C107 || CT.C107,
-        name: null,
-        column: 9,
-        line: 10,
-        file: "org-dartlang-app:///packages/personal_website/ui/home/landing.dart"
-      });
-    },
-    get C112() {
-      return C112 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "children",
-        column: 7,
-        line: 9,
-        file: null
-      });
-    },
-    get C111() {
-      return C111 = dart.constList([C112 || CT.C112], widget_inspector._Location);
-    },
-    get C110() {
-      return C110 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C111 || CT.C111,
-        name: null,
-        column: 12,
-        line: 8,
-        file: "org-dartlang-app:///packages/personal_website/ui/home/landing.dart"
-      });
-    },
-    get C115() {
-      return C115 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "title",
-        column: 7,
-        line: 12,
-        file: null
-      });
-    },
-    get C116() {
-      return C116 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "path",
-        column: 7,
-        line: 13,
         file: null
       });
     },
@@ -1049,13 +1049,69 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: C114 || CT.C114,
         name: null,
+        column: 9,
+        line: 10,
+        file: "org-dartlang-app:///packages/personal_website/ui/home/landing.dart"
+      });
+    },
+    get C119() {
+      return C119 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "children",
+        column: 7,
+        line: 9,
+        file: null
+      });
+    },
+    get C118() {
+      return C118 = dart.constList([C119 || CT.C119], widget_inspector._Location);
+    },
+    get C117() {
+      return C117 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C118 || CT.C118,
+        name: null,
+        column: 12,
+        line: 8,
+        file: "org-dartlang-app:///packages/personal_website/ui/home/landing.dart"
+      });
+    },
+    get C122() {
+      return C122 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "title",
+        column: 7,
+        line: 12,
+        file: null
+      });
+    },
+    get C123() {
+      return C123 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "path",
+        column: 7,
+        line: 13,
+        file: null
+      });
+    },
+    get C121() {
+      return C121 = dart.constList([C122 || CT.C122, C123 || CT.C123], widget_inspector._Location);
+    },
+    get C120() {
+      return C120 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C121 || CT.C121,
+        name: null,
         column: 12,
         line: 11,
         file: "org-dartlang-app:///packages/personal_website/ui/pages/privacy_policy.dart"
       });
     },
-    get C117() {
-      return C117 = dart.const({
+    get C124() {
+      return C124 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: C1 || CT.C1,
         name: null,
@@ -1064,8 +1120,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: "org-dartlang-app:///packages/personal_website/ui/blog/post.dart"
       });
     },
-    get C118() {
-      return C118 = dart.const({
+    get C125() {
+      return C125 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: C1 || CT.C1,
         name: null,
@@ -1074,69 +1130,13 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: "org-dartlang-app:///packages/personal_website/ui/blog/post.dart"
       });
     },
-    get C121() {
-      return C121 = dart.const({
+    get C128() {
+      return C128 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "child",
         column: 11,
         line: 60,
-        file: null
-      });
-    },
-    get C120() {
-      return C120 = dart.constList([C121 || CT.C121], widget_inspector._Location);
-    },
-    get C119() {
-      return C119 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C120 || CT.C120,
-        name: null,
-        column: 15,
-        line: 59,
-        file: "org-dartlang-app:///packages/personal_website/ui/blog/post.dart"
-      });
-    },
-    get C124() {
-      return C124 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "appBar",
-        column: 9,
-        line: 58,
-        file: null
-      });
-    },
-    get C125() {
-      return C125 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "body",
-        column: 9,
-        line: 59,
-        file: null
-      });
-    },
-    get C123() {
-      return C123 = dart.constList([C124 || CT.C124, C125 || CT.C125], widget_inspector._Location);
-    },
-    get C122() {
-      return C122 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C123 || CT.C123,
-        name: null,
-        column: 14,
-        line: 57,
-        file: "org-dartlang-app:///packages/personal_website/ui/blog/post.dart"
-      });
-    },
-    get C128() {
-      return C128 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "icon",
-        column: 32,
-        line: 69,
         file: null
       });
     },
@@ -1148,8 +1148,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: C127 || CT.C127,
         name: null,
-        column: 21,
-        line: 69,
+        column: 15,
+        line: 59,
         file: "org-dartlang-app:///packages/personal_website/ui/blog/post.dart"
       });
     },
@@ -1157,9 +1157,9 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
       return C131 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "icon",
-        column: 15,
-        line: 69,
+        name: "appBar",
+        column: 9,
+        line: 58,
         file: null
       });
     },
@@ -1167,9 +1167,9 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
       return C132 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "onPressed",
-        column: 15,
-        line: 70,
+        name: "body",
+        column: 9,
+        line: 59,
         file: null
       });
     },
@@ -1181,8 +1181,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: C130 || CT.C130,
         name: null,
-        column: 13,
-        line: 68,
+        column: 14,
+        line: 57,
         file: "org-dartlang-app:///packages/personal_website/ui/blog/post.dart"
       });
     },
@@ -1192,7 +1192,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: null,
         name: "icon",
         column: 32,
-        line: 76,
+        line: 69,
         file: null
       });
     },
@@ -1205,7 +1205,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         parameterLocations: C134 || CT.C134,
         name: null,
         column: 21,
-        line: 76,
+        line: 69,
         file: "org-dartlang-app:///packages/personal_website/ui/blog/post.dart"
       });
     },
@@ -1213,9 +1213,9 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
       return C138 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "post",
-        column: 32,
-        line: 79,
+        name: "icon",
+        column: 15,
+        line: 69,
         file: null
       });
     },
@@ -1223,9 +1223,9 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
       return C139 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "id",
-        column: 45,
-        line: 79,
+        name: "onPressed",
+        column: 15,
+        line: 70,
         file: null
       });
     },
@@ -1237,8 +1237,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: C137 || CT.C137,
         name: null,
-        column: 17,
-        line: 79,
+        column: 13,
+        line: 68,
         file: "org-dartlang-app:///packages/personal_website/ui/blog/post.dart"
       });
     },
@@ -1247,13 +1247,69 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "icon",
+        column: 32,
+        line: 76,
+        file: null
+      });
+    },
+    get C141() {
+      return C141 = dart.constList([C142 || CT.C142], widget_inspector._Location);
+    },
+    get C140() {
+      return C140 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C141 || CT.C141,
+        name: null,
+        column: 21,
+        line: 76,
+        file: "org-dartlang-app:///packages/personal_website/ui/blog/post.dart"
+      });
+    },
+    get C145() {
+      return C145 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "post",
+        column: 32,
+        line: 79,
+        file: null
+      });
+    },
+    get C146() {
+      return C146 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "id",
+        column: 45,
+        line: 79,
+        file: null
+      });
+    },
+    get C144() {
+      return C144 = dart.constList([C145 || CT.C145, C146 || CT.C146], widget_inspector._Location);
+    },
+    get C143() {
+      return C143 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C144 || CT.C144,
+        name: null,
+        column: 17,
+        line: 79,
+        file: "org-dartlang-app:///packages/personal_website/ui/blog/post.dart"
+      });
+    },
+    get C149() {
+      return C149 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "icon",
         column: 15,
         line: 76,
         file: null
       });
     },
-    get C143() {
-      return C143 = dart.const({
+    get C150() {
+      return C150 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "onPressed",
@@ -1262,21 +1318,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C141() {
-      return C141 = dart.constList([C142 || CT.C142, C143 || CT.C143], widget_inspector._Location);
+    get C148() {
+      return C148 = dart.constList([C149 || CT.C149, C150 || CT.C150], widget_inspector._Location);
     },
-    get C140() {
-      return C140 = dart.const({
+    get C147() {
+      return C147 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C141 || CT.C141,
+        parameterLocations: C148 || CT.C148,
         name: null,
         column: 13,
         line: 75,
         file: "org-dartlang-app:///packages/personal_website/ui/blog/post.dart"
       });
     },
-    get C146() {
-      return C146 = dart.const({
+    get C153() {
+      return C153 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "children",
@@ -1285,21 +1341,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C145() {
-      return C145 = dart.constList([C146 || CT.C146], widget_inspector._Location);
+    get C152() {
+      return C152 = dart.constList([C153 || CT.C153], widget_inspector._Location);
     },
-    get C144() {
-      return C144 = dart.const({
+    get C151() {
+      return C151 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C145 || CT.C145,
+        parameterLocations: C152 || CT.C152,
         name: null,
         column: 16,
         line: 66,
         file: "org-dartlang-app:///packages/personal_website/ui/blog/post.dart"
       });
     },
-    get C149() {
-      return C149 = dart.const({
+    get C156() {
+      return C156 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "child",
@@ -1308,21 +1364,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C148() {
-      return C148 = dart.constList([C149 || CT.C149], widget_inspector._Location);
+    get C155() {
+      return C155 = dart.constList([C156 || CT.C156], widget_inspector._Location);
     },
-    get C147() {
-      return C147 = dart.const({
+    get C154() {
+      return C154 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C148 || CT.C148,
+        parameterLocations: C155 || CT.C155,
         name: null,
         column: 28,
         line: 65,
         file: "org-dartlang-app:///packages/personal_website/ui/blog/post.dart"
       });
     },
-    get C152() {
-      return C152 = dart.const({
+    get C159() {
+      return C159 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "icon",
@@ -1331,21 +1387,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C151() {
-      return C151 = dart.constList([C152 || CT.C152], widget_inspector._Location);
+    get C158() {
+      return C158 = dart.constList([C159 || CT.C159], widget_inspector._Location);
     },
-    get C150() {
-      return C150 = dart.const({
+    get C157() {
+      return C157 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C151 || CT.C151,
+        parameterLocations: C158 || CT.C158,
         name: null,
         column: 25,
         line: 100,
         file: "org-dartlang-app:///packages/personal_website/ui/blog/post.dart"
       });
     },
-    get C155() {
-      return C155 = dart.const({
+    get C162() {
+      return C162 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "icon",
@@ -1354,8 +1410,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C156() {
-      return C156 = dart.const({
+    get C163() {
+      return C163 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "onPressed",
@@ -1364,21 +1420,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C154() {
-      return C154 = dart.constList([C155 || CT.C155, C156 || CT.C156], widget_inspector._Location);
+    get C161() {
+      return C161 = dart.constList([C162 || CT.C162, C163 || CT.C163], widget_inspector._Location);
     },
-    get C153() {
-      return C153 = dart.const({
+    get C160() {
+      return C160 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C154 || CT.C154,
+        parameterLocations: C161 || CT.C161,
         name: null,
         column: 17,
         line: 99,
         file: "org-dartlang-app:///packages/personal_website/ui/blog/post.dart"
       });
     },
-    get C159() {
-      return C159 = dart.const({
+    get C166() {
+      return C166 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "data",
@@ -1387,8 +1443,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C160() {
-      return C160 = dart.const({
+    get C167() {
+      return C167 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "style",
@@ -1397,21 +1453,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C158() {
-      return C158 = dart.constList([C159 || CT.C159, C160 || CT.C160], widget_inspector._Location);
+    get C165() {
+      return C165 = dart.constList([C166 || CT.C166, C167 || CT.C167], widget_inspector._Location);
     },
-    get C157() {
-      return C157 = dart.const({
+    get C164() {
+      return C164 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C158 || CT.C158,
+        parameterLocations: C165 || CT.C165,
         name: null,
         column: 26,
         line: 106,
         file: "org-dartlang-app:///packages/personal_website/ui/blog/post.dart"
       });
     },
-    get C163() {
-      return C163 = dart.const({
+    get C170() {
+      return C170 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "src",
@@ -1420,8 +1476,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C164() {
-      return C164 = dart.const({
+    get C171() {
+      return C171 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "fit",
@@ -1430,21 +1486,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C162() {
-      return C162 = dart.constList([C163 || CT.C163, C164 || CT.C164], widget_inspector._Location);
+    get C169() {
+      return C169 = dart.constList([C170 || CT.C170, C171 || CT.C171], widget_inspector._Location);
     },
-    get C161() {
-      return C161 = dart.const({
+    get C168() {
+      return C168 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C162 || CT.C162,
+        parameterLocations: C169 || CT.C169,
         name: null,
         column: 37,
         line: 107,
         file: "org-dartlang-app:///packages/personal_website/ui/blog/post.dart"
       });
     },
-    get C167() {
-      return C167 = dart.const({
+    get C174() {
+      return C174 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "centerTitle",
@@ -1453,8 +1509,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C168() {
-      return C168 = dart.const({
+    get C175() {
+      return C175 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "title",
@@ -1463,8 +1519,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C169() {
-      return C169 = dart.const({
+    get C176() {
+      return C176 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "background",
@@ -1473,21 +1529,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C166() {
-      return C166 = dart.constList([C167 || CT.C167, C168 || CT.C168, C169 || CT.C169], widget_inspector._Location);
+    get C173() {
+      return C173 = dart.constList([C174 || CT.C174, C175 || CT.C175, C176 || CT.C176], widget_inspector._Location);
     },
-    get C165() {
-      return C165 = dart.const({
+    get C172() {
+      return C172 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C166 || CT.C166,
+        parameterLocations: C173 || CT.C173,
         name: null,
         column: 30,
         line: 104,
         file: "org-dartlang-app:///packages/personal_website/ui/blog/post.dart"
       });
     },
-    get C172() {
-      return C172 = dart.const({
+    get C179() {
+      return C179 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "expandedHeight",
@@ -1496,8 +1552,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C173() {
-      return C173 = dart.const({
+    get C180() {
+      return C180 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "floating",
@@ -1506,8 +1562,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C174() {
-      return C174 = dart.const({
+    get C181() {
+      return C181 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "pinned",
@@ -1516,8 +1572,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C175() {
-      return C175 = dart.const({
+    get C182() {
+      return C182 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "actions",
@@ -1526,8 +1582,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C176() {
-      return C176 = dart.const({
+    get C183() {
+      return C183 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "flexibleSpace",
@@ -1536,21 +1592,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C171() {
-      return C171 = dart.constList([C172 || CT.C172, C173 || CT.C173, C174 || CT.C174, C175 || CT.C175, C176 || CT.C176], widget_inspector._Location);
+    get C178() {
+      return C178 = dart.constList([C179 || CT.C179, C180 || CT.C180, C181 || CT.C181, C182 || CT.C182, C183 || CT.C183], widget_inspector._Location);
     },
-    get C170() {
-      return C170 = dart.const({
+    get C177() {
+      return C177 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C171 || CT.C171,
+        parameterLocations: C178 || CT.C178,
         name: null,
         column: 13,
         line: 94,
         file: "org-dartlang-app:///packages/personal_website/ui/blog/post.dart"
       });
     },
-    get C179() {
-      return C179 = dart.const({
+    get C186() {
+      return C186 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "context",
@@ -1559,8 +1615,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C180() {
-      return C180 = dart.const({
+    get C187() {
+      return C187 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "removeTop",
@@ -1569,8 +1625,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C181() {
-      return C181 = dart.const({
+    get C188() {
+      return C188 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "child",
@@ -1579,21 +1635,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C178() {
-      return C178 = dart.constList([C179 || CT.C179, C180 || CT.C180, C181 || CT.C181], widget_inspector._Location);
+    get C185() {
+      return C185 = dart.constList([C186 || CT.C186, C187 || CT.C187, C188 || CT.C188], widget_inspector._Location);
     },
-    get C177() {
-      return C177 = dart.const({
+    get C184() {
+      return C184 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C178 || CT.C178,
+        parameterLocations: C185 || CT.C185,
         name: null,
         column: 26,
         line: 114,
         file: "org-dartlang-app:///packages/personal_website/ui/blog/post.dart"
       });
     },
-    get C184() {
-      return C184 = dart.const({
+    get C191() {
+      return C191 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "headerSliverBuilder",
@@ -1602,8 +1658,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C185() {
-      return C185 = dart.const({
+    get C192() {
+      return C192 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "body",
@@ -1612,21 +1668,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C183() {
-      return C183 = dart.constList([C184 || CT.C184, C185 || CT.C185], widget_inspector._Location);
+    get C190() {
+      return C190 = dart.constList([C191 || CT.C191, C192 || CT.C192], widget_inspector._Location);
     },
-    get C182() {
-      return C182 = dart.const({
+    get C189() {
+      return C189 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C183 || CT.C183,
+        parameterLocations: C190 || CT.C190,
         name: null,
         column: 13,
         line: 91,
         file: "org-dartlang-app:///packages/personal_website/ui/blog/post.dart"
       });
     },
-    get C188() {
-      return C188 = dart.const({
+    get C195() {
+      return C195 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "bottomNavigationBar",
@@ -1635,8 +1691,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C189() {
-      return C189 = dart.const({
+    get C196() {
+      return C196 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "body",
@@ -1645,21 +1701,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C187() {
-      return C187 = dart.constList([C188 || CT.C188, C189 || CT.C189], widget_inspector._Location);
+    get C194() {
+      return C194 = dart.constList([C195 || CT.C195, C196 || CT.C196], widget_inspector._Location);
     },
-    get C186() {
-      return C186 = dart.const({
+    get C193() {
+      return C193 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C187 || CT.C187,
+        parameterLocations: C194 || CT.C194,
         name: null,
         column: 12,
         line: 64,
         file: "org-dartlang-app:///packages/personal_website/ui/blog/post.dart"
       });
     },
-    get C192() {
-      return C192 = dart.const({
+    get C199() {
+      return C199 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "html",
@@ -1668,21 +1724,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C191() {
-      return C191 = dart.constList([C192 || CT.C192], widget_inspector._Location);
+    get C198() {
+      return C198 = dart.constList([C199 || CT.C199], widget_inspector._Location);
     },
-    get C190() {
-      return C190 = dart.const({
+    get C197() {
+      return C197 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C191 || CT.C191,
+        parameterLocations: C198 || CT.C198,
         name: null,
         column: 14,
         line: 125,
         file: "org-dartlang-app:///packages/personal_website/ui/blog/post.dart"
       });
     },
-    get C193() {
-      return C193 = dart.const({
+    get C200() {
+      return C200 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: C1 || CT.C1,
         name: null,
@@ -1691,8 +1747,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: "org-dartlang-app:///packages/personal_website/ui/blog/post.dart"
       });
     },
-    get C196() {
-      return C196 = dart.const({
+    get C203() {
+      return C203 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "child",
@@ -1701,21 +1757,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C195() {
-      return C195 = dart.constList([C196 || CT.C196], widget_inspector._Location);
+    get C202() {
+      return C202 = dart.constList([C203 || CT.C203], widget_inspector._Location);
     },
-    get C194() {
-      return C194 = dart.const({
+    get C201() {
+      return C201 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C195 || CT.C195,
+        parameterLocations: C202 || CT.C202,
         name: null,
         column: 12,
         line: 127,
         file: "org-dartlang-app:///packages/personal_website/ui/blog/post.dart"
       });
     },
-    get C197() {
-      return C197 = dart.const({
+    get C204() {
+      return C204 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: C1 || CT.C1,
         name: null,
@@ -1724,8 +1780,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: "org-dartlang-app:///packages/personal_website/ui/apps/screen.dart"
       });
     },
-    get C198() {
-      return C198 = dart.const({
+    get C205() {
+      return C205 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: C3 || CT.C3,
         name: null,
@@ -1734,69 +1790,13 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: "org-dartlang-app:///packages/personal_website/ui/apps/screen.dart"
       });
     },
-    get C201() {
-      return C201 = dart.const({
+    get C208() {
+      return C208 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "html",
         column: 28,
         line: 31,
-        file: null
-      });
-    },
-    get C200() {
-      return C200 = dart.constList([C201 || CT.C201], widget_inspector._Location);
-    },
-    get C199() {
-      return C199 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C200 || CT.C200,
-        name: null,
-        column: 13,
-        line: 31,
-        file: "org-dartlang-app:///packages/personal_website/ui/pages/render.dart"
-      });
-    },
-    get C204() {
-      return C204 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "pageTitle",
-        column: 7,
-        line: 30,
-        file: null
-      });
-    },
-    get C205() {
-      return C205 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "body",
-        column: 7,
-        line: 31,
-        file: null
-      });
-    },
-    get C203() {
-      return C203 = dart.constList([C204 || CT.C204, C205 || CT.C205], widget_inspector._Location);
-    },
-    get C202() {
-      return C202 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C203 || CT.C203,
-        name: null,
-        column: 12,
-        line: 29,
-        file: "org-dartlang-app:///packages/personal_website/ui/pages/render.dart"
-      });
-    },
-    get C208() {
-      return C208 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "icon",
-        column: 43,
-        line: 84,
         file: null
       });
     },
@@ -1808,13 +1808,69 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: C207 || CT.C207,
         name: null,
+        column: 13,
+        line: 31,
+        file: "org-dartlang-app:///packages/personal_website/ui/pages/render.dart"
+      });
+    },
+    get C211() {
+      return C211 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "pageTitle",
+        column: 7,
+        line: 30,
+        file: null
+      });
+    },
+    get C212() {
+      return C212 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "body",
+        column: 7,
+        line: 31,
+        file: null
+      });
+    },
+    get C210() {
+      return C210 = dart.constList([C211 || CT.C211, C212 || CT.C212], widget_inspector._Location);
+    },
+    get C209() {
+      return C209 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C210 || CT.C210,
+        name: null,
+        column: 12,
+        line: 29,
+        file: "org-dartlang-app:///packages/personal_website/ui/pages/render.dart"
+      });
+    },
+    get C215() {
+      return C215 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "icon",
+        column: 43,
+        line: 84,
+        file: null
+      });
+    },
+    get C214() {
+      return C214 = dart.constList([C215 || CT.C215], widget_inspector._Location);
+    },
+    get C213() {
+      return C213 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C214 || CT.C214,
+        name: null,
         column: 32,
         line: 84,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
       });
     },
-    get C211() {
-      return C211 = dart.const({
+    get C218() {
+      return C218 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "data",
@@ -1823,21 +1879,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C210() {
-      return C210 = dart.constList([C211 || CT.C211], widget_inspector._Location);
+    get C217() {
+      return C217 = dart.constList([C218 || CT.C218], widget_inspector._Location);
     },
-    get C209() {
-      return C209 = dart.const({
+    get C216() {
+      return C216 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C210 || CT.C210,
+        parameterLocations: C217 || CT.C217,
         name: null,
         column: 30,
         line: 85,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
       });
     },
-    get C214() {
-      return C214 = dart.const({
+    get C221() {
+      return C221 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "leading",
@@ -1846,8 +1902,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C215() {
-      return C215 = dart.const({
+    get C222() {
+      return C222 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "title",
@@ -1856,8 +1912,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C216() {
-      return C216 = dart.const({
+    get C223() {
+      return C223 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "onTap",
@@ -1866,8 +1922,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C217() {
-      return C217 = dart.const({
+    get C224() {
+      return C224 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "selected",
@@ -1876,21 +1932,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C213() {
-      return C213 = dart.constList([C214 || CT.C214, C215 || CT.C215, C216 || CT.C216, C217 || CT.C217], widget_inspector._Location);
+    get C220() {
+      return C220 = dart.constList([C221 || CT.C221, C222 || CT.C222, C223 || CT.C223, C224 || CT.C224], widget_inspector._Location);
     },
-    get C212() {
-      return C212 = dart.const({
+    get C219() {
+      return C219 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C213 || CT.C213,
+        parameterLocations: C220 || CT.C220,
         name: null,
         column: 21,
         line: 83,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
       });
     },
-    get C220() {
-      return C220 = dart.const({
+    get C227() {
+      return C227 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "icon",
@@ -1899,21 +1955,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C219() {
-      return C219 = dart.constList([C220 || CT.C220], widget_inspector._Location);
+    get C226() {
+      return C226 = dart.constList([C227 || CT.C227], widget_inspector._Location);
     },
-    get C218() {
-      return C218 = dart.const({
+    get C225() {
+      return C225 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C219 || CT.C219,
+        parameterLocations: C226 || CT.C226,
         name: null,
         column: 32,
         line: 90,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
       });
     },
-    get C223() {
-      return C223 = dart.const({
+    get C230() {
+      return C230 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "data",
@@ -1922,21 +1978,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C222() {
-      return C222 = dart.constList([C223 || CT.C223], widget_inspector._Location);
+    get C229() {
+      return C229 = dart.constList([C230 || CT.C230], widget_inspector._Location);
     },
-    get C221() {
-      return C221 = dart.const({
+    get C228() {
+      return C228 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C222 || CT.C222,
+        parameterLocations: C229 || CT.C229,
         name: null,
         column: 30,
         line: 91,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
       });
     },
-    get C226() {
-      return C226 = dart.const({
+    get C233() {
+      return C233 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "icon",
@@ -1945,21 +2001,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C225() {
-      return C225 = dart.constList([C226 || CT.C226], widget_inspector._Location);
+    get C232() {
+      return C232 = dart.constList([C233 || CT.C233], widget_inspector._Location);
     },
-    get C224() {
-      return C224 = dart.const({
+    get C231() {
+      return C231 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C225 || CT.C225,
+        parameterLocations: C232 || CT.C232,
         name: null,
         column: 31,
         line: 94,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
       });
     },
-    get C229() {
-      return C229 = dart.const({
+    get C236() {
+      return C236 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "icon",
@@ -1968,8 +2024,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C230() {
-      return C230 = dart.const({
+    get C237() {
+      return C237 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "onPressed",
@@ -1978,21 +2034,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C228() {
-      return C228 = dart.constList([C229 || CT.C229, C230 || CT.C230], widget_inspector._Location);
+    get C235() {
+      return C235 = dart.constList([C236 || CT.C236, C237 || CT.C237], widget_inspector._Location);
     },
-    get C227() {
-      return C227 = dart.const({
+    get C234() {
+      return C234 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C228 || CT.C228,
+        parameterLocations: C235 || CT.C235,
         name: null,
         column: 33,
         line: 93,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
       });
     },
-    get C233() {
-      return C233 = dart.const({
+    get C240() {
+      return C240 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "leading",
@@ -2001,8 +2057,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C234() {
-      return C234 = dart.const({
+    get C241() {
+      return C241 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "title",
@@ -2011,8 +2067,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C235() {
-      return C235 = dart.const({
+    get C242() {
+      return C242 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "onTap",
@@ -2021,8 +2077,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C236() {
-      return C236 = dart.const({
+    get C243() {
+      return C243 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "trailing",
@@ -2031,8 +2087,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C237() {
-      return C237 = dart.const({
+    get C244() {
+      return C244 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "selected",
@@ -2041,21 +2097,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C232() {
-      return C232 = dart.constList([C233 || CT.C233, C234 || CT.C234, C235 || CT.C235, C236 || CT.C236, C237 || CT.C237], widget_inspector._Location);
+    get C239() {
+      return C239 = dart.constList([C240 || CT.C240, C241 || CT.C241, C242 || CT.C242, C243 || CT.C243, C244 || CT.C244], widget_inspector._Location);
     },
-    get C231() {
-      return C231 = dart.const({
+    get C238() {
+      return C238 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C232 || CT.C232,
+        parameterLocations: C239 || CT.C239,
         name: null,
         column: 21,
         line: 89,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
       });
     },
-    get C240() {
-      return C240 = dart.const({
+    get C247() {
+      return C247 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "icon",
@@ -2064,21 +2120,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C239() {
-      return C239 = dart.constList([C240 || CT.C240], widget_inspector._Location);
+    get C246() {
+      return C246 = dart.constList([C247 || CT.C247], widget_inspector._Location);
     },
-    get C238() {
-      return C238 = dart.const({
+    get C245() {
+      return C245 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C239 || CT.C239,
+        parameterLocations: C246 || CT.C246,
         name: null,
         column: 32,
         line: 101,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
       });
     },
-    get C243() {
-      return C243 = dart.const({
+    get C250() {
+      return C250 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "data",
@@ -2087,21 +2143,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C242() {
-      return C242 = dart.constList([C243 || CT.C243], widget_inspector._Location);
+    get C249() {
+      return C249 = dart.constList([C250 || CT.C250], widget_inspector._Location);
     },
-    get C241() {
-      return C241 = dart.const({
+    get C248() {
+      return C248 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C242 || CT.C242,
+        parameterLocations: C249 || CT.C249,
         name: null,
         column: 30,
         line: 102,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
       });
     },
-    get C246() {
-      return C246 = dart.const({
+    get C253() {
+      return C253 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "leading",
@@ -2110,8 +2166,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C247() {
-      return C247 = dart.const({
+    get C254() {
+      return C254 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "title",
@@ -2120,8 +2176,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C248() {
-      return C248 = dart.const({
+    get C255() {
+      return C255 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "onTap",
@@ -2130,8 +2186,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C249() {
-      return C249 = dart.const({
+    get C256() {
+      return C256 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "selected",
@@ -2140,21 +2196,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C245() {
-      return C245 = dart.constList([C246 || CT.C246, C247 || CT.C247, C248 || CT.C248, C249 || CT.C249], widget_inspector._Location);
+    get C252() {
+      return C252 = dart.constList([C253 || CT.C253, C254 || CT.C254, C255 || CT.C255, C256 || CT.C256], widget_inspector._Location);
     },
-    get C244() {
-      return C244 = dart.const({
+    get C251() {
+      return C251 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C245 || CT.C245,
+        parameterLocations: C252 || CT.C252,
         name: null,
         column: 21,
         line: 100,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
       });
     },
-    get C252() {
-      return C252 = dart.const({
+    get C259() {
+      return C259 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "icon",
@@ -2163,21 +2219,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C251() {
-      return C251 = dart.constList([C252 || CT.C252], widget_inspector._Location);
+    get C258() {
+      return C258 = dart.constList([C259 || CT.C259], widget_inspector._Location);
     },
-    get C250() {
-      return C250 = dart.const({
+    get C257() {
+      return C257 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C251 || CT.C251,
+        parameterLocations: C258 || CT.C258,
         name: null,
         column: 32,
         line: 107,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
       });
     },
-    get C255() {
-      return C255 = dart.const({
+    get C262() {
+      return C262 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "data",
@@ -2186,21 +2242,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C254() {
-      return C254 = dart.constList([C255 || CT.C255], widget_inspector._Location);
+    get C261() {
+      return C261 = dart.constList([C262 || CT.C262], widget_inspector._Location);
     },
-    get C253() {
-      return C253 = dart.const({
+    get C260() {
+      return C260 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C254 || CT.C254,
+        parameterLocations: C261 || CT.C261,
         name: null,
         column: 30,
         line: 108,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
       });
     },
-    get C258() {
-      return C258 = dart.const({
+    get C265() {
+      return C265 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "leading",
@@ -2209,8 +2265,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C259() {
-      return C259 = dart.const({
+    get C266() {
+      return C266 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "title",
@@ -2219,8 +2275,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C260() {
-      return C260 = dart.const({
+    get C267() {
+      return C267 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "onTap",
@@ -2229,8 +2285,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C261() {
-      return C261 = dart.const({
+    get C268() {
+      return C268 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "selected",
@@ -2239,21 +2295,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C257() {
-      return C257 = dart.constList([C258 || CT.C258, C259 || CT.C259, C260 || CT.C260, C261 || CT.C261], widget_inspector._Location);
+    get C264() {
+      return C264 = dart.constList([C265 || CT.C265, C266 || CT.C266, C267 || CT.C267, C268 || CT.C268], widget_inspector._Location);
     },
-    get C256() {
-      return C256 = dart.const({
+    get C263() {
+      return C263 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C257 || CT.C257,
+        parameterLocations: C264 || CT.C264,
         name: null,
         column: 21,
         line: 106,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
       });
     },
-    get C264() {
-      return C264 = dart.const({
+    get C271() {
+      return C271 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "icon",
@@ -2262,21 +2318,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C263() {
-      return C263 = dart.constList([C264 || CT.C264], widget_inspector._Location);
+    get C270() {
+      return C270 = dart.constList([C271 || CT.C271], widget_inspector._Location);
     },
-    get C262() {
-      return C262 = dart.const({
+    get C269() {
+      return C269 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C263 || CT.C263,
+        parameterLocations: C270 || CT.C270,
         name: null,
         column: 32,
         line: 114,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
       });
     },
-    get C267() {
-      return C267 = dart.const({
+    get C274() {
+      return C274 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "data",
@@ -2285,21 +2341,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C266() {
-      return C266 = dart.constList([C267 || CT.C267], widget_inspector._Location);
+    get C273() {
+      return C273 = dart.constList([C274 || CT.C274], widget_inspector._Location);
     },
-    get C265() {
-      return C265 = dart.const({
+    get C272() {
+      return C272 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C266 || CT.C266,
+        parameterLocations: C273 || CT.C273,
         name: null,
         column: 30,
         line: 115,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
       });
     },
-    get C270() {
-      return C270 = dart.const({
+    get C277() {
+      return C277 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "leading",
@@ -2308,8 +2364,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C271() {
-      return C271 = dart.const({
+    get C278() {
+      return C278 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "title",
@@ -2318,8 +2374,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C272() {
-      return C272 = dart.const({
+    get C279() {
+      return C279 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "onTap",
@@ -2328,8 +2384,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C273() {
-      return C273 = dart.const({
+    get C280() {
+      return C280 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "selected",
@@ -2338,21 +2394,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C269() {
-      return C269 = dart.constList([C270 || CT.C270, C271 || CT.C271, C272 || CT.C272, C273 || CT.C273], widget_inspector._Location);
+    get C276() {
+      return C276 = dart.constList([C277 || CT.C277, C278 || CT.C278, C279 || CT.C279, C280 || CT.C280], widget_inspector._Location);
     },
-    get C268() {
-      return C268 = dart.const({
+    get C275() {
+      return C275 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C269 || CT.C269,
+        parameterLocations: C276 || CT.C276,
         name: null,
         column: 21,
         line: 113,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
       });
     },
-    get C276() {
-      return C276 = dart.const({
+    get C283() {
+      return C283 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "icon",
@@ -2361,72 +2417,16 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C275() {
-      return C275 = dart.constList([C276 || CT.C276], widget_inspector._Location);
+    get C282() {
+      return C282 = dart.constList([C283 || CT.C283], widget_inspector._Location);
     },
-    get C274() {
-      return C274 = dart.const({
+    get C281() {
+      return C281 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C275 || CT.C275,
+        parameterLocations: C282 || CT.C282,
         name: null,
         column: 32,
         line: 120,
-        file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
-      });
-    },
-    get C279() {
-      return C279 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "data",
-        column: 52,
-        line: 121,
-        file: null
-      });
-    },
-    get C278() {
-      return C278 = dart.constList([C279 || CT.C279], widget_inspector._Location);
-    },
-    get C277() {
-      return C277 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C278 || CT.C278,
-        name: null,
-        column: 30,
-        line: 121,
-        file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
-      });
-    },
-    get C282() {
-      return C282 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "data",
-        column: 58,
-        line: 126,
-        file: null
-      });
-    },
-    get C281() {
-      return C281 = dart.constList([C282 || CT.C282], widget_inspector._Location);
-    },
-    get C280() {
-      return C280 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C281 || CT.C281,
-        name: null,
-        column: 36,
-        line: 126,
-        file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
-      });
-    },
-    get C283() {
-      return C283 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C1 || CT.C1,
-        name: null,
-        column: 38,
-        line: 127,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
       });
     },
@@ -2435,8 +2435,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "data",
-        column: 62,
-        line: 130,
+        column: 52,
+        line: 121,
         file: null
       });
     },
@@ -2448,13 +2448,69 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: C285 || CT.C285,
         name: null,
-        column: 40,
-        line: 130,
+        column: 30,
+        line: 121,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
       });
     },
     get C289() {
       return C289 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "data",
+        column: 58,
+        line: 126,
+        file: null
+      });
+    },
+    get C288() {
+      return C288 = dart.constList([C289 || CT.C289], widget_inspector._Location);
+    },
+    get C287() {
+      return C287 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C288 || CT.C288,
+        name: null,
+        column: 36,
+        line: 126,
+        file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
+      });
+    },
+    get C290() {
+      return C290 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C1 || CT.C1,
+        name: null,
+        column: 38,
+        line: 127,
+        file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
+      });
+    },
+    get C293() {
+      return C293 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "data",
+        column: 62,
+        line: 130,
+        file: null
+      });
+    },
+    get C292() {
+      return C292 = dart.constList([C293 || CT.C293], widget_inspector._Location);
+    },
+    get C291() {
+      return C291 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C292 || CT.C292,
+        name: null,
+        column: 40,
+        line: 130,
+        file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
+      });
+    },
+    get C296() {
+      return C296 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "child",
@@ -2463,8 +2519,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C290() {
-      return C290 = dart.const({
+    get C297() {
+      return C297 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "onPressed",
@@ -2473,21 +2529,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C288() {
-      return C288 = dart.constList([C289 || CT.C289, C290 || CT.C290], widget_inspector._Location);
+    get C295() {
+      return C295 = dart.constList([C296 || CT.C296, C297 || CT.C297], widget_inspector._Location);
     },
-    get C287() {
-      return C287 = dart.const({
+    get C294() {
+      return C294 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C288 || CT.C288,
+        parameterLocations: C295 || CT.C295,
         name: null,
         column: 31,
         line: 129,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
       });
     },
-    get C293() {
-      return C293 = dart.const({
+    get C300() {
+      return C300 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "title",
@@ -2496,8 +2552,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C294() {
-      return C294 = dart.const({
+    get C301() {
+      return C301 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "content",
@@ -2506,8 +2562,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C295() {
-      return C295 = dart.const({
+    get C302() {
+      return C302 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "actions",
@@ -2516,21 +2572,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C292() {
-      return C292 = dart.constList([C293 || CT.C293, C294 || CT.C294, C295 || CT.C295], widget_inspector._Location);
+    get C299() {
+      return C299 = dart.constList([C300 || CT.C300, C301 || CT.C301, C302 || CT.C302], widget_inspector._Location);
     },
-    get C291() {
-      return C291 = dart.const({
+    get C298() {
+      return C298 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C292 || CT.C292,
+        parameterLocations: C299 || CT.C299,
         name: null,
         column: 43,
         line: 125,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
       });
     },
-    get C298() {
-      return C298 = dart.const({
+    get C305() {
+      return C305 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "leading",
@@ -2539,8 +2595,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C299() {
-      return C299 = dart.const({
+    get C306() {
+      return C306 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "title",
@@ -2549,8 +2605,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C300() {
-      return C300 = dart.const({
+    get C307() {
+      return C307 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "onTap",
@@ -2559,21 +2615,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C297() {
-      return C297 = dart.constList([C298 || CT.C298, C299 || CT.C299, C300 || CT.C300], widget_inspector._Location);
+    get C304() {
+      return C304 = dart.constList([C305 || CT.C305, C306 || CT.C306, C307 || CT.C307], widget_inspector._Location);
     },
-    get C296() {
-      return C296 = dart.const({
+    get C303() {
+      return C303 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C297 || CT.C297,
+        parameterLocations: C304 || CT.C304,
         name: null,
         column: 21,
         line: 119,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
       });
     },
-    get C303() {
-      return C303 = dart.const({
+    get C310() {
+      return C310 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "padding",
@@ -2582,8 +2638,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C304() {
-      return C304 = dart.const({
+    get C311() {
+      return C311 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "children",
@@ -2592,73 +2648,16 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C302() {
-      return C302 = dart.constList([C303 || CT.C303, C304 || CT.C304], widget_inspector._Location);
-    },
-    get C301() {
-      return C301 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C302 || CT.C302,
-        name: null,
-        column: 24,
-        line: 65,
-        file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
-      });
-    },
-    get C307() {
-      return C307 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "child",
-        column: 17,
-        line: 65,
-        file: null
-      });
-    },
-    get C306() {
-      return C306 = dart.constList([C307 || CT.C307], widget_inspector._Location);
-    },
-    get C305() {
-      return C305 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C306 || CT.C306,
-        name: null,
-        column: 15,
-        line: 64,
-        file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
-      });
+    get C309() {
+      return C309 = dart.constList([C310 || CT.C310, C311 || CT.C311], widget_inspector._Location);
     },
     get C308() {
       return C308 = dart.const({
-        __proto__: divider.VerticalDivider.prototype,
-        key: null,
-        color: null,
-        endIndent: null,
-        indent: null,
-        thickness: null,
-        width: 1
-      });
-    },
-    get C311() {
-      return C311 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "children",
-        column: 13,
-        line: 63,
-        file: null
-      });
-    },
-    get C310() {
-      return C310 = dart.constList([C311 || CT.C311], widget_inspector._Location);
-    },
-    get C309() {
-      return C309 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C310 || CT.C310,
+        parameterLocations: C309 || CT.C309,
         name: null,
-        column: 18,
-        line: 62,
+        column: 24,
+        line: 65,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
       });
     },
@@ -2667,8 +2666,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "child",
-        column: 11,
-        line: 62,
+        column: 17,
+        line: 65,
         file: null
       });
     },
@@ -2680,13 +2679,70 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: C313 || CT.C313,
         name: null,
+        column: 15,
+        line: 64,
+        file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
+      });
+    },
+    get C315() {
+      return C315 = dart.const({
+        __proto__: divider.VerticalDivider.prototype,
+        key: null,
+        color: null,
+        endIndent: null,
+        indent: null,
+        thickness: null,
+        width: 1
+      });
+    },
+    get C318() {
+      return C318 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "children",
+        column: 13,
+        line: 63,
+        file: null
+      });
+    },
+    get C317() {
+      return C317 = dart.constList([C318 || CT.C318], widget_inspector._Location);
+    },
+    get C316() {
+      return C316 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C317 || CT.C317,
+        name: null,
+        column: 18,
+        line: 62,
+        file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
+      });
+    },
+    get C321() {
+      return C321 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "child",
+        column: 11,
+        line: 62,
+        file: null
+      });
+    },
+    get C320() {
+      return C320 = dart.constList([C321 || CT.C321], widget_inspector._Location);
+    },
+    get C319() {
+      return C319 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C320 || CT.C320,
+        name: null,
         column: 16,
         line: 61,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
       });
     },
-    get C317() {
-      return C317 = dart.const({
+    get C324() {
+      return C324 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "child",
@@ -2695,21 +2751,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C316() {
-      return C316 = dart.constList([C317 || CT.C317], widget_inspector._Location);
+    get C323() {
+      return C323 = dart.constList([C324 || CT.C324], widget_inspector._Location);
     },
-    get C315() {
-      return C315 = dart.const({
+    get C322() {
+      return C322 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C316 || CT.C316,
+        parameterLocations: C323 || CT.C323,
         name: null,
         column: 14,
         line: 60,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
       });
     },
-    get C320() {
-      return C320 = dart.const({
+    get C327() {
+      return C327 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "width",
@@ -2718,8 +2774,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C321() {
-      return C321 = dart.const({
+    get C328() {
+      return C328 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "child",
@@ -2728,31 +2784,31 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C319() {
-      return C319 = dart.constList([C320 || CT.C320, C321 || CT.C321], widget_inspector._Location);
+    get C326() {
+      return C326 = dart.constList([C327 || CT.C327, C328 || CT.C328], widget_inspector._Location);
     },
-    get C318() {
-      return C318 = dart.const({
+    get C325() {
+      return C325 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C319 || CT.C319,
+        parameterLocations: C326 || CT.C326,
         name: null,
         column: 12,
         line: 58,
         file: "org-dartlang-app:///packages/personal_website/ui/common/app_drawer.dart"
       });
     },
-    get C322() {
-      return C322 = dart.const({
+    get C329() {
+      return C329 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C114 || CT.C114,
+        parameterLocations: C121 || CT.C121,
         name: null,
         column: 12,
         line: 11,
         file: "org-dartlang-app:///packages/personal_website/ui/pages/about.dart"
       });
     },
-    get C325() {
-      return C325 = dart.const({
+    get C332() {
+      return C332 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "author",
@@ -2761,8 +2817,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C326() {
-      return C326 = dart.const({
+    get C333() {
+      return C333 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "datePublished",
@@ -2771,8 +2827,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C327() {
-      return C327 = dart.const({
+    get C334() {
+      return C334 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "tags",
@@ -2781,8 +2837,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C328() {
-      return C328 = dart.const({
+    get C335() {
+      return C335 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "title",
@@ -2791,8 +2847,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C329() {
-      return C329 = dart.const({
+    get C336() {
+      return C336 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "image",
@@ -2801,8 +2857,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C330() {
-      return C330 = dart.const({
+    get C337() {
+      return C337 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "description",
@@ -2811,8 +2867,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C331() {
-      return C331 = dart.const({
+    get C338() {
+      return C338 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "onTap",
@@ -2821,21 +2877,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C324() {
-      return C324 = dart.constList([C325 || CT.C325, C326 || CT.C326, C327 || CT.C327, C328 || CT.C328, C329 || CT.C329, C330 || CT.C330, C331 || CT.C331], widget_inspector._Location);
+    get C331() {
+      return C331 = dart.constList([C332 || CT.C332, C333 || CT.C333, C334 || CT.C334, C335 || CT.C335, C336 || CT.C336, C337 || CT.C337, C338 || CT.C338], widget_inspector._Location);
     },
-    get C323() {
-      return C323 = dart.const({
+    get C330() {
+      return C330 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C324 || CT.C324,
+        parameterLocations: C331 || CT.C331,
         name: null,
         column: 28,
         line: 31,
         file: "org-dartlang-app:///packages/personal_website/ui/common/blog_previews.dart"
       });
     },
-    get C334() {
-      return C334 = dart.const({
+    get C341() {
+      return C341 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "width",
@@ -2844,8 +2900,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C335() {
-      return C335 = dart.const({
+    get C342() {
+      return C342 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "child",
@@ -2854,21 +2910,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C333() {
-      return C333 = dart.constList([C334 || CT.C334, C335 || CT.C335], widget_inspector._Location);
+    get C340() {
+      return C340 = dart.constList([C341 || CT.C341, C342 || CT.C342], widget_inspector._Location);
     },
-    get C332() {
-      return C332 = dart.const({
+    get C339() {
+      return C339 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C333 || CT.C333,
+        parameterLocations: C340 || CT.C340,
         name: null,
         column: 24,
         line: 29,
         file: "org-dartlang-app:///packages/personal_website/ui/common/blog_previews.dart"
       });
     },
-    get C338() {
-      return C338 = dart.const({
+    get C345() {
+      return C345 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "height",
@@ -2877,8 +2933,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C339() {
-      return C339 = dart.const({
+    get C346() {
+      return C346 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "autoPlay",
@@ -2887,8 +2943,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C340() {
-      return C340 = dart.const({
+    get C347() {
+      return C347 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "items",
@@ -2897,21 +2953,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C337() {
-      return C337 = dart.constList([C338 || CT.C338, C339 || CT.C339, C340 || CT.C340], widget_inspector._Location);
+    get C344() {
+      return C344 = dart.constList([C345 || CT.C345, C346 || CT.C346, C347 || CT.C347], widget_inspector._Location);
     },
-    get C336() {
-      return C336 = dart.const({
+    get C343() {
+      return C343 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C337 || CT.C337,
+        parameterLocations: C344 || CT.C344,
         name: null,
         column: 20,
         line: 24,
         file: "org-dartlang-app:///packages/personal_website/ui/common/blog_previews.dart"
       });
     },
-    get C341() {
-      return C341 = dart.const({
+    get C348() {
+      return C348 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: C1 || CT.C1,
         name: null,
@@ -2920,69 +2976,13 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: "org-dartlang-app:///packages/personal_website/ui/common/blog_previews.dart"
       });
     },
-    get C344() {
-      return C344 = dart.const({
+    get C351() {
+      return C351 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "child",
         column: 15,
         line: 48,
-        file: null
-      });
-    },
-    get C343() {
-      return C343 = dart.constList([C344 || CT.C344], widget_inspector._Location);
-    },
-    get C342() {
-      return C342 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C343 || CT.C343,
-        name: null,
-        column: 20,
-        line: 47,
-        file: "org-dartlang-app:///packages/personal_website/ui/common/blog_previews.dart"
-      });
-    },
-    get C347() {
-      return C347 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "height",
-        column: 13,
-        line: 46,
-        file: null
-      });
-    },
-    get C348() {
-      return C348 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "child",
-        column: 13,
-        line: 47,
-        file: null
-      });
-    },
-    get C346() {
-      return C346 = dart.constList([C347 || CT.C347, C348 || CT.C348], widget_inspector._Location);
-    },
-    get C345() {
-      return C345 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C346 || CT.C346,
-        name: null,
-        column: 18,
-        line: 45,
-        file: "org-dartlang-app:///packages/personal_website/ui/common/blog_previews.dart"
-      });
-    },
-    get C351() {
-      return C351 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "builder",
-        column: 9,
-        line: 21,
         file: null
       });
     },
@@ -2994,13 +2994,69 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: C350 || CT.C350,
         name: null,
-        column: 36,
-        line: 20,
+        column: 20,
+        line: 47,
         file: "org-dartlang-app:///packages/personal_website/ui/common/blog_previews.dart"
       });
     },
     get C354() {
       return C354 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "height",
+        column: 13,
+        line: 46,
+        file: null
+      });
+    },
+    get C355() {
+      return C355 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "child",
+        column: 13,
+        line: 47,
+        file: null
+      });
+    },
+    get C353() {
+      return C353 = dart.constList([C354 || CT.C354, C355 || CT.C355], widget_inspector._Location);
+    },
+    get C352() {
+      return C352 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C353 || CT.C353,
+        name: null,
+        column: 18,
+        line: 45,
+        file: "org-dartlang-app:///packages/personal_website/ui/common/blog_previews.dart"
+      });
+    },
+    get C358() {
+      return C358 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "builder",
+        column: 9,
+        line: 21,
+        file: null
+      });
+    },
+    get C357() {
+      return C357 = dart.constList([C358 || CT.C358], widget_inspector._Location);
+    },
+    get C356() {
+      return C356 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C357 || CT.C357,
+        name: null,
+        column: 36,
+        line: 20,
+        file: "org-dartlang-app:///packages/personal_website/ui/common/blog_previews.dart"
+      });
+    },
+    get C361() {
+      return C361 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "builder",
@@ -3009,21 +3065,21 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C353() {
-      return C353 = dart.constList([C354 || CT.C354], widget_inspector._Location);
+    get C360() {
+      return C360 = dart.constList([C361 || CT.C361], widget_inspector._Location);
     },
-    get C352() {
-      return C352 = dart.const({
+    get C359() {
+      return C359 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C353 || CT.C353,
+        parameterLocations: C360 || CT.C360,
         name: null,
         column: 12,
         line: 19,
         file: "org-dartlang-app:///packages/personal_website/ui/common/blog_previews.dart"
       });
     },
-    get C355() {
-      return C355 = dart.const({
+    get C362() {
+      return C362 = dart.const({
         __proto__: edge_insets.EdgeInsets.prototype,
         bottom: 8,
         right: 8,
@@ -3031,96 +3087,33 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         left: 8
       });
     },
-    get C358() {
-      return C358 = dart.const({
+    get C365() {
+      return C365 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "author",
-        column: 23,
-        line: 45,
-        file: null
-      });
-    },
-    get C359() {
-      return C359 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "datePublished",
         column: 23,
         line: 46,
         file: null
       });
     },
-    get C360() {
-      return C360 = dart.const({
+    get C366() {
+      return C366 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "tags",
+        name: "datePublished",
         column: 23,
-        line: 48,
+        line: 47,
         file: null
-      });
-    },
-    get C361() {
-      return C361 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "title",
-        column: 23,
-        line: 49,
-        file: null
-      });
-    },
-    get C362() {
-      return C362 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "image",
-        column: 23,
-        line: 50,
-        file: null
-      });
-    },
-    get C363() {
-      return C363 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "description",
-        column: 23,
-        line: 51,
-        file: null
-      });
-    },
-    get C364() {
-      return C364 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "onTap",
-        column: 23,
-        line: 52,
-        file: null
-      });
-    },
-    get C357() {
-      return C357 = dart.constList([C358 || CT.C358, C359 || CT.C359, C360 || CT.C360, C361 || CT.C361, C362 || CT.C362, C363 || CT.C363, C364 || CT.C364], widget_inspector._Location);
-    },
-    get C356() {
-      return C356 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C357 || CT.C357,
-        name: null,
-        column: 28,
-        line: 44,
-        file: "org-dartlang-app:///packages/personal_website/ui/blog/screen.dart"
       });
     },
     get C367() {
       return C367 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "padding",
-        column: 21,
-        line: 43,
+        name: "tags",
+        column: 23,
+        line: 49,
         file: null
       });
     },
@@ -3128,172 +3121,235 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
       return C368 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "child",
-        column: 21,
-        line: 44,
+        name: "title",
+        column: 23,
+        line: 50,
         file: null
       });
     },
-    get C366() {
-      return C366 = dart.constList([C367 || CT.C367, C368 || CT.C368], widget_inspector._Location);
-    },
-    get C365() {
-      return C365 = dart.const({
+    get C369() {
+      return C369 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C366 || CT.C366,
-        name: null,
-        column: 26,
-        line: 42,
-        file: "org-dartlang-app:///packages/personal_website/ui/blog/screen.dart"
+        parameterLocations: null,
+        name: "image",
+        column: 23,
+        line: 51,
+        file: null
+      });
+    },
+    get C370() {
+      return C370 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "description",
+        column: 23,
+        line: 52,
+        file: null
       });
     },
     get C371() {
       return C371 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "gridDelegate",
-        column: 17,
-        line: 33,
+        name: "onTap",
+        column: 23,
+        line: 53,
         file: null
       });
     },
-    get C372() {
-      return C372 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "itemCount",
-        column: 17,
-        line: 37,
-        file: null
-      });
+    get C364() {
+      return C364 = dart.constList([C365 || CT.C365, C366 || CT.C366, C367 || CT.C367, C368 || CT.C368, C369 || CT.C369, C370 || CT.C370, C371 || CT.C371], widget_inspector._Location);
     },
-    get C373() {
-      return C373 = dart.const({
+    get C363() {
+      return C363 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "itemBuilder",
-        column: 17,
-        line: 38,
-        file: null
-      });
-    },
-    get C370() {
-      return C370 = dart.constList([C371 || CT.C371, C372 || CT.C372, C373 || CT.C373], widget_inspector._Location);
-    },
-    get C369() {
-      return C369 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C370 || CT.C370,
+        parameterLocations: C364 || CT.C364,
         name: null,
-        column: 31,
-        line: 32,
+        column: 28,
+        line: 45,
         file: "org-dartlang-app:///packages/personal_website/ui/blog/screen.dart"
       });
     },
     get C374() {
       return C374 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C1 || CT.C1,
-        name: null,
-        column: 24,
-        line: 61,
-        file: "org-dartlang-app:///packages/personal_website/ui/blog/screen.dart"
-      });
-    },
-    get C377() {
-      return C377 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "child",
-        column: 17,
-        line: 61,
+        name: "padding",
+        column: 21,
+        line: 44,
         file: null
       });
-    },
-    get C376() {
-      return C376 = dart.constList([C377 || CT.C377], widget_inspector._Location);
     },
     get C375() {
       return C375 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C376 || CT.C376,
+        parameterLocations: null,
+        name: "child",
+        column: 21,
+        line: 45,
+        file: null
+      });
+    },
+    get C373() {
+      return C373 = dart.constList([C374 || CT.C374, C375 || CT.C375], widget_inspector._Location);
+    },
+    get C372() {
+      return C372 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C373 || CT.C373,
         name: null,
-        column: 22,
-        line: 60,
+        column: 26,
+        line: 43,
         file: "org-dartlang-app:///packages/personal_website/ui/blog/screen.dart"
+      });
+    },
+    get C378() {
+      return C378 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "gridDelegate",
+        column: 17,
+        line: 34,
+        file: null
+      });
+    },
+    get C379() {
+      return C379 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "itemCount",
+        column: 17,
+        line: 38,
+        file: null
       });
     },
     get C380() {
       return C380 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "child",
-        column: 15,
-        line: 60,
+        name: "itemBuilder",
+        column: 17,
+        line: 39,
         file: null
       });
     },
-    get C379() {
-      return C379 = dart.constList([C380 || CT.C380], widget_inspector._Location);
+    get C377() {
+      return C377 = dart.constList([C378 || CT.C378, C379 || CT.C379, C380 || CT.C380], widget_inspector._Location);
     },
-    get C378() {
-      return C378 = dart.const({
+    get C376() {
+      return C376 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C379 || CT.C379,
+        parameterLocations: C377 || CT.C377,
         name: null,
-        column: 20,
-        line: 59,
+        column: 31,
+        line: 33,
         file: "org-dartlang-app:///packages/personal_website/ui/blog/screen.dart"
       });
-    },
-    get C383() {
-      return C383 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "builder",
-        column: 11,
-        line: 30,
-        file: null
-      });
-    },
-    get C382() {
-      return C382 = dart.constList([C383 || CT.C383], widget_inspector._Location);
     },
     get C381() {
       return C381 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C382 || CT.C382,
+        parameterLocations: C1 || CT.C1,
         name: null,
-        column: 39,
-        line: 29,
+        column: 24,
+        line: 62,
         file: "org-dartlang-app:///packages/personal_website/ui/blog/screen.dart"
       });
-    },
-    get C386() {
-      return C386 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "builder",
-        column: 9,
-        line: 29,
-        file: null
-      });
-    },
-    get C385() {
-      return C385 = dart.constList([C386 || CT.C386], widget_inspector._Location);
     },
     get C384() {
       return C384 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C385 || CT.C385,
+        parameterLocations: null,
+        name: "child",
+        column: 17,
+        line: 62,
+        file: null
+      });
+    },
+    get C383() {
+      return C383 = dart.constList([C384 || CT.C384], widget_inspector._Location);
+    },
+    get C382() {
+      return C382 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C383 || CT.C383,
         name: null,
-        column: 13,
-        line: 28,
+        column: 22,
+        line: 61,
         file: "org-dartlang-app:///packages/personal_website/ui/blog/screen.dart"
       });
     },
+    get C387() {
+      return C387 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "child",
+        column: 15,
+        line: 61,
+        file: null
+      });
+    },
+    get C386() {
+      return C386 = dart.constList([C387 || CT.C387], widget_inspector._Location);
+    },
+    get C385() {
+      return C385 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C386 || CT.C386,
+        name: null,
+        column: 20,
+        line: 60,
+        file: "org-dartlang-app:///packages/personal_website/ui/blog/screen.dart"
+      });
+    },
+    get C390() {
+      return C390 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "builder",
+        column: 11,
+        line: 31,
+        file: null
+      });
+    },
     get C389() {
-      return C389 = dart.const({
+      return C389 = dart.constList([C390 || CT.C390], widget_inspector._Location);
+    },
+    get C388() {
+      return C388 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C389 || CT.C389,
+        name: null,
+        column: 39,
+        line: 30,
+        file: "org-dartlang-app:///packages/personal_website/ui/blog/screen.dart"
+      });
+    },
+    get C393() {
+      return C393 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "builder",
+        column: 9,
+        line: 30,
+        file: null
+      });
+    },
+    get C392() {
+      return C392 = dart.constList([C393 || CT.C393], widget_inspector._Location);
+    },
+    get C391() {
+      return C391 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C392 || CT.C392,
+        name: null,
+        column: 13,
+        line: 29,
+        file: "org-dartlang-app:///packages/personal_website/ui/blog/screen.dart"
+      });
+    },
+    get C396() {
+      return C396 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "pageTitle",
@@ -3302,23 +3358,23 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
         file: null
       });
     },
-    get C390() {
-      return C390 = dart.const({
+    get C397() {
+      return C397 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "body",
         column: 7,
-        line: 28,
+        line: 29,
         file: null
       });
     },
-    get C388() {
-      return C388 = dart.constList([C389 || CT.C389, C390 || CT.C390], widget_inspector._Location);
+    get C395() {
+      return C395 = dart.constList([C396 || CT.C396, C397 || CT.C397], widget_inspector._Location);
     },
-    get C387() {
-      return C387 = dart.const({
+    get C394() {
+      return C394 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C388 || CT.C388,
+        parameterLocations: C395 || CT.C395,
         name: null,
         column: 12,
         line: 16,
@@ -3425,53 +3481,60 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
   let C54;
   let C53;
   let C58;
+  let C59;
   let C57;
   let C56;
+  let C62;
   let C61;
   let C60;
-  let C59;
+  let C65;
   let C64;
   let C63;
-  let C62;
-  let C67;
   let C68;
-  let C69;
+  let C67;
   let C66;
-  let C65;
+  let C71;
   let C70;
+  let C69;
+  let C74;
+  let C75;
+  let C76;
   let C73;
   let C72;
-  let C71;
-  let C76;
-  let C75;
-  let C74;
+  let C77;
+  let C80;
   let C79;
   let C78;
-  let C77;
-  let C82;
   let C83;
+  let C82;
   let C81;
-  let C80;
   let C86;
-  let C87;
   let C85;
   let C84;
-  let C90;
-  let C91;
   let C89;
+  let C90;
   let C88;
-  let C92;
-  let C95;
-  let C96;
-  let C97;
-  let C94;
+  let C87;
   let C93;
-  let C100;
-  let C99;
+  let C94;
+  let C92;
+  let C91;
+  let C97;
   let C98;
-  let C103;
+  let C96;
+  let C95;
+  let C99;
   let C102;
+  let C103;
+  let C104;
   let C101;
+  let C100;
+  let C107;
+  let C106;
+  let C105;
+  let C110;
+  let C109;
+  let C108;
   app_scaffold.AppScaffold = class AppScaffold extends framework.StatelessWidget {
     get body() {
       return this[body$];
@@ -3487,15 +3550,15 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
     }
     build(context) {
       let displayMobileLayout = dart.notNull(media_query.MediaQuery.of(context).size.width) < 720;
-      return new basic.Row.new({children: JSArrayOfWidget().of([new basic.Expanded.new({child: new scaffold.Scaffold.new({appBar: displayMobileLayout ? new app_bar.AppBar.new({automaticallyImplyLeading: displayMobileLayout, title: new text.Text.new(this.pageTitle, {$creationLocationd_0dea112b090073317d4: C11 || CT.C11}), $creationLocationd_0dea112b090073317d4: C14 || CT.C14}) : new preferred_size.PreferredSize.new({preferredSize: new ui.Size.fromHeight(80.0), child: new container.Container.new({color: theme.Theme.of(context).primaryColor, child: new theme.Theme.new({data: theme_data.ThemeData.dark(), child: new basic.Row.new({children: JSArrayOfWidget().of([new basic.Expanded.new({child: new basic.Row.new({children: JSArrayOfWidget().of([new flat_button.FlatButton.new({child: new icon.Icon.new(icons.Icons.home, {$creationLocationd_0dea112b090073317d4: C18 || CT.C18}), onPressed: dart.fn(() => navigator.Navigator.pushNamed(core.Object, context, "/"), VoidToFutureOfObject()), $creationLocationd_0dea112b090073317d4: C21 || CT.C21}), new flat_button.FlatButton.new({child: new text.Text.new(i18n.I18n.of(context).blogTitle, {$creationLocationd_0dea112b090073317d4: C25 || CT.C25}), onPressed: dart.fn(() => navigator.Navigator.pushNamed(core.Object, context, "/blog"), VoidToFutureOfObject()), $creationLocationd_0dea112b090073317d4: C28 || CT.C28}), new flat_button.FlatButton.new({child: new text.Text.new(i18n.I18n.of(context).appsTitle, {$creationLocationd_0dea112b090073317d4: C32 || CT.C32}), onPressed: dart.fn(() => navigator.Navigator.pushNamed(core.Object, context, "/apps"), VoidToFutureOfObject()), $creationLocationd_0dea112b090073317d4: C35 || CT.C35}), new flat_button.FlatButton.new({child: new text.Text.new(i18n.I18n.of(context).projectsTitle, {$creationLocationd_0dea112b090073317d4: C39 || CT.C39}), onPressed: dart.fn(() => navigator.Navigator.pushNamed(core.Object, context, "/projects"), VoidToFutureOfObject()), $creationLocationd_0dea112b090073317d4: C42 || CT.C42}), new flat_button.FlatButton.new({child: new text.Text.new(i18n.I18n.of(context).aboutTitle, {$creationLocationd_0dea112b090073317d4: C46 || CT.C46}), onPressed: dart.fn(() => navigator.Navigator.pushNamed(core.Object, context, "/about"), VoidToFutureOfObject()), $creationLocationd_0dea112b090073317d4: C49 || CT.C49})]), $creationLocationd_0dea112b090073317d4: C53 || CT.C53}), $creationLocationd_0dea112b090073317d4: C56 || CT.C56}), new container.Container.new({child: new (BlocBuilderOfSettingsBloc$SettingsState()).new({builder: dart.fn((context, state) => {
+      return new basic.Row.new({children: JSArrayOfWidget().of([new basic.Expanded.new({child: new scaffold.Scaffold.new({appBar: displayMobileLayout ? new app_bar.AppBar.new({automaticallyImplyLeading: displayMobileLayout, title: new text.Text.new(this.pageTitle, {$creationLocationd_0dea112b090073317d4: C11 || CT.C11}), $creationLocationd_0dea112b090073317d4: C14 || CT.C14}) : new preferred_size.PreferredSize.new({preferredSize: new ui.Size.fromHeight(80.0), child: new container.Container.new({color: theme.Theme.of(context).primaryColor, child: new theme.Theme.new({data: theme_data.ThemeData.dark(), child: new basic.Row.new({children: JSArrayOfWidget().of([new basic.Expanded.new({child: new basic.Row.new({children: JSArrayOfWidget().of([new flat_button.FlatButton.new({child: new icon.Icon.new(icons.Icons.home, {$creationLocationd_0dea112b090073317d4: C18 || CT.C18}), onPressed: dart.fn(() => navigator.Navigator.pushNamed(core.Object, context, "/"), VoidToFutureOfObject()), $creationLocationd_0dea112b090073317d4: C21 || CT.C21}), new flat_button.FlatButton.new({child: new text.Text.new(i18n.I18n.of(context).appsTitle, {$creationLocationd_0dea112b090073317d4: C25 || CT.C25}), onPressed: dart.fn(() => navigator.Navigator.pushNamed(core.Object, context, "/apps"), VoidToFutureOfObject()), $creationLocationd_0dea112b090073317d4: C28 || CT.C28}), new flat_button.FlatButton.new({child: new text.Text.new(i18n.I18n.of(context).projectsTitle, {$creationLocationd_0dea112b090073317d4: C32 || CT.C32}), onPressed: dart.fn(() => navigator.Navigator.pushNamed(core.Object, context, "/projects"), VoidToFutureOfObject()), $creationLocationd_0dea112b090073317d4: C35 || CT.C35}), new flat_button.FlatButton.new({child: new text.Text.new(i18n.I18n.of(context).aboutTitle, {$creationLocationd_0dea112b090073317d4: C39 || CT.C39}), onPressed: dart.fn(() => navigator.Navigator.pushNamed(core.Object, context, "/about"), VoidToFutureOfObject()), $creationLocationd_0dea112b090073317d4: C42 || CT.C42}), new flat_button.FlatButton.new({child: new text.Text.new(i18n.I18n.of(context).blogTitle, {$creationLocationd_0dea112b090073317d4: C46 || CT.C46}), onPressed: dart.fn(() => navigator.Navigator.pushNamed(core.Object, context, "/blog"), VoidToFutureOfObject()), $creationLocationd_0dea112b090073317d4: C49 || CT.C49}), new icon_button.IconButton.new({icon: new icon.Icon.new(icons.Icons.add, {$creationLocationd_0dea112b090073317d4: C53 || CT.C53}), onPressed: dart.fn(() => navigator.Navigator.pushNamed(core.Object, context, "/blog/new"), VoidToFutureOfObject()), $creationLocationd_0dea112b090073317d4: C56 || CT.C56})]), $creationLocationd_0dea112b090073317d4: C60 || CT.C60}), $creationLocationd_0dea112b090073317d4: C63 || CT.C63}), new container.Container.new({child: new (BlocBuilderOfSettingsBloc$SettingsState()).new({builder: dart.fn((context, state) => {
                               if (settings_state.SettingsReady.is(state)) {
-                                return new icon_button.IconButton.new({tooltip: i18n.I18n.of(context).settingsDarkMode, icon: dart.test(state.settings.darkMode) ? new icon.Icon.new(icons.Icons.brightness_high, {$creationLocationd_0dea112b090073317d4: C59 || CT.C59}) : new icon.Icon.new(icons.Icons.brightness_low, {$creationLocationd_0dea112b090073317d4: C62 || CT.C62}), onPressed: dart.fn(() => {
+                                return new icon_button.IconButton.new({tooltip: i18n.I18n.of(context).settingsDarkMode, icon: dart.test(state.settings.darkMode) ? new icon.Icon.new(icons.Icons.brightness_high, {$creationLocationd_0dea112b090073317d4: C66 || CT.C66}) : new icon.Icon.new(icons.Icons.brightness_low, {$creationLocationd_0dea112b090073317d4: C69 || CT.C69}), onPressed: dart.fn(() => {
                                     let t0;
                                     return bloc_provider.BlocProvider.of(settings_bloc.SettingsBloc, context).dispatch(new settings_event.ChangeSettings.new((t0 = state.settings, t0.darkMode = !dart.test(state.settings.darkMode), t0)));
-                                  }, VoidTovoid()), $creationLocationd_0dea112b090073317d4: C65 || CT.C65});
+                                  }, VoidTovoid()), $creationLocationd_0dea112b090073317d4: C72 || CT.C72});
                               }
-                              return new container.Container.new({$creationLocationd_0dea112b090073317d4: C70 || CT.C70});
-                            }, BuildContextAndSettingsStateToStatelessWidget()), $creationLocationd_0dea112b090073317d4: C71 || CT.C71}), $creationLocationd_0dea112b090073317d4: C74 || CT.C74})]), $creationLocationd_0dea112b090073317d4: C77 || CT.C77}), $creationLocationd_0dea112b090073317d4: C80 || CT.C80}), $creationLocationd_0dea112b090073317d4: C84 || CT.C84}), $creationLocationd_0dea112b090073317d4: C88 || CT.C88}), drawer: displayMobileLayout ? C92 || CT.C92 : null, body: this.body, $creationLocationd_0dea112b090073317d4: C93 || CT.C93}), $creationLocationd_0dea112b090073317d4: C98 || CT.C98})]), $creationLocationd_0dea112b090073317d4: C101 || CT.C101});
+                              return new container.Container.new({$creationLocationd_0dea112b090073317d4: C77 || CT.C77});
+                            }, BuildContextAndSettingsStateToStatelessWidget()), $creationLocationd_0dea112b090073317d4: C78 || CT.C78}), $creationLocationd_0dea112b090073317d4: C81 || CT.C81})]), $creationLocationd_0dea112b090073317d4: C84 || CT.C84}), $creationLocationd_0dea112b090073317d4: C87 || CT.C87}), $creationLocationd_0dea112b090073317d4: C91 || CT.C91}), $creationLocationd_0dea112b090073317d4: C95 || CT.C95}), drawer: displayMobileLayout ? C99 || CT.C99 : null, body: this.body, $creationLocationd_0dea112b090073317d4: C100 || CT.C100}), $creationLocationd_0dea112b090073317d4: C105 || CT.C105})]), $creationLocationd_0dea112b090073317d4: C108 || CT.C108});
     }
   };
   (app_scaffold.AppScaffold.new = function(opts) {
@@ -3521,18 +3584,18 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
     body: dart.finalFieldType(framework.Widget),
     pageTitle: dart.finalFieldType(core.String)
   }));
-  let C104;
-  let C105;
-  let C108;
-  let C109;
-  let C107;
-  let C106;
-  let C112;
   let C111;
-  let C110;
+  let C112;
+  let C115;
+  let C116;
+  let C114;
+  let C113;
+  let C119;
+  let C118;
+  let C117;
   landing.LandingScreen = class LandingScreen extends framework.StatelessWidget {
     build(context) {
-      return new scroll_view.ListView.new({children: JSArrayOfWidget().of([new container.Container.new({padding: C104 || CT.C104, child: new blog_previews.BlogPreviews.new({$creationLocationd_0dea112b090073317d4: C105 || CT.C105}), $creationLocationd_0dea112b090073317d4: C106 || CT.C106})]), $creationLocationd_0dea112b090073317d4: C110 || CT.C110});
+      return new scroll_view.ListView.new({children: JSArrayOfWidget().of([new container.Container.new({padding: C111 || CT.C111, child: new blog_previews.BlogPreviews.new({$creationLocationd_0dea112b090073317d4: C112 || CT.C112}), $creationLocationd_0dea112b090073317d4: C113 || CT.C113})]), $creationLocationd_0dea112b090073317d4: C117 || CT.C117});
     }
   };
   (landing.LandingScreen.new = function(opts) {
@@ -3546,13 +3609,13 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
     build: dart.fnType(framework.Widget, [framework.BuildContext])
   }));
   dart.setLibraryUri(landing.LandingScreen, "package:personal_website/ui/home/landing.dart");
-  let C115;
-  let C116;
-  let C114;
-  let C113;
+  let C122;
+  let C123;
+  let C121;
+  let C120;
   privacy_policy.PrivacyPolicy = class PrivacyPolicy extends framework.StatelessWidget {
     build(context) {
-      return new render.AssetPageRender.new({title: i18n.I18n.of(context).privacy_policy, path: "privacy_policy", $creationLocationd_0dea112b090073317d4: C113 || CT.C113});
+      return new render.AssetPageRender.new({title: i18n.I18n.of(context).privacy_policy, path: "privacy_policy", $creationLocationd_0dea112b090073317d4: C120 || CT.C120});
     }
   };
   (privacy_policy.PrivacyPolicy.new = function(opts) {
@@ -3616,15 +3679,8 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
   }));
   const _post = dart.privateName(post$, "_post");
   const _updateTitle = dart.privateName(post$, "_updateTitle");
-  let C117;
-  let C118;
-  let C121;
-  let C120;
-  let C119;
   let C124;
   let C125;
-  let C123;
-  let C122;
   let C128;
   let C127;
   let C126;
@@ -3640,63 +3696,70 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
   let C137;
   let C136;
   let C142;
-  let C143;
   let C141;
   let C140;
-  let C146;
   let C145;
+  let C146;
   let C144;
+  let C143;
   let C149;
+  let C150;
   let C148;
   let C147;
+  let C153;
   let C152;
   let C151;
-  let C150;
-  let C155;
   let C156;
+  let C155;
   let C154;
-  let C153;
   let C159;
-  let C160;
   let C158;
   let C157;
-  let C163;
-  let C164;
   let C162;
+  let C163;
   let C161;
-  let C167;
-  let C168;
-  let C169;
+  let C160;
   let C166;
+  let C167;
   let C165;
-  let C172;
-  let C173;
+  let C164;
+  let C170;
+  let C171;
+  let C169;
+  let C168;
   let C174;
   let C175;
   let C176;
-  let C171;
-  let C170;
-  const _getRender = dart.privateName(post$, "_getRender");
+  let C173;
+  let C172;
   let C179;
   let C180;
   let C181;
+  let C182;
+  let C183;
   let C178;
   let C177;
-  let C184;
-  let C185;
-  let C183;
-  let C182;
-  let C188;
-  let C189;
-  let C187;
+  const _getRender = dart.privateName(post$, "_getRender");
   let C186;
-  let C192;
+  let C187;
+  let C188;
+  let C185;
+  let C184;
   let C191;
+  let C192;
   let C190;
-  let C193;
-  let C196;
+  let C189;
   let C195;
+  let C196;
   let C194;
+  let C193;
+  let C199;
+  let C198;
+  let C197;
+  let C200;
+  let C203;
+  let C202;
+  let C201;
   post$._PostDetailsState = class _PostDetailsState extends framework.State$(post$.PostDetails) {
     initState() {
       let t0;
@@ -3717,25 +3780,25 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
     }
     build(context) {
       if (this[_post] == null) {
-        return new scaffold.Scaffold.new({appBar: new app_bar.AppBar.new({$creationLocationd_0dea112b090073317d4: C117 || CT.C117}), body: new basic.Center.new({child: new progress_indicator.CircularProgressIndicator.new({$creationLocationd_0dea112b090073317d4: C118 || CT.C118}), $creationLocationd_0dea112b090073317d4: C119 || CT.C119}), $creationLocationd_0dea112b090073317d4: C122 || CT.C122});
+        return new scaffold.Scaffold.new({appBar: new app_bar.AppBar.new({$creationLocationd_0dea112b090073317d4: C124 || CT.C124}), body: new basic.Center.new({child: new progress_indicator.CircularProgressIndicator.new({$creationLocationd_0dea112b090073317d4: C125 || CT.C125}), $creationLocationd_0dea112b090073317d4: C126 || CT.C126}), $creationLocationd_0dea112b090073317d4: C129 || CT.C129});
       }
-      return new scaffold.Scaffold.new({bottomNavigationBar: new bottom_app_bar.BottomAppBar.new({child: new basic.Row.new({children: JSArrayOfWidget().of([new icon_button.IconButton.new({icon: new icon.Icon.new(icons.Icons.delete, {$creationLocationd_0dea112b090073317d4: C126 || CT.C126}), onPressed: dart.fn(() => {
+      return new scaffold.Scaffold.new({bottomNavigationBar: new bottom_app_bar.BottomAppBar.new({child: new basic.Row.new({children: JSArrayOfWidget().of([new icon_button.IconButton.new({icon: new icon.Icon.new(icons.Icons.delete, {$creationLocationd_0dea112b090073317d4: C133 || CT.C133}), onPressed: dart.fn(() => {
                   web.FbFirestore.deleteDoc("posts/" + dart.str(this.widget.id));
                   navigator.Navigator.pop(core.Object, context);
-                }, VoidToNull()), $creationLocationd_0dea112b090073317d4: C129 || CT.C129}), new icon_button.IconButton.new({icon: new icon.Icon.new(icons.Icons.edit, {$creationLocationd_0dea112b090073317d4: C133 || CT.C133}), onPressed: dart.fn(() => navigate.navigate(fb_post.FbPost, context, new edit_post.EditPostScreen.new({post: this[_post], id: this.widget.id, $creationLocationd_0dea112b090073317d4: C136 || CT.C136}), {fullScreen: true}).then(core.Null, dart.fn(post => {
+                }, VoidToNull()), $creationLocationd_0dea112b090073317d4: C136 || CT.C136}), new icon_button.IconButton.new({icon: new icon.Icon.new(icons.Icons.edit, {$creationLocationd_0dea112b090073317d4: C140 || CT.C140}), onPressed: dart.fn(() => navigate.navigate(fb_post.FbPost, context, new edit_post.EditPostScreen.new({post: this[_post], id: this.widget.id, $creationLocationd_0dea112b090073317d4: C143 || CT.C143}), {fullScreen: true}).then(core.Null, dart.fn(post => {
                   if (post != null && dart.test(this.mounted)) {
                     this.setState(dart.fn(() => this[_post] = post, VoidToFbPost()));
                     this[_updateTitle]();
                   }
-                }, FbPostToNull())), VoidToFutureOfNull()), $creationLocationd_0dea112b090073317d4: C140 || CT.C140})]), $creationLocationd_0dea112b090073317d4: C144 || CT.C144}), $creationLocationd_0dea112b090073317d4: C147 || CT.C147}), body: new nested_scroll_view.NestedScrollView.new({headerSliverBuilder: dart.fn((context, innerBoxIsScrolled) => JSArrayOfWidget().of([new app_bar.SliverAppBar.new({expandedHeight: 200.0, floating: false, pinned: true, actions: JSArrayOfWidget().of([new icon_button.IconButton.new({icon: new icon.Icon.new(icons.Icons.share, {$creationLocationd_0dea112b090073317d4: C150 || CT.C150}), onPressed: dart.fn(() => {
-                  }, VoidToNull()), $creationLocationd_0dea112b090073317d4: C153 || CT.C153})]), flexibleSpace: new flexible_space_bar.FlexibleSpaceBar.new({centerTitle: true, title: new text.Text.new(this[_post].title, {style: new text_style.TextStyle.new({fontSize: 16.0}), $creationLocationd_0dea112b090073317d4: C157 || CT.C157}), background: new image.Image.network(this[_post].image, {fit: box_fit.BoxFit.cover, $creationLocationd_0dea112b090073317d4: C161 || CT.C161}), $creationLocationd_0dea112b090073317d4: C165 || CT.C165}), $creationLocationd_0dea112b090073317d4: C170 || CT.C170})]), BuildContextAndboolToListOfWidget()), body: media_query.MediaQuery.removePadding({context: context, removeTop: true, child: this[_getRender](), $creationLocationd_0dea112b090073317d4: C177 || CT.C177}), $creationLocationd_0dea112b090073317d4: C182 || CT.C182}), $creationLocationd_0dea112b090073317d4: C186 || CT.C186});
+                }, FbPostToNull())), VoidToFutureOfNull()), $creationLocationd_0dea112b090073317d4: C147 || CT.C147})]), $creationLocationd_0dea112b090073317d4: C151 || CT.C151}), $creationLocationd_0dea112b090073317d4: C154 || CT.C154}), body: new nested_scroll_view.NestedScrollView.new({headerSliverBuilder: dart.fn((context, innerBoxIsScrolled) => JSArrayOfWidget().of([new app_bar.SliverAppBar.new({expandedHeight: 200.0, floating: false, pinned: true, actions: JSArrayOfWidget().of([new icon_button.IconButton.new({icon: new icon.Icon.new(icons.Icons.share, {$creationLocationd_0dea112b090073317d4: C157 || CT.C157}), onPressed: dart.fn(() => {
+                  }, VoidToNull()), $creationLocationd_0dea112b090073317d4: C160 || CT.C160})]), flexibleSpace: new flexible_space_bar.FlexibleSpaceBar.new({centerTitle: true, title: new text.Text.new(this[_post].title, {style: new text_style.TextStyle.new({fontSize: 16.0}), $creationLocationd_0dea112b090073317d4: C164 || CT.C164}), background: new image.Image.network(this[_post].image, {fit: box_fit.BoxFit.cover, $creationLocationd_0dea112b090073317d4: C168 || CT.C168}), $creationLocationd_0dea112b090073317d4: C172 || CT.C172}), $creationLocationd_0dea112b090073317d4: C177 || CT.C177})]), BuildContextAndboolToListOfWidget()), body: media_query.MediaQuery.removePadding({context: context, removeTop: true, child: this[_getRender](), $creationLocationd_0dea112b090073317d4: C184 || CT.C184}), $creationLocationd_0dea112b090073317d4: C189 || CT.C189}), $creationLocationd_0dea112b090073317d4: C193 || CT.C193});
     }
     [_getRender]() {
       let t0;
       if ((t0 = this[_post], t0 == null ? null : t0.markdown) != null) {
-        return new md_render.MarkdownRender.new({html: this[_post].markdown, $creationLocationd_0dea112b090073317d4: C190 || CT.C190});
+        return new md_render.MarkdownRender.new({html: this[_post].markdown, $creationLocationd_0dea112b090073317d4: C197 || CT.C197});
       }
-      return new basic.Center.new({child: new progress_indicator.CircularProgressIndicator.new({$creationLocationd_0dea112b090073317d4: C193 || CT.C193}), $creationLocationd_0dea112b090073317d4: C194 || CT.C194});
+      return new basic.Center.new({child: new progress_indicator.CircularProgressIndicator.new({$creationLocationd_0dea112b090073317d4: C200 || CT.C200}), $creationLocationd_0dea112b090073317d4: C201 || CT.C201});
     }
   };
   (post$._PostDetailsState.new = function() {
@@ -3755,11 +3818,11 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
     __proto__: dart.getFields(post$._PostDetailsState.__proto__),
     [_post]: dart.fieldType(fb_post.FbPost)
   }));
-  let C197;
-  let C198;
+  let C204;
+  let C205;
   screen$0.AppsScreen = class AppsScreen extends framework.StatelessWidget {
     build(context) {
-      return new app_scaffold.AppScaffold.new({pageTitle: i18n.I18n.of(context).appsTitle, body: new container.Container.new({$creationLocationd_0dea112b090073317d4: C197 || CT.C197}), $creationLocationd_0dea112b090073317d4: C198 || CT.C198});
+      return new app_scaffold.AppScaffold.new({pageTitle: i18n.I18n.of(context).appsTitle, body: new container.Container.new({$creationLocationd_0dea112b090073317d4: C204 || CT.C204}), $creationLocationd_0dea112b090073317d4: C205 || CT.C205});
     }
   };
   (screen$0.AppsScreen.new = function(opts) {
@@ -3819,13 +3882,13 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
     title: dart.finalFieldType(core.String)
   }));
   const _html = dart.privateName(render, "_html");
-  let C201;
-  let C200;
-  let C199;
-  let C204;
-  let C205;
-  let C203;
-  let C202;
+  let C208;
+  let C207;
+  let C206;
+  let C211;
+  let C212;
+  let C210;
+  let C209;
   render._AssetPageRenderState = class _AssetPageRenderState extends framework.State$(render.AssetPageRender) {
     initState() {
       asset_bundle.rootBundle.loadString("assets/pages/" + dart.str(this.widget.path) + ".md").then(core.Null, dart.fn(data => {
@@ -3836,7 +3899,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
       super.initState();
     }
     build(context) {
-      return new app_scaffold.AppScaffold.new({pageTitle: this.widget.title, body: new md_render.MarkdownRender.new({html: this[_html], $creationLocationd_0dea112b090073317d4: C199 || CT.C199}), $creationLocationd_0dea112b090073317d4: C202 || CT.C202});
+      return new app_scaffold.AppScaffold.new({pageTitle: this.widget.title, body: new md_render.MarkdownRender.new({html: this[_html], $creationLocationd_0dea112b090073317d4: C206 || CT.C206}), $creationLocationd_0dea112b090073317d4: C209 || CT.C209});
     }
   };
   (render._AssetPageRenderState.new = function() {
@@ -3887,123 +3950,123 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
   const _selectedRoute = dart.privateName(app_drawer, "_selectedRoute");
   const _routeObserver = dart.privateName(app_drawer, "_routeObserver");
   const _updateSelectedRoute = dart.privateName(app_drawer, "_updateSelectedRoute");
-  let C208;
-  let C207;
-  let C206;
-  let C211;
-  let C210;
-  let C209;
-  const _navigateTo = dart.privateName(app_drawer, "_navigateTo");
-  let C214;
   let C215;
-  let C216;
-  let C217;
+  let C214;
   let C213;
-  let C212;
+  let C218;
+  let C217;
+  let C216;
+  const _navigateTo = dart.privateName(app_drawer, "_navigateTo");
+  let C221;
+  let C222;
+  let C223;
+  let C224;
   let C220;
   let C219;
-  let C218;
-  let C223;
-  let C222;
-  let C221;
+  let C227;
   let C226;
   let C225;
-  let C224;
-  let C229;
   let C230;
+  let C229;
   let C228;
-  let C227;
   let C233;
-  let C234;
-  let C235;
-  let C236;
-  let C237;
   let C232;
   let C231;
+  let C236;
+  let C237;
+  let C235;
+  let C234;
   let C240;
+  let C241;
+  let C242;
+  let C243;
+  let C244;
   let C239;
   let C238;
-  let C243;
-  let C242;
-  let C241;
-  let C246;
   let C247;
-  let C248;
-  let C249;
+  let C246;
   let C245;
-  let C244;
+  let C250;
+  let C249;
+  let C248;
+  let C253;
+  let C254;
+  let C255;
+  let C256;
   let C252;
   let C251;
-  let C250;
-  let C255;
-  let C254;
-  let C253;
-  let C258;
   let C259;
-  let C260;
-  let C261;
+  let C258;
   let C257;
-  let C256;
+  let C262;
+  let C261;
+  let C260;
+  let C265;
+  let C266;
+  let C267;
+  let C268;
   let C264;
   let C263;
-  let C262;
-  let C267;
-  let C266;
-  let C265;
-  let C270;
   let C271;
-  let C272;
-  let C273;
+  let C270;
   let C269;
-  let C268;
+  let C274;
+  let C273;
+  let C272;
+  let C277;
+  let C278;
+  let C279;
+  let C280;
   let C276;
   let C275;
-  let C274;
-  let C279;
-  let C278;
-  let C277;
+  let C283;
   let C282;
   let C281;
-  let C280;
-  let C283;
   let C286;
   let C285;
   let C284;
   let C289;
-  let C290;
   let C288;
   let C287;
+  let C290;
   let C293;
-  let C294;
-  let C295;
   let C292;
   let C291;
-  let C298;
-  let C299;
-  let C300;
-  let C297;
   let C296;
-  let C303;
-  let C304;
-  let C302;
+  let C297;
+  let C295;
+  let C294;
+  let C300;
   let C301;
-  let C307;
-  let C306;
+  let C302;
+  let C299;
+  let C298;
   let C305;
-  let C308;
-  let C311;
+  let C306;
+  let C307;
+  let C304;
+  let C303;
   let C310;
+  let C311;
   let C309;
+  let C308;
   let C314;
   let C313;
   let C312;
+  let C315;
+  let C318;
   let C317;
   let C316;
-  let C315;
-  let C320;
   let C321;
+  let C320;
   let C319;
-  let C318;
+  let C324;
+  let C323;
+  let C322;
+  let C327;
+  let C328;
+  let C326;
+  let C325;
   const State_RouteAware$ = class State_RouteAware extends framework.State$(app_drawer.AppDrawer) {};
   (State_RouteAware$.new = function() {
     State_RouteAware$.__proto__.new.call(this);
@@ -4031,12 +4094,12 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
     build(context) {
       return new container.Container.new({width: dart.test(this.widget.permanentlyDisplay) ? 200 : null, child: new drawer.Drawer.new({child: new safe_area.SafeArea.new({child: new basic.Row.new({children: (() => {
                 let t0 = JSArrayOfWidget().of([]);
-                t0[$add](new basic.Expanded.new({child: new scroll_view.ListView.new({padding: edge_insets.EdgeInsets.zero, children: JSArrayOfWidget().of([new list_tile.ListTile.new({leading: new icon.Icon.new(icons.Icons.home, {$creationLocationd_0dea112b090073317d4: C206 || CT.C206}), title: new text.Text.new(i18n.I18n.of(context).homeTitle, {$creationLocationd_0dea112b090073317d4: C209 || CT.C209}), onTap: dart.fn(() => this[_navigateTo](context, "/"), VoidToFutureOfvoid()), selected: this[_selectedRoute] === "/", $creationLocationd_0dea112b090073317d4: C212 || CT.C212}), new list_tile.ListTile.new({leading: new icon.Icon.new(icons.Icons.import_contacts, {$creationLocationd_0dea112b090073317d4: C218 || CT.C218}), title: new text.Text.new(i18n.I18n.of(context).blogTitle, {$creationLocationd_0dea112b090073317d4: C221 || CT.C221}), onTap: dart.fn(() => this[_navigateTo](context, "/blog"), VoidToFutureOfvoid()), trailing: new icon_button.IconButton.new({icon: new icon.Icon.new(icons.Icons.add, {$creationLocationd_0dea112b090073317d4: C224 || CT.C224}), onPressed: dart.fn(() => this[_navigateTo](context, "/blog/new"), VoidToFutureOfvoid()), $creationLocationd_0dea112b090073317d4: C227 || CT.C227}), selected: this[_selectedRoute] === "/blog", $creationLocationd_0dea112b090073317d4: C231 || CT.C231}), new list_tile.ListTile.new({leading: new icon.Icon.new(icons.Icons.apps, {$creationLocationd_0dea112b090073317d4: C238 || CT.C238}), title: new text.Text.new(i18n.I18n.of(context).appsTitle, {$creationLocationd_0dea112b090073317d4: C241 || CT.C241}), onTap: dart.fn(() => this[_navigateTo](context, "/apps"), VoidToFutureOfvoid()), selected: this[_selectedRoute] === "/apps", $creationLocationd_0dea112b090073317d4: C244 || CT.C244}), new list_tile.ListTile.new({leading: new icon.Icon.new(icons.Icons.folder, {$creationLocationd_0dea112b090073317d4: C250 || CT.C250}), title: new text.Text.new(i18n.I18n.of(context).projectsTitle, {$creationLocationd_0dea112b090073317d4: C253 || CT.C253}), onTap: dart.fn(() => this[_navigateTo](context, "/projects"), VoidToFutureOfvoid()), selected: this[_selectedRoute] === "/projects", $creationLocationd_0dea112b090073317d4: C256 || CT.C256}), new list_tile.ListTile.new({leading: new icon.Icon.new(icons.Icons.person, {$creationLocationd_0dea112b090073317d4: C262 || CT.C262}), title: new text.Text.new(i18n.I18n.of(context).aboutTitle, {$creationLocationd_0dea112b090073317d4: C265 || CT.C265}), onTap: dart.fn(() => this[_navigateTo](context, "/about"), VoidToFutureOfvoid()), selected: this[_selectedRoute] === "/about", $creationLocationd_0dea112b090073317d4: C268 || CT.C268}), new list_tile.ListTile.new({leading: new icon.Icon.new(icons.Icons.settings, {$creationLocationd_0dea112b090073317d4: C274 || CT.C274}), title: new text.Text.new(i18n.I18n.of(context).settingsTitle, {$creationLocationd_0dea112b090073317d4: C277 || CT.C277}), onTap: dart.fn(() => {
-                          dialog.showDialog(dart.dynamic, {context: context, builder: dart.fn(_ => new dialog.AlertDialog.new({title: new text.Text.new(i18n.I18n.of(context).settingsTitle, {$creationLocationd_0dea112b090073317d4: C280 || CT.C280}), content: new settings.SettingsView.new({$creationLocationd_0dea112b090073317d4: C283 || CT.C283}), actions: JSArrayOfWidget().of([new flat_button.FlatButton.new({child: new text.Text.new(i18n.I18n.of(context).ok, {$creationLocationd_0dea112b090073317d4: C284 || CT.C284}), onPressed: dart.fn(() => navigator.Navigator.maybePop(core.Object, context), VoidToFutureOfbool()), $creationLocationd_0dea112b090073317d4: C287 || CT.C287})]), $creationLocationd_0dea112b090073317d4: C291 || CT.C291}), BuildContextToAlertDialog())});
-                        }, VoidToNull()), $creationLocationd_0dea112b090073317d4: C296 || CT.C296})]), $creationLocationd_0dea112b090073317d4: C301 || CT.C301}), $creationLocationd_0dea112b090073317d4: C305 || CT.C305}));
-                if (dart.test(this.widget.permanentlyDisplay)) t0[$add](C308 || CT.C308);
+                t0[$add](new basic.Expanded.new({child: new scroll_view.ListView.new({padding: edge_insets.EdgeInsets.zero, children: JSArrayOfWidget().of([new list_tile.ListTile.new({leading: new icon.Icon.new(icons.Icons.home, {$creationLocationd_0dea112b090073317d4: C213 || CT.C213}), title: new text.Text.new(i18n.I18n.of(context).homeTitle, {$creationLocationd_0dea112b090073317d4: C216 || CT.C216}), onTap: dart.fn(() => this[_navigateTo](context, "/"), VoidToFutureOfvoid()), selected: this[_selectedRoute] === "/", $creationLocationd_0dea112b090073317d4: C219 || CT.C219}), new list_tile.ListTile.new({leading: new icon.Icon.new(icons.Icons.import_contacts, {$creationLocationd_0dea112b090073317d4: C225 || CT.C225}), title: new text.Text.new(i18n.I18n.of(context).blogTitle, {$creationLocationd_0dea112b090073317d4: C228 || CT.C228}), onTap: dart.fn(() => this[_navigateTo](context, "/blog"), VoidToFutureOfvoid()), trailing: new icon_button.IconButton.new({icon: new icon.Icon.new(icons.Icons.add, {$creationLocationd_0dea112b090073317d4: C231 || CT.C231}), onPressed: dart.fn(() => this[_navigateTo](context, "/blog/new"), VoidToFutureOfvoid()), $creationLocationd_0dea112b090073317d4: C234 || CT.C234}), selected: this[_selectedRoute] === "/blog", $creationLocationd_0dea112b090073317d4: C238 || CT.C238}), new list_tile.ListTile.new({leading: new icon.Icon.new(icons.Icons.apps, {$creationLocationd_0dea112b090073317d4: C245 || CT.C245}), title: new text.Text.new(i18n.I18n.of(context).appsTitle, {$creationLocationd_0dea112b090073317d4: C248 || CT.C248}), onTap: dart.fn(() => this[_navigateTo](context, "/apps"), VoidToFutureOfvoid()), selected: this[_selectedRoute] === "/apps", $creationLocationd_0dea112b090073317d4: C251 || CT.C251}), new list_tile.ListTile.new({leading: new icon.Icon.new(icons.Icons.folder, {$creationLocationd_0dea112b090073317d4: C257 || CT.C257}), title: new text.Text.new(i18n.I18n.of(context).projectsTitle, {$creationLocationd_0dea112b090073317d4: C260 || CT.C260}), onTap: dart.fn(() => this[_navigateTo](context, "/projects"), VoidToFutureOfvoid()), selected: this[_selectedRoute] === "/projects", $creationLocationd_0dea112b090073317d4: C263 || CT.C263}), new list_tile.ListTile.new({leading: new icon.Icon.new(icons.Icons.person, {$creationLocationd_0dea112b090073317d4: C269 || CT.C269}), title: new text.Text.new(i18n.I18n.of(context).aboutTitle, {$creationLocationd_0dea112b090073317d4: C272 || CT.C272}), onTap: dart.fn(() => this[_navigateTo](context, "/about"), VoidToFutureOfvoid()), selected: this[_selectedRoute] === "/about", $creationLocationd_0dea112b090073317d4: C275 || CT.C275}), new list_tile.ListTile.new({leading: new icon.Icon.new(icons.Icons.settings, {$creationLocationd_0dea112b090073317d4: C281 || CT.C281}), title: new text.Text.new(i18n.I18n.of(context).settingsTitle, {$creationLocationd_0dea112b090073317d4: C284 || CT.C284}), onTap: dart.fn(() => {
+                          dialog.showDialog(dart.dynamic, {context: context, builder: dart.fn(_ => new dialog.AlertDialog.new({title: new text.Text.new(i18n.I18n.of(context).settingsTitle, {$creationLocationd_0dea112b090073317d4: C287 || CT.C287}), content: new settings.SettingsView.new({$creationLocationd_0dea112b090073317d4: C290 || CT.C290}), actions: JSArrayOfWidget().of([new flat_button.FlatButton.new({child: new text.Text.new(i18n.I18n.of(context).ok, {$creationLocationd_0dea112b090073317d4: C291 || CT.C291}), onPressed: dart.fn(() => navigator.Navigator.maybePop(core.Object, context), VoidToFutureOfbool()), $creationLocationd_0dea112b090073317d4: C294 || CT.C294})]), $creationLocationd_0dea112b090073317d4: C298 || CT.C298}), BuildContextToAlertDialog())});
+                        }, VoidToNull()), $creationLocationd_0dea112b090073317d4: C303 || CT.C303})]), $creationLocationd_0dea112b090073317d4: C308 || CT.C308}), $creationLocationd_0dea112b090073317d4: C312 || CT.C312}));
+                if (dart.test(this.widget.permanentlyDisplay)) t0[$add](C315 || CT.C315);
                 return t0;
-              })(), $creationLocationd_0dea112b090073317d4: C309 || CT.C309}), $creationLocationd_0dea112b090073317d4: C312 || CT.C312}), $creationLocationd_0dea112b090073317d4: C315 || CT.C315}), $creationLocationd_0dea112b090073317d4: C318 || CT.C318});
+              })(), $creationLocationd_0dea112b090073317d4: C316 || CT.C316}), $creationLocationd_0dea112b090073317d4: C319 || CT.C319}), $creationLocationd_0dea112b090073317d4: C322 || CT.C322}), $creationLocationd_0dea112b090073317d4: C325 || CT.C325});
     }
     [_navigateTo](context, routeName) {
       return async.async(dart.void, (function* _navigateTo() {
@@ -4071,10 +4134,10 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
     [_selectedRoute]: dart.fieldType(core.String),
     [_routeObserver]: dart.fieldType(app_route_observer.AppRouteObserver)
   }));
-  let C322;
+  let C329;
   about.AboutScreen = class AboutScreen extends framework.StatelessWidget {
     build(context) {
-      return new render.AssetPageRender.new({title: i18n.I18n.of(context).aboutTitle, path: "about", $creationLocationd_0dea112b090073317d4: C322 || CT.C322});
+      return new render.AssetPageRender.new({title: i18n.I18n.of(context).aboutTitle, path: "about", $creationLocationd_0dea112b090073317d4: C329 || CT.C329});
     }
   };
   (about.AboutScreen.new = function(opts) {
@@ -4093,38 +4156,38 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
       return "/about";
     }
   });
-  let C325;
-  let C326;
-  let C327;
-  let C328;
-  let C329;
-  let C330;
-  let C331;
-  let C324;
-  let C323;
+  let C332;
+  let C333;
   let C334;
   let C335;
-  let C333;
-  let C332;
-  let C338;
-  let C339;
-  let C340;
-  let C337;
   let C336;
+  let C337;
+  let C338;
+  let C331;
+  let C330;
   let C341;
+  let C342;
+  let C340;
+  let C339;
+  let C345;
+  let C346;
+  let C347;
   let C344;
   let C343;
-  let C342;
-  let C347;
   let C348;
-  let C346;
-  let C345;
   let C351;
   let C350;
   let C349;
   let C354;
+  let C355;
   let C353;
   let C352;
+  let C358;
+  let C357;
+  let C356;
+  let C361;
+  let C360;
+  let C359;
   blog_previews.BlogPreviews = class BlogPreviews extends framework.StatelessWidget {
     build(context) {
       return new (BlocBuilderOfBlogBloc$BlogState()).new({builder: dart.fn((context, state) => new layout_builder.LayoutBuilder.new({builder: dart.fn((context, dimens) => {
@@ -4132,11 +4195,11 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
               let _posts = state.posts;
               return new carousel_slider.CarouselSlider.new({height: 450.0, autoPlay: true, items: _posts[$map](container.Container, dart.fn(i => {
                   let post = fb_post.FbPost.fromJson(MapOfString$dynamic()._check(convert.json.decode(convert.json.encode(i.data))));
-                  return new container.Container.new({width: dart.notNull(dimens.maxWidth) * 0.8, child: new blog_card.BlogCard.new({author: post.author, datePublished: new core.DateTime.fromMillisecondsSinceEpoch(post.datePublished), tags: post.tags[$split](","), title: post.title, image: post.image, description: post.description, onTap: dart.fn(() => navigator.Navigator.pushNamed(core.Object, context, post$.PostDetails.routeName(i.documentId)), VoidToFutureOfObject()), $creationLocationd_0dea112b090073317d4: C323 || CT.C323}), $creationLocationd_0dea112b090073317d4: C332 || CT.C332});
-                }, FbDocumentSnapshotToContainer()))[$toList](), $creationLocationd_0dea112b090073317d4: C336 || CT.C336});
+                  return new container.Container.new({width: dart.notNull(dimens.maxWidth) * 0.8, child: new blog_card.BlogCard.new({author: post.author, datePublished: new core.DateTime.fromMillisecondsSinceEpoch(post.datePublished), tags: post.tags[$split](","), title: post.title, image: post.image, description: post.description, onTap: dart.fn(() => navigator.Navigator.pushNamed(core.Object, context, post$.PostDetails.routeName(i.documentId)), VoidToFutureOfObject()), $creationLocationd_0dea112b090073317d4: C330 || CT.C330}), $creationLocationd_0dea112b090073317d4: C339 || CT.C339});
+                }, FbDocumentSnapshotToContainer()))[$toList](), $creationLocationd_0dea112b090073317d4: C343 || CT.C343});
             }
-            return new container.Container.new({height: 400.0, child: new basic.Center.new({child: new progress_indicator.CircularProgressIndicator.new({$creationLocationd_0dea112b090073317d4: C341 || CT.C341}), $creationLocationd_0dea112b090073317d4: C342 || CT.C342}), $creationLocationd_0dea112b090073317d4: C345 || CT.C345});
-          }, BuildContextAndBoxConstraintsToWidget()), $creationLocationd_0dea112b090073317d4: C349 || CT.C349}), BuildContextAndBlogStateToLayoutBuilder()), $creationLocationd_0dea112b090073317d4: C352 || CT.C352});
+            return new container.Container.new({height: 400.0, child: new basic.Center.new({child: new progress_indicator.CircularProgressIndicator.new({$creationLocationd_0dea112b090073317d4: C348 || CT.C348}), $creationLocationd_0dea112b090073317d4: C349 || CT.C349}), $creationLocationd_0dea112b090073317d4: C352 || CT.C352});
+          }, BuildContextAndBoxConstraintsToWidget()), $creationLocationd_0dea112b090073317d4: C356 || CT.C356}), BuildContextAndBlogStateToLayoutBuilder()), $creationLocationd_0dea112b090073317d4: C359 || CT.C359});
     }
   };
   (blog_previews.BlogPreviews.new = function(opts) {
@@ -4151,42 +4214,42 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
     build: dart.fnType(framework.Widget, [framework.BuildContext])
   }));
   dart.setLibraryUri(blog_previews.BlogPreviews, "package:personal_website/ui/common/blog_previews.dart");
-  let C355;
-  let C358;
-  let C359;
-  let C360;
-  let C361;
   let C362;
-  let C363;
-  let C364;
-  let C357;
-  let C356;
+  let C365;
+  let C366;
   let C367;
   let C368;
-  let C366;
-  let C365;
-  let C371;
-  let C372;
-  let C373;
-  let C370;
   let C369;
+  let C370;
+  let C371;
+  let C364;
+  let C363;
   let C374;
+  let C375;
+  let C373;
+  let C372;
+  let C378;
+  let C379;
+  let C380;
   let C377;
   let C376;
-  let C375;
-  let C380;
-  let C379;
-  let C378;
+  let C381;
+  let C384;
   let C383;
   let C382;
-  let C381;
+  let C387;
   let C386;
   let C385;
-  let C384;
-  let C389;
   let C390;
+  let C389;
   let C388;
-  let C387;
+  let C393;
+  let C392;
+  let C391;
+  let C396;
+  let C397;
+  let C395;
+  let C394;
   screen$1.BlogScreen = class BlogScreen extends framework.StatelessWidget {
     build(context) {
       return new app_scaffold.AppScaffold.new({pageTitle: i18n.I18n.of(context).blogTitle, body: new layout_builder.LayoutBuilder.new({builder: dart.fn((context, dimens) => new (BlocBuilderOfBlogBloc$BlogState()).new({builder: dart.fn((context, state) => {
@@ -4195,11 +4258,11 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
                     let _index = state.posts[$_get](index);
                     let _json = convert.json.decode(convert.json.encode(_index.data));
                     let post = fb_post.FbPost.fromJson(MapOfString$dynamic()._check(_json));
-                    return new container.Container.new({padding: C355 || CT.C355, child: new blog_card.BlogCard.new({author: post.author, datePublished: new core.DateTime.fromMillisecondsSinceEpoch(post.datePublished), tags: post.tags[$split](","), title: post.title, image: post.image, description: post.description, onTap: dart.fn(() => navigator.Navigator.pushNamed(core.Object, context, post$.PostDetails.routeName(_index.documentId)), VoidToFutureOfObject()), $creationLocationd_0dea112b090073317d4: C356 || CT.C356}), $creationLocationd_0dea112b090073317d4: C365 || CT.C365});
-                  }, BuildContextAndintToContainer()), $creationLocationd_0dea112b090073317d4: C369 || CT.C369});
+                    return new container.Container.new({padding: C362 || CT.C362, child: new blog_card.BlogCard.new({author: post.author, datePublished: new core.DateTime.fromMillisecondsSinceEpoch(post.datePublished), tags: post.tags[$split](","), title: post.title, image: post.image, description: post.description, onTap: dart.fn(() => navigator.Navigator.pushNamed(core.Object, context, post$.PostDetails.routeName(_index.documentId)), VoidToFutureOfObject()), $creationLocationd_0dea112b090073317d4: C363 || CT.C363}), $creationLocationd_0dea112b090073317d4: C372 || CT.C372});
+                  }, BuildContextAndintToContainer()), $creationLocationd_0dea112b090073317d4: C376 || CT.C376});
               }
-              return new container.Container.new({child: new basic.Center.new({child: new progress_indicator.CircularProgressIndicator.new({$creationLocationd_0dea112b090073317d4: C374 || CT.C374}), $creationLocationd_0dea112b090073317d4: C375 || CT.C375}), $creationLocationd_0dea112b090073317d4: C378 || CT.C378});
-            }, BuildContextAndBlogStateToStatelessWidget()), $creationLocationd_0dea112b090073317d4: C381 || CT.C381}), BuildContextAndBoxConstraintsToBlocBuilderOfBlogBloc$BlogState()), $creationLocationd_0dea112b090073317d4: C384 || CT.C384}), $creationLocationd_0dea112b090073317d4: C387 || CT.C387});
+              return new container.Container.new({child: new basic.Center.new({child: new progress_indicator.CircularProgressIndicator.new({$creationLocationd_0dea112b090073317d4: C381 || CT.C381}), $creationLocationd_0dea112b090073317d4: C382 || CT.C382}), $creationLocationd_0dea112b090073317d4: C385 || CT.C385});
+            }, BuildContextAndBlogStateToStatelessWidget()), $creationLocationd_0dea112b090073317d4: C388 || CT.C388}), BuildContextAndBoxConstraintsToBlocBuilderOfBlogBloc$BlogState()), $creationLocationd_0dea112b090073317d4: C391 || CT.C391}), $creationLocationd_0dea112b090073317d4: C394 || CT.C394});
     }
   };
   (screen$1.BlogScreen.new = function(opts) {
@@ -4234,7 +4297,7 @@ define(['dart_sdk', 'packages/personal_website/generated/i18n', 'packages/flutte
     "package:personal_website/ui/blog/screen.dart": screen$1,
     "package:personal_website/ui/pages/index.dart": index$
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["../projects/screen.dart","../home/screen.dart","../common/app_scaffold.dart","../home/landing.dart","../pages/privacy_policy.dart","../blog/post.dart","screen.dart","../pages/render.dart","../common/app_drawer.dart","../pages/about.dart","../common/blog_previews.dart","../blog/screen.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;UAQ4B;AACxB,YAAO,8CACW,AAAY,aAAT,OAAO,uBACpB;IAEV;;;;;;EACF;;;;;;;;MARsB,+BAAS;;;;;;;;;;UCGH;AACxB,YAAO,8CAUW,AAAY,aAAT,OAAO,eACpB;IAEV;;;;;;EACF;;;;;;;;MAjBsB,4BAAS;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;ICahB;;;;;;IAEA;;;;;;UAGa;AACb,gCAC2B,aAAvB,AAAY,AAAK,0BAAd,OAAO;AAEzB,YAAO,8BACK,sBAER,+BACS,mCACG,mBAAmB,GACrB,mDAE6B,mBAAmB,SACvC,kBAAK,oIAEd,qDACsB,uBAAW,cACxB,oCACQ,AAAY,eAAT,OAAO,uBAChB,2BACW,oCACT,6BACa,sBAChB,+BACS,6BACa,sBAChB,uCACS,kBAAW,uFACP,cAAgB,2CACvB,OAAO,0FAEb,uCACS,kBAAU,AAAY,aAAT,OAAO,kFAChB,cAAgB,2CACvB,OAAO,8FAEb,uCACS,kBAAU,AAAY,aAAT,OAAO,kFAChB,cAAgB,2CACvB,OAAO,8FAEb,uCACS,kBAAU,AAAY,aAAT,OAAO,sFAChB,cAAgB,2CACvB,OAAO,kGAEb,uCACS,kBAAU,AAAY,aAAT,OAAO,mFAChB,cAAgB,2CACvB,OAAO,mNAKnB,oCACS,8DACI,SAAC,SAAS;AACjB,kCAAU,gCAAN,KAAK;AACP,sCAAO,0CAEI,AAAY,aAAT,OAAO,oCACb,AAAM,AAAS,KAAV,sBACL,kBAAW,wFACX,kBAAW,iGACN;;AACP,0CAAa,AACR,2DADyB,OAAO,WACvB,4CAAe,AACpB,KADyB,WAE1B,cACE,WAAC,AAAM,AAAS,KAAV;;;AAGxB,oCAAO;ibASrB,mBAAmB,mBAErB,YACA;IAKhB;;;QAjGkC;QAAqB;QAAe;;IAApC;IAAqB;AACjD,4DAAW,GAAG;;EAAC;;;;;;;;;;;;;;;;;;;;;;;;UCZK;AACxB,YAAO,yCACa,sBAChB,8DAES;IAIf;;;;;;EACF;;;;;;;;;;;;UCP4B;AACxB,YAAO,wCACO,AAAY,aAAT,OAAO,wBAChB;IAEV;;;;;;EACF;;;;;;;;MATsB,sCAAS;;;;;ICYhB;;;;;;IACA;;;;;;qBAEkB;AAAO,YAAA,AAAW,qBAAH,EAAE;IAAC;;AAGd;IAAmB;;;QAXhD;QACC;QACU;;IADV;IACU;AACZ,qDAAW,GAAG;;EAAC;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;MAelB,eAAgB,KAAR,iCAAQ;AAChB,UAAI,AAAM,eAAG;QACC,AAA6B,uBAAtB,AAAS,wBAAE,AAAO,iCAAS,QAAC;AAC7C,wBAAI,eACF,cAAS;YACP,cAAe,qDAAS,AAAK,oBAAO,AAAK,oBAAO,AAAK,IAAD;;UAExD;;;QAGF;;MAEI;IACR;;IAOA;UAG0B;AACxB,UAAI,AAAM,eAAG;AACX,cAAO,oCACG,yFACF,6BACG;;AAIb,YAAO,iDACgB,4CACZ,6BACa,sBAChB,sCACQ,kBAAW,2FACN;kBACG,0BAAU,AAAoB,oBAAX,AAAO;kBAC5B,qCAAI,OAAO;6FAGzB,sCACQ,kBAAW,yFACN,cAAM,AAIf,kCAHA,OAAO,EACP,wCAAqB,iBAAW,AAAO,wFAC3B,uBACP,QAAC;AACN,sBAAI,IAAI,IAAI,kBAAQ;oBAClB,cAAS,cAAM,cAAQ,IAAI;oBAC3B;;qPAON,kEACiB,SAAC,SAAS,uBACd,sBACb,8CACkB,iBACN,eACF,eACS,sBACf,sCACQ,kBAAW,0FACN;gHAGA,0DACE,aACN,kBAAK,AAAM,2BAAc,wCAAoB,+EAClC,wBAChB,AAAM,yBACM,qPAKP,+CACN,OAAO,aACL,aACJ;IAIf;;;AAGE,WAAW,KAAP,iCAAO,gBAAY;AACrB,cAAO,yCAAqB,AAAM;;AAEpC,YAAO,8BAAc;IACvB;;;IAnGO;;;EAoGT;;;;;;;;;;;;;;;;UCxH4B;AACxB,YAAO,8CACW,AAAY,aAAT,OAAO,mBACpB;IAEV;;;;;;EACF;;;;;;;;MARsB,6BAAS;;;;;ICAhB;;;;;;IAAM;;;;;;;AAGoB;IAAuB;;;QAFnC;QAAU;QAAW;;IAAX;IAAW;AAAU,0DAAW,GAAG;;EAAC;;;;;;;;;;;;;;;;;;;;;;;;MAUvE,AAAW,AAA6C,mCAAlC,AAAgC,2BAAhB,AAAO,oBAAK,uBAAW,QAAC;AAC5D,sBAAI,eACF,cAAS;UACP,cAAQ,IAAI;;;MAGZ;IACR;UAG0B;AACxB,YAAO,8CACM,AAAO,yBACZ,wCAAqB;IAE/B;;;IAnBO;;;EAoBT;;;;;;;;;;;;ICfa;;;;;;;AAGsB;IAAiB;;;QANlB;QAAwB;;IAAxB;AAC1B,wDAAW,GAAG;;EAAC;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;MAab;MACN,uBAAiB;IACnB;;MAIQ;MACN,AAAe,+BAAU,6BAAiB,kCAAG;IAC/C;;MAIE,AAAe,iCAAY;MACrB;IACR;;MAIE;IACF;;MAIE;IACF;UAG0B;AACxB,YAAO,+CACE,AAAO,wCAAoC,aAC3C,8BACE,mCACE;;yBAEH,+BACS,uCACe,uCACV,sBAgBR,qCACW,kBAAW,qFACb,kBAAU,AAAY,aAAT,OAAO,gFACpB,cAAM,kBAAY,OAAO,yCACtB,AAAe,yFAE3B,qCACW,kBAAW,gGACb,kBAAU,AAAY,aAAT,OAAO,gFACpB,cAAM,kBAAY,OAAO,6CACtB,sCACF,kBAAW,wFACN,cACP,kBAAY,OAAO,4GAEf,AAAe,6FAE3B,qCACW,kBAAW,qFACb,kBAAU,AAAY,aAAT,OAAO,gFACpB,cAAM,kBAAY,OAAO,6CACtB,AAAe,6FAE3B,qCACW,kBAAW,uFACb,kBAAU,AAAY,aAAT,OAAO,oFACpB,cACH,kBAAY,OAAO,iDACb,AAAe,iGAE3B,qCACW,kBAAW,uFACb,kBAAU,AAAY,aAAT,OAAO,iFACpB,cAAM,kBAAY,OAAO,8CACtB,AAAe,8FAE3B,qCACW,kBAAW,yFACb,kBAAU,AAAY,aAAT,OAAO,oFACpB;0BACL,0CACW,OAAO,WACP,QAAC,KAAM,mCACP,kBAAU,AAAY,aAAT,OAAO,sFAClB,mGACQ,sBACf,uCACS,kBAAU,AAAY,aAAT,OAAO,6EAChB,cAAgB,0CAAS,OAAO;;AAU7D,8BAAI,AAAO;;;IASvB;kBAIsC,SAAgB;AAA9B;AACtB,sBAAI,AAAO;UACC,qCAAI,OAAO;;QAEvB,MAAgB,2CAAU,OAAO,EAAE,SAAS;MAC9C;;;MAGE,cAAS;QACP,uBAA4B,AAAY,AAAS,kCAAlB;;IAEnC;;;IA3IO;IACU;;;EA2InB;;;;;;;;;;;;;;;;UC5J4B;AACxB,YAAO,wCACO,AAAY,aAAT,OAAO,oBAChB;IAEV;;;;;;EACF;;;;;;;;MATsB,2BAAS;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;UCWH;AACxB,YAAO,uDACI,SAAC,SAAS,UAAU,+CAClB,SAAC,SAAS;AACjB,gBAAU,yBAAN,KAAK;AACD,2BAAS,AAAM,KAAD;AACpB,oBAAO,iDACG,iBACE,aACH,AAAO,AAeX,MAfU,4BAAK,QAAC;AACX,6BAAc,qDAAS,AAAK,oBAAO,AAAK,oBAAO,AAAE,CAAD;AACtD,wBAAO,qCACoB,aAAhB,AAAO,MAAD,aAAY,YAClB,oCACG,AAAK,IAAD,wBACY,6CACpB,AAAK,IAAD,uBACF,AAAK,AAAK,IAAN,cAAY,aACf,AAAK,IAAD,eACJ,AAAK,IAAD,qBACE,AAAK,IAAD,qBACV,cAAgB,2CACnB,OAAO,EAAc,4BAAU,AAAE,CAAD;;;AAKhD,kBAAO,sCACG,cACD,6BACE;;IAMnB;;;QAxCM;;AACD,8DAAW,GAAG;;EAAC;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;UCAM;AACxB,YAAO,8CACW,AAAY,aAAT,OAAO,mBAWpB,+CACK,SAAC,SAAS,WAAW,sDACnB,SAAC,SAAS;AACjB,kBAAU,yBAAN,KAAK;AACP,sBAAgB,iDACA,+EAC4B,CAAP,aAAhB,AAAO,MAAD,aAAY,iCACjB,AAAE,IAAE,iBAEb,AAAM,AAAM,KAAP,8BACH,SAAC,SAAS;AACf,iCAAS,AAAM,AAAK,KAAN,cAAO,KAAK;AAC1B,gCAAQ,AAAK,oBAAO,AAAK,oBAAO,AAAO,MAAD;AACtC,+BAAc,qDAAS,KAAK;AAClC,0BAAO,+DAEE,oCACG,AAAK,IAAD,wBACY,6CACpB,AAAK,IAAD,uBACF,AAAK,AAAK,IAAN,cAAY,aACf,AAAK,IAAD,eACJ,AAAK,IAAD,qBACE,AAAK,IAAD,qBACV,cAAgB,2CACnB,OAAO,EAAc,4BAAU,AAAO,MAAD;;;AAMnD,oBAAO,qCACE,6BACE;;IAOrB;;;;;;EACF;;;;;;;;MAxDsB,6BAAS","file":"screen.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["../projects/screen.dart","../home/screen.dart","../common/app_scaffold.dart","../home/landing.dart","../pages/privacy_policy.dart","../blog/post.dart","screen.dart","../pages/render.dart","../common/app_drawer.dart","../pages/about.dart","../common/blog_previews.dart","../blog/screen.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;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","file":"screen.ddc.js"}');
   // Exports:
   return {
     ui__projects__screen: screen,

@@ -25,6 +25,7 @@ class BlogScreen extends StatelessWidget {
       //     ),
       //   ],
       // ),
+
       body: LayoutBuilder(
         builder: (context, dimens) => BlocBuilder<BlogBloc, BlogState>(
           builder: (context, state) {
