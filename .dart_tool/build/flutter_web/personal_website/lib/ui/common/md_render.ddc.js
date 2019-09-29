@@ -200,7 +200,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/ma
         parameterLocations: null,
         name: "customTextAlign",
         column: 19,
-        line: 44,
+        line: 45,
         file: null
       });
     },
@@ -210,7 +210,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/ma
         parameterLocations: null,
         name: "customTextStyle",
         column: 19,
-        line: 52,
+        line: 53,
         file: null
       });
     },
@@ -386,7 +386,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/ma
   dart.trackLibraries("packages/personal_website/ui/common/md_render", {
     "package:personal_website/ui/common/md_render.dart": md_render
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["md_render.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAekB;IAAI;UAGM;AACxB,YAAO,oCACE,AAAM,eAAG,OACV,6BAAc,qKACd,oCACS,+DACE,iCACC,6BAAkB,uBAEJ,+BAAI,uBACD,AAAY,eAAT,OAAO,6CACf,0CAAsB,8CAE7B,QAAC,OAAiB,kBAAK,GAAG,SAAQ,uCACjC,QAAC,OAAiB,kBAAK,GAAG,SAAQ,+CAW7B,QAAU;AACzB,oBAAS,eAAL,IAAI;AACN,0BAAQ,AAAK,IAAD;;;AAER,4BAAiB;;;;sDAIR,SAAU,MAAgB;AACzC,oBAAS,eAAL,IAAI;AACN,0BAAQ,AAAK,IAAD;;;AAER,4BAAO,AACF,UADW,OACL,sCAAkB,eAAa;;;;AAGhD,sBAAO,UAAS;;IAMlC;;;QAzDM;QACa;;IACP,cAAE,IAAI;AACZ,4DAAW,GAAG;;EAAC","file":"md_render.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["md_render.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAekB;IAAI;UAGM;AACxB,YAAO,oCACE,AAAM,eAAG,OACV,6BAAc,qKACd,oCACS,+DACE,iCACC,6BAAkB,uBAEJ,+BAAI,uBACD,AAAY,eAAT,OAAO,6CACf,0CAAsB,8CAE7B,QAAC,OAAiB,kBAAK,GAAG,SAAQ,uCACjC,QAAC,OAAiB,kBAAK,GAAG,SAAQ,+CAY7B,QAAU;AACzB,oBAAS,eAAL,IAAI;AACN,0BAAQ,AAAK,IAAD;;;AAER,4BAAiB;;;;sDAIR,SAAU,MAAgB;AACzC,oBAAS,eAAL,IAAI;AACN,0BAAQ,AAAK,IAAD;;;AAER,4BAAO,AACF,UADW,OACL,sCAAkB,eAAa;;;;AAGhD,sBAAO,UAAS;;IAMlC;;;QA1DM;QACa;;IACP,cAAE,IAAI;AACZ,4DAAW,GAAG;;EAAC","file":"md_render.ddc.js"}');
   // Exports:
   return {
     ui__common__md_render: md_render

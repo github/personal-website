@@ -5,6 +5,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../data/classes/index.dart';
 import '../../generated/i18n.dart';
+import '../../plugins/clipboard/clipboard.dart';
 import '../../plugins/fb_firestore/fb_firestore.dart';
 import '../../plugins/file_upload/file_upload.dart';
 
@@ -24,6 +25,7 @@ class EditPostScreen extends StatefulWidget {
 
 class _EditPostScreenState extends State<EditPostScreen> {
   final _formKey = GlobalKey<FormState>();
+  final _scaffoldKey = GlobalKey<ScaffoldState>();
   String _tags, _image, _author, _description, _title, _markdown;
   TextEditingController _controller;
   bool _loading = false;
@@ -44,6 +46,7 @@ class _EditPostScreenState extends State<EditPostScreen> {
   Widget build(BuildContext context) {
     return BlocBuilder<AuthBloc, AuthState>(
       builder: (context, state) => Scaffold(
+        key: _scaffoldKey,
         appBar: AppBar(
           title: Text(widget?.id == null ? 'New Post' : 'Edit Post'),
           actions: <Widget>[
@@ -116,27 +119,20 @@ class _EditPostScreenState extends State<EditPostScreen> {
                     ),
                     if (_image != null) ...[
                       Container(
-                        height: 450.0,
+                        height: 250.0,
                         child: Image.network(_image),
                       ),
                       ListTile(
                         title: Text(
                           I18n.of(context).blogImage_source,
                         ),
-                        subtitle: SelectableText(_image, maxLines: 1),
+                        subtitle: TextFormField(
+                          initialValue: _image,
+                          maxLines: 1,
+                          onSaved: (val) => _image = val,
+                        ),
                       ),
                     ],
-                    ListTile(
-                      title: UploadButton(
-                        user: AuthBloc.currentUser(context),
-                        onChanged: (val) {
-                          if (mounted)
-                            setState(() {
-                              _image = val.url;
-                            });
-                        },
-                      ),
-                    ),
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: ExtendedTextField(
@@ -153,6 +149,23 @@ class _EditPostScreenState extends State<EditPostScreen> {
                 ],
               ),
             ),
+          ),
+        ),
+        bottomNavigationBar: BottomAppBar(
+          child: Row(
+            children: <Widget>[
+              Expanded(
+                child: UploadButton(
+                  user: AuthBloc.currentUser(context),
+                  onChanged: (val) {
+                    ClipboardUtils.copy(val.url);
+                    _scaffoldKey.currentState.showSnackBar(SnackBar(
+                      content: Text('Image Url Copied!'),
+                    ));
+                  },
+                ),
+              ),
+            ],
           ),
         ),
       ),
