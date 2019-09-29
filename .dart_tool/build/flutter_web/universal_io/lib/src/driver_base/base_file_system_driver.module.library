@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["universal_io|lib/driver.dart","universal_io|lib/prefer_universal/io.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","convert","typed_data"],"hasMain":false}

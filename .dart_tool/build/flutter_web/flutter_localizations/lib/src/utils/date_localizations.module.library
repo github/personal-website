@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["intl|lib/date_symbols.dart","intl|lib/date_symbol_data_custom.dart","flutter_localizations|lib/src/l10n/generated_date_localizations.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

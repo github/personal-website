@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["firebase|lib/src/firestore.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

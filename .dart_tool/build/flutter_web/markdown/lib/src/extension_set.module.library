@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["markdown|lib/src/block_parser.dart","markdown|lib/src/inline_parser.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

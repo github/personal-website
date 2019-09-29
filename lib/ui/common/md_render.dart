@@ -32,14 +32,15 @@ class MarkdownRender extends StatelessWidget {
                   onLinkTap: (url) => UrlUtils.open(url, name: 'Info'),
                   onImageTap: (src) => UrlUtils.open(src, name: 'Preview'),
                   //Must have useRichText set to false for this to work.
-                  customRender: (node, children) {
-                    if (node is dom.Element) {
-                      // switch(node.localName) {
-                      //   case "video": return Chewie(...);
-                      //   case "custom_tag": return CustomWidget(...);
-                      // }
-                    }
-                  },
+                  // customRender: (node, children) {
+                  //   if (node is dom.Element) {
+                  // switch (node.localName) {
+                  // case "video": return Chewie(...);
+                  // case "custom_tag": return CustomWidget(...);
+                  // case "img": return Image.network(node.text)
+                  // }
+                  //   }
+                  // },
                   customTextAlign: (dom.Node node) {
                     if (node is dom.Element) {
                       switch (node.localName) {

@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["convert|lib/src/hex/encoder.dart","convert|lib/src/hex/decoder.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["convert"],"hasMain":false}

@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["charcode|lib/charcode.dart","markdown|lib/src/ast.dart","markdown|lib/src/document.dart","markdown|lib/src/util.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

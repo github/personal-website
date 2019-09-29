@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["async|lib/async.dart","stream_channel|lib/stream_channel.dart","stream_channel|lib/src/stream_channel_transformer.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["convert"],"hasMain":false}

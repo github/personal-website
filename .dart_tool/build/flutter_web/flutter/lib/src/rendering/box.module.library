@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["flutter|lib/foundation.dart","flutter|lib/gestures.dart","vector_math|lib/vector_math_64.dart","flutter|lib/src/rendering/debug.dart","flutter|lib/src/rendering/object.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["math","ui"],"hasMain":false}

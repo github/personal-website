@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["image|lib/src/exif_data.dart","image|lib/src/image.dart","image|lib/src/util/output_buffer.dart","image|lib/src/formats/encoder.dart","image|lib/src/formats/jpeg/jpeg.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["typed_data"],"hasMain":false}

@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["collection|lib/src/canonicalized_map.dart","collection|lib/src/unmodifiable_wrappers.dart","collection|lib/src/wrappers.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

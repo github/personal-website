@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["meta|lib/meta.dart","personal_website|lib/plugins/fb_firestore/classes/index.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

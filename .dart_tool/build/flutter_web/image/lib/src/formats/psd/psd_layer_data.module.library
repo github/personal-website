@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["image|lib/src/util/input_buffer.dart","image|lib/src/formats/psd/layer_data/psd_layer_additional_data.dart","image|lib/src/formats/psd/layer_data/psd_layer_section_divider.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

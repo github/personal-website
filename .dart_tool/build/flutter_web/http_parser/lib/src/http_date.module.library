@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["string_scanner|lib/string_scanner.dart","http_parser|lib/src/utils.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

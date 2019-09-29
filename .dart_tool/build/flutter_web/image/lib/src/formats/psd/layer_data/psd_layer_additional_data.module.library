@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["image|lib/src/util/input_buffer.dart","image|lib/src/formats/psd/psd_layer_data.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

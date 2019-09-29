@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["flutter|lib/src/services/message_codecs.dart","flutter|lib/src/services/platform_channel.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["ui"],"hasMain":false}

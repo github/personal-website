@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["universal_io|lib/src/driver/drivers_in_js.dart","universal_io|lib/src/io/io.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","typed_data"],"hasMain":false}

@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["flutter|lib/material.dart","flutter_colorpicker|lib/utils.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

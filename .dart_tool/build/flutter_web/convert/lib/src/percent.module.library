@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["convert|lib/src/percent/encoder.dart","convert|lib/src/percent/decoder.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["convert"],"hasMain":false}

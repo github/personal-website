@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["bloc|lib/bloc.dart","personal_website|lib/data/blocs/blog/bloc.dart","personal_website|lib/plugins/fb_firestore/fb_firestore.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"],"hasMain":false}

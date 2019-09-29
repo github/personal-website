@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["archive|lib/archive.dart","image|lib/src/color.dart","image|lib/src/animation.dart","image|lib/src/icc_profile_data.dart","image|lib/src/image.dart","image|lib/src/util/output_buffer.dart","image|lib/src/formats/encoder.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["typed_data"],"hasMain":false}

@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["intl|lib/date_symbols.dart","intl|lib/intl.dart","intl|lib/src/data/dates/locale_list.dart","intl|lib/src/date_format_internal.dart","intl|lib/src/http_request_data_reader.dart","intl|lib/src/lazy_locale_data.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"],"hasMain":false}

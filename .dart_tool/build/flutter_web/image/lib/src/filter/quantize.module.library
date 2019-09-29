@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["image|lib/src/util/octree_quantizer.dart","image|lib/src/image.dart","image|lib/src/util/neural_quantizer.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

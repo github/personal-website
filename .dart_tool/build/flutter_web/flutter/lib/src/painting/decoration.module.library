@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["flutter|lib/foundation.dart","flutter|lib/src/painting/basic_types.dart","flutter|lib/src/painting/edge_insets.dart","flutter|lib/src/painting/image_provider.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

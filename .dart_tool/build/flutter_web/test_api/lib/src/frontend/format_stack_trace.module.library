@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["stack_trace|lib/stack_trace.dart","test_api|lib/src/backend/stack_trace_formatter.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

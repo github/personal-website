@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["image|lib/src/util/input_buffer.dart","image|lib/src/formats/webp/vp8l.dart","image|lib/src/formats/webp/vp8l_transform.dart","image|lib/src/formats/webp/webp_filters.dart","image|lib/src/formats/webp/webp_info.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["typed_data"],"hasMain":false}

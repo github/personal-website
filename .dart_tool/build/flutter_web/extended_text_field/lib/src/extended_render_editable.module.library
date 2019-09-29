@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["extended_text_library|lib/extended_text_library.dart","flutter|lib/foundation.dart","flutter|lib/gestures.dart","flutter|lib/material.dart","flutter|lib/rendering.dart","flutter|lib/semantics.dart","flutter|lib/services.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","math","ui"],"hasMain":false}

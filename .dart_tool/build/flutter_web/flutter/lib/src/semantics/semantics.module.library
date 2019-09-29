@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["flutter|lib/foundation.dart","flutter|lib/painting.dart","flutter|lib/services.dart","vector_math|lib/vector_math_64.dart","flutter|lib/src/semantics/binding.dart","flutter|lib/src/semantics/semantics_event.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["math","typed_data","ui"],"hasMain":false}

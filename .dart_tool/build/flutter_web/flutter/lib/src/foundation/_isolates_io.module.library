@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["meta|lib/meta.dart","flutter|lib/src/foundation/constants.dart","flutter|lib/src/foundation/isolates.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","developer","isolate"],"hasMain":false}

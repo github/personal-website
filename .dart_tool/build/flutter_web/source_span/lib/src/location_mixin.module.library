@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["source_span|lib/src/location.dart","source_span|lib/src/span.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

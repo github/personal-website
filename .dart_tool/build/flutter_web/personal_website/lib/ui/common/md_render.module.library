@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["flutter|lib/material.dart","flutter_html|lib/flutter_html.dart","html|lib/dom.dart","markdown|lib/markdown.dart","personal_website|lib/plugins/url_launcher/url_launcher.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

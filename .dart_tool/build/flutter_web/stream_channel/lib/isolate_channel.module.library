@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["stream_channel|lib/src/isolate_channel.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

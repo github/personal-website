@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["typed_data|lib/typed_data.dart","crypto|lib/src/digest.dart","crypto|lib/src/utils.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["typed_data"],"hasMain":false}

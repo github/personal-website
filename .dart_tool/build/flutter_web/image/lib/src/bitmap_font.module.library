@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["archive|lib/archive.dart","xml|lib/xml.dart","image|lib/src/image.dart","image|lib/src/image_exception.dart","image|lib/src/formats/png_decoder.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

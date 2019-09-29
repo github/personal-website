@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["intl|lib/src/locale/locale_deprecations.dart","intl|lib/src/locale/locale_extensions.dart","intl|lib/src/locale/locale_implementation.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

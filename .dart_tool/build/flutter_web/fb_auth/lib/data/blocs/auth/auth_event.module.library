@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["meta|lib/meta.dart","fb_auth|lib/data/classes/index.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

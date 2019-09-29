@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["matcher|lib/src/core_matchers.dart","matcher|lib/src/equals_matcher.dart","matcher|lib/src/interfaces.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

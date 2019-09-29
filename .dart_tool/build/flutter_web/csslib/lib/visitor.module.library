@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["source_span|lib/source_span.dart","csslib|lib/parser.dart"],"parts":["csslib|lib/src/css_printer.dart","csslib|lib/src/tree.dart","csslib|lib/src/tree_base.dart","csslib|lib/src/tree_printer.dart"],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

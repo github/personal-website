@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["fb_auth|lib/fb_auth.dart","file_picker|lib/file_picker.dart","firebase_storage|lib/firebase_storage.dart","flutter|lib/material.dart","image_picker|lib/image_picker.dart","personal_website|lib/data/classes/index.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["io"],"hasMain":false}

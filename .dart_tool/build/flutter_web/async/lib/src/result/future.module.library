@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["async|lib/src/delegate/future.dart","async|lib/src/result/result.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"],"hasMain":false}

@@ -41,3 +41,10 @@ flutter:
   uses-material-design: true
   assets:
     - assets/pages/
+    - assets/images/
+    - assets/images/flutter/
+    - assets/images/flutter_piano/
+    - assets/images/flutter_x/
+    - assets/images/gifs/
+    - assets/images/space-curiosity/
+    - assets/images/the-pitch-pipe/

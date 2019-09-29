@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["path|lib/src/characters.dart","path|lib/src/internal_style.dart","path|lib/src/parsed_path.dart","path|lib/src/utils.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

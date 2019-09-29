@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["rxdart|lib/src/futures/as_observable_future.dart","rxdart|lib/src/futures/stream_max_future.dart","rxdart|lib/src/futures/stream_min_future.dart","rxdart|lib/src/futures/wrapped_future.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

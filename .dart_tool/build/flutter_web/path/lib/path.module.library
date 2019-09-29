@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["path|lib/src/context.dart","path|lib/src/style.dart","path|lib/src/path_exception.dart","path|lib/src/path_map.dart","path|lib/src/path_set.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

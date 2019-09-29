@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["charcode|lib/ascii.dart","typed_data|lib/typed_data.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["convert","math","typed_data"],"hasMain":false}

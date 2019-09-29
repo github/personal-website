@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["extended_text_library|lib/src/special_text_span.dart","extended_text_library|lib/src/text_painter_helper.dart","flutter|lib/gestures.dart","flutter|lib/material.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

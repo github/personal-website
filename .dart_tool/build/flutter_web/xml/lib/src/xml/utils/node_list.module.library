@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["collection|lib/collection.dart","xml|lib/src/xml/nodes/node.dart","xml|lib/src/xml/utils/exceptions.dart","xml|lib/src/xml/utils/node_type.dart","xml|lib/src/xml/utils/owned.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

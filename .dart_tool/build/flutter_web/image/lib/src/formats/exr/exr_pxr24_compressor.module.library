@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["archive|lib/archive.dart","image|lib/src/image_exception.dart","image|lib/src/util/input_buffer.dart","image|lib/src/util/output_buffer.dart","image|lib/src/formats/exr/exr_channel.dart","image|lib/src/formats/exr/exr_compressor.dart","image|lib/src/formats/exr/exr_part.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["typed_data"],"hasMain":false}

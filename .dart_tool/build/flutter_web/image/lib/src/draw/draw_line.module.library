@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["image|lib/src/image.dart","image|lib/src/util/clip_line.dart","image|lib/src/draw/draw_pixel.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["math"],"hasMain":false}

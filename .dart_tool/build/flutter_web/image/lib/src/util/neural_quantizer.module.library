@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["image|lib/src/color.dart","image|lib/src/image.dart","image|lib/src/image_exception.dart","image|lib/src/util/quantizer.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["math","typed_data"],"hasMain":false}

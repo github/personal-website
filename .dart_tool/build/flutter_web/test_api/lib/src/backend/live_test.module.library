@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["test_api|lib/src/backend/group.dart","test_api|lib/src/backend/message.dart","test_api|lib/src/backend/state.dart","test_api|lib/src/backend/suite.dart","test_api|lib/src/backend/test.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"],"hasMain":false}

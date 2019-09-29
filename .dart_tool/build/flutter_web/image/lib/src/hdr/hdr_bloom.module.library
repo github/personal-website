@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["image|lib/src/hdr/hdr_image.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["math","typed_data"],"hasMain":false}

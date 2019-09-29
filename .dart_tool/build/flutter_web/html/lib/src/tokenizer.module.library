@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["html|lib/parser.dart","html|lib/src/constants.dart","html|lib/src/html_input_stream.dart","html|lib/src/token.dart","html|lib/src/utils.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["collection"],"hasMain":false}

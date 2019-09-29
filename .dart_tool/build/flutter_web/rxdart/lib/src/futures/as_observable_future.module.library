@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["rxdart|lib/rxdart.dart","rxdart|lib/src/futures/wrapped_future.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"],"hasMain":false}

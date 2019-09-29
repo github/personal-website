@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":[],"parts":[],"conditionalDeps":[{"$default":"flutter|lib/src/foundation/_platform_io.dart","dart.library.html":"flutter|lib/src/foundation/_platform_web.dart"}],"sdkDeps":[],"hasMain":false}

@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["image|lib/src/color.dart","image|lib/src/exif_data.dart","image|lib/src/icc_profile_data.dart","image|lib/src/util/interpolation.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["math","typed_data"],"hasMain":false}

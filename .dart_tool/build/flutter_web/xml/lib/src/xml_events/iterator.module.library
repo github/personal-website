@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["petitparser|lib/petitparser.dart","xml|lib/src/xml_events/event.dart","xml|lib/src/xml_events/parser.dart","xml|lib/xml.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

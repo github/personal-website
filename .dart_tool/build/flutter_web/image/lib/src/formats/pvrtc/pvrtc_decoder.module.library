@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["image|lib/src/color.dart","image|lib/src/image.dart","image|lib/src/util/input_buffer.dart","image|lib/src/formats/pvrtc/pvrtc_color.dart","image|lib/src/formats/pvrtc/pvrtc_packet.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["typed_data"],"hasMain":false}

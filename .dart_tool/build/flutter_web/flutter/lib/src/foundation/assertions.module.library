@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["meta|lib/meta.dart","flutter|lib/src/foundation/basic_types.dart","flutter|lib/src/foundation/constants.dart","flutter|lib/src/foundation/diagnostics.dart","flutter|lib/src/foundation/print.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

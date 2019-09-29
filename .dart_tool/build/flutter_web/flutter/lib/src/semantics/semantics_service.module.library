@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["flutter|lib/services.dart","flutter|lib/src/semantics/semantics_event.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","ui"],"hasMain":false}

@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["flutter_test|lib/src/goldens.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["typed_data"],"hasMain":false}

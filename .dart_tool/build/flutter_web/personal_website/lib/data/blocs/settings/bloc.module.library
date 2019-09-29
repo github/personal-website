@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["personal_website|lib/data/blocs/settings/settings_bloc.dart","personal_website|lib/data/blocs/settings/settings_event.dart","personal_website|lib/data/blocs/settings/settings_state.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

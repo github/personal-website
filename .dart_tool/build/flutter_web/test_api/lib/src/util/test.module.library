@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["test_api|lib/src/backend/invoker.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"],"hasMain":false}

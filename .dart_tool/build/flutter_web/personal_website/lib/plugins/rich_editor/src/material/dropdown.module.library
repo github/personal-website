@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["flutter|lib/foundation.dart","flutter|lib/material.dart","flutter|lib/widgets.dart","flutter_logger|lib/flutter_logger.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["math"],"hasMain":false}

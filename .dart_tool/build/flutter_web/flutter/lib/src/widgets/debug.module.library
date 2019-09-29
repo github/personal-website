@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["flutter|lib/src/widgets/basic.dart","flutter|lib/src/widgets/framework.dart","flutter|lib/src/widgets/media_query.dart","flutter|lib/src/widgets/table.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["collection","developer"],"hasMain":false}

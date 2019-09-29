@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["charcode|lib/charcode.dart","term_glyph|lib/term_glyph.dart","source_span|lib/src/colors.dart","source_span|lib/src/location.dart","source_span|lib/src/span.dart","source_span|lib/src/span_with_context.dart","source_span|lib/src/utils.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["math"],"hasMain":false}

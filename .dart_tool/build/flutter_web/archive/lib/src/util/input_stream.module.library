@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["archive|lib/src/util/byte_order.dart","archive|lib/src/util/archive_exception.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["convert","typed_data"],"hasMain":false}

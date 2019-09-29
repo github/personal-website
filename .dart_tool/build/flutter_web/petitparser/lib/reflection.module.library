@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["petitparser|lib/src/reflection/iterable.dart","petitparser|lib/src/reflection/optimize.dart","petitparser|lib/src/reflection/transform.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["xml|lib/src/xml/visitors/pretty_writer.dart","xml|lib/src/xml/visitors/visitable.dart","xml|lib/src/xml/visitors/writer.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

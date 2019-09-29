@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["flutter|lib/src/services/text_editing.dart","flutter|lib/src/services/text_input.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["math"],"hasMain":false}

@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["async|lib/src/null_stream_sink.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"],"hasMain":false}

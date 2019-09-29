@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["flutter|lib/widgets.dart","flutter|lib/src/material/card_theme.dart","flutter|lib/src/material/material.dart","flutter|lib/src/material/theme.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

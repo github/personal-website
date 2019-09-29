@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["flutter|lib/src/gestures/arena.dart","flutter|lib/src/gestures/events.dart","flutter|lib/src/gestures/recognizer.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

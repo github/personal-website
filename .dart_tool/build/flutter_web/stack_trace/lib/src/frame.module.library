@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["path|lib/path.dart","stack_trace|lib/src/trace.dart","stack_trace|lib/src/unparsed_frame.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

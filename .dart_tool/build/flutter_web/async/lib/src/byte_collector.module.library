@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["async|lib/src/cancelable_operation.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","typed_data"],"hasMain":false}

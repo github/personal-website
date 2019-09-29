@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["universal_io|lib/src/internal/ip_utils.dart","universal_io|lib/src/driver_for_vm/vm_io_driver.dart","universal_io|lib/src/driver/drivers_in_vm.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["io"],"hasMain":false}

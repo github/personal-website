@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["typed_data|lib/typed_data.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["convert","typed_data"],"hasMain":false}

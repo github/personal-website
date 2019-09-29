@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["flutter|lib/animation.dart","flutter|lib/src/widgets/framework.dart","flutter|lib/src/widgets/implicit_animations.dart","flutter|lib/src/widgets/value_listenable_builder.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

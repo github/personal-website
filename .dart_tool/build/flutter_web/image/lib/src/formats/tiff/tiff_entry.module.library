@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["image|lib/src/image_exception.dart","image|lib/src/util/input_buffer.dart","image|lib/src/formats/tiff/tiff_image.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

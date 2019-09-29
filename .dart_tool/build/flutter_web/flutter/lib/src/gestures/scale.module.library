@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["vector_math|lib/vector_math_64.dart","flutter|lib/src/gestures/arena.dart","flutter|lib/src/gestures/constants.dart","flutter|lib/src/gestures/events.dart","flutter|lib/src/gestures/recognizer.dart","flutter|lib/src/gestures/velocity_tracker.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["math"],"hasMain":false}

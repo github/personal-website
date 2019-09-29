@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["flutter|lib/src/painting/basic_types.dart","flutter|lib/src/painting/borders.dart","flutter|lib/src/painting/edge_insets.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["math"],"hasMain":false}

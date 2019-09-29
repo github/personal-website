@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["image|lib/src/internal/bit_operators.dart","image|lib/src/util/input_buffer.dart","image|lib/src/formats/webp/vp8.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["typed_data"],"hasMain":false}

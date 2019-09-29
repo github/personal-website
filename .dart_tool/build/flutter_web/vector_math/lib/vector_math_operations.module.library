@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":[],"parts":["vector_math|lib/src/vector_math_operations/vector.dart","vector_math|lib/src/vector_math_operations/matrix.dart"],"conditionalDeps":[],"sdkDeps":["typed_data"],"hasMain":false}

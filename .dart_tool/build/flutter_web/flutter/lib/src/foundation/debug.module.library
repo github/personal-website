@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["flutter|lib/src/foundation/assertions.dart","flutter|lib/src/foundation/platform.dart","flutter|lib/src/foundation/print.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"],"hasMain":false}

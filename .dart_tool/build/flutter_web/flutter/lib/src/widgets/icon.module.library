@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["flutter|lib/rendering.dart","flutter|lib/src/widgets/basic.dart","flutter|lib/src/widgets/debug.dart","flutter|lib/src/widgets/framework.dart","flutter|lib/src/widgets/icon_data.dart","flutter|lib/src/widgets/icon_theme.dart","flutter|lib/src/widgets/icon_theme_data.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

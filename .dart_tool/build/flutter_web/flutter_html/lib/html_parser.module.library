@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["flutter|lib/material.dart","flutter_html|lib/rich_text_parser.dart","html|lib/dom.dart","html|lib/parser.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["convert"],"hasMain":false}

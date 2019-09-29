@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["term_glyph|lib/src/generated/glyph_set.dart","term_glyph|lib/src/generated/top_level.dart","term_glyph|lib/src/generated/ascii_glyph_set.dart","term_glyph|lib/src/generated/unicode_glyph_set.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

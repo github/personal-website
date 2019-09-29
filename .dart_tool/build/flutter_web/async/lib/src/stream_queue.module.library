@@ -1,0 +1,1 @@
+{"isEntrypoint":false,"deps":["collection|lib/collection.dart","async|lib/src/cancelable_operation.dart","async|lib/src/result/result.dart","async|lib/src/subscription_stream.dart","async|lib/src/stream_completer.dart","async|lib/src/stream_splitter.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","collection"],"hasMain":false}

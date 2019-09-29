@@ -1,0 +1,1 @@
+{"isEntrypoint":true,"deps":["flutter|lib/foundation.dart","flutter|lib/services.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","io"],"hasMain":false}
