@@ -106,6 +106,27 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.1.2"
+  extended_text:
+    dependency: "direct main"
+    description:
+      name: extended_text
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.6.6"
+  extended_text_field:
+    dependency: "direct main"
+    description:
+      name: extended_text_field
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.4.4"
+  extended_text_library:
+    dependency: transitive
+    description:
+      name: extended_text_library
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.4.9"
   fb_auth:
     dependency: "direct main"
     description:

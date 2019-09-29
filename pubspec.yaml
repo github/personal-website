@@ -30,6 +30,8 @@ dependencies:
   clippy: ^1.0.0
   flutter_logger: ^0.0.6
   flutter_colorpicker: ^0.2.6
+  extended_text: ^0.6.6
+  extended_text_field: ^0.4.4
 
 dev_dependencies:
   flutter_test:

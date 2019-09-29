@@ -43,7 +43,7 @@ class BlogCard extends StatelessWidget {
                               child: Container(
                                 child: Image.network(
                                   image,
-                                  fit: BoxFit.fitHeight,
+                                  fit: BoxFit.fitWidth,
                                 ),
                               ),
                             )
