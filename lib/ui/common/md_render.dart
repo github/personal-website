@@ -41,6 +41,7 @@ class MarkdownRender extends StatelessWidget {
                   // }
                   //   }
                   // },
+                  // Todo: Custom Flutter Widget Render from Json or Link
                   customTextAlign: (dom.Node node) {
                     if (node is dom.Element) {
                       switch (node.localName) {
