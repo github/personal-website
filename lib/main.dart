@@ -5,7 +5,6 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'data/blocs/blocs.dart';
 import 'generated/i18n.dart';
-import 'plugins/fb_firestore/classes/index.dart';
 import 'ui/common/index.dart';
 import 'ui/home/screen.dart';
 import 'ui/router.dart';
@@ -91,10 +90,8 @@ class _MyAppState extends State<MyApp> {
                       ? settingState.settings.locale
                       : Locale("en", "US"),
                 ),
-                onUnknownRoute: (details) => MaterialPageRoute(
-                  builder: (_) => HomeScreen(),
-                ),
-                initialRoute: HomeScreen.routeName,
+                onUnknownRoute: Router.onUnknownRoute,
+                initialRoute: Router.initialRoute,
                 routes: Router.routes(blocState),
               ),
             ),

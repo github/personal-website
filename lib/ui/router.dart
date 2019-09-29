@@ -14,6 +14,12 @@ import 'pages/index.dart';
 import 'projects/screen.dart';
 
 class Router {
+  static String initialRoute = HomeScreen.routeName;
+  static Route<dynamic> onUnknownRoute(RouteSettings settings) =>
+      MaterialPageRoute(
+        builder: (_) => HomeScreen(),
+      );
+
   static Map<String, WidgetBuilder> routes(BlogState state) {
     return {
       HomeScreen.routeName: (_) => HomeScreen(),
