@@ -1,8 +1,8 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:personal_website/data/utils/constants.dart';
 
 import '../../data/classes/app.dart';
+import '../../data/utils/constants.dart';
 import '../../plugins/url_launcher/url_launcher.dart';
 
 class AppDetails extends StatefulWidget {
