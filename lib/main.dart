@@ -74,8 +74,8 @@ class _MyAppState extends State<MyApp> {
                         settingState.settings.useSystemSetting
                     ? AppTheme.dark
                     : null,
-                onGenerateTitle: (context) => I18n.of(context).title,
                 navigatorObservers: [_observer],
+                onGenerateTitle: (context) => I18n.of(context).title,
                 locale: settingState is SettingsReady
                     ? settingState.settings.locale
                     : Locale("en", "US"),
