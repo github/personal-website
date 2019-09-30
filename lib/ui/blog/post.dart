@@ -1,15 +1,13 @@
 import 'dart:convert';
 
-import 'package:fb_auth/data/blocs/blocs.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:personal_website/plugins/share/share.dart';
-import 'package:personal_website/ui/auth/admin_check.dart';
 
 import '../../data/classes/fb_post.dart';
 import '../../data/utils/index.dart';
 import '../../plugins/fb_firestore/fb_firestore.dart';
+import '../../plugins/share/share.dart';
+import '../auth/admin_check.dart';
 import '../common/index.dart';
 import 'edit_post.dart';
 
