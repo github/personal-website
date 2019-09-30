@@ -26,6 +26,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
   const container = packages__flutter__src__widgets__actions.src__widgets__container;
   const framework = packages__flutter__src__widgets__actions.src__widgets__framework;
   const text$ = packages__flutter__src__widgets__actions.src__widgets__text;
+  const placeholder = packages__flutter__src__widgets__actions.src__widgets__placeholder;
   const image = packages__flutter__src__widgets__actions.src__widgets__image;
   const colors$ = packages__flutter__material.src__material__colors;
   const divider = packages__flutter__material.src__material__divider;
@@ -67,7 +68,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "children",
         column: 15,
-        line: 75,
+        line: 76,
         file: null
       });
     },
@@ -80,7 +81,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C1 || CT.C1,
         name: null,
         column: 20,
-        line: 74,
+        line: 75,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -90,7 +91,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "onTap",
         column: 13,
-        line: 71,
+        line: 72,
         file: null
       });
     },
@@ -100,7 +101,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "child",
         column: 13,
-        line: 74,
+        line: 75,
         file: null
       });
     },
@@ -113,7 +114,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C4 || CT.C4,
         name: null,
         column: 18,
-        line: 70,
+        line: 71,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -123,7 +124,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "width",
         column: 7,
-        line: 99,
+        line: 100,
         file: null
       });
     },
@@ -133,7 +134,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "padding",
         column: 7,
-        line: 100,
+        line: 101,
         file: null
       });
     },
@@ -143,7 +144,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "margin",
         column: 7,
-        line: 101,
+        line: 102,
         file: null
       });
     },
@@ -153,7 +154,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "decoration",
         column: 7,
-        line: 102,
+        line: 103,
         file: null
       });
     },
@@ -163,7 +164,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "child",
         column: 7,
-        line: 103,
+        line: 104,
         file: null
       });
     },
@@ -176,7 +177,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C8 || CT.C8,
         name: null,
         column: 12,
-        line: 98,
+        line: 99,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -254,7 +255,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "children",
         column: 7,
-        line: 336,
+        line: 343,
         file: null
       });
     },
@@ -267,7 +268,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C23 || CT.C23,
         name: null,
         column: 12,
-        line: 335,
+        line: 342,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -277,7 +278,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "textAlign",
         column: 15,
-        line: 430,
+        line: 438,
         file: null
       });
     },
@@ -287,7 +288,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "text",
         column: 15,
-        line: 431,
+        line: 439,
         file: null
       });
     },
@@ -300,7 +301,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C26 || CT.C26,
         name: null,
         column: 20,
-        line: 429,
+        line: 437,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -310,7 +311,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "shrinkToFit",
         column: 13,
-        line: 422,
+        line: 430,
         file: null
       });
     },
@@ -320,7 +321,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "margin",
         column: 13,
-        line: 423,
+        line: 431,
         file: null
       });
     },
@@ -330,7 +331,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "padding",
         column: 13,
-        line: 427,
+        line: 435,
         file: null
       });
     },
@@ -340,7 +341,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "decoration",
         column: 13,
-        line: 428,
+        line: 436,
         file: null
       });
     },
@@ -350,7 +351,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "child",
         column: 13,
-        line: 429,
+        line: 437,
         file: null
       });
     },
@@ -363,7 +364,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C30 || CT.C30,
         name: null,
         column: 33,
-        line: 421,
+        line: 429,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -373,7 +374,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "text",
         column: 29,
-        line: 437,
+        line: 445,
         file: null
       });
     },
@@ -386,7 +387,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C37 || CT.C37,
         name: null,
         column: 20,
-        line: 437,
+        line: 445,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -396,7 +397,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "child",
         column: 13,
-        line: 437,
+        line: 445,
         file: null
       });
     },
@@ -406,7 +407,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "shrinkToFit",
         column: 13,
-        line: 438,
+        line: 446,
         file: null
       });
     },
@@ -419,7 +420,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C40 || CT.C40,
         name: null,
         column: 43,
-        line: 436,
+        line: 444,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -429,7 +430,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "url",
         column: 17,
-        line: 584,
+        line: 593,
         file: null
       });
     },
@@ -439,7 +440,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "margin",
         column: 17,
-        line: 585,
+        line: 594,
         file: null
       });
     },
@@ -449,7 +450,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "onLinkTap",
         column: 17,
-        line: 587,
+        line: 596,
         file: null
       });
     },
@@ -459,7 +460,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "children",
         column: 17,
-        line: 588,
+        line: 597,
         file: null
       });
     },
@@ -472,7 +473,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C44 || CT.C44,
         name: null,
         column: 41,
-        line: 583,
+        line: 592,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -482,7 +483,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "text",
         column: 35,
-        line: 608,
+        line: 617,
         file: null
       });
     },
@@ -495,7 +496,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C50 || CT.C50,
         name: null,
         column: 26,
-        line: 608,
+        line: 617,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -505,7 +506,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "shrinkToFit",
         column: 19,
-        line: 605,
+        line: 614,
         file: null
       });
     },
@@ -515,7 +516,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "margin",
         column: 19,
-        line: 606,
+        line: 615,
         file: null
       });
     },
@@ -525,7 +526,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "child",
         column: 19,
-        line: 608,
+        line: 617,
         file: null
       });
     },
@@ -538,7 +539,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C53 || CT.C53,
         name: null,
         column: 42,
-        line: 604,
+        line: 613,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -548,7 +549,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "crossAxisAlignment",
         column: 15,
-        line: 630,
+        line: 639,
         file: null
       });
     },
@@ -558,7 +559,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "children",
         column: 15,
-        line: 631,
+        line: 640,
         file: null
       });
     },
@@ -571,7 +572,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C58 || CT.C58,
         name: null,
         column: 41,
-        line: 629,
+        line: 638,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -581,7 +582,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "margin",
         column: 17,
-        line: 634,
+        line: 643,
         file: null
       });
     },
@@ -591,7 +592,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "child",
         column: 17,
-        line: 635,
+        line: 644,
         file: null
       });
     },
@@ -604,7 +605,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C62 || CT.C62,
         name: null,
         column: 44,
-        line: 633,
+        line: 642,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -613,8 +614,8 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "text",
-        column: 38,
-        line: 655,
+        column: 26,
+        line: 664,
         file: null
       });
     },
@@ -626,8 +627,8 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: C66 || CT.C66,
         name: null,
-        column: 29,
-        line: 655,
+        column: 17,
+        line: 664,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -637,7 +638,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "padding",
         column: 32,
-        line: 658,
+        line: 667,
         file: null
       });
     },
@@ -647,7 +648,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "child",
         column: 62,
-        line: 658,
+        line: 667,
         file: null
       });
     },
@@ -660,7 +661,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C69 || CT.C69,
         name: null,
         column: 22,
-        line: 658,
+        line: 667,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -670,7 +671,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "flex",
         column: 15,
-        line: 657,
+        line: 666,
         file: null
       });
     },
@@ -680,7 +681,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "child",
         column: 15,
-        line: 658,
+        line: 667,
         file: null
       });
     },
@@ -693,7 +694,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C73 || CT.C73,
         name: null,
         column: 29,
-        line: 656,
+        line: 665,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -703,7 +704,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "crossAxisAlignment",
         column: 15,
-        line: 666,
+        line: 675,
         file: null
       });
     },
@@ -713,7 +714,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "children",
         column: 15,
-        line: 667,
+        line: 676,
         file: null
       });
     },
@@ -726,7 +727,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C77 || CT.C77,
         name: null,
         column: 23,
-        line: 665,
+        line: 674,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -736,7 +737,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "crossAxisAlignment",
         column: 15,
-        line: 677,
+        line: 686,
         file: null
       });
     },
@@ -746,7 +747,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "children",
         column: 15,
-        line: 678,
+        line: 687,
         file: null
       });
     },
@@ -759,7 +760,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C81 || CT.C81,
         name: null,
         column: 23,
-        line: 676,
+        line: 685,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -769,7 +770,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "textAlign",
         column: 17,
-        line: 683,
+        line: 692,
         file: null
       });
     },
@@ -779,7 +780,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "textScaleFactor",
         column: 17,
-        line: 684,
+        line: 693,
         file: null
       });
     },
@@ -789,7 +790,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "text",
         column: 17,
-        line: 685,
+        line: 694,
         file: null
       });
     },
@@ -802,7 +803,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C85 || CT.C85,
         name: null,
         column: 29,
-        line: 682,
+        line: 691,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -812,7 +813,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "padding",
         column: 32,
-        line: 687,
+        line: 696,
         file: null
       });
     },
@@ -822,7 +823,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "child",
         column: 62,
-        line: 687,
+        line: 696,
         file: null
       });
     },
@@ -835,7 +836,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C90 || CT.C90,
         name: null,
         column: 22,
-        line: 687,
+        line: 696,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -845,7 +846,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "child",
         column: 15,
-        line: 687,
+        line: 696,
         file: null
       });
     },
@@ -858,7 +859,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C94 || CT.C94,
         name: null,
         column: 29,
-        line: 686,
+        line: 695,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -868,7 +869,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "height",
         column: 30,
-        line: 734,
+        line: 743,
         file: null
       });
     },
@@ -878,7 +879,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "color",
         column: 43,
-        line: 734,
+        line: 743,
         file: null
       });
     },
@@ -891,37 +892,30 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C97 || CT.C97,
         name: null,
         column: 22,
-        line: 734,
+        line: 743,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
-    get C102() {
-      return C102 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "bytes",
-        column: 30,
-        line: 761,
-        file: null
-      });
+    get C101() {
+      return C101 = dart.constList([], widget_inspector._Location);
     },
-    get C103() {
-      return C103 = dart.const({
+    get C100() {
+      return C100 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "width",
-        column: 23,
-        line: 763,
-        file: null
+        parameterLocations: C101 || CT.C101,
+        name: null,
+        column: 26,
+        line: 764,
+        file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
     get C104() {
       return C104 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "height",
-        column: 23,
-        line: 764,
+        name: "width",
+        column: 15,
+        line: 768,
         file: null
       });
     },
@@ -929,9 +923,9 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
       return C105 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "scale",
-        column: 23,
-        line: 765,
+        name: "height",
+        column: 15,
+        line: 769,
         file: null
       });
     },
@@ -939,39 +933,32 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
       return C106 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "matchTextDirection",
-        column: 23,
-        line: 766,
+        name: "child",
+        column: 15,
+        line: 770,
         file: null
       });
     },
-    get C107() {
-      return C107 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "centerSlice",
-        column: 23,
-        line: 768,
-        file: null
-      });
+    get C103() {
+      return C103 = dart.constList([C104 || CT.C104, C105 || CT.C105, C106 || CT.C106], widget_inspector._Location);
     },
-    get C108() {
-      return C108 = dart.const({
+    get C102() {
+      return C102 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "filterQuality",
-        column: 23,
-        line: 769,
-        file: null
+        parameterLocations: C103 || CT.C103,
+        name: null,
+        column: 45,
+        line: 767,
+        file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
     get C109() {
       return C109 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "alignment",
-        column: 23,
-        line: 771,
+        name: "bytes",
+        column: 30,
+        line: 798,
         file: null
       });
     },
@@ -979,9 +966,9 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
       return C110 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "colorBlendMode",
+        name: "width",
         column: 23,
-        line: 772,
+        line: 800,
         file: null
       });
     },
@@ -989,9 +976,9 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
       return C111 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "fit",
+        name: "height",
         column: 23,
-        line: 773,
+        line: 801,
         file: null
       });
     },
@@ -999,9 +986,9 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
       return C112 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "color",
+        name: "scale",
         column: 23,
-        line: 774,
+        line: 802,
         file: null
       });
     },
@@ -1009,9 +996,9 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
       return C113 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "repeat",
+        name: "matchTextDirection",
         column: 23,
-        line: 775,
+        line: 803,
         file: null
       });
     },
@@ -1019,9 +1006,9 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
       return C114 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "semanticLabel",
+        name: "centerSlice",
         column: 23,
-        line: 776,
+        line: 805,
         file: null
       });
     },
@@ -1029,32 +1016,39 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
       return C115 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "excludeFromSemantics",
+        name: "filterQuality",
         column: 23,
-        line: 777,
+        line: 806,
         file: null
       });
     },
-    get C101() {
-      return C101 = dart.constList([C102 || CT.C102, C103 || CT.C103, C104 || CT.C104, C105 || CT.C105, C106 || CT.C106, C107 || CT.C107, C108 || CT.C108, C109 || CT.C109, C110 || CT.C110, C111 || CT.C111, C112 || CT.C112, C113 || CT.C113, C114 || CT.C114, C115 || CT.C115], widget_inspector._Location);
-    },
-    get C100() {
-      return C100 = dart.const({
+    get C116() {
+      return C116 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C101 || CT.C101,
-        name: null,
-        column: 34,
-        line: 760,
-        file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
+        parameterLocations: null,
+        name: "alignment",
+        column: 23,
+        line: 808,
+        file: null
+      });
+    },
+    get C117() {
+      return C117 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "colorBlendMode",
+        column: 23,
+        line: 809,
+        file: null
       });
     },
     get C118() {
       return C118 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "child",
-        column: 21,
-        line: 760,
+        name: "fit",
+        column: 23,
+        line: 810,
         file: null
       });
     },
@@ -1062,121 +1056,128 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
       return C119 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "onTap",
-        column: 21,
-        line: 782,
+        name: "color",
+        column: 23,
+        line: 811,
         file: null
       });
     },
-    get C117() {
-      return C117 = dart.constList([C118 || CT.C118, C119 || CT.C119], widget_inspector._Location);
-    },
-    get C116() {
-      return C116 = dart.const({
+    get C120() {
+      return C120 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C117 || CT.C117,
-        name: null,
-        column: 51,
-        line: 759,
-        file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
+        parameterLocations: null,
+        name: "repeat",
+        column: 23,
+        line: 812,
+        file: null
+      });
+    },
+    get C121() {
+      return C121 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "semanticLabel",
+        column: 23,
+        line: 813,
+        file: null
       });
     },
     get C122() {
       return C122 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "textAlign",
-        column: 31,
-        line: 801,
+        name: "excludeFromSemantics",
+        column: 23,
+        line: 814,
         file: null
       });
     },
-    get C123() {
-      return C123 = dart.const({
+    get C108() {
+      return C108 = dart.constList([C109 || CT.C109, C110 || CT.C110, C111 || CT.C111, C112 || CT.C112, C113 || CT.C113, C114 || CT.C114, C115 || CT.C115, C116 || CT.C116, C117 || CT.C117, C118 || CT.C118, C119 || CT.C119, C120 || CT.C120, C121 || CT.C121, C122 || CT.C122], widget_inspector._Location);
+    },
+    get C107() {
+      return C107 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C108 || CT.C108,
+        name: null,
+        column: 34,
+        line: 797,
+        file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
+      });
+    },
+    get C125() {
+      return C125 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "text",
-        column: 31,
-        line: 802,
+        name: "child",
+        column: 21,
+        line: 797,
         file: null
-      });
-    },
-    get C121() {
-      return C121 = dart.constList([C122 || CT.C122, C123 || CT.C123], widget_inspector._Location);
-    },
-    get C120() {
-      return C120 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C121 || CT.C121,
-        name: null,
-        column: 36,
-        line: 800,
-        file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
     get C126() {
       return C126 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "child",
-        column: 29,
-        line: 800,
+        name: "onTap",
+        column: 21,
+        line: 819,
         file: null
       });
-    },
-    get C127() {
-      return C127 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "shrinkToFit",
-        column: 29,
-        line: 807,
-        file: null
-      });
-    },
-    get C125() {
-      return C125 = dart.constList([C126 || CT.C126, C127 || CT.C127], widget_inspector._Location);
     },
     get C124() {
-      return C124 = dart.const({
+      return C124 = dart.constList([C125 || CT.C125, C126 || CT.C126], widget_inspector._Location);
+    },
+    get C123() {
+      return C123 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C125 || CT.C125,
+        parameterLocations: C124 || CT.C124,
         name: null,
-        column: 34,
-        line: 799,
+        column: 51,
+        line: 796,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
     get C129() {
-      return C129 = dart.constList([], widget_inspector._Location);
-    },
-    get C128() {
-      return C128 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C129 || CT.C129,
-        name: null,
-        column: 32,
-        line: 813,
-        file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
-      });
-    },
-    get C132() {
-      return C132 = dart.const({
+      return C129 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "src",
-        column: 38,
-        line: 796,
+        name: "textAlign",
+        column: 31,
+        line: 838,
         file: null
+      });
+    },
+    get C130() {
+      return C130 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "text",
+        column: 31,
+        line: 839,
+        file: null
+      });
+    },
+    get C128() {
+      return C128 = dart.constList([C129 || CT.C129, C130 || CT.C130], widget_inspector._Location);
+    },
+    get C127() {
+      return C127 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C128 || CT.C128,
+        name: null,
+        column: 36,
+        line: 837,
+        file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
     get C133() {
       return C133 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "frameBuilder",
-        column: 23,
-        line: 797,
+        name: "child",
+        column: 29,
+        line: 837,
         file: null
       });
     },
@@ -1184,49 +1185,42 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
       return C134 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "width",
-        column: 23,
-        line: 815,
+        name: "shrinkToFit",
+        column: 29,
+        line: 844,
         file: null
+      });
+    },
+    get C132() {
+      return C132 = dart.constList([C133 || CT.C133, C134 || CT.C134], widget_inspector._Location);
+    },
+    get C131() {
+      return C131 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C132 || CT.C132,
+        name: null,
+        column: 34,
+        line: 836,
+        file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
     get C135() {
       return C135 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "height",
-        column: 23,
-        line: 816,
-        file: null
-      });
-    },
-    get C136() {
-      return C136 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "scale",
-        column: 23,
-        line: 817,
-        file: null
-      });
-    },
-    get C137() {
-      return C137 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "matchTextDirection",
-        column: 23,
-        line: 818,
-        file: null
+        parameterLocations: C101 || CT.C101,
+        name: null,
+        column: 32,
+        line: 850,
+        file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
     get C138() {
       return C138 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "centerSlice",
-        column: 23,
-        line: 820,
+        name: "src",
+        column: 38,
+        line: 833,
         file: null
       });
     },
@@ -1234,9 +1228,9 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
       return C139 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "filterQuality",
+        name: "frameBuilder",
         column: 23,
-        line: 821,
+        line: 834,
         file: null
       });
     },
@@ -1244,9 +1238,9 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
       return C140 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "alignment",
+        name: "width",
         column: 23,
-        line: 823,
+        line: 852,
         file: null
       });
     },
@@ -1254,9 +1248,9 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
       return C141 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "colorBlendMode",
+        name: "height",
         column: 23,
-        line: 824,
+        line: 853,
         file: null
       });
     },
@@ -1264,9 +1258,9 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
       return C142 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "fit",
+        name: "scale",
         column: 23,
-        line: 825,
+        line: 854,
         file: null
       });
     },
@@ -1274,9 +1268,9 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
       return C143 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "color",
+        name: "matchTextDirection",
         column: 23,
-        line: 826,
+        line: 855,
         file: null
       });
     },
@@ -1284,9 +1278,9 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
       return C144 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "repeat",
+        name: "centerSlice",
         column: 23,
-        line: 827,
+        line: 857,
         file: null
       });
     },
@@ -1294,9 +1288,9 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
       return C145 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "semanticLabel",
+        name: "filterQuality",
         column: 23,
-        line: 828,
+        line: 858,
         file: null
       });
     },
@@ -1304,32 +1298,39 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
       return C146 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "excludeFromSemantics",
+        name: "alignment",
         column: 23,
-        line: 829,
+        line: 860,
         file: null
       });
     },
-    get C131() {
-      return C131 = dart.constList([C132 || CT.C132, C133 || CT.C133, C134 || CT.C134, C135 || CT.C135, C136 || CT.C136, C137 || CT.C137, C138 || CT.C138, C139 || CT.C139, C140 || CT.C140, C141 || CT.C141, C142 || CT.C142, C143 || CT.C143, C144 || CT.C144, C145 || CT.C145, C146 || CT.C146], widget_inspector._Location);
-    },
-    get C130() {
-      return C130 = dart.const({
+    get C147() {
+      return C147 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C131 || CT.C131,
-        name: null,
-        column: 34,
-        line: 795,
-        file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
+        parameterLocations: null,
+        name: "colorBlendMode",
+        column: 23,
+        line: 861,
+        file: null
+      });
+    },
+    get C148() {
+      return C148 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "fit",
+        column: 23,
+        line: 862,
+        file: null
       });
     },
     get C149() {
       return C149 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "child",
-        column: 21,
-        line: 795,
+        name: "color",
+        column: 23,
+        line: 863,
         file: null
       });
     },
@@ -1337,151 +1338,151 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
       return C150 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "onTap",
-        column: 21,
-        line: 834,
+        name: "repeat",
+        column: 23,
+        line: 864,
         file: null
       });
-    },
-    get C148() {
-      return C148 = dart.constList([C149 || CT.C149, C150 || CT.C150], widget_inspector._Location);
-    },
-    get C147() {
-      return C147 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C148 || CT.C148,
-        name: null,
-        column: 51,
-        line: 794,
-        file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
-      });
-    },
-    get C153() {
-      return C153 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "text",
-        column: 17,
-        line: 857,
-        file: null
-      });
-    },
-    get C152() {
-      return C152 = dart.constList([C153 || CT.C153], widget_inspector._Location);
     },
     get C151() {
       return C151 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C152 || CT.C152,
+        parameterLocations: null,
+        name: "semanticLabel",
+        column: 23,
+        line: 865,
+        file: null
+      });
+    },
+    get C152() {
+      return C152 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "excludeFromSemantics",
+        column: 23,
+        line: 866,
+        file: null
+      });
+    },
+    get C137() {
+      return C137 = dart.constList([C138 || CT.C138, C139 || CT.C139, C140 || CT.C140, C141 || CT.C141, C142 || CT.C142, C143 || CT.C143, C144 || CT.C144, C145 || CT.C145, C146 || CT.C146, C147 || CT.C147, C148 || CT.C148, C149 || CT.C149, C150 || CT.C150, C151 || CT.C151, C152 || CT.C152], widget_inspector._Location);
+    },
+    get C136() {
+      return C136 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C137 || CT.C137,
         name: null,
-        column: 22,
-        line: 856,
+        column: 34,
+        line: 832,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
+      });
+    },
+    get C155() {
+      return C155 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "child",
+        column: 21,
+        line: 832,
+        file: null
       });
     },
     get C156() {
       return C156 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "shrinkToFit",
-        column: 15,
-        line: 853,
+        name: "onTap",
+        column: 21,
+        line: 871,
         file: null
       });
     },
-    get C157() {
-      return C157 = dart.const({
+    get C154() {
+      return C154 = dart.constList([C155 || CT.C155, C156 || CT.C156], widget_inspector._Location);
+    },
+    get C153() {
+      return C153 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C154 || CT.C154,
+        name: null,
+        column: 51,
+        line: 831,
+        file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
+      });
+    },
+    get C159() {
+      return C159 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "margin",
-        column: 15,
-        line: 854,
+        name: "text",
+        column: 17,
+        line: 894,
         file: null
       });
     },
     get C158() {
-      return C158 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "child",
-        column: 15,
-        line: 856,
-        file: null
-      });
+      return C158 = dart.constList([C159 || CT.C159], widget_inspector._Location);
     },
-    get C155() {
-      return C155 = dart.constList([C156 || CT.C156, C157 || CT.C157, C158 || CT.C158], widget_inspector._Location);
-    },
-    get C154() {
-      return C154 = dart.const({
+    get C157() {
+      return C157 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C155 || CT.C155,
+        parameterLocations: C158 || CT.C158,
         name: null,
-        column: 35,
-        line: 852,
+        column: 22,
+        line: 893,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
-      });
-    },
-    get C161() {
-      return C161 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "textAlign",
-        column: 17,
-        line: 935,
-        file: null
       });
     },
     get C162() {
       return C162 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "text",
-        column: 17,
-        line: 936,
-        file: null
-      });
-    },
-    get C160() {
-      return C160 = dart.constList([C161 || CT.C161, C162 || CT.C162], widget_inspector._Location);
-    },
-    get C159() {
-      return C159 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C160 || CT.C160,
-        name: null,
-        column: 22,
-        line: 934,
-        file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
-      });
-    },
-    get C165() {
-      return C165 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
         name: "shrinkToFit",
         column: 15,
-        line: 924,
+        line: 890,
         file: null
       });
     },
-    get C166() {
-      return C166 = dart.const({
+    get C163() {
+      return C163 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "margin",
         column: 15,
-        line: 925,
+        line: 891,
         file: null
+      });
+    },
+    get C164() {
+      return C164 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "child",
+        column: 15,
+        line: 893,
+        file: null
+      });
+    },
+    get C161() {
+      return C161 = dart.constList([C162 || CT.C162, C163 || CT.C163, C164 || CT.C164], widget_inspector._Location);
+    },
+    get C160() {
+      return C160 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C161 || CT.C161,
+        name: null,
+        column: 35,
+        line: 889,
+        file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
     get C167() {
       return C167 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "padding",
-        column: 15,
-        line: 932,
+        name: "textAlign",
+        column: 17,
+        line: 973,
         file: null
       });
     },
@@ -1489,43 +1490,96 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
       return C168 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "decoration",
-        column: 15,
-        line: 933,
+        name: "text",
+        column: 17,
+        line: 974,
         file: null
       });
     },
-    get C169() {
-      return C169 = dart.const({
+    get C166() {
+      return C166 = dart.constList([C167 || CT.C167, C168 || CT.C168], widget_inspector._Location);
+    },
+    get C165() {
+      return C165 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C166 || CT.C166,
+        name: null,
+        column: 22,
+        line: 972,
+        file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
+      });
+    },
+    get C171() {
+      return C171 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "shrinkToFit",
+        column: 15,
+        line: 962,
+        file: null
+      });
+    },
+    get C172() {
+      return C172 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "margin",
+        column: 15,
+        line: 963,
+        file: null
+      });
+    },
+    get C173() {
+      return C173 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "padding",
+        column: 15,
+        line: 970,
+        file: null
+      });
+    },
+    get C174() {
+      return C174 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "decoration",
+        column: 15,
+        line: 971,
+        file: null
+      });
+    },
+    get C175() {
+      return C175 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "child",
         column: 15,
-        line: 934,
+        line: 972,
         file: null
       });
     },
-    get C164() {
-      return C164 = dart.constList([C165 || CT.C165, C166 || CT.C166, C167 || CT.C167, C168 || CT.C168, C169 || CT.C169], widget_inspector._Location);
+    get C170() {
+      return C170 = dart.constList([C171 || CT.C171, C172 || CT.C172, C173 || CT.C173, C174 || CT.C174, C175 || CT.C175], widget_inspector._Location);
     },
-    get C163() {
-      return C163 = dart.const({
+    get C169() {
+      return C169 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C164 || CT.C164,
+        parameterLocations: C170 || CT.C170,
         name: null,
         column: 35,
-        line: 923,
+        line: 961,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
-    get C170() {
-      return C170 = dart.constList(["b", "i", "address", "cite", "var", "em", "strong", "kbd", "samp", "tt", "code", "ins", "u", "small", "abbr", "acronym", "mark", "ol", "ul", "blockquote", "del", "s", "strike", "ruby", "rp", "rt", "bdi", "data", "time", "span", "big", "sub"], core.String);
+    get C176() {
+      return C176 = dart.constList(["b", "i", "address", "cite", "var", "em", "strong", "kbd", "samp", "tt", "code", "ins", "u", "small", "abbr", "acronym", "mark", "ol", "ul", "blockquote", "del", "s", "strike", "ruby", "rp", "rt", "bdi", "data", "time", "span", "big", "sub"], core.String);
     },
-    get C171() {
-      return C171 = dart.constList(["a", "br", "table", "tbody", "caption", "td", "tfoot", "th", "thead", "tr", "q"], core.String);
+    get C177() {
+      return C177 = dart.constList(["a", "br", "table", "tbody", "caption", "td", "tfoot", "th", "thead", "tr", "q"], core.String);
     },
-    get C172() {
-      return C172 = dart.constList(["article", "aside", "body", "center", "dd", "dfn", "div", "dl", "dt", "figcaption", "figure", "footer", "h1", "h2", "h3", "h4", "h5", "h6", "header", "hr", "img", "li", "main", "nav", "noscript", "p", "pre", "section"], core.String);
+    get C178() {
+      return C178 = dart.constList(["article", "aside", "body", "center", "dd", "dfn", "div", "dl", "dt", "figcaption", "figure", "footer", "h1", "h2", "h3", "h4", "h5", "h6", "header", "hr", "img", "li", "main", "nav", "noscript", "p", "pre", "section", "flutter_widget"], core.String);
     }
   });
   rich_text_parser.LinkTextSpan = class LinkTextSpan extends text_span.TextSpan {
@@ -1730,6 +1784,12 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
     set childStyle(value) {
       this[childStyle$] = value;
     }
+    get routes() {
+      return this[routes$];
+    }
+    set routes(value) {
+      this[routes$] = value;
+    }
   };
   (rich_text_parser.ParseContext.new = function(opts) {
     let t0;
@@ -1743,6 +1803,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
     let spansOnly = opts && 'spansOnly' in opts ? opts.spansOnly : false;
     let inBlock = opts && 'inBlock' in opts ? opts.inBlock : false;
     let childStyle = opts && 'childStyle' in opts ? opts.childStyle : null;
+    let routes = opts && 'routes' in opts ? opts.routes : null;
     this[indentLevel$] = 0;
     this[listCount$] = 0;
     this[listChar$] = "•";
@@ -1759,6 +1820,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
     this[spansOnly$] = spansOnly;
     this[inBlock$] = inBlock;
     this[childStyle$] = childStyle;
+    this[routes$] = routes;
     this.childStyle = (t0 = this.childStyle, t0 == null ? new text_style.TextStyle.new() : t0);
   }).prototype = rich_text_parser.ParseContext.prototype;
   (rich_text_parser.ParseContext.fromContext = function(parseContext) {
@@ -1769,6 +1831,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
     this[condenseWhitespace$] = true;
     this[spansOnly$] = false;
     this[inBlock$] = false;
+    this[routes$] = null;
     this[childStyle$] = null;
     this[blockType$] = null;
     this[parentElement$] = null;
@@ -1783,6 +1846,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
     this.spansOnly = parseContext.spansOnly;
     this.inBlock = parseContext.inBlock;
     this.childStyle = (t0 = parseContext.childStyle, t0 == null ? new text_style.TextStyle.new() : t0);
+    this.routes = parseContext.routes;
   }).prototype = rich_text_parser.ParseContext.prototype;
   dart.addTypeTests(rich_text_parser.ParseContext);
   const rootWidgetList$ = Symbol("ParseContext.rootWidgetList");
@@ -1795,6 +1859,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
   const spansOnly$ = Symbol("ParseContext.spansOnly");
   const inBlock$ = Symbol("ParseContext.inBlock");
   const childStyle$ = Symbol("ParseContext.childStyle");
+  const routes$ = Symbol("ParseContext.routes");
   dart.setLibraryUri(rich_text_parser.ParseContext, "package:flutter_html/rich_text_parser.dart");
   dart.setFieldSignature(rich_text_parser.ParseContext, () => ({
     __proto__: dart.getFields(rich_text_parser.ParseContext.__proto__),
@@ -1807,7 +1872,8 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
     condenseWhitespace: dart.fieldType(core.bool),
     spansOnly: dart.fieldType(core.bool),
     inBlock: dart.fieldType(core.bool),
-    childStyle: dart.fieldType(text_style.TextStyle)
+    childStyle: dart.fieldType(text_style.TextStyle),
+    routes: dart.fieldType(core.Map$(core.String, dart.fnType(framework.Widget, [framework.BuildContext])))
   }));
   const _value = dart.privateName(ui, "_value");
   let C17;
@@ -1902,13 +1968,13 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
   let C99;
   let C97;
   let C96;
-  let C102;
-  let C103;
+  let C101;
+  let C100;
   let C104;
   let C105;
   let C106;
-  let C107;
-  let C108;
+  let C103;
+  let C102;
   let C109;
   let C110;
   let C111;
@@ -1916,28 +1982,28 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
   let C113;
   let C114;
   let C115;
-  let C101;
-  let C100;
+  let C116;
+  let C117;
   let C118;
   let C119;
-  let C117;
-  let C116;
-  let C122;
-  let C123;
-  let C121;
   let C120;
-  let C126;
-  let C127;
+  let C121;
+  let C122;
+  let C108;
+  let C107;
   let C125;
+  let C126;
   let C124;
+  let C123;
   let C129;
+  let C130;
   let C128;
-  let C132;
+  let C127;
   let C133;
   let C134;
+  let C132;
+  let C131;
   let C135;
-  let C136;
-  let C137;
   let C138;
   let C139;
   let C140;
@@ -1947,34 +2013,40 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
   let C144;
   let C145;
   let C146;
-  let C131;
-  let C130;
+  let C147;
+  let C148;
   let C149;
   let C150;
-  let C148;
-  let C147;
-  let C153;
-  let C152;
   let C151;
-  let C156;
-  let C157;
-  let C158;
+  let C152;
+  let C137;
+  let C136;
   let C155;
+  let C156;
   let C154;
-  let C161;
-  let C162;
-  let C160;
+  let C153;
   let C159;
-  let C165;
-  let C166;
+  let C158;
+  let C157;
+  let C162;
+  let C163;
+  let C164;
+  let C161;
+  let C160;
   let C167;
   let C168;
-  let C169;
-  let C164;
-  let C163;
-  let C170;
+  let C166;
+  let C165;
   let C171;
   let C172;
+  let C173;
+  let C174;
+  let C175;
+  let C170;
+  let C169;
+  let C176;
+  let C177;
+  let C178;
   rich_text_parser.HtmlRichTextParser = class HtmlRichTextParser extends framework.StatelessWidget {
     get indentSize() {
       return this[indentSize];
@@ -2054,6 +2126,12 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
     set showImages(value) {
       super.showImages = value;
     }
+    get routes() {
+      return this[routes$0];
+    }
+    set routes(value) {
+      super.routes = value;
+    }
     static get _supportedElements() {
       let t0;
       t0 = [];
@@ -2081,7 +2159,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
       let document = parser.parse(data);
       let body = document.body;
       let widgetList = JSArrayOfWidget().of([]);
-      let parseContext = new rich_text_parser.ParseContext.new({rootWidgetList: widgetList, childStyle: text$.DefaultTextStyle.of(context).style});
+      let parseContext = new rich_text_parser.ParseContext.new({rootWidgetList: widgetList, childStyle: text$.DefaultTextStyle.of(context).style, routes: this.routes});
       this[_parseNode](body, parseContext, context);
       let children = JSArrayOfWidget().of([]);
       widgetList[$forEach](dart.fn(w => {
@@ -2099,7 +2177,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
       return new basic.Column.new({children: children, $creationLocationd_0dea112b090073317d4: C22 || CT.C22});
     }
     [_parseNode](node, parseContext, buildContext) {
-      let t0, t0$, t0$0, t0$1, t0$2, t0$3, t0$4, t0$5, t0$6, t0$7, t0$8, t0$9, t0$10, t0$11, t0$12, t0$13, t0$14, t0$15, t0$16, t0$17, t0$18, t0$19, t0$20, t0$21, t0$22, t0$23, t0$24, t0$25, t0$26, t0$27, t0$28, t0$29, t0$30, t0$31, t0$32, t0$33, t0$34, t0$35, t0$36, t0$37, t0$38, t0$39, t0$40, t0$41, t0$42, t0$43, t0$44, t0$45, t0$46, t0$47, t0$48, t0$49;
+      let t0, t0$, t0$0, t0$1, t0$2, t0$3, t0$4, t0$5, t0$6, t0$7, t0$8, t0$9, t0$10, t0$11, t0$12, t0$13, t0$14, t0$15, t0$16, t0$17, t0$18, t0$19, t0$20, t0$21, t0$22, t0$23, t0$24, t0$25, t0$26, t0$27, t0$28, t0$29, t0$30, t0$31, t0$32, t0$33, t0$34, t0$35, t0$36, t0$37, t0$38, t0$39, t0$40, t0$41, t0$42, t0$43, t0$44, t0$45, t0$46, t0$47, t0$48, t0$49, t0$50, t0$51, t0$52, t0$53;
       if (dom.Text.is(node)) {
         if (node.text[$trim]() === "" && node.text[$indexOf](" ") === -1) {
           return;
@@ -2367,36 +2445,56 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
                   parseContext.rootWidgetList[$add](new divider.Divider.new({height: 1.0, color: colors$.Colors.black38, $creationLocationd_0dea112b090073317d4: C96 || CT.C96}));
                   break SL0;
                 }
+                case "flutter_widget":
+                {
+                  let width = (t0$7 = (t0$6 = this.imageProperties, t0$6 == null ? null : t0$6.width), t0$7 == null ? node.attributes[$_get]("width") != null ? core.double.tryParse(node.attributes[$_get]("width")) : null : t0$7);
+                  let height = (t0$9 = (t0$8 = this.imageProperties, t0$8 == null ? null : t0$8.height), t0$9 == null ? node.attributes[$_get]("height") != null ? core.double.tryParse(node.attributes[$_get]("height")) : null : t0$9);
+                  let _child = null;
+                  if (node.attributes[$_get]("src") != null) {
+                    let _routes = parseContext.routes;
+                    if (_routes != null) {
+                      let _widget = _routes[$_get](node.attributes[$_get]("src"));
+                      if (_widget != null) {
+                        _child = _widget(buildContext);
+                      }
+                    }
+                    if (_child == null) {
+                      _child = new placeholder.Placeholder.new({$creationLocationd_0dea112b090073317d4: C100 || CT.C100});
+                    }
+                  }
+                  parseContext.rootWidgetList[$add](new container.Container.new({width: width, height: height, child: _child, $creationLocationd_0dea112b090073317d4: C102 || CT.C102}));
+                  break SL0;
+                }
                 case "img":
                 {
                   if (dart.test(this.showImages)) {
                     if (node.attributes[$_get]("src") != null) {
-                      let width = (t0$7 = (t0$6 = this.imageProperties, t0$6 == null ? null : t0$6.width), t0$7 == null ? node.attributes[$_get]("width") != null ? core.double.tryParse(node.attributes[$_get]("width")) : null : t0$7);
-                      let height = (t0$9 = (t0$8 = this.imageProperties, t0$8 == null ? null : t0$8.height), t0$9 == null ? node.attributes[$_get]("height") != null ? core.double.tryParse(node.attributes[$_get]("height")) : null : t0$9);
+                      let width = (t0$11 = (t0$10 = this.imageProperties, t0$10 == null ? null : t0$10.width), t0$11 == null ? node.attributes[$_get]("width") != null ? core.double.tryParse(node.attributes[$_get]("width")) : null : t0$11);
+                      let height = (t0$13 = (t0$12 = this.imageProperties, t0$12 == null ? null : t0$12.height), t0$13 == null ? node.attributes[$_get]("height") != null ? core.double.tryParse(node.attributes[$_get]("height")) : null : t0$13);
                       if (node.attributes[$_get]("src")[$startsWith]("data:image") && node.attributes[$_get]("src")[$contains]("base64,")) {
-                        image.precacheImage(new image_provider.MemoryImage.new(convert.base64.decode(node.attributes[$_get]("src")[$split]("base64,")[$_get](1)[$trim]())), buildContext, {onError: (t0$10 = this.onImageError, t0$10 == null ? dart.fn((_, __) => {
-                          }, dynamicAndStackTraceToNull()) : t0$10)});
-                        parseContext.rootWidgetList[$add](new gesture_detector.GestureDetector.new({child: new image.Image.memory(convert.base64.decode(node.attributes[$_get]("src")[$split]("base64,")[$_get](1)[$trim]()), {width: dart.notNull((t0$11 = width, t0$11 == null ? -1.0 : t0$11)) > 0 ? width : null, height: dart.notNull((t0$12 = height, t0$12 == null ? -1.0 : t0$12)) > 0 ? width : null, scale: (t0$14 = (t0$13 = this.imageProperties, t0$13 == null ? null : t0$13.scale), t0$14 == null ? 1.0 : t0$14), matchTextDirection: (t0$16 = (t0$15 = this.imageProperties, t0$15 == null ? null : t0$15.matchTextDirection), t0$16 == null ? false : t0$16), centerSlice: (t0$17 = this.imageProperties, t0$17 == null ? null : t0$17.centerSlice), filterQuality: (t0$19 = (t0$18 = this.imageProperties, t0$18 == null ? null : t0$18.filterQuality), t0$19 == null ? ui.FilterQuality.low : t0$19), alignment: (t0$21 = (t0$20 = this.imageProperties, t0$20 == null ? null : t0$20.alignment), t0$21 == null ? alignment.Alignment.center : t0$21), colorBlendMode: (t0$22 = this.imageProperties, t0$22 == null ? null : t0$22.colorBlendMode), fit: (t0$23 = this.imageProperties, t0$23 == null ? null : t0$23.fit), color: (t0$24 = this.imageProperties, t0$24 == null ? null : t0$24.color), repeat: (t0$26 = (t0$25 = this.imageProperties, t0$25 == null ? null : t0$25.repeat), t0$26 == null ? decoration_image.ImageRepeat.noRepeat : t0$26), semanticLabel: (t0$27 = this.imageProperties, t0$27 == null ? null : t0$27.semanticLabel), excludeFromSemantics: (t0$28 = this.imageProperties, t0$28 == null ? null : t0$28.semanticLabel) == null ? true : false, $creationLocationd_0dea112b090073317d4: C100 || CT.C100}), onTap: dart.fn(() => {
+                        image.precacheImage(new image_provider.MemoryImage.new(convert.base64.decode(node.attributes[$_get]("src")[$split]("base64,")[$_get](1)[$trim]())), buildContext, {onError: (t0$14 = this.onImageError, t0$14 == null ? dart.fn((_, __) => {
+                          }, dynamicAndStackTraceToNull()) : t0$14)});
+                        parseContext.rootWidgetList[$add](new gesture_detector.GestureDetector.new({child: new image.Image.memory(convert.base64.decode(node.attributes[$_get]("src")[$split]("base64,")[$_get](1)[$trim]()), {width: dart.notNull((t0$15 = width, t0$15 == null ? -1.0 : t0$15)) > 0 ? width : null, height: dart.notNull((t0$16 = height, t0$16 == null ? -1.0 : t0$16)) > 0 ? width : null, scale: (t0$18 = (t0$17 = this.imageProperties, t0$17 == null ? null : t0$17.scale), t0$18 == null ? 1.0 : t0$18), matchTextDirection: (t0$20 = (t0$19 = this.imageProperties, t0$19 == null ? null : t0$19.matchTextDirection), t0$20 == null ? false : t0$20), centerSlice: (t0$21 = this.imageProperties, t0$21 == null ? null : t0$21.centerSlice), filterQuality: (t0$23 = (t0$22 = this.imageProperties, t0$22 == null ? null : t0$22.filterQuality), t0$23 == null ? ui.FilterQuality.low : t0$23), alignment: (t0$25 = (t0$24 = this.imageProperties, t0$24 == null ? null : t0$24.alignment), t0$25 == null ? alignment.Alignment.center : t0$25), colorBlendMode: (t0$26 = this.imageProperties, t0$26 == null ? null : t0$26.colorBlendMode), fit: (t0$27 = this.imageProperties, t0$27 == null ? null : t0$27.fit), color: (t0$28 = this.imageProperties, t0$28 == null ? null : t0$28.color), repeat: (t0$30 = (t0$29 = this.imageProperties, t0$29 == null ? null : t0$29.repeat), t0$30 == null ? decoration_image.ImageRepeat.noRepeat : t0$30), semanticLabel: (t0$31 = this.imageProperties, t0$31 == null ? null : t0$31.semanticLabel), excludeFromSemantics: (t0$32 = this.imageProperties, t0$32 == null ? null : t0$32.semanticLabel) == null ? true : false, $creationLocationd_0dea112b090073317d4: C107 || CT.C107}), onTap: dart.fn(() => {
                             if (this.onImageTap != null) {
                               this.onImageTap(node.attributes[$_get]("src"));
                             }
-                          }, VoidToNull()), $creationLocationd_0dea112b090073317d4: C116 || CT.C116}));
+                          }, VoidToNull()), $creationLocationd_0dea112b090073317d4: C123 || CT.C123}));
                       } else {
-                        image.precacheImage(new _network_image_web.NetworkImage.new(node.attributes[$_get]("src")), buildContext, {onError: (t0$29 = this.onImageError, t0$29 == null ? dart.fn((_, __) => {
-                          }, dynamicAndStackTraceToNull()) : t0$29)});
+                        image.precacheImage(new _network_image_web.NetworkImage.new(node.attributes[$_get]("src")), buildContext, {onError: (t0$33 = this.onImageError, t0$33 == null ? dart.fn((_, __) => {
+                          }, dynamicAndStackTraceToNull()) : t0$33)});
                         parseContext.rootWidgetList[$add](new gesture_detector.GestureDetector.new({child: new image.Image.network(node.attributes[$_get]("src"), {frameBuilder: dart.fn((context, child, frame, _) => {
                               if (node.attributes[$_get]("alt") != null && frame == null) {
-                                return new rich_text_parser.BlockText.new({child: new basic.RichText.new({textAlign: ui.TextAlign.center, text: new text_span.TextSpan.new({text: node.attributes[$_get]("alt"), style: nextContext.childStyle}), $creationLocationd_0dea112b090073317d4: C120 || CT.C120}), shrinkToFit: this.shrinkToFit, $creationLocationd_0dea112b090073317d4: C124 || CT.C124});
+                                return new rich_text_parser.BlockText.new({child: new basic.RichText.new({textAlign: ui.TextAlign.center, text: new text_span.TextSpan.new({text: node.attributes[$_get]("alt"), style: nextContext.childStyle}), $creationLocationd_0dea112b090073317d4: C127 || CT.C127}), shrinkToFit: this.shrinkToFit, $creationLocationd_0dea112b090073317d4: C131 || CT.C131});
                               }
                               if (frame != null) {
                                 return child;
                               }
-                              return new container.Container.new({$creationLocationd_0dea112b090073317d4: C128 || CT.C128});
-                            }, BuildContextAndWidgetAndint__ToWidget()), width: dart.notNull((t0$30 = width, t0$30 == null ? -1.0 : t0$30)) > 0 ? width : null, height: dart.notNull((t0$31 = height, t0$31 == null ? -1.0 : t0$31)) > 0 ? height : null, scale: (t0$33 = (t0$32 = this.imageProperties, t0$32 == null ? null : t0$32.scale), t0$33 == null ? 1.0 : t0$33), matchTextDirection: (t0$35 = (t0$34 = this.imageProperties, t0$34 == null ? null : t0$34.matchTextDirection), t0$35 == null ? false : t0$35), centerSlice: (t0$36 = this.imageProperties, t0$36 == null ? null : t0$36.centerSlice), filterQuality: (t0$38 = (t0$37 = this.imageProperties, t0$37 == null ? null : t0$37.filterQuality), t0$38 == null ? ui.FilterQuality.low : t0$38), alignment: (t0$40 = (t0$39 = this.imageProperties, t0$39 == null ? null : t0$39.alignment), t0$40 == null ? alignment.Alignment.center : t0$40), colorBlendMode: (t0$41 = this.imageProperties, t0$41 == null ? null : t0$41.colorBlendMode), fit: (t0$42 = this.imageProperties, t0$42 == null ? null : t0$42.fit), color: (t0$43 = this.imageProperties, t0$43 == null ? null : t0$43.color), repeat: (t0$45 = (t0$44 = this.imageProperties, t0$44 == null ? null : t0$44.repeat), t0$45 == null ? decoration_image.ImageRepeat.noRepeat : t0$45), semanticLabel: (t0$46 = this.imageProperties, t0$46 == null ? null : t0$46.semanticLabel), excludeFromSemantics: (t0$47 = this.imageProperties, t0$47 == null ? null : t0$47.semanticLabel) == null ? true : false, $creationLocationd_0dea112b090073317d4: C130 || CT.C130}), onTap: dart.fn(() => {
+                              return new container.Container.new({$creationLocationd_0dea112b090073317d4: C135 || CT.C135});
+                            }, BuildContextAndWidgetAndint__ToWidget()), width: dart.notNull((t0$34 = width, t0$34 == null ? -1.0 : t0$34)) > 0 ? width : null, height: dart.notNull((t0$35 = height, t0$35 == null ? -1.0 : t0$35)) > 0 ? height : null, scale: (t0$37 = (t0$36 = this.imageProperties, t0$36 == null ? null : t0$36.scale), t0$37 == null ? 1.0 : t0$37), matchTextDirection: (t0$39 = (t0$38 = this.imageProperties, t0$38 == null ? null : t0$38.matchTextDirection), t0$39 == null ? false : t0$39), centerSlice: (t0$40 = this.imageProperties, t0$40 == null ? null : t0$40.centerSlice), filterQuality: (t0$42 = (t0$41 = this.imageProperties, t0$41 == null ? null : t0$41.filterQuality), t0$42 == null ? ui.FilterQuality.low : t0$42), alignment: (t0$44 = (t0$43 = this.imageProperties, t0$43 == null ? null : t0$43.alignment), t0$44 == null ? alignment.Alignment.center : t0$44), colorBlendMode: (t0$45 = this.imageProperties, t0$45 == null ? null : t0$45.colorBlendMode), fit: (t0$46 = this.imageProperties, t0$46 == null ? null : t0$46.fit), color: (t0$47 = this.imageProperties, t0$47 == null ? null : t0$47.color), repeat: (t0$49 = (t0$48 = this.imageProperties, t0$48 == null ? null : t0$48.repeat), t0$49 == null ? decoration_image.ImageRepeat.noRepeat : t0$49), semanticLabel: (t0$50 = this.imageProperties, t0$50 == null ? null : t0$50.semanticLabel), excludeFromSemantics: (t0$51 = this.imageProperties, t0$51 == null ? null : t0$51.semanticLabel) == null ? true : false, $creationLocationd_0dea112b090073317d4: C136 || CT.C136}), onTap: dart.fn(() => {
                             if (this.onImageTap != null) {
                               this.onImageTap(node.attributes[$_get]("src"));
                             }
-                          }, VoidToNull()), $creationLocationd_0dea112b090073317d4: C147 || CT.C147}));
+                          }, VoidToNull()), $creationLocationd_0dea112b090073317d4: C153 || CT.C153}));
                       }
                     }
                   }
@@ -2406,11 +2504,11 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
                 {
                   let leadingChar = parseContext.listChar;
                   if (parseContext.blockType === "ol") {
-                    t0$48 = parseContext;
-                    t0$48.listCount = dart.notNull(t0$48.listCount) + 1;
+                    t0$52 = parseContext;
+                    t0$52.listCount = dart.notNull(t0$52.listCount) + 1;
                     leadingChar = dart.toString(parseContext.listCount) + ".";
                   }
-                  let blockText = new rich_text_parser.BlockText.new({shrinkToFit: this.shrinkToFit, margin: new edge_insets.EdgeInsets.only({left: dart.notNull(parseContext.indentLevel) * dart.notNull(this.indentSize), top: 3.0}), child: new basic.RichText.new({text: new text_span.TextSpan.new({text: dart.str(leadingChar) + "  ", style: text$.DefaultTextStyle.of(buildContext).style, children: JSArrayOfTextSpan().of([new text_span.TextSpan.new({text: "", style: nextContext.childStyle})])}), $creationLocationd_0dea112b090073317d4: C151 || CT.C151}), $creationLocationd_0dea112b090073317d4: C154 || CT.C154});
+                  let blockText = new rich_text_parser.BlockText.new({shrinkToFit: this.shrinkToFit, margin: new edge_insets.EdgeInsets.only({left: dart.notNull(parseContext.indentLevel) * dart.notNull(this.indentSize), top: 3.0}), child: new basic.RichText.new({text: new text_span.TextSpan.new({text: dart.str(leadingChar) + "  ", style: text$.DefaultTextStyle.of(buildContext).style, children: JSArrayOfTextSpan().of([new text_span.TextSpan.new({text: "", style: nextContext.childStyle})])}), $creationLocationd_0dea112b090073317d4: C157 || CT.C157}), $creationLocationd_0dea112b090073317d4: C160 || CT.C160});
                   parseContext.rootWidgetList[$add](blockText);
                   nextContext.parentElement = blockText.child.text;
                   nextContext.spansOnly = true;
@@ -2472,7 +2570,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
                     decoration = new box_decoration.BoxDecoration.new({border: new box_border.Border.new({left: new borders.BorderSide.new({color: colors$.Colors.black38, width: 2.0})})});
                     nextContext.childStyle = nextContext.childStyle.merge(new text_style.TextStyle.new({fontStyle: ui.FontStyle.italic}));
                   }
-                  let blockText = new rich_text_parser.BlockText.new({shrinkToFit: this.shrinkToFit, margin: node.localName !== "body" ? (t0$49 = _customEdgeInsets, t0$49 == null ? new edge_insets.EdgeInsets.only({top: 8.0, bottom: 8.0, left: dart.notNull(parseContext.indentLevel) * dart.notNull(this.indentSize)}) : t0$49) : edge_insets.EdgeInsets.zero, padding: new edge_insets.EdgeInsets.all(2.0), decoration: decoration, child: new basic.RichText.new({textAlign: textAlign, text: new text_span.TextSpan.new({text: "", style: nextContext.childStyle, children: JSArrayOfTextSpan().of([])}), $creationLocationd_0dea112b090073317d4: C159 || CT.C159}), $creationLocationd_0dea112b090073317d4: C163 || CT.C163});
+                  let blockText = new rich_text_parser.BlockText.new({shrinkToFit: this.shrinkToFit, margin: node.localName !== "body" ? (t0$53 = _customEdgeInsets, t0$53 == null ? new edge_insets.EdgeInsets.only({top: 8.0, bottom: 8.0, left: dart.notNull(parseContext.indentLevel) * dart.notNull(this.indentSize)}) : t0$53) : edge_insets.EdgeInsets.zero, padding: new edge_insets.EdgeInsets.all(2.0), decoration: decoration, child: new basic.RichText.new({textAlign: textAlign, text: new text_span.TextSpan.new({text: "", style: nextContext.childStyle, children: JSArrayOfTextSpan().of([])}), $creationLocationd_0dea112b090073317d4: C165 || CT.C165}), $creationLocationd_0dea112b090073317d4: C169 || CT.C169});
                   parseContext.rootWidgetList[$add](blockText);
                   nextContext.parentElement = blockText.child.text;
                   nextContext.spansOnly = true;
@@ -2503,6 +2601,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
     }
   };
   (rich_text_parser.HtmlRichTextParser.new = function(opts) {
+    let routes = opts && 'routes' in opts ? opts.routes : null;
     let shrinkToFit = opts && 'shrinkToFit' in opts ? opts.shrinkToFit : null;
     let onLinkTap = opts && 'onLinkTap' in opts ? opts.onLinkTap : null;
     let renderNewlines = opts && 'renderNewlines' in opts ? opts.renderNewlines : false;
@@ -2517,6 +2616,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
     let showImages = opts && 'showImages' in opts ? opts.showImages : true;
     let $creationLocationd_0dea112b090073317d4 = opts && '$creationLocationd_0dea112b090073317d4' in opts ? opts.$creationLocationd_0dea112b090073317d4 : null;
     this[indentSize] = 10.0;
+    this[routes$0] = routes;
     this[shrinkToFit$0] = shrinkToFit;
     this[onLinkTap$] = onLinkTap;
     this[renderNewlines$] = renderNewlines;
@@ -2546,6 +2646,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
   const imageProperties$ = Symbol("HtmlRichTextParser.imageProperties");
   const onImageTap$ = Symbol("HtmlRichTextParser.onImageTap");
   const showImages$ = Symbol("HtmlRichTextParser.showImages");
+  const routes$0 = Symbol("HtmlRichTextParser.routes");
   dart.setMethodSignature(rich_text_parser.HtmlRichTextParser, () => ({
     __proto__: dart.getMethods(rich_text_parser.HtmlRichTextParser.__proto__),
     [_hasBlockChild]: dart.fnType(core.bool, [dom.Node], {ignoreSelf: core.bool}),
@@ -2568,17 +2669,18 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
     linkStyle: dart.finalFieldType(text_style.TextStyle),
     imageProperties: dart.finalFieldType(image_properties.ImageProperties),
     onImageTap: dart.finalFieldType(dart.fnType(dart.void, [core.String])),
-    showImages: dart.finalFieldType(core.bool)
+    showImages: dart.finalFieldType(core.bool),
+    routes: dart.finalFieldType(core.Map$(core.String, dart.fnType(framework.Widget, [framework.BuildContext])))
   }));
   dart.defineLazy(rich_text_parser.HtmlRichTextParser, {
     /*rich_text_parser.HtmlRichTextParser._supportedStyleElements*/get _supportedStyleElements() {
-      return C170 || CT.C170;
+      return C176 || CT.C176;
     },
     /*rich_text_parser.HtmlRichTextParser._supportedSpecialtyElements*/get _supportedSpecialtyElements() {
-      return C171 || CT.C171;
+      return C177 || CT.C177;
     },
     /*rich_text_parser.HtmlRichTextParser._supportedBlockElements*/get _supportedBlockElements() {
-      return C172 || CT.C172;
+      return C178 || CT.C178;
     }
   });
   dart.defineLazy(rich_text_parser, {
@@ -2589,7 +2691,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
   dart.trackLibraries("packages/flutter_html/rich_text_parser", {
     "package:flutter_html/rich_text_parser.dart": rich_text_parser
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["rich_text_parser.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;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","file":"rich_text_parser.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["rich_text_parser.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;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","file":"rich_text_parser.ddc.js"}');
   // Exports:
   return {
     rich_text_parser: rich_text_parser

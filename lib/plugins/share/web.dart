@@ -4,10 +4,17 @@ class ShareUtils {
   ShareUtils._();
 
   static void share({String title, String url, String text}) {
-    html.window.navigator.share({
-      title: title,
-      if (text != null) text: text,
-      if (url != null) url: url,
-    });
+    final _data = <String, dynamic>{
+      'title': title,
+    };
+    if (text != null) {
+      _data['text'] = text;
+    }
+    if (url != null) {
+      _data['url'] = url;
+    }
+    if (html.window.navigator.share != null) {
+      html.window.navigator.share(_data);
+    }
   }
 }
