@@ -2,9 +2,11 @@ import 'dart:convert';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:personal_website/data/classes/app.dart';
 
 import '../data/blocs/blocs.dart';
 import '../data/classes/index.dart';
+import 'apps/details.dart';
 import 'apps/screen.dart';
 import 'blog/edit_post.dart';
 import 'blog/post.dart';
@@ -35,7 +37,10 @@ class Router {
               id: post.documentId,
               post: FbPost.fromJson(json.decode(json.encode(post.data)))),
         },
-      }
+      },
+      for (var app in allApps) ...{
+        app.routeName: (_) => AppDetails(appView: app),
+      },
     };
   }
 }

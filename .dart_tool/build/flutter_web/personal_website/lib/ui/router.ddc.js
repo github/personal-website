@@ -1,4 +1,4 @@
-define(['dart_sdk', 'packages/flutter/material', 'packages/personal_website/ui/apps/screen', 'packages/flutter/src/widgets/actions', 'packages/personal_website/ui/blog/edit_post', 'packages/personal_website/data/blocs/blog/blog_state', 'packages/personal_website/data/classes/fb_post'], function(dart_sdk, packages__flutter__material, packages__personal_website__ui__apps__screen, packages__flutter__src__widgets__actions, packages__personal_website__ui__blog__edit_post, packages__personal_website__data__blocs__blog__blog_state, packages__personal_website__data__classes__fb_post) {
+define(['dart_sdk', 'packages/flutter/material', 'packages/personal_website/ui/apps/screen', 'packages/flutter/src/widgets/actions', 'packages/personal_website/ui/blog/edit_post', 'packages/personal_website/data/blocs/blog/blog_state', 'packages/personal_website/data/classes/fb_post', 'packages/personal_website/data/classes/app', 'packages/personal_website/ui/apps/details'], function(dart_sdk, packages__flutter__material, packages__personal_website__ui__apps__screen, packages__flutter__src__widgets__actions, packages__personal_website__ui__blog__edit_post, packages__personal_website__data__blocs__blog__blog_state, packages__personal_website__data__classes__fb_post, packages__personal_website__data__classes__app, packages__personal_website__ui__apps__details) {
   'use strict';
   const core = dart_sdk.core;
   const _js_helper = dart_sdk._js_helper;
@@ -21,6 +21,8 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/personal_website/ui/a
   const edit_post = packages__personal_website__ui__blog__edit_post.ui__blog__edit_post;
   const blog_state = packages__personal_website__data__blocs__blog__blog_state.data__blocs__blog__blog_state;
   const fb_post = packages__personal_website__data__classes__fb_post.data__classes__fb_post;
+  const app$ = packages__personal_website__data__classes__app.data__classes__app;
+  const details = packages__personal_website__ui__apps__details.ui__apps__details;
   const router = Object.create(dart.library);
   const $_set = dartx._set;
   const $entries = dartx.entries;
@@ -35,6 +37,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/personal_website/ui/a
   let BuildContextToEditPostScreen = () => (BuildContextToEditPostScreen = dart.constFn(dart.fnType(edit_post.EditPostScreen, [framework.BuildContext])))();
   let MapOfString$dynamic = () => (MapOfString$dynamic = dart.constFn(core.Map$(core.String, dart.dynamic)))();
   let BuildContextToPostDetails = () => (BuildContextToPostDetails = dart.constFn(dart.fnType(post$.PostDetails, [framework.BuildContext])))();
+  let BuildContextToAppDetails = () => (BuildContextToAppDetails = dart.constFn(dart.fnType(details.AppDetails, [framework.BuildContext])))();
   const CT = Object.create(null);
   dart.defineLazy(CT, {
     get C1() {
@@ -46,7 +49,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/personal_website/ui/a
         parameterLocations: C1 || CT.C1,
         name: null,
         column: 25,
-        line: 20,
+        line: 22,
         file: "org-dartlang-app:///packages/personal_website/ui/router.dart"
       });
     },
@@ -56,7 +59,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/personal_website/ui/a
         parameterLocations: C1 || CT.C1,
         name: null,
         column: 36,
-        line: 25,
+        line: 27,
         file: "org-dartlang-app:///packages/personal_website/ui/router.dart"
       });
     },
@@ -66,7 +69,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/personal_website/ui/a
         parameterLocations: C1 || CT.C1,
         name: null,
         column: 37,
-        line: 26,
+        line: 28,
         file: "org-dartlang-app:///packages/personal_website/ui/router.dart"
       });
     },
@@ -76,7 +79,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/personal_website/ui/a
         parameterLocations: C1 || CT.C1,
         name: null,
         column: 39,
-        line: 27,
+        line: 29,
         file: "org-dartlang-app:///packages/personal_website/ui/router.dart"
       });
     },
@@ -86,7 +89,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/personal_website/ui/a
         parameterLocations: C1 || CT.C1,
         name: null,
         column: 36,
-        line: 28,
+        line: 30,
         file: "org-dartlang-app:///packages/personal_website/ui/router.dart"
       });
     },
@@ -96,7 +99,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/personal_website/ui/a
         parameterLocations: C1 || CT.C1,
         name: null,
         column: 36,
-        line: 29,
+        line: 31,
         file: "org-dartlang-app:///packages/personal_website/ui/router.dart"
       });
     },
@@ -106,7 +109,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/personal_website/ui/a
         parameterLocations: C1 || CT.C1,
         name: null,
         column: 40,
-        line: 30,
+        line: 32,
         file: "org-dartlang-app:///packages/personal_website/ui/router.dart"
       });
     },
@@ -116,7 +119,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/personal_website/ui/a
         parameterLocations: C1 || CT.C1,
         name: null,
         column: 40,
-        line: 31,
+        line: 33,
         file: "org-dartlang-app:///packages/personal_website/ui/router.dart"
       });
     },
@@ -126,7 +129,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/personal_website/ui/a
         parameterLocations: null,
         name: "id",
         column: 15,
-        line: 35,
+        line: 37,
         file: null
       });
     },
@@ -136,7 +139,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/personal_website/ui/a
         parameterLocations: null,
         name: "post",
         column: 15,
-        line: 36,
+        line: 38,
         file: null
       });
     },
@@ -149,7 +152,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/personal_website/ui/a
         parameterLocations: C10 || CT.C10,
         name: null,
         column: 46,
-        line: 34,
+        line: 36,
         file: "org-dartlang-app:///packages/personal_website/ui/router.dart"
       });
     },
@@ -157,9 +160,9 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/personal_website/ui/a
       return C15 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "data",
-        column: 61,
-        line: 53,
+        name: "appView",
+        column: 42,
+        line: 42,
         file: null
       });
     },
@@ -171,8 +174,8 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/personal_website/ui/a
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: C14 || CT.C14,
         name: null,
-        column: 27,
-        line: 53,
+        column: 31,
+        line: 42,
         file: "org-dartlang-app:///packages/personal_website/ui/router.dart"
       });
     },
@@ -180,9 +183,9 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/personal_website/ui/a
       return C18 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "child",
-        column: 20,
-        line: 53,
+        name: "data",
+        column: 61,
+        line: 58,
         file: null
       });
     },
@@ -194,8 +197,8 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/personal_website/ui/a
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: C17 || CT.C17,
         name: null,
-        column: 13,
-        line: 53,
+        column: 27,
+        line: 58,
         file: "org-dartlang-app:///packages/personal_website/ui/router.dart"
       });
     },
@@ -203,9 +206,9 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/personal_website/ui/a
       return C21 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "body",
-        column: 7,
-        line: 53,
+        name: "child",
+        column: 20,
+        line: 58,
         file: null
       });
     },
@@ -217,8 +220,31 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/personal_website/ui/a
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: C20 || CT.C20,
         name: null,
+        column: 13,
+        line: 58,
+        file: "org-dartlang-app:///packages/personal_website/ui/router.dart"
+      });
+    },
+    get C24() {
+      return C24 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "body",
+        column: 7,
+        line: 58,
+        file: null
+      });
+    },
+    get C23() {
+      return C23 = dart.constList([C24 || CT.C24], widget_inspector._Location);
+    },
+    get C22() {
+      return C22 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C23 || CT.C23,
+        name: null,
         column: 12,
-        line: 52,
+        line: 57,
         file: "org-dartlang-app:///packages/personal_website/ui/router.dart"
       });
     }
@@ -236,6 +262,9 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/personal_website/ui/a
   let C12;
   let C10;
   let C9;
+  let C15;
+  let C14;
+  let C13;
   router.Router = class Router extends core.Object {
     static onUnknownRoute(settings) {
       return new page.MaterialPageRoute.new({builder: dart.fn(_ => new screen.HomeScreen.new({$creationLocationd_0dea112b090073317d4: C0 || CT.C0}), BuildContextToHomeScreen())});
@@ -258,6 +287,10 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/personal_website/ui/a
           return t1;
         })()[$entries])
           t0[$_set](t3.key, t3.value);
+        let iter = app$.allApps;
+        for (let app of iter)
+          for (let t4 of new (IdentityMapOfString$BuildContextToWidget()).from([app.routeName, dart.fn(_ => new details.AppDetails.new({appView: app, $creationLocationd_0dea112b090073317d4: C13 || CT.C13}), BuildContextToAppDetails())])[$entries])
+            t0[$_set](t4.key, t4.value);
         return t0;
       })();
     }
@@ -273,15 +306,15 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/personal_website/ui/a
     },
     set initialRoute(_) {}
   });
-  let C15;
-  let C14;
-  let C13;
   let C18;
   let C17;
   let C16;
   let C21;
   let C20;
   let C19;
+  let C24;
+  let C23;
+  let C22;
   router.UnknownRouteScreen = class UnknownRouteScreen extends framework.StatelessWidget {
     get route() {
       return this[route$];
@@ -290,7 +323,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/personal_website/ui/a
       super.route = value;
     }
     build(context) {
-      return new scaffold.Scaffold.new({body: new basic.Center.new({child: new text.Text.new("No route defined for " + dart.str(this.route), {$creationLocationd_0dea112b090073317d4: C13 || CT.C13}), $creationLocationd_0dea112b090073317d4: C16 || CT.C16}), $creationLocationd_0dea112b090073317d4: C19 || CT.C19});
+      return new scaffold.Scaffold.new({body: new basic.Center.new({child: new text.Text.new("No route defined for " + dart.str(this.route), {$creationLocationd_0dea112b090073317d4: C16 || CT.C16}), $creationLocationd_0dea112b090073317d4: C19 || CT.C19}), $creationLocationd_0dea112b090073317d4: C22 || CT.C22});
     }
   };
   (router.UnknownRouteScreen.new = function(opts) {
@@ -315,7 +348,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/personal_website/ui/a
   dart.trackLibraries("packages/personal_website/ui/router", {
     "package:personal_website/ui/router.dart": router
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["router.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;0BAiBqD;AAC/C,sDACW,QAAC,KAAM;IACjB;kBAE8C;AACjD;;uBACwB,QAAC,KAAM;4BACN,QAAC,KAAM;qCACL,QAAC,KAAM;2BACV,QAAC,KAAM;2BACP,QAAC,KAAM;+BACH,QAAC,KAAM;+BACP,QAAC,KAAM;YACvB,yBAAN,KAAK;;AACP,mBAAS,OAAQ,AAAM,MAAD;0BAAW,wDAC/B,AAA0B,oBAAjB,AAAK,IAAD,cAAe,QAAC,KAAM,+BAC3B,AAAK,IAAD,mBACK,qDAAS,AAAK,oBAAO,AAAK,oBAAO,AAAK,IAAD;;;;;;;IAI9D;;;;EACF;;;;MAxBgB,0BAAY;;;;;;;;;;;;;;;IA2Bb;;;;;;UAOa;AACxB,YAAO,kCACC,6BAAc,kBAAK,AAA6B,mCAAN;IAEpD;;;QATM;QACW;;;AACZ,6DAAW,GAAG;;EAAC","file":"router.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["router.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;0BAmBqD;AAC/C,sDACW,QAAC,KAAM;IACjB;kBAE8C;AACjD;;uBACwB,QAAC,KAAM;4BACN,QAAC,KAAM;qCACL,QAAC,KAAM;2BACV,QAAC,KAAM;2BACP,QAAC,KAAM;+BACH,QAAC,KAAM;+BACP,QAAC,KAAM;YACvB,yBAAN,KAAK;;AACP,mBAAS,OAAQ,AAAM,MAAD;0BAAW,wDAC/B,AAA0B,oBAAjB,AAAK,IAAD,cAAe,QAAC,KAAM,+BAC3B,AAAK,IAAD,mBACK,qDAAS,AAAK,oBAAO,AAAK,oBAAO,AAAK,IAAD;;;;;AAG1D,mBAAgB;iBAAP;wBAAmB,wDAC1B,AAAI,GAAD,YAAY,QAAC,KAAM,qCAAoB,GAAG;;;;IAGnD;;;;EACF;;;;MA3BgB,0BAAY;;;;;;;;;;;;;;;IA8Bb;;;;;;UAOa;AACxB,YAAO,kCACC,6BAAc,kBAAK,AAA6B,mCAAN;IAEpD;;;QATM;QACW;;;AACZ,6DAAW,GAAG;;EAAC","file":"router.ddc.js"}');
   // Exports:
   return {
     ui__router: router
