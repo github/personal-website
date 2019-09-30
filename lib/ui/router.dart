@@ -8,6 +8,7 @@ import '../data/classes/app.dart';
 import '../data/classes/index.dart';
 import 'apps/details.dart';
 import 'apps/screen.dart';
+import 'auth/screen.dart';
 import 'blog/edit_post.dart';
 import 'blog/post.dart';
 import 'blog/screen.dart';
@@ -24,6 +25,7 @@ class Router {
 
   static Map<String, WidgetBuilder> routes(BlogState state) {
     return {
+      LoginScreen.routeName: (_) => LoginScreen(),
       HomeScreen.routeName: (_) => HomeScreen(),
       AboutScreen.routeName: (_) => AboutScreen(),
       PrivacyPolicy.routeName: (_) => PrivacyPolicy(),

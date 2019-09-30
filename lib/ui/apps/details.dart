@@ -105,7 +105,7 @@ class _AppDetailsState extends State<AppDetails> {
           _buildAndroidLink(),
         ],
         if (widget.appView?.websiteLink != null) ...[
-          _buildWebbLink(),
+          _buildWebLink(),
         ],
         _buildScreenshots(),
       ],
@@ -134,53 +134,26 @@ class _AppDetailsState extends State<AppDetails> {
                   ],
                 ),
                 Container(height: 20.0),
-                if (dimens.maxWidth <= 1200) ...[
-                  Row(
-                    children: <Widget>[
-                      Expanded(
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[
-                            if (widget.appView?.appStoreLink != null) ...[
-                              _buildIosLink(),
-                            ],
-                            Container(height: 20.0),
-                            if (widget.appView?.googlePlayLink != null) ...[
-                              _buildAndroidLink(),
-                            ],
-                          ],
-                        ),
-                      ),
+                Row(
+                  children: <Widget>[
+                    if (widget.appView?.appStoreLink != null) ...[
+                      _buildIosLink(),
                     ],
-                  ),
-                ] else ...[
-                  Row(
-                    children: <Widget>[
-                      if (widget.appView?.appStoreLink != null) ...[
-                        _buildIosLink(),
-                      ],
-                      Container(width: 20.0),
-                      if (widget.appView?.googlePlayLink != null) ...[
-                        _buildAndroidLink(),
-                      ],
+                    Container(width: 20.0),
+                    if (widget.appView?.googlePlayLink != null) ...[
+                      _buildAndroidLink(),
                     ],
-                  ),
-                ],
-                if (widget.appView?.websiteLink != null) ...[
-                  _buildWebbLink(),
-                ],
+                    Container(width: 20.0),
+                    if (widget.appView?.websiteLink != null) ...[
+                      _buildWebLink(),
+                    ],
+                  ],
+                ),
               ],
             ),
           ),
         )
       ],
-    );
-  }
-
-  RaisedButton _buildWebbLink() {
-    return RaisedButton(
-      child: Text('Demo'),
-      onPressed: () => UrlUtils.open(widget.appView.websiteLink),
     );
   }
 
@@ -205,7 +178,18 @@ class _AppDetailsState extends State<AppDetails> {
     );
   }
 
-  InkWell _buildAndroidLink() {
+  Widget _buildWebLink() {
+    return RaisedButton(
+      child: Text('Demo'),
+      onPressed: () => UrlUtils.open(widget.appView.websiteLink),
+    );
+  }
+
+  Widget _buildAndroidLink() {
+    return RaisedButton(
+      child: Text('Play Store'),
+      onPressed: () => UrlUtils.open(widget.appView.googlePlayLink),
+    );
     return InkWell(
       onTap: () => UrlUtils.open(widget.appView.googlePlayLink,
           name: widget.appView.title),
@@ -220,7 +204,11 @@ class _AppDetailsState extends State<AppDetails> {
     );
   }
 
-  InkWell _buildIosLink() {
+  Widget _buildIosLink() {
+    return RaisedButton(
+      child: Text('App Store'),
+      onPressed: () => UrlUtils.open(widget.appView.appStoreLink),
+    );
     return InkWell(
       onTap: () => UrlUtils.open(widget.appView.appStoreLink,
           name: widget.appView.title),

@@ -67,7 +67,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "children",
         column: 15,
-        line: 76,
+        line: 75,
         file: null
       });
     },
@@ -80,7 +80,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C1 || CT.C1,
         name: null,
         column: 20,
-        line: 75,
+        line: 74,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -90,7 +90,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "onTap",
         column: 13,
-        line: 72,
+        line: 71,
         file: null
       });
     },
@@ -100,7 +100,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "child",
         column: 13,
-        line: 75,
+        line: 74,
         file: null
       });
     },
@@ -113,7 +113,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C4 || CT.C4,
         name: null,
         column: 18,
-        line: 71,
+        line: 70,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -123,7 +123,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "width",
         column: 7,
-        line: 100,
+        line: 99,
         file: null
       });
     },
@@ -133,7 +133,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "padding",
         column: 7,
-        line: 101,
+        line: 100,
         file: null
       });
     },
@@ -143,7 +143,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "margin",
         column: 7,
-        line: 102,
+        line: 101,
         file: null
       });
     },
@@ -153,7 +153,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "decoration",
         column: 7,
-        line: 103,
+        line: 102,
         file: null
       });
     },
@@ -163,7 +163,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "child",
         column: 7,
-        line: 104,
+        line: 103,
         file: null
       });
     },
@@ -176,7 +176,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C8 || CT.C8,
         name: null,
         column: 12,
-        line: 99,
+        line: 98,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -277,7 +277,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "textAlign",
         column: 15,
-        line: 431,
+        line: 430,
         file: null
       });
     },
@@ -287,7 +287,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "text",
         column: 15,
-        line: 432,
+        line: 431,
         file: null
       });
     },
@@ -300,7 +300,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C26 || CT.C26,
         name: null,
         column: 20,
-        line: 430,
+        line: 429,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -310,7 +310,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "shrinkToFit",
         column: 13,
-        line: 423,
+        line: 422,
         file: null
       });
     },
@@ -320,7 +320,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "margin",
         column: 13,
-        line: 424,
+        line: 423,
         file: null
       });
     },
@@ -330,7 +330,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "padding",
         column: 13,
-        line: 428,
+        line: 427,
         file: null
       });
     },
@@ -340,7 +340,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "decoration",
         column: 13,
-        line: 429,
+        line: 428,
         file: null
       });
     },
@@ -350,7 +350,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "child",
         column: 13,
-        line: 430,
+        line: 429,
         file: null
       });
     },
@@ -363,7 +363,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C30 || CT.C30,
         name: null,
         column: 33,
-        line: 422,
+        line: 421,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -373,7 +373,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "text",
         column: 29,
-        line: 438,
+        line: 437,
         file: null
       });
     },
@@ -386,7 +386,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C37 || CT.C37,
         name: null,
         column: 20,
-        line: 438,
+        line: 437,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -396,7 +396,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "child",
         column: 13,
-        line: 438,
+        line: 437,
         file: null
       });
     },
@@ -406,7 +406,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "shrinkToFit",
         column: 13,
-        line: 439,
+        line: 438,
         file: null
       });
     },
@@ -419,7 +419,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C40 || CT.C40,
         name: null,
         column: 43,
-        line: 437,
+        line: 436,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -429,7 +429,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "url",
         column: 17,
-        line: 586,
+        line: 584,
         file: null
       });
     },
@@ -439,7 +439,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "margin",
         column: 17,
-        line: 587,
+        line: 585,
         file: null
       });
     },
@@ -449,7 +449,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "onLinkTap",
         column: 17,
-        line: 589,
+        line: 587,
         file: null
       });
     },
@@ -459,7 +459,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "children",
         column: 17,
-        line: 590,
+        line: 588,
         file: null
       });
     },
@@ -472,7 +472,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C44 || CT.C44,
         name: null,
         column: 41,
-        line: 585,
+        line: 583,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -482,7 +482,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "text",
         column: 35,
-        line: 610,
+        line: 608,
         file: null
       });
     },
@@ -495,7 +495,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C50 || CT.C50,
         name: null,
         column: 26,
-        line: 610,
+        line: 608,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -505,7 +505,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "shrinkToFit",
         column: 19,
-        line: 607,
+        line: 605,
         file: null
       });
     },
@@ -515,7 +515,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "margin",
         column: 19,
-        line: 608,
+        line: 606,
         file: null
       });
     },
@@ -525,7 +525,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "child",
         column: 19,
-        line: 610,
+        line: 608,
         file: null
       });
     },
@@ -538,7 +538,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C53 || CT.C53,
         name: null,
         column: 42,
-        line: 606,
+        line: 604,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -548,7 +548,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "crossAxisAlignment",
         column: 15,
-        line: 632,
+        line: 630,
         file: null
       });
     },
@@ -558,7 +558,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "children",
         column: 15,
-        line: 633,
+        line: 631,
         file: null
       });
     },
@@ -571,7 +571,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C58 || CT.C58,
         name: null,
         column: 41,
-        line: 631,
+        line: 629,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -581,7 +581,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "margin",
         column: 17,
-        line: 636,
+        line: 634,
         file: null
       });
     },
@@ -591,7 +591,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "child",
         column: 17,
-        line: 637,
+        line: 635,
         file: null
       });
     },
@@ -604,7 +604,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C62 || CT.C62,
         name: null,
         column: 44,
-        line: 635,
+        line: 633,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -613,8 +613,8 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
         name: "text",
-        column: 26,
-        line: 657,
+        column: 38,
+        line: 655,
         file: null
       });
     },
@@ -626,8 +626,8 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: C66 || CT.C66,
         name: null,
-        column: 17,
-        line: 657,
+        column: 29,
+        line: 655,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -637,7 +637,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "padding",
         column: 32,
-        line: 660,
+        line: 658,
         file: null
       });
     },
@@ -647,7 +647,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "child",
         column: 62,
-        line: 660,
+        line: 658,
         file: null
       });
     },
@@ -660,7 +660,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C69 || CT.C69,
         name: null,
         column: 22,
-        line: 660,
+        line: 658,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -670,7 +670,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "flex",
         column: 15,
-        line: 659,
+        line: 657,
         file: null
       });
     },
@@ -680,7 +680,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "child",
         column: 15,
-        line: 660,
+        line: 658,
         file: null
       });
     },
@@ -693,7 +693,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C73 || CT.C73,
         name: null,
         column: 29,
-        line: 658,
+        line: 656,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -703,7 +703,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "crossAxisAlignment",
         column: 15,
-        line: 668,
+        line: 666,
         file: null
       });
     },
@@ -713,7 +713,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "children",
         column: 15,
-        line: 669,
+        line: 667,
         file: null
       });
     },
@@ -726,7 +726,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C77 || CT.C77,
         name: null,
         column: 23,
-        line: 667,
+        line: 665,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -736,7 +736,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "crossAxisAlignment",
         column: 15,
-        line: 679,
+        line: 677,
         file: null
       });
     },
@@ -746,7 +746,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "children",
         column: 15,
-        line: 680,
+        line: 678,
         file: null
       });
     },
@@ -759,7 +759,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C81 || CT.C81,
         name: null,
         column: 23,
-        line: 678,
+        line: 676,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -769,7 +769,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "textAlign",
         column: 17,
-        line: 685,
+        line: 683,
         file: null
       });
     },
@@ -779,7 +779,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "textScaleFactor",
         column: 17,
-        line: 686,
+        line: 684,
         file: null
       });
     },
@@ -789,7 +789,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "text",
         column: 17,
-        line: 687,
+        line: 685,
         file: null
       });
     },
@@ -802,7 +802,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C85 || CT.C85,
         name: null,
         column: 29,
-        line: 684,
+        line: 682,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -812,7 +812,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "padding",
         column: 32,
-        line: 689,
+        line: 687,
         file: null
       });
     },
@@ -822,7 +822,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "child",
         column: 62,
-        line: 689,
+        line: 687,
         file: null
       });
     },
@@ -835,7 +835,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C90 || CT.C90,
         name: null,
         column: 22,
-        line: 689,
+        line: 687,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -845,7 +845,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "child",
         column: 15,
-        line: 689,
+        line: 687,
         file: null
       });
     },
@@ -858,7 +858,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C94 || CT.C94,
         name: null,
         column: 29,
-        line: 688,
+        line: 686,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -868,7 +868,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "height",
         column: 30,
-        line: 736,
+        line: 734,
         file: null
       });
     },
@@ -878,7 +878,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "color",
         column: 43,
-        line: 736,
+        line: 734,
         file: null
       });
     },
@@ -891,7 +891,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C97 || CT.C97,
         name: null,
         column: 22,
-        line: 736,
+        line: 734,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -901,7 +901,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "bytes",
         column: 30,
-        line: 763,
+        line: 761,
         file: null
       });
     },
@@ -911,7 +911,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "width",
         column: 23,
-        line: 765,
+        line: 763,
         file: null
       });
     },
@@ -921,7 +921,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "height",
         column: 23,
-        line: 766,
+        line: 764,
         file: null
       });
     },
@@ -931,7 +931,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "scale",
         column: 23,
-        line: 767,
+        line: 765,
         file: null
       });
     },
@@ -941,7 +941,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "matchTextDirection",
         column: 23,
-        line: 768,
+        line: 766,
         file: null
       });
     },
@@ -951,7 +951,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "centerSlice",
         column: 23,
-        line: 770,
+        line: 768,
         file: null
       });
     },
@@ -961,7 +961,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "filterQuality",
         column: 23,
-        line: 771,
+        line: 769,
         file: null
       });
     },
@@ -971,7 +971,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "alignment",
         column: 23,
-        line: 773,
+        line: 771,
         file: null
       });
     },
@@ -981,7 +981,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "colorBlendMode",
         column: 23,
-        line: 774,
+        line: 772,
         file: null
       });
     },
@@ -991,7 +991,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "fit",
         column: 23,
-        line: 775,
+        line: 773,
         file: null
       });
     },
@@ -1001,7 +1001,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "color",
         column: 23,
-        line: 776,
+        line: 774,
         file: null
       });
     },
@@ -1011,7 +1011,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "repeat",
         column: 23,
-        line: 777,
+        line: 775,
         file: null
       });
     },
@@ -1021,7 +1021,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "semanticLabel",
         column: 23,
-        line: 778,
+        line: 776,
         file: null
       });
     },
@@ -1031,7 +1031,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "excludeFromSemantics",
         column: 23,
-        line: 779,
+        line: 777,
         file: null
       });
     },
@@ -1044,7 +1044,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C101 || CT.C101,
         name: null,
         column: 34,
-        line: 762,
+        line: 760,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -1054,7 +1054,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "child",
         column: 21,
-        line: 762,
+        line: 760,
         file: null
       });
     },
@@ -1064,7 +1064,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "onTap",
         column: 21,
-        line: 784,
+        line: 782,
         file: null
       });
     },
@@ -1077,7 +1077,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C117 || CT.C117,
         name: null,
         column: 51,
-        line: 761,
+        line: 759,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -1087,7 +1087,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "textAlign",
         column: 31,
-        line: 803,
+        line: 801,
         file: null
       });
     },
@@ -1097,7 +1097,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "text",
         column: 31,
-        line: 804,
+        line: 802,
         file: null
       });
     },
@@ -1110,7 +1110,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C121 || CT.C121,
         name: null,
         column: 36,
-        line: 802,
+        line: 800,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -1120,7 +1120,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "child",
         column: 29,
-        line: 802,
+        line: 800,
         file: null
       });
     },
@@ -1130,7 +1130,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "shrinkToFit",
         column: 29,
-        line: 809,
+        line: 807,
         file: null
       });
     },
@@ -1143,7 +1143,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C125 || CT.C125,
         name: null,
         column: 34,
-        line: 801,
+        line: 799,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -1156,7 +1156,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C129 || CT.C129,
         name: null,
         column: 32,
-        line: 815,
+        line: 813,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -1166,7 +1166,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "src",
         column: 38,
-        line: 798,
+        line: 796,
         file: null
       });
     },
@@ -1176,7 +1176,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "frameBuilder",
         column: 23,
-        line: 799,
+        line: 797,
         file: null
       });
     },
@@ -1186,7 +1186,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "width",
         column: 23,
-        line: 817,
+        line: 815,
         file: null
       });
     },
@@ -1196,7 +1196,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "height",
         column: 23,
-        line: 818,
+        line: 816,
         file: null
       });
     },
@@ -1206,7 +1206,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "scale",
         column: 23,
-        line: 819,
+        line: 817,
         file: null
       });
     },
@@ -1216,7 +1216,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "matchTextDirection",
         column: 23,
-        line: 820,
+        line: 818,
         file: null
       });
     },
@@ -1226,7 +1226,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "centerSlice",
         column: 23,
-        line: 822,
+        line: 820,
         file: null
       });
     },
@@ -1236,7 +1236,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "filterQuality",
         column: 23,
-        line: 823,
+        line: 821,
         file: null
       });
     },
@@ -1246,7 +1246,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "alignment",
         column: 23,
-        line: 825,
+        line: 823,
         file: null
       });
     },
@@ -1256,7 +1256,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "colorBlendMode",
         column: 23,
-        line: 826,
+        line: 824,
         file: null
       });
     },
@@ -1266,7 +1266,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "fit",
         column: 23,
-        line: 827,
+        line: 825,
         file: null
       });
     },
@@ -1276,7 +1276,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "color",
         column: 23,
-        line: 828,
+        line: 826,
         file: null
       });
     },
@@ -1286,7 +1286,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "repeat",
         column: 23,
-        line: 829,
+        line: 827,
         file: null
       });
     },
@@ -1296,7 +1296,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "semanticLabel",
         column: 23,
-        line: 830,
+        line: 828,
         file: null
       });
     },
@@ -1306,7 +1306,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "excludeFromSemantics",
         column: 23,
-        line: 831,
+        line: 829,
         file: null
       });
     },
@@ -1319,7 +1319,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C131 || CT.C131,
         name: null,
         column: 34,
-        line: 797,
+        line: 795,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -1329,7 +1329,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "child",
         column: 21,
-        line: 797,
+        line: 795,
         file: null
       });
     },
@@ -1339,7 +1339,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "onTap",
         column: 21,
-        line: 836,
+        line: 834,
         file: null
       });
     },
@@ -1352,7 +1352,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C148 || CT.C148,
         name: null,
         column: 51,
-        line: 796,
+        line: 794,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -1362,7 +1362,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "text",
         column: 17,
-        line: 859,
+        line: 857,
         file: null
       });
     },
@@ -1375,7 +1375,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C152 || CT.C152,
         name: null,
         column: 22,
-        line: 858,
+        line: 856,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -1385,7 +1385,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "shrinkToFit",
         column: 15,
-        line: 855,
+        line: 853,
         file: null
       });
     },
@@ -1395,7 +1395,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "margin",
         column: 15,
-        line: 856,
+        line: 854,
         file: null
       });
     },
@@ -1405,7 +1405,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "child",
         column: 15,
-        line: 858,
+        line: 856,
         file: null
       });
     },
@@ -1418,7 +1418,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C155 || CT.C155,
         name: null,
         column: 35,
-        line: 854,
+        line: 852,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -1428,7 +1428,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "textAlign",
         column: 17,
-        line: 938,
+        line: 935,
         file: null
       });
     },
@@ -1438,7 +1438,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "text",
         column: 17,
-        line: 939,
+        line: 936,
         file: null
       });
     },
@@ -1451,7 +1451,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C160 || CT.C160,
         name: null,
         column: 22,
-        line: 937,
+        line: 934,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -1461,7 +1461,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "shrinkToFit",
         column: 15,
-        line: 927,
+        line: 924,
         file: null
       });
     },
@@ -1471,7 +1471,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "margin",
         column: 15,
-        line: 928,
+        line: 925,
         file: null
       });
     },
@@ -1481,7 +1481,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "padding",
         column: 15,
-        line: 935,
+        line: 932,
         file: null
       });
     },
@@ -1491,7 +1491,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "decoration",
         column: 15,
-        line: 936,
+        line: 933,
         file: null
       });
     },
@@ -1501,7 +1501,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "child",
         column: 15,
-        line: 937,
+        line: 934,
         file: null
       });
     },
@@ -1514,7 +1514,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C164 || CT.C164,
         name: null,
         column: 35,
-        line: 926,
+        line: 923,
         file: "org-dartlang-app:///packages/flutter_html/rich_text_parser.dart"
       });
     },
@@ -1545,7 +1545,9 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
     let children = opts && 'children' in opts ? opts.children : null;
     this[url$] = url;
     rich_text_parser.LinkTextSpan.__proto__.new.call(this, {style: style, text: text, children: (t0 = children, t0 == null ? JSArrayOfTextSpan().of([]) : t0), recognizer: (t0$ = new tap.TapGestureRecognizer.new(), t0$.onTap = dart.fn(() => {
-        onLinkTap(url);
+        let t1;
+        t1 = onLinkTap;
+        t1 == null ? null : t1(url);
       }, VoidToNull()), t0$)});
     ;
   }).prototype = rich_text_parser.LinkTextSpan.prototype;
@@ -2587,7 +2589,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
   dart.trackLibraries("packages/flutter_html/rich_text_parser", {
     "package:flutter_html/rich_text_parser.dart": rich_text_parser
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["rich_text_parser.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;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","file":"rich_text_parser.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["rich_text_parser.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;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","file":"rich_text_parser.ddc.js"}');
   // Exports:
   return {
     rich_text_parser: rich_text_parser

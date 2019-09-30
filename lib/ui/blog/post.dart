@@ -1,7 +1,11 @@
 import 'dart:convert';
 
+import 'package:fb_auth/data/blocs/blocs.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:personal_website/plugins/share/share.dart';
+import 'package:personal_website/ui/auth/admin_check.dart';
 
 import '../../data/classes/fb_post.dart';
 import '../../data/utils/index.dart';
@@ -61,60 +65,67 @@ class _PostDetailsState extends State<PostDetails> {
         ),
       );
     }
-    return Scaffold(
-      bottomNavigationBar: BottomAppBar(
-        child: Row(
-          children: <Widget>[
-            IconButton(
-              icon: Icon(Icons.delete),
-              onPressed: () {
-                FbFirestore.deleteDoc('posts/${widget.id}');
-                Navigator.pop(context);
-              },
-            ),
-            IconButton(
-              icon: Icon(Icons.edit),
-              onPressed: () => navigate<FbPost>(
-                context,
-                EditPostScreen(post: _post, id: widget.id),
-                fullScreen: true,
-              ).then((post) {
-                if (post != null && mounted) {
-                  setState(() => _post = post);
-                  _updateTitle();
-                }
-              }),
-            ),
-          ],
-        ),
-      ),
-      body: NestedScrollView(
-        headerSliverBuilder: (context, innerBoxIsScrolled) {
-          return <Widget>[
-            SliverAppBar(
-              expandedHeight: 200.0,
-              floating: false,
-              pinned: true,
-              actions: <Widget>[
-                IconButton(
-                  icon: Icon(Icons.share),
-                  onPressed: () {},
+    return AdminCheck(
+      builder: (context, admin) => Scaffold(
+        bottomNavigationBar: admin
+            ? BottomAppBar(
+                child: Row(
+                  children: <Widget>[
+                    IconButton(
+                      icon: Icon(Icons.delete),
+                      onPressed: () {
+                        FbFirestore.deleteDoc('posts/${widget.id}');
+                        Navigator.pop(context);
+                      },
+                    ),
+                    IconButton(
+                      icon: Icon(Icons.edit),
+                      onPressed: () => navigate<FbPost>(
+                        context,
+                        EditPostScreen(post: _post, id: widget.id),
+                        fullScreen: true,
+                      ).then((post) {
+                        if (post != null && mounted) {
+                          setState(() => _post = post);
+                          _updateTitle();
+                        }
+                      }),
+                    ),
+                  ],
                 ),
-              ],
-              flexibleSpace: FlexibleSpaceBar(
-                  centerTitle: true,
-                  title: Text(_post.title, style: TextStyle(fontSize: 16.0)),
-                  background: Image.network(
-                    _post.image,
-                    fit: BoxFit.cover,
-                  )),
-            ),
-          ];
-        },
-        body: MediaQuery.removePadding(
-          context: context,
-          removeTop: true,
-          child: _getRender(),
+              )
+            : null,
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return <Widget>[
+              SliverAppBar(
+                expandedHeight: 200.0,
+                floating: false,
+                pinned: true,
+                actions: <Widget>[
+                  IconButton(
+                    icon: Icon(Icons.share),
+                    onPressed: () => ShareUtils.share(
+                        title: _post.title,
+                        url: 'https://rodydavis.com/#/blog/${widget.id}',
+                      ),
+                  ),
+                ],
+                flexibleSpace: FlexibleSpaceBar(
+                    centerTitle: true,
+                    title: Text(_post.title, style: TextStyle(fontSize: 16.0)),
+                    background: Image.network(
+                      _post.image,
+                      fit: BoxFit.cover,
+                    )),
+              ),
+            ];
+          },
+          body: MediaQuery.removePadding(
+            context: context,
+            removeTop: true,
+            child: _getRender(),
+          ),
         ),
       ),
     );

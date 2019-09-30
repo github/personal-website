@@ -32,10 +32,16 @@ dependencies:
   flutter_colorpicker: ^0.2.6
   extended_text: ^0.6.6
   extended_text_field: ^0.4.4
+  share: ^0.6.2+1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+dependency_overrides:
+  flutter_html:
+    git:
+      url: https://github.com/AppleEducate/flutter_html
 
 flutter:
   uses-material-design: true

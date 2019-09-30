@@ -122,17 +122,15 @@ class _EditPostScreenState extends State<EditPostScreen> {
                         height: 250.0,
                         child: Image.network(_image),
                       ),
-                      ListTile(
-                        title: Text(
-                          I18n.of(context).blogImage_source,
-                        ),
-                        subtitle: TextFormField(
-                          initialValue: _image,
-                          maxLines: 1,
-                          onSaved: (val) => _image = val,
-                        ),
-                      ),
                     ],
+                    ListTile(
+                      title: TextFormField(
+                        initialValue: _image,
+                        maxLines: 1,
+                        decoration: InputDecoration(hintText: 'Thumbnail'),
+                        onSaved: (val) => _image = val,
+                      ),
+                    ),
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: ExtendedTextField(

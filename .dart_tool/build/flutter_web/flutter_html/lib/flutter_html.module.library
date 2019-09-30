@@ -1,1 +1,1 @@
-{"isEntrypoint":true,"deps":["flutter|lib/material.dart","flutter_html|lib/html_parser.dart","flutter_html|lib/rich_text_parser.dart","flutter_html|lib/image_properties.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}
+{"isEntrypoint":true,"deps":["flutter|lib/material.dart","flutter_html|lib/html_parser.dart","flutter_html|lib/rich_text_parser.dart","flutter_html|lib/style.dart","flutter_html|lib/image_properties.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}
