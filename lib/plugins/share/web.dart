@@ -13,8 +13,10 @@ class ShareUtils {
     if (url != null) {
       _data['url'] = url;
     }
-    if (html.window.navigator.share != null) {
-      html.window.navigator.share(_data);
-    }
+    try {
+      if (html.window.navigator.share != null) {
+        html.window.navigator.share(_data);
+      }
+    } catch (e) {}
   }
 }

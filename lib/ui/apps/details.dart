@@ -27,19 +27,19 @@ class _AppDetailsState extends State<AppDetails> {
       body: LayoutBuilder(
         builder: (context, dimens) => Stack(
           children: <Widget>[
-            Positioned(
-              top: 0,
-              height: dimens.maxHeight * 0.6,
-              width: dimens.maxWidth,
-              child: Container(
-                decoration: BoxDecoration(
-                    color: Colors.black,
-                    borderRadius: BorderRadius.only(
-                      bottomLeft: Radius.circular(35.0),
-                      bottomRight: Radius.circular(35.0),
-                    )),
-              ),
-            ),
+            // Positioned(
+            //   top: 0,
+            //   height: dimens.maxHeight * 0.6,
+            //   width: dimens.maxWidth,
+            //   child: Container(
+            //     decoration: BoxDecoration(
+            //         color: Colors.black,
+            //         borderRadius: BorderRadius.only(
+            //           bottomLeft: Radius.circular(35.0),
+            //           bottomRight: Radius.circular(35.0),
+            //         )),
+            //   ),
+            // ),
             Positioned.fill(
               child: Padding(
                 padding: const EdgeInsets.only(top: 12.0),
@@ -53,28 +53,31 @@ class _AppDetailsState extends State<AppDetails> {
                     GridView.builder(
                       shrinkWrap: true,
                       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                        crossAxisCount: (dimens.maxWidth / 350).ceil(),
+                        crossAxisCount: (dimens.maxWidth / 300).ceil(),
                         childAspectRatio: 16 / 9,
                       ),
                       itemCount: widget.appView.meta.length,
                       itemBuilder: (context, index) {
                         final _item = widget.appView.meta[index];
                         return Center(
-                          child: ListTile(
-                            leading: Icon(
-                              _item.iconData,
-                              color: Theme.of(context).primaryColor,
-                            ),
-                            title: Text(
-                              _item.title,
-                              style: TextStyle(
-                                fontSize: 22,
-                                fontWeight: FontWeight.w500,
+                          child: Container(
+                            padding: EdgeInsets.all(20.0),
+                            child: ListTile(
+                              leading: Icon(
+                                _item.iconData,
+                                color: Theme.of(context).primaryColor,
                               ),
-                            ),
-                            subtitle: Text(
-                              _item.description,
-                              style: Theme.of(context).textTheme.subtitle,
+                              title: Text(
+                                _item.title,
+                                style: TextStyle(
+                                  fontSize: 22,
+                                  fontWeight: FontWeight.w500,
+                                ),
+                              ),
+                              subtitle: Text(
+                                _item.description,
+                                style: Theme.of(context).textTheme.subtitle,
+                              ),
                             ),
                           ),
                         );
@@ -101,12 +104,15 @@ class _AppDetailsState extends State<AppDetails> {
         if (widget.appView?.appStoreLink != null) ...[
           _buildIosLink(),
         ],
+        Container(height: 20.0),
         if (widget.appView?.googlePlayLink != null) ...[
           _buildAndroidLink(),
         ],
+        Container(height: 20.0),
         if (widget.appView?.websiteLink != null) ...[
           _buildWebLink(),
         ],
+        Container(height: 20.0),
         _buildScreenshots(),
       ],
     );
@@ -116,24 +122,33 @@ class _AppDetailsState extends State<AppDetails> {
     return Row(
       children: <Widget>[
         Container(
-          width: dimens.maxWidth * 0.4,
+          width: dimens.maxWidth * 0.5,
           padding: EdgeInsets.all(10.0),
           child: _buildScreenshots(),
         ),
         Expanded(
-          child: Padding(
+          child: Container(
             padding: const EdgeInsets.all(20.0),
             child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
-                Row(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: <Widget>[
-                    _buildIcon(),
-                    Container(width: 20.0),
-                    _buildTitle(),
-                  ],
+                LayoutBuilder(
+                  builder: (context, subDimens) => Flex(
+                    direction: subDimens.maxWidth < 400
+                        ? Axis.vertical
+                        : Axis.horizontal,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: <Widget>[
+                      _buildIcon(),
+                      Padding(
+                        padding: const EdgeInsets.all(20.0),
+                        child: _buildTitle(),
+                      ),
+                    ],
+                  ),
                 ),
-                Container(height: 20.0),
+                Container(height: 40.0),
                 Row(
                   children: <Widget>[
                     if (widget.appView?.appStoreLink != null) ...[
@@ -231,7 +246,7 @@ class _AppDetailsState extends State<AppDetails> {
         style: TextStyle(
           fontSize: 23,
           fontWeight: FontWeight.w700,
-          color: Colors.white,
+          // color: Colors.white,
         ),
       ),
     );
@@ -241,11 +256,17 @@ class _AppDetailsState extends State<AppDetails> {
     return Container(
       width: 200,
       height: 200,
-      decoration: BoxDecoration(
+      // decoration: BoxDecoration(
+      //   borderRadius: BorderRadius.circular(20.0),
+      //   image: DecorationImage(
+      //     image: NetworkImage(widget.appView.appIcon),
+      //   ),
+      // ),
+      child: Material(
         borderRadius: BorderRadius.circular(20.0),
-        image: DecorationImage(
-          image: NetworkImage(widget.appView.appIcon),
-        ),
+        elevation: 12.0,
+        clipBehavior: Clip.hardEdge,
+        child: Image.network(widget.appView.appIcon),
       ),
     );
   }
