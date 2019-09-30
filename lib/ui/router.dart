@@ -2,9 +2,9 @@ import 'dart:convert';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:personal_website/data/classes/app.dart';
 
 import '../data/blocs/blocs.dart';
+import '../data/classes/app.dart';
 import '../data/classes/index.dart';
 import 'apps/details.dart';
 import 'apps/screen.dart';
