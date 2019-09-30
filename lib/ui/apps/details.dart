@@ -25,69 +25,52 @@ class _AppDetailsState extends State<AppDetails> {
         title: Text(widget.appView.title),
       ),
       body: LayoutBuilder(
-        builder: (context, dimens) => Stack(
-          children: <Widget>[
-            // Positioned(
-            //   top: 0,
-            //   height: dimens.maxHeight * 0.6,
-            //   width: dimens.maxWidth,
-            //   child: Container(
-            //     decoration: BoxDecoration(
-            //         color: Colors.black,
-            //         borderRadius: BorderRadius.only(
-            //           bottomLeft: Radius.circular(35.0),
-            //           bottomRight: Radius.circular(35.0),
-            //         )),
-            //   ),
-            // ),
-            Positioned.fill(
-              child: Padding(
-                padding: const EdgeInsets.only(top: 12.0),
-                child: ListView(
-                  children: <Widget>[
-                    if (dimens.maxWidth >= kBreakpoint) ...[
-                      _buildLargeScreen(dimens)
-                    ] else ...[
-                      _buildSmallScreen(dimens)
-                    ],
-                    GridView.builder(
-                      shrinkWrap: true,
-                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                        crossAxisCount: (dimens.maxWidth / 300).ceil(),
-                        childAspectRatio: 16 / 9,
-                      ),
-                      itemCount: widget.appView.meta.length,
-                      itemBuilder: (context, index) {
-                        final _item = widget.appView.meta[index];
-                        return Center(
-                          child: Container(
-                            padding: EdgeInsets.all(20.0),
-                            child: ListTile(
-                              leading: Icon(
-                                _item.iconData,
-                                color: Theme.of(context).primaryColor,
-                              ),
-                              title: Text(
-                                _item.title,
-                                style: TextStyle(
-                                  fontSize: 22,
-                                  fontWeight: FontWeight.w500,
-                                ),
-                              ),
-                              subtitle: Text(
-                                _item.description,
-                                style: Theme.of(context).textTheme.subtitle,
-                              ),
+        builder: (context, dimens) => Padding(
+          padding: const EdgeInsets.only(top: 12.0),
+          child: Scrollbar(
+            child: ListView(
+              children: <Widget>[
+                if (dimens.maxWidth >= kBreakpoint) ...[
+                  _buildLargeScreen(dimens)
+                ] else ...[
+                  _buildSmallScreen(dimens)
+                ],
+                GridView.builder(
+                  shrinkWrap: true,
+                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: (dimens.maxWidth / 300).ceil(),
+                    childAspectRatio: 16 / 9,
+                  ),
+                  itemCount: widget.appView.meta.length,
+                  itemBuilder: (context, index) {
+                    final _item = widget.appView.meta[index];
+                    return Center(
+                      child: Container(
+                        padding: EdgeInsets.all(20.0),
+                        child: ListTile(
+                          leading: Icon(
+                            _item.iconData,
+                            color: Theme.of(context).primaryColor,
+                          ),
+                          title: Text(
+                            _item.title,
+                            style: TextStyle(
+                              fontSize: 22,
+                              fontWeight: FontWeight.w500,
                             ),
                           ),
-                        );
-                      },
-                    ),
-                  ],
+                          subtitle: Text(
+                            _item.description,
+                            style: Theme.of(context).textTheme.subtitle,
+                          ),
+                        ),
+                      ),
+                    );
+                  },
                 ),
-              ),
+              ],
             ),
-          ],
+          ),
         ),
       ),
     );
@@ -138,6 +121,7 @@ class _AppDetailsState extends State<AppDetails> {
                     direction: subDimens.maxWidth < 400
                         ? Axis.vertical
                         : Axis.horizontal,
+                    mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: <Widget>[
                       _buildIcon(),
@@ -150,6 +134,8 @@ class _AppDetailsState extends State<AppDetails> {
                 ),
                 Container(height: 40.0),
                 Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: <Widget>[
                     if (widget.appView?.appStoreLink != null) ...[
                       _buildIosLink(),

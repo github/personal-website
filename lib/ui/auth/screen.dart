@@ -23,6 +23,9 @@ class _LoginScreenState extends State<LoginScreen> {
             SnackBar(content: Text(authState.message)),
           );
         }
+        if (authState is LoggedInState) {
+          Navigator.maybePop(context);
+        }
       },
       child: BlocBuilder<AuthBloc, AuthState>(
         builder: (context, state) => Scaffold(
@@ -75,6 +78,9 @@ class _LoginScreenState extends State<LoginScreen> {
                     },
                   ),
                 ),
+                if (state is AuthLoadingState) ...[
+                  Center(child: CircularProgressIndicator()),
+                ],
               ],
             ),
           ),
