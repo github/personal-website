@@ -69,7 +69,7 @@ class _EditPostScreenState extends State<EditPostScreen> {
                   await FbFirestore.editDoc('posts', _post.toJson(),
                       id: widget?.id);
                   if (mounted) setState(() => _loading = false);
-                  Navigator.maybePop(context, _post);
+                  Navigator.pop(context, _post);
                 }
               },
             ),

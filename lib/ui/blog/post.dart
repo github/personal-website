@@ -78,7 +78,7 @@ class _PostDetailsState extends State<PostDetails> {
                     ),
                     IconButton(
                       icon: Icon(Icons.edit),
-                      onPressed: () => navigate<FbPost>(
+                      onPressed: () => navigate(
                         context,
                         EditPostScreen(post: _post, id: widget.id),
                         fullScreen: true,
