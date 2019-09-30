@@ -104,6 +104,9 @@ class _AppDetailsState extends State<AppDetails> {
         if (widget.appView?.googlePlayLink != null) ...[
           _buildAndroidLink(),
         ],
+        if (widget.appView?.websiteLink != null) ...[
+          _buildWebbLink(),
+        ],
         _buildScreenshots(),
       ],
     );
@@ -163,11 +166,21 @@ class _AppDetailsState extends State<AppDetails> {
                     ],
                   ),
                 ],
+                if (widget.appView?.websiteLink != null) ...[
+                  _buildWebbLink(),
+                ],
               ],
             ),
           ),
         )
       ],
+    );
+  }
+
+  RaisedButton _buildWebbLink() {
+    return RaisedButton(
+      child: Text('Demo'),
+      onPressed: () => UrlUtils.open(widget.appView.websiteLink),
     );
   }
 
