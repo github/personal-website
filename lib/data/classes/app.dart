@@ -30,36 +30,104 @@ class AppMeta {
 }
 
 List<AppView> get allApps => [
-      AppView(
-        title: 'The Pitch Pipe',
-        appIcon:
-            'https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/apps%2Ficon.png?alt=media&token=be707ddd-14dc-4dba-a490-51bfd67f8428',
-        appStoreLink:
-            'https://apps.apple.com/us/app/the-pitch-pipe/id1244972865',
-        googlePlayLink:
-            'https://play.google.com/store/apps/details?id=com.appleeducate.thepitchpipe&hl=en_US',
-        screenshots: [
-          'https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/apps%2F1.png?alt=media&token=28bf3b3e-6468-4b29-b8dd-9e15b4008def',
-          'https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/apps%2F2.png?alt=media&token=d2b0f912-8259-44d6-9568-832a1afad22a',
-          'https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/apps%2F3.png?alt=media&token=5de8ff2d-4e2a-41f3-ac26-289514c34869',
-          'https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/apps%2F4.png?alt=media&token=995f7a44-0607-4f0e-b59d-54da16628480',
-          'https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/apps%2F5.png?alt=media&token=aa97655b-9eb3-4044-ac32-e3693122393a',
-          'https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/apps%2F6.png?alt=media&token=c17aaf72-2a1f-4d13-914e-d3601722b4a9',
-        ],
-        websiteLink: 'https://pitchpipe.app',
-        meta: [
-          AppMeta(Icons.offline_bolt, 'Offline First', 'No Internet Needed'),
-          AppMeta(Icons.offline_bolt, 'Offline First', 'No Internet Needed'),
-          AppMeta(Icons.offline_bolt, 'Offline First', 'No Internet Needed'),
-          AppMeta(Icons.offline_bolt, 'Offline First', 'No Internet Needed'),
-          AppMeta(Icons.offline_bolt, 'Offline First', 'No Internet Needed'),
-          AppMeta(Icons.offline_bolt, 'Offline First', 'No Internet Needed'),
-          AppMeta(Icons.offline_bolt, 'Offline First', 'No Internet Needed'),
-          AppMeta(Icons.offline_bolt, 'Offline First', 'No Internet Needed'),
-          AppMeta(Icons.offline_bolt, 'Offline First', 'No Internet Needed'),
-          AppMeta(Icons.offline_bolt, 'Offline First', 'No Internet Needed'),
-          AppMeta(Icons.offline_bolt, 'Offline First', 'No Internet Needed'),
-          AppMeta(Icons.offline_bolt, 'Offline First', 'No Internet Needed'),
-        ],
-      ),
+      _thePitchPipe(),
     ];
+
+AppView _thePocketPiano() {
+  return AppView(
+    title: 'The Pocket Piano',
+    appIcon: 'assets/images/apps/the_pocket_piano/icon.png',
+    appStoreLink:
+        'https://itunes.apple.com/hk/app/the-pocket-piano/id1453992672?mt=8&uo=4',
+    googlePlayLink:
+        'https://play.google.com/store/apps/details?id=com.appleeducate.flutter_piano',
+    screenshots: [
+      'assets/images/apps/the_pocket_piano/1.png',
+      'assets/images/apps/the_pocket_piano/2.png',
+      'assets/images/apps/the_pocket_piano/3.png',
+    ],
+    websiteLink: 'https://pitchpipe.app',
+    meta: [
+      AppMeta(
+        Icons.offline_bolt,
+        'Offline First',
+        'No Internet Needed',
+      ),
+      AppMeta(
+        Icons.music_note,
+        'High Quality',
+        'Best In Class Sound',
+      ),
+      AppMeta(
+        Icons.list,
+        'Song Lists',
+        'Create and Manage Song Lists',
+      ),
+      AppMeta(
+        Icons.search,
+        'Note Search',
+        'Sheet Music Made Easy',
+      ),
+      AppMeta(
+        Icons.settings,
+        'App Settings',
+        'Take Full Control',
+      ),
+      AppMeta(
+        Icons.lightbulb_outline,
+        'Dark Mode',
+        'Everything is Better in the Dark',
+      ),
+    ],
+  );
+}
+
+AppView _thePitchPipe() {
+  return AppView(
+    title: 'The Pitch Pipe',
+    appIcon: 'assets/images/apps/the_pitch_pipe/icon.png',
+    appStoreLink: 'https://apps.apple.com/us/app/the-pitch-pipe/id1244972865',
+    googlePlayLink:
+        'https://play.google.com/store/apps/details?id=com.appleeducate.thepitchpipe&hl=en_US',
+    screenshots: [
+      'assets/images/apps/the_pitch_pipe/1.png',
+      'assets/images/apps/the_pitch_pipe/2.png',
+      'assets/images/apps/the_pitch_pipe/3.png',
+      'assets/images/apps/the_pitch_pipe/4.png',
+      'assets/images/apps/the_pitch_pipe/5.png',
+    ],
+    websiteLink: 'https://pitchpipe.app',
+    meta: [
+      AppMeta(
+        Icons.offline_bolt,
+        'Offline First',
+        'No Internet Needed',
+      ),
+      AppMeta(
+        Icons.music_note,
+        'High Quality',
+        'Best In Class Sound',
+      ),
+      AppMeta(
+        Icons.list,
+        'Song Lists',
+        'Create and Manage Song Lists',
+      ),
+      AppMeta(
+        Icons.search,
+        'Note Search',
+        'Sheet Music Made Easy',
+      ),
+      AppMeta(
+        Icons.settings,
+        'App Settings',
+        'Take Full Control',
+      ),
+      AppMeta(
+        Icons.lightbulb_outline,
+        'Dark Mode',
+        'Everything is Better in the Dark',
+      ),
+    ],
+  );
+}

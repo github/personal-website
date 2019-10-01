@@ -28,7 +28,7 @@ class AppsRender extends StatelessWidget {
                     borderRadius: BorderRadius.circular(20.0),
                     elevation: 12.0,
                     clipBehavior: Clip.hardEdge,
-                    child: Image.network(_app.appIcon),
+                    child: Image.asset(_app.appIcon),
                   )),
                   Padding(
                     padding: const EdgeInsets.only(top: 8.0),

@@ -39,7 +39,7 @@ class _AppDetailsState extends State<AppDetails> {
                 GridView.builder(
                   shrinkWrap: true,
                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: (dimens.maxWidth / 300).ceil(),
+                    crossAxisCount: (dimens.maxWidth / 310).ceil(),
                     childAspectRatio: 16 / 9,
                   ),
                   itemCount: widget.appView.meta.length,
@@ -166,7 +166,7 @@ class _AppDetailsState extends State<AppDetails> {
       viewportFraction: 1.0,
       items: widget.appView.screenshots
           .map((i) => FrameRender(
-                child: Image.network(i),
+                child: Image.asset(i),
               ))
           .toList(),
     );
@@ -239,7 +239,7 @@ class _AppDetailsState extends State<AppDetails> {
         borderRadius: BorderRadius.circular(20.0),
         elevation: 12.0,
         clipBehavior: Clip.hardEdge,
-        child: Image.network(widget.appView.appIcon),
+        child: Image.asset(widget.appView.appIcon),
       ),
     );
   }
