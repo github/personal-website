@@ -1,22 +1,16 @@
----
-layout: post
-title:  "Flutter + Fastlane (One Click Beta)"
-date:   2019-03-11
-categories: [flutter, ios, android]
-tags: [flutter, ci/cd, automation, fastlane, AppStore, Google Play]
----
+# Flutter + Fastlane (One Click Beta)
 
 ## 1. Install Flutter
 
 [Download Flutter](https://flutter.io/get-started/install/)
 
-![flutter](/assets/images/flutter/logo.jpg){:width="75%"}
+![flutter](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Fflutterlogo.jpg?alt=media&token=217b093b-dc7a-4433-8f3b-9f1496b3ade2)
 
 ## 2. Create new Flutter Project
 
 If you are pretty new to Flutter you can check out [this useful guide](https://flutter.io/get-started/codelab/) on how to create a new project step by step. 
 
-![cross-platform](/assets/images/flutter/cross-platform.jpg){:width="75%"}
+![cross-platform](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Fcross-platform.jpg?alt=media&token=790f7aac-a472-41f2-9b0e-f2ebec42c62b)
 
 ## 3. Create App in iTunes Connect
 
@@ -27,7 +21,7 @@ If you are not familiar with iTunes Connect, check out [this article](https://cl
 
 Setting up an app in the Google Play Console can be tricky, make sure to check out the [official reference](https://support.google.com/googleplay/android-developer/answer/113469?hl=en-GB) and [this guide](https://medium.com/mindorks/upload-your-first-android-app-on-play-store-step-by-step-ee0de9123ac0) if you are having trouble. 
 
-![fastlane](/assets/images/flutter/fastlane.jpg){:width="75%"}
+![fastlane](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Ffastlane.jpg?alt=media&token=8b850110-c10b-40e4-aee9-696d9a4557e3)
 
 ## 5. Navigate to Project > ios and Setup Fastlane
 
@@ -118,7 +112,8 @@ Sometimes it will fail and you will need to run:
 
 - For iOS `increment_build_number` set up Generic Versioning by enabling the agvtool. 
 
-![version-bump](/assets/images/flutter/version-bump.gif){:width="75%"}
+![version-bump](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Fversion-bump.gif?alt=media&token=e50e159d-d88a-476b-84fc-cff4e8c6c0a0)
+
 [Source](https://medium.com/xcblog/agvtool-automating-ios-build-and-version-numbers-454cab6f1bbe)
 
 ## 8. Metadata (Optional)
@@ -133,11 +128,11 @@ Sometimes it will fail and you will need to run:
 
 Right now everything is working just by the command line. If you navigate to your project in terminal by adding "cd " and dragging in the project folder and hitting Enter, you can type "cd ios && fastlane beta" or "cd android && fastlane beta" and both will run fastlane.
 
-![terminal](/assets/images/flutter/terminal-drag.gif){:width="75%"}
+![terminal](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Fterminal-drag.gif?alt=media&token=bfd1ece8-93a6-443d-82cd-3522953f6e28)
 
 If you want to be able to submit your app to Google Play and the App Store with one click we will be using [Automator](http://www.applegazette.com/os-x/getting-started-automator-workflows-mac/). Create a new Automator Application. And Search for "Ask for Confirmation" and "Run AppleScript" and drag in.
 
-![fastlane](/assets/images/flutter/automator.jpg){:width="75%"}
+![fastlane](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Fautomator.jpg?alt=media&token=496c8843-7f50-497b-9359-0a4353523eef)
 
 Here is the Script for beta and release. You will need to create a Automator Application for both Beta and Release for each app you want automated. Save it where ever you want and create an Alias to be but on the Desktop.
 
@@ -176,3 +171,6 @@ end run
 ## 10. Try It Out!
 
 Everything should be working now. If you double click on the automator application you should get a confirmation pop up to release the app. The Script will run terminal in the background and you can stay focused on developing awesome flutter applications. If you want to see the progress on fastlane uploading your apps you can click on the terminal icon and the terminal window will reappear. Thanks for reading and please reach out for any questions you have!
+
+
+<flutter_widget src='/demos/test_1' width='400' height='700'/>

@@ -1,10 +1,4 @@
----
-layout: post
-title:  "The Pitch Pipe"
-date:   2019-03-10
-categories: [ios, android, music]
-tags: [pitch pipe, music, sheet music, teachers, education]
----
+# The Pitch Pipe
 
 > Sheet Music Made Easy
 
@@ -39,9 +33,3 @@ Features:
 - Share Button for Song List
 - Today Widget for Sheet Music Help
 - In app rating for a better App Store rating experience
-
-## Download Now
-
-<a href="https://itunes.apple.com/us/app/the-pitch-pipe/id1244972865?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2017-06-12&kind=iossoftware&bubble=apple_music) no-repeat;width:135px;height:40px;"></a>
-
-<a href='https://play.google.com/store/apps/details?id=com.appleeducate.thepitchpipe&hl=en_US&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width="150" /></a>
