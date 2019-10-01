@@ -104,17 +104,30 @@ class _PostDetailsState extends State<PostDetails> {
                   IconButton(
                     icon: Icon(Icons.share),
                     onPressed: () => ShareUtils.share(
-                        title: _post.title,
-                        url: 'https://rodydavis.com/#/blog/${widget.id}',
-                      ),
+                      title: _post.title,
+                      url: 'https://rodydavis.com/#/blog/${widget.id}',
+                    ),
                   ),
                 ],
                 flexibleSpace: FlexibleSpaceBar(
                     centerTitle: true,
                     title: Text(_post.title, style: TextStyle(fontSize: 16.0)),
-                    background: Image.network(
-                      _post.image,
-                      fit: BoxFit.cover,
+                    background: Container(
+                      child: Stack(
+                        children: <Widget>[
+                          Positioned.fill(
+                            child: Image.network(
+                              _post.image,
+                              fit: BoxFit.cover,
+                            ),
+                          ),
+                          Positioned.fill(
+                            child: Container(
+                              color: Colors.black.withOpacity(0.3),
+                            ),
+                          ),
+                        ],
+                      ),
                     )),
               ),
             ];

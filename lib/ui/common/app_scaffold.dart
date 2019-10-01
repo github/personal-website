@@ -71,18 +71,12 @@ class AppScaffold extends StatelessWidget {
                                         onPressed: () => Navigator.pushNamed(
                                             context, AppsScreen.routeName),
                                       ),
-                                      FlatButton(
-                                        child: Text(
-                                            I18n.of(context).projectsTitle),
-                                        onPressed: () => Navigator.pushNamed(
-                                            context, ProjectsScreen.routeName),
-                                      ),
-                                      FlatButton(
-                                        child:
-                                            Text(I18n.of(context).aboutTitle),
-                                        onPressed: () => Navigator.pushNamed(
-                                            context, AboutScreen.routeName),
-                                      ),
+                                      // FlatButton(
+                                      //   child: Text(
+                                      //       I18n.of(context).projectsTitle),
+                                      //   onPressed: () => Navigator.pushNamed(
+                                      //       context, ProjectsScreen.routeName),
+                                      // ),
                                       FlatButton(
                                         child: Text(I18n.of(context).blogTitle),
                                         onPressed: () => Navigator.pushNamed(
@@ -95,6 +89,12 @@ class AppScaffold extends StatelessWidget {
                                               context,
                                               EditPostScreen.routeName),
                                         ),
+                                      FlatButton(
+                                        child:
+                                            Text(I18n.of(context).aboutTitle),
+                                        onPressed: () => Navigator.pushNamed(
+                                            context, AboutScreen.routeName),
+                                      ),
                                     ],
                                   ),
                                 ),

@@ -107,13 +107,13 @@ class _AppDrawerState extends State<AppDrawer> with RouteAware {
                         onTap: () => _navigateTo(context, AppsScreen.routeName),
                         selected: _selectedRoute == AppsScreen.routeName,
                       ),
-                      ListTile(
-                        leading: Icon(Icons.folder),
-                        title: Text(I18n.of(context).projectsTitle),
-                        onTap: () =>
-                            _navigateTo(context, ProjectsScreen.routeName),
-                        selected: _selectedRoute == ProjectsScreen.routeName,
-                      ),
+                      // ListTile(
+                      //   leading: Icon(Icons.folder),
+                      //   title: Text(I18n.of(context).projectsTitle),
+                      //   onTap: () =>
+                      //       _navigateTo(context, ProjectsScreen.routeName),
+                      //   selected: _selectedRoute == ProjectsScreen.routeName,
+                      // ),
                       ListTile(
                         leading: Icon(Icons.person),
                         title: Text(I18n.of(context).aboutTitle),
