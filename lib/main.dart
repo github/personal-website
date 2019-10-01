@@ -22,7 +22,6 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   final _observer = AppRouteObserver();
   final _settingsBloc = SettingsBloc();
-
   final _auth = AuthBloc();
   @override
   void initState() {
@@ -45,6 +44,7 @@ class _MyAppState extends State<MyApp> {
         BlocProvider<AuthBloc>(builder: (_) => _auth),
         BlocProvider<SettingsBloc>(builder: (_) => _settingsBloc),
         BlocProvider<BlogBloc>(builder: (_) => BlogBloc()),
+        BlocProvider<AppsBloc>(builder: (_) => AppsBloc()),
       ],
       child: BlocListener<SettingsBloc, SettingsState>(
         listener: (context, state) {
@@ -56,43 +56,54 @@ class _MyAppState extends State<MyApp> {
           listener: (context, state) {
             if (state is LoggedInState) {
               BlocProvider.of<BlogBloc>(context).dispatch(LoadPosts());
+              BlocProvider.of<AppsBloc>(context).dispatch(CheckApps());
             }
             if (state is LoggedOutState) {
               BlocProvider.of<AuthBloc>(context).dispatch(LoginGuest());
             }
           },
           child: BlocBuilder<SettingsBloc, SettingsState>(
-            builder: (context, settingState) =>
-                BlocBuilder<BlogBloc, BlogState>(
-              builder: (context, blocState) => MaterialApp(
-                debugShowCheckedModeBanner: false,
-                theme: settingState is SettingsReady &&
-                        settingState.settings.darkMode
-                    ? AppTheme.dark
-                    : AppTheme.light,
-                darkTheme: settingState is SettingsReady &&
-                        settingState.settings.useSystemSetting
-                    ? AppTheme.dark
-                    : null,
-                navigatorObservers: [_observer],
-                onGenerateTitle: (context) => I18n.of(context).title,
-                locale: settingState is SettingsReady
-                    ? settingState.settings.locale
-                    : Locale("en", "US"),
-                localizationsDelegates: [
-                  i18n,
-                  GlobalMaterialLocalizations.delegate,
-                  GlobalWidgetsLocalizations.delegate,
-                ],
-                supportedLocales: i18n.supportedLocales,
-                localeResolutionCallback: i18n.resolution(
-                  fallback: settingState is SettingsReady
-                      ? settingState.settings.locale
-                      : Locale("en", "US"),
+            builder: (context, settingState) => Container(
+              child: BlocBuilder<BlogBloc, BlogState>(
+                builder: (context, blocState) => Container(
+                  child: BlocBuilder<AppsBloc, AppsState>(
+                    builder: (context, appsState) => Container(
+                      child: MaterialApp(
+                        debugShowCheckedModeBanner: false,
+                        theme: settingState is SettingsReady &&
+                                settingState.settings.darkMode
+                            ? AppTheme.dark
+                            : AppTheme.light,
+                        darkTheme: settingState is SettingsReady &&
+                                settingState.settings.useSystemSetting
+                            ? AppTheme.dark
+                            : null,
+                        navigatorObservers: [_observer],
+                        onGenerateTitle: (context) => I18n.of(context).title,
+                        locale: settingState is SettingsReady
+                            ? settingState.settings.locale
+                            : Locale("en", "US"),
+                        localizationsDelegates: [
+                          i18n,
+                          GlobalMaterialLocalizations.delegate,
+                          GlobalWidgetsLocalizations.delegate,
+                        ],
+                        supportedLocales: i18n.supportedLocales,
+                        localeResolutionCallback: i18n.resolution(
+                          fallback: settingState is SettingsReady
+                              ? settingState.settings.locale
+                              : Locale("en", "US"),
+                        ),
+                        onUnknownRoute: Router.onUnknownRoute,
+                        initialRoute: Router.initialRoute,
+                        routes: Router.routes(
+                          blog: blocState,
+                          apps: appsState,
+                        ),
+                      ),
+                    ),
+                  ),
                 ),
-                onUnknownRoute: Router.onUnknownRoute,
-                initialRoute: Router.initialRoute,
-                routes: Router.routes(blocState),
               ),
             ),
           ),

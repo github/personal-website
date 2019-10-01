@@ -4,7 +4,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../data/blocs/blocs.dart';
 import '../../generated/i18n.dart';
 import '../common/index.dart';
-import 'post.dart';
 
 class BlogScreen extends StatelessWidget {
   static const String routeName = '/blog';

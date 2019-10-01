@@ -1,12 +1,8 @@
-import 'dart:convert';
-
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../data/blocs/blocs.dart';
-import '../../data/classes/index.dart';
-import '../blog/post.dart';
 import 'blog_card.dart';
 
 class BlogPreviews extends StatelessWidget {

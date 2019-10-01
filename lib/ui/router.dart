@@ -2,7 +2,6 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import '../data/blocs/blocs.dart';
-import '../data/classes/app.dart';
 import 'apps/details.dart';
 import 'apps/screen.dart';
 import 'auth/screen.dart';
@@ -19,7 +18,10 @@ class Router {
         builder: (_) => HomeScreen(),
       );
 
-  static Map<String, WidgetBuilder> routes(BlogState state) {
+  static Map<String, WidgetBuilder> routes({
+    @required BlogState blog,
+    @required AppsState apps,
+  }) {
     return {
       LoginScreen.routeName: (_) => LoginScreen(),
       HomeScreen.routeName: (_) => HomeScreen(),
@@ -29,13 +31,15 @@ class Router {
       BlogScreen.routeName: (_) => BlogScreen(),
       ProjectsScreen.routeName: (_) => ProjectsScreen(),
       // EditPostScreen.routeName: (_) => EditPostScreen(),
-      if (state is PostsReady) ...{
-        for (var post in state.posts) ...{
+      if (blog is PostsReady) ...{
+        for (var post in blog.posts) ...{
           post.slug: (_) => PostDetails(slug: post.slug, post: post),
         },
       },
-      for (var app in allApps) ...{
-        app.routeName: (_) => AppDetails(appView: app),
+      if (apps is AppsReady) ...{
+        for (var app in apps.apps) ...{
+          app.routeName: (_) => AppDetails(appView: app),
+        },
       },
     };
   }

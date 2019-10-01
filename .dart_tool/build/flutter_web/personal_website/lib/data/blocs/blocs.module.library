@@ -1,1 +1,1 @@
-{"isEntrypoint":true,"deps":["personal_website|lib/data/blocs/settings/bloc.dart","personal_website|lib/data/blocs/blog/bloc.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}
+{"isEntrypoint":true,"deps":["personal_website|lib/data/blocs/settings/bloc.dart","personal_website|lib/data/blocs/blog/bloc.dart","personal_website|lib/data/blocs/apps/bloc.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}
