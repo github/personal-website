@@ -27,7 +27,7 @@ class BlogScreen extends StatelessWidget {
             if (state is PostsReady) {
               return GridView.builder(
                 gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                  crossAxisCount: (dimens.maxWidth / 350).ceil(),
+                  crossAxisCount: (dimens.maxWidth / 450).ceil(),
                   childAspectRatio: 9 / 16,
                 ),
                 itemCount: state.posts.length,

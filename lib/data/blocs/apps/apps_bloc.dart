@@ -8,7 +8,10 @@ import '../../classes/app.dart';
 
 class AppsBloc extends Bloc<AppsEvent, AppsState> {
   @override
-  AppsState get initialState => InitialAppsState();
+  AppsState get initialState => AppsReady([
+        _thePitchPipe(),
+        _thePocketPiano(),
+      ]);
 
   @override
   Stream<AppsState> mapEventToState(
@@ -23,7 +26,10 @@ class AppsBloc extends Bloc<AppsEvent, AppsState> {
     List<AppView> _apps = [];
     _apps.add(_thePitchPipe());
     _apps.add(_thePocketPiano());
-    yield AppsReady(_apps);
+    yield AppsReady([
+      _thePitchPipe(),
+      _thePocketPiano(),
+    ]);
   }
 }
 
