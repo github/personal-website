@@ -15,6 +15,7 @@ Need more features that just playing a note?
 Don't know how to read music? 
 
 This app is perfect for:
+
 - Music Teachers and Students
 - Song Leaders
 - A Capella and Band Groups
@@ -24,6 +25,7 @@ This app is perfect for:
 - Instrument Tuning
 
 Features:
+
 - Song List for Pre Selecting Pitches and Scales and arranging them into a list
 - Note Helper for help with Sheet Music 
 - Classic C-C and F-F Pitch Pipes
