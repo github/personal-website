@@ -14,6 +14,5 @@ jobs:
       - uses: subosito/flutter-action@v1
         with:
           channel: 'dev'
-      - run: flutter pub get
       - run: flutter build web
       - run: firebase deploy --token "$FIREBASE_TOKEN"
