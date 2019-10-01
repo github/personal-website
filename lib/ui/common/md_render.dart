@@ -37,7 +37,8 @@ class MarkdownRender extends StatelessWidget {
                       // routes: Router.routes(blocState),
                       routes: {
                         // -- Demos --
-                        TestDemo.routeName: (context) => TestDemo(),
+                        TestDemo.routeName: (_) => TestDemo(),
+                        PianoFinalDemo.routeName: (_) => PianoFinalDemo(),
                       },
                       padding: EdgeInsets.all(8.0),
                       backgroundColor:

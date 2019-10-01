@@ -1,9 +1,9 @@
-define(['dart_sdk', 'packages/personal_website/plugins/fb_firestore/classes/snapshot'], function(dart_sdk, packages__personal_website__plugins__fb_firestore__classes__snapshot) {
+define(['dart_sdk', 'packages/personal_website/data/classes/fb_post'], function(dart_sdk, packages__personal_website__data__classes__fb_post) {
   'use strict';
   const core = dart_sdk.core;
   const dart = dart_sdk.dart;
   const dartx = dart_sdk.dartx;
-  const snapshot = packages__personal_website__plugins__fb_firestore__classes__snapshot.plugins__fb_firestore__classes__snapshot;
+  const fb_post = packages__personal_website__data__classes__fb_post.data__classes__fb_post;
   const blog_state = Object.create(dart.library);
   const CT = Object.create(null);
   blog_state.BlogState = class BlogState extends core.Object {};
@@ -35,12 +35,12 @@ define(['dart_sdk', 'packages/personal_website/plugins/fb_firestore/classes/snap
   dart.setLibraryUri(blog_state.PostsReady, "package:personal_website/data/blocs/blog/blog_state.dart");
   dart.setFieldSignature(blog_state.PostsReady, () => ({
     __proto__: dart.getFields(blog_state.PostsReady.__proto__),
-    posts: dart.finalFieldType(core.List$(snapshot.FbDocumentSnapshot))
+    posts: dart.finalFieldType(core.List$(fb_post.FbPost))
   }));
   dart.trackLibraries("packages/personal_website/data/blocs/blog/blog_state", {
     "package:personal_website/data/blocs/blog/blog_state.dart": blog_state
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["blog_state.dart"],"names":[],"mappings":";;;;;;;;;;;EAI0B;;;;;;EAEgB;;;;IAGT;;;;;;;;IAEf;;EAAM","file":"blog_state.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["blog_state.dart"],"names":[],"mappings":";;;;;;;;;;;EAK0B;;;;;;EAEgB;;;;IAIrB;;;;;;;;IAEH;;EAAM","file":"blog_state.ddc.js"}');
   // Exports:
   return {
     data__blocs__blog__blog_state: blog_state

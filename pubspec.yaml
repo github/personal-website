@@ -33,6 +33,7 @@ dependencies:
   extended_text: ^0.6.6
   extended_text_field: ^0.4.4
   share: ^0.6.2+1
+  tonic: ^0.2.3
 
 dev_dependencies:
   flutter_test:
@@ -48,4 +49,4 @@ flutter:
   assets:
     - assets/pages/
     - assets/images/
-    
+    - assets/posts/

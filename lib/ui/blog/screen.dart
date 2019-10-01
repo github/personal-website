@@ -1,10 +1,7 @@
-import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../data/blocs/blocs.dart';
-import '../../data/classes/index.dart';
 import '../../generated/i18n.dart';
 import '../common/index.dart';
 import 'post.dart';
@@ -25,7 +22,6 @@ class BlogScreen extends StatelessWidget {
       //     ),
       //   ],
       // ),
-
       body: LayoutBuilder(
         builder: (context, dimens) => BlocBuilder<BlogBloc, BlogState>(
           builder: (context, state) {
@@ -37,9 +33,7 @@ class BlogScreen extends StatelessWidget {
                 ),
                 itemCount: state.posts.length,
                 itemBuilder: (context, index) {
-                  final _index = state.posts[index];
-                  final _json = json.decode(json.encode(_index.data));
-                  final post = FbPost.fromJson(_json);
+                  final post = state.posts[index];
                   return Container(
                     padding: const EdgeInsets.all(8.0),
                     child: BlogCard(
@@ -50,8 +44,7 @@ class BlogScreen extends StatelessWidget {
                       title: post.title,
                       image: post.image,
                       description: post.description,
-                      onTap: () => Navigator.pushNamed(
-                          context, PostDetails.routeName(_index.documentId)),
+                      onTap: () => Navigator.pushNamed(context, post.slug),
                     ),
                   );
                 },

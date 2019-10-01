@@ -401,6 +401,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.2.5"
+  tonic:
+    dependency: "direct main"
+    description:
+      name: tonic
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.2.3"
   typed_data:
     dependency: transitive
     description:

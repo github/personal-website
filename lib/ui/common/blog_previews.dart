@@ -25,7 +25,7 @@ class BlogPreviews extends StatelessWidget {
               height: 450.0,
               autoPlay: true,
               items: _posts.map((i) {
-                final post = FbPost.fromJson(json.decode(json.encode(i.data)));
+                final post = i;
                 return Container(
                     width: dimens.maxWidth * 0.8,
                     child: BlogCard(
@@ -36,8 +36,7 @@ class BlogPreviews extends StatelessWidget {
                       title: post.title,
                       image: post.image,
                       description: post.description,
-                      onTap: () => Navigator.pushNamed(
-                          context, PostDetails.routeName(i.documentId)),
+                      onTap: () => Navigator.pushNamed(context, i.slug),
                     ));
               }).toList(),
             );

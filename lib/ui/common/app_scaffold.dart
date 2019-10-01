@@ -82,13 +82,13 @@ class AppScaffold extends StatelessWidget {
                                         onPressed: () => Navigator.pushNamed(
                                             context, BlogScreen.routeName),
                                       ),
-                                      if (admin)
-                                        IconButton(
-                                          icon: Icon(Icons.add),
-                                          onPressed: () => Navigator.pushNamed(
-                                              context,
-                                              EditPostScreen.routeName),
-                                        ),
+                                      // if (admin)
+                                      //   IconButton(
+                                      //     icon: Icon(Icons.add),
+                                      //     onPressed: () => Navigator.pushNamed(
+                                      //         context,
+                                      //         EditPostScreen.routeName),
+                                      //   ),
                                       FlatButton(
                                         child:
                                             Text(I18n.of(context).aboutTitle),

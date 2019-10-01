@@ -10,7 +10,7 @@ class AboutScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return AssetPageRender(
       title: I18n.of(context).aboutTitle,
-      path: 'about',
+      path: 'assets/pages/about',
     );
   }
 }

@@ -1,15 +1,11 @@
-import 'dart:convert';
-
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import '../data/blocs/blocs.dart';
 import '../data/classes/app.dart';
-import '../data/classes/index.dart';
 import 'apps/details.dart';
 import 'apps/screen.dart';
 import 'auth/screen.dart';
-import 'blog/edit_post.dart';
 import 'blog/post.dart';
 import 'blog/screen.dart';
 import 'home/screen.dart';
@@ -32,12 +28,10 @@ class Router {
       AppsScreen.routeName: (_) => AppsScreen(),
       BlogScreen.routeName: (_) => BlogScreen(),
       ProjectsScreen.routeName: (_) => ProjectsScreen(),
-      EditPostScreen.routeName: (_) => EditPostScreen(),
+      // EditPostScreen.routeName: (_) => EditPostScreen(),
       if (state is PostsReady) ...{
         for (var post in state.posts) ...{
-          "/blog/${post.documentId}": (_) => PostDetails(
-              id: post.documentId,
-              post: FbPost.fromJson(json.decode(json.encode(post.data)))),
+          post.slug: (_) => PostDetails(slug: post.slug, post: post),
         },
       },
       for (var app in allApps) ...{

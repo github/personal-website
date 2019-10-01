@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import '../../data/classes/app.dart';
 import '../../data/utils/constants.dart';
 import '../../plugins/url_launcher/url_launcher.dart';
+import '../common/index.dart';
 
 class AppDetails extends StatefulWidget {
   final AppView appView;
@@ -164,15 +165,7 @@ class _AppDetailsState extends State<AppDetails> {
       autoPlay: true,
       viewportFraction: 1.0,
       items: widget.appView.screenshots
-          .map((i) => Container(
-                padding: EdgeInsets.symmetric(
-                  horizontal: 12.0,
-                  vertical: 20.0,
-                ),
-                decoration: BoxDecoration(
-                  color: Colors.black,
-                  borderRadius: BorderRadius.circular(12.0),
-                ),
+          .map((i) => FrameRender(
                 child: Image.network(i),
               ))
           .toList(),

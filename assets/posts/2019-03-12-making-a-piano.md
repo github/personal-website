@@ -8,6 +8,10 @@ This piano uses only `5032` bytes of Dart Code!
 
 Winner of the [Flutter Create Contest](https://flutter.dev/create) and you can see the certificate [here](https://www.credential.net/exbvca0q?key=8be94f32ad2f56882045e013e960fa888afa4edd52edb963c48df351c7d1e443)!
 
+
+<flutter_widget src='/piano_final' width='900' height='500'/>
+
+
 ## What you will learn
 
 * Working with Dark Mode

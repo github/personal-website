@@ -92,13 +92,13 @@ class _AppDrawerState extends State<AppDrawer> with RouteAware {
                         leading: Icon(Icons.import_contacts),
                         title: Text(I18n.of(context).blogTitle),
                         onTap: () => _navigateTo(context, BlogScreen.routeName),
-                        trailing: admin
-                            ? IconButton(
-                                icon: Icon(Icons.add),
-                                onPressed: () => _navigateTo(
-                                    context, EditPostScreen.routeName),
-                              )
-                            : null,
+                        // trailing: admin
+                        //     ? IconButton(
+                        //         icon: Icon(Icons.add),
+                        //         onPressed: () => _navigateTo(
+                        //             context, EditPostScreen.routeName),
+                        //       )
+                        //     : null,
                         selected: _selectedRoute == BlogScreen.routeName,
                       ),
                       ListTile(
