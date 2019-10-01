@@ -106,7 +106,9 @@ class _AppDetailsState extends State<AppDetails> {
     return Row(
       children: <Widget>[
         Container(
-          width: dimens.maxWidth * 0.5,
+          width: widget.appView.landscape
+              ? (dimens.maxWidth * 0.6)
+              : (dimens.maxWidth * 0.5),
           padding: EdgeInsets.all(10.0),
           child: _buildScreenshots(),
         ),
@@ -161,11 +163,14 @@ class _AppDetailsState extends State<AppDetails> {
 
   CarouselSlider _buildScreenshots() {
     return CarouselSlider(
-      height: 700,
+      height: widget.appView.landscape ? 300 : 700,
+      aspectRatio: widget.appView.landscape ? (16 / 9) : (9 / 16),
       autoPlay: true,
       viewportFraction: 1.0,
       items: widget.appView.screenshots
           .map((i) => FrameRender(
+                direction:
+                    widget.appView.landscape ? Axis.horizontal : Axis.vertical,
                 child: Image.asset(i),
               ))
           .toList(),
@@ -184,18 +189,18 @@ class _AppDetailsState extends State<AppDetails> {
       child: Text('Play Store'),
       onPressed: () => UrlUtils.open(widget.appView.googlePlayLink),
     );
-    return InkWell(
-      onTap: () => UrlUtils.open(widget.appView.googlePlayLink,
-          name: widget.appView.title),
-      child: Container(
-        height: 110,
-        padding: const EdgeInsets.all(8.0),
-        child: Image.asset(
-          'assets/images/google_play.png',
-          fit: BoxFit.contain,
-        ),
-      ),
-    );
+    // return InkWell(
+    //   onTap: () => UrlUtils.open(widget.appView.googlePlayLink,
+    //       name: widget.appView.title),
+    //   child: Container(
+    //     height: 110,
+    //     padding: const EdgeInsets.all(8.0),
+    //     child: Image.asset(
+    //       'assets/images/google_play.png',
+    //       fit: BoxFit.contain,
+    //     ),
+    //   ),
+    // );
   }
 
   Widget _buildIosLink() {
@@ -203,18 +208,18 @@ class _AppDetailsState extends State<AppDetails> {
       child: Text('App Store'),
       onPressed: () => UrlUtils.open(widget.appView.appStoreLink),
     );
-    return InkWell(
-      onTap: () => UrlUtils.open(widget.appView.appStoreLink,
-          name: widget.appView.title),
-      child: Container(
-        height: 110,
-        padding: const EdgeInsets.all(8.0),
-        child: Image.asset(
-          'assets/images/app_store.png',
-          fit: BoxFit.contain,
-        ),
-      ),
-    );
+    // return InkWell(
+    //   onTap: () => UrlUtils.open(widget.appView.appStoreLink,
+    //       name: widget.appView.title),
+    //   child: Container(
+    //     height: 110,
+    //     padding: const EdgeInsets.all(8.0),
+    //     child: Image.asset(
+    //       'assets/images/app_store.png',
+    //       fit: BoxFit.contain,
+    //     ),
+    //   ),
+    // );
   }
 
   Container _buildTitle() {

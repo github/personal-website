@@ -29,6 +29,7 @@ class AppsBloc extends Bloc<AppsEvent, AppsState> {
 
 AppView _thePocketPiano() {
   return AppView(
+    landscape: true,
     title: 'The Pocket Piano',
     appIcon: 'assets/images/apps/the_pocket_piano/icon.png',
     appStoreLink:

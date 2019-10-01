@@ -7,6 +7,7 @@ class AppView {
   final String appIcon;
   final List<String> screenshots;
   final List<AppMeta> meta;
+  final bool landscape;
 
   AppView({
     @required this.title,
@@ -16,6 +17,7 @@ class AppView {
     this.websiteLink,
     this.screenshots,
     this.meta,
+    this.landscape = false,
   });
 
   String get routeName => '/apps/' + title.toLowerCase().replaceAll(" ", "_");
