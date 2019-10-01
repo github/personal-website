@@ -61,7 +61,7 @@ class BlogBloc extends Bloc<BlogEvent, BlogState> {
         description: 'Full piano built with Flutter',
         path: 'assets/posts/2019-03-12-making-a-piano',
         image:
-            'https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Fstarter.png?alt=media&token=e5f5692c-c30e-40b8-a6cd-a31f1ab1a898',
+            'https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Ffinal.png?alt=media&token=b9d3f3d0-9bbf-442e-ae98-d08bdf72e765',
         slug: '/blog/2019/03/12/making-a-piano/',
         datePublished: DateTime.now().millisecondsSinceEpoch,
         tags: 'flutter, ios, android',
@@ -84,7 +84,7 @@ class BlogBloc extends Bloc<BlogEvent, BlogState> {
             'Create a Flutter that targets the web and mobile taking full advantage of native plugins',
         path: 'assets/posts/2019-09-06-one-codebase-many-places',
         image:
-            'https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Fstarter_ipad.png?alt=media&token=08e5ddfb-5216-4acd-9732-3c6c2e223adb',
+            'https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Fstarter.png?alt=media&token=e5f5692c-c30e-40b8-a6cd-a31f1ab1a898',
         slug: '/blog/2019/09/06/one-codebase-many-places/',
         datePublished: DateTime.now().millisecondsSinceEpoch,
         tags: 'flutter, ios, android',

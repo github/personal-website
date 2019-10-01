@@ -235,12 +235,6 @@ class _AppDetailsState extends State<AppDetails> {
     return Container(
       width: 200,
       height: 200,
-      // decoration: BoxDecoration(
-      //   borderRadius: BorderRadius.circular(20.0),
-      //   image: DecorationImage(
-      //     image: NetworkImage(widget.appView.appIcon),
-      //   ),
-      // ),
       child: Material(
         borderRadius: BorderRadius.circular(20.0),
         elevation: 12.0,
