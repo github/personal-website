@@ -2,6 +2,7 @@ import 'package:extended_text_field/extended_text_field.dart';
 import 'package:fb_auth/fb_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:personal_website/data/blocs/blocs.dart';
 
 import '../../data/classes/index.dart';
 import '../../generated/i18n.dart';
@@ -70,6 +71,7 @@ class _EditPostScreenState extends State<EditPostScreen> {
                       id: widget?.id);
                   if (mounted) setState(() => _loading = false);
                   Navigator.pop(context, _post);
+                  BlocProvider.of<BlogBloc>(context).dispatch(LoadPosts());
                 }
               },
             ),
