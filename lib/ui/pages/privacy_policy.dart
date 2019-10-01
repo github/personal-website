@@ -10,7 +10,7 @@ class PrivacyPolicy extends StatelessWidget {
   Widget build(BuildContext context) {
     return AssetPageRender(
       title: I18n.of(context).privacy_policy,
-      path: 'privacy_policy',
+      path: 'assets/pages/privacy_policy',
     );
   }
 }

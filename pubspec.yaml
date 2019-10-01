@@ -32,19 +32,23 @@ dependencies:
   flutter_colorpicker: ^0.2.6
   extended_text: ^0.6.6
   extended_text_field: ^0.4.4
+  share: ^0.6.2+1
+  tonic: ^0.2.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+dependency_overrides:
+  flutter_html:
+    git:
+      url: https://github.com/AppleEducate/flutter_html
 
 flutter:
   uses-material-design: true
   assets:
     - assets/pages/
     - assets/images/
-    - assets/images/flutter/
-    - assets/images/flutter_piano/
-    - assets/images/flutter_x/
-    - assets/images/gifs/
-    - assets/images/space-curiosity/
-    - assets/images/the-pitch-pipe/
+    - assets/posts/
+    - assets/images/apps/the_pitch_pipe/
+    - assets/images/apps/the_pocket_piano/

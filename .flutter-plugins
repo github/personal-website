@@ -5,4 +5,5 @@ firebase_auth=/usr/local/Caskroom/flutter/1.2.1/flutter/.pub-cache/hosted/pub.da
 firebase_core=/usr/local/Caskroom/flutter/1.2.1/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.4.0+9/
 firebase_storage=/usr/local/Caskroom/flutter/1.2.1/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage-3.0.6/
 image_picker=/usr/local/Caskroom/flutter/1.2.1/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.6.1+4/
+share=/usr/local/Caskroom/flutter/1.2.1/flutter/.pub-cache/hosted/pub.dartlang.org/share-0.6.2+1/
 url_launcher=/usr/local/Caskroom/flutter/1.2.1/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.1.4/

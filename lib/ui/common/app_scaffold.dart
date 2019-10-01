@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:personal_website/data/blocs/blocs.dart';
+import 'package:personal_website/ui/auth/admin_check.dart';
 
+import '../../data/blocs/blocs.dart';
 import '../../data/utils/constants.dart';
 import '../../generated/i18n.dart';
 import '../apps/screen.dart';
+import '../auth/screen.dart';
 import '../blog/edit_post.dart';
 import '../blog/screen.dart';
 import '../home/screen.dart';
@@ -45,67 +47,83 @@ class AppScaffold extends StatelessWidget {
                       color: Theme.of(context).primaryColor,
                       child: Theme(
                         data: ThemeData.dark(),
-                        child: Row(
-                          children: <Widget>[
-                            Expanded(
-                              child: Row(
-                                children: <Widget>[
-                                  FlatButton(
-                                    child: Icon(Icons.home),
-                                    onPressed: () => Navigator.pushNamed(
-                                        context, HomeScreen.routeName),
+                        child: SafeArea(
+                          child: AdminCheck(
+                            builder: (context, admin) => Row(
+                              children: <Widget>[
+                                Expanded(
+                                  child: Row(
+                                    children: <Widget>[
+                                      Container(
+                                        padding:
+                                            const EdgeInsets.only(left: 12.0),
+                                        child: InkWell(
+                                          child: Icon(Icons.home),
+                                          onTap: () => Navigator.pushNamed(
+                                              context, HomeScreen.routeName),
+                                          onLongPress: () =>
+                                              Navigator.pushNamed(context,
+                                                  LoginScreen.routeName),
+                                        ),
+                                      ),
+                                      FlatButton(
+                                        child: Text(I18n.of(context).appsTitle),
+                                        onPressed: () => Navigator.pushNamed(
+                                            context, AppsScreen.routeName),
+                                      ),
+                                      // FlatButton(
+                                      //   child: Text(
+                                      //       I18n.of(context).projectsTitle),
+                                      //   onPressed: () => Navigator.pushNamed(
+                                      //       context, ProjectsScreen.routeName),
+                                      // ),
+                                      FlatButton(
+                                        child: Text(I18n.of(context).blogTitle),
+                                        onPressed: () => Navigator.pushNamed(
+                                            context, BlogScreen.routeName),
+                                      ),
+                                      // if (admin)
+                                      //   IconButton(
+                                      //     icon: Icon(Icons.add),
+                                      //     onPressed: () => Navigator.pushNamed(
+                                      //         context,
+                                      //         EditPostScreen.routeName),
+                                      //   ),
+                                      FlatButton(
+                                        child:
+                                            Text(I18n.of(context).aboutTitle),
+                                        onPressed: () => Navigator.pushNamed(
+                                            context, AboutScreen.routeName),
+                                      ),
+                                    ],
                                   ),
-                                  FlatButton(
-                                    child: Text(I18n.of(context).appsTitle),
-                                    onPressed: () => Navigator.pushNamed(
-                                        context, AppsScreen.routeName),
-                                  ),
-                                  FlatButton(
-                                    child: Text(I18n.of(context).projectsTitle),
-                                    onPressed: () => Navigator.pushNamed(
-                                        context, ProjectsScreen.routeName),
-                                  ),
-                                  FlatButton(
-                                    child: Text(I18n.of(context).aboutTitle),
-                                    onPressed: () => Navigator.pushNamed(
-                                        context, AboutScreen.routeName),
-                                  ),
-                                  FlatButton(
-                                    child: Text(I18n.of(context).blogTitle),
-                                    onPressed: () => Navigator.pushNamed(
-                                        context, BlogScreen.routeName),
-                                  ),
-                                  IconButton(
-                                    icon: Icon(Icons.add),
-                                    onPressed: () => Navigator.pushNamed(
-                                        context, EditPostScreen.routeName),
-                                  ),
-                                ],
-                              ),
-                            ),
-                            Container(
-                              child: BlocBuilder<SettingsBloc, SettingsState>(
-                                builder: (context, state) {
-                                  if (state is SettingsReady) {
-                                    return IconButton(
-                                      tooltip:
-                                          I18n.of(context).settingsDarkMode,
-                                      icon: state.settings.darkMode
-                                          ? Icon(Icons.brightness_high)
-                                          : Icon(Icons.brightness_low),
-                                      onPressed: () =>
-                                          BlocProvider.of<SettingsBloc>(context)
+                                ),
+                                Container(
+                                  child:
+                                      BlocBuilder<SettingsBloc, SettingsState>(
+                                    builder: (context, state) {
+                                      if (state is SettingsReady) {
+                                        return IconButton(
+                                          tooltip:
+                                              I18n.of(context).settingsDarkMode,
+                                          icon: state.settings.darkMode
+                                              ? Icon(Icons.brightness_high)
+                                              : Icon(Icons.brightness_low),
+                                          onPressed: () => BlocProvider.of<
+                                                  SettingsBloc>(context)
                                               .dispatch(ChangeSettings(state
                                                   .settings
                                                 ..darkMode =
                                                     !state.settings.darkMode)),
-                                    );
-                                  }
-                                  return Container();
-                                },
-                              ),
+                                        );
+                                      }
+                                      return Container();
+                                    },
+                                  ),
+                                ),
+                              ],
                             ),
-                          ],
+                          ),
                         ),
                       ),
                     ),

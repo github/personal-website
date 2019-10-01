@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../common/blog_previews.dart';
+import '../common/index.dart';
 
 class LandingScreen extends StatelessWidget {
   @override
@@ -10,6 +11,10 @@ class LandingScreen extends StatelessWidget {
         Container(
           padding: const EdgeInsets.only(top: 8.0),
           child: BlogPreviews(),
+        ),
+        Container(
+          padding: const EdgeInsets.only(top: 8.0),
+          child: AppsRender(),
         ),
       ],
     );

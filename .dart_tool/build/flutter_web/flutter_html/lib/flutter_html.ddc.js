@@ -94,7 +94,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "shrinkToFit",
         column: 17,
-        line: 71,
+        line: 75,
         file: null
       });
     },
@@ -104,7 +104,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "onLinkTap",
         column: 17,
-        line: 72,
+        line: 76,
         file: null
       });
     },
@@ -114,7 +114,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "renderNewlines",
         column: 17,
-        line: 73,
+        line: 77,
         file: null
       });
     },
@@ -124,7 +124,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "customEdgeInsets",
         column: 17,
-        line: 74,
+        line: 78,
         file: null
       });
     },
@@ -134,7 +134,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "customTextStyle",
         column: 17,
-        line: 75,
+        line: 79,
         file: null
       });
     },
@@ -144,7 +144,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "customTextAlign",
         column: 17,
-        line: 76,
+        line: 80,
         file: null
       });
     },
@@ -154,7 +154,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "html",
         column: 17,
-        line: 77,
+        line: 81,
         file: null
       });
     },
@@ -164,7 +164,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "onImageError",
         column: 17,
-        line: 78,
+        line: 82,
         file: null
       });
     },
@@ -174,7 +174,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "linkStyle",
         column: 17,
-        line: 79,
+        line: 83,
         file: null
       });
     },
@@ -184,7 +184,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "imageProperties",
         column: 17,
-        line: 80,
+        line: 84,
         file: null
       });
     },
@@ -194,7 +194,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "onImageTap",
         column: 17,
-        line: 81,
+        line: 85,
         file: null
       });
     },
@@ -204,12 +204,22 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: null,
         name: "showImages",
         column: 17,
-        line: 82,
+        line: 86,
+        file: null
+      });
+    },
+    get C22() {
+      return C22 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: null,
+        name: "routes",
+        column: 17,
+        line: 87,
         file: null
       });
     },
     get C9() {
-      return C9 = dart.constList([C10 || CT.C10, C11 || CT.C11, C12 || CT.C12, C13 || CT.C13, C14 || CT.C14, C15 || CT.C15, C16 || CT.C16, C17 || CT.C17, C18 || CT.C18, C19 || CT.C19, C20 || CT.C20, C21 || CT.C21], widget_inspector._Location);
+      return C9 = dart.constList([C10 || CT.C10, C11 || CT.C11, C12 || CT.C12, C13 || CT.C13, C14 || CT.C14, C15 || CT.C15, C16 || CT.C16, C17 || CT.C17, C18 || CT.C18, C19 || CT.C19, C20 || CT.C20, C21 || CT.C21, C22 || CT.C22], widget_inspector._Location);
     },
     get C8() {
       return C8 = dart.const({
@@ -217,27 +227,17 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
         parameterLocations: C9 || CT.C9,
         name: null,
         column: 15,
-        line: 70,
+        line: 74,
         file: "org-dartlang-app:///packages/flutter_html/flutter_html.dart"
-      });
-    },
-    get C24() {
-      return C24 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "width",
-        column: 17,
-        line: 85,
-        file: null
       });
     },
     get C25() {
       return C25 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "onLinkTap",
+        name: "width",
         column: 17,
-        line: 86,
+        line: 90,
         file: null
       });
     },
@@ -245,9 +245,9 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
       return C26 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "renderNewlines",
+        name: "onLinkTap",
         column: 17,
-        line: 87,
+        line: 91,
         file: null
       });
     },
@@ -255,9 +255,9 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
       return C27 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "customRender",
+        name: "renderNewlines",
         column: 17,
-        line: 88,
+        line: 92,
         file: null
       });
     },
@@ -265,9 +265,9 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
       return C28 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "html",
+        name: "customRender",
         column: 17,
-        line: 89,
+        line: 93,
         file: null
       });
     },
@@ -275,9 +275,9 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
       return C29 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "blockSpacing",
+        name: "html",
         column: 17,
-        line: 90,
+        line: 94,
         file: null
       });
     },
@@ -285,9 +285,9 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
       return C30 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "onImageError",
+        name: "blockSpacing",
         column: 17,
-        line: 91,
+        line: 95,
         file: null
       });
     },
@@ -295,9 +295,9 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
       return C31 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "linkStyle",
+        name: "onImageError",
         column: 17,
-        line: 92,
+        line: 96,
         file: null
       });
     },
@@ -305,42 +305,42 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
       return C32 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "showImages",
+        name: "linkStyle",
         column: 17,
-        line: 93,
+        line: 97,
         file: null
       });
     },
-    get C23() {
-      return C23 = dart.constList([C24 || CT.C24, C25 || CT.C25, C26 || CT.C26, C27 || CT.C27, C28 || CT.C28, C29 || CT.C29, C30 || CT.C30, C31 || CT.C31, C32 || CT.C32], widget_inspector._Location);
-    },
-    get C22() {
-      return C22 = dart.const({
-        __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C23 || CT.C23,
-        name: null,
-        column: 15,
-        line: 84,
-        file: "org-dartlang-app:///packages/flutter_html/flutter_html.dart"
-      });
-    },
-    get C35() {
-      return C35 = dart.const({
+    get C33() {
+      return C33 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "padding",
-        column: 7,
-        line: 64,
+        name: "showImages",
+        column: 17,
+        line: 98,
         file: null
+      });
+    },
+    get C24() {
+      return C24 = dart.constList([C25 || CT.C25, C26 || CT.C26, C27 || CT.C27, C28 || CT.C28, C29 || CT.C29, C30 || CT.C30, C31 || CT.C31, C32 || CT.C32, C33 || CT.C33], widget_inspector._Location);
+    },
+    get C23() {
+      return C23 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C24 || CT.C24,
+        name: null,
+        column: 15,
+        line: 89,
+        file: "org-dartlang-app:///packages/flutter_html/flutter_html.dart"
       });
     },
     get C36() {
       return C36 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "color",
+        name: "padding",
         column: 7,
-        line: 65,
+        line: 68,
         file: null
       });
     },
@@ -348,9 +348,9 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
       return C37 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "width",
+        name: "color",
         column: 7,
-        line: 66,
+        line: 69,
         file: null
       });
     },
@@ -358,22 +358,32 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
       return C38 = dart.const({
         __proto__: widget_inspector._Location.prototype,
         parameterLocations: null,
-        name: "child",
+        name: "width",
         column: 7,
-        line: 67,
+        line: 70,
         file: null
       });
     },
-    get C34() {
-      return C34 = dart.constList([C35 || CT.C35, C36 || CT.C36, C37 || CT.C37, C38 || CT.C38], widget_inspector._Location);
-    },
-    get C33() {
-      return C33 = dart.const({
+    get C39() {
+      return C39 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C34 || CT.C34,
+        parameterLocations: null,
+        name: "child",
+        column: 7,
+        line: 71,
+        file: null
+      });
+    },
+    get C35() {
+      return C35 = dart.constList([C36 || CT.C36, C37 || CT.C37, C38 || CT.C38, C39 || CT.C39], widget_inspector._Location);
+    },
+    get C34() {
+      return C34 = dart.const({
+        __proto__: widget_inspector._Location.prototype,
+        parameterLocations: C35 || CT.C35,
         name: null,
         column: 12,
-        line: 63,
+        line: 67,
         file: "org-dartlang-app:///packages/flutter_html/flutter_html.dart"
       });
     }
@@ -403,9 +413,9 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
   let C19;
   let C20;
   let C21;
+  let C22;
   let C9;
   let C8;
-  let C24;
   let C25;
   let C26;
   let C27;
@@ -414,14 +424,15 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
   let C30;
   let C31;
   let C32;
+  let C33;
+  let C24;
   let C23;
-  let C22;
-  let C35;
   let C36;
   let C37;
   let C38;
+  let C39;
+  let C35;
   let C34;
-  let C33;
   flutter_html.Html = class Html extends framework.StatelessWidget {
     get data() {
       return this[data$];
@@ -531,15 +542,22 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
     set customTextAlign(value) {
       super.customTextAlign = value;
     }
+    get routes() {
+      return this[routes$];
+    }
+    set routes(value) {
+      super.routes = value;
+    }
     build(context) {
       let t0;
       let width = dart.test(this.shrinkToFit) ? null : media_query.MediaQuery.of(context).size.width;
-      return new container.Container.new({padding: this.padding, color: this.backgroundColor, width: width, child: text.DefaultTextStyle.merge({style: (t0 = this.defaultTextStyle, t0 == null ? text.DefaultTextStyle.of(context).style : t0), child: dart.test(this.useRichText) ? new rich_text_parser.HtmlRichTextParser.new({shrinkToFit: this.shrinkToFit, onLinkTap: this.onLinkTap, renderNewlines: this.renderNewlines, customEdgeInsets: this.customEdgeInsets, customTextStyle: this.customTextStyle, customTextAlign: this.customTextAlign, html: this.data, onImageError: this.onImageError, linkStyle: this.linkStyle, imageProperties: this.imageProperties, onImageTap: this.onImageTap, showImages: this.showImages, $creationLocationd_0dea112b090073317d4: C8 || CT.C8}) : new html_parser.HtmlOldParser.new({width: width, onLinkTap: this.onLinkTap, renderNewlines: this.renderNewlines, customRender: this.customRender, html: this.data, blockSpacing: this.blockSpacing, onImageError: this.onImageError, linkStyle: this.linkStyle, showImages: this.showImages, $creationLocationd_0dea112b090073317d4: C22 || CT.C22})}), $creationLocationd_0dea112b090073317d4: C33 || CT.C33});
+      return new container.Container.new({padding: this.padding, color: this.backgroundColor, width: width, child: text.DefaultTextStyle.merge({style: (t0 = this.defaultTextStyle, t0 == null ? text.DefaultTextStyle.of(context).style : t0), child: dart.test(this.useRichText) ? new rich_text_parser.HtmlRichTextParser.new({shrinkToFit: this.shrinkToFit, onLinkTap: this.onLinkTap, renderNewlines: this.renderNewlines, customEdgeInsets: this.customEdgeInsets, customTextStyle: this.customTextStyle, customTextAlign: this.customTextAlign, html: this.data, onImageError: this.onImageError, linkStyle: this.linkStyle, imageProperties: this.imageProperties, onImageTap: this.onImageTap, showImages: this.showImages, routes: this.routes, $creationLocationd_0dea112b090073317d4: C8 || CT.C8}) : new html_parser.HtmlOldParser.new({width: width, onLinkTap: this.onLinkTap, renderNewlines: this.renderNewlines, customRender: this.customRender, html: this.data, blockSpacing: this.blockSpacing, onImageError: this.onImageError, linkStyle: this.linkStyle, showImages: this.showImages, $creationLocationd_0dea112b090073317d4: C23 || CT.C23})}), $creationLocationd_0dea112b090073317d4: C34 || CT.C34});
     }
   };
   (flutter_html.Html.new = function(opts) {
     let key = opts && 'key' in opts ? opts.key : null;
     let data = opts && 'data' in opts ? opts.data : null;
+    let routes = opts && 'routes' in opts ? opts.routes : null;
     let padding = opts && 'padding' in opts ? opts.padding : null;
     let backgroundColor = opts && 'backgroundColor' in opts ? opts.backgroundColor : null;
     let defaultTextStyle = opts && 'defaultTextStyle' in opts ? opts.defaultTextStyle : null;
@@ -559,6 +577,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
     let showImages = opts && 'showImages' in opts ? opts.showImages : true;
     let $creationLocationd_0dea112b090073317d4 = opts && '$creationLocationd_0dea112b090073317d4' in opts ? opts.$creationLocationd_0dea112b090073317d4 : null;
     this[data$] = data;
+    this[routes$] = routes;
     this[padding$] = padding;
     this[backgroundColor$] = backgroundColor;
     this[defaultTextStyle$] = defaultTextStyle;
@@ -598,6 +617,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
   const customEdgeInsets$ = Symbol("Html.customEdgeInsets");
   const customTextStyle$ = Symbol("Html.customTextStyle");
   const customTextAlign$ = Symbol("Html.customTextAlign");
+  const routes$ = Symbol("Html.routes");
   dart.setMethodSignature(flutter_html.Html, () => ({
     __proto__: dart.getMethods(flutter_html.Html.__proto__),
     build: dart.fnType(framework.Widget, [framework.BuildContext])
@@ -622,12 +642,13 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web', 'package
     customRender: dart.finalFieldType(dart.fnType(framework.Widget, [dom.Node, core.List$(framework.Widget)])),
     customEdgeInsets: dart.finalFieldType(dart.fnType(edge_insets.EdgeInsets, [dom.Node])),
     customTextStyle: dart.finalFieldType(dart.fnType(text_style.TextStyle, [dom.Node, text_style.TextStyle])),
-    customTextAlign: dart.finalFieldType(dart.fnType(ui.TextAlign, [dom.Element]))
+    customTextAlign: dart.finalFieldType(dart.fnType(ui.TextAlign, [dom.Element])),
+    routes: dart.finalFieldType(core.Map$(core.String, dart.fnType(framework.Widget, [framework.BuildContext])))
   }));
   dart.trackLibraries("packages/flutter_html/flutter_html", {
     "package:flutter_html/flutter_html.dart": flutter_html
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["flutter_html.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IAkCe;;;;;;IACY;;;;;;IACb;;;;;;IACI;;;;;;IACA;;;;;;IACL;;;;;;IACE;;;;;;IACF;;;;;;IACc;;;;;;IACT;;;;;;IACL;;;;;;IAGW;;;;;;IACL;;;;;;IACN;;;;;;IAIQ;;;;;;IACI;;;;;;IACD;;;;;;IACA;;;;;;UAGI;;AACX,4BAAQ,oBAAc,OAAkB,AAAY,AAAK,0BAAd,OAAO;AAE/D,YAAO,uCACI,qBACF,6BACA,KAAK,SACY,qCACE,KAAjB,6BAAiB,OAAoB,AAAY,yBAAT,OAAO,gCAC9C,oBACF,0DACe,6BACF,gCACK,uCACE,wCACD,uCACA,4BACX,yBACQ,8BACH,iCACM,kCACL,6BACA,yEAEd,0CACS,KAAK,aACD,gCACK,mCACF,yBACR,yBACQ,iCACA,8BACH,4BACC;IAI1B;;;QAtFM;QACW;QACV;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QAIA;QACA;QACA;QACA;;IApBU;IACV;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IAIA;IACA;IACA;IACA;AACF,qDAAW,GAAG;;EAAC","file":"flutter_html.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["flutter_html.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IAmCe;;;;;;IACY;;;;;;IACb;;;;;;IACI;;;;;;IACA;;;;;;IACL;;;;;;IACE;;;;;;IACF;;;;;;IACc;;;;;;IACT;;;;;;IACL;;;;;;IAGW;;;;;;IACL;;;;;;IACN;;;;;;IAIQ;;;;;;IACI;;;;;;IACD;;;;;;IACA;;;;;;IAGW;;;;;;UAGP;;AACX,4BAAQ,oBAAc,OAAkB,AAAY,AAAK,0BAAd,OAAO;AAE/D,YAAO,uCACI,qBACF,6BACA,KAAK,SACY,qCACE,KAAjB,6BAAiB,OAAoB,AAAY,yBAAT,OAAO,gCAC9C,oBACF,0DACe,6BACF,gCACK,uCACE,wCACD,uCACA,4BACX,yBACQ,8BACH,iCACM,kCACL,6BACA,yBACJ,qEAEV,0CACS,KAAK,aACD,gCACK,mCACF,yBACR,yBACQ,iCACA,8BACH,4BACC;IAI1B;;;QA3FM;QACW;QACA;QACV;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QAIA;QACA;QACA;QACA;;IArBU;IACA;IACV;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IAIA;IACA;IACA;IACA;AACF,qDAAW,GAAG;;EAAC","file":"flutter_html.ddc.js"}');
   // Exports:
   return {
     flutter_html: flutter_html

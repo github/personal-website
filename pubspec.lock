@@ -191,9 +191,11 @@ packages:
   flutter_html:
     dependency: "direct main"
     description:
-      name: flutter_html
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "743d81ea48abbbb5003038b93d75dab45bde9493"
+      url: "https://github.com/AppleEducate/flutter_html"
+    source: git
     version: "0.11.0"
   flutter_localizations:
     dependency: "direct main"
@@ -218,7 +220,7 @@ packages:
       name: html
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.14.0+2"
+    version: "0.14.0+3"
   http:
     dependency: transitive
     description:
@@ -345,6 +347,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.22.2"
+  share:
+    dependency: "direct main"
+    description:
+      name: share
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.6.2+1"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -392,6 +401,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.2.5"
+  tonic:
+    dependency: "direct main"
+    description:
+      name: tonic
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.2.3"
   typed_data:
     dependency: transitive
     description:
@@ -450,4 +466,4 @@ packages:
     version: "0.1.1"
 sdks:
   dart: ">=2.4.0 <3.0.0"
-  flutter: ">=1.5.0 <2.0.0"
+  flutter: ">=1.6.0 <2.0.0"

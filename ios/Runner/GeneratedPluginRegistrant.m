@@ -10,6 +10,7 @@
 #import <firebase_core/FirebaseCorePlugin.h>
 #import <firebase_storage/FirebaseStoragePlugin.h>
 #import <image_picker/ImagePickerPlugin.h>
+#import <share/SharePlugin.h>
 #import <url_launcher/UrlLauncherPlugin.h>
 
 @implementation GeneratedPluginRegistrant
@@ -22,6 +23,7 @@
   [FLTFirebaseCorePlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTFirebaseCorePlugin"]];
   [FLTFirebaseStoragePlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTFirebaseStoragePlugin"]];
   [FLTImagePickerPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTImagePickerPlugin"]];
+  [FLTSharePlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTSharePlugin"]];
   [FLTUrlLauncherPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTUrlLauncherPlugin"]];
 }
 

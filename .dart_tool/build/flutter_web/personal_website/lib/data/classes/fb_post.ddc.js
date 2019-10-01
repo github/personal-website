@@ -9,6 +9,12 @@ define(['dart_sdk'], function(dart_sdk) {
   let IdentityMapOfString$dynamic = () => (IdentityMapOfString$dynamic = dart.constFn(_js_helper.IdentityMap$(core.String, dart.dynamic)))();
   const CT = Object.create(null);
   fb_post.FbPost = class FbPost extends core.Object {
+    get slug() {
+      return this[slug$];
+    }
+    set slug(value) {
+      this[slug$] = value;
+    }
     get author() {
       return this[author$];
     }
@@ -45,44 +51,47 @@ define(['dart_sdk'], function(dart_sdk) {
     set datePublished(value) {
       this[datePublished$] = value;
     }
-    get markdown() {
-      return this[markdown$];
+    get path() {
+      return this[path$];
     }
-    set markdown(value) {
-      this[markdown$] = value;
+    set path(value) {
+      this[path$] = value;
     }
     static fromJson(json) {
-      return new fb_post.FbPost.new({author: core.String._check(json[$_get]("author")), image: core.String._check(json[$_get]("image")), tags: core.String._check(json[$_get]("tags")), title: core.String._check(json[$_get]("title")), description: core.String._check(json[$_get]("description")), datePublished: core.int._check(json[$_get]("date_published")), markdown: core.String._check(json[$_get]("markdown"))});
+      return new fb_post.FbPost.new({slug: core.String._check(json[$_get]("slug")), author: core.String._check(json[$_get]("author")), image: core.String._check(json[$_get]("image")), tags: core.String._check(json[$_get]("tags")), title: core.String._check(json[$_get]("title")), description: core.String._check(json[$_get]("description")), datePublished: core.int._check(json[$_get]("date_published")), path: core.String._check(json[$_get]("path"))});
     }
     toJson() {
-      return new (IdentityMapOfString$dynamic()).from(["author", this.author, "image", this.image, "tags", this.tags, "title", this.title, "description", this.description, "date_published", this.datePublished, "markdown", this.markdown]);
+      return new (IdentityMapOfString$dynamic()).from(["slug", this.slug, "author", this.author, "image", this.image, "tags", this.tags, "title", this.title, "description", this.description, "date_published", this.datePublished, "path", this.path]);
     }
   };
   (fb_post.FbPost.new = function(opts) {
+    let slug = opts && 'slug' in opts ? opts.slug : null;
     let author = opts && 'author' in opts ? opts.author : null;
     let image = opts && 'image' in opts ? opts.image : null;
     let tags = opts && 'tags' in opts ? opts.tags : null;
     let title = opts && 'title' in opts ? opts.title : null;
     let description = opts && 'description' in opts ? opts.description : null;
     let datePublished = opts && 'datePublished' in opts ? opts.datePublished : null;
-    let markdown = opts && 'markdown' in opts ? opts.markdown : null;
+    let path = opts && 'path' in opts ? opts.path : null;
+    this[slug$] = slug;
     this[author$] = author;
     this[image$] = image;
     this[tags$] = tags;
     this[title$] = title;
     this[description$] = description;
     this[datePublished$] = datePublished;
-    this[markdown$] = markdown;
+    this[path$] = path;
     ;
   }).prototype = fb_post.FbPost.prototype;
   dart.addTypeTests(fb_post.FbPost);
+  const slug$ = Symbol("FbPost.slug");
   const author$ = Symbol("FbPost.author");
   const image$ = Symbol("FbPost.image");
   const tags$ = Symbol("FbPost.tags");
   const title$ = Symbol("FbPost.title");
   const description$ = Symbol("FbPost.description");
   const datePublished$ = Symbol("FbPost.datePublished");
-  const markdown$ = Symbol("FbPost.markdown");
+  const path$ = Symbol("FbPost.path");
   dart.setMethodSignature(fb_post.FbPost, () => ({
     __proto__: dart.getMethods(fb_post.FbPost.__proto__),
     toJson: dart.fnType(core.Map$(core.String, dart.dynamic), [])
@@ -90,18 +99,19 @@ define(['dart_sdk'], function(dart_sdk) {
   dart.setLibraryUri(fb_post.FbPost, "package:personal_website/data/classes/fb_post.dart");
   dart.setFieldSignature(fb_post.FbPost, () => ({
     __proto__: dart.getFields(fb_post.FbPost.__proto__),
+    slug: dart.fieldType(core.String),
     author: dart.fieldType(core.String),
     image: dart.fieldType(core.String),
     tags: dart.fieldType(core.String),
     title: dart.fieldType(core.String),
     description: dart.fieldType(core.String),
     datePublished: dart.fieldType(core.int),
-    markdown: dart.fieldType(core.String)
+    path: dart.fieldType(core.String)
   }));
   dart.trackLibraries("packages/personal_website/data/classes/fb_post", {
     "package:personal_website/data/classes/fb_post.dart": fb_post
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["fb_post.dart"],"names":[],"mappings":";;;;;;;;;;;IACS;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACH;;;;;;IACG;;;;;;oBAYsC;AAAS,gEACxC,AAAI,IAAA,QAAC,sCACN,AAAI,IAAA,QAAC,oCACN,AAAI,IAAA,QAAC,oCACJ,AAAI,IAAA,QAAC,2CACC,AAAI,IAAA,QAAC,gDACH,AAAI,IAAA,QAAC,iDACV,AAAI,IAAA,QAAC;IAChB;;AAE4B,uDAC3B,UAAU,aACV,SAAS,YACT,QAAQ,WACR,SAAS,YACT,eAAe,kBACf,kBAAkB,oBAClB,YAAY;IACb;;;QA3BE;QACA;QACA;QACA;QACA;QACA;QACA;IANA;IACA;IACA;IACA;IACA;IACA;IACA;;EACL","file":"fb_post.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["fb_post.dart"],"names":[],"mappings":";;;;;;;;;;;IAGS;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACH;;;;;;IAEG;;;;;;oBAasC;AAAS,8DAC1C,AAAI,IAAA,QAAC,qCACH,AAAI,IAAA,QAAC,sCACN,AAAI,IAAA,QAAC,oCACN,AAAI,IAAA,QAAC,oCACJ,AAAI,IAAA,QAAC,2CACC,AAAI,IAAA,QAAC,gDACH,AAAI,IAAA,QAAC,6CAEd,AAAI,IAAA,QAAC;IACZ;;AAE4B,uDAC3B,QAAQ,WACR,UAAU,aACV,SAAS,YACT,QAAQ,WACR,SAAS,YACT,eAAe,kBACf,kBAAkB,oBAElB,QAAQ;IACT;;;QAhCY;QACA;QACA;QACA;QACA;QACA;QACA;QACA;IAPA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;;EACf","file":"fb_post.ddc.js"}');
   // Exports:
   return {
     data__classes__fb_post: fb_post

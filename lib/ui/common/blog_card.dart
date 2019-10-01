@@ -94,7 +94,7 @@ class BlogCard extends StatelessWidget {
                     ),
                   ),
                 ),
-                Container(height: 70),
+                Container(height: 30),
               ],
             ),
           ),
