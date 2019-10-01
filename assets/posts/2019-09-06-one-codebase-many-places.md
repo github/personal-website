@@ -1,11 +1,3 @@
----
-layout: post
-title:  "How to use plugins from mobile and web in a Flutter project"
-date:   2019-09-06
-categories: [flutter, ios, android]
-tags: [flutter, ios, android, crossplatform, web]
----
-
 # How to build a native cross platform project with Flutter
 
 You can find the final project [here](https://github.com/AppleEducate/flutter_x/tree/finish).
@@ -13,7 +5,7 @@ You can find the final project [here](https://github.com/AppleEducate/flutter_x/
 Up to now you have been able to create projects with Flutter that run on iOS/Android, Web and Desktop but only sharing pure dart plugins.
 Flutter launched Flutter for web at Google I/O and was a temporary fork that required you to change imports from `import 'package:flutter/material.dart';` to `import 'package:flutter_web/material.dart';`. As you can image this was really difficult for a code base as you had to create a fork and change the imports. This also meant that you could not import any package that needed on a path or depended on flutter. The time as come and the merge is complete. Now you no longer need to change the imports!
 
-![icon](/assets/images/gifs/yes_yes_yes.gif){:width="75%"}
+![icon](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Fyes_yes_yes.gif?alt=media&token=8de14c62-733e-48ba-86e3-0085fc668c79)
 
 You can use any plugin now, have a debugger, create new flutter projects with the web folder added, web plugins, and so much more..
 
@@ -25,17 +17,17 @@ You will need to be on the latest flutter for this to work.
 
 [Download Flutter](https://flutter.io/get-started/install/)
 
-![flutter](/assets/images/flutter/logo.jpg){:width="75%"}
+![flutter](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Fflutterlogo.jpg?alt=media&token=217b093b-dc7a-4433-8f3b-9f1496b3ade2)
 
 ## 2. Create new Flutter Project
 
 If you are pretty new to Flutter you can check out [this useful guide](https://flutter.io/get-started/codelab/) on how to create a new project step by step. 
 
-![cross-platform](/assets/images/flutter/cross-platform.jpg){:width="75%"}
+![cross-platform](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Fcross-platform.jpg?alt=media&token=790f7aac-a472-41f2-9b0e-f2ebec42c62b)
 
 Create a new project named `flutter_x` and it should look like this:
 
-![flutter](/assets/images/flutter_x/new_project.png){:width="75%"}
+![flutter](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Fnew_project.png?alt=media&token=d4684c46-7b93-43ae-98b4-29ceb82a2d43)
 
 You can also down the starter project [here](https://github.com/AppleEducate/flutter_x/tree/starter).
 
@@ -159,11 +151,11 @@ class _MyHomePageState extends State<MyHomePage> {
 
 Just to make sure everything is working go ahead and run the project on iOS/Android.
 
-![flutter](/assets/images/flutter_x/starter_ipad.png){:width="75%"}
+![flutter](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Fstarter_ipad.png?alt=media&token=08e5ddfb-5216-4acd-9732-3c6c2e223adb)
 
 You should have the counter application running and working correctly. Now quit and run on Chrome. It should be listed as a device. You can also run from the command line `flutter run -d chrome`.
 
-![flutter](/assets/images/flutter_x/starter_web.png){:width="75%"}
+![flutter](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Fstarter_web.png?alt=media&token=09caabca-c92e-4ba0-9c87-93b06cf66a73)
 
 >You do not get hot reload yet on web so be aware of that.
 
@@ -187,7 +179,7 @@ You should have the counter application running and working correctly. Now quit 
     /plugins
 ```
 
-![flutter](/assets/images/flutter_x/structure.png){:width="75%"}
+![flutter](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Fstructure.png?alt=media&token=de6b4797-ff2e-4bd9-b3ae-dd45c3678c0e)
 
 Your project should now look like this.
 
@@ -235,7 +227,7 @@ flutter:
 
 By default if you were to check if the device was mobile or web you will get an error at compile time when trying to import a plugin that is not meant for the platform. To get around this we will use dynamic imports.
 
-![flutter](/assets/images/flutter_x/url_launcher.png){:width="75%"}
+![flutter](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Furl_launcher.png?alt=media&token=745b17a7-a6d0-412e-a700-77f0e55d1742)
 
 Create a url_launcher folder and file `url_launcher.dart`, `mobile.dart`, `web.dart`, `unsupported.dart` inside the plugins folder.
 
@@ -354,7 +346,7 @@ onPressed: () {
 
 Now when you go to import the `UrlUtils` it is important to import the correct URI.
 
-![flutter](/assets/images/flutter_x/import.png){:width="75%"}
+![flutter](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Fimport.png?alt=media&token=dfabe99e-4080-4e98-916e-27eabf27c1c6)
 
 Make sure to import `import 'package:flutter_x/plugins/url_launcher/url_launcher.dart';` only.
 
@@ -405,25 +397,25 @@ class _MyHomePageState extends State<MyHomePage> {
 
 Your app on the web should look like this:
 
-![flutter](/assets/images/flutter_x/web_1.png){:width="75%"}
+![flutter](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Fweb_1.png?alt=media&token=acada5da-7a52-41e4-9825-8690c9f2df5d)
 
 And when you tap the button..
 
-![flutter](/assets/images/flutter_x/web_2.png){:width="75%"}
+![flutter](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Fweb_2.png?alt=media&token=4df94af7-d8a9-4317-a8c8-043e2d865a59)
 
 And when you run it on iOS/Android it should look like this:
 
-![flutter](/assets/images/flutter_x/mobile_1.png){:width="75%"}
+![flutter](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Fmobile_1.png?alt=media&token=6d451f0a-1457-4316-b712-f5fcebd1379c)
 
 And when you tap the button..
 
-![flutter](/assets/images/flutter_x/mobile_2.png){:width="75%"}
+![flutter](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Fmobile_2.png?alt=media&token=c17a1215-5078-4377-992f-7ddf6569acb2)
 
 ## Conclusion
 
 Congratulations! You made it :)
 
-![flutter](/assets/images/gifs/congratulations.gif){:width="75%"}
+![flutter](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Fcongratulations.gif?alt=media&token=62b62319-478b-4f89-87e1-73b5f414a3e5)
 
 Here is the final project located [here](https://github.com/AppleEducate/flutter_x/tree/finish).
 
