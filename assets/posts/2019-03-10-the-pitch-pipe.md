@@ -8,11 +8,11 @@ tags: [pitch pipe, music, sheet music, teachers, education]
 
 > Sheet Music Made Easy
 
-![app-icon](/assets/images/the-pitch-pipe/icon.png){:width="75%"}
+![app-icon](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Fpitchpipe.png?alt=media&token=c6f94501-643e-45fb-b724-232f85edf5d1)
 
-Looking for the perfect pitch pipe companion? 
-Need more features that just playing a note? 
-Don't know how to read music? 
+Looking for the perfect pitch pipe companion?
+Need more features that just playing a note?
+Don't know how to read music?
 
 This app is perfect for:
 
