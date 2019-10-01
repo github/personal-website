@@ -1,9 +1,4 @@
----
-layout: post
-title:  "Building A Piano with Flutter"
-date:   2019-03-12
-categories: [flutter, music, ios, android]
----
+# Building A Piano with Flutter
 
 ## TLDR
 
@@ -37,7 +32,7 @@ You can either create a new project with Android Studio or VSCode using the GUI 
 
 Now that you have your project created it should look like this.
 
-![app-icon](/assets/images/flutter_piano/starter.png){:width="75%"}
+![app-icon](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Fstarter.png?alt=media&token=e5f5692c-c30e-40b8-a6cd-a31f1ab1a898)
 
 Let's start by adding some dependencies to our `pubspec.yaml'
 
@@ -119,18 +114,18 @@ navigate to `/ios/Runner/info.plist` and change:
 
 Now we can start with the UI! When you run the application now it should start in landscape!
 
-![landscape](/assets/images/flutter_piano/landscape.png){:width="75%"}
+![landscape](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Flandscape.png?alt=media&token=8a6a285a-fd07-4ee2-9845-250031ce5113)
 
 
 ## Step 1
 
 To make it eaiser to read lets remove the comments. Use "find and replace" and search for `\/\/.*`
 
-![comments](/assets/images/flutter_piano/comments.png){:width="75%"}
+![comments](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Fcomments.png?alt=media&token=bb0a02ad-37dd-451b-9878-5c353cab9acf)
 
 choose the "select all occurrances" button and hit `backspace` to delete.
 
-![select all](/assets/images/flutter_piano/selectall.png){:width="75%"}
+![select all](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Fselectall.png?alt=media&token=8d12c59a-d07f-46c3-a8cc-2e31b4bd67bf)
 
 Hit save and you should see the code format for you.
 
@@ -257,7 +252,7 @@ class MyApp extends StatelessWidget {
 
 Change `MyApp` to a `StatefulWidget`. You can do this quickly by selecting `MyApp` and choose "Convert to StatefulWidget" with the helper.
 
-![convert](/assets/images/flutter_piano/convert.png){:width="75%"}
+![convert](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Fconvert.png?alt=media&token=1d7569a2-caa3-45d6-b63a-33393ce34261)
 
 It should look like this now:
 
@@ -333,7 +328,7 @@ class _MyAppState extends State<MyApp> {
 
 Now build and run your app, it should look like this.
 
-![dark-mode](/assets/images/flutter_piano/darkmode.png){:width="75%"}
+![dark-mode](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Fdarkmode.png?alt=media&token=5472334f-15de-4743-b32e-0102f9a16a1d)
 
 
 ## Step 5
@@ -421,7 +416,7 @@ Lets start by adding a `Drawer` with a `ListView` to our `Scaffold`.
 
 You should now get a menu icon that when you press looks like this.
 
-![menu](/assets/images/flutter_piano/menu.png){:width="75%"}
+![menu](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Fmenu.png?alt=media&token=e3e8b229-f33a-43f2-afb0-c32119088181)
 
 
 Now lets add a ListView that scrolls Horizontially to the body of the `Scaffold`
@@ -625,7 +620,7 @@ const BorderRadiusGeometry borderRadius = BorderRadius.only(
 
 Your app should look like this:
 
-![keys](/assets/images/flutter_piano/keys.png){:width="75%"}
+![keys](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Fkeys.png?alt=media&token=3d1ffc6a-f53b-4315-95e1-5648d4aea773)
 
 Your code should look like this:
 
@@ -847,7 +842,7 @@ The complete function should look like this:
 
 Now when you run the app it should look like this:
 
-![labels](/assets/images/flutter_piano/labels.png){:width="75%"}
+![labels](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Flabels.png?alt=media&token=5008acee-ee65-4360-a831-686963e3c395)
 
 Almost there! Now let's give our user some control.
 
@@ -879,7 +874,7 @@ Divider(),
 
 Now you should see this:
 
-![settings](/assets/images/flutter_piano/settings.png){:width="75%"}
+![settings](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Fsettings.png?alt=media&token=a0485ead-c63e-43f9-b240-567d2772537d)
 
 
 ## Step 11
@@ -892,7 +887,7 @@ Now when we start the app it should co to C4.
 
 The final App should look like this:
 
-![final](/assets/images/flutter_piano/final.png){:width="75%"}
+![final](https://firebasestorage.googleapis.com/v0/b/website-b7fa0.appspot.com/o/images%2Fm3Fw4A56wih07gQ3sQW9rDXHKA13%2Ffinal.png?alt=media&token=b9d3f3d0-9bbf-442e-ae98-d08bdf72e765)
 
 The final code should look like this:
 
@@ -1053,4 +1048,4 @@ Now we have a fully functional piano that you can play with and enjoy on iOS and
 
 I was really inspired when creating this for the [Flutter Create](https://flutter.dev/create) contest.
 
-Hope you learned something, if you have any questions you can always read out to me. This is an open source piano and would love PRs on the main project [here](https://github.com/AppleEducate/flutter_piano)!
+Hope you learned something, if you have any questions you can always read out to me. This is an open source piano and would love PRs on the main project [here](https://github.com/AppleEducate/flutter_piano) and an online [demo](https://pocketpiano.app)!
