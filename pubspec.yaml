@@ -61,6 +61,14 @@ flutter:
   assets:
     - assets/pages/
     - assets/images/
+    # assets-generator-begin
+    # assets/images/*
+    - assets/images/.DS_Store
+    - assets/images/app_store.png
+    - assets/images/favicon.ico
+    - assets/images/google_play.png
+    - assets/images/welcome.jpeg
+    # assets-generator-end
     - assets/posts/
     - assets/images/apps/the_pitch_pipe/
     - assets/images/apps/the_pocket_piano/

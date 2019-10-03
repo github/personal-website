@@ -55,6 +55,7 @@ class AppScaffold extends StatelessWidget {
                                 ),
                                 Spacer(),
                                 Container(
+                                  margin: EdgeInsets.symmetric(horizontal: 8.0),
                                   child: Row(
                                     children: <Widget>[
                                       MenuButtonText(
