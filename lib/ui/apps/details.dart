@@ -51,7 +51,7 @@ class _AppDetailsState extends State<AppDetails> {
                         child: ListTile(
                           leading: Icon(
                             _item.iconData,
-                            color: Theme.of(context).primaryColor,
+                            // color: Theme.of(context).primaryColor,
                           ),
                           title: Text(
                             _item.title,
@@ -189,18 +189,6 @@ class _AppDetailsState extends State<AppDetails> {
       child: Text('Play Store'),
       onPressed: () => UrlUtils.open(widget.appView.googlePlayLink),
     );
-    // return InkWell(
-    //   onTap: () => UrlUtils.open(widget.appView.googlePlayLink,
-    //       name: widget.appView.title),
-    //   child: Container(
-    //     height: 110,
-    //     padding: const EdgeInsets.all(8.0),
-    //     child: Image.asset(
-    //       'assets/images/google_play.png',
-    //       fit: BoxFit.contain,
-    //     ),
-    //   ),
-    // );
   }
 
   Widget _buildIosLink() {
@@ -208,18 +196,6 @@ class _AppDetailsState extends State<AppDetails> {
       child: Text('App Store'),
       onPressed: () => UrlUtils.open(widget.appView.appStoreLink),
     );
-    // return InkWell(
-    //   onTap: () => UrlUtils.open(widget.appView.appStoreLink,
-    //       name: widget.appView.title),
-    //   child: Container(
-    //     height: 110,
-    //     padding: const EdgeInsets.all(8.0),
-    //     child: Image.asset(
-    //       'assets/images/app_store.png',
-    //       fit: BoxFit.contain,
-    //     ),
-    //   ),
-    // );
   }
 
   Container _buildTitle() {
@@ -230,7 +206,6 @@ class _AppDetailsState extends State<AppDetails> {
         style: TextStyle(
           fontSize: 23,
           fontWeight: FontWeight.w700,
-          // color: Colors.white,
         ),
       ),
     );

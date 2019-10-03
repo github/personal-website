@@ -40,73 +40,67 @@ class AppScaffold extends StatelessWidget {
                 : PreferredSize(
                     preferredSize: Size.fromHeight(80.0),
                     child: Container(
-                      color: Colors.black,
-                      child: Theme(
-                        data: ThemeData.dark(),
-                        child: SafeArea(
-                          child: AdminCheck(
-                            builder: (context, admin) => Row(
-                              crossAxisAlignment: CrossAxisAlignment.center,
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: <Widget>[
-                                AppLogo(
-                                  onTap: () => Navigator.pushNamed(
-                                      context, HomeScreen.routeName),
+                      child: SafeArea(
+                        child: AdminCheck(
+                          builder: (context, admin) => Row(
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: <Widget>[
+                              AppLogo(
+                                onTap: () => Navigator.pushNamed(
+                                    context, HomeScreen.routeName),
+                              ),
+                              Spacer(),
+                              Container(
+                                margin: EdgeInsets.symmetric(horizontal: 8.0),
+                                child: Row(
+                                  children: <Widget>[
+                                    MenuButtonText(
+                                      child: Text(I18n.of(context).homeTitle),
+                                      onPressed: () => Navigator.pushNamed(
+                                          context, HomeScreen.routeName),
+                                    ),
+                                    MenuButtonText(
+                                      child: Text(I18n.of(context).appsTitle),
+                                      onPressed: () => Navigator.pushNamed(
+                                          context, AppsScreen.routeName),
+                                    ),
+                                    MenuButtonText(
+                                      child: Text(I18n.of(context).blogTitle),
+                                      onPressed: () => Navigator.pushNamed(
+                                          context, BlogScreen.routeName),
+                                    ),
+                                    MenuButtonText(
+                                      child: Text(I18n.of(context).aboutTitle),
+                                      onPressed: () => Navigator.pushNamed(
+                                          context, AboutScreen.routeName),
+                                    ),
+                                    MenuButtonText(
+                                      child:
+                                          Text(I18n.of(context).settingsTitle),
+                                      onPressed: () {
+                                        showDialog(
+                                          context: context,
+                                          builder: (_) => AlertDialog(
+                                            title: Text(
+                                                I18n.of(context).settingsTitle),
+                                            content: SettingsView(),
+                                            actions: <Widget>[
+                                              FlatButton(
+                                                child:
+                                                    Text(I18n.of(context).ok),
+                                                onPressed: () =>
+                                                    Navigator.maybePop(context),
+                                              )
+                                            ],
+                                          ),
+                                        );
+                                      },
+                                    ),
+                                  ],
                                 ),
-                                Spacer(),
-                                Container(
-                                  margin: EdgeInsets.symmetric(horizontal: 8.0),
-                                  child: Row(
-                                    children: <Widget>[
-                                      MenuButtonText(
-                                        child: Text(I18n.of(context).homeTitle),
-                                        onPressed: () => Navigator.pushNamed(
-                                            context, HomeScreen.routeName),
-                                      ),
-                                      MenuButtonText(
-                                        child: Text(I18n.of(context).appsTitle),
-                                        onPressed: () => Navigator.pushNamed(
-                                            context, AppsScreen.routeName),
-                                      ),
-                                      MenuButtonText(
-                                        child: Text(I18n.of(context).blogTitle),
-                                        onPressed: () => Navigator.pushNamed(
-                                            context, BlogScreen.routeName),
-                                      ),
-                                      MenuButtonText(
-                                        child:
-                                            Text(I18n.of(context).aboutTitle),
-                                        onPressed: () => Navigator.pushNamed(
-                                            context, AboutScreen.routeName),
-                                      ),
-                                      MenuButtonText(
-                                        child: Text(
-                                            I18n.of(context).settingsTitle),
-                                        onPressed: () {
-                                          showDialog(
-                                            context: context,
-                                            builder: (_) => AlertDialog(
-                                              title: Text(I18n.of(context)
-                                                  .settingsTitle),
-                                              content: SettingsView(),
-                                              actions: <Widget>[
-                                                FlatButton(
-                                                  child:
-                                                      Text(I18n.of(context).ok),
-                                                  onPressed: () =>
-                                                      Navigator.maybePop(
-                                                          context),
-                                                )
-                                              ],
-                                            ),
-                                          );
-                                        },
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                              ],
-                            ),
+                              ),
+                            ],
                           ),
                         ),
                       ),

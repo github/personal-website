@@ -11,48 +11,101 @@ class LandingScreen extends StatefulWidget {
 }
 
 class _LandingScreenState extends State<LandingScreen> {
-  final _controller = ScrollController();
-
   @override
   Widget build(BuildContext context) {
     return ListView(
-      controller: _controller,
       children: <Widget>[
         Container(
           child: ParallaxImage(
             image: AssetImage(R.assetsImagesWelcome),
-            // Extent of this widget in scroll direction.
-            // In this case it is vertical scroll so extent defines
-            // the height of this widget.
-            // The image is scaled with BoxFit.fitWidth which makes it
-            // occupy full width of this widget.
-            // After image is scaled it should normally have height greater
-            // than this value to allow for parallax effect to be
-            // visible.
             extent: 400.0,
-            // Optionally specify child widget.
             child: Center(
               child: Text(
                 'Never Stop Learning'.toUpperCase(),
                 style: TextStyle(
                   fontSize: 60,
                   fontWeight: FontWeight.w700,
+                  color: Colors.white,
                 ),
               ),
             ),
-            // Optinally specify scroll controller.
-            controller: _controller,
+            // controller: _controller,
           ),
         ),
         Container(
           padding: const EdgeInsets.only(top: 8.0),
           child: BlogPreviews(),
         ),
+        BlocSectionColor(
+          color: Colors.blue,
+          child: Container(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisSize: MainAxisSize.min,
+              children: <Widget>[
+                Text(
+                  "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.",
+                  style: TextStyle(
+                    fontSize: 30.0,
+                    fontWeight: FontWeight.w600,
+                    color: Colors.white,
+                  ),
+                ),
+                Container(height: 30.0),
+                Text(
+                  '- Steve Jobs',
+                  style: Theme.of(context)
+                      .textTheme
+                      .subtitle
+                      .copyWith(color: Colors.white),
+                ),
+              ],
+            ),
+          ),
+        ),
         Container(
-          padding: const EdgeInsets.only(top: 8.0),
-          child: AppsRender(),
+          margin: EdgeInsets.all(40.0),
+          child: Center(
+            child: Container(
+              height: 300,
+              width: 600,
+              child: FrameRender(
+                direction: Axis.horizontal,
+                child: Container(
+                  color: Colors.grey[300],
+                  child: AppsRender(
+                    shrinkWrap: false,
+                    scrollDirection: Axis.vertical,
+                    appLauncher: true,
+                  ),
+                ),
+              ),
+            ),
+          ),
         ),
       ],
+    );
+  }
+}
+
+class BlocSectionColor extends StatelessWidget {
+  const BlocSectionColor({
+    Key key,
+    @required this.child,
+    this.color,
+  }) : super(key: key);
+  final Widget child;
+  final Color color;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      color: color ?? Theme.of(context).accentColor,
+      padding: EdgeInsets.symmetric(vertical: 40.0, horizontal: 50.0),
+      child: Center(
+        child: child,
+      ),
     );
   }
 }
