@@ -1,17 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:personal_website/ui/auth/admin_check.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:personal_website/plugins/url_launcher/url_launcher.dart';
 
-import '../../data/blocs/blocs.dart';
 import '../../data/utils/constants.dart';
 import '../../generated/i18n.dart';
 import '../apps/screen.dart';
-import '../auth/screen.dart';
-import '../blog/edit_post.dart';
+import '../auth/admin_check.dart';
 import '../blog/screen.dart';
 import '../home/screen.dart';
 import '../pages/about.dart';
-import '../projects/screen.dart';
 import 'app_drawer.dart';
 import 'index.dart';
 
@@ -27,7 +24,54 @@ class AppScaffold extends StatelessWidget {
   Widget build(BuildContext context) {
     final bool displayMobileLayout =
         MediaQuery.of(context).size.width < kBreakpoint;
-
+    final double _iconSize = 18.0;
+    final _actions = [
+      InkWell(
+        child: Icon(
+          FontAwesomeIcons.facebookF,
+          size: _iconSize,
+        ),
+        onTap: () => UrlUtils.open('https://www.facebook.com/RodyDavis',
+            name: 'Rody Davis'),
+      ),
+      Container(width: 12.0),
+      InkWell(
+        child: Icon(
+          FontAwesomeIcons.twitter,
+          size: _iconSize,
+        ),
+        onTap: () => UrlUtils.open('https://twitter.com/rodydavis',
+            name: 'Rody Davis'),
+      ),
+      Container(width: 12.0),
+      InkWell(
+        child: Icon(
+          FontAwesomeIcons.youtube,
+          size: _iconSize,
+        ),
+        onTap: () => UrlUtils.open('hhttps://www.youtube.com/rodydavis',
+            name: 'Rody Davis'),
+      ),
+      Container(width: 12.0),
+      InkWell(
+        child: Icon(
+          FontAwesomeIcons.instagram,
+          size: _iconSize,
+        ),
+        onTap: () => UrlUtils.open('https://www.instagram.com/rodydavisjr/',
+            name: 'Rody Davis'),
+      ),
+      Container(width: 12.0),
+      InkWell(
+        child: Icon(
+          FontAwesomeIcons.github,
+          size: _iconSize,
+        ),
+        onTap: () => UrlUtils.open('https://github.com/AppleEducate',
+            name: 'Rody Davis'),
+      ),
+      Container(width: 12.0),
+    ];
     return Row(
       children: [
         Expanded(
@@ -36,6 +80,7 @@ class AppScaffold extends StatelessWidget {
                 ? AppBar(
                     automaticallyImplyLeading: displayMobileLayout,
                     title: Text(pageTitle),
+                    actions: _actions,
                   )
                 : PreferredSize(
                     preferredSize: Size.fromHeight(80.0),
@@ -98,6 +143,12 @@ class AppScaffold extends StatelessWidget {
                                       },
                                     ),
                                   ],
+                                ),
+                              ),
+                              Container(
+                                padding: EdgeInsets.only(left: 8.0),
+                                child: Row(
+                                  children: _actions,
                                 ),
                               ),
                             ],

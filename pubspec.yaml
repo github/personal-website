@@ -35,6 +35,7 @@ dependencies:
   share: ^0.6.2+1
   tonic: ^0.2.3
   parallax_image: ^0.3.1+1
+  font_awesome_flutter: ^8.5.0
 
 dev_dependencies:
   flutter_test:
