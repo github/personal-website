@@ -1,1 +1,0 @@
-{"isEntrypoint":false,"deps":["meta|lib/meta.dart","universal_io|lib/prefer_universal/io.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","collection","typed_data"],"hasMain":false}

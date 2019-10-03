@@ -1,1 +1,0 @@
-{"isEntrypoint":true,"deps":[],"parts":[],"conditionalDeps":[{"$default":"universal_io|lib/src/sdk_io.dart","dart.library.html":"universal_io|lib/src/io/io.dart"}],"sdkDeps":[],"hasMain":false}

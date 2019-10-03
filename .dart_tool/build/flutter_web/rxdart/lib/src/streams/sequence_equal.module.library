@@ -1,1 +1,0 @@
-{"isEntrypoint":false,"deps":["rxdart|lib/src/streams/zip.dart","rxdart|lib/src/transformers/materialize.dart","rxdart|lib/src/utils/notification.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"],"hasMain":false}

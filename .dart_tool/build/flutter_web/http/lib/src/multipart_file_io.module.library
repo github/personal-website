@@ -1,1 +1,0 @@
-{"isEntrypoint":false,"deps":["async|lib/async.dart","http_parser|lib/http_parser.dart","path|lib/path.dart","http|lib/src/byte_stream.dart","http|lib/src/multipart_file.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","io"],"hasMain":false}

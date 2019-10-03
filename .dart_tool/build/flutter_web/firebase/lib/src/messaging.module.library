@@ -1,1 +1,0 @@
-{"isEntrypoint":false,"deps":["js|lib/js.dart","firebase|lib/src/interop/messaging_interop.dart","firebase|lib/src/js.dart","firebase|lib/src/utils.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"],"hasMain":false}

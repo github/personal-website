@@ -1,1 +1,0 @@
-{"isEntrypoint":true,"deps":["rxdart|lib/src/subjects/subject.dart","rxdart|lib/src/subjects/behavior_subject.dart","rxdart|lib/src/subjects/publish_subject.dart","rxdart|lib/src/subjects/replay_subject.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

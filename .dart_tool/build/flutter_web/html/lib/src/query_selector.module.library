@@ -1,1 +1,0 @@
-{"isEntrypoint":false,"deps":["csslib|lib/parser.dart","csslib|lib/visitor.dart","html|lib/dom.dart","html|lib/src/constants.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

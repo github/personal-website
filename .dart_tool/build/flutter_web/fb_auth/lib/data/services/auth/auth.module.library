@@ -1,1 +1,0 @@
-{"isEntrypoint":true,"deps":[],"parts":[],"conditionalDeps":[{"$default":"fb_auth|lib/data/services/auth/unsupported.dart","dart.library.html":"fb_auth|lib/data/services/auth/web.dart","dart.library.io":"fb_auth|lib/data/services/auth/mobile.dart"}],"sdkDeps":[],"hasMain":false}

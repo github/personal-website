@@ -1,1 +1,0 @@
-{"isEntrypoint":true,"deps":["personal_website|lib/plugins/rich_editor/src/material/rich_text_field.dart","personal_website|lib/plugins/rich_editor/src/widgets/rich_editable_text.dart","personal_website|lib/plugins/rich_editor/src/widgets/format_toolbar.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

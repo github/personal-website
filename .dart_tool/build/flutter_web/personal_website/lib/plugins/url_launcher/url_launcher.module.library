@@ -1,1 +1,0 @@
-{"isEntrypoint":true,"deps":[],"parts":[],"conditionalDeps":[{"$default":"personal_website|lib/plugins/url_launcher/unsupported.dart","dart.library.html":"personal_website|lib/plugins/url_launcher/web.dart","dart.library.io":"personal_website|lib/plugins/url_launcher/mobile.dart"}],"sdkDeps":[],"hasMain":false}

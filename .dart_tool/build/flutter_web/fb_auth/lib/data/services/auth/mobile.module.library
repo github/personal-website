@@ -1,1 +1,0 @@
-{"isEntrypoint":true,"deps":["firebase_auth|lib/firebase_auth.dart","fb_auth|lib/data/classes/index.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

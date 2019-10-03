@@ -1,1 +1,0 @@
-{"isEntrypoint":false,"deps":["meta|lib/meta.dart","universal_io|lib/prefer_universal/io.dart","universal_io|lib/src/driver_for_browser/browser_http_client.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

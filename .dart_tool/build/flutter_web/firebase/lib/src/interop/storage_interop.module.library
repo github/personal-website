@@ -1,1 +1,0 @@
-{"isEntrypoint":false,"deps":["js|lib/js.dart","firebase|lib/src/func.dart","firebase|lib/src/interop/app_interop.dart","firebase|lib/src/interop/firebase_interop.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

@@ -1,1 +1,0 @@
-{"isEntrypoint":false,"deps":["http|lib/src/byte_stream.dart","http|lib/src/base_request.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"],"hasMain":false}

@@ -1,1 +1,0 @@
-{"isEntrypoint":false,"deps":["html|lib/dom.dart","html|lib/parser.dart","meta|lib/meta.dart","universal_html|lib/driver.dart","universal_html|lib/src/html.dart","universal_html|lib/src/svg.dart","xml|lib/xml.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

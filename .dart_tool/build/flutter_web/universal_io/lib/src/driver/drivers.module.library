@@ -1,1 +1,0 @@
-{"isEntrypoint":false,"deps":[],"parts":[],"conditionalDeps":[{"$default":"universal_io|lib/src/driver/drivers_in_js.dart","dart.library.io":"universal_io|lib/src/driver/drivers_in_vm.dart"}],"sdkDeps":[],"hasMain":false}

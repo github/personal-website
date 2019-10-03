@@ -1,1 +1,0 @@
-{"isEntrypoint":true,"deps":[],"parts":[],"conditionalDeps":[{"$default":"personal_website|lib/plugins/file_upload/unsupported.dart","dart.library.html":"personal_website|lib/plugins/file_upload/web.dart","dart.library.io":"personal_website|lib/plugins/file_upload/mobile.dart"}],"sdkDeps":[],"hasMain":false}

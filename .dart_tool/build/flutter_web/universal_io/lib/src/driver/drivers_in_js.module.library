@@ -1,1 +1,0 @@
-{"isEntrypoint":false,"deps":["meta|lib/meta.dart","universal_io|lib/src/io/io.dart","zone_local|lib/zone_local.dart","universal_io|lib/src/driver/customization_in_js.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","convert","typed_data"],"hasMain":false}

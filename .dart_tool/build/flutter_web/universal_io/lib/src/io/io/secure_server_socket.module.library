@@ -1,1 +1,0 @@
-{"isEntrypoint":false,"deps":["universal_io|lib/src/io/io.dart","universal_io|lib/src/io/io/secure_socket_impl.dart","universal_io|lib/src/io/io/security_context.dart","universal_io|lib/src/io/io/socket.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"],"hasMain":false}

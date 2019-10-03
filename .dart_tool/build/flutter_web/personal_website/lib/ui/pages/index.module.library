@@ -1,1 +1,0 @@
-{"isEntrypoint":true,"deps":["personal_website|lib/ui/pages/about.dart","personal_website|lib/ui/pages/privacy_policy.dart","personal_website|lib/ui/pages/render.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

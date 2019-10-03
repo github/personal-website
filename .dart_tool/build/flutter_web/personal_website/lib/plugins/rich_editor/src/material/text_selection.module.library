@@ -1,1 +1,0 @@
-{"isEntrypoint":true,"deps":["flutter|lib/material.dart","flutter|lib/rendering.dart","flutter|lib/widgets.dart","personal_website|lib/plugins/rich_editor/src/services/text_input.dart","personal_website|lib/plugins/rich_editor/src/widgets/text_selection.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["math"],"hasMain":false}

@@ -1,1 +1,0 @@
-{"isEntrypoint":false,"deps":["typed_data|lib/typed_buffers.dart","universal_html|lib/src/html.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","typed_data","convert"],"hasMain":false}

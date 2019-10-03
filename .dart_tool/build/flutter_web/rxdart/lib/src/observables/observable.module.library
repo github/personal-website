@@ -1,1 +1,0 @@
-{"isEntrypoint":false,"deps":["rxdart|lib/futures.dart","rxdart|lib/src/observables/connectable_observable.dart","rxdart|lib/src/observables/replay_observable.dart","rxdart|lib/src/observables/value_observable.dart","rxdart|lib/streams.dart","rxdart|lib/transformers.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"],"hasMain":false}

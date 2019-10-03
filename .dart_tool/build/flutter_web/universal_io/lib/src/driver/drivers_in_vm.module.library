@@ -1,1 +1,0 @@
-{"isEntrypoint":false,"deps":["meta|lib/meta.dart","zone_local|lib/zone_local.dart","universal_io|lib/src/driver/customization_in_vm.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async","convert","io","typed_data"],"hasMain":false}

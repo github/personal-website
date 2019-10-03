@@ -1,1 +1,0 @@
-{"isEntrypoint":false,"deps":["js|lib/js_util.dart","firebase|lib/src/app.dart","firebase|lib/src/auth.dart","firebase|lib/src/database.dart","firebase|lib/src/firestore.dart","firebase|lib/src/interop/firebase_interop.dart","firebase|lib/src/messaging.dart","firebase|lib/src/storage.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

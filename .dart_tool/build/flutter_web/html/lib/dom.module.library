@@ -1,1 +1,0 @@
-{"isEntrypoint":true,"deps":["source_span|lib/source_span.dart","html|lib/dom_parsing.dart","html|lib/parser.dart","html|lib/src/constants.dart","html|lib/src/css_class_set.dart","html|lib/src/list_proxy.dart","html|lib/src/query_selector.dart","html|lib/src/token.dart","html|lib/src/tokenizer.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["collection"],"hasMain":false}

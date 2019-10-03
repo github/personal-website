@@ -1,1 +1,0 @@
-{"isEntrypoint":true,"deps":[],"parts":[],"conditionalDeps":[{"$default":"universal_html|lib/src/web_gl.dart","dart.library.web_gl":"universal_html|lib/src/_sdk/web_gl.dart"}],"sdkDeps":[],"hasMain":false}

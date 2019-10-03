@@ -1,1 +1,0 @@
-{"isEntrypoint":false,"deps":[],"parts":[],"conditionalDeps":[{"$default":"universal_io|lib/src/io/http/http.dart","dart.library.io":"universal_io|lib/src/driver_base/http_headers_impl_vm.dart"}],"sdkDeps":[],"hasMain":false}

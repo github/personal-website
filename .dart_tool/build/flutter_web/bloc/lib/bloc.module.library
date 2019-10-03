@@ -1,1 +1,0 @@
-{"isEntrypoint":true,"deps":["bloc|lib/src/bloc_delegate.dart","bloc|lib/src/bloc_supervisor.dart","bloc|lib/src/bloc.dart","bloc|lib/src/transition.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":[],"hasMain":false}

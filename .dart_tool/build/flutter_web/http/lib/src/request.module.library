@@ -1,1 +1,0 @@
-{"isEntrypoint":false,"deps":["http_parser|lib/http_parser.dart","http|lib/src/base_request.dart","http|lib/src/byte_stream.dart","http|lib/src/utils.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["convert","typed_data"],"hasMain":false}
