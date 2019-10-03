@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:parallax_image/parallax_image.dart';
-import 'package:personal_website/r.dart';
 
+import '../../r.dart';
 import '../common/blog_previews.dart';
 import '../common/index.dart';
 
@@ -16,20 +15,25 @@ class _LandingScreenState extends State<LandingScreen> {
     return ListView(
       children: <Widget>[
         Container(
-          child: ParallaxImage(
-            image: AssetImage(R.assetsImagesWelcome),
-            extent: 400.0,
-            child: Center(
-              child: Text(
-                'Never Stop Learning'.toUpperCase(),
-                style: TextStyle(
-                  fontSize: 60,
-                  fontWeight: FontWeight.w700,
-                  color: Colors.white,
+          child: Stack(
+            children: <Widget>[
+              Image.asset(
+                R.assetsImagesWelcome,
+              ),
+              Positioned.fill(
+                child: Center(
+                  child: Text(
+                    'Never Stop Learning'.toUpperCase(),
+                    style: TextStyle(
+                      fontSize: 60,
+                      fontWeight: FontWeight.w700,
+                      color: Colors.white,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
                 ),
               ),
-            ),
-            // controller: _controller,
+            ],
           ),
         ),
         Container(

@@ -56,8 +56,9 @@ class _AppDrawerState extends State<AppDrawer> with RouteAware {
 
   @override
   Widget build(BuildContext context) {
+    bool _showIcon = false;
     return Container(
-      width: widget.permanentlyDisplay ? kDrawerWidth : null,
+      width: widget.permanentlyDisplay ? kDrawerWidth : 100.0,
       child: Drawer(
         child: SafeArea(
           child: Row(
@@ -83,13 +84,14 @@ class _AppDrawerState extends State<AppDrawer> with RouteAware {
                       //   selected: _selectedRoute == RouteNames.home,
                       // ),
                       ListTile(
-                        leading: Icon(Icons.home),
+                        leading: !_showIcon ? null : Icon(Icons.home),
                         title: Text(I18n.of(context).homeTitle),
                         onTap: () => _navigateTo(context, HomeScreen.routeName),
                         selected: _selectedRoute == HomeScreen.routeName,
                       ),
                       ListTile(
-                        leading: Icon(Icons.import_contacts),
+                        leading:
+                            !_showIcon ? null : Icon(Icons.import_contacts),
                         title: Text(I18n.of(context).blogTitle),
                         onTap: () => _navigateTo(context, BlogScreen.routeName),
                         // trailing: admin
@@ -102,7 +104,7 @@ class _AppDrawerState extends State<AppDrawer> with RouteAware {
                         selected: _selectedRoute == BlogScreen.routeName,
                       ),
                       ListTile(
-                        leading: Icon(Icons.apps),
+                        leading: !_showIcon ? null : Icon(Icons.apps),
                         title: Text(I18n.of(context).appsTitle),
                         onTap: () => _navigateTo(context, AppsScreen.routeName),
                         selected: _selectedRoute == AppsScreen.routeName,
@@ -115,14 +117,14 @@ class _AppDrawerState extends State<AppDrawer> with RouteAware {
                       //   selected: _selectedRoute == ProjectsScreen.routeName,
                       // ),
                       ListTile(
-                        leading: Icon(Icons.person),
+                        leading: !_showIcon ? null : Icon(Icons.person),
                         title: Text(I18n.of(context).aboutTitle),
                         onTap: () =>
                             _navigateTo(context, AboutScreen.routeName),
                         selected: _selectedRoute == AboutScreen.routeName,
                       ),
                       ListTile(
-                        leading: Icon(Icons.settings),
+                        leading: !_showIcon ? null : Icon(Icons.settings),
                         title: Text(I18n.of(context).settingsTitle),
                         onTap: () {
                           showDialog(

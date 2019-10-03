@@ -1,6 +1,6 @@
 import 'package:meta/meta.dart';
-import 'package:personal_website/data/classes/index.dart';
-import 'package:personal_website/plugins/fb_firestore/classes/index.dart';
+
+import '../../classes/index.dart';
 
 @immutable
 abstract class BlogState {}

@@ -6,7 +6,6 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'data/blocs/blocs.dart';
 import 'generated/i18n.dart';
 import 'ui/common/index.dart';
-import 'ui/home/screen.dart';
 import 'ui/router.dart';
 import 'ui/theme.dart';
 
