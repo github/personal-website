@@ -24,9 +24,9 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
     get C2() {
       return C2 = dart.const({
         __proto__: ui.Locale.prototype,
-        [_countryCode]: "US",
-        scriptCode: null,
-        [_languageCode]: "en"
+        [Locale__countryCode]: "US",
+        [Locale_scriptCode]: null,
+        [Locale__languageCode]: "en"
       });
     },
     get C1() {
@@ -146,8 +146,9 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
   }).prototype = i18n._I18n_en_US.prototype;
   dart.addTypeTests(i18n._I18n_en_US);
   dart.setLibraryUri(i18n._I18n_en_US, "package:personal_website/generated/i18n.dart");
-  const _countryCode = dart.privateName(ui, "_countryCode");
-  const _languageCode = dart.privateName(ui, "_languageCode");
+  const Locale__countryCode = dart.privateName(ui, "Locale._countryCode");
+  const Locale_scriptCode = dart.privateName(ui, "Locale.scriptCode");
+  const Locale__languageCode = dart.privateName(ui, "Locale._languageCode");
   let C2;
   let C1;
   let C3;
@@ -214,7 +215,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
   dart.trackLibraries("packages/personal_website/generated/i18n", {
     "package:personal_website/generated/i18n.dart": i18n
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["i18n.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;sBAkB2B;MACvB,0BAAgB;MACX,oBAAU,UAAU;IAC3B;cAQ4B;AAC1B,YAAc,2CAAS,OAAO,EAAE;IAAqB;;AAGpB,YAAc;IAAG;;AAGhC;IAAY;;AAEf;IAAI;;AAEA;IAAQ;;AAED;IAAU;;AAEP;IAAW;;AAEV;IAAmB;;AAE1B;IAAO;;AAER;IAAM;;AAEF;IAAU;;AAEd;IAAM;;AAEC;IAAc;;AAErB;IAAM;;AAED;IAAgB;;;;EA9CjC;;;;;;;;;;;;;;;;;;;;;;MACE,iBAAO;;;;MACT,uBAAa;YAAG;;;MAOgB,kBAAQ;;;MAIxB,yBAAe;;;;;;;AAwCR,YAAc;IAAG;;;AAH9C;;EAAa;;;;;;;;;;;AASjB;IAGF;;UAE4C;AAC1C,YAAO,UAAQ,QAAyB;;AACtC,sBAAS,iBAAY,MAAM;AACzB,gBAAO,OAAM;;AAEF,8BAA0B,KAAT,QAAQ,QAAC,OAAG,AAAU,SAAD;AACnD,cAAO,eAAc;;IAEzB;SAGyC;MAClC,AAAQ,qBAAA,OAAR,oBAAY,OAAO,GAAX;MACR,0BAAgB;AACR,mBAAc;AACd,iBAAO,AAAe,MAAT,IAAI,OAAc,cAAP,MAAM,IAAc;AAC5C,yBAAe,AAAe,MAAT,IAAI,OAAO,AAAO,MAAD,gBAAgB;AACnE,UAAI,AAAQ,YAAG,IAAI;AACjB,cAAW;YAER,KAAI,AAAK,SAAG,YAAY;AAC3B,cAAW;;AAGb,YAAW;IACb;gBAGwB;AACtB,eAAS,IAAI,GAAG,AAAE,CAAD,gBAAG,AAAiB,mCAAU,MAAM,IAAI,MAAM,IAAA,AAAC,CAAA;AACxD,gBAAI,AAAgB,6BAAC,CAAC;AAC5B,YAAI,AAAE,AAAa,CAAd,iBAAiB,AAAO,MAAD;AAC1B,gBAAO;;;AAGX,YAAO;IACT;iBAGiD;;AAAQ,YAAK;IAAa;;;AA9CrE;;EAAgC","file":"i18n.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["i18n.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;sBAkB2B;MACvB,0BAAgB;MACX,oBAAU,UAAU;IAC3B;cAQ4B;AAC1B,YAAc,2CAAS,OAAO,EAAE;IAAqB;;AAGpB,YAAc;IAAG;;AAGhC;IAAY;;AAEf;IAAI;;AAEA;IAAQ;;AAED;IAAU;;AAEP;IAAW;;AAEV;IAAmB;;AAE1B;IAAO;;AAER;IAAM;;AAEF;IAAU;;AAEd;IAAM;;AAEC;IAAc;;AAErB;IAAM;;AAED;IAAgB;;;;EA9CjC;;;;;;;;;;;;;;;;;;;;;;MACE,iBAAO;;;;MACT,uBAAa;YAAG;;;MAOgB,kBAAQ;;;MAIxB,yBAAe;;;;;;;AAwCR,YAAc;IAAG;;;AAH9C;;EAAa;;;;;;;;;;;;AASjB;IAGF;;UAE4C;AAC1C,YAAO,UAAQ,QAAyB;;AACtC,sBAAI,AAAK,iBAAY,MAAM;AACzB,gBAAO,OAAM;;AAEF,8BAA0B,KAAT,QAAQ,QAAR,OAAY,AAAU,SAAD;AACnD,cAAO,eAAc;;IAEzB;SAGyC;MAClC,AAAQ,4BAAA,oBAAI,OAAO,GAAX;MACR,0BAAgB;AACR,mBAAc;AACd,iBAAO,AAAe,MAAT,IAAI,OAAc,cAAP,MAAM,IAAc;AAC5C,yBAAe,AAAe,MAAT,IAAI,OAAO,AAAO,MAAD,gBAAgB;AACnE,UAAI,AAAQ,YAAG,IAAI;AACjB,cAAW;YAER,KAAI,AAAK,SAAG,YAAY;AAC3B,cAAW;;AAGb,YAAW;IACb;gBAGwB;AACtB,eAAS,IAAI,GAAG,AAAE,CAAD,gBAAG,AAAiB,mCAAU,MAAM,IAAI,MAAM,IAAA,AAAC,CAAA;AACxD,gBAAI,AAAgB,6BAAC,CAAC;AAC5B,YAAI,AAAE,AAAa,CAAd,iBAAiB,AAAO,MAAD;AAC1B,gBAAO;;;AAGX,YAAO;IACT;iBAGiD;;AAAQ,YAAK;IAAa;;;AA9CrE;;EAAgC","file":"i18n.ddc.js"}');
   // Exports:
   return {
     generated__i18n: i18n

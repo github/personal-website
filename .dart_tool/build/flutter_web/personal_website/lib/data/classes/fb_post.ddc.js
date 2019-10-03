@@ -8,6 +8,14 @@ define(['dart_sdk'], function(dart_sdk) {
   const $_get = dartx._get;
   let IdentityMapOfString$dynamic = () => (IdentityMapOfString$dynamic = dart.constFn(_js_helper.IdentityMap$(core.String, dart.dynamic)))();
   const CT = Object.create(null);
+  const FbPost_slug = dart.privateName(fb_post, "FbPost.slug");
+  const FbPost_author = dart.privateName(fb_post, "FbPost.author");
+  const FbPost_image = dart.privateName(fb_post, "FbPost.image");
+  const FbPost_tags = dart.privateName(fb_post, "FbPost.tags");
+  const FbPost_title = dart.privateName(fb_post, "FbPost.title");
+  const FbPost_description = dart.privateName(fb_post, "FbPost.description");
+  const FbPost_datePublished = dart.privateName(fb_post, "FbPost.datePublished");
+  const FbPost_path = dart.privateName(fb_post, "FbPost.path");
   fb_post.FbPost = class FbPost extends core.Object {
     get slug() {
       return this[slug$];
@@ -84,14 +92,14 @@ define(['dart_sdk'], function(dart_sdk) {
     ;
   }).prototype = fb_post.FbPost.prototype;
   dart.addTypeTests(fb_post.FbPost);
-  const slug$ = Symbol("FbPost.slug");
-  const author$ = Symbol("FbPost.author");
-  const image$ = Symbol("FbPost.image");
-  const tags$ = Symbol("FbPost.tags");
-  const title$ = Symbol("FbPost.title");
-  const description$ = Symbol("FbPost.description");
-  const datePublished$ = Symbol("FbPost.datePublished");
-  const path$ = Symbol("FbPost.path");
+  const slug$ = FbPost_slug;
+  const author$ = FbPost_author;
+  const image$ = FbPost_image;
+  const tags$ = FbPost_tags;
+  const title$ = FbPost_title;
+  const description$ = FbPost_description;
+  const datePublished$ = FbPost_datePublished;
+  const path$ = FbPost_path;
   dart.setMethodSignature(fb_post.FbPost, () => ({
     __proto__: dart.getMethods(fb_post.FbPost.__proto__),
     toJson: dart.fnType(core.Map$(core.String, dart.dynamic), [])
@@ -111,7 +119,7 @@ define(['dart_sdk'], function(dart_sdk) {
   dart.trackLibraries("packages/personal_website/data/classes/fb_post", {
     "package:personal_website/data/classes/fb_post.dart": fb_post
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["fb_post.dart"],"names":[],"mappings":";;;;;;;;;;;IAGS;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACH;;;;;;IAEG;;;;;;oBAasC;AAAS,8DAC1C,AAAI,IAAA,QAAC,qCACH,AAAI,IAAA,QAAC,sCACN,AAAI,IAAA,QAAC,oCACN,AAAI,IAAA,QAAC,oCACJ,AAAI,IAAA,QAAC,2CACC,AAAI,IAAA,QAAC,gDACH,AAAI,IAAA,QAAC,6CAEd,AAAI,IAAA,QAAC;IACZ;;AAE4B,uDAC3B,QAAQ,WACR,UAAU,aACV,SAAS,YACT,QAAQ,WACR,SAAS,YACT,eAAe,kBACf,kBAAkB,oBAElB,QAAQ;IACT;;;QAhCY;QACA;QACA;QACA;QACA;QACA;QACA;QACA;IAPA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;;EACf","file":"fb_post.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["fb_post.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;IAGS;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACH;;;;;;IAEG;;;;;;oBAasC;AAAS,8DAC1C,AAAI,IAAA,QAAC,qCACH,AAAI,IAAA,QAAC,sCACN,AAAI,IAAA,QAAC,oCACN,AAAI,IAAA,QAAC,oCACJ,AAAI,IAAA,QAAC,2CACC,AAAI,IAAA,QAAC,gDACH,AAAI,IAAA,QAAC,6CAEd,AAAI,IAAA,QAAC;IACZ;;AAE4B,uDAC3B,QAAQ,WACR,UAAU,aACV,SAAS,YACT,QAAQ,WACR,SAAS,YACT,eAAe,kBACf,kBAAkB,oBAElB,QAAQ;IACT;;;QAhCY;QACA;QACA;QACA;QACA;QACA;QACA;QACA;IAPA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;;EACf","file":"fb_post.ddc.js"}');
   // Exports:
   return {
     data__classes__fb_post: fb_post

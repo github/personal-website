@@ -19,7 +19,7 @@ class AppView {
     this.meta,
     this.landscape = false,
   });
-
+  String get slug => title.toLowerCase().replaceAll(" ", "_");
   String get routeName => '/apps/' + title.toLowerCase().replaceAll(" ", "_");
 }
 

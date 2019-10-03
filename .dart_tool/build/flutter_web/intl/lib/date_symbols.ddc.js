@@ -64,6 +64,32 @@ define(['dart_sdk'], function(dart_sdk) {
     }
   });
   const _serializeToMap = dart.privateName(date_symbols, "_serializeToMap");
+  const DateSymbols_NAME = dart.privateName(date_symbols, "DateSymbols.NAME");
+  const DateSymbols_ERAS = dart.privateName(date_symbols, "DateSymbols.ERAS");
+  const DateSymbols_ERANAMES = dart.privateName(date_symbols, "DateSymbols.ERANAMES");
+  const DateSymbols_NARROWMONTHS = dart.privateName(date_symbols, "DateSymbols.NARROWMONTHS");
+  const DateSymbols_STANDALONENARROWMONTHS = dart.privateName(date_symbols, "DateSymbols.STANDALONENARROWMONTHS");
+  const DateSymbols_MONTHS = dart.privateName(date_symbols, "DateSymbols.MONTHS");
+  const DateSymbols_STANDALONEMONTHS = dart.privateName(date_symbols, "DateSymbols.STANDALONEMONTHS");
+  const DateSymbols_SHORTMONTHS = dart.privateName(date_symbols, "DateSymbols.SHORTMONTHS");
+  const DateSymbols_STANDALONESHORTMONTHS = dart.privateName(date_symbols, "DateSymbols.STANDALONESHORTMONTHS");
+  const DateSymbols_WEEKDAYS = dart.privateName(date_symbols, "DateSymbols.WEEKDAYS");
+  const DateSymbols_STANDALONEWEEKDAYS = dart.privateName(date_symbols, "DateSymbols.STANDALONEWEEKDAYS");
+  const DateSymbols_SHORTWEEKDAYS = dart.privateName(date_symbols, "DateSymbols.SHORTWEEKDAYS");
+  const DateSymbols_STANDALONESHORTWEEKDAYS = dart.privateName(date_symbols, "DateSymbols.STANDALONESHORTWEEKDAYS");
+  const DateSymbols_NARROWWEEKDAYS = dart.privateName(date_symbols, "DateSymbols.NARROWWEEKDAYS");
+  const DateSymbols_STANDALONENARROWWEEKDAYS = dart.privateName(date_symbols, "DateSymbols.STANDALONENARROWWEEKDAYS");
+  const DateSymbols_SHORTQUARTERS = dart.privateName(date_symbols, "DateSymbols.SHORTQUARTERS");
+  const DateSymbols_QUARTERS = dart.privateName(date_symbols, "DateSymbols.QUARTERS");
+  const DateSymbols_AMPMS = dart.privateName(date_symbols, "DateSymbols.AMPMS");
+  const DateSymbols_DATEFORMATS = dart.privateName(date_symbols, "DateSymbols.DATEFORMATS");
+  const DateSymbols_TIMEFORMATS = dart.privateName(date_symbols, "DateSymbols.TIMEFORMATS");
+  const DateSymbols_DATETIMEFORMATS = dart.privateName(date_symbols, "DateSymbols.DATETIMEFORMATS");
+  const DateSymbols_AVAILABLEFORMATS = dart.privateName(date_symbols, "DateSymbols.AVAILABLEFORMATS");
+  const DateSymbols_FIRSTDAYOFWEEK = dart.privateName(date_symbols, "DateSymbols.FIRSTDAYOFWEEK");
+  const DateSymbols_WEEKENDRANGE = dart.privateName(date_symbols, "DateSymbols.WEEKENDRANGE");
+  const DateSymbols_FIRSTWEEKCUTOFFDAY = dart.privateName(date_symbols, "DateSymbols.FIRSTWEEKCUTOFFDAY");
+  const DateSymbols_ZERODIGIT = dart.privateName(date_symbols, "DateSymbols.ZERODIGIT");
   date_symbols.DateSymbols = class DateSymbols extends core.Object {
     get NAME() {
       return this[NAME$];
@@ -350,32 +376,32 @@ define(['dart_sdk'], function(dart_sdk) {
     this.DATETIMEFORMATS = _getStringList("DATETIMEFORMATS");
   }).prototype = date_symbols.DateSymbols.prototype;
   dart.addTypeTests(date_symbols.DateSymbols);
-  const NAME$ = Symbol("DateSymbols.NAME");
-  const ERAS$ = Symbol("DateSymbols.ERAS");
-  const ERANAMES$ = Symbol("DateSymbols.ERANAMES");
-  const NARROWMONTHS$ = Symbol("DateSymbols.NARROWMONTHS");
-  const STANDALONENARROWMONTHS$ = Symbol("DateSymbols.STANDALONENARROWMONTHS");
-  const MONTHS$ = Symbol("DateSymbols.MONTHS");
-  const STANDALONEMONTHS$ = Symbol("DateSymbols.STANDALONEMONTHS");
-  const SHORTMONTHS$ = Symbol("DateSymbols.SHORTMONTHS");
-  const STANDALONESHORTMONTHS$ = Symbol("DateSymbols.STANDALONESHORTMONTHS");
-  const WEEKDAYS$ = Symbol("DateSymbols.WEEKDAYS");
-  const STANDALONEWEEKDAYS$ = Symbol("DateSymbols.STANDALONEWEEKDAYS");
-  const SHORTWEEKDAYS$ = Symbol("DateSymbols.SHORTWEEKDAYS");
-  const STANDALONESHORTWEEKDAYS$ = Symbol("DateSymbols.STANDALONESHORTWEEKDAYS");
-  const NARROWWEEKDAYS$ = Symbol("DateSymbols.NARROWWEEKDAYS");
-  const STANDALONENARROWWEEKDAYS$ = Symbol("DateSymbols.STANDALONENARROWWEEKDAYS");
-  const SHORTQUARTERS$ = Symbol("DateSymbols.SHORTQUARTERS");
-  const QUARTERS$ = Symbol("DateSymbols.QUARTERS");
-  const AMPMS$ = Symbol("DateSymbols.AMPMS");
-  const DATEFORMATS$ = Symbol("DateSymbols.DATEFORMATS");
-  const TIMEFORMATS$ = Symbol("DateSymbols.TIMEFORMATS");
-  const DATETIMEFORMATS$ = Symbol("DateSymbols.DATETIMEFORMATS");
-  const AVAILABLEFORMATS$ = Symbol("DateSymbols.AVAILABLEFORMATS");
-  const FIRSTDAYOFWEEK$ = Symbol("DateSymbols.FIRSTDAYOFWEEK");
-  const WEEKENDRANGE$ = Symbol("DateSymbols.WEEKENDRANGE");
-  const FIRSTWEEKCUTOFFDAY$ = Symbol("DateSymbols.FIRSTWEEKCUTOFFDAY");
-  const ZERODIGIT$ = Symbol("DateSymbols.ZERODIGIT");
+  const NAME$ = DateSymbols_NAME;
+  const ERAS$ = DateSymbols_ERAS;
+  const ERANAMES$ = DateSymbols_ERANAMES;
+  const NARROWMONTHS$ = DateSymbols_NARROWMONTHS;
+  const STANDALONENARROWMONTHS$ = DateSymbols_STANDALONENARROWMONTHS;
+  const MONTHS$ = DateSymbols_MONTHS;
+  const STANDALONEMONTHS$ = DateSymbols_STANDALONEMONTHS;
+  const SHORTMONTHS$ = DateSymbols_SHORTMONTHS;
+  const STANDALONESHORTMONTHS$ = DateSymbols_STANDALONESHORTMONTHS;
+  const WEEKDAYS$ = DateSymbols_WEEKDAYS;
+  const STANDALONEWEEKDAYS$ = DateSymbols_STANDALONEWEEKDAYS;
+  const SHORTWEEKDAYS$ = DateSymbols_SHORTWEEKDAYS;
+  const STANDALONESHORTWEEKDAYS$ = DateSymbols_STANDALONESHORTWEEKDAYS;
+  const NARROWWEEKDAYS$ = DateSymbols_NARROWWEEKDAYS;
+  const STANDALONENARROWWEEKDAYS$ = DateSymbols_STANDALONENARROWWEEKDAYS;
+  const SHORTQUARTERS$ = DateSymbols_SHORTQUARTERS;
+  const QUARTERS$ = DateSymbols_QUARTERS;
+  const AMPMS$ = DateSymbols_AMPMS;
+  const DATEFORMATS$ = DateSymbols_DATEFORMATS;
+  const TIMEFORMATS$ = DateSymbols_TIMEFORMATS;
+  const DATETIMEFORMATS$ = DateSymbols_DATETIMEFORMATS;
+  const AVAILABLEFORMATS$ = DateSymbols_AVAILABLEFORMATS;
+  const FIRSTDAYOFWEEK$ = DateSymbols_FIRSTDAYOFWEEK;
+  const WEEKENDRANGE$ = DateSymbols_WEEKENDRANGE;
+  const FIRSTWEEKCUTOFFDAY$ = DateSymbols_FIRSTWEEKCUTOFFDAY;
+  const ZERODIGIT$ = DateSymbols_ZERODIGIT;
   dart.setMethodSignature(date_symbols.DateSymbols, () => ({
     __proto__: dart.getMethods(date_symbols.DateSymbols.__proto__),
     serializeToMap: dart.fnType(core.Map, []),
@@ -441,7 +467,7 @@ define(['dart_sdk'], function(dart_sdk) {
   dart.trackLibraries("packages/intl/date_symbols", {
     "package:intl/date_symbols.dart": date_symbols
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["date_symbols.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IAaS;;;;;;IAIH;;;;;;IAGA;;;;;;IAGA;;;;;;IAIA;;;;;;IAGA;;;;;;IAOA;;;;;;IAGA;;;;;;IAIA;;;;;;IAGA;;;;;;IAMA;;;;;;IAGA;;;;;;IAIA;;;;;;IAGA;;;;;;IAIA;;;;;;IAGA;;;;;;IAGA;;;;;;IAGA;;;;;;IAGA;;;;;;IAGA;;;;;;IAGA;;;;;;IACgB;;;;;;IAIhB;;;;;;IAKM;;;;;;IACN;;;;;;IAEG;;;;;;;AAuED,qBAAW;AACf,UAAI,kBAAa,QAAQ,mBAAa;QACpC,AAAQ,QAAA,QAAC,aAAe;;AAE1B,YAAO,SAAQ;IACjB;;AAEyB,4CACnB,QAAQ,WACR,QAAQ,WACR,YAAY,eACZ,gBAAgB,mBAChB,0BAA0B,6BAC1B,UAAU,aACV,oBAAoB,uBACpB,eAAe,kBACf,yBAAyB,4BACzB,YAAY,eACZ,sBAAsB,yBACtB,iBAAiB,oBACjB,2BAA2B,8BAC3B,kBAAkB,qBAClB,4BAA4B,+BAC5B,iBAAiB,oBACjB,YAAY,eACZ,SAAS,YACT,eAAe,kBACf,eAAe,kBACf,oBAAoB,uBACpB,kBAAkB,qBAClB,gBAAgB,mBAChB,sBAAsB,yBACtB,mBAAmB;IACpB;;AAES;IAAI;;;QAvGR;QACD;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QAKA;QACA;QACA;QACA;QACA;QACA;QACA;IA7BC;IACD;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IAKA;IACA;IACA;IACA;IACA;IACA;IACA;;EAAiB;0DAIS;;;;;;;;;;;;;;;;;;;;;;;;;;;;AACjC,aAAa,eAAsB;AAC/B,YAAI,0CAAkB,AAAG,GAAA,QAAC,IAAI;;;gBAClC,mBAAO,AAAG,GAAA,QAAC;IACX,YAAO,AAAc,cAAA,CAAC;IACtB,gBAAW,AAAc,cAAA,CAAC;IAC1B,oBAAe,AAAc,cAAA,CAAC;IAC9B,8BAAyB,AAAc,cAAA,CAAC;IACxC,cAAS,AAAc,cAAA,CAAC;IACxB,wBAAmB,AAAc,cAAA,CAAC;IAClC,mBAAc,AAAc,cAAA,CAAC;IAC7B,6BAAwB,AAAc,cAAA,CAAC;IACvC,gBAAW,AAAc,cAAA,CAAC;IAC1B,0BAAqB,AAAc,cAAA,CAAC;IACpC,qBAAgB,AAAc,cAAA,CAAC;IAC/B,+BAA0B,AAAc,cAAA,CAAC;IACzC,sBAAiB,AAAc,cAAA,CAAC;IAChC,gCAA2B,AAAc,cAAA,CAAC;IAC1C,qBAAgB,AAAc,cAAA,CAAC;IAC/B,gBAAW,AAAc,cAAA,CAAC;IAC1B,aAAQ,AAAc,cAAA,CAAC;qBACvB,mBAAY,AAAG,GAAA,QAAC;IAChB,mBAAc,AAAc,cAAA,CAAC;IAC7B,mBAAc,AAAc,cAAA,CAAC;IAC7B,wBACQ,qDAAiD,KAAxB,AAAG,GAAA,QAAC,2BAAoB,OAAG;0BAC5D,gBAAiB,AAAG,GAAA,QAAC;IACrB,oBAAmB,sCAAe,AAAG,GAAA,QAAC;8BACtC,gBAAqB,AAAG,GAAA,QAAC;IACzB,uBAAkB,AAAc,cAAA,CAAC;EACnC;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;MA6CE,yBAAY;YAAO,yCACb,ojBA+HU,oDAEI;;;MAQpB,0BAAa","file":"date_symbols.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["date_symbols.dart"],"names":[],"mappings":"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","file":"date_symbols.ddc.js"}');
   // Exports:
   return {
     date_symbols: date_symbols

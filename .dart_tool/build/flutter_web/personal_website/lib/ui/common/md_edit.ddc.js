@@ -25,11 +25,11 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/ma
     get C2() {
       return C2 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "icon",
-        column: 30,
-        line: 26,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "icon",
+        [_Location_column]: 30,
+        [_Location_line]: 26,
+        [_Location_file]: null
       });
     },
     get C1() {
@@ -38,31 +38,31 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/ma
     get C0() {
       return C0 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C1 || CT.C1,
-        name: null,
-        column: 19,
-        line: 26,
-        file: "org-dartlang-app:///packages/personal_website/ui/common/md_edit.dart"
+        [_Location_parameterLocations]: C1 || CT.C1,
+        [_Location_name]: null,
+        [_Location_column]: 19,
+        [_Location_line]: 26,
+        [_Location_file]: "org-dartlang-app:///packages/personal_website/ui/common/md_edit.dart"
       });
     },
     get C5() {
       return C5 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "icon",
-        column: 13,
-        line: 26,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "icon",
+        [_Location_column]: 13,
+        [_Location_line]: 26,
+        [_Location_file]: null
       });
     },
     get C6() {
       return C6 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "onPressed",
-        column: 13,
-        line: 27,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "onPressed",
+        [_Location_column]: 13,
+        [_Location_line]: 27,
+        [_Location_file]: null
       });
     },
     get C4() {
@@ -71,21 +71,21 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/ma
     get C3() {
       return C3 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C4 || CT.C4,
-        name: null,
-        column: 11,
-        line: 25,
-        file: "org-dartlang-app:///packages/personal_website/ui/common/md_edit.dart"
+        [_Location_parameterLocations]: C4 || CT.C4,
+        [_Location_name]: null,
+        [_Location_column]: 11,
+        [_Location_line]: 25,
+        [_Location_file]: "org-dartlang-app:///packages/personal_website/ui/common/md_edit.dart"
       });
     },
     get C9() {
       return C9 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "actions",
-        column: 9,
-        line: 24,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "actions",
+        [_Location_column]: 9,
+        [_Location_line]: 24,
+        [_Location_file]: null
       });
     },
     get C8() {
@@ -94,51 +94,51 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/ma
     get C7() {
       return C7 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C8 || CT.C8,
-        name: null,
-        column: 15,
-        line: 23,
-        file: "org-dartlang-app:///packages/personal_website/ui/common/md_edit.dart"
+        [_Location_parameterLocations]: C8 || CT.C8,
+        [_Location_name]: null,
+        [_Location_column]: 15,
+        [_Location_line]: 23,
+        [_Location_file]: "org-dartlang-app:///packages/personal_website/ui/common/md_edit.dart"
       });
     },
     get C12() {
       return C12 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "controller",
-        column: 9,
-        line: 32,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "controller",
+        [_Location_column]: 9,
+        [_Location_line]: 32,
+        [_Location_file]: null
       });
     },
     get C13() {
       return C13 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "maxLines",
-        column: 9,
-        line: 33,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "maxLines",
+        [_Location_column]: 9,
+        [_Location_line]: 33,
+        [_Location_file]: null
       });
     },
     get C14() {
       return C14 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "keyboardType",
-        column: 9,
-        line: 34,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "keyboardType",
+        [_Location_column]: 9,
+        [_Location_line]: 34,
+        [_Location_file]: null
       });
     },
     get C15() {
       return C15 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "decoration",
-        column: 9,
-        line: 35,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "decoration",
+        [_Location_column]: 9,
+        [_Location_line]: 35,
+        [_Location_file]: null
       });
     },
     get C11() {
@@ -147,31 +147,31 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/ma
     get C10() {
       return C10 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C11 || CT.C11,
-        name: null,
-        column: 13,
-        line: 31,
-        file: "org-dartlang-app:///packages/personal_website/ui/common/md_edit.dart"
+        [_Location_parameterLocations]: C11 || CT.C11,
+        [_Location_name]: null,
+        [_Location_column]: 13,
+        [_Location_line]: 31,
+        [_Location_file]: "org-dartlang-app:///packages/personal_website/ui/common/md_edit.dart"
       });
     },
     get C18() {
       return C18 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "appBar",
-        column: 7,
-        line: 23,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "appBar",
+        [_Location_column]: 7,
+        [_Location_line]: 23,
+        [_Location_file]: null
       });
     },
     get C19() {
       return C19 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "body",
-        column: 7,
-        line: 31,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "body",
+        [_Location_column]: 7,
+        [_Location_line]: 31,
+        [_Location_file]: null
       });
     },
     get C17() {
@@ -180,14 +180,15 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/ma
     get C16() {
       return C16 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C17 || CT.C17,
-        name: null,
-        column: 12,
-        line: 22,
-        file: "org-dartlang-app:///packages/personal_website/ui/common/md_edit.dart"
+        [_Location_parameterLocations]: C17 || CT.C17,
+        [_Location_name]: null,
+        [_Location_column]: 12,
+        [_Location_line]: 22,
+        [_Location_file]: "org-dartlang-app:///packages/personal_website/ui/common/md_edit.dart"
       });
     }
   });
+  const MarkdownEditPage_content = dart.privateName(md_edit, "MarkdownEditPage.content");
   md_edit.MarkdownEditPage = class MarkdownEditPage extends framework.StatefulWidget {
     get content() {
       return this[content$];
@@ -202,13 +203,13 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/ma
   (md_edit.MarkdownEditPage.new = function(opts) {
     let key = opts && 'key' in opts ? opts.key : null;
     let content = opts && 'content' in opts ? opts.content : null;
-    let $creationLocationd_0dea112b090073317d4 = opts && '$creationLocationd_0dea112b090073317d4' in opts ? opts.$creationLocationd_0dea112b090073317d4 : null;
+    let $36creationLocationd_0dea112b090073317d4 = opts && '$creationLocationd_0dea112b090073317d4' in opts ? opts.$creationLocationd_0dea112b090073317d4 : null;
     this[content$] = content;
-    md_edit.MarkdownEditPage.__proto__.new.call(this, {key: key, $creationLocationd_0dea112b090073317d4: $creationLocationd_0dea112b090073317d4});
+    md_edit.MarkdownEditPage.__proto__.new.call(this, {key: key, $creationLocationd_0dea112b090073317d4: $36creationLocationd_0dea112b090073317d4});
     ;
   }).prototype = md_edit.MarkdownEditPage.prototype;
   dart.addTypeTests(md_edit.MarkdownEditPage);
-  const content$ = Symbol("MarkdownEditPage.content");
+  const content$ = MarkdownEditPage_content;
   dart.setMethodSignature(md_edit.MarkdownEditPage, () => ({
     __proto__: dart.getMethods(md_edit.MarkdownEditPage.__proto__),
     createState: dart.fnType(md_edit._MarkdownEditPageState, [])
@@ -219,6 +220,11 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/ma
     content: dart.finalFieldType(core.String)
   }));
   const _controller = dart.privateName(md_edit, "_controller");
+  const _Location_parameterLocations = dart.privateName(widget_inspector, "_Location.parameterLocations");
+  const _Location_name = dart.privateName(widget_inspector, "_Location.name");
+  const _Location_column = dart.privateName(widget_inspector, "_Location.column");
+  const _Location_line = dart.privateName(widget_inspector, "_Location.line");
+  const _Location_file = dart.privateName(widget_inspector, "_Location.file");
   let C2;
   let C1;
   let C0;
@@ -267,7 +273,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/ma
   dart.trackLibraries("packages/personal_website/ui/common/md_edit", {
     "package:personal_website/ui/common/md_edit.dart": md_edit
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["md_edit.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IAGe;;;;;;;AAK2B;IAAwB;;;QAHpC;QAAU;;;AAAY,4DAAW,GAAG;;EAAC;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;MAU/D,oBAAc,oDAAoC,KAAR,iCAAQ;MAC5C;IACR;UAG0B;AACxB,YAAO,oCACG,iCACW,sBACf,sCACQ,kBAAW,qFACN,cAAgB,qCAAI,OAAO,EAAE,AAAY,8JAIpD,0CACQ,6BACF,oBACkB,gDAChB,iDACU;IAI5B;;;IA3BsB;;;EA4BxB","file":"md_edit.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["md_edit.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IAGe;;;;;;;AAK2B;IAAwB;;;QAHpC;QAAU;;;AAAY,4DAAW,GAAG;;EAAC;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;MAU/D,oBAAc,mFAA4B,OAAQ;MAC5C;IACR;UAG0B;AACxB,YAAO,oCACG,iCACW,sBACf,sCACQ,kBAAW,qFACN,cAAgB,qCAAI,OAAO,EAAE,AAAY,8JAIpD,0CACQ,6BACF,oBACkB,gDAChB,iDACU;IAI5B;;;IA3BsB;;;EA4BxB","file":"md_edit.ddc.js"}');
   // Exports:
   return {
     ui__common__md_edit: md_edit

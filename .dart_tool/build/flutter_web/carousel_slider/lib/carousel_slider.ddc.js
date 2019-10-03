@@ -36,22 +36,22 @@ define(['dart_sdk', 'packages/flutter/src/animation/animation', 'packages/flutte
     get C0() {
       return C0 = dart.const({
         __proto__: core.Duration.prototype,
-        [_duration]: 4000000
+        [Duration__duration]: 4000000
       });
     },
     get C1() {
       return C1 = dart.const({
         __proto__: core.Duration.prototype,
-        [_duration]: 800000
+        [Duration__duration]: 800000
       });
     },
     get C2() {
       return C2 = dart.const({
         __proto__: curves.Cubic.prototype,
-        d: 1,
-        c: 0.2,
-        b: 0,
-        a: 0.4
+        [Cubic_d]: 1,
+        [Cubic_c]: 0.2,
+        [Cubic_b]: 0,
+        [Cubic_a]: 0.4
       });
     },
     get C3() {
@@ -64,21 +64,21 @@ define(['dart_sdk', 'packages/flutter/src/animation/animation', 'packages/flutte
     get C6() {
       return C6 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "height",
-        column: 40,
-        line: 194,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "height",
+        [_Location_column]: 40,
+        [_Location_line]: 194,
+        [_Location_file]: null
       });
     },
     get C7() {
       return C7 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "child",
-        column: 63,
-        line: 194,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 63,
+        [_Location_line]: 194,
+        [_Location_file]: null
       });
     },
     get C5() {
@@ -87,31 +87,31 @@ define(['dart_sdk', 'packages/flutter/src/animation/animation', 'packages/flutte
     get C4() {
       return C4 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C5 || CT.C5,
-        name: null,
-        column: 30,
-        line: 194,
-        file: "org-dartlang-app:///packages/carousel_slider/carousel_slider.dart"
+        [_Location_parameterLocations]: C5 || CT.C5,
+        [_Location_name]: null,
+        [_Location_column]: 30,
+        [_Location_line]: 194,
+        [_Location_file]: "org-dartlang-app:///packages/carousel_slider/carousel_slider.dart"
       });
     },
     get C10() {
       return C10 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "aspectRatio",
-        column: 42,
-        line: 199,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "aspectRatio",
+        [_Location_column]: 42,
+        [_Location_line]: 199,
+        [_Location_file]: null
       });
     },
     get C11() {
       return C11 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "child",
-        column: 75,
-        line: 199,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 75,
+        [_Location_line]: 199,
+        [_Location_file]: null
       });
     },
     get C9() {
@@ -120,31 +120,31 @@ define(['dart_sdk', 'packages/flutter/src/animation/animation', 'packages/flutte
     get C8() {
       return C8 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C9 || CT.C9,
-        name: null,
-        column: 30,
-        line: 199,
-        file: "org-dartlang-app:///packages/carousel_slider/carousel_slider.dart"
+        [_Location_parameterLocations]: C9 || CT.C9,
+        [_Location_name]: null,
+        [_Location_column]: 30,
+        [_Location_line]: 199,
+        [_Location_file]: "org-dartlang-app:///packages/carousel_slider/carousel_slider.dart"
       });
     },
     get C14() {
       return C14 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "onPanDown",
-        column: 23,
-        line: 207,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "onPanDown",
+        [_Location_column]: 23,
+        [_Location_line]: 207,
+        [_Location_file]: null
       });
     },
     get C15() {
       return C15 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "child",
-        column: 57,
-        line: 207,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 57,
+        [_Location_line]: 207,
+        [_Location_file]: null
       });
     },
     get C13() {
@@ -153,11 +153,11 @@ define(['dart_sdk', 'packages/flutter/src/animation/animation', 'packages/flutte
     get C12() {
       return C12 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C13 || CT.C13,
-        name: null,
-        column: 7,
-        line: 207,
-        file: "org-dartlang-app:///packages/carousel_slider/carousel_slider.dart"
+        [_Location_parameterLocations]: C13 || CT.C13,
+        [_Location_name]: null,
+        [_Location_column]: 7,
+        [_Location_line]: 207,
+        [_Location_file]: "org-dartlang-app:///packages/carousel_slider/carousel_slider.dart"
       });
     },
     get C17() {
@@ -166,31 +166,31 @@ define(['dart_sdk', 'packages/flutter/src/animation/animation', 'packages/flutte
     get C16() {
       return C16 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C17 || CT.C17,
-        name: null,
-        column: 22,
-        line: 244,
-        file: "org-dartlang-app:///packages/carousel_slider/carousel_slider.dart"
+        [_Location_parameterLocations]: C17 || CT.C17,
+        [_Location_name]: null,
+        [_Location_column]: 22,
+        [_Location_line]: 244,
+        [_Location_file]: "org-dartlang-app:///packages/carousel_slider/carousel_slider.dart"
       });
     },
     get C20() {
       return C20 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "height",
-        column: 45,
-        line: 255,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "height",
+        [_Location_column]: 45,
+        [_Location_line]: 255,
+        [_Location_file]: null
       });
     },
     get C21() {
       return C21 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "child",
-        column: 79,
-        line: 255,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 79,
+        [_Location_line]: 255,
+        [_Location_file]: null
       });
     },
     get C19() {
@@ -199,21 +199,21 @@ define(['dart_sdk', 'packages/flutter/src/animation/animation', 'packages/flutte
     get C18() {
       return C18 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C19 || CT.C19,
-        name: null,
-        column: 36,
-        line: 255,
-        file: "org-dartlang-app:///packages/carousel_slider/carousel_slider.dart"
+        [_Location_parameterLocations]: C19 || CT.C19,
+        [_Location_name]: null,
+        [_Location_column]: 36,
+        [_Location_line]: 255,
+        [_Location_file]: "org-dartlang-app:///packages/carousel_slider/carousel_slider.dart"
       });
     },
     get C24() {
       return C24 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "child",
-        column: 29,
-        line: 255,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 29,
+        [_Location_line]: 255,
+        [_Location_file]: null
       });
     },
     get C23() {
@@ -222,31 +222,31 @@ define(['dart_sdk', 'packages/flutter/src/animation/animation', 'packages/flutte
     get C22() {
       return C22 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C23 || CT.C23,
-        name: null,
-        column: 22,
-        line: 255,
-        file: "org-dartlang-app:///packages/carousel_slider/carousel_slider.dart"
+        [_Location_parameterLocations]: C23 || CT.C23,
+        [_Location_name]: null,
+        [_Location_column]: 22,
+        [_Location_line]: 255,
+        [_Location_file]: "org-dartlang-app:///packages/carousel_slider/carousel_slider.dart"
       });
     },
     get C27() {
       return C27 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "width",
-        column: 23,
-        line: 259,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "width",
+        [_Location_column]: 23,
+        [_Location_line]: 259,
+        [_Location_file]: null
       });
     },
     get C28() {
       return C28 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "child",
-        column: 83,
-        line: 259,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 83,
+        [_Location_line]: 259,
+        [_Location_file]: null
       });
     },
     get C26() {
@@ -255,21 +255,21 @@ define(['dart_sdk', 'packages/flutter/src/animation/animation', 'packages/flutte
     get C25() {
       return C25 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C26 || CT.C26,
-        name: null,
-        column: 26,
-        line: 258,
-        file: "org-dartlang-app:///packages/carousel_slider/carousel_slider.dart"
+        [_Location_parameterLocations]: C26 || CT.C26,
+        [_Location_name]: null,
+        [_Location_column]: 26,
+        [_Location_line]: 258,
+        [_Location_file]: "org-dartlang-app:///packages/carousel_slider/carousel_slider.dart"
       });
     },
     get C31() {
       return C31 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "child",
-        column: 19,
-        line: 258,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 19,
+        [_Location_line]: 258,
+        [_Location_file]: null
       });
     },
     get C30() {
@@ -278,41 +278,41 @@ define(['dart_sdk', 'packages/flutter/src/animation/animation', 'packages/flutte
     get C29() {
       return C29 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C30 || CT.C30,
-        name: null,
-        column: 22,
-        line: 257,
-        file: "org-dartlang-app:///packages/carousel_slider/carousel_slider.dart"
+        [_Location_parameterLocations]: C30 || CT.C30,
+        [_Location_name]: null,
+        [_Location_column]: 22,
+        [_Location_line]: 257,
+        [_Location_file]: "org-dartlang-app:///packages/carousel_slider/carousel_slider.dart"
       });
     },
     get C34() {
       return C34 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "animation",
-        column: 11,
-        line: 234,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "animation",
+        [_Location_column]: 11,
+        [_Location_line]: 234,
+        [_Location_file]: null
       });
     },
     get C35() {
       return C35 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "child",
-        column: 11,
-        line: 235,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "child",
+        [_Location_column]: 11,
+        [_Location_line]: 235,
+        [_Location_file]: null
       });
     },
     get C36() {
       return C36 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "builder",
-        column: 11,
-        line: 236,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "builder",
+        [_Location_column]: 11,
+        [_Location_line]: 236,
+        [_Location_file]: null
       });
     },
     get C33() {
@@ -321,81 +321,81 @@ define(['dart_sdk', 'packages/flutter/src/animation/animation', 'packages/flutte
     get C32() {
       return C32 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C33 || CT.C33,
-        name: null,
-        column: 16,
-        line: 233,
-        file: "org-dartlang-app:///packages/carousel_slider/carousel_slider.dart"
+        [_Location_parameterLocations]: C33 || CT.C33,
+        [_Location_name]: null,
+        [_Location_column]: 16,
+        [_Location_line]: 233,
+        [_Location_file]: "org-dartlang-app:///packages/carousel_slider/carousel_slider.dart"
       });
     },
     get C39() {
       return C39 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "physics",
-        column: 7,
-        line: 218,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "physics",
+        [_Location_column]: 7,
+        [_Location_line]: 218,
+        [_Location_file]: null
       });
     },
     get C40() {
       return C40 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "scrollDirection",
-        column: 7,
-        line: 219,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "scrollDirection",
+        [_Location_column]: 7,
+        [_Location_line]: 219,
+        [_Location_file]: null
       });
     },
     get C41() {
       return C41 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "controller",
-        column: 7,
-        line: 220,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "controller",
+        [_Location_column]: 7,
+        [_Location_line]: 220,
+        [_Location_file]: null
       });
     },
     get C42() {
       return C42 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "reverse",
-        column: 7,
-        line: 221,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "reverse",
+        [_Location_column]: 7,
+        [_Location_line]: 221,
+        [_Location_file]: null
       });
     },
     get C43() {
       return C43 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "itemCount",
-        column: 7,
-        line: 222,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "itemCount",
+        [_Location_column]: 7,
+        [_Location_line]: 222,
+        [_Location_file]: null
       });
     },
     get C44() {
       return C44 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "onPageChanged",
-        column: 7,
-        line: 223,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "onPageChanged",
+        [_Location_column]: 7,
+        [_Location_line]: 223,
+        [_Location_file]: null
       });
     },
     get C45() {
       return C45 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: null,
-        name: "itemBuilder",
-        column: 7,
-        line: 229,
-        file: null
+        [_Location_parameterLocations]: null,
+        [_Location_name]: "itemBuilder",
+        [_Location_column]: 7,
+        [_Location_line]: 229,
+        [_Location_file]: null
       });
     },
     get C38() {
@@ -404,20 +404,42 @@ define(['dart_sdk', 'packages/flutter/src/animation/animation', 'packages/flutte
     get C37() {
       return C37 = dart.const({
         __proto__: widget_inspector._Location.prototype,
-        parameterLocations: C38 || CT.C38,
-        name: null,
-        column: 32,
-        line: 217,
-        file: "org-dartlang-app:///packages/carousel_slider/carousel_slider.dart"
+        [_Location_parameterLocations]: C38 || CT.C38,
+        [_Location_name]: null,
+        [_Location_column]: 32,
+        [_Location_line]: 217,
+        [_Location_file]: "org-dartlang-app:///packages/carousel_slider/carousel_slider.dart"
       });
     }
   });
-  const _duration = dart.privateName(core, "_duration");
+  const Duration__duration = dart.privateName(core, "Duration._duration");
   let C0;
   let C1;
+  const Cubic_d = dart.privateName(curves, "Cubic.d");
+  const Cubic_c = dart.privateName(curves, "Cubic.c");
+  const Cubic_b = dart.privateName(curves, "Cubic.b");
+  const Cubic_a = dart.privateName(curves, "Cubic.a");
   let C2;
   const _name = dart.privateName(basic_types, "_name");
   let C3;
+  const CarouselSlider_items = dart.privateName(carousel_slider, "CarouselSlider.items");
+  const CarouselSlider_height = dart.privateName(carousel_slider, "CarouselSlider.height");
+  const CarouselSlider_aspectRatio = dart.privateName(carousel_slider, "CarouselSlider.aspectRatio");
+  const CarouselSlider_viewportFraction = dart.privateName(carousel_slider, "CarouselSlider.viewportFraction");
+  const CarouselSlider_initialPage = dart.privateName(carousel_slider, "CarouselSlider.initialPage");
+  const CarouselSlider_realPage = dart.privateName(carousel_slider, "CarouselSlider.realPage");
+  const CarouselSlider_enableInfiniteScroll = dart.privateName(carousel_slider, "CarouselSlider.enableInfiniteScroll");
+  const CarouselSlider_reverse = dart.privateName(carousel_slider, "CarouselSlider.reverse");
+  const CarouselSlider_autoPlay = dart.privateName(carousel_slider, "CarouselSlider.autoPlay");
+  const CarouselSlider_autoPlayInterval = dart.privateName(carousel_slider, "CarouselSlider.autoPlayInterval");
+  const CarouselSlider_autoPlayAnimationDuration = dart.privateName(carousel_slider, "CarouselSlider.autoPlayAnimationDuration");
+  const CarouselSlider_autoPlayCurve = dart.privateName(carousel_slider, "CarouselSlider.autoPlayCurve");
+  const CarouselSlider_pauseAutoPlayOnTouch = dart.privateName(carousel_slider, "CarouselSlider.pauseAutoPlayOnTouch");
+  const CarouselSlider_enlargeCenterPage = dart.privateName(carousel_slider, "CarouselSlider.enlargeCenterPage");
+  const CarouselSlider_scrollDirection = dart.privateName(carousel_slider, "CarouselSlider.scrollDirection");
+  const CarouselSlider_onPageChanged = dart.privateName(carousel_slider, "CarouselSlider.onPageChanged");
+  const CarouselSlider_scrollPhysics = dart.privateName(carousel_slider, "CarouselSlider.scrollPhysics");
+  const CarouselSlider_pageController = dart.privateName(carousel_slider, "CarouselSlider.pageController");
   carousel_slider.CarouselSlider = class CarouselSlider extends framework.StatefulWidget {
     get items() {
       return this[items$];
@@ -569,7 +591,7 @@ define(['dart_sdk', 'packages/flutter/src/animation/animation', 'packages/flutte
     let onPageChanged = opts && 'onPageChanged' in opts ? opts.onPageChanged : null;
     let scrollPhysics = opts && 'scrollPhysics' in opts ? opts.scrollPhysics : null;
     let scrollDirection = opts && 'scrollDirection' in opts ? opts.scrollDirection : C3 || CT.C3;
-    let $creationLocationd_0dea112b090073317d4 = opts && '$creationLocationd_0dea112b090073317d4' in opts ? opts.$creationLocationd_0dea112b090073317d4 : null;
+    let $36creationLocationd_0dea112b090073317d4 = opts && '$creationLocationd_0dea112b090073317d4' in opts ? opts.$creationLocationd_0dea112b090073317d4 : null;
     this[items$] = items;
     this[height$] = height;
     this[aspectRatio$] = aspectRatio;
@@ -588,28 +610,28 @@ define(['dart_sdk', 'packages/flutter/src/animation/animation', 'packages/flutte
     this[scrollDirection$] = scrollDirection;
     this[realPage$] = dart.test(enableInfiniteScroll) ? dart.notNull(realPage) + dart.notNull(initialPage) : initialPage;
     this[pageController] = new page_view.PageController.new({viewportFraction: viewportFraction, initialPage: dart.asInt(dart.test(enableInfiniteScroll) ? dart.notNull(realPage) + dart.notNull(initialPage) : initialPage)});
-    carousel_slider.CarouselSlider.__proto__.new.call(this, {$creationLocationd_0dea112b090073317d4: $creationLocationd_0dea112b090073317d4});
+    carousel_slider.CarouselSlider.__proto__.new.call(this, {$creationLocationd_0dea112b090073317d4: $36creationLocationd_0dea112b090073317d4});
     ;
   }).prototype = carousel_slider.CarouselSlider.prototype;
   dart.addTypeTests(carousel_slider.CarouselSlider);
-  const items$ = Symbol("CarouselSlider.items");
-  const height$ = Symbol("CarouselSlider.height");
-  const aspectRatio$ = Symbol("CarouselSlider.aspectRatio");
-  const viewportFraction$ = Symbol("CarouselSlider.viewportFraction");
-  const initialPage$ = Symbol("CarouselSlider.initialPage");
-  const realPage$ = Symbol("CarouselSlider.realPage");
-  const enableInfiniteScroll$ = Symbol("CarouselSlider.enableInfiniteScroll");
-  const reverse$ = Symbol("CarouselSlider.reverse");
-  const autoPlay$ = Symbol("CarouselSlider.autoPlay");
-  const autoPlayInterval$ = Symbol("CarouselSlider.autoPlayInterval");
-  const autoPlayAnimationDuration$ = Symbol("CarouselSlider.autoPlayAnimationDuration");
-  const autoPlayCurve$ = Symbol("CarouselSlider.autoPlayCurve");
-  const pauseAutoPlayOnTouch$ = Symbol("CarouselSlider.pauseAutoPlayOnTouch");
-  const enlargeCenterPage$ = Symbol("CarouselSlider.enlargeCenterPage");
-  const scrollDirection$ = Symbol("CarouselSlider.scrollDirection");
-  const onPageChanged$ = Symbol("CarouselSlider.onPageChanged");
-  const scrollPhysics$ = Symbol("CarouselSlider.scrollPhysics");
-  const pageController = Symbol("CarouselSlider.pageController");
+  const items$ = CarouselSlider_items;
+  const height$ = CarouselSlider_height;
+  const aspectRatio$ = CarouselSlider_aspectRatio;
+  const viewportFraction$ = CarouselSlider_viewportFraction;
+  const initialPage$ = CarouselSlider_initialPage;
+  const realPage$ = CarouselSlider_realPage;
+  const enableInfiniteScroll$ = CarouselSlider_enableInfiniteScroll;
+  const reverse$ = CarouselSlider_reverse;
+  const autoPlay$ = CarouselSlider_autoPlay;
+  const autoPlayInterval$ = CarouselSlider_autoPlayInterval;
+  const autoPlayAnimationDuration$ = CarouselSlider_autoPlayAnimationDuration;
+  const autoPlayCurve$ = CarouselSlider_autoPlayCurve;
+  const pauseAutoPlayOnTouch$ = CarouselSlider_pauseAutoPlayOnTouch;
+  const enlargeCenterPage$ = CarouselSlider_enlargeCenterPage;
+  const scrollDirection$ = CarouselSlider_scrollDirection;
+  const onPageChanged$ = CarouselSlider_onPageChanged;
+  const scrollPhysics$ = CarouselSlider_scrollPhysics;
+  const pageController = CarouselSlider_pageController;
   dart.setMethodSignature(carousel_slider.CarouselSlider, () => ({
     __proto__: dart.getMethods(carousel_slider.CarouselSlider.__proto__),
     nextPage: dart.fnType(async.Future$(dart.void), [], {curve: curves.Curve, duration: core.Duration}),
@@ -640,6 +662,11 @@ define(['dart_sdk', 'packages/flutter/src/animation/animation', 'packages/flutte
     scrollPhysics: dart.finalFieldType(scroll_physics.ScrollPhysics),
     pageController: dart.finalFieldType(page_view.PageController)
   }));
+  const _Location_parameterLocations = dart.privateName(widget_inspector, "_Location.parameterLocations");
+  const _Location_name = dart.privateName(widget_inspector, "_Location.name");
+  const _Location_column = dart.privateName(widget_inspector, "_Location.column");
+  const _Location_line = dart.privateName(widget_inspector, "_Location.line");
+  const _Location_file = dart.privateName(widget_inspector, "_Location.file");
   let C6;
   let C7;
   let C5;
@@ -682,13 +709,13 @@ define(['dart_sdk', 'packages/flutter/src/animation/animation', 'packages/flutte
   let C45;
   let C38;
   let C37;
-  const State_TickerProviderStateMixin$ = class State_TickerProviderStateMixin extends framework.State$(carousel_slider.CarouselSlider) {};
-  (State_TickerProviderStateMixin$.new = function() {
+  const State_TickerProviderStateMixin$36 = class State_TickerProviderStateMixin extends framework.State$(carousel_slider.CarouselSlider) {};
+  (State_TickerProviderStateMixin$36.new = function() {
     ticker_provider.TickerProviderStateMixin$(carousel_slider.CarouselSlider)[dart.mixinNew].call(this);
-    State_TickerProviderStateMixin$.__proto__.new.call(this);
-  }).prototype = State_TickerProviderStateMixin$.prototype;
-  dart.applyMixin(State_TickerProviderStateMixin$, ticker_provider.TickerProviderStateMixin$(carousel_slider.CarouselSlider));
-  carousel_slider._CarouselSliderState = class _CarouselSliderState extends State_TickerProviderStateMixin$ {
+    State_TickerProviderStateMixin$36.__proto__.new.call(this);
+  }).prototype = State_TickerProviderStateMixin$36.prototype;
+  dart.applyMixin(State_TickerProviderStateMixin$36, ticker_provider.TickerProviderStateMixin$(carousel_slider.CarouselSlider));
+  carousel_slider._CarouselSliderState = class _CarouselSliderState extends State_TickerProviderStateMixin$36 {
     initState() {
       super.initState();
       this.timer = this.getTimer();
@@ -784,7 +811,7 @@ define(['dart_sdk', 'packages/flutter/src/animation/animation', 'packages/flutte
   dart.trackLibraries("packages/carousel_slider/carousel_slider", {
     "package:carousel_slider/carousel_slider.dart": carousel_slider
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["carousel_slider.dart"],"names":[],"mappings":"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","file":"carousel_slider.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["carousel_slider.dart"],"names":[],"mappings":"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","file":"carousel_slider.ddc.js"}');
   // Exports:
   return {
     carousel_slider: carousel_slider

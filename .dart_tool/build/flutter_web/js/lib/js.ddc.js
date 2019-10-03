@@ -12,6 +12,7 @@ define(['dart_sdk'], function(dart_sdk) {
       });
     }
   });
+  const JS_name = dart.privateName(js, "JS.name");
   js.JS = class JS extends core.Object {
     get name() {
       return this[name$];
@@ -26,7 +27,7 @@ define(['dart_sdk'], function(dart_sdk) {
     ;
   }).prototype = js.JS.prototype;
   dart.addTypeTests(js.JS);
-  const name$ = Symbol("JS.name");
+  const name$ = JS_name;
   dart.setLibraryUri(js.JS, "package:js/js.dart");
   dart.setFieldSignature(js.JS, () => ({
     __proto__: dart.getFields(js.JS.__proto__),
@@ -47,7 +48,7 @@ define(['dart_sdk'], function(dart_sdk) {
   dart.trackLibraries("packages/js/js", {
     "package:js/js.dart": js
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["js.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;IAiBe;;;;;;;wBACE;;;;EAAM;;;;;;;;;;;EAIH;;;;;MASH,YAAS","file":"js.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["js.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;IAiBe;;;;;;;wBACE;;;;EAAM;;;;;;;;;;;EAIH;;;;;MASH,YAAS","file":"js.ddc.js"}');
   // Exports:
   return {
     js: js

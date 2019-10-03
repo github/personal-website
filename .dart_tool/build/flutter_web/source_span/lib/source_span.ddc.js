@@ -11,28 +11,30 @@ define(['dart_sdk', 'packages/path/path', 'packages/term_glyph/src/generated/asc
   const path = packages__path__path.path;
   const top_level = packages__term_glyph__src__generated__ascii_glyph_set.src__generated__top_level;
   const term_glyph = packages__term_glyph__src__generated__ascii_glyph_set.term_glyph;
-  const colors = Object.create(dart.library);
-  const location_mixin = Object.create(dart.library);
-  const span = Object.create(dart.library);
-  const span_with_context = Object.create(dart.library);
-  const highlighter = Object.create(dart.library);
-  const span_exception = Object.create(dart.library);
-  const file = Object.create(dart.library);
-  const location = Object.create(dart.library);
-  const utils = Object.create(dart.library);
-  const source_span = Object.create(dart.library);
   const span_mixin = Object.create(dart.library);
-  const $abs = dartx.abs;
-  const $runtimeType = dartx.runtimeType;
-  const $compareTo = dartx.compareTo;
+  const utils = Object.create(dart.library);
+  const span_with_context = Object.create(dart.library);
+  const span = Object.create(dart.library);
+  const location = Object.create(dart.library);
+  const highlighter = Object.create(dart.library);
+  const colors = Object.create(dart.library);
+  const source_span = Object.create(dart.library);
+  const span_exception = Object.create(dart.library);
+  const location_mixin = Object.create(dart.library);
+  const file = Object.create(dart.library);
   const $substring = dartx.substring;
   const $isEmpty = dartx.isEmpty;
+  const $runtimeType = dartx.runtimeType;
+  const $compareTo = dartx.compareTo;
+  const $codeUnits = dartx.codeUnits;
+  const $indexOf = dartx.indexOf;
+  const $lastIndexOf = dartx.lastIndexOf;
   const $contains = dartx.contains;
+  const $abs = dartx.abs;
   const $toString = dartx.toString;
   const $codeUnitAt = dartx.codeUnitAt;
   const $replaceAll = dartx.replaceAll;
   const $endsWith = dartx.endsWith;
-  const $lastIndexOf = dartx.lastIndexOf;
   const $split = dartx.split;
   const $length = dartx.length;
   const $times = dartx['*'];
@@ -42,7 +44,6 @@ define(['dart_sdk', 'packages/path/path', 'packages/term_glyph/src/generated/asc
   const $skip = dartx.skip;
   const $take = dartx.take;
   const $_get = dartx._get;
-  const $codeUnits = dartx.codeUnits;
   const $padRight = dartx.padRight;
   const $runes = dartx.runes;
   const $toList = dartx.toList;
@@ -50,7 +51,6 @@ define(['dart_sdk', 'packages/path/path', 'packages/term_glyph/src/generated/asc
   const $truncate = dartx.truncate;
   const $sublist = dartx.sublist;
   const $noSuchMethod = dartx.noSuchMethod;
-  const $indexOf = dartx.indexOf;
   let VoidToNull = () => (VoidToNull = dart.constFn(dart.fnType(core.Null, [])))();
   let VoidTovoid = () => (VoidTovoid = dart.constFn(dart.fnType(dart.void, [])))();
   let JSArrayOfint = () => (JSArrayOfint = dart.constFn(_interceptors.JSArray$(core.int)))();
@@ -60,81 +60,6 @@ define(['dart_sdk', 'packages/path/path', 'packages/term_glyph/src/generated/asc
       return C0 = dart.const(new _js_helper.PrivateSymbol.new('_context', _context));
     }
   });
-  dart.defineLazy(colors, {
-    /*colors.RED*/get RED() {
-      return "[31m";
-    },
-    /*colors.YELLOW*/get YELLOW() {
-      return "[33m";
-    },
-    /*colors.BLUE*/get BLUE() {
-      return "[34m";
-    },
-    /*colors.NONE*/get NONE() {
-      return "[0m";
-    }
-  });
-  location_mixin.SourceLocationMixin = class SourceLocationMixin extends core.Object {
-    get toolString() {
-      let source = this.sourceUrl == null ? "unknown source" : this.sourceUrl;
-      return dart.str(source) + ":" + dart.str(dart.notNull(this.line) + 1) + ":" + dart.str(dart.notNull(this.column) + 1);
-    }
-    distance(other) {
-      if (!dart.equals(this.sourceUrl, other.sourceUrl)) {
-        dart.throw(new core.ArgumentError.new("Source URLs \"" + dart.str(this.sourceUrl) + "\" and " + "\"" + dart.str(other.sourceUrl) + "\" don't match."));
-      }
-      return (dart.notNull(this.offset) - dart.notNull(other.offset))[$abs]();
-    }
-    pointSpan() {
-      return span.SourceSpan.new(this, this, "");
-    }
-    compareTo(other) {
-      location.SourceLocation._check(other);
-      if (!dart.equals(this.sourceUrl, other.sourceUrl)) {
-        dart.throw(new core.ArgumentError.new("Source URLs \"" + dart.str(this.sourceUrl) + "\" and " + "\"" + dart.str(other.sourceUrl) + "\" don't match."));
-      }
-      return dart.notNull(this.offset) - dart.notNull(other.offset);
-    }
-    _equals(other) {
-      if (other == null) return false;
-      return location.SourceLocation.is(other) && dart.equals(this.sourceUrl, other.sourceUrl) && this.offset == other.offset;
-    }
-    get hashCode() {
-      return dart.notNull(dart.hashCode(this.sourceUrl)) + dart.notNull(this.offset);
-    }
-    toString() {
-      return "<" + dart.str(this[$runtimeType]) + ": " + dart.str(this.offset) + " " + dart.str(this.toolString) + ">";
-    }
-  };
-  (location_mixin.SourceLocationMixin.new = function() {
-    ;
-  }).prototype = location_mixin.SourceLocationMixin.prototype;
-  dart.addTypeTests(location_mixin.SourceLocationMixin);
-  location_mixin.SourceLocationMixin[dart.implements] = () => [location.SourceLocation];
-  dart.setMethodSignature(location_mixin.SourceLocationMixin, () => ({
-    __proto__: dart.getMethods(location_mixin.SourceLocationMixin.__proto__),
-    distance: dart.fnType(core.int, [location.SourceLocation]),
-    pointSpan: dart.fnType(span.SourceSpan, []),
-    compareTo: dart.fnType(core.int, [core.Object]),
-    [$compareTo]: dart.fnType(core.int, [core.Object])
-  }));
-  dart.setGetterSignature(location_mixin.SourceLocationMixin, () => ({
-    __proto__: dart.getGetters(location_mixin.SourceLocationMixin.__proto__),
-    toolString: core.String
-  }));
-  dart.setLibraryUri(location_mixin.SourceLocationMixin, "package:source_span/src/location_mixin.dart");
-  dart.defineExtensionMethods(location_mixin.SourceLocationMixin, ['compareTo', '_equals', 'toString']);
-  dart.defineExtensionAccessors(location_mixin.SourceLocationMixin, ['hashCode']);
-  span.SourceSpan = class SourceSpan extends core.Object {
-    static new(start, end, text) {
-      return new span.SourceSpanBase.new(start, end, text);
-    }
-  };
-  (span.SourceSpan[dart.mixinNew] = function() {
-  }).prototype = span.SourceSpan.prototype;
-  dart.addTypeTests(span.SourceSpan);
-  span.SourceSpan[dart.implements] = () => [core.Comparable$(span.SourceSpan)];
-  dart.setLibraryUri(span.SourceSpan, "package:source_span/src/span.dart");
   span_mixin.SourceSpanMixin = class SourceSpanMixin extends core.Object {
     get sourceUrl() {
       return this.start.sourceUrl;
@@ -211,6 +136,44 @@ define(['dart_sdk', 'packages/path/path', 'packages/term_glyph/src/generated/asc
   dart.setLibraryUri(span_mixin.SourceSpanMixin, "package:source_span/src/span_mixin.dart");
   dart.defineExtensionMethods(span_mixin.SourceSpanMixin, ['compareTo', '_equals', 'toString']);
   dart.defineExtensionAccessors(span_mixin.SourceSpanMixin, ['hashCode']);
+  utils.min = function min(obj1, obj2) {
+    return dart.notNull(obj1[$compareTo](obj2)) > 0 ? obj2 : obj1;
+  };
+  utils.max = function max(obj1, obj2) {
+    return dart.notNull(obj1[$compareTo](obj2)) > 0 ? obj1 : obj2;
+  };
+  utils.countCodeUnits = function countCodeUnits(string, codeUnit) {
+    let count = 0;
+    for (let codeUnitToCheck of string[$codeUnits]) {
+      if (codeUnitToCheck == codeUnit) count = count + 1;
+    }
+    return count;
+  };
+  utils.findLineStart = function findLineStart(context, text, column) {
+    if (text[$isEmpty]) {
+      let beginningOfLine = 0;
+      while (true) {
+        let index = context[$indexOf]("\n", beginningOfLine);
+        if (index === -1) {
+          return context.length - beginningOfLine >= dart.notNull(column) ? beginningOfLine : null;
+        }
+        if (index - beginningOfLine >= dart.notNull(column)) return beginningOfLine;
+        beginningOfLine = index + 1;
+      }
+    }
+    let index = context[$indexOf](text);
+    while (index !== -1) {
+      let lineStart = index === 0 ? 0 : context[$lastIndexOf]("\n", index - 1) + 1;
+      let textColumn = index - lineStart;
+      if (column === textColumn) return lineStart;
+      index = context[$indexOf](text, index + 1);
+    }
+    return null;
+  };
+  const _context$ = dart.privateName(span_with_context, "_context");
+  const SourceSpanBase_start = dart.privateName(span, "SourceSpanBase.start");
+  const SourceSpanBase_end = dart.privateName(span, "SourceSpanBase.end");
+  const SourceSpanBase_text = dart.privateName(span, "SourceSpanBase.text");
   span.SourceSpanBase = class SourceSpanBase extends span_mixin.SourceSpanMixin {
     get start() {
       return this[start$];
@@ -244,9 +207,9 @@ define(['dart_sdk', 'packages/path/path', 'packages/term_glyph/src/generated/asc
     }
   }).prototype = span.SourceSpanBase.prototype;
   dart.addTypeTests(span.SourceSpanBase);
-  const start$ = Symbol("SourceSpanBase.start");
-  const end$ = Symbol("SourceSpanBase.end");
-  const text$ = Symbol("SourceSpanBase.text");
+  const start$ = SourceSpanBase_start;
+  const end$ = SourceSpanBase_end;
+  const text$ = SourceSpanBase_text;
   dart.setLibraryUri(span.SourceSpanBase, "package:source_span/src/span.dart");
   dart.setFieldSignature(span.SourceSpanBase, () => ({
     __proto__: dart.getFields(span.SourceSpanBase.__proto__),
@@ -254,7 +217,6 @@ define(['dart_sdk', 'packages/path/path', 'packages/term_glyph/src/generated/asc
     end: dart.finalFieldType(location.SourceLocation),
     text: dart.finalFieldType(core.String)
   }));
-  const _context$ = dart.privateName(span_with_context, "_context");
   span_with_context.SourceSpanWithContext = class SourceSpanWithContext extends span.SourceSpanBase {
     get context() {
       return this[_context$];
@@ -280,6 +242,129 @@ define(['dart_sdk', 'packages/path/path', 'packages/term_glyph/src/generated/asc
     __proto__: dart.getFields(span_with_context.SourceSpanWithContext.__proto__),
     [_context$]: dart.finalFieldType(core.String)
   }));
+  span.SourceSpan = class SourceSpan extends core.Object {
+    static new(start, end, text) {
+      return new span.SourceSpanBase.new(start, end, text);
+    }
+  };
+  (span.SourceSpan[dart.mixinNew] = function() {
+  }).prototype = span.SourceSpan.prototype;
+  dart.addTypeTests(span.SourceSpan);
+  span.SourceSpan[dart.implements] = () => [core.Comparable$(span.SourceSpan)];
+  dart.setLibraryUri(span.SourceSpan, "package:source_span/src/span.dart");
+  const SourceLocation_sourceUrl = dart.privateName(location, "SourceLocation.sourceUrl");
+  const SourceLocation_offset = dart.privateName(location, "SourceLocation.offset");
+  const SourceLocation_line = dart.privateName(location, "SourceLocation.line");
+  const SourceLocation_column = dart.privateName(location, "SourceLocation.column");
+  location.SourceLocation = class SourceLocation extends core.Object {
+    get sourceUrl() {
+      return this[sourceUrl$];
+    }
+    set sourceUrl(value) {
+      super.sourceUrl = value;
+    }
+    get offset() {
+      return this[offset$];
+    }
+    set offset(value) {
+      super.offset = value;
+    }
+    get line() {
+      return this[line$];
+    }
+    set line(value) {
+      super.line = value;
+    }
+    get column() {
+      return this[column$];
+    }
+    set column(value) {
+      super.column = value;
+    }
+    get toolString() {
+      let source = this.sourceUrl == null ? "unknown source" : this.sourceUrl;
+      return dart.str(source) + ":" + dart.str(dart.notNull(this.line) + 1) + ":" + dart.str(dart.notNull(this.column) + 1);
+    }
+    distance(other) {
+      if (!dart.equals(this.sourceUrl, other.sourceUrl)) {
+        dart.throw(new core.ArgumentError.new("Source URLs \"" + dart.str(this.sourceUrl) + "\" and " + "\"" + dart.str(other.sourceUrl) + "\" don't match."));
+      }
+      return (dart.notNull(this.offset) - dart.notNull(other.offset))[$abs]();
+    }
+    pointSpan() {
+      return span.SourceSpan.new(this, this, "");
+    }
+    compareTo(other) {
+      location.SourceLocation._check(other);
+      if (!dart.equals(this.sourceUrl, other.sourceUrl)) {
+        dart.throw(new core.ArgumentError.new("Source URLs \"" + dart.str(this.sourceUrl) + "\" and " + "\"" + dart.str(other.sourceUrl) + "\" don't match."));
+      }
+      return dart.notNull(this.offset) - dart.notNull(other.offset);
+    }
+    _equals(other) {
+      if (other == null) return false;
+      return location.SourceLocation.is(other) && dart.equals(this.sourceUrl, other.sourceUrl) && this.offset == other.offset;
+    }
+    get hashCode() {
+      return dart.notNull(dart.hashCode(this.sourceUrl)) + dart.notNull(this.offset);
+    }
+    toString() {
+      return "<" + dart.str(this[$runtimeType]) + ": " + dart.str(this.offset) + " " + dart.str(this.toolString) + ">";
+    }
+  };
+  (location.SourceLocation.new = function(offset, opts) {
+    let sourceUrl = opts && 'sourceUrl' in opts ? opts.sourceUrl : null;
+    let line = opts && 'line' in opts ? opts.line : null;
+    let column = opts && 'column' in opts ? opts.column : null;
+    this[sourceUrl$] = core.Uri._check(typeof sourceUrl == 'string' ? core.Uri.parse(sourceUrl) : sourceUrl);
+    this[offset$] = offset;
+    this[line$] = line == null ? 0 : line;
+    this[column$] = column == null ? offset : column;
+    if (dart.notNull(offset) < 0) {
+      dart.throw(new core.RangeError.new("Offset may not be negative, was " + dart.str(offset) + "."));
+    } else if (line != null && dart.notNull(line) < 0) {
+      dart.throw(new core.RangeError.new("Line may not be negative, was " + dart.str(line) + "."));
+    } else if (column != null && dart.notNull(column) < 0) {
+      dart.throw(new core.RangeError.new("Column may not be negative, was " + dart.str(column) + "."));
+    }
+  }).prototype = location.SourceLocation.prototype;
+  dart.addTypeTests(location.SourceLocation);
+  const sourceUrl$ = SourceLocation_sourceUrl;
+  const offset$ = SourceLocation_offset;
+  const line$ = SourceLocation_line;
+  const column$ = SourceLocation_column;
+  location.SourceLocation[dart.implements] = () => [core.Comparable$(location.SourceLocation)];
+  dart.setMethodSignature(location.SourceLocation, () => ({
+    __proto__: dart.getMethods(location.SourceLocation.__proto__),
+    distance: dart.fnType(core.int, [location.SourceLocation]),
+    pointSpan: dart.fnType(span.SourceSpan, []),
+    compareTo: dart.fnType(core.int, [core.Object]),
+    [$compareTo]: dart.fnType(core.int, [core.Object])
+  }));
+  dart.setGetterSignature(location.SourceLocation, () => ({
+    __proto__: dart.getGetters(location.SourceLocation.__proto__),
+    toolString: core.String
+  }));
+  dart.setLibraryUri(location.SourceLocation, "package:source_span/src/location.dart");
+  dart.setFieldSignature(location.SourceLocation, () => ({
+    __proto__: dart.getFields(location.SourceLocation.__proto__),
+    sourceUrl: dart.finalFieldType(core.Uri),
+    offset: dart.finalFieldType(core.int),
+    line: dart.finalFieldType(core.int),
+    column: dart.finalFieldType(core.int)
+  }));
+  dart.defineExtensionMethods(location.SourceLocation, ['compareTo', '_equals', 'toString']);
+  dart.defineExtensionAccessors(location.SourceLocation, ['hashCode']);
+  location.SourceLocationBase = class SourceLocationBase extends location.SourceLocation {};
+  (location.SourceLocationBase.new = function(offset, opts) {
+    let sourceUrl = opts && 'sourceUrl' in opts ? opts.sourceUrl : null;
+    let line = opts && 'line' in opts ? opts.line : null;
+    let column = opts && 'column' in opts ? opts.column : null;
+    location.SourceLocationBase.__proto__.new.call(this, offset, {sourceUrl: sourceUrl, line: line, column: column});
+    ;
+  }).prototype = location.SourceLocationBase.prototype;
+  dart.addTypeTests(location.SourceLocationBase);
+  dart.setLibraryUri(location.SourceLocationBase, "package:source_span/src/location.dart");
   const _buffer = dart.privateName(highlighter, "_buffer");
   const _span$ = dart.privateName(highlighter, "_span");
   const _color$ = dart.privateName(highlighter, "_color");
@@ -567,6 +652,20 @@ define(['dart_sdk', 'packages/path/path', 'packages/term_glyph/src/generated/asc
       return 4;
     }
   });
+  dart.defineLazy(colors, {
+    /*colors.RED*/get RED() {
+      return "[31m";
+    },
+    /*colors.YELLOW*/get YELLOW() {
+      return "[33m";
+    },
+    /*colors.BLUE*/get BLUE() {
+      return "[34m";
+    },
+    /*colors.NONE*/get NONE() {
+      return "[0m";
+    }
+  });
   const _message$ = dart.privateName(span_exception, "_message");
   const _span$0 = dart.privateName(span_exception, "_span");
   span_exception.SourceSpanException = class SourceSpanException extends core.Object {
@@ -633,11 +732,63 @@ define(['dart_sdk', 'packages/path/path', 'packages/term_glyph/src/generated/asc
     __proto__: dart.getFields(span_exception.SourceSpanFormatException.__proto__),
     [_source$]: dart.finalFieldType(dart.dynamic)
   }));
+  location_mixin.SourceLocationMixin = class SourceLocationMixin extends core.Object {
+    get toolString() {
+      let source = this.sourceUrl == null ? "unknown source" : this.sourceUrl;
+      return dart.str(source) + ":" + dart.str(dart.notNull(this.line) + 1) + ":" + dart.str(dart.notNull(this.column) + 1);
+    }
+    distance(other) {
+      if (!dart.equals(this.sourceUrl, other.sourceUrl)) {
+        dart.throw(new core.ArgumentError.new("Source URLs \"" + dart.str(this.sourceUrl) + "\" and " + "\"" + dart.str(other.sourceUrl) + "\" don't match."));
+      }
+      return (dart.notNull(this.offset) - dart.notNull(other.offset))[$abs]();
+    }
+    pointSpan() {
+      return span.SourceSpan.new(this, this, "");
+    }
+    compareTo(other) {
+      location.SourceLocation._check(other);
+      if (!dart.equals(this.sourceUrl, other.sourceUrl)) {
+        dart.throw(new core.ArgumentError.new("Source URLs \"" + dart.str(this.sourceUrl) + "\" and " + "\"" + dart.str(other.sourceUrl) + "\" don't match."));
+      }
+      return dart.notNull(this.offset) - dart.notNull(other.offset);
+    }
+    _equals(other) {
+      if (other == null) return false;
+      return location.SourceLocation.is(other) && dart.equals(this.sourceUrl, other.sourceUrl) && this.offset == other.offset;
+    }
+    get hashCode() {
+      return dart.notNull(dart.hashCode(this.sourceUrl)) + dart.notNull(this.offset);
+    }
+    toString() {
+      return "<" + dart.str(this[$runtimeType]) + ": " + dart.str(this.offset) + " " + dart.str(this.toolString) + ">";
+    }
+  };
+  (location_mixin.SourceLocationMixin.new = function() {
+    ;
+  }).prototype = location_mixin.SourceLocationMixin.prototype;
+  dart.addTypeTests(location_mixin.SourceLocationMixin);
+  location_mixin.SourceLocationMixin[dart.implements] = () => [location.SourceLocation];
+  dart.setMethodSignature(location_mixin.SourceLocationMixin, () => ({
+    __proto__: dart.getMethods(location_mixin.SourceLocationMixin.__proto__),
+    distance: dart.fnType(core.int, [location.SourceLocation]),
+    pointSpan: dart.fnType(span.SourceSpan, []),
+    compareTo: dart.fnType(core.int, [core.Object]),
+    [$compareTo]: dart.fnType(core.int, [core.Object])
+  }));
+  dart.setGetterSignature(location_mixin.SourceLocationMixin, () => ({
+    __proto__: dart.getGetters(location_mixin.SourceLocationMixin.__proto__),
+    toolString: core.String
+  }));
+  dart.setLibraryUri(location_mixin.SourceLocationMixin, "package:source_span/src/location_mixin.dart");
+  dart.defineExtensionMethods(location_mixin.SourceLocationMixin, ['compareTo', '_equals', 'toString']);
+  dart.defineExtensionAccessors(location_mixin.SourceLocationMixin, ['hashCode']);
   const _lineStarts = dart.privateName(file, "_lineStarts");
   const _cachedLine = dart.privateName(file, "_cachedLine");
   const _decodedChars = dart.privateName(file, "_decodedChars");
   const _isNearCachedLine = dart.privateName(file, "_isNearCachedLine");
   const _binarySearch = dart.privateName(file, "_binarySearch");
+  const SourceFile_url = dart.privateName(file, "SourceFile.url");
   file.SourceFile = class SourceFile extends core.Object {
     get url() {
       return this[url$];
@@ -761,7 +912,7 @@ define(['dart_sdk', 'packages/path/path', 'packages/term_glyph/src/generated/asc
     }
   }).prototype = file.SourceFile.prototype;
   dart.addTypeTests(file.SourceFile);
-  const url$ = Symbol("SourceFile.url");
+  const url$ = SourceFile_url;
   dart.setMethodSignature(file.SourceFile, () => ({
     __proto__: dart.getMethods(file.SourceFile.__proto__),
     span: dart.fnType(file.FileSpan, [core.int], [core.int]),
@@ -786,6 +937,8 @@ define(['dart_sdk', 'packages/path/path', 'packages/term_glyph/src/generated/asc
     [_decodedChars]: dart.finalFieldType(typed_data.Uint32List),
     [_cachedLine]: dart.fieldType(core.int)
   }));
+  const FileLocation_file = dart.privateName(file, "FileLocation.file");
+  const FileLocation_offset = dart.privateName(file, "FileLocation.offset");
   file.FileLocation = class FileLocation extends location_mixin.SourceLocationMixin {
     get file() {
       return this[file$];
@@ -794,7 +947,7 @@ define(['dart_sdk', 'packages/path/path', 'packages/term_glyph/src/generated/asc
       super.file = value;
     }
     get offset() {
-      return this[offset$];
+      return this[offset$0];
     }
     set offset(value) {
       super.offset = value;
@@ -814,7 +967,7 @@ define(['dart_sdk', 'packages/path/path', 'packages/term_glyph/src/generated/asc
   };
   (file.FileLocation.__ = function(file, offset) {
     this[file$] = file;
-    this[offset$] = offset;
+    this[offset$0] = offset;
     if (dart.notNull(this.offset) < 0) {
       dart.throw(new core.RangeError.new("Offset may not be negative, was " + dart.str(this.offset) + "."));
     } else if (dart.notNull(this.offset) > dart.notNull(this.file.length)) {
@@ -822,8 +975,8 @@ define(['dart_sdk', 'packages/path/path', 'packages/term_glyph/src/generated/asc
     }
   }).prototype = file.FileLocation.prototype;
   dart.addTypeTests(file.FileLocation);
-  const file$ = Symbol("FileLocation.file");
-  const offset$ = Symbol("FileLocation.offset");
+  const file$ = FileLocation_file;
+  const offset$0 = FileLocation_offset;
   file.FileLocation[dart.implements] = () => [location.SourceLocation];
   dart.setMethodSignature(file.FileLocation, () => ({
     __proto__: dart.getMethods(file.FileLocation.__proto__),
@@ -977,176 +1130,33 @@ define(['dart_sdk', 'packages/path/path', 'packages/term_glyph/src/generated/asc
       return 13;
     }
   });
-  location.SourceLocation = class SourceLocation extends core.Object {
-    get sourceUrl() {
-      return this[sourceUrl$];
-    }
-    set sourceUrl(value) {
-      super.sourceUrl = value;
-    }
-    get offset() {
-      return this[offset$0];
-    }
-    set offset(value) {
-      super.offset = value;
-    }
-    get line() {
-      return this[line$];
-    }
-    set line(value) {
-      super.line = value;
-    }
-    get column() {
-      return this[column$];
-    }
-    set column(value) {
-      super.column = value;
-    }
-    get toolString() {
-      let source = this.sourceUrl == null ? "unknown source" : this.sourceUrl;
-      return dart.str(source) + ":" + dart.str(dart.notNull(this.line) + 1) + ":" + dart.str(dart.notNull(this.column) + 1);
-    }
-    distance(other) {
-      if (!dart.equals(this.sourceUrl, other.sourceUrl)) {
-        dart.throw(new core.ArgumentError.new("Source URLs \"" + dart.str(this.sourceUrl) + "\" and " + "\"" + dart.str(other.sourceUrl) + "\" don't match."));
-      }
-      return (dart.notNull(this.offset) - dart.notNull(other.offset))[$abs]();
-    }
-    pointSpan() {
-      return span.SourceSpan.new(this, this, "");
-    }
-    compareTo(other) {
-      location.SourceLocation._check(other);
-      if (!dart.equals(this.sourceUrl, other.sourceUrl)) {
-        dart.throw(new core.ArgumentError.new("Source URLs \"" + dart.str(this.sourceUrl) + "\" and " + "\"" + dart.str(other.sourceUrl) + "\" don't match."));
-      }
-      return dart.notNull(this.offset) - dart.notNull(other.offset);
-    }
-    _equals(other) {
-      if (other == null) return false;
-      return location.SourceLocation.is(other) && dart.equals(this.sourceUrl, other.sourceUrl) && this.offset == other.offset;
-    }
-    get hashCode() {
-      return dart.notNull(dart.hashCode(this.sourceUrl)) + dart.notNull(this.offset);
-    }
-    toString() {
-      return "<" + dart.str(this[$runtimeType]) + ": " + dart.str(this.offset) + " " + dart.str(this.toolString) + ">";
-    }
-  };
-  (location.SourceLocation.new = function(offset, opts) {
-    let sourceUrl = opts && 'sourceUrl' in opts ? opts.sourceUrl : null;
-    let line = opts && 'line' in opts ? opts.line : null;
-    let column = opts && 'column' in opts ? opts.column : null;
-    this[sourceUrl$] = core.Uri._check(typeof sourceUrl == 'string' ? core.Uri.parse(sourceUrl) : sourceUrl);
-    this[offset$0] = offset;
-    this[line$] = line == null ? 0 : line;
-    this[column$] = column == null ? offset : column;
-    if (dart.notNull(offset) < 0) {
-      dart.throw(new core.RangeError.new("Offset may not be negative, was " + dart.str(offset) + "."));
-    } else if (line != null && dart.notNull(line) < 0) {
-      dart.throw(new core.RangeError.new("Line may not be negative, was " + dart.str(line) + "."));
-    } else if (column != null && dart.notNull(column) < 0) {
-      dart.throw(new core.RangeError.new("Column may not be negative, was " + dart.str(column) + "."));
-    }
-  }).prototype = location.SourceLocation.prototype;
-  dart.addTypeTests(location.SourceLocation);
-  const sourceUrl$ = Symbol("SourceLocation.sourceUrl");
-  const offset$0 = Symbol("SourceLocation.offset");
-  const line$ = Symbol("SourceLocation.line");
-  const column$ = Symbol("SourceLocation.column");
-  location.SourceLocation[dart.implements] = () => [core.Comparable$(location.SourceLocation)];
-  dart.setMethodSignature(location.SourceLocation, () => ({
-    __proto__: dart.getMethods(location.SourceLocation.__proto__),
-    distance: dart.fnType(core.int, [location.SourceLocation]),
-    pointSpan: dart.fnType(span.SourceSpan, []),
-    compareTo: dart.fnType(core.int, [core.Object]),
-    [$compareTo]: dart.fnType(core.int, [core.Object])
-  }));
-  dart.setGetterSignature(location.SourceLocation, () => ({
-    __proto__: dart.getGetters(location.SourceLocation.__proto__),
-    toolString: core.String
-  }));
-  dart.setLibraryUri(location.SourceLocation, "package:source_span/src/location.dart");
-  dart.setFieldSignature(location.SourceLocation, () => ({
-    __proto__: dart.getFields(location.SourceLocation.__proto__),
-    sourceUrl: dart.finalFieldType(core.Uri),
-    offset: dart.finalFieldType(core.int),
-    line: dart.finalFieldType(core.int),
-    column: dart.finalFieldType(core.int)
-  }));
-  dart.defineExtensionMethods(location.SourceLocation, ['compareTo', '_equals', 'toString']);
-  dart.defineExtensionAccessors(location.SourceLocation, ['hashCode']);
-  location.SourceLocationBase = class SourceLocationBase extends location.SourceLocation {};
-  (location.SourceLocationBase.new = function(offset, opts) {
-    let sourceUrl = opts && 'sourceUrl' in opts ? opts.sourceUrl : null;
-    let line = opts && 'line' in opts ? opts.line : null;
-    let column = opts && 'column' in opts ? opts.column : null;
-    location.SourceLocationBase.__proto__.new.call(this, offset, {sourceUrl: sourceUrl, line: line, column: column});
-    ;
-  }).prototype = location.SourceLocationBase.prototype;
-  dart.addTypeTests(location.SourceLocationBase);
-  dart.setLibraryUri(location.SourceLocationBase, "package:source_span/src/location.dart");
-  utils.min = function min(obj1, obj2) {
-    return dart.notNull(obj1[$compareTo](obj2)) > 0 ? obj2 : obj1;
-  };
-  utils.max = function max(obj1, obj2) {
-    return dart.notNull(obj1[$compareTo](obj2)) > 0 ? obj1 : obj2;
-  };
-  utils.countCodeUnits = function countCodeUnits(string, codeUnit) {
-    let count = 0;
-    for (let codeUnitToCheck of string[$codeUnits]) {
-      if (codeUnitToCheck == codeUnit) count = count + 1;
-    }
-    return count;
-  };
-  utils.findLineStart = function findLineStart(context, text, column) {
-    if (text[$isEmpty]) {
-      let beginningOfLine = 0;
-      while (true) {
-        let index = context[$indexOf]("\n", beginningOfLine);
-        if (index === -1) {
-          return context.length - beginningOfLine >= dart.notNull(column) ? beginningOfLine : null;
-        }
-        if (index - beginningOfLine >= dart.notNull(column)) return beginningOfLine;
-        beginningOfLine = index + 1;
-      }
-    }
-    let index = context[$indexOf](text);
-    while (index !== -1) {
-      let lineStart = index === 0 ? 0 : context[$lastIndexOf]("\n", index - 1) + 1;
-      let textColumn = index - lineStart;
-      if (column === textColumn) return lineStart;
-      index = context[$indexOf](text, index + 1);
-    }
-    return null;
-  };
   dart.trackLibraries("packages/source_span/source_span", {
-    "package:source_span/src/colors.dart": colors,
-    "package:source_span/src/location_mixin.dart": location_mixin,
-    "package:source_span/src/span.dart": span,
-    "package:source_span/src/span_with_context.dart": span_with_context,
-    "package:source_span/src/highlighter.dart": highlighter,
-    "package:source_span/src/span_exception.dart": span_exception,
-    "package:source_span/src/file.dart": file,
-    "package:source_span/src/location.dart": location,
+    "package:source_span/src/span_mixin.dart": span_mixin,
     "package:source_span/src/utils.dart": utils,
+    "package:source_span/src/span_with_context.dart": span_with_context,
+    "package:source_span/src/span.dart": span,
+    "package:source_span/src/location.dart": location,
+    "package:source_span/src/highlighter.dart": highlighter,
+    "package:source_span/src/colors.dart": colors,
     "package:source_span/source_span.dart": source_span,
-    "package:source_span/src/span_mixin.dart": span_mixin
+    "package:source_span/src/span_exception.dart": span_exception,
+    "package:source_span/src/location_mixin.dart": location_mixin,
+    "package:source_span/src/file.dart": file
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["src/colors.dart","src/location_mixin.dart","src/span.dart","src/span_mixin.dart","src/span_with_context.dart","src/highlighter.dart","src/span_exception.dart","src/file.dart","src/location.dart","src/utils.dart"],"names":[],"mappings":"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","file":"source_span.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["src/span_mixin.dart","src/utils.dart","src/span.dart","src/span_with_context.dart","src/location.dart","src/highlighter.dart","src/colors.dart","src/span_exception.dart","src/location_mixin.dart","src/file.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAkBuB,YAAA,AAAM;IAAS;;AAClB,YAAW,cAAX,AAAI,gCAAS,AAAM;IAAM;cAElB;;AACnB,mBAAS,AAAM,qBAAU,AAAM,KAAD;AAClC,YAAO,AAAO,OAAD,KAAI,IAAI,AAAI,mBAAU,AAAM,KAAD,QAAQ,MAAM;IACxD;UAE4B;AAC1B,uBAAI,gBAAa,AAAM,KAAD;QACpB,WAAU,2BAAc,4BAAiB,kBAAU,YAC/C,iBAAM,AAAM,KAAD,cAAW;;AAGxB,kBAAQ,UAAS,YAAO,AAAM,KAAD;AAC7B,gBAAM,UAAS,UAAK,AAAM,KAAD;AACzB,sBAAkB,YAAN,KAAK,EAAS,cAAQ,OAAO,KAAK;AAC9C,oBAAc,YAAJ,GAAG,EAAS,YAAM,OAAO,KAAK;AAE5C,UAA2C,aAAvC,AAAU,AAAI,SAAL,eAAe,AAAQ,OAAD,WAAU;QAC3C,WAAU,2BAAc,AAAsC,oBAA9B,QAAI,mBAAM,KAAK;;AAG7C,iBAAsB,aAAf,AAAU,SAAD,SAChB,AAAQ,AAAK,OAAN,kBAAgB,AAAU,AAAI,SAAL,cAAc,AAAQ,OAAD;AACzD,YAAW,oDAAW,KAAK,kCAAE,GAAG,GAAE,IAAI;IACxC;YAEsB;UAAU;AAC1B,mBAAa;MACjB,AAAO,MAAD,OAAO,AAAoD,mBAAjC,aAAX,AAAM,mBAAO,KAAE,uBAAwB,aAAb,AAAM,qBAAS;AAC9D,UAAI,kBAAa,MAAM,AAAO,MAAD,OAAO,AAA+B,kBAAxB,eAAY;MACvD,AAAO,MAAD,OAAO,AAAY,gBAAR,OAAO;AAEpB,sBAAY,AAAK,uBAAiB,KAAK;AAC3C,WAAK,AAAU,SAAD;QACZ,AAAO,MAAD;QACN,AAAO,MAAD,OAAO,SAAS;;AAGxB,YAAO,AAAO,OAAD;IACf;;UAEkB;AAChB,WAAS,2CAAL,SAAuC,AAAO,gBAAG,GAAG,MAAO;AAC/D,YAAW,AAAgC,6BAApB,cAAa,KAAK;IAC3C;;UAEiB;AACb,YAAM,AAAsC,oBAA5C,KAAK,KAAwB,YAAN,YAAS,AAAM,KAAD,WAAc,YAAJ,UAAO,AAAM,KAAD;IAAI;;AAE/C,YAAe,cAAT,cAAN,eAAkB,AAAG,kBAAM,cAAJ;IAAa;;AAEnC,YAAA,AAA6C,gBAA1C,sBAAW,qBAAQ,cAAK,kBAAK,YAAG,iBAAG,aAAI;IAAG;;;;EACpE;;;;;;;;;;;;;;;;;;;2BClE0B,MAAiB;AACvC,UAAqB,cAArB,AAAK,IAAD,aAAW,IAAI,KAAI,IAAI,IAAI,GAAG,IAAI;;2BAIhB,MAAiB;AACvC,UAAqB,cAArB,AAAK,IAAD,aAAW,IAAI,KAAI,IAAI,IAAI,GAAG,IAAI;;iDAGhB,QAAY;AAChC,gBAAQ;AACZ,aAAS,kBAAmB,AAAO,OAAD;AAChC,UAAI,AAAgB,eAAD,IAAI,QAAQ,EAAE,QAAA,AAAK,KAAA;;AAExC,UAAO,MAAK;EACd;+CAMyB,SAAgB,MAAU;AAGjD,QAAI,AAAK,IAAD;AACF,4BAAkB;AACtB,aAAO;AACD,oBAAQ,AAAQ,OAAD,WAAS,MAAM,eAAe;AACjD,YAAI,AAAM,KAAD,KAAI,CAAC;AACZ,gBAAO,AAAQ,AAAO,AAAkB,QAA1B,UAAU,eAAe,iBAAI,MAAM,IAC3C,eAAe,GACf;;AAGR,YAAI,AAAM,AAAkB,KAAnB,GAAG,eAAe,iBAAI,MAAM,GAAE,MAAO,gBAAe;QAC7D,kBAAkB,AAAM,KAAD,GAAG;;;AAI1B,gBAAQ,AAAQ,OAAD,WAAS,IAAI;AAChC,WAAO,KAAK,KAAI,CAAC;AAEX,sBAAY,AAAM,KAAD,KAAI,IAAI,IAAI,AAAQ,AAA6B,OAA9B,eAAa,MAAM,AAAM,KAAD,GAAG,KAAK;AACpE,uBAAa,AAAM,KAAD,GAAG,SAAS;AAClC,UAAI,AAAO,MAAD,KAAI,UAAU,EAAE,MAAO,UAAS;MAC1C,QAAQ,AAAQ,OAAD,WAAS,IAAI,EAAE,AAAM,KAAD,GAAG;;AAExC,UAAO;EACT;;;;;;ICiCuB;;;;;;IACA;;;;;;IACR;;;;;;;sCAEO,OAAY,KAAU;IAAtB;IAAY;IAAU;AACxC,qBAAI,AAAI,oBAAa,AAAM;MACzB,WAAU,2BAAc,4BAAiB,AAAM,wBAAU,YACrD,iBAAM,AAAI,sBAAU;UACnB,KAAe,aAAX,AAAI,gCAAS,AAAM;MAC5B,WAAU,2BAAc,AAAwC,kBAAlC,YAAG,qCAAwB,cAAK;UACzD,KAAI,AAAK,qBAAU,AAAM,oBAAS;MACvC,WAAU,2BAAc,qBAAQ,aAAI,yBAAY,AAAM,oBAAS,aAAK,MAChE;;EAER;;;;;;;;;;;;;;ACzFsB;IAAQ;;0DAYX,OAAsB,KAAY;IAAW;AAC1D,qEAAM,KAAK,EAAE,GAAG,EAAE,IAAI;AAC1B,SAAK,AAAQ,wBAAS,IAAI;MACxB,WAAU,2BACN,AAAmD,iCAA/B,gBAAO,gCAAiB,IAAI;;AAGtD,QAAI,AAA2C,oBAA7B,cAAS,IAAI,EAAE,AAAM,KAAD,YAAY;MAChD,WAAU,2BAAc,8BAAiB,IAAI,0BACzC,qBAAuB,aAAb,AAAM,KAAD,WAAU,KAAE,kCAAoB,gBAAO;;EAE9D;;;;;;;;;;;;eDDkC,OAAsB,KAAY;AAChE,YAAI,6BAAe,KAAK,EAAE,GAAG,EAAE,IAAI;IAAC;;;;;;;;;;;;IEjB9B;;;;;;IAGA;;;;;;IAGA;;;;;;IAGA;;;;;;;AAOJ,mBAAS,AAAU,kBAAG,OAAO,mBAAmB;AACpD,YAA0C,UAAjC,MAAM,mBAAQ,aAAL,aAAO,KAAE,eAAU,aAAP,eAAS;IACzC;aAyB4B;AAC1B,uBAAI,gBAAa,AAAM,KAAD;QACpB,WAAU,2BAAc,4BAAiB,kBAAU,YAC/C,gBAAK,AAAM,KAAD,cAAW;;AAE3B,YAA+B,EAAhB,aAAP,4BAAS,AAAM,KAAD;IACxB;;AAG0B,YAAI,qBAAW,MAAM,MAAM;IAAG;cAK3B;;AAC3B,uBAAI,gBAAa,AAAM,KAAD;QACpB,WAAU,2BAAc,4BAAiB,kBAAU,YAC/C,gBAAK,AAAM,KAAD,cAAW;;AAE3B,YAAc,cAAP,4BAAS,AAAM,KAAD;IACvB;;UAEiB;AACb,YAAM,AACuB,4BAD7B,KAAK,KACK,YAAV,gBAAa,AAAM,KAAD,eAClB,AAAO,eAAG,AAAM,KAAD;IAAO;;AAEN,YAAmB,cAAT,cAAV,gCAAqB;IAAM;;AAE1B,YAAA,AAAqC,gBAAlC,sBAAW,gBAAG,eAAM,eAAE,mBAAU;IAAE;;0CA9CvC;QAAS;QAAe;QAAU;uBACrC,gBAAY,OAAV,SAAS,eAAiB,eAAM,SAAS,IAAI,SAAS;IAC3D,gBAAE,MAAM;IACV,cAAE,AAAK,IAAD,IAAI,OAAO,IAAI,IAAI;IACvB,gBAAE,AAAO,MAAD,IAAI,OAAO,MAAM,GAAG,MAAM;AAC7C,QAAW,aAAP,MAAM,IAAG;MACX,WAAU,wBAAW,AAA0C,8CAAR,MAAM;UACxD,KAAI,IAAI,IAAI,QAAa,aAAL,IAAI,IAAG;MAChC,WAAU,wBAAW,AAAsC,4CAAN,IAAI;UACpD,KAAI,MAAM,IAAI,QAAe,aAAP,MAAM,IAAG;MACpC,WAAU,wBAAW,AAA0C,8CAAR,MAAM;;EAEjE;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8CAwCuB;QAAS;QAAe;QAAU;AACnD,yDAAM,MAAM,cAAa,SAAS,QAAQ,IAAI,UAAU,MAAM;;EAAC;;;;;;;;;;;;;;;;;;;;AC9DjE,2CAAa,IAAI;IAAC;eAqBS;UAAO;AACpC,UAAU,YAAN,KAAK,EAAI,OAAM;AACnB,UAAU,YAAN,KAAK,EAAI,QAAO,QAAQ;AAExB,oBAAU,0CAAkB,IAAI;MACpC,UAAU,2CAAmB,OAAO;MACpC,UAAU,kDAA0B,OAAO;MAC3C,UAAU,4CAAoB,OAAO;AAErC,YAAW,gCAAc,OAAO,qBAAE,KAAK;IACzC;6BAQ0D;AACtD,YAAK,AAAyB,4CAA9B,IAAI,KACI,oBAAc,AAAK,IAAD,UAAU,AAAK,IAAD,OAAO,AAAK,AAAM,IAAP,kBAAkB,OAC/D,IAAI,GACA,gDACE,gCAAe,AAAK,AAAM,IAAP,2BACR,AAAK,IAAD,kBAAkB,WAAW,KAC5C,gCAAe,AAAK,AAAI,IAAL,yBACR,AAAK,IAAD,kBACT,qBAAe,AAAK,IAAD,oBACjB,wCAAgB,AAAK,IAAD,UAChC,AAAK,IAAD,OACJ,AAAK,IAAD;IAAM;8BAIgD;AAChE,iBAAO,AAAK,IAAD;AACf,WAAK,AAAK,IAAD,YAAU,SAAS,MAAO,KAAI;AAEnC,sBAAY,AAAK,AAAI,IAAL;AACpB,eAAS,IAAI,GAAG,AAAE,CAAD,GAAG,AAAK,AAAO,IAAR,UAAU,GAAG,IAAA,AAAC,CAAA;AACpC,YAAI,AAAK,AAAc,IAAf,cAAY,CAAC,YAAY,AAAK,AAAkB,IAAnB,cAAY,AAAE,CAAD,GAAG;UACnD,YAAS,aAAT,SAAS;;;AAIb,YAAW,iDACP,AAAK,IAAD,QACA,gCAAe,SAAS,cACb,AAAK,IAAD,kBACT,AAAK,AAAI,IAAL,mBACF,AAAK,AAAI,IAAL,eAChB,AAAK,IAAD,cAAY,QAAQ,OACxB,AAAK,AAAQ,IAAT,sBAAoB,QAAQ;IACtC;qCAO0B;AACxB,WAAK,AAAK,AAAQ,IAAT,oBAAkB,OAAO,MAAO,KAAI;AAI7C,UAAI,AAAK,AAAK,IAAN,iBAAe,SAAS,MAAO,KAAI;AAEvC,oBAAU,AAAK,AAAQ,IAAT,qBAAmB,GAAG,AAAK,AAAQ,AAAO,IAAhB,kBAAkB;AAC1D,iBAAO,AAAK,IAAD;AACX,kBAAQ,AAAK,IAAD;AACZ,gBAAM,AAAK,IAAD;AACd,UAAI,AAAK,AAAK,IAAN,iBAAe,mBAAS,8CAAsB,IAAI;QACxD,OAAO,AAAK,AAAK,IAAN,kBAAgB,GAAG,AAAK,AAAK,AAAO,IAAb,eAAe;QACjD,MAAU,gCAA+B,aAAhB,AAAK,AAAI,IAAL,eAAc,eAC5B,AAAK,IAAD,kBACK,aAAd,AAAK,AAAI,IAAL,aAAY,WACd,wCAAgB,IAAI;QAChC,QAAQ,AAAK,AAAM,AAAO,IAAd,iBAAiB,AAAK,AAAI,IAAL,cAAc,GAAG,GAAG,AAAK,IAAD;;AAE3D,YAAW,iDAAsB,KAAK,EAAE,GAAG,EAAE,IAAI,EAAE,OAAO;IAC5D;+BAIuE;AACrE,UAAI,AAAK,AAAI,IAAL,gBAAe,GAAG,MAAO,KAAI;AACrC,UAAI,AAAK,AAAI,AAAK,IAAV,aAAa,AAAK,AAAM,IAAP,aAAa,MAAO,KAAI;AAE7C,iBAAO,AAAK,AAAK,IAAN,kBAAgB,GAAG,AAAK,AAAK,AAAO,IAAb,eAAe;AAErD,YAAW,iDACP,AAAK,IAAD,QACA,gCAA+B,aAAhB,AAAK,AAAI,IAAL,eAAc,eACtB,AAAK,IAAD,kBACK,aAAd,AAAK,AAAI,IAAL,aAAY,WACd,wCAAgB,IAAI,KAChC,IAAI,EACJ,AAAK,IAAD;IACV;2BAIkC;AAChC,UAAI,AAAK,IAAD,YAAU,MAAO;AAGzB,UAAI,AAAK,AAA4B,IAA7B,cAAY,AAAK,AAAO,IAAR,UAAU;AAChC,cAAO,AAAK,AAAO,KAAR,YAAW,IAChB,IACA,AAAK,AAAO,AAA0C,IAAlD,UAAU,AAAK,IAAD,eAAa,MAAM,AAAK,AAAO,IAAR,UAAU,KAAK;;AAE9D,cAAO,AAAK,AAAO,AAAyB,KAAjC,UAAU,AAAK,IAAD,eAAa,QAAQ;;IAElD;iCAGwD;AACpD,YAA0D,AACpC,AACN,cAFhB,oBAAc,AAAK,IAAD,UAAU,AAAK,IAAD,OAAO,AAAK,AAAM,IAAP,+BACvC,AAAK,AAAM,IAAP,8BACJ,AAAK,IAAD,aACR,AAAK,AAAQ,IAAT;IAAe;;MAarB,0BAAyB;MACzB,AAAQ;AAIJ,sBACA,oBAAc,AAAM,sBAAS,AAAM,mBAAM,AAAM,AAAM;YAClD,SAAS,IAAI;AAEhB,oBAAU,AAAM;AACpB,UAAc,aAAV,SAAS,IAAG;AAKV,oBAAQ,AAAQ,AAA4B,OAA7B,aAAW,GAAa,aAAV,SAAS,IAAG,WAAS;AAClD,yBAA8B,aAAjB,AAAM,AAAM,wCAAO,AAAM,KAAD;AACzC,iBAAS,OAAQ,MAAK;UACpB,2BAAoB,UAAU;UAC9B,AAAQ,oBAAM,AAAI,YAAE;UACpB,iBAAW,IAAI;UACf,AAAQ;UACR,aAAA,AAAU,UAAA;;QAEZ,UAAU,AAAQ,OAAD,aAAW,SAAS;;AAGnC,kBAAQ,AAAQ,OAAD,SAAO;AAEtB,0BAA+B,aAAf,AAAM,AAAI,sCAAO,AAAM,AAAM;AACjD,UAAI,AAAM,AAAK,KAAN,qBAA8B,aAAb,AAAM,KAAD,aAAU,AAAc,aAAD,GAAG;QAGvD,AAAM,KAAD;;MAGP,sBAAgB,AAAM,KAAD;AACrB,oBAAI;QACF,8BAAwB,AAAM,AAAQ,KAAT,QAAM,UAAQ,AAAc,aAAD,GAAG;QAC3D,qBAAe,AAAK,KAAA,QAAC,aAAa;;MAEpC,0BAAoB,AAAM,KAAD,QAAM,AAAc,aAAD,GAAG;MAE/C,0BAAyB;AAEzB,YAAe,eAAR;IACT;sBAG4B;MAC1B,2BAAoB,AAAM,AAAM;AAE5B,wBAAc,mBAAS,AAAM,AAAM,2BAAQ,AAAK,IAAD;AAC/C,sBAAY,mBACZ,AAAY,AAAmB,WAApB,gBAAG,AAAM,AAAI,wCAAS,AAAM,AAAM,4BAAQ,AAAK,IAAD;AACzD,uBAAa,AAAK,IAAD,aAAW,GAAG,WAAW;AAI9C,oBAAI,+BAAc,wBAAkB,UAAU;QAC5C,AAAQ,oBAAM;QACd,gBAAU;UACR,AAAQ,oBAAM,wBAAmB,KAAK;UACtC,AAAQ,oBAAM;UACd,iBAAW,IAAI;;QAEjB,AAAQ;AACR;;MAGF,AAAQ,oBAAM,AAAI,YAAE;MACpB,iBAAW,UAAU;AACjB,uBAAa,AAAK,IAAD,aAAW,WAAW,EAAE,SAAS;MACtD,gBAAU,cAAM,iBAAW,UAAU;MACrC,iBAAW,AAAK,IAAD,aAAW,SAAS;MACnC,AAAQ;AAIJ,uBAAa,iBAAW,UAAU;AAClC,uBAAa,iBAAW,UAAU;MACtC,cAAc,AAAY,WAAD,GAAc,aAAX,UAAU,KAAkB,IAAE;MAC1D,YAAY,AAAU,SAAD,GAA6B,CAAd,aAAX,UAAU,iBAAG,UAAU,MAAmB,IAAE;MAIrE;AACA,oBAAI;QACF,AAAQ,oBAAM;QACd,gBAAU;UACR,AAAQ,oBAAY;UACpB,AAAQ,oBAAY,AAAe,iCAAG,AAAY,WAAD,GAAG;UACpD,AAAQ,oBAAM;;;QAGhB,AAAQ,oBAAM,AAAI,YAAG,AAAY,WAAD,GAAG;QACnC,gBACI,cAAM,AAAQ,oBAAM,AAAI,YAAE,mBAAS,AAAU,SAAD,GAAG,WAAW,EAAE;;MAElE,AAAQ;IACV;8BAG8C;qBACrC;AAGH,uBAA8B,aAAjB,AAAM,AAAM,2BAAO;AACpC,eAAS,OAAQ,MAAK;QACpB,2BAAoB,UAAU;QAE9B,AAAQ,oBAAM;QACd,gBAAU;UACR,AAAQ,oBAAY;UACpB,AAAQ,oBAAM;UACd,iBAAW,IAAI;;QAEjB,AAAQ;QAER,aAAA,AAAU,UAAA;;IAEd;qBAG2B;qBAClB;MAEP,2BAAoB,AAAM,AAAI;AAE1B,sBAAY,mBAAS,AAAM,AAAI,yBAAQ,AAAK,IAAD;AAI/C,oBAAI,qBAAc,AAAU,SAAD,KAAI,AAAK,IAAD;QACjC,AAAQ,oBAAM;QACd,gBAAU;UACR,AAAQ,oBAAM,wBAAmB,KAAK;UACtC,AAAQ,oBAAM;UACd,iBAAW,IAAI;;QAEjB,AAAQ;AACR;;MAGF,AAAQ,oBAAM;AACV,uBAAa,AAAK,IAAD,aAAW,GAAG,SAAS;MAC5C,gBAAU;QACR,AAAQ,oBAAY;QACpB,AAAQ,oBAAM;QACd,iBAAW,UAAU;;MAEvB,iBAAW,AAAK,IAAD,aAAW,SAAS;MACnC,AAAQ;AAIJ,uBAAa,iBAAW,UAAU;MACtC,YAAY,AAAU,SAAD,GAAc,aAAX,UAAU,KAAkB,IAAE;MAItD;MACA,AAAQ,oBAAM;MACd,gBAAU;QACR,AAAQ,oBAAY;QACpB,AAAQ,oBAAY,AAAe,iCAAE,SAAS;QAC9C,AAAQ,oBAAM;;MAEhB,AAAQ;IACV;0BAG0C;AAEpC,uBAA4B,aAAf,AAAM,AAAI,yBAAO;AAClC,eAAS,OAAQ,MAAK;QACpB,2BAAoB,UAAU;QAC9B,AAAQ,oBAAM,AAAI,YAAE;QACpB,iBAAW,IAAI;QACf,AAAQ;QACR,aAAA,AAAU,UAAA;;IAEd;iBAIuB;AACrB,eAAS,OAAQ,AAAK,KAAD;AACnB,YAAI,AAAK,IAAD;UACN,AAAQ,oBAAM,AAAI;;UAElB,AAAQ,4BAAc,IAAI;;;IAGhC;;UAIwB;UAAa;MACnC,gBAAU;;AACR,YAAI,IAAI,IAAI;UAGV,AAAQ,oBAAiB,AAAW,CAAhB,aAAL,IAAI,IAAG,2BAAuB;;UAE7C,AAAQ,oBAAM,AAAI,YAAE;;QAEtB,AAAQ,qBAAU,KAAJ,GAAG,QAAH,OAAa;;IAE/B;iBAGsB;AAChB,kBAAQ;AACZ,eAAS,OAAQ,AAAK,KAAD;AACnB,YAAI,AAAK,IAAD,QAAU,QAAA,AAAK,KAAA;;AAEzB,YAAO,MAAK;IACd;wBAG8B;AAC5B,eAAS,OAAQ,AAAK,KAAD;AACnB,YAAI,IAAI,WAAc,IAAI,QAAU,MAAO;;AAE7C,YAAO;IACT;gBAMoB;;UAAoB;AACtC,UAAI,iBAAU,MAAM,AAAQ,qBAAY,KAAN,KAAK,QAAL,OAAS;MAC3C,AAAQ,QAAA;AACR,UAAI,iBAAU,MAAM,AAAQ;IAC9B;;yCAvPmB,OAAY;IA5IzB,gBAAc;IA4ID;IAAY;IACd,mBAAE,AAAM,AAAM,KAAP,eAAe,AAAM,AAAI,KAAL;IAIhB,8BAAiB,AAAW,AAAO,cAAjC,AAAM,AAAI,KAAL,oBAA8B;;EAAC;;;;;;;;;;;;;;;;;;;;;;;;;;;;;MA3IrD,qCAAa;;;;;MCvCf,UAAG;;;MAEH,aAAM;;;MAEN,WAAI;;;MAEJ,WAAI;;;;;;;;ACDO;IAAQ;;AAOP;IAAK;;UAYX;AACf,UAAI,AAAK,aAAG,MAAM,MAAO;AACzB,YAAO,AAAY,4BAAE,AAAK,kBAAQ,sBAAgB,KAAK;IACzD;;qDAZyB,UAAe;IAAf;IAAe;;EAAM;;;;;;;;;;;;;;;;;;;;;;;AAmBxB;IAAO;;AAGX,YAAA,AAAK,cAAG,OAAO,OAAO,AAAK,AAAM;IAAM;;2DAExB,SAAoB,MAAY;;;AAC3D,sEAAM,OAAO,EAAE,IAAI;;EAAC;;;;;;;;;;;;;;;AC5BpB,mBAAS,AAAU,kBAAG,OAAO,mBAAmB;AACpD,YAA0C,UAAjC,MAAM,mBAAQ,aAAL,aAAO,KAAE,eAAU,aAAP,eAAS;IACzC;aAE4B;AAC1B,uBAAI,gBAAa,AAAM,KAAD;QACpB,WAAU,2BAAc,4BAAiB,kBAAU,YAC/C,gBAAK,AAAM,KAAD,cAAW;;AAE3B,YAA+B,EAAhB,aAAP,4BAAS,AAAM,KAAD;IACxB;;AAE0B,YAAI,qBAAW,MAAM,MAAM;IAAG;cAE3B;;AAC3B,uBAAI,gBAAa,AAAM,KAAD;QACpB,WAAU,2BAAc,4BAAiB,kBAAU,YAC/C,gBAAK,AAAM,KAAD,cAAW;;AAE3B,YAAc,cAAP,4BAAS,AAAM,KAAD;IACvB;;UAEiB;AACb,YAAM,AACuB,4BAD7B,KAAK,KACK,YAAV,gBAAa,AAAM,KAAD,eAClB,AAAO,eAAG,AAAM,KAAD;IAAO;;AAEN,YAAmB,cAAT,cAAV,gCAAqB;IAAM;;AAE1B,YAAA,AAAqC,gBAAlC,sBAAW,gBAAG,eAAM,eAAE,mBAAU;IAAE;;;;EAC5D;;;;;;;;;;;;;;;;;;;;;;;;ICtBY;;;;;;;AAaQ,YAAA,AAAc;IAAM;;AAGrB,YAAA,AAAY;IAAM;SAgDjB,OAAY;;AAC5B,UAAI,AAAI,GAAD,IAAI,MAAM,MAAM;AACvB,YAAW,wBAAU,MAAM,KAAK,EAAE,GAAG;IACvC;aAG0B;AAAW,YAAI,0BAAe,MAAM,MAAM;IAAC;YAGrD;AACd,UAAW,aAAP,MAAM,IAAG;QACX,WAAU,wBAAW,AAA0C,8CAAR,MAAM;YACxD,KAAW,aAAP,MAAM,iBAAG;QAClB,WAAU,wBAAW,qBAAS,MAAM,8CAChC,yCAA6B,eAAM;;AAGzC,UAAW,aAAP,MAAM,iBAAG,AAAY,4BAAO,MAAO,EAAC;AACxC,UAAW,aAAP,MAAM,kBAAI,AAAY,2BAAM,MAA0B,cAAnB,AAAY,8BAAS;AAE5D,oBAAI,wBAAkB,MAAM,IAAG,MAAO;MAEtC,oBAAoC,aAAtB,oBAAc,MAAM,KAAI;AACtC,YAAO;IACT;wBAM2B;AACzB,UAAI,AAAY,qBAAG,MAAM,MAAO;AAGhC,UAAW,aAAP,MAAM,iBAAG,AAAW,yBAAC,qBAAc,MAAO;AAG9C,UAAgB,aAAZ,sBAAkC,aAAnB,AAAY,8BAAS,KAC7B,aAAP,MAAM,iBAAG,AAAW,yBAAa,aAAZ,qBAAc;AACrC,cAAO;;AAIT,UAAgB,aAAZ,sBAAkC,aAAnB,AAAY,8BAAS,KAC7B,aAAP,MAAM,iBAAG,AAAW,yBAAa,aAAZ,qBAAc;QACrC,oBAAW,aAAX,qBAAW;AACX,cAAO;;AAGT,YAAO;IACT;oBAKsB;AAChB,gBAAM;AACN,gBAAyB,aAAnB,AAAY,8BAAS;AAC/B,aAAO,AAAI,GAAD,GAAG,GAAG;AACV,mBAAO,AAAI,GAAD,GAAgB,EAAX,AAAI,GAAD,GAAG,GAAG,IAAK;AACjC,YAAsB,aAAlB,AAAW,yBAAC,IAAI,kBAAI,MAAM;UAC5B,MAAM,IAAI;;UAEV,MAAM,AAAK,IAAD,GAAG;;;AAIjB,YAAO,IAAG;IACZ;cAMkB;UAAa;AAC7B,UAAW,aAAP,MAAM,IAAG;QACX,WAAU,wBAAW,AAA0C,8CAAR,MAAM;YACxD,KAAW,aAAP,MAAM,iBAAG;QAClB,WAAU,wBAAW,qBAAS,MAAM,0CAChC,gDAAoC,eAAM;;AAGhD,UAAI,AAAK,IAAD,IAAI;QACV,OAAO,aAAQ,MAAM;YAChB,KAAS,aAAL,IAAI,IAAG;QAChB,WAAU,wBAAW,AAAsC,4CAAN,IAAI;YACpD,KAAS,aAAL,IAAI,kBAAI;QACjB,WAAU,wBAAW,mBAAO,IAAI,0CAC5B,iCAAqB,cAAK;;AAG5B,sBAAY,AAAW,yBAAC,IAAI;AAChC,UAAc,aAAV,SAAS,iBAAG,MAAM;QACpB,WAAU,wBAAW,AAAwC,mBAAjC,IAAI,sCAAqB,MAAM;;AAG7D,YAAc,cAAP,MAAM,iBAAG,SAAS;IAC3B;cAKkB,MAAW;;AAC3B,UAAI,AAAO,MAAD,IAAI,MAAM,SAAS;AAE7B,UAAS,aAAL,IAAI,IAAG;QACT,WAAU,wBAAW,AAAsC,4CAAN,IAAI;YACpD,KAAS,aAAL,IAAI,kBAAI;QACjB,WAAU,wBAAW,mBAAO,IAAI,0CAC5B,iCAAqB,cAAK;YACzB,KAAW,aAAP,MAAM,IAAG;QAClB,WAAU,wBAAW,AAA0C,8CAAR,MAAM;;AAG3D,mBAA2B,aAAlB,AAAW,yBAAC,IAAI,kBAAI,MAAM;AACvC,UAAI,AAAO,MAAD,gBAAG,gBACH,AAAI,aAAT,IAAI,IAAG,iBAAI,eAAS,AAAO,MAAD,iBAAI,AAAW,yBAAM,aAAL,IAAI,IAAG;QACpD,WAAU,wBAAW,AAA0C,mBAAnC,IAAI,gCAAe,MAAM;;AAGvD,YAAO,OAAM;IACf;YAKmB,OAAY;;AAC3B,YAAI,2BAAqB,AAAc,8BAAQ,KAAK,EAAE,GAAG;IAAE;;kCAjK7C;QAAO;uCAAqB,AAAK,IAAD,gBAAa,GAAG;EAAC;yCAKtC;QAAO;uCACjB,AAAK,IAAD,oBAAiB,GAAG;EAAC;sCAWX;QAAe;IAxC1C,oBAAmB,mBAAC;IAiBtB;iBAwBM,gBAAM,OAAJ,GAAG,eAAiB,eAAM,GAAG,IAAI,GAAG;IAC5B,sBAAM,6CAAoB,AAAa,YAAD;AACxD,aAAS,IAAI,GAAG,AAAE,CAAD,gBAAG,AAAc,+BAAQ,IAAA,AAAC,CAAA;AACrC,cAAI,AAAa,2BAAC,CAAC;AACvB,UAAI,AAAE,CAAD;AAEC,gBAAI,AAAE,CAAD,GAAG;AACZ,YAAI,AAAE,CAAD,iBAAI,AAAc,iCAAU,AAAa,2BAAC,CAAC,UAAU;;AAE5D,UAAI,AAAE,CAAD,SAAS,AAAY,wBAAI,AAAE,CAAD,GAAG;;EAEtC;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IA+IiB;;;;;;IAEP;;;;;;;AACW,YAAA,AAAK;IAAG;;AACb,YAAA,AAAK,mBAAQ;IAAO;;AAClB,YAAA,AAAK,qBAAU;IAAO;;AAWhB,YAAI,wBAAU,WAAM,aAAQ;IAAO;;mCATvC,MAAW;IAAX;IAAW;AAC7B,QAAW,aAAP,eAAS;MACX,WAAU,wBAAW,AAA0C,8CAAR,eAAM;UACxD,KAAW,aAAP,4BAAS,AAAK;MACvB,WAAU,wBAAW,qBAAS,eAAM,0CAChC,yCAA8B,AAAK,oBAAO;;EAElD;;;;;;;;;;;;;;;;;;;;;;;;EAyBF;;;;;;;;;;AAsBuB,YAAA,AAAK;IAAG;;AACX,YAAK,cAAL,4BAAO;IAAM;;AACL,YAAI,0BAAe,WAAM;IAAO;;AAClC,YAAI,0BAAe,WAAM;IAAK;;AACnC,YAAA,AAAK,mBAAQ,eAAQ;IAAK;;AAGvC,oBAAU,AAAK,kBAAQ;AACvB,sBAAY,AAAK,oBAAU;AAE3B;AACJ,UAAI,AAAU,SAAD,KAAI,KAAK,OAAO,KAAI;AAK/B,YAAI,AAAO,gBAAG;AAGZ,gBAAO,AAAQ,QAAD,KAAe,aAAX,AAAK,mBAAQ,IACzB,KACA,AAAK,kBACH,AAAK,oBAAU,OAAO,GAAG,AAAK,oBAAkB,aAAR,OAAO,IAAG;;QAG5D,YAAY;YACP,KAAI,AAAQ,OAAD,KAAe,aAAX,AAAK,mBAAQ;QAGjC,YAAY,AAAK;;QAIjB,YAAY,AAAK,oBAAkB,aAAR,OAAO,IAAG;;AAGvC,YAAO,AAAK,mBAAQ,AAAK,oBAAU,AAAK,kBAAQ,iBAAU,SAAS;IACrE;cAayB;;AACvB,WAAU,kBAAN,KAAK,GAAgB,MAAa,iBAAU,KAAK;AAE3C,4CAAY,KAAK;AACvB,mBAAS,AAAO,0BAAU,AAAU,SAAD;AACvC,YAAO,AAAO,OAAD,KAAI,IAAI,AAAK,wBAAU,AAAU,SAAD,WAAS,MAAM;IAC9D;UAE4B;AAC1B,WAAU,iBAAN,KAAK,GAAe,MAAa,aAAM,KAAK;AAEtC,uCAAO,iCAAO,KAAK;AAE7B,UAAU,kBAAN,KAAK;AACP,YAAgB,aAAP,8BAAS,AAAM,KAAD,YAAsB,aAAb,AAAM,KAAD,0BAAe;UAClD,WAAU,2BAAc,AAAsC,oBAA9B,QAAI,mBAAM,KAAK;;;AAGjD,YAAgB,aAAP,8BAAS,AAAM,AAAI,KAAL,gBAAkC,aAAnB,AAAM,AAAM,KAAP,8BAAqB;UAC9D,WAAU,2BAAc,AAAsC,oBAA9B,QAAI,mBAAM,KAAK;;;AAInD,YAAO,KAAI;IACb;;UAEiB;AACf,WAAU,iBAAN,KAAK,GAAe,MAAa,eAAG,KAAK;AAC7C,WAAU,kBAAN,KAAK;AACP,cAAa,AAAS,eAAN,KAAK,KAAc,YAAV,gBAAmB,WAAN,KAAK;;AAG7C,YAAc,AACS,gBADhB,eAAgB,WAAN,KAAK,eACb,eAAL,aAAc,WAAN,KAAK,aACH,YAAV,gBAAmB,WAAN,KAAK;IACxB;;AAGoB,YAAM;IAAQ;WAMT;AACvB,uBAAI,gBAAa,AAAM,KAAD;QACpB,WAAU,2BAAc,4BAAiB,kBAAU,YAC/C,iBAAM,AAAM,KAAD,cAAW;;AAG5B,UAAU,kBAAN,KAAK;AACH,oBAAQ,mBAAc,eAAQ,AAAM,KAAD;AACnC,kBAAM,mBAAc,aAAM,AAAM,KAAD;AACnC,cAAW,wBAAU,WAAM,KAAK,EAAE,GAAG;;AAEjC,oBAAQ,mBAAc,eAAQ,AAAM,AAAM,KAAP;AACnC,kBAAM,mBAAc,aAAM,AAAM,AAAI,KAAL;AACnC,cAAW,wBAAU,WAAM,KAAK,EAAE,GAAG;;IAEzC;;;;;iCAtEe,MAAW,QAAa;IAAxB;IAAW;IAAa;AACrC,QAAS,aAAL,4BAAO;MACT,WAAU,2BAAc,AAA0C,kBAApC,eAAI,qCAAwB,iBAAM;UAC3D,KAAS,aAAL,4BAAO,AAAK;MACrB,WAAU,wBAAW,kBAAM,eAAI,0CAC3B,yCAA8B,AAAK,oBAAO;UACzC,KAAW,aAAP,iBAAS;MAClB,WAAU,wBAAW,AAAyC,6CAAR,iBAAM;;EAEhE;;;;;;;;;;;;;;;;;;;;;;;;;MAlUQ,QAAG;;;MACH,QAAG","file":"source_span.ddc.js"}');
   // Exports:
   return {
-    src__colors: colors,
-    src__location_mixin: location_mixin,
-    src__span: span,
-    src__span_with_context: span_with_context,
-    src__highlighter: highlighter,
-    src__span_exception: span_exception,
-    src__file: file,
-    src__location: location,
+    src__span_mixin: span_mixin,
     src__utils: utils,
+    src__span_with_context: span_with_context,
+    src__span: span,
+    src__location: location,
+    src__highlighter: highlighter,
+    src__colors: colors,
     source_span: source_span,
-    src__span_mixin: span_mixin
+    src__span_exception: span_exception,
+    src__location_mixin: location_mixin,
+    src__file: file
   };
 });
 

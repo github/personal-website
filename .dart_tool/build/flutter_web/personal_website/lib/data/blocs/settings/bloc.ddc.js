@@ -8,8 +8,8 @@ define(['dart_sdk', 'packages/personal_website/data/blocs/settings/settings_stat
   const settings_event = packages__personal_website__data__blocs__settings__settings_event.data__blocs__settings__settings_event;
   const settings = packages__personal_website__data__blocs__settings__settings.data__blocs__settings__settings;
   const bloc = packages__bloc__bloc.src__bloc;
-  const settings_bloc = Object.create(dart.library);
   const bloc$ = Object.create(dart.library);
+  const settings_bloc = Object.create(dart.library);
   let _AsyncStarImplOfSettingsState = () => (_AsyncStarImplOfSettingsState = dart.constFn(async._AsyncStarImpl$(settings_state.SettingsState)))();
   const CT = Object.create(null);
   settings_bloc.SettingsBloc = class SettingsBloc extends bloc.Bloc$(settings_event.SettingsEvent, settings_state.SettingsState) {
@@ -45,14 +45,14 @@ define(['dart_sdk', 'packages/personal_website/data/blocs/settings/settings_stat
   }));
   dart.setLibraryUri(settings_bloc.SettingsBloc, "package:personal_website/data/blocs/settings/settings_bloc.dart");
   dart.trackLibraries("packages/personal_website/data/blocs/settings/bloc", {
-    "package:personal_website/data/blocs/settings/settings_bloc.dart": settings_bloc,
-    "package:personal_website/data/blocs/settings/bloc.dart": bloc$
+    "package:personal_website/data/blocs/settings/bloc.dart": bloc$,
+    "package:personal_website/data/blocs/settings/settings_bloc.dart": settings_bloc
   }, {
   }, '{"version":3,"sourceRoot":"","sources":["settings_bloc.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;AASoC;IAAsB;oBAIxC;;AADqB;AAGnC,YAAU,gCAAN,KAAK;AACP,yBAAM,qCAAc;UAApB;;AAEF,YAAU,iCAAN,KAAK;AACP,yBAAM,qCAAc,AAAM,KAAD;UAAzB;;MAEJ;;;;;;EACF","file":"bloc.ddc.js"}');
   // Exports:
   return {
-    data__blocs__settings__settings_bloc: settings_bloc,
-    data__blocs__settings__bloc: bloc$
+    data__blocs__settings__bloc: bloc$,
+    data__blocs__settings__settings_bloc: settings_bloc
   };
 });
 

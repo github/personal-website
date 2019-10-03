@@ -13,8 +13,8 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web'], functio
     get C0() {
       return C0 = dart.const({
         __proto__: alignment.Alignment.prototype,
-        y: 0,
-        x: 0
+        [Alignment_y]: 0,
+        [Alignment_x]: 0
       });
     },
     get C1() {
@@ -32,11 +32,26 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web'], functio
       });
     }
   });
+  const Alignment_y = dart.privateName(alignment, "Alignment.y");
+  const Alignment_x = dart.privateName(alignment, "Alignment.x");
   let C0;
   const _name = dart.privateName(decoration_image, "_name");
   let C1;
   const _name$ = dart.privateName(ui, "_name");
   let C2;
+  const ImageProperties_semanticLabel = dart.privateName(image_properties, "ImageProperties.semanticLabel");
+  const ImageProperties_excludeFromSemantics = dart.privateName(image_properties, "ImageProperties.excludeFromSemantics");
+  const ImageProperties_width = dart.privateName(image_properties, "ImageProperties.width");
+  const ImageProperties_height = dart.privateName(image_properties, "ImageProperties.height");
+  const ImageProperties_color = dart.privateName(image_properties, "ImageProperties.color");
+  const ImageProperties_colorBlendMode = dart.privateName(image_properties, "ImageProperties.colorBlendMode");
+  const ImageProperties_fit = dart.privateName(image_properties, "ImageProperties.fit");
+  const ImageProperties_alignment = dart.privateName(image_properties, "ImageProperties.alignment");
+  const ImageProperties_repeat = dart.privateName(image_properties, "ImageProperties.repeat");
+  const ImageProperties_centerSlice = dart.privateName(image_properties, "ImageProperties.centerSlice");
+  const ImageProperties_matchTextDirection = dart.privateName(image_properties, "ImageProperties.matchTextDirection");
+  const ImageProperties_filterQuality = dart.privateName(image_properties, "ImageProperties.filterQuality");
+  const ImageProperties_scale = dart.privateName(image_properties, "ImageProperties.scale");
   image_properties.ImageProperties = class ImageProperties extends core.Object {
     get semanticLabel() {
       return this[semanticLabel$];
@@ -147,19 +162,19 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web'], functio
     ;
   }).prototype = image_properties.ImageProperties.prototype;
   dart.addTypeTests(image_properties.ImageProperties);
-  const semanticLabel$ = Symbol("ImageProperties.semanticLabel");
-  const excludeFromSemantics$ = Symbol("ImageProperties.excludeFromSemantics");
-  const width$ = Symbol("ImageProperties.width");
-  const height$ = Symbol("ImageProperties.height");
-  const color$ = Symbol("ImageProperties.color");
-  const colorBlendMode$ = Symbol("ImageProperties.colorBlendMode");
-  const fit$ = Symbol("ImageProperties.fit");
-  const alignment$ = Symbol("ImageProperties.alignment");
-  const repeat$ = Symbol("ImageProperties.repeat");
-  const centerSlice$ = Symbol("ImageProperties.centerSlice");
-  const matchTextDirection$ = Symbol("ImageProperties.matchTextDirection");
-  const filterQuality$ = Symbol("ImageProperties.filterQuality");
-  const scale$ = Symbol("ImageProperties.scale");
+  const semanticLabel$ = ImageProperties_semanticLabel;
+  const excludeFromSemantics$ = ImageProperties_excludeFromSemantics;
+  const width$ = ImageProperties_width;
+  const height$ = ImageProperties_height;
+  const color$ = ImageProperties_color;
+  const colorBlendMode$ = ImageProperties_colorBlendMode;
+  const fit$ = ImageProperties_fit;
+  const alignment$ = ImageProperties_alignment;
+  const repeat$ = ImageProperties_repeat;
+  const centerSlice$ = ImageProperties_centerSlice;
+  const matchTextDirection$ = ImageProperties_matchTextDirection;
+  const filterQuality$ = ImageProperties_filterQuality;
+  const scale$ = ImageProperties_scale;
   dart.setLibraryUri(image_properties.ImageProperties, "package:flutter_html/image_properties.dart");
   dart.setFieldSignature(image_properties.ImageProperties, () => ({
     __proto__: dart.getFields(image_properties.ImageProperties.__proto__),
@@ -180,7 +195,7 @@ define(['dart_sdk', 'packages/flutter/src/painting/_network_image_web'], functio
   dart.trackLibraries("packages/flutter_html/image_properties", {
     "package:flutter_html/image_properties.dart": image_properties
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["image_properties.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IAIe;;;;;;IACF;;;;;;IACE;;;;;;IACA;;;;;;IACD;;;;;;IACI;;;;;;IACH;;;;;;IACW;;;;;;IACN;;;;;;IACP;;;;;;IACA;;;;;;IACS;;;;;;IACP;;;;;;;;QAGN;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;IAZA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;;EACL","file":"image_properties.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["image_properties.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IAIe;;;;;;IACF;;;;;;IACE;;;;;;IACA;;;;;;IACD;;;;;;IACI;;;;;;IACH;;;;;;IACW;;;;;;IACN;;;;;;IACP;;;;;;IACA;;;;;;IACS;;;;;;IACP;;;;;;;;QAGN;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;IAZA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;;EACL","file":"image_properties.ddc.js"}');
   // Exports:
   return {
     image_properties: image_properties

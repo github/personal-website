@@ -1,11 +1,10 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
-import '../data/blocs/blocs.dart';
-import 'apps/details.dart';
+import 'apps/check.dart';
 import 'apps/screen.dart';
 import 'auth/screen.dart';
-import 'blog/post.dart';
+import 'blog/check.dart';
 import 'blog/screen.dart';
 import 'home/screen.dart';
 import 'pages/index.dart';
@@ -13,15 +12,32 @@ import 'projects/screen.dart';
 
 class Router {
   static String initialRoute = HomeScreen.routeName;
-  static Route<dynamic> onUnknownRoute(RouteSettings settings) =>
-      MaterialPageRoute(
-        builder: (_) => HomeScreen(),
-      );
-
-  static Map<String, WidgetBuilder> routes({
-    @required BlogState blog,
-    @required AppsState apps,
+  static Route<dynamic> onUnknownRoute(
+    BuildContext context, {
+    @required RouteSettings settings,
   }) {
+    final route = settings.name;
+    if (route.contains('/blog')) {
+      final id = route.replaceAll('/blog/', '');
+      return MaterialPageRoute(
+        builder: (_) => BlogCheck(route: id),
+        settings: settings,
+      );
+    }
+    if (route.contains('/apps')) {
+      final id = route.replaceAll('/apps/', '');
+      return MaterialPageRoute(
+        builder: (_) => AppCheck(route: id),
+        settings: settings,
+      );
+    }
+    return MaterialPageRoute(
+      builder: (_) => HomeScreen(),
+      settings: settings,
+    );
+  }
+
+  static Map<String, WidgetBuilder> get routes {
     return {
       LoginScreen.routeName: (_) => LoginScreen(),
       HomeScreen.routeName: (_) => HomeScreen(),
@@ -30,17 +46,6 @@ class Router {
       AppsScreen.routeName: (_) => AppsScreen(),
       BlogScreen.routeName: (_) => BlogScreen(),
       ProjectsScreen.routeName: (_) => ProjectsScreen(),
-      // EditPostScreen.routeName: (_) => EditPostScreen(),
-      if (blog is PostsReady) ...{
-        for (var post in blog.posts) ...{
-          post.slug: (_) => PostDetails(slug: post.slug, post: post),
-        },
-      },
-      if (apps is AppsReady) ...{
-        for (var app in apps.apps) ...{
-          app.routeName: (_) => AppDetails(appView: app),
-        },
-      },
     };
   }
 }

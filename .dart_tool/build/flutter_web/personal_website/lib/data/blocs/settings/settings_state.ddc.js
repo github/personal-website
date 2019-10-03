@@ -18,6 +18,7 @@ define(['dart_sdk', 'packages/personal_website/data/blocs/settings/settings'], f
   }).prototype = settings_state.InitialSettingsState.prototype;
   dart.addTypeTests(settings_state.InitialSettingsState);
   dart.setLibraryUri(settings_state.InitialSettingsState, "package:personal_website/data/blocs/settings/settings_state.dart");
+  const SettingsReady_settings = dart.privateName(settings_state, "SettingsReady.settings");
   settings_state.SettingsReady = class SettingsReady extends settings_state.SettingsState {
     get settings() {
       return this[settings$];
@@ -31,7 +32,7 @@ define(['dart_sdk', 'packages/personal_website/data/blocs/settings/settings'], f
     ;
   }).prototype = settings_state.SettingsReady.prototype;
   dart.addTypeTests(settings_state.SettingsReady);
-  const settings$ = Symbol("SettingsReady.settings");
+  const settings$ = SettingsReady_settings;
   dart.setLibraryUri(settings_state.SettingsReady, "package:personal_website/data/blocs/settings/settings_state.dart");
   dart.setFieldSignature(settings_state.SettingsReady, () => ({
     __proto__: dart.getFields(settings_state.SettingsReady.__proto__),
@@ -40,7 +41,7 @@ define(['dart_sdk', 'packages/personal_website/data/blocs/settings/settings'], f
   dart.trackLibraries("packages/personal_website/data/blocs/settings/settings_state", {
     "package:personal_website/data/blocs/settings/settings_state.dart": settings_state
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["settings_state.dart"],"names":[],"mappings":";;;;;;;;;;;EAK8B;;;;;;EAEoB;;;;IAKjC;;;;;;;;IAFI;;EAAS","file":"settings_state.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["settings_state.dart"],"names":[],"mappings":";;;;;;;;;;;EAK8B;;;;;;EAEoB;;;;;IAKjC;;;;;;;;IAFI;;EAAS","file":"settings_state.ddc.js"}');
   // Exports:
   return {
     data__blocs__settings__settings_state: settings_state

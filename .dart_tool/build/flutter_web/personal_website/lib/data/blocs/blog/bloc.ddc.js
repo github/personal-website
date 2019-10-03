@@ -9,8 +9,8 @@ define(['dart_sdk', 'packages/personal_website/data/blocs/blog/blog_state', 'pac
   const blog_event = packages__personal_website__data__blocs__blog__blog_event.data__blocs__blog__blog_event;
   const fb_post = packages__personal_website__data__classes__fb_post.data__classes__fb_post;
   const bloc = packages__bloc__bloc.src__bloc;
-  const bloc$ = Object.create(dart.library);
   const blog_bloc = Object.create(dart.library);
+  const bloc$ = Object.create(dart.library);
   let _AsyncStarImplOfBlogState = () => (_AsyncStarImplOfBlogState = dart.constFn(async._AsyncStarImpl$(blog_state.BlogState)))();
   let JSArrayOfFbPost = () => (JSArrayOfFbPost = dart.constFn(_interceptors.JSArray$(fb_post.FbPost)))();
   const CT = Object.create(null);
@@ -67,14 +67,14 @@ define(['dart_sdk', 'packages/personal_website/data/blocs/blog/blog_state', 'pac
     [_author]: dart.finalFieldType(core.String)
   }));
   dart.trackLibraries("packages/personal_website/data/blocs/blog/bloc", {
-    "package:personal_website/data/blocs/blog/bloc.dart": bloc$,
-    "package:personal_website/data/blocs/blog/blog_bloc.dart": blog_bloc
+    "package:personal_website/data/blocs/blog/blog_bloc.dart": blog_bloc,
+    "package:personal_website/data/blocs/blog/bloc.dart": bloc$
   }, {
   }, '{"version":3,"sourceRoot":"","sources":["blog_bloc.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;AASgC,2CAAW;IAAO;oBAIpC;;AADqB;AAG/B,YAAU,wBAAN,KAAK;AACP,+BAAO,sBAAgB,KAAK;UAA5B;;MAEJ;;sBAE4C;AAAX;AAE/B,YAAI,gBAAU;AACZ,yBAAM,8BAAW;UAAjB;;AAEA,yBAAM,8BAAW;UAAjB;;MAEJ;;;AAG2B,YAAQ,uBAC7B,gCACU,sBACD,4CACM,yBACP,6DAEF,uLACE,+DACkB,AAAM,sDACxB,2BAER,gCACU,sBACD,+BACM,+BACP,iDAEF,4LACE,mDACkB,AAAM,sDACxB,2BAER,gCACU,sBACD,oDACM,mCACP,4DAEF,iMACE,8DACkB,AAAM,sDACxB,2BAER,gCACU,sBACD,8CACM,uCACP,iDAEF,wLACE,mDACkB,AAAM,sDACxB,2BAER,gCACU,sBACD,8CACM,sDACP,wDAEF,8LACE,0DACkB,AAAM,sDACxB,2BAER,gCACU,sBACD,0EAEH,kGACE,2DAEF,0LACE,6DACkB,AAAM,sDACxB;IAET;;;IArEC,gBAAU;;;EAsElB","file":"bloc.ddc.js"}');
   // Exports:
   return {
-    data__blocs__blog__bloc: bloc$,
-    data__blocs__blog__blog_bloc: blog_bloc
+    data__blocs__blog__blog_bloc: blog_bloc,
+    data__blocs__blog__bloc: bloc$
   };
 });
 

@@ -10,15 +10,19 @@ define(['dart_sdk'], function(dart_sdk) {
     get C0() {
       return C0 = dart.const({
         __proto__: ui.Locale.prototype,
-        [_countryCode]: "US",
-        scriptCode: null,
-        [_languageCode]: "en"
+        [Locale__countryCode]: "US",
+        [Locale_scriptCode]: null,
+        [Locale__languageCode]: "en"
       });
     }
   });
-  const _countryCode = dart.privateName(ui, "_countryCode");
-  const _languageCode = dart.privateName(ui, "_languageCode");
+  const Locale__countryCode = dart.privateName(ui, "Locale._countryCode");
+  const Locale_scriptCode = dart.privateName(ui, "Locale.scriptCode");
+  const Locale__languageCode = dart.privateName(ui, "Locale._languageCode");
   let C0;
+  const Settings_darkMode = dart.privateName(settings, "Settings.darkMode");
+  const Settings_useSystemSetting = dart.privateName(settings, "Settings.useSystemSetting");
+  const Settings_locale = dart.privateName(settings, "Settings.locale");
   settings.Settings = class Settings extends core.Object {
     get darkMode() {
       return this[darkMode$];
@@ -49,9 +53,9 @@ define(['dart_sdk'], function(dart_sdk) {
     ;
   }).prototype = settings.Settings.prototype;
   dart.addTypeTests(settings.Settings);
-  const darkMode$ = Symbol("Settings.darkMode");
-  const useSystemSetting$ = Symbol("Settings.useSystemSetting");
-  const locale$ = Symbol("Settings.locale");
+  const darkMode$ = Settings_darkMode;
+  const useSystemSetting$ = Settings_useSystemSetting;
+  const locale$ = Settings_locale;
   dart.setLibraryUri(settings.Settings, "package:personal_website/data/blocs/settings/settings.dart");
   dart.setFieldSignature(settings.Settings, () => ({
     __proto__: dart.getFields(settings.Settings.__proto__),
@@ -62,7 +66,7 @@ define(['dart_sdk'], function(dart_sdk) {
   dart.trackLibraries("packages/personal_website/data/blocs/settings/settings", {
     "package:personal_website/data/blocs/settings/settings.dart": settings
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["settings.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;IASO;;;;;;IAAU;;;;;;IACR;;;;;;;;QANA;QACA;QACA;IAFA;IACA;IACA;;EACL","file":"settings.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["settings.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;IASO;;;;;;IAAU;;;;;;IACR;;;;;;;;QANA;QACA;QACA;IAFA;IACA;IACA;;EACL","file":"settings.ddc.js"}');
   // Exports:
   return {
     data__blocs__settings__settings: settings

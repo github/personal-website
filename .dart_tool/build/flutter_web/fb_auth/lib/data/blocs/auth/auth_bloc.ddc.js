@@ -10,10 +10,10 @@ define(['dart_sdk', 'packages/fb_auth/data/services/auth/web', 'packages/fb_auth
   const bloc_provider = packages__flutter_bloc__flutter_bloc.src__bloc_provider;
   const bloc = packages__bloc__bloc.src__bloc;
   const auth_user = packages__fb_auth__data__classes__auth_user.data__classes__auth_user;
-  const fb_auth = Object.create(dart.library);
-  const auth_bloc = Object.create(dart.library);
-  const blocs = Object.create(dart.library);
   const bloc$ = Object.create(dart.library);
+  const auth_bloc = Object.create(dart.library);
+  const fb_auth = Object.create(dart.library);
+  const blocs = Object.create(dart.library);
   let _AsyncStarImplOfAuthState = () => (_AsyncStarImplOfAuthState = dart.constFn(async._AsyncStarImpl$(auth_state.AuthState)))();
   const CT = Object.create(null);
   const _auth = dart.privateName(auth_bloc, "_auth");
@@ -26,6 +26,8 @@ define(['dart_sdk', 'packages/fb_auth/data/services/auth/web', 'packages/fb_auth
   const _mapForgotPasswordToState = dart.privateName(auth_bloc, "_mapForgotPasswordToState");
   const _mapVerifyToState = dart.privateName(auth_bloc, "_mapVerifyToState");
   const _mapGuestToState = dart.privateName(auth_bloc, "_mapGuestToState");
+  const AuthBloc_saveUser = dart.privateName(auth_bloc, "AuthBloc.saveUser");
+  const AuthBloc_deleteUser = dart.privateName(auth_bloc, "AuthBloc.deleteUser");
   auth_bloc.AuthBloc = class AuthBloc extends bloc.Bloc$(auth_event.AuthEvent, auth_state.AuthState) {
     get saveUser() {
       return this[saveUser$];
@@ -208,8 +210,8 @@ define(['dart_sdk', 'packages/fb_auth/data/services/auth/web', 'packages/fb_auth
     ;
   }).prototype = auth_bloc.AuthBloc.prototype;
   dart.addTypeTests(auth_bloc.AuthBloc);
-  const saveUser$ = Symbol("AuthBloc.saveUser");
-  const deleteUser$ = Symbol("AuthBloc.deleteUser");
+  const saveUser$ = AuthBloc_saveUser;
+  const deleteUser$ = AuthBloc_deleteUser;
   dart.setMethodSignature(auth_bloc.AuthBloc, () => ({
     __proto__: dart.getMethods(auth_bloc.AuthBloc.__proto__),
     mapEventToState: dart.fnType(async.Stream$(auth_state.AuthState), [core.Object]),
@@ -235,18 +237,18 @@ define(['dart_sdk', 'packages/fb_auth/data/services/auth/web', 'packages/fb_auth
     [_auth]: dart.finalFieldType(web.FBAuth)
   }));
   dart.trackLibraries("packages/fb_auth/data/blocs/auth/auth_bloc", {
-    "package:fb_auth/fb_auth.dart": fb_auth,
+    "package:fb_auth/data/blocs/auth/bloc.dart": bloc$,
     "package:fb_auth/data/blocs/auth/auth_bloc.dart": auth_bloc,
-    "package:fb_auth/data/blocs/blocs.dart": blocs,
-    "package:fb_auth/data/blocs/auth/bloc.dart": bloc$
+    "package:fb_auth/fb_auth.dart": fb_auth,
+    "package:fb_auth/data/blocs/blocs.dart": blocs
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["auth_bloc.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;IAY2B;;;;;;IAGR;;;;;;;AAIa;IAAkB;oBAIpC;;AADqB;AAG/B,YAAU,wBAAN,KAAK;AACP,+BAAO,uBAAiB,KAAK;UAA7B;;AAEF,YAAU,yBAAN,KAAK;AACP,+BAAO,uBAAiB,KAAK;UAA7B;;AAEF,YAAU,0BAAN,KAAK;AACP,+BAAO,wBAAkB,KAAK;UAA9B;;AAEF,YAAU,4BAAN,KAAK;AACP,+BAAO,wBAAkB,KAAK;UAA9B;;AAEF,YAAU,yBAAN,KAAK;AACP,+BAAO,wBAAkB,KAAK;UAA9B;;AAEF,YAAU,uBAAN,KAAK;AACP,+BAAO,0BAAoB,KAAK;UAAhC;;AAEF,YAAU,6BAAN,KAAK;AACP,+BAAO,gCAA0B,KAAK;UAAtC;;AAEF,YAAU,oCAAN,KAAK;AACP,+BAAO,wBAAkB,KAAK;UAA9B;;AAEF,YAAU,yBAAN,KAAK;AACP,+BAAO,uBAAiB,KAAK;UAA7B;;MAEJ;;uBAE8C;AAAZ;AAChC,uBAAM;QAAN;AACM,qBAAQ,MAAM,AAAM;AAC1B,YAAI,KAAK,IAAI;AACX,cAAI,iBAAY,MAAM,cAAS,KAAK;AACpC,yBAAM,iCAAc,KAAK;UAAzB;;AAEA,yBAAM;UAAN;;MAEJ;;uBAE6C;AAAX;AAChC,uBAAM;QAAN;AACM,qBAAQ,MAAM,AAAM;AAC1B,YAAI,KAAK,IAAI;AACX,cAAI,iBAAY,MAAM,cAAS,KAAK;AACpC,yBAAM,iCAAc,KAAK;UAAzB;;AAEA,yBAAM;UAAN;;MAEJ;;wBAEkD;AAAf;;AACjC,uBAAM;QAAN;AACS,qBAAQ,MAAM,AAAM,0BAAc,AAAM,KAAD,WAAW,AAAM,KAAD,0BACxC,KAAP,KAAK,sBAAE,4BAA8B,MAAP,KAAK,uBAAE;AACtD,YAAI,KAAK,IAAI;AACX,cAAI,iBAAY,MAAM,cAAS,KAAK;AACpC,yBAAM,iCAAc,KAAK;UAAzB;;AAEA,yBAAM,kCAAe;UAArB;;MAEJ;;uBAE8C;AAAZ;AAChC,uBAAM;QAAN;AACM,qBAAQ,MAAM,AAAM,kBAAM,AAAM,KAAD,WAAW,AAAM,KAAD;AACrD,YAAI,KAAK,IAAI;AACX,cAAI,iBAAY,MAAM,cAAS,KAAK;AACpC,yBAAM,iCAAc,KAAK;UAAzB;;AAEA,yBAAM,kCAAe;UAArB;;MAEJ;;wBAEgD;AAAb;AACjC,uBAAM;QAAN;QACA,MAAM,AAAM;AACZ,YAAI,mBAAc,MAAM;AACxB,uBAAM;QAAN;MACF;;wBAE0D;AAAvB;QACjC,MAAM,AAAM;MACd;;0BAE+C;AAAV;;AACnC,uBAAM;QAAN;QACA,MAAM,AAAM,oCACY,KAAP,KAAK,sBAAE,4BAA8B,MAAP,KAAK,uBAAE;AAChD,qBAAQ,MAAM,AAAM;AAC1B,YAAI,iBAAY,MAAM,cAAS,KAAK;AACpC,uBAAM,iCAAc,KAAK;QAAzB;MACF;;wBAE+C;AAAZ;;AACjC,aAAW,KAAP,KAAK,sBAAE,YAAQ;AACjB,cAAI,iBAAY,MAAM,cAAS,AAAM,KAAD;AACpC,yBAAM,iCAAc,AAAM,KAAD;UAAzB;;AAEA,yBAAM;UAAN;;MAEJ;;gCAE2D;AAAhB;QACzC,MAAM,AAAM,2BAAe,AAAM,KAAD;MAClC;;uBAEyC;AACjC,iBAAoB,kDAAa,OAAO;AACxC,kBAAQ,AAAK,IAAD;AAClB,UAAU,4BAAN,KAAK;AACP,cAAO,AAAM,MAAD;;AAEd,YAAO;IACT;;;QA1He;QAAe;IAGxB,cAAQ;IAHC;IAAe;AAA9B;;EAA0C","file":"auth_bloc.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["auth_bloc.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IAY2B;;;;;;IAGR;;;;;;;AAIa;IAAkB;oBAIpC;;AADqB;AAG/B,YAAU,wBAAN,KAAK;AACP,+BAAO,uBAAiB,KAAK;UAA7B;;AAEF,YAAU,yBAAN,KAAK;AACP,+BAAO,uBAAiB,KAAK;UAA7B;;AAEF,YAAU,0BAAN,KAAK;AACP,+BAAO,wBAAkB,KAAK;UAA9B;;AAEF,YAAU,4BAAN,KAAK;AACP,+BAAO,wBAAkB,KAAK;UAA9B;;AAEF,YAAU,yBAAN,KAAK;AACP,+BAAO,wBAAkB,KAAK;UAA9B;;AAEF,YAAU,uBAAN,KAAK;AACP,+BAAO,0BAAoB,KAAK;UAAhC;;AAEF,YAAU,6BAAN,KAAK;AACP,+BAAO,gCAA0B,KAAK;UAAtC;;AAEF,YAAU,oCAAN,KAAK;AACP,+BAAO,wBAAkB,KAAK;UAA9B;;AAEF,YAAU,yBAAN,KAAK;AACP,+BAAO,uBAAiB,KAAK;UAA7B;;MAEJ;;uBAE8C;AAAZ;AAChC,uBAAM;QAAN;AACM,qBAAQ,MAAM,AAAM;AAC1B,YAAI,KAAK,IAAI;AACX,cAAI,iBAAY,MAAM,cAAS,KAAK;AACpC,yBAAM,iCAAc,KAAK;UAAzB;;AAEA,yBAAM;UAAN;;MAEJ;;uBAE6C;AAAX;AAChC,uBAAM;QAAN;AACM,qBAAQ,MAAM,AAAM;AAC1B,YAAI,KAAK,IAAI;AACX,cAAI,iBAAY,MAAM,cAAS,KAAK;AACpC,yBAAM,iCAAc,KAAK;UAAzB;;AAEA,yBAAM;UAAN;;MAEJ;;wBAEkD;AAAf;;AACjC,uBAAM;QAAN;AACS,qBAAQ,MAAM,AAAM,0BAAc,AAAM,KAAD,WAAW,AAAM,KAAD,+BAC/C,KAAK,eAAL,OAAO,kCAAuB,KAAK,gBAAL,OAAO;AACtD,YAAI,KAAK,IAAI;AACX,cAAI,iBAAY,MAAM,cAAS,KAAK;AACpC,yBAAM,iCAAc,KAAK;UAAzB;;AAEA,yBAAM,kCAAe;UAArB;;MAEJ;;uBAE8C;AAAZ;AAChC,uBAAM;QAAN;AACM,qBAAQ,MAAM,AAAM,kBAAM,AAAM,KAAD,WAAW,AAAM,KAAD;AACrD,YAAI,KAAK,IAAI;AACX,cAAI,iBAAY,MAAM,cAAS,KAAK;AACpC,yBAAM,iCAAc,KAAK;UAAzB;;AAEA,yBAAM,kCAAe;UAArB;;MAEJ;;wBAEgD;AAAb;AACjC,uBAAM;QAAN;QACA,MAAM,AAAM;AACZ,YAAI,mBAAc,MAAM;AACxB,uBAAM;QAAN;MACF;;wBAE0D;AAAvB;QACjC,MAAM,AAAM;MACd;;0BAE+C;AAAV;;AACnC,uBAAM;QAAN;QACA,MAAM,AAAM,yCACK,KAAK,eAAL,OAAO,kCAAuB,KAAK,gBAAL,OAAO;AAChD,qBAAQ,MAAM,AAAM;AAC1B,YAAI,iBAAY,MAAM,cAAS,KAAK;AACpC,uBAAM,iCAAc,KAAK;QAAzB;MACF;;wBAE+C;AAAZ;;AACjC,kBAAI,KAAK,eAAL,OAAO,YAAQ;AACjB,cAAI,iBAAY,MAAM,cAAS,AAAM,KAAD;AACpC,yBAAM,iCAAc,AAAM,KAAD;UAAzB;;AAEA,yBAAM;UAAN;;MAEJ;;gCAE2D;AAAhB;QACzC,MAAM,AAAM,2BAAe,AAAM,KAAD;MAClC;;uBAEyC;AACjC,iBAAoB,kDAAa,OAAO;AACxC,kBAAQ,AAAK,IAAD;AAClB,UAAU,4BAAN,KAAK;AACP,cAAO,AAAM,MAAD;;AAEd,YAAO;IACT;;;QA1He;QAAe;IAGxB,cAAQ;IAHC;IAAe;AAA9B;;EAA0C","file":"auth_bloc.ddc.js"}');
   // Exports:
   return {
-    fb_auth: fb_auth,
+    data__blocs__auth__bloc: bloc$,
     data__blocs__auth__auth_bloc: auth_bloc,
-    data__blocs__blocs: blocs,
-    data__blocs__auth__bloc: bloc$
+    fb_auth: fb_auth,
+    data__blocs__blocs: blocs
   };
 });
 

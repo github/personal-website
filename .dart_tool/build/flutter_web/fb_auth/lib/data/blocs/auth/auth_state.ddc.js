@@ -18,6 +18,7 @@ define(['dart_sdk', 'packages/fb_auth/data/classes/auth_user'], function(dart_sd
   }).prototype = auth_state.InitialAuthState.prototype;
   dart.addTypeTests(auth_state.InitialAuthState);
   dart.setLibraryUri(auth_state.InitialAuthState, "package:fb_auth/data/blocs/auth/auth_state.dart");
+  const LoggedInState_user = dart.privateName(auth_state, "LoggedInState.user");
   auth_state.LoggedInState = class LoggedInState extends auth_state.AuthState {
     get user() {
       return this[user$];
@@ -31,7 +32,7 @@ define(['dart_sdk', 'packages/fb_auth/data/classes/auth_user'], function(dart_sd
     ;
   }).prototype = auth_state.LoggedInState.prototype;
   dart.addTypeTests(auth_state.LoggedInState);
-  const user$ = Symbol("LoggedInState.user");
+  const user$ = LoggedInState_user;
   dart.setLibraryUri(auth_state.LoggedInState, "package:fb_auth/data/blocs/auth/auth_state.dart");
   dart.setFieldSignature(auth_state.LoggedInState, () => ({
     __proto__: dart.getFields(auth_state.LoggedInState.__proto__),
@@ -49,6 +50,7 @@ define(['dart_sdk', 'packages/fb_auth/data/classes/auth_user'], function(dart_sd
   }).prototype = auth_state.AuthLoadingState.prototype;
   dart.addTypeTests(auth_state.AuthLoadingState);
   dart.setLibraryUri(auth_state.AuthLoadingState, "package:fb_auth/data/blocs/auth/auth_state.dart");
+  const AuthErrorState_message = dart.privateName(auth_state, "AuthErrorState.message");
   auth_state.AuthErrorState = class AuthErrorState extends auth_state.AuthState {
     get message() {
       return this[message$];
@@ -62,7 +64,7 @@ define(['dart_sdk', 'packages/fb_auth/data/classes/auth_user'], function(dart_sd
     ;
   }).prototype = auth_state.AuthErrorState.prototype;
   dart.addTypeTests(auth_state.AuthErrorState);
-  const message$ = Symbol("AuthErrorState.message");
+  const message$ = AuthErrorState_message;
   dart.setLibraryUri(auth_state.AuthErrorState, "package:fb_auth/data/blocs/auth/auth_state.dart");
   dart.setFieldSignature(auth_state.AuthErrorState, () => ({
     __proto__: dart.getFields(auth_state.AuthErrorState.__proto__),
@@ -71,7 +73,7 @@ define(['dart_sdk', 'packages/fb_auth/data/classes/auth_user'], function(dart_sd
   dart.trackLibraries("packages/fb_auth/data/blocs/auth/auth_state", {
     "package:fb_auth/data/blocs/auth/auth_state.dart": auth_state
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["auth_state.dart"],"names":[],"mappings":";;;;;;;;;;;EAK0B;;;;;;EAEgB;;;;IAKzB;;;;;;;;IAFI;;EAAK;;;;;;;;;;;EAKc;;;;;;EAEE;;;;IAK3B;;;;;;;;IAFO;;EAAQ","file":"auth_state.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["auth_state.dart"],"names":[],"mappings":";;;;;;;;;;;EAK0B;;;;;;EAEgB;;;;;IAKzB;;;;;;;;IAFI;;EAAK;;;;;;;;;;;EAKc;;;;;;EAEE;;;;;IAK3B;;;;;;;;IAFO;;EAAQ","file":"auth_state.ddc.js"}');
   // Exports:
   return {
     data__blocs__auth__auth_state: auth_state

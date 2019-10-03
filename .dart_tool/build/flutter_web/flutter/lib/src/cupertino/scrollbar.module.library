@@ -1,1 +1,1 @@
-{"isEntrypoint":false,"deps":["flutter|lib/gestures.dart","flutter|lib/services.dart","flutter|lib/widgets.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"],"hasMain":false}
+{"isEntrypoint":false,"deps":["flutter|lib/gestures.dart","flutter|lib/services.dart","flutter|lib/widgets.dart","flutter|lib/src/cupertino/colors.dart"],"parts":[],"conditionalDeps":[],"sdkDeps":["async"],"hasMain":false}

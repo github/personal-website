@@ -18,6 +18,7 @@ define(['dart_sdk', 'packages/personal_website/data/classes/fb_post'], function(
   }).prototype = blog_state.InitialBlogState.prototype;
   dart.addTypeTests(blog_state.InitialBlogState);
   dart.setLibraryUri(blog_state.InitialBlogState, "package:personal_website/data/blocs/blog/blog_state.dart");
+  const PostsReady_posts = dart.privateName(blog_state, "PostsReady.posts");
   blog_state.PostsReady = class PostsReady extends blog_state.BlogState {
     get posts() {
       return this[posts$];
@@ -31,7 +32,7 @@ define(['dart_sdk', 'packages/personal_website/data/classes/fb_post'], function(
     ;
   }).prototype = blog_state.PostsReady.prototype;
   dart.addTypeTests(blog_state.PostsReady);
-  const posts$ = Symbol("PostsReady.posts");
+  const posts$ = PostsReady_posts;
   dart.setLibraryUri(blog_state.PostsReady, "package:personal_website/data/blocs/blog/blog_state.dart");
   dart.setFieldSignature(blog_state.PostsReady, () => ({
     __proto__: dart.getFields(blog_state.PostsReady.__proto__),
@@ -40,7 +41,7 @@ define(['dart_sdk', 'packages/personal_website/data/classes/fb_post'], function(
   dart.trackLibraries("packages/personal_website/data/blocs/blog/blog_state", {
     "package:personal_website/data/blocs/blog/blog_state.dart": blog_state
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["blog_state.dart"],"names":[],"mappings":";;;;;;;;;;;EAK0B;;;;;;EAEgB;;;;IAIrB;;;;;;;;IAEH;;EAAM","file":"blog_state.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["blog_state.dart"],"names":[],"mappings":";;;;;;;;;;;EAK0B;;;;;;EAEgB;;;;;IAIrB;;;;;;;;IAEH;;EAAM","file":"blog_state.ddc.js"}');
   // Exports:
   return {
     data__blocs__blog__blog_state: blog_state

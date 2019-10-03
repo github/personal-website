@@ -5,6 +5,22 @@ define(['dart_sdk'], function(dart_sdk) {
   const dartx = dart_sdk.dartx;
   const number_symbols = Object.create(dart.library);
   const CT = Object.create(null);
+  const NumberSymbols_NAME = dart.privateName(number_symbols, "NumberSymbols.NAME");
+  const NumberSymbols_DECIMAL_SEP = dart.privateName(number_symbols, "NumberSymbols.DECIMAL_SEP");
+  const NumberSymbols_GROUP_SEP = dart.privateName(number_symbols, "NumberSymbols.GROUP_SEP");
+  const NumberSymbols_PERCENT = dart.privateName(number_symbols, "NumberSymbols.PERCENT");
+  const NumberSymbols_ZERO_DIGIT = dart.privateName(number_symbols, "NumberSymbols.ZERO_DIGIT");
+  const NumberSymbols_PLUS_SIGN = dart.privateName(number_symbols, "NumberSymbols.PLUS_SIGN");
+  const NumberSymbols_MINUS_SIGN = dart.privateName(number_symbols, "NumberSymbols.MINUS_SIGN");
+  const NumberSymbols_EXP_SYMBOL = dart.privateName(number_symbols, "NumberSymbols.EXP_SYMBOL");
+  const NumberSymbols_PERMILL = dart.privateName(number_symbols, "NumberSymbols.PERMILL");
+  const NumberSymbols_INFINITY = dart.privateName(number_symbols, "NumberSymbols.INFINITY");
+  const NumberSymbols_NAN = dart.privateName(number_symbols, "NumberSymbols.NAN");
+  const NumberSymbols_DECIMAL_PATTERN = dart.privateName(number_symbols, "NumberSymbols.DECIMAL_PATTERN");
+  const NumberSymbols_SCIENTIFIC_PATTERN = dart.privateName(number_symbols, "NumberSymbols.SCIENTIFIC_PATTERN");
+  const NumberSymbols_PERCENT_PATTERN = dart.privateName(number_symbols, "NumberSymbols.PERCENT_PATTERN");
+  const NumberSymbols_CURRENCY_PATTERN = dart.privateName(number_symbols, "NumberSymbols.CURRENCY_PATTERN");
+  const NumberSymbols_DEF_CURRENCY_CODE = dart.privateName(number_symbols, "NumberSymbols.DEF_CURRENCY_CODE");
   number_symbols.NumberSymbols = class NumberSymbols extends core.Object {
     get NAME() {
       return this[NAME$];
@@ -142,22 +158,22 @@ define(['dart_sdk'], function(dart_sdk) {
     ;
   }).prototype = number_symbols.NumberSymbols.prototype;
   dart.addTypeTests(number_symbols.NumberSymbols);
-  const NAME$ = Symbol("NumberSymbols.NAME");
-  const DECIMAL_SEP$ = Symbol("NumberSymbols.DECIMAL_SEP");
-  const GROUP_SEP$ = Symbol("NumberSymbols.GROUP_SEP");
-  const PERCENT$ = Symbol("NumberSymbols.PERCENT");
-  const ZERO_DIGIT$ = Symbol("NumberSymbols.ZERO_DIGIT");
-  const PLUS_SIGN$ = Symbol("NumberSymbols.PLUS_SIGN");
-  const MINUS_SIGN$ = Symbol("NumberSymbols.MINUS_SIGN");
-  const EXP_SYMBOL$ = Symbol("NumberSymbols.EXP_SYMBOL");
-  const PERMILL$ = Symbol("NumberSymbols.PERMILL");
-  const INFINITY$ = Symbol("NumberSymbols.INFINITY");
-  const NAN$ = Symbol("NumberSymbols.NAN");
-  const DECIMAL_PATTERN$ = Symbol("NumberSymbols.DECIMAL_PATTERN");
-  const SCIENTIFIC_PATTERN$ = Symbol("NumberSymbols.SCIENTIFIC_PATTERN");
-  const PERCENT_PATTERN$ = Symbol("NumberSymbols.PERCENT_PATTERN");
-  const CURRENCY_PATTERN$ = Symbol("NumberSymbols.CURRENCY_PATTERN");
-  const DEF_CURRENCY_CODE$ = Symbol("NumberSymbols.DEF_CURRENCY_CODE");
+  const NAME$ = NumberSymbols_NAME;
+  const DECIMAL_SEP$ = NumberSymbols_DECIMAL_SEP;
+  const GROUP_SEP$ = NumberSymbols_GROUP_SEP;
+  const PERCENT$ = NumberSymbols_PERCENT;
+  const ZERO_DIGIT$ = NumberSymbols_ZERO_DIGIT;
+  const PLUS_SIGN$ = NumberSymbols_PLUS_SIGN;
+  const MINUS_SIGN$ = NumberSymbols_MINUS_SIGN;
+  const EXP_SYMBOL$ = NumberSymbols_EXP_SYMBOL;
+  const PERMILL$ = NumberSymbols_PERMILL;
+  const INFINITY$ = NumberSymbols_INFINITY;
+  const NAN$ = NumberSymbols_NAN;
+  const DECIMAL_PATTERN$ = NumberSymbols_DECIMAL_PATTERN;
+  const SCIENTIFIC_PATTERN$ = NumberSymbols_SCIENTIFIC_PATTERN;
+  const PERCENT_PATTERN$ = NumberSymbols_PERCENT_PATTERN;
+  const CURRENCY_PATTERN$ = NumberSymbols_CURRENCY_PATTERN;
+  const DEF_CURRENCY_CODE$ = NumberSymbols_DEF_CURRENCY_CODE;
   dart.setLibraryUri(number_symbols.NumberSymbols, "package:intl/number_symbols.dart");
   dart.setFieldSignature(number_symbols.NumberSymbols, () => ({
     __proto__: dart.getFields(number_symbols.NumberSymbols.__proto__),
@@ -179,6 +195,9 @@ define(['dart_sdk'], function(dart_sdk) {
     DEF_CURRENCY_CODE: dart.finalFieldType(core.String)
   }));
   dart.defineExtensionMethods(number_symbols.NumberSymbols, ['toString']);
+  const CompactNumberSymbols_COMPACT_DECIMAL_SHORT_PATTERN = dart.privateName(number_symbols, "CompactNumberSymbols.COMPACT_DECIMAL_SHORT_PATTERN");
+  const CompactNumberSymbols_COMPACT_DECIMAL_LONG_PATTERN = dart.privateName(number_symbols, "CompactNumberSymbols.COMPACT_DECIMAL_LONG_PATTERN");
+  const CompactNumberSymbols_COMPACT_DECIMAL_SHORT_CURRENCY_PATTERN = dart.privateName(number_symbols, "CompactNumberSymbols.COMPACT_DECIMAL_SHORT_CURRENCY_PATTERN");
   number_symbols.CompactNumberSymbols = class CompactNumberSymbols extends core.Object {
     get COMPACT_DECIMAL_SHORT_PATTERN() {
       return this[COMPACT_DECIMAL_SHORT_PATTERN$];
@@ -209,9 +228,9 @@ define(['dart_sdk'], function(dart_sdk) {
     ;
   }).prototype = number_symbols.CompactNumberSymbols.prototype;
   dart.addTypeTests(number_symbols.CompactNumberSymbols);
-  const COMPACT_DECIMAL_SHORT_PATTERN$ = Symbol("CompactNumberSymbols.COMPACT_DECIMAL_SHORT_PATTERN");
-  const COMPACT_DECIMAL_LONG_PATTERN$ = Symbol("CompactNumberSymbols.COMPACT_DECIMAL_LONG_PATTERN");
-  const COMPACT_DECIMAL_SHORT_CURRENCY_PATTERN$ = Symbol("CompactNumberSymbols.COMPACT_DECIMAL_SHORT_CURRENCY_PATTERN");
+  const COMPACT_DECIMAL_SHORT_PATTERN$ = CompactNumberSymbols_COMPACT_DECIMAL_SHORT_PATTERN;
+  const COMPACT_DECIMAL_LONG_PATTERN$ = CompactNumberSymbols_COMPACT_DECIMAL_LONG_PATTERN;
+  const COMPACT_DECIMAL_SHORT_CURRENCY_PATTERN$ = CompactNumberSymbols_COMPACT_DECIMAL_SHORT_CURRENCY_PATTERN;
   dart.setLibraryUri(number_symbols.CompactNumberSymbols, "package:intl/number_symbols.dart");
   dart.setFieldSignature(number_symbols.CompactNumberSymbols, () => ({
     __proto__: dart.getFields(number_symbols.CompactNumberSymbols.__proto__),
@@ -222,7 +241,7 @@ define(['dart_sdk'], function(dart_sdk) {
   dart.trackLibraries("packages/intl/number_symbols", {
     "package:intl/number_symbols.dart": number_symbols
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["number_symbols.dart"],"names":[],"mappings":";;;;;;;;IAUe;;;;;;IACA;;;;;;IACT;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;;AAoBU;IAAI;;;QAjBR;QACD;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;IAfC;IACD;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;;EAAmB;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IAML;;;;;;IACA;;;;;;IACA;;;;;;;;QAEb;QACD;QACA;IAFC;IACD;IACA;;EAAwC","file":"number_symbols.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["number_symbols.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;IAUe;;;;;;IACA;;;;;;IACT;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;IACA;;;;;;;AAoBU;IAAI;;;QAjBR;QACD;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;QACA;IAfC;IACD;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;;EAAmB;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IAML;;;;;;IACA;;;;;;IACA;;;;;;;;QAEb;QACD;QACA;IAFC;IACD;IACA;;EAAwC","file":"number_symbols.ddc.js"}');
   // Exports:
   return {
     number_symbols: number_symbols

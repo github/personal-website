@@ -6,21 +6,117 @@ define(['dart_sdk', 'packages/rxdart/futures'], function(dart_sdk, packages__rxd
   const dartx = dart_sdk.dartx;
   const publish_subject = packages__rxdart__futures.src__subjects__publish_subject;
   const behavior_subject = packages__rxdart__futures.src__subjects__behavior_subject;
-  const bloc = Object.create(dart.library);
-  const bloc$ = Object.create(dart.library);
-  const transition = Object.create(dart.library);
-  const bloc_delegate = Object.create(dart.library);
   const bloc_supervisor = Object.create(dart.library);
+  const bloc = Object.create(dart.library);
+  const transition = Object.create(dart.library);
+  const bloc$ = Object.create(dart.library);
+  const bloc_delegate = Object.create(dart.library);
   const $runtimeType = dartx.runtimeType;
   const $hashCode = dartx.hashCode;
   const $_equals = dartx._equals;
   const CT = Object.create(null);
-  const _eventSubject = dart.privateName(bloc, "_eventSubject");
-  const _stateSubject = dart.privateName(bloc, "_stateSubject");
-  const _bindStateSubject = dart.privateName(bloc, "_bindStateSubject");
-  const _handleError = dart.privateName(bloc, "_handleError");
+  const _delegate = dart.privateName(bloc_supervisor, "_delegate");
+  bloc_supervisor.BlocSupervisor = class BlocSupervisor extends core.Object {
+    static get delegate() {
+      return bloc_supervisor.BlocSupervisor._instance[_delegate];
+    }
+    static set delegate(d) {
+      let t0;
+      bloc_supervisor.BlocSupervisor._instance[_delegate] = (t0 = d, t0 == null ? new bloc_delegate.BlocDelegate.new() : t0);
+    }
+  };
+  (bloc_supervisor.BlocSupervisor.__ = function() {
+    this[_delegate] = new bloc_delegate.BlocDelegate.new();
+    ;
+  }).prototype = bloc_supervisor.BlocSupervisor.prototype;
+  dart.addTypeTests(bloc_supervisor.BlocSupervisor);
+  dart.setLibraryUri(bloc_supervisor.BlocSupervisor, "package:bloc/src/bloc_supervisor.dart");
+  dart.setFieldSignature(bloc_supervisor.BlocSupervisor, () => ({
+    __proto__: dart.getFields(bloc_supervisor.BlocSupervisor.__proto__),
+    [_delegate]: dart.fieldType(bloc_delegate.BlocDelegate)
+  }));
+  dart.defineLazy(bloc_supervisor.BlocSupervisor, {
+    /*bloc_supervisor.BlocSupervisor._instance*/get _instance() {
+      return new bloc_supervisor.BlocSupervisor.__();
+    }
+  });
+  const _is_Transition_default = Symbol('_is_Transition_default');
+  const Transition_currentState = dart.privateName(transition, "Transition.currentState");
+  const Transition_event = dart.privateName(transition, "Transition.event");
+  const Transition_nextState = dart.privateName(transition, "Transition.nextState");
+  transition.Transition$ = dart.generic((Event, State) => {
+    let TransitionOfEvent$State = () => (TransitionOfEvent$State = dart.constFn(transition.Transition$(Event, State)))();
+    class Transition extends core.Object {
+      get currentState() {
+        return this[currentState$];
+      }
+      set currentState(value) {
+        super.currentState = value;
+      }
+      get event() {
+        return this[event$];
+      }
+      set event(value) {
+        super.event = value;
+      }
+      get nextState() {
+        return this[nextState$];
+      }
+      set nextState(value) {
+        super.nextState = value;
+      }
+      _equals(other) {
+        if (other == null) return false;
+        return this === other || TransitionOfEvent$State().is(other) && dart.equals(this[$runtimeType], dart.runtimeType(other)) && dart.equals(this.currentState, other.currentState) && dart.equals(this.event, other.event) && dart.equals(this.nextState, other.nextState);
+      }
+      get hashCode() {
+        return (dart.notNull(dart.hashCode(this.currentState)) ^ dart.notNull(dart.hashCode(this.event)) ^ dart.notNull(dart.hashCode(this.nextState))) >>> 0;
+      }
+      toString() {
+        return "Transition { currentState: " + dart.str(this.currentState) + ", event: " + dart.str(this.event) + ", nextState: " + dart.str(this.nextState) + " }";
+      }
+    }
+    (Transition.new = function(opts) {
+      let currentState = opts && 'currentState' in opts ? opts.currentState : null;
+      let event = opts && 'event' in opts ? opts.event : null;
+      let nextState = opts && 'nextState' in opts ? opts.nextState : null;
+      this[currentState$] = currentState;
+      this[event$] = event;
+      this[nextState$] = nextState;
+      if (!(currentState != null)) dart.assertFailed(null, "org-dartlang-app:///packages/bloc/src/transition.dart", 15, 16, "currentState != null");
+      if (!(event != null)) dart.assertFailed(null, "org-dartlang-app:///packages/bloc/src/transition.dart", 16, 16, "event != null");
+      if (!(nextState != null)) dart.assertFailed(null, "org-dartlang-app:///packages/bloc/src/transition.dart", 17, 16, "nextState != null");
+      ;
+    }).prototype = Transition.prototype;
+    dart.addTypeTests(Transition);
+    Transition.prototype[_is_Transition_default] = true;
+    const currentState$ = Transition_currentState;
+    const event$ = Transition_event;
+    const nextState$ = Transition_nextState;
+    dart.setMethodSignature(Transition, () => ({
+      __proto__: dart.getMethods(Transition.__proto__),
+      _equals: dart.fnType(core.bool, [core.Object]),
+      [$_equals]: dart.fnType(core.bool, [core.Object])
+    }));
+    dart.setLibraryUri(Transition, "package:bloc/src/transition.dart");
+    dart.setFieldSignature(Transition, () => ({
+      __proto__: dart.getFields(Transition.__proto__),
+      currentState: dart.finalFieldType(State),
+      event: dart.finalFieldType(Event),
+      nextState: dart.finalFieldType(State)
+    }));
+    dart.defineExtensionMethods(Transition, ['_equals', 'toString']);
+    dart.defineExtensionAccessors(Transition, ['hashCode']);
+    return Transition;
+  });
+  transition.Transition = transition.Transition$();
+  dart.addTypeTests(transition.Transition, _is_Transition_default);
+  const _eventSubject = dart.privateName(bloc$, "_eventSubject");
+  const _stateSubject = dart.privateName(bloc$, "_stateSubject");
+  const _bindStateSubject = dart.privateName(bloc$, "_bindStateSubject");
+  const _handleError = dart.privateName(bloc$, "_handleError");
   const _is_Bloc_default = Symbol('_is_Bloc_default');
-  bloc.Bloc$ = dart.generic((Event, State) => {
+  bloc$.Bloc$ = dart.generic((Event, State) => {
     let PublishSubjectOfEvent = () => (PublishSubjectOfEvent = dart.constFn(publish_subject.PublishSubject$(Event)))();
     let TransitionOfEvent$State = () => (TransitionOfEvent$State = dart.constFn(transition.Transition$(Event, State)))();
     let StreamOfEvent = () => (StreamOfEvent = dart.constFn(async.Stream$(Event)))();
@@ -122,76 +218,8 @@ define(['dart_sdk', 'packages/rxdart/futures'], function(dart_sdk, packages__rxd
     }));
     return Bloc;
   });
-  bloc.Bloc = bloc.Bloc$();
-  dart.addTypeTests(bloc.Bloc, _is_Bloc_default);
-  const _is_Transition_default = Symbol('_is_Transition_default');
-  transition.Transition$ = dart.generic((Event, State) => {
-    let TransitionOfEvent$State = () => (TransitionOfEvent$State = dart.constFn(transition.Transition$(Event, State)))();
-    class Transition extends core.Object {
-      get currentState() {
-        return this[currentState$];
-      }
-      set currentState(value) {
-        super.currentState = value;
-      }
-      get event() {
-        return this[event$];
-      }
-      set event(value) {
-        super.event = value;
-      }
-      get nextState() {
-        return this[nextState$];
-      }
-      set nextState(value) {
-        super.nextState = value;
-      }
-      _equals(other) {
-        if (other == null) return false;
-        return this === other || TransitionOfEvent$State().is(other) && dart.equals(this[$runtimeType], dart.runtimeType(other)) && dart.equals(this.currentState, other.currentState) && dart.equals(this.event, other.event) && dart.equals(this.nextState, other.nextState);
-      }
-      get hashCode() {
-        return (dart.notNull(dart.hashCode(this.currentState)) ^ dart.notNull(dart.hashCode(this.event)) ^ dart.notNull(dart.hashCode(this.nextState))) >>> 0;
-      }
-      toString() {
-        return "Transition { currentState: " + dart.str(this.currentState) + ", event: " + dart.str(this.event) + ", nextState: " + dart.str(this.nextState) + " }";
-      }
-    }
-    (Transition.new = function(opts) {
-      let currentState = opts && 'currentState' in opts ? opts.currentState : null;
-      let event = opts && 'event' in opts ? opts.event : null;
-      let nextState = opts && 'nextState' in opts ? opts.nextState : null;
-      this[currentState$] = currentState;
-      this[event$] = event;
-      this[nextState$] = nextState;
-      if (!(currentState != null)) dart.assertFailed(null, "org-dartlang-app:///packages/bloc/src/transition.dart", 15, 16, "currentState != null");
-      if (!(event != null)) dart.assertFailed(null, "org-dartlang-app:///packages/bloc/src/transition.dart", 16, 16, "event != null");
-      if (!(nextState != null)) dart.assertFailed(null, "org-dartlang-app:///packages/bloc/src/transition.dart", 17, 16, "nextState != null");
-      ;
-    }).prototype = Transition.prototype;
-    dart.addTypeTests(Transition);
-    Transition.prototype[_is_Transition_default] = true;
-    const currentState$ = Symbol("Transition.currentState");
-    const event$ = Symbol("Transition.event");
-    const nextState$ = Symbol("Transition.nextState");
-    dart.setMethodSignature(Transition, () => ({
-      __proto__: dart.getMethods(Transition.__proto__),
-      _equals: dart.fnType(core.bool, [core.Object]),
-      [$_equals]: dart.fnType(core.bool, [core.Object])
-    }));
-    dart.setLibraryUri(Transition, "package:bloc/src/transition.dart");
-    dart.setFieldSignature(Transition, () => ({
-      __proto__: dart.getFields(Transition.__proto__),
-      currentState: dart.finalFieldType(State),
-      event: dart.finalFieldType(Event),
-      nextState: dart.finalFieldType(State)
-    }));
-    dart.defineExtensionMethods(Transition, ['_equals', 'toString']);
-    dart.defineExtensionAccessors(Transition, ['hashCode']);
-    return Transition;
-  });
-  transition.Transition = transition.Transition$();
-  dart.addTypeTests(transition.Transition, _is_Transition_default);
+  bloc$.Bloc = bloc$.Bloc$();
+  dart.addTypeTests(bloc$.Bloc, _is_Bloc_default);
   bloc_delegate.BlocDelegate = class BlocDelegate extends core.Object {
     onEvent(bloc, event) {
       return null;
@@ -209,51 +237,26 @@ define(['dart_sdk', 'packages/rxdart/futures'], function(dart_sdk, packages__rxd
   dart.addTypeTests(bloc_delegate.BlocDelegate);
   dart.setMethodSignature(bloc_delegate.BlocDelegate, () => ({
     __proto__: dart.getMethods(bloc_delegate.BlocDelegate.__proto__),
-    onEvent: dart.fnType(dart.void, [bloc.Bloc, core.Object]),
-    onTransition: dart.fnType(dart.void, [bloc.Bloc, transition.Transition]),
-    onError: dart.fnType(dart.void, [bloc.Bloc, core.Object, core.StackTrace])
+    onEvent: dart.fnType(dart.void, [bloc$.Bloc, core.Object]),
+    onTransition: dart.fnType(dart.void, [bloc$.Bloc, transition.Transition]),
+    onError: dart.fnType(dart.void, [bloc$.Bloc, core.Object, core.StackTrace])
   }));
   dart.setLibraryUri(bloc_delegate.BlocDelegate, "package:bloc/src/bloc_delegate.dart");
-  const _delegate = dart.privateName(bloc_supervisor, "_delegate");
-  bloc_supervisor.BlocSupervisor = class BlocSupervisor extends core.Object {
-    static get delegate() {
-      return bloc_supervisor.BlocSupervisor._instance[_delegate];
-    }
-    static set delegate(d) {
-      let t1;
-      bloc_supervisor.BlocSupervisor._instance[_delegate] = (t1 = d, t1 == null ? new bloc_delegate.BlocDelegate.new() : t1);
-    }
-  };
-  (bloc_supervisor.BlocSupervisor.__ = function() {
-    this[_delegate] = new bloc_delegate.BlocDelegate.new();
-    ;
-  }).prototype = bloc_supervisor.BlocSupervisor.prototype;
-  dart.addTypeTests(bloc_supervisor.BlocSupervisor);
-  dart.setLibraryUri(bloc_supervisor.BlocSupervisor, "package:bloc/src/bloc_supervisor.dart");
-  dart.setFieldSignature(bloc_supervisor.BlocSupervisor, () => ({
-    __proto__: dart.getFields(bloc_supervisor.BlocSupervisor.__proto__),
-    [_delegate]: dart.fieldType(bloc_delegate.BlocDelegate)
-  }));
-  dart.defineLazy(bloc_supervisor.BlocSupervisor, {
-    /*bloc_supervisor.BlocSupervisor._instance*/get _instance() {
-      return new bloc_supervisor.BlocSupervisor.__();
-    }
-  });
   dart.trackLibraries("packages/bloc/bloc", {
-    "package:bloc/src/bloc.dart": bloc,
-    "package:bloc/bloc.dart": bloc$,
+    "package:bloc/src/bloc_supervisor.dart": bloc_supervisor,
+    "package:bloc/bloc.dart": bloc,
     "package:bloc/src/transition.dart": transition,
-    "package:bloc/src/bloc_delegate.dart": bloc_delegate,
-    "package:bloc/src/bloc_supervisor.dart": bloc_supervisor
+    "package:bloc/src/bloc.dart": bloc$,
+    "package:bloc/src/bloc_delegate.dart": bloc_delegate
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["src/bloc.dart","src/transition.dart","src/bloc_delegate.dart","src/bloc_supervisor.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAe6B,cAAA,AAAc;MAAM;;AAMrB,cAAA,AAAc;MAAK;cAS1B;;AAAU;MAAI;mBAMU;;AAAe;MAAI;cAM1C,OAAkB;AAAe;MAAI;eAQrC;;;UAED,AAAS,gDAAQ,MAAM,KAAK;UAC3C,aAAQ,KAAK;UACb,AAAc,AAAK,6BAAI,KAAK;;cACrB;UACP,mBAAa,KAAK;;MAEtB;;QAUE,AAAc;QACd,AAAc;MAChB;sBA+BgB,QACA;;;AAEd,cAAO,AAAO,OAAD,oBAAa,IAAI;MAChC;sBAuB4C;;AAAW,qBAAM;;;AAGrD;QAEN,AAGI,qBAHY,qBAAgB,qBAAe,QAAO;UACpD,eAAe,KAAK;AACpB,gBAAO,AAA8B,sBAAd,YAAY,wBAAc;6CAEjD,QAAO;AACL,cAAiB,YAAb,mBAAgB,SAAS,eAAI,AAAc,+BAAU;AACnD,2BAAa,mDACH,0BACP,YAAY,aACR,SAAS;UAEP,AAAS,qDAAa,MAAM,UAAU;UACrD,kBAAa,UAAU;UACvB,AAAc,wBAAI,SAAS;;MAGjC;qBAEyB,OAAmB;;QAC3B,AAAS,gDAAQ,MAAM,KAAK,EAAE,UAAU;QACvD,aAAQ,KAAK,EAAE,UAAU;MAC3B;;;MAjJ4B,sBAAgB;MAErB;MAarB,sBAAc,gCAAgC;MAC9C;IACF;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;MCpBY;;;;;;MACA;;;;;;MACA;;;;;;;YAWY;AACpB,cAAA,AAAU,AAAa,UAAP,KAAK,IACf,6BAAN,KAAK,KACW,YAAZ,oBAAqB,iBAAN,KAAK,MACP,YAAb,mBAAgB,AAAM,KAAD,kBACf,YAAN,YAAS,AAAM,KAAD,WACJ,YAAV,gBAAa,AAAM,KAAD;MAAU;;AAIhC,cAAuC,EAAjB,aAAT,cAAb,mCAA8B,cAAN,4BAA2B,cAAV;MAAkB;;AAI3D,cAAA,AAAkF,0CAArD,qBAAY,uBAAU,cAAK,2BAAc,kBAAS;MAAG;;;UAtBrE;UACA;UACA;MAFA;MACA;MACA;YACJ,YAAY,IAAI;YAChB,KAAK,IAAI;YACT,SAAS,IAAI;;IAAK;;;;;;;;;;;;;;;;;;;;;;;;;YCPb,MAAa;AAAU;IAAI;iBAOtB,MAAiB;AAAe;IAAI;YAOzC,MAAa,OAAkB;AAAe;IAAI;;;;EACtE;;;;;;;;;;;;ACZsC,YAAA,AAAU;IAAS;wBAGtB;;MAC/B,AAAU,uDAAc,KAAF,CAAC,QAAC,OAAG;IAC7B;;;IAZa,kBAAY;;EAEP;;;;;;;;MAEU,wCAAS;YAAkB","file":"bloc.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["src/bloc_supervisor.dart","src/transition.dart","src/bloc.dart","src/bloc_delegate.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;AAYsC,YAAA,AAAU;IAAS;wBAGtB;;MAC/B,AAAU,uDAAc,KAAF,CAAC,QAAD,OAAK;IAC7B;;;IAZa,kBAAY;;EAEP;;;;;;;;MAEU,wCAAS;YAAkB;;;;;;;;;;MCH3C;;;;;;MACA;;;;;;MACA;;;;;;;YAWY;AACpB,cAAA,AAAU,AAAa,UAAP,KAAK,IACf,6BAAN,KAAK,KACW,YAAZ,oBAAqB,iBAAN,KAAK,MACP,YAAb,mBAAgB,AAAM,KAAD,kBACf,YAAN,YAAS,AAAM,KAAD,WACJ,YAAV,gBAAa,AAAM,KAAD;MAAU;;AAIhC,cAAuC,EAAjB,aAAT,cAAb,mCAA8B,cAAN,4BAA2B,cAAV;MAAkB;;AAI3D,cAAA,AAAkF,0CAArD,qBAAY,uBAAU,cAAK,2BAAc,kBAAS;MAAG;;;UAtBrE;UACA;UACA;MAFA;MACA;MACA;YACJ,YAAY,IAAI;YAChB,KAAK,IAAI;YACT,SAAS,IAAI;;IAAK;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;ACDJ,cAAA,AAAc;MAAM;;AAMrB,cAAA,AAAc;MAAK;cAS1B;;AAAU;MAAI;mBAMU;;AAAe;MAAI;cAM1C,OAAkB;AAAe;MAAI;eAQrC;;;UAED,AAAS,gDAAQ,MAAM,KAAK;UAC3C,aAAQ,KAAK;UACb,AAAc,AAAK,6BAAI,KAAK;;cACrB;UACP,mBAAa,KAAK;;MAEtB;;QAUE,AAAc;QACd,AAAc;MAChB;sBA+BgB,QACA;;;AAEd,cAAO,AAAO,OAAD,oBAAa,IAAI;MAChC;sBAuB4C;;AAAW,qBAAM;;;AAGrD;QAEN,AAGI,qBAHY,qBAAgB,qBAAe,QAAO;UACpD,eAAe,KAAK;AACpB,gBAAO,AAA8B,sBAAd,YAAY,wBAAc;6CAEjD,QAAO;AACL,cAAiB,YAAb,mBAAgB,SAAS,eAAI,AAAc,+BAAU;AACnD,2BAAa,mDACH,0BACP,YAAY,aACR,SAAS;UAEP,AAAS,qDAAa,MAAM,UAAU;UACrD,kBAAa,UAAU;UACvB,AAAc,wBAAI,SAAS;;MAGjC;qBAEyB,OAAmB;;QAC3B,AAAS,gDAAQ,MAAM,KAAK,EAAE,UAAU;QACvD,aAAQ,KAAK,EAAE,UAAU;MAC3B;;;MAjJ4B,sBAAgB;MAErB;MAarB,sBAAc,gCAAgC;MAC9C;IACF;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;YCjBkB,MAAa;AAAU;IAAI;iBAOtB,MAAiB;AAAe;IAAI;YAOzC,MAAa,OAAkB;AAAe;IAAI;;;;EACtE","file":"bloc.ddc.js"}');
   // Exports:
   return {
-    src__bloc: bloc,
-    bloc: bloc$,
+    src__bloc_supervisor: bloc_supervisor,
+    bloc: bloc,
     src__transition: transition,
-    src__bloc_delegate: bloc_delegate,
-    src__bloc_supervisor: bloc_supervisor
+    src__bloc: bloc$,
+    src__bloc_delegate: bloc_delegate
   };
 });
 

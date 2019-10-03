@@ -5,6 +5,11 @@ define(['dart_sdk'], function(dart_sdk) {
   const dartx = dart_sdk.dartx;
   const auth_user = Object.create(dart.library);
   const CT = Object.create(null);
+  const AuthUser_uid = dart.privateName(auth_user, "AuthUser.uid");
+  const AuthUser_displayName = dart.privateName(auth_user, "AuthUser.displayName");
+  const AuthUser_email = dart.privateName(auth_user, "AuthUser.email");
+  const AuthUser_isEmailVerified = dart.privateName(auth_user, "AuthUser.isEmailVerified");
+  const AuthUser_isAnonymous = dart.privateName(auth_user, "AuthUser.isAnonymous");
   auth_user.AuthUser = class AuthUser extends core.Object {
     get uid() {
       return this[uid$];
@@ -54,11 +59,11 @@ define(['dart_sdk'], function(dart_sdk) {
     ;
   }).prototype = auth_user.AuthUser.prototype;
   dart.addTypeTests(auth_user.AuthUser);
-  const uid$ = Symbol("AuthUser.uid");
-  const displayName$ = Symbol("AuthUser.displayName");
-  const email$ = Symbol("AuthUser.email");
-  const isEmailVerified$ = Symbol("AuthUser.isEmailVerified");
-  const isAnonymous$ = Symbol("AuthUser.isAnonymous");
+  const uid$ = AuthUser_uid;
+  const displayName$ = AuthUser_displayName;
+  const email$ = AuthUser_email;
+  const isEmailVerified$ = AuthUser_isEmailVerified;
+  const isAnonymous$ = AuthUser_isAnonymous;
   dart.setLibraryUri(auth_user.AuthUser, "package:fb_auth/data/classes/auth_user.dart");
   dart.setFieldSignature(auth_user.AuthUser, () => ({
     __proto__: dart.getFields(auth_user.AuthUser.__proto__),
@@ -72,7 +77,7 @@ define(['dart_sdk'], function(dart_sdk) {
   dart.trackLibraries("packages/fb_auth/data/classes/auth_user", {
     "package:fb_auth/data/classes/auth_user.dart": auth_user
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["auth_user.dart"],"names":[],"mappings":";;;;;;;;IAGe;;;;;;IACA;;;;;;IACA;;;;;;IASF;;;;;;IACA;;;;;;;AAIT,YAAqB,UAAZ;IACX;;;QAZiB;QACA;QACA;QACA;QACA;IAJA;IACA;IACA;IACA;IACA;;EACf","file":"auth_user.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["auth_user.dart"],"names":[],"mappings":";;;;;;;;;;;;;IAGe;;;;;;IACA;;;;;;IACA;;;;;;IASF;;;;;;IACA;;;;;;;AAIT,YAAqB,UAAZ;IACX;;;QAZiB;QACA;QACA;QACA;QACA;IAJA;IACA;IACA;IACA;IACA;;EACf","file":"auth_user.ddc.js"}');
   // Exports:
   return {
     data__classes__auth_user: auth_user

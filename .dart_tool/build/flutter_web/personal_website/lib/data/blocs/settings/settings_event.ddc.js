@@ -12,6 +12,7 @@ define(['dart_sdk', 'packages/personal_website/data/blocs/settings/settings'], f
   }).prototype = settings_event.SettingsEvent.prototype;
   dart.addTypeTests(settings_event.SettingsEvent);
   dart.setLibraryUri(settings_event.SettingsEvent, "package:personal_website/data/blocs/settings/settings_event.dart");
+  const ChangeSettings_settings = dart.privateName(settings_event, "ChangeSettings.settings");
   settings_event.ChangeSettings = class ChangeSettings extends settings_event.SettingsEvent {
     get settings() {
       return this[settings$];
@@ -25,7 +26,7 @@ define(['dart_sdk', 'packages/personal_website/data/blocs/settings/settings'], f
     ;
   }).prototype = settings_event.ChangeSettings.prototype;
   dart.addTypeTests(settings_event.ChangeSettings);
-  const settings$ = Symbol("ChangeSettings.settings");
+  const settings$ = ChangeSettings_settings;
   dart.setLibraryUri(settings_event.ChangeSettings, "package:personal_website/data/blocs/settings/settings_event.dart");
   dart.setFieldSignature(settings_event.ChangeSettings, () => ({
     __proto__: dart.getFields(settings_event.ChangeSettings.__proto__),
@@ -40,7 +41,7 @@ define(['dart_sdk', 'packages/personal_website/data/blocs/settings/settings'], f
   dart.trackLibraries("packages/personal_website/data/blocs/settings/settings_event", {
     "package:personal_website/data/blocs/settings/settings_event.dart": settings_event
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["settings_event.dart"],"names":[],"mappings":";;;;;;;;;;;EAK8B;;;;IAKb;;;;;;;;IAFK;;EAAS;;;;;;;;;;;EAKY","file":"settings_event.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["settings_event.dart"],"names":[],"mappings":";;;;;;;;;;;EAK8B;;;;;IAKb;;;;;;;;IAFK;;EAAS;;;;;;;;;;;EAKY","file":"settings_event.ddc.js"}');
   // Exports:
   return {
     data__blocs__settings__settings_event: settings_event

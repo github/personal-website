@@ -64,46 +64,38 @@ class _MyAppState extends State<MyApp> {
           },
           child: BlocBuilder<SettingsBloc, SettingsState>(
             builder: (context, settingState) => Container(
-              child: BlocBuilder<BlogBloc, BlogState>(
-                builder: (context, blocState) => Container(
-                  child: BlocBuilder<AppsBloc, AppsState>(
-                    builder: (context, appsState) => Container(
-                      child: MaterialApp(
-                        debugShowCheckedModeBanner: false,
-                        theme: settingState is SettingsReady &&
-                                settingState.settings.darkMode
-                            ? AppTheme.dark
-                            : AppTheme.light,
-                        darkTheme: settingState is SettingsReady &&
-                                settingState.settings.useSystemSetting
-                            ? AppTheme.dark
-                            : null,
-                        navigatorObservers: [_observer],
-                        onGenerateTitle: (context) => I18n.of(context).title,
-                        locale: settingState is SettingsReady
-                            ? settingState.settings.locale
-                            : Locale("en", "US"),
-                        localizationsDelegates: [
-                          i18n,
-                          GlobalMaterialLocalizations.delegate,
-                          GlobalWidgetsLocalizations.delegate,
-                        ],
-                        supportedLocales: i18n.supportedLocales,
-                        localeResolutionCallback: i18n.resolution(
-                          fallback: settingState is SettingsReady
-                              ? settingState.settings.locale
-                              : Locale("en", "US"),
-                        ),
-                        onUnknownRoute: Router.onUnknownRoute,
-                        initialRoute: Router.initialRoute,
-                        routes: Router.routes(
-                          blog: blocState,
-                          apps: appsState,
-                        ),
-                      ),
-                    ),
-                  ),
+              child: MaterialApp(
+                debugShowCheckedModeBanner: false,
+                theme: settingState is SettingsReady &&
+                        settingState.settings.darkMode
+                    ? AppTheme.dark
+                    : AppTheme.light,
+                darkTheme: settingState is SettingsReady &&
+                        settingState.settings.useSystemSetting
+                    ? AppTheme.dark
+                    : null,
+                navigatorObservers: [_observer],
+                onGenerateTitle: (context) => I18n.of(context).title,
+                locale: settingState is SettingsReady
+                    ? settingState.settings.locale
+                    : Locale("en", "US"),
+                localizationsDelegates: [
+                  i18n,
+                  GlobalMaterialLocalizations.delegate,
+                  GlobalWidgetsLocalizations.delegate,
+                ],
+                supportedLocales: i18n.supportedLocales,
+                localeResolutionCallback: i18n.resolution(
+                  fallback: settingState is SettingsReady
+                      ? settingState.settings.locale
+                      : Locale("en", "US"),
                 ),
+                onUnknownRoute: (settings) => Router.onUnknownRoute(
+                  context,
+                  settings: settings,
+                ),
+                initialRoute: Router.initialRoute,
+                routes: Router.routes,
               ),
             ),
           ),

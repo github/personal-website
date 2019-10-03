@@ -26,6 +26,9 @@ define(['dart_sdk'], function(dart_sdk) {
   });
   const _name$ = dart.privateName(media_search, "_name");
   let C0;
+  const MediaSearch_type = dart.privateName(media_search, "MediaSearch.type");
+  const MediaSearch_url = dart.privateName(media_search, "MediaSearch.url");
+  const MediaSearch_thumbnail = dart.privateName(media_search, "MediaSearch.thumbnail");
   media_search.MediaSearch = class MediaSearch extends core.Object {
     get type() {
       return this[type$];
@@ -61,9 +64,9 @@ define(['dart_sdk'], function(dart_sdk) {
     ;
   }).prototype = media_search.MediaSearch.prototype;
   dart.addTypeTests(media_search.MediaSearch);
-  const type$ = Symbol("MediaSearch.type");
-  const url$ = Symbol("MediaSearch.url");
-  const thumbnail$ = Symbol("MediaSearch.thumbnail");
+  const type$ = MediaSearch_type;
+  const url$ = MediaSearch_url;
+  const thumbnail$ = MediaSearch_thumbnail;
   dart.setGetterSignature(media_search.MediaSearch, () => ({
     __proto__: dart.getGetters(media_search.MediaSearch.__proto__),
     preview: core.String
@@ -101,7 +104,7 @@ define(['dart_sdk'], function(dart_sdk) {
   dart.trackLibraries("packages/personal_website/data/classes/media_search", {
     "package:personal_website/data/classes/media_search.dart": media_search
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["media_search.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;IAOkB;;;;;;IACH;;;;;;IACA;;;;;;;;AACS;mBAAU,OAAG;IAAG;;;QAR/B;QACA;QACA;IAFA;IACA;IACA;;EACL;;;;;;;;;;;;;;;;;;;;;IAQ0B;;gDAAzB;;;;EAAyB","file":"media_search.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["media_search.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IAOkB;;;;;;IACH;;;;;;IACA;;;;;;;;AACS;0BAAa;IAAG;;;QAR/B;QACA;QACA;IAFA;IACA;IACA;;EACL;;;;;;;;;;;;;;;;;;;;;IAQ0B;;gDAAzB;;;;EAAyB","file":"media_search.ddc.js"}');
   // Exports:
   return {
     data__classes__media_search: media_search

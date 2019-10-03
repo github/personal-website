@@ -29,7 +29,7 @@ define(['dart_sdk'], function(dart_sdk) {
     get C4() {
       return C4 = dart.const({
         __proto__: meta.Immutable.prototype,
-        reason: null
+        [Immutable_reason]: null
       });
     },
     get C5() {
@@ -65,7 +65,7 @@ define(['dart_sdk'], function(dart_sdk) {
     get C11() {
       return C11 = dart.const({
         __proto__: meta.Required.prototype,
-        reason: null
+        [Required_reason]: null
       });
     },
     get C12() {
@@ -89,6 +89,7 @@ define(['dart_sdk'], function(dart_sdk) {
       });
     }
   });
+  const Immutable_reason = dart.privateName(meta, "Immutable.reason");
   meta.Immutable = class Immutable extends core.Object {
     get reason() {
       return this[reason$];
@@ -103,12 +104,13 @@ define(['dart_sdk'], function(dart_sdk) {
     ;
   }).prototype = meta.Immutable.prototype;
   dart.addTypeTests(meta.Immutable);
-  const reason$ = Symbol("Immutable.reason");
+  const reason$ = Immutable_reason;
   dart.setLibraryUri(meta.Immutable, "package:meta/meta.dart");
   dart.setFieldSignature(meta.Immutable, () => ({
     __proto__: dart.getFields(meta.Immutable.__proto__),
     reason: dart.finalFieldType(core.String)
   }));
+  const Required_reason = dart.privateName(meta, "Required.reason");
   meta.Required = class Required extends core.Object {
     get reason() {
       return this[reason$0];
@@ -123,7 +125,7 @@ define(['dart_sdk'], function(dart_sdk) {
     ;
   }).prototype = meta.Required.prototype;
   dart.addTypeTests(meta.Required);
-  const reason$0 = Symbol("Required.reason");
+  const reason$0 = Required_reason;
   dart.setLibraryUri(meta.Required, "package:meta/meta.dart");
   dart.setFieldSignature(meta.Required, () => ({
     __proto__: dart.getFields(meta.Required.__proto__),
@@ -282,7 +284,7 @@ define(['dart_sdk'], function(dart_sdk) {
   dart.trackLibraries("packages/meta/meta", {
     "package:meta/meta.dart": meta
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["meta.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IA+Oe;;;;;;;iCAGS;;;;EAAQ;;;;;;;;;IAgBjB;;;;;;;gCAGQ;;;;EAAQ;;;;;;;;;;;EAIR;;;;;;EAIL;;;;;;EAIK;;;;;;EAIL;;;;;;EAID;;;;;;EAIK;;;;;;EAIJ;;;;;;EAIM;;;;;;EAIG;;;;;;EAIP;;;;;;EAIH;;;;;;EAKC;;;;;;EAIa;;;;;;EAIH;;;;;;;;;;;;;;;;;;;;MA9QR,iBAAY;;;MAWjB,YAAO;;;MAsBF,iBAAY;;;MAYjB,YAAO;;;MAYN,cAAS;;;MAQX,WAAM;;;MAQD,gBAAW;;;MAaf,YAAO;;;MAeD,kBAAa;;;MAMV,qBAAgB;;;MAkBvB,cAAS;;;MAeX,aAAQ;;;MAaT,WAAM;;;MAQL,YAAO;;;MAWM,yBAAoB;;;MAYvB,sBAAiB","file":"meta.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["meta.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IA+Oe;;;;;;;iCAGS;;;;EAAQ;;;;;;;;;;IAgBjB;;;;;;;gCAGQ;;;;EAAQ;;;;;;;;;;;EAIR;;;;;;EAIL;;;;;;EAIK;;;;;;EAIL;;;;;;EAID;;;;;;EAIK;;;;;;EAIJ;;;;;;EAIM;;;;;;EAIG;;;;;;EAIP;;;;;;EAIH;;;;;;EAKC;;;;;;EAIa;;;;;;EAIH;;;;;;;;;;;;;;;;;;;;MA9QR,iBAAY;;;MAWjB,YAAO;;;MAsBF,iBAAY;;;MAYjB,YAAO;;;MAYN,cAAS;;;MAQX,WAAM;;;MAQD,gBAAW;;;MAaf,YAAO;;;MAeD,kBAAa;;;MAMV,qBAAgB;;;MAkBvB,cAAS;;;MAeX,aAAQ;;;MAaT,WAAM;;;MAQL,YAAO;;;MAWM,yBAAoB;;;MAYvB,sBAAiB","file":"meta.ddc.js"}');
   // Exports:
   return {
     meta: meta

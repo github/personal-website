@@ -18,6 +18,8 @@ define(['dart_sdk', 'packages/fb_auth/data/classes/auth_user'], function(dart_sd
   }).prototype = auth_event.CheckUser.prototype;
   dart.addTypeTests(auth_event.CheckUser);
   dart.setLibraryUri(auth_event.CheckUser, "package:fb_auth/data/blocs/auth/auth_event.dart");
+  const LoginEvent_username = dart.privateName(auth_event, "LoginEvent.username");
+  const LoginEvent_password = dart.privateName(auth_event, "LoginEvent.password");
   auth_event.LoginEvent = class LoginEvent extends auth_event.AuthEvent {
     get username() {
       return this[username$];
@@ -38,8 +40,8 @@ define(['dart_sdk', 'packages/fb_auth/data/classes/auth_user'], function(dart_sd
     ;
   }).prototype = auth_event.LoginEvent.prototype;
   dart.addTypeTests(auth_event.LoginEvent);
-  const username$ = Symbol("LoginEvent.username");
-  const password$ = Symbol("LoginEvent.password");
+  const username$ = LoginEvent_username;
+  const password$ = LoginEvent_password;
   dart.setLibraryUri(auth_event.LoginEvent, "package:fb_auth/data/blocs/auth/auth_event.dart");
   dart.setFieldSignature(auth_event.LoginEvent, () => ({
     __proto__: dart.getFields(auth_event.LoginEvent.__proto__),
@@ -52,6 +54,10 @@ define(['dart_sdk', 'packages/fb_auth/data/classes/auth_user'], function(dart_sd
   }).prototype = auth_event.LoginGuest.prototype;
   dart.addTypeTests(auth_event.LoginGuest);
   dart.setLibraryUri(auth_event.LoginGuest, "package:fb_auth/data/blocs/auth/auth_event.dart");
+  const CreateAccount_username = dart.privateName(auth_event, "CreateAccount.username");
+  const CreateAccount_password = dart.privateName(auth_event, "CreateAccount.password");
+  const CreateAccount_displayName = dart.privateName(auth_event, "CreateAccount.displayName");
+  const CreateAccount_photoUrl = dart.privateName(auth_event, "CreateAccount.photoUrl");
   auth_event.CreateAccount = class CreateAccount extends auth_event.AuthEvent {
     get username() {
       return this[username$0];
@@ -88,10 +94,10 @@ define(['dart_sdk', 'packages/fb_auth/data/classes/auth_user'], function(dart_sd
     ;
   }).prototype = auth_event.CreateAccount.prototype;
   dart.addTypeTests(auth_event.CreateAccount);
-  const username$0 = Symbol("CreateAccount.username");
-  const password$0 = Symbol("CreateAccount.password");
-  const displayName$ = Symbol("CreateAccount.displayName");
-  const photoUrl$ = Symbol("CreateAccount.photoUrl");
+  const username$0 = CreateAccount_username;
+  const password$0 = CreateAccount_password;
+  const displayName$ = CreateAccount_displayName;
+  const photoUrl$ = CreateAccount_photoUrl;
   dart.setLibraryUri(auth_event.CreateAccount, "package:fb_auth/data/blocs/auth/auth_event.dart");
   dart.setFieldSignature(auth_event.CreateAccount, () => ({
     __proto__: dart.getFields(auth_event.CreateAccount.__proto__),
@@ -100,6 +106,7 @@ define(['dart_sdk', 'packages/fb_auth/data/classes/auth_user'], function(dart_sd
     displayName: dart.finalFieldType(core.String),
     photoUrl: dart.finalFieldType(core.String)
   }));
+  const LogoutEvent_user = dart.privateName(auth_event, "LogoutEvent.user");
   auth_event.LogoutEvent = class LogoutEvent extends auth_event.AuthEvent {
     get user() {
       return this[user$];
@@ -113,12 +120,13 @@ define(['dart_sdk', 'packages/fb_auth/data/classes/auth_user'], function(dart_sd
     ;
   }).prototype = auth_event.LogoutEvent.prototype;
   dart.addTypeTests(auth_event.LogoutEvent);
-  const user$ = Symbol("LogoutEvent.user");
+  const user$ = LogoutEvent_user;
   dart.setLibraryUri(auth_event.LogoutEvent, "package:fb_auth/data/blocs/auth/auth_event.dart");
   dart.setFieldSignature(auth_event.LogoutEvent, () => ({
     __proto__: dart.getFields(auth_event.LogoutEvent.__proto__),
     user: dart.finalFieldType(auth_user.AuthUser)
   }));
+  const UpdateUser_user = dart.privateName(auth_event, "UpdateUser.user");
   auth_event.UpdateUser = class UpdateUser extends auth_event.AuthEvent {
     get user() {
       return this[user$0];
@@ -132,12 +140,13 @@ define(['dart_sdk', 'packages/fb_auth/data/classes/auth_user'], function(dart_sd
     ;
   }).prototype = auth_event.UpdateUser.prototype;
   dart.addTypeTests(auth_event.UpdateUser);
-  const user$0 = Symbol("UpdateUser.user");
+  const user$0 = UpdateUser_user;
   dart.setLibraryUri(auth_event.UpdateUser, "package:fb_auth/data/blocs/auth/auth_event.dart");
   dart.setFieldSignature(auth_event.UpdateUser, () => ({
     __proto__: dart.getFields(auth_event.UpdateUser.__proto__),
     user: dart.finalFieldType(auth_user.AuthUser)
   }));
+  const ForgotPassword_email = dart.privateName(auth_event, "ForgotPassword.email");
   auth_event.ForgotPassword = class ForgotPassword extends auth_event.AuthEvent {
     get email() {
       return this[email$];
@@ -151,7 +160,7 @@ define(['dart_sdk', 'packages/fb_auth/data/classes/auth_user'], function(dart_sd
     ;
   }).prototype = auth_event.ForgotPassword.prototype;
   dart.addTypeTests(auth_event.ForgotPassword);
-  const email$ = Symbol("ForgotPassword.email");
+  const email$ = ForgotPassword_email;
   dart.setLibraryUri(auth_event.ForgotPassword, "package:fb_auth/data/blocs/auth/auth_event.dart");
   dart.setFieldSignature(auth_event.ForgotPassword, () => ({
     __proto__: dart.getFields(auth_event.ForgotPassword.__proto__),
@@ -163,6 +172,9 @@ define(['dart_sdk', 'packages/fb_auth/data/classes/auth_user'], function(dart_sd
   }).prototype = auth_event.SendEmailVerification.prototype;
   dart.addTypeTests(auth_event.SendEmailVerification);
   dart.setLibraryUri(auth_event.SendEmailVerification, "package:fb_auth/data/blocs/auth/auth_event.dart");
+  const EditInfo_displayName = dart.privateName(auth_event, "EditInfo.displayName");
+  const EditInfo_photoUrl = dart.privateName(auth_event, "EditInfo.photoUrl");
+  const EditInfo_user = dart.privateName(auth_event, "EditInfo.user");
   auth_event.EditInfo = class EditInfo extends auth_event.AuthEvent {
     get displayName() {
       return this[displayName$0];
@@ -192,9 +204,9 @@ define(['dart_sdk', 'packages/fb_auth/data/classes/auth_user'], function(dart_sd
     ;
   }).prototype = auth_event.EditInfo.prototype;
   dart.addTypeTests(auth_event.EditInfo);
-  const displayName$0 = Symbol("EditInfo.displayName");
-  const photoUrl$0 = Symbol("EditInfo.photoUrl");
-  const user$1 = Symbol("EditInfo.user");
+  const displayName$0 = EditInfo_displayName;
+  const photoUrl$0 = EditInfo_photoUrl;
+  const user$1 = EditInfo_user;
   dart.setLibraryUri(auth_event.EditInfo, "package:fb_auth/data/blocs/auth/auth_event.dart");
   dart.setFieldSignature(auth_event.EditInfo, () => ({
     __proto__: dart.getFields(auth_event.EditInfo.__proto__),
@@ -205,7 +217,7 @@ define(['dart_sdk', 'packages/fb_auth/data/classes/auth_user'], function(dart_sd
   dart.trackLibraries("packages/fb_auth/data/blocs/auth/auth_event", {
     "package:fb_auth/data/blocs/auth/auth_event.dart": auth_event
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["auth_event.dart"],"names":[],"mappings":";;;;;;;;;;;EAK0B;;;;;;EAES;;;;IAKpB;;;;;;IAAU;;;;;;;wCAFP,UAAe;IAAf;IAAe;;EAAS;;;;;;;;;;;;;EAKN;;;;IAMrB;;;;;;IAAU;;;;;;IACV;;;;;;IAAa;;;;;;;2CAJP,UAAe;QACxB;QAAkB;IADT;IAAe;IACxB;IAAkB;;EAAU;;;;;;;;;;;;;;;IASvB;;;;;;;;IAFE;;EAAK;;;;;;;;;IAQP;;;;;;;;IAFC;;EAAK;;;;;;;;;IAQR;;;;;;;;IAFO;;EAAM;;;;;;;;;;;EAKmB;;;;IAKhC;;;;;;IAAa;;;;;;IACX;;;;;;;sCAHD;QAAY;QAAkB;IAA9B;IAAY;IAAkB;;EAAU","file":"auth_event.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["auth_event.dart"],"names":[],"mappings":";;;;;;;;;;;EAK0B;;;;;;EAES;;;;;;IAKpB;;;;;;IAAU;;;;;;;wCAFP,UAAe;IAAf;IAAe;;EAAS;;;;;;;;;;;;;EAKN;;;;;;;;IAMrB;;;;;;IAAU;;;;;;IACV;;;;;;IAAa;;;;;;;2CAJP,UAAe;QACxB;QAAkB;IADT;IAAe;IACxB;IAAkB;;EAAU;;;;;;;;;;;;;;;;IASvB;;;;;;;;IAFE;;EAAK;;;;;;;;;;IAQP;;;;;;;;IAFC;;EAAK;;;;;;;;;;IAQR;;;;;;;;IAFO;;EAAM;;;;;;;;;;;EAKmB;;;;;;;IAKhC;;;;;;IAAa;;;;;;IACX;;;;;;;sCAHD;QAAY;QAAkB;IAA9B;IAAY;IAAkB;;EAAU","file":"auth_event.ddc.js"}');
   // Exports:
   return {
     data__blocs__auth__auth_event: auth_event
