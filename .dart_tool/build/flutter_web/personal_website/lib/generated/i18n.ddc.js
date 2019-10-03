@@ -58,6 +58,9 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
     get title() {
       return "Rody Davis";
     }
+    get tag_line() {
+      return "Never Stop Learning";
+    }
     get ok() {
       return "Ok";
     }
@@ -104,6 +107,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
     __proto__: dart.getGetters(i18n.I18n.__proto__),
     textDirection: ui.TextDirection,
     title: core.String,
+    tag_line: core.String,
     ok: core.String,
     cancel: core.String,
     settingsTitle: core.String,
@@ -215,7 +219,7 @@ define(['dart_sdk', 'packages/flutter/src/widgets/actions', 'packages/flutter/sr
   dart.trackLibraries("packages/personal_website/generated/i18n", {
     "package:personal_website/generated/i18n.dart": i18n
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["i18n.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;sBAkB2B;MACvB,0BAAgB;MACX,oBAAU,UAAU;IAC3B;cAQ4B;AAC1B,YAAc,2CAAS,OAAO,EAAE;IAAqB;;AAGpB,YAAc;IAAG;;AAGhC;IAAY;;AAEf;IAAI;;AAEA;IAAQ;;AAED;IAAU;;AAEP;IAAW;;AAEV;IAAmB;;AAE1B;IAAO;;AAER;IAAM;;AAEF;IAAU;;AAEd;IAAM;;AAEC;IAAc;;AAErB;IAAM;;AAED;IAAgB;;;;EA9CjC;;;;;;;;;;;;;;;;;;;;;;MACE,iBAAO;;;;MACT,uBAAa;YAAG;;;MAOgB,kBAAQ;;;MAIxB,yBAAe;;;;;;;AAwCR,YAAc;IAAG;;;AAH9C;;EAAa;;;;;;;;;;;;AASjB;IAGF;;UAE4C;AAC1C,YAAO,UAAQ,QAAyB;;AACtC,sBAAI,AAAK,iBAAY,MAAM;AACzB,gBAAO,OAAM;;AAEF,8BAA0B,KAAT,QAAQ,QAAR,OAAY,AAAU,SAAD;AACnD,cAAO,eAAc;;IAEzB;SAGyC;MAClC,AAAQ,4BAAA,oBAAI,OAAO,GAAX;MACR,0BAAgB;AACR,mBAAc;AACd,iBAAO,AAAe,MAAT,IAAI,OAAc,cAAP,MAAM,IAAc;AAC5C,yBAAe,AAAe,MAAT,IAAI,OAAO,AAAO,MAAD,gBAAgB;AACnE,UAAI,AAAQ,YAAG,IAAI;AACjB,cAAW;YAER,KAAI,AAAK,SAAG,YAAY;AAC3B,cAAW;;AAGb,YAAW;IACb;gBAGwB;AACtB,eAAS,IAAI,GAAG,AAAE,CAAD,gBAAG,AAAiB,mCAAU,MAAM,IAAI,MAAM,IAAA,AAAC,CAAA;AACxD,gBAAI,AAAgB,6BAAC,CAAC;AAC5B,YAAI,AAAE,AAAa,CAAd,iBAAiB,AAAO,MAAD;AAC1B,gBAAO;;;AAGX,YAAO;IACT;iBAGiD;;AAAQ,YAAK;IAAa;;;AA9CrE;;EAAgC","file":"i18n.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["i18n.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;sBAkB2B;MACvB,0BAAgB;MACX,oBAAU,UAAU;IAC3B;cAQ4B;AAC1B,YAAc,2CAAS,OAAO,EAAE;IAAqB;;AAGpB,YAAc;IAAG;;AAGhC;IAAY;;AAET;IAAqB;;AAE3B;IAAI;;AAEA;IAAQ;;AAED;IAAU;;AAEP;IAAW;;AAEV;IAAmB;;AAE1B;IAAO;;AAER;IAAM;;AAEF;IAAU;;AAEd;IAAM;;AAEC;IAAc;;AAErB;IAAM;;AAED;IAAgB;;;;EAhDjC;;;;;;;;;;;;;;;;;;;;;;;MACE,iBAAO;;;;MACT,uBAAa;YAAG;;;MAOgB,kBAAQ;;;MAIxB,yBAAe;;;;;;;AA0CR,YAAc;IAAG;;;AAH9C;;EAAa;;;;;;;;;;;;AASjB;IAGF;;UAE4C;AAC1C,YAAO,UAAQ,QAAyB;;AACtC,sBAAI,AAAK,iBAAY,MAAM;AACzB,gBAAO,OAAM;;AAEF,8BAA0B,KAAT,QAAQ,QAAR,OAAY,AAAU,SAAD;AACnD,cAAO,eAAc;;IAEzB;SAGyC;MAClC,AAAQ,4BAAA,oBAAI,OAAO,GAAX;MACR,0BAAgB;AACR,mBAAc;AACd,iBAAO,AAAe,MAAT,IAAI,OAAc,cAAP,MAAM,IAAc;AAC5C,yBAAe,AAAe,MAAT,IAAI,OAAO,AAAO,MAAD,gBAAgB;AACnE,UAAI,AAAQ,YAAG,IAAI;AACjB,cAAW;YAER,KAAI,AAAK,SAAG,YAAY;AAC3B,cAAW;;AAGb,YAAW;IACb;gBAGwB;AACtB,eAAS,IAAI,GAAG,AAAE,CAAD,gBAAG,AAAiB,mCAAU,MAAM,IAAI,MAAM,IAAA,AAAC,CAAA;AACxD,gBAAI,AAAgB,6BAAC,CAAC;AAC5B,YAAI,AAAE,AAAa,CAAd,iBAAiB,AAAO,MAAD;AAC1B,gBAAO;;;AAGX,YAAO;IACT;iBAGiD;;AAAQ,YAAK;IAAa;;;AA9CrE;;EAAgC","file":"i18n.ddc.js"}');
   // Exports:
   return {
     generated__i18n: i18n

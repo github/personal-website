@@ -34,6 +34,7 @@ dependencies:
   extended_text_field: ^0.4.4
   share: ^0.6.2+1
   tonic: ^0.2.3
+  parallax_image: ^0.3.1+1
 
 dev_dependencies:
   flutter_test:

@@ -291,6 +291,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.1.4"
+  parallax_image:
+    dependency: "direct main"
+    description:
+      name: parallax_image
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.3.1+1"
   path:
     dependency: transitive
     description:

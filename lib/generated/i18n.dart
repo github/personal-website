@@ -35,6 +35,8 @@ class I18n implements WidgetsLocalizations {
 
   /// "Rody Davis"
   String get title => "Rody Davis";
+  /// "Never Stop Learning"
+  String get tag_line => "Never Stop Learning";
   /// "Ok"
   String get ok => "Ok";
   /// "Cancel"
