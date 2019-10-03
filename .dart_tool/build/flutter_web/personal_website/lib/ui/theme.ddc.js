@@ -33,13 +33,13 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/painting/
   let C0;
   theme.AppTheme = class AppTheme extends core.Object {
     static get light() {
-      return theme_data.ThemeData.new({cardTheme: new card_theme.CardTheme.new({elevation: 6.0, clipBehavior: ui.Clip.hardEdge, shape: new rounded_rectangle_border.RoundedRectangleBorder.new({borderRadius: new border_radius.BorderRadius.circular(20.0)})}), brightness: ui.Brightness.light, appBarTheme: theme_data.ThemeData.light().appBarTheme.copyWith({elevation: 1.0}), bottomAppBarTheme: new bottom_app_bar_theme.BottomAppBarTheme.new({color: theme_data.ThemeData.light().scaffoldBackgroundColor}), tabBarTheme: new tab_bar_theme.TabBarTheme.new({labelColor: colors.Colors.black}), primaryColor: colors.Colors.blueGrey, accentColor: colors.Colors.red, pageTransitionsTheme: theme.AppTheme._getTransition()});
+      return theme_data.ThemeData.new({fontFamily: "Raleway", cardTheme: new card_theme.CardTheme.new({elevation: 6.0, clipBehavior: ui.Clip.hardEdge, shape: new rounded_rectangle_border.RoundedRectangleBorder.new({borderRadius: new border_radius.BorderRadius.circular(20.0)})}), brightness: ui.Brightness.light, appBarTheme: theme_data.ThemeData.light().appBarTheme.copyWith({elevation: 1.0}), bottomAppBarTheme: new bottom_app_bar_theme.BottomAppBarTheme.new({color: theme_data.ThemeData.light().scaffoldBackgroundColor}), tabBarTheme: new tab_bar_theme.TabBarTheme.new({labelColor: colors.Colors.black}), primaryColor: colors.Colors.blueGrey, accentColor: colors.Colors.red, pageTransitionsTheme: theme.AppTheme._getTransition()});
     }
     static _getTransition() {
       return new page_transitions_theme.PageTransitionsTheme.new({builders: LinkedHashMapOfTargetPlatform$InanimatePageTransitionsBuilder().fromIterable(platform.TargetPlatform.values[$toList](), {key: dart.fn(k => platform.TargetPlatform._check(k), dynamicToTargetPlatform()), value: dart.fn(_ => C0 || CT.C0, dynamicToInanimatePageTransitionsBuilder())})});
     }
     static get dark() {
-      return theme_data.ThemeData.dark().copyWith({cardTheme: new card_theme.CardTheme.new({clipBehavior: ui.Clip.hardEdge}), pageTransitionsTheme: theme.AppTheme._getTransition()});
+      return theme_data.ThemeData.new({fontFamily: "Raleway", brightness: ui.Brightness.dark}).copyWith({cardTheme: new card_theme.CardTheme.new({clipBehavior: ui.Clip.hardEdge}), pageTransitionsTheme: theme.AppTheme._getTransition()});
     }
   };
   (theme.AppTheme.__ = function() {
@@ -65,7 +65,7 @@ define(['dart_sdk', 'packages/flutter/material', 'packages/flutter/src/painting/
   dart.trackLibraries("packages/personal_website/ui/theme", {
     "package:personal_website/ui/theme.dart": theme
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["theme.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAIgC,kDACb,yCACE,mBACQ,yBACZ,uEACsB,wCAAS,uBAIjB,kCACA,AAAQ,AAAY,8DAAoB,0BAE3D,uDAAmC,AAAQ,qEAClC,+CACQ,qCAEA,qCACD,yCACE;IACvB;;AAGH,YAAO,gEAEG,6EAEe,AAAO,iDACjB,QAAS,oCAAM,CAAC,sCACd,QAAS;IAE5B;;AAE6B,YAAU,AAAO,kDAC7B,4CACU,0CAEC;IACvB;;;;EAtCO;;;;wBA+CK,OACA,SACK,WACA,oBACX;AACT,YAAO,MAAK;IACd;;;AAVM;;EAAiC","file":"theme.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["theme.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAIgC,mDACZ,sBACD,yCACE,mBACQ,yBACZ,uEACsB,wCAAS,uBAIjB,kCACA,AAAQ,AAAY,8DAAoB,0BAE3D,uDAAmC,AAAQ,qEAClC,+CACQ,qCAEA,qCACD,yCACE;IACvB;;AAGH,YAAO,gEAEG,6EAEe,AAAO,iDACjB,QAAS,oCAAM,CAAC,sCACd,QAAS;IAE5B;;AAE6B,YAAA,AAGvB,uCAFY,uBACW,0CAEZ,4CACU,0CAEC;IACvB;;;;EA1CO;;;;wBAmDK,OACA,SACK,WACA,oBACX;AACT,YAAO,MAAK;IACd;;;AAVM;;EAAiC","file":"theme.ddc.js"}');
   // Exports:
   return {
     ui__theme: theme

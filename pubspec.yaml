@@ -47,6 +47,17 @@ dependency_overrides:
 
 flutter:
   uses-material-design: true
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway/Raleway-Regular.ttf
+        - asset: assets/fonts/Raleway/Raleway-Italic.ttf
+          style: italic
+    - family: RobotoMono
+      fonts:
+        - asset: assets/fonts/Roboto_Mono/RobotoMono-Regular.ttf
+        - asset: assets/fonts/Roboto_Mono/RobotoMono-Bold.ttf
+          weight: 700
   assets:
     - assets/pages/
     - assets/images/

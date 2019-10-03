@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 class AppTheme {
   AppTheme._();
   static ThemeData get light => ThemeData(
+        fontFamily: 'Raleway',
         cardTheme: CardTheme(
           elevation: 6,
           clipBehavior: Clip.hardEdge,
@@ -34,7 +35,10 @@ class AppTheme {
     );
   }
 
-  static ThemeData get dark => ThemeData.dark().copyWith(
+  static ThemeData get dark => ThemeData(
+        fontFamily: 'Raleway',
+        brightness: Brightness.dark,
+      ).copyWith(
         cardTheme: CardTheme(
           clipBehavior: Clip.hardEdge,
         ),
