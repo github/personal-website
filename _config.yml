@@ -21,21 +21,27 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 6
   exclude:
     archived: false
     forks: true
     projects:
-    # - repo-name
+    - repo-name  A-Path-To-Front-End-Developer
+    - repo-name  SEG-2105
+    - repo-name  CSI-2372
+    - repo-name  CEG-3155
+    #- repo-name  SEG-2105
+    #- repo-name  SEG-2105
 
-# social_media:
+social_media:
+  github: qiinori
   # behance: your_username
   # dribbble: your_username
-  # facebook: your_username
+  #facebook: (Inori)Jiajie Xu
   # hackerrank: your_username
   # instagram: your_username
   # keybase: your_username
-  # linkedin: your_username
+  linkedin: inori-jiajie-xu-95186b115/
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
