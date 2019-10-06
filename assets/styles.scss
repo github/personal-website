@@ -52,3 +52,11 @@
 .min-height-full {
   min-height: 100vh;
 }
+
+a.span-underline:hover {
+  text-decoration: none;
+}
+
+a.span-underline>span:hover {
+  text-decoration: underline;
+}
