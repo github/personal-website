@@ -38,26 +38,15 @@ social_media:
   hackerrank: filip_tronicek
   instagram: filiptronicek93
 
-  # behance: your_username
-  # dribbble: your_username
-  # keybase: your_username
-  # linkedin: your_username
-  # mastodon: your_username
-  # medium: your_username
-  # telegram: your_username
-  # unsplash: your_username
-  # vk: your_username
-  # youtube: your_username
-
 topics:
   
   - name: JavaScript
     web_url: https://github.com/topics/javascript
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png
 
-  - name: CSS
+  - name: PHP
     web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+    image_url: https://raw.githubusercontent.com/github/explore/ccc16358ac4530c6a69b1b80c7223cd2744dea83/topics/php/php.png
 
   - name: Python
     web_url: https://github.com/topics/python
