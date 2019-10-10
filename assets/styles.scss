@@ -82,5 +82,20 @@ h1.text-white > a:nth-child(1) {
   .text-gray {
     color: #cac7c7 !important;
   }
+  .border {
+    border: none !important;
+  }
+  .bg-white {
+    background: rgb(19, 19, 19) !important;
+  }
+  .octicon {
+    filter: invert(1);
+  }
+  .link-gray-dark {
+    color: #e4e4e4 !important;
 
+  }
+  .border-md-right {
+    border: none !important;
+  }
 }
