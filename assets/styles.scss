@@ -1,22 +1,23 @@
 ---
 ---
-@import url('https://unpkg.com/primer/build/build.css');
-@import 'highlight-syntax';
 
+@import url("https://unpkg.com/primer/build/build.css");
+@import "highlight-syntax";
 
 // If a user adds a custom font, this component will stop it from bleeding into GitHub components:
 .github-component {
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol !important;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important;
 }
 
 .repo-language-color {
-    filter: brightness(125%) !important;
-    border-radius: 50%;
-    display: inline-block;
-    height: 12px;
-    position: relative;
-    top: 2px;
-    width: 12px;
+  filter: brightness(125%) !important;
+  border-radius: 50%;
+  display: inline-block;
+  height: 12px;
+  position: relative;
+  top: 2px;
+  width: 12px;
 }
 
 .emoji {
@@ -26,7 +27,10 @@
 }
 
 .article {
-  h1, h2, h3, h4,
+  h1,
+  h2,
+  h3,
+  h4,
   .highlight {
     margin-bottom: 16px;
   }
@@ -38,12 +42,14 @@
     margin-bottom: 16px;
   }
 
-  ul, ol {
+  ul,
+  ol {
     padding-left: 32px;
     margin-bottom: 16px;
   }
 
-  li ul, li ol {
+  li ul,
+  li ol {
     padding-left: 16px;
     margin-bottom: 0px;
   }
@@ -58,4 +64,38 @@ img {
 h1.text-white > a:nth-child(1) {
   text-decoration: none;
   color: white !important;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #444 !important;
+    color: #e4e4e4 !important;
+  }
+  a {
+    color: #e39777 !important;
+  }
+  img {
+    filter: grayscale(30%) !important;
+  }
+  .bg-gray-light, h1, h2, h3, h4 {
+    background-color: rgb(59, 59, 59) !important;
+  }
+  .text-gray {
+    color: #cac7c7 !important;
+  }
+  .border {
+    border: none !important;
+  }
+  .bg-white {
+    background: rgb(45, 45, 45) !important;
+  }
+  .octicon {
+    filter: invert(1);
+  }
+  .link-gray-dark {
+    color: #e4e4e4 !important;
+
+  }
+  .border-md-right, .border-md-bottom {
+    border: none !important;
+  }
 }
