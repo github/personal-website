@@ -66,7 +66,7 @@ h1.text-white > a:nth-child(1) {
   color: white !important;
 }
 @media (prefers-color-scheme: dark) {
-  body, h2 {
+  body {
     background-color: #444 !important;
     color: #e4e4e4 !important;
   }
@@ -76,8 +76,8 @@ h1.text-white > a:nth-child(1) {
   img {
     filter: grayscale(30%) !important;
   }
-  .bg-gray-light {
-    background-color: #444 !important;
+  .bg-gray-light, h1, h2, h3, h4 {
+    background-color: rgb(59, 59, 59) !important;
   }
   .text-gray {
     color: #cac7c7 !important;
@@ -86,7 +86,7 @@ h1.text-white > a:nth-child(1) {
     border: none !important;
   }
   .bg-white {
-    background: rgb(19, 19, 19) !important;
+    background: rgb(45, 45, 45) !important;
   }
   .octicon {
     filter: invert(1);
@@ -95,7 +95,7 @@ h1.text-white > a:nth-child(1) {
     color: #e4e4e4 !important;
 
   }
-  .border-md-right {
+  .border-md-right, .border-md-bottom {
     border: none !important;
   }
 }
