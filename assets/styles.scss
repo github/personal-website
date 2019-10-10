@@ -58,4 +58,48 @@ img {
 h1.text-white > a:nth-child(1) {
   text-decoration: none;
   color: white !important;
+<<<<<<< Updated upstream
 }
+=======
+}
+@media (prefers-color-scheme: dark) {
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: #e4e4e4 !important;
+  }
+  body {
+    background-color: #444 !important;
+    color: #e4e4e4 !important;
+  }
+  a {
+    color: #e39777 !important;
+  }
+  img {
+    filter: grayscale(30%) !important;
+  }
+  .bg-gray-light {
+    background-color: rgb(59, 59, 59) !important;
+  }
+  .text-gray {
+    color: #cac7c7 !important;
+  }
+  .border {
+    border: none !important;
+  }
+  .bg-white {
+    background: rgb(45, 45, 45) !important;
+  }
+  .octicon {
+    filter: invert(1);
+  }
+  .link-gray-dark {
+    color: #e4e4e4 !important;
+  }
+  .border-md-right,
+  .border-md-bottom {
+    border: none !important;
+  }
+}
+>>>>>>> Stashed changes
