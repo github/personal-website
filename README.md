@@ -122,6 +122,7 @@ social_media:
   behance: your_username
   dribbble: your_username  
   facebook: your_username
+  goodreads: your_username
   hackerrank: your_username
   instagram: your_username
   keybase: your_username
