@@ -46,16 +46,21 @@ social_media:
   WeChat:
 
 topics:
-  - name: PPIO官网
+
+  - name: 我在boss直聘
+    web_url: https://www.zhipin.com/gongsir/5ba2ae5248837b0d1n192Nq0FQ~~.html?ka=company-jobs/?from=ash
+    image_url: https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/9f/fd/1f/9ffd1f23-358c-3cfd-fad6-71e1c2180e96/AppIcon-0-1x_U007emarketing-0-0-85-220-8.png/246x0w.jpg
+
+  - name: 我在拉勾
+    web_url: https://www.lagou.com/gongsi/443505.html?from=ash
+    image_url: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1571750853&di=0955545e13cf0fbb350ad483d9c24f1b&imgtype=jpg&er=1&src=http%3A%2F%2Fwww.lgstatic.com%2Fi%2Fimage%2FM00%2F76%2F40%2FCgp3O1g1TNOAB2yxAAA9bQUyc4g814.png
+
+  - name: 关于PPIO
     web_url: https://pp.io/?from=ash
     image_url: https://www.lgstatic.com/i/image2/M01/30/7C/CgoB5lzasoaAF_kuAAKMD93XGgc713.png
 
-  - name: 我在boss直聘
-    web_url: https://www.zhipin.com/gongsir/5ba2ae5248837b0d1n192Nq0FQ~~.html?ka=company-jobs/?ash
-    image_url: https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/9f/fd/1f/9ffd1f23-358c-3cfd-fad6-71e1c2180e96/AppIcon-0-1x_U007emarketing-0-0-85-220-8.png/246x0w.jpg
-
   - name: 关于我
-    web_url: https://www.linkedin.com/in/ash-ma1989/?ash
+    web_url: https://www.linkedin.com/in/ash-ma1989/?from=ash
     image_url: https://ss0.bdstatic.com/-0U0bnSm1A5BphGlnYG/tam-ogel/ae60db54936bb024336e75c7c90a8578_121_121.jpg
 
 theme: jekyll-theme-cayman
