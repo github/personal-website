@@ -43,6 +43,8 @@ If the build is unsuccessful then the merge request can not be merged. In the ca
 
 For the example project in IAR Embedded Workbench, we will be having a device which does a few arithmetic calculations. The project has output prints when doing a Debug build and when running unit tests.
 
+![Debug config][]
+
 *math.h*:   
 ```c
 #ifndef MATH_H
@@ -388,6 +390,8 @@ popd
 
 And then set the project's pre-build command line to use the bat file: `CMD /C "$PROJ_DIR$\..\CI_scripts\IAR_prebuild.bat"`
 
+![Build actions][]
+
 Next up we will use the generated header in our code:   
 *main.c*:   
 ```c
@@ -584,7 +588,8 @@ with open('./CI_scripts/config.json', 'r') as configFile:
 ```
 
 Now let's set the project to create a binary file.   
-We will right-click the project, go to `Options -> Output Converter -> Output` and check the *Generate additional output* checkbox and choose *Raw binary* from the *Output format* dropdown-menu.
+We will right-click the project, go to `Options -> Output Converter -> Output` and check the *Generate additional output* checkbox and choose *Raw binary* from the *Output format* dropdown-menu.   
+![Output converter][]
 
 The command to build an IAR project is: `<IAR EW Root>\common\bin\IarBuild.exe <project>.ewp -build <configuration>`   
 And the command to clean an IAR project is: `<IAR EW Root>\common\bin\IarBuild.exe <project>.ewp -clean <configuration>`   
@@ -690,7 +695,6 @@ if __name__ == '__main__':
 Set up your CI pipeline so that the build.py is called and executed on a machine that is dedicated to building binaries.
 
 ## Adding static analysis to the CI
-
 
 Static analysis using the CSTAT on the command line can be done the easiest way by calling the *IarBuild* tool.   
 `C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\IarBuild.exe C:\Repo\iar_dev_board\Device\Device.ewp -cstat_analyze Debug`   
@@ -843,14 +847,558 @@ if __name__ == '__main__':
 	sys.exit(errorCode.value)
 ```
 
+With that done, let's modify our *config.json*.
+
+*config.json*:
+```json
+{
+  "IAR_BUILD_PATH": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\common\\bin\\IarBuild.exe",
+  "IAR_CSPY_PATH": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\common\\bin\\CSpyBat.exe",
+  "Build backup path": "C:\\Builds",
+  "Configurations": [
+    "Debug",
+    "Release"
+  ],
+  "Branches": {
+    "development": {
+      "Build": [
+        "Device"
+      ],
+      "Static analysis": [
+        "Device"
+      ]
+    },
+    "release": {
+      "Build": [
+        "Device"
+      ]
+    }
+  }
+}
+```
+
 Set up your CI pipeline to use the *static_analysis.py* script and to artifact the *cstat_results.json* file. Since static analysis takes a lot of time, it is inadvisable to include it in your merge requests.   
 Instead, you could set it up to be run nightly. When you come back to work the following day, you can have a list of items nagging at you because you haven't had   
 enough of nagging from your wife each morning about not closing the milk carton properly.
 
+You can modify the script or add a parser to the CI pipeline to check the warnings and, for example, if there are too many warnings with *severity* of "high" then the pipeline will fail.
+
 ## Adding unit tests to the CI
 
-TODO: How to use CSPY simulator and output logs to stdout
+Unit tests are an easy thing in the pipeline in the sense that they should not require any hardware.   
+And since the IAR Embedded Workbench provides us with a very nice simulator, even if there are some required connections to the hardware, we can emulate it to the best of our capabilities.
+
+To make things easier, we will create a configuration for our project called as *UnitTest* and then replace the *DEBUG* define in the preprocessor settings of the project with *UNIT_TEST*.   
+![Unit test config][]
+
+This way, we can isolate our program to only run the unit tests and not run indefinately (essentially the CSPY program would never stop and it would be of no use to us).   
+CSPY also allows us to use the terminal I/O but in this case, the prints will be routed to STDOUT, meaning that we can read the prints with a script.
+
+We can launch the simulator by calling the *CSPY* tool on our project. The tool in question can be found from the IAR EW installation directory in `common/bin/CSpyBat.exe`.   
+It takes a few parameters and there is a dog buried in this. Two of the parameters that the CSPY takes are the driver file and the general file.   
+However these are files are only created when building the project in the GUI so we need to build the project there and then add these files to the versioning system (unfortunately).
+
+Firstly, let's create the UnitTest configuration for the project, some example unit tests and a common format so that we can parse the unit test results with a script.
+
+*unit_test.h*:
+```c
+#ifndef UNIT_TESTS_H
+#define UNIT_TESTS_H
+
+#define UNIT_TEST_OK (0)
+#define UNIT_TEST_FAIL (1)
+#define UNIT_TEST_FATAL (2)
+
+int unit_tests_init(void);
+int unit_tests_run(void);
+
+#endif /* UNIT_TESTS_H */
+```
+
+*unit_test.c*
+```c
+#include <stdio.h>
+
+#include "unit_tests.h"
+#include "math.h"
+
+static int testSum(void);
+static int testMultiply(void);
+
+typedef struct {
+   char* name;
+   int (*func)(void);
+} unit_tests_t;
+
+#define UNIT_TESTS_COUNT (2)
+static unit_tests_t unitTests[UNIT_TESTS_COUNT] = {
+   {"Sum", testSum},
+   {"Multiply", testMultiply}
+};
+
+static int somethingToInit = 0;
+
+int unit_tests_init(void)
+{
+   int ret = UNIT_TEST_OK;
+   
+   somethingToInit = 1;
+   
+   return ret;
+}
+
+int unit_tests_run(void)
+{
+   int ret = UNIT_TEST_OK;
+   
+   int testsRan = 0;
+   int testsSuccessful = 0;
+   int testsFailed = 0;
+   
+   printf("Unit Tests: Start\r\n");
+   
+   int i = 0;
+   for (i = 0; i < UNIT_TESTS_COUNT; i++)
+   {
+      printf("Unit Test Run[%d]: %s\r\n", i+1, unitTests[i].name);
+      int testResult = unitTests[i].func();
+      testsRan++;
+      if (testResult == UNIT_TEST_FATAL)
+      {
+         printf("Unit Test Fail[%d]: %s\r\n", i+1, unitTests[i].name);
+         testsFailed++;
+         break;
+      }
+      if (testResult != UNIT_TEST_OK)
+      {
+         printf("Unit Test Fail[%d]: %s\r\n", i+1, unitTests[i].name);
+         testsFailed++;
+      }
+      else
+      {
+         printf("Unit Test Succesful[%d]: %s\r\n", i+1, unitTests[i].name);
+         testsSuccessful++;
+      }
+   }
+   
+   printf("Unit Tests: End. Result: Success:%d, Failed:%d, Total:%d\r\n", testsSuccessful, testsFailed, testsRan);
+   
+   return ret;
+}
+
+static int testSum(void)
+{
+   int a = 0;
+   
+   int sumResult = math_sum(a, somethingToInit);
+   if (sumResult <= 0)
+   {
+      return UNIT_TEST_FAIL;
+   }
+   
+   sumResult = math_sum(a, 2);
+   if (sumResult != 2)
+   {
+      return UNIT_TEST_FAIL;
+   }
+   
+   sumResult = math_sum(2, 2);
+   if (sumResult != 4)
+   {
+      return UNIT_TEST_FAIL;
+   }
+   
+   return UNIT_TEST_OK;
+}
+
+static int testMultiply(void)
+{
+   int a = 0;
+   
+   int mulResult = math_mul(a, somethingToInit);
+   if (mulResult != 0)
+   {
+      return UNIT_TEST_FAIL;
+   }
+   
+   mulResult = math_mul(1, -1);
+   if (mulResult != (-1))
+   {
+      return UNIT_TEST_FAIL;
+   }
+   
+   mulResult = math_mul(3, 2);
+   if (mulResult != 4)
+   {
+      return UNIT_TEST_FAIL;
+   }
+   
+   return UNIT_TEST_OK;
+}
+```
+
+Then we will set the configuration to run in a simulator by going to the project's *Options* -> *Debugger* and choosing *Simulator* as the *Driver*.   
+And then to add the unit testing to our program.
+
+*main.c*:
+```c
+/* USER CODE BEGIN Header */
+/**
+  ******************************************************************************
+  * @file           : main.c
+  * @brief          : Main program body
+  ******************************************************************************
+  * @attention
+  *
+  * <h2><center>&copy; Copyright (c) 2019 STMicroelectronics.
+  * All rights reserved.</center></h2>
+  *
+  * This software component is licensed by ST under BSD 3-Clause license,
+  * the "License"; You may not use this file except in compliance with the
+  * License. You may obtain a copy of the License at:
+  *                        opensource.org/licenses/BSD-3-Clause
+  *
+  ******************************************************************************
+  */
+/* USER CODE END Header */
+
+/* Includes ------------------------------------------------------------------*/
+#include "main.h"
+#include "usart.h"
+#include "gpio.h"
+
+/* Private includes ----------------------------------------------------------*/
+/* USER CODE BEGIN Includes */
+#include <stdint.h>
+
+#if DEBUG
+#include <string.h>
+#include <stdio.h>
+#endif
+
+#if UNIT_TEST
+#include "unit_tests.h"
+#endif
+
+#include "version.h"
+#include "math.h"
+/* USER CODE END Includes */
+
+/* Private typedef -----------------------------------------------------------*/
+/* USER CODE BEGIN PTD */
+
+/* USER CODE END PTD */
+
+/* Private define ------------------------------------------------------------*/
+/* USER CODE BEGIN PD */
+/* USER CODE END PD */
+
+/* Private macro -------------------------------------------------------------*/
+/* USER CODE BEGIN PM */
+
+/* USER CODE END PM */
+
+/* Private variables ---------------------------------------------------------*/
+
+/* USER CODE BEGIN PV */
+
+/* USER CODE END PV */
+
+/* Private function prototypes -----------------------------------------------*/
+void SystemClock_Config(void);
+/* USER CODE BEGIN PFP */
+
+/* USER CODE END PFP */
+
+/* Private user code ---------------------------------------------------------*/
+/* USER CODE BEGIN 0 */
+
+/* USER CODE END 0 */
+
+/**
+  * @brief  The application entry point.
+  * @retval int
+  */
+int main(void)
+{
+  /* USER CODE BEGIN 1 */
+#if UNIT_TEST
+  int status = unit_tests_init();
+  if (status)
+  {
+     return status;
+  }
+  
+  status = unit_tests_run();
+  if (status)
+  {
+     return status;
+  }
+  
+  return 0;
+#else
+  const uint16_t a = 15;
+  const uint16_t b = 16;
+  const uint16_t c = 17;
+  /* USER CODE END 1 */
+  
+
+  /* MCU Configuration--------------------------------------------------------*/
+
+  /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
+  HAL_Init();
+
+  /* USER CODE BEGIN Init */
+
+  /* USER CODE END Init */
+
+  /* Configure the system clock */
+  SystemClock_Config();
+
+  /* USER CODE BEGIN SysInit */
+
+  /* USER CODE END SysInit */
+
+  /* Initialize all configured peripherals */
+  MX_GPIO_Init();
+  MX_USART2_UART_Init();
+  /* USER CODE BEGIN 2 */
+#if DEBUG
+  printf("Hello!\r\n");
+#endif
+
+#if DEBUG
+  printf("Version: %d\r\n", SW_VERSION);
+#endif
+
+  uint16_t sum = math_sum(a, b);
+#if DEBUG
+  printf("Sum = %d\r\n", sum);
+#endif
+
+  uint16_t mul = math_mul(sum, c);
+#if DEBUG
+  printf("Mul = %d\r\n", mul);
+#endif
+
+#if DEBUG
+  printf("Bye!\r\n");
+#endif
+  /* USER CODE END 2 */
+
+  /* Infinite loop */
+  /* USER CODE BEGIN WHILE */
+  return 0;
+    /* USER CODE END WHILE */
+
+    /* USER CODE BEGIN 3 */
+#endif /* UNIT_TEST */
+  /* USER CODE END 3 */
+}
+
+/**
+  * @brief System Clock Configuration
+  * @retval None
+  */
+void SystemClock_Config(void)
+{
+  RCC_OscInitTypeDef RCC_OscInitStruct = {0};
+  RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
+
+  /** Configure the main internal regulator output voltage 
+  */
+  __HAL_RCC_PWR_CLK_ENABLE();
+  __HAL_PWR_VOLTAGESCALING_CONFIG(PWR_REGULATOR_VOLTAGE_SCALE1);
+  /** Initializes the CPU, AHB and APB busses clocks 
+  */
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
+  RCC_OscInitStruct.HSIState = RCC_HSI_ON;
+  RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
+  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_NONE;
+  if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /** Initializes the CPU, AHB and APB busses clocks 
+  */
+  RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
+                              |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
+  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_HSI;
+  RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
+  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
+  RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
+
+  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_0) != HAL_OK)
+  {
+    Error_Handler();
+  }
+}
+
+/* USER CODE BEGIN 4 */
+
+/* USER CODE END 4 */
+
+/**
+  * @brief  This function is executed in case of error occurrence.
+  * @retval None
+  */
+void Error_Handler(void)
+{
+  /* USER CODE BEGIN Error_Handler_Debug */
+  /* User can add his own implementation to report the HAL error return state */
+
+  /* USER CODE END Error_Handler_Debug */
+}
+
+#ifdef  USE_FULL_ASSERT
+/**
+  * @brief  Reports the name of the source file and the source line number
+  *         where the assert_param error has occurred.
+  * @param  file: pointer to the source file name
+  * @param  line: assert_param error line source number
+  * @retval None
+  */
+void assert_failed(uint8_t *file, uint32_t line)
+{ 
+  /* USER CODE BEGIN 6 */
+  /* User can add his own implementation to report the file name and line number,
+     tex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
+  /* USER CODE END 6 */
+}
+#endif /* USE_FULL_ASSERT */
+
+/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+```
+
+To do all of this on the command line, we will be using the following command structure:   
+`<Path to CSpyBat.exe> -f <Path to the general.xcl file> --backend -f <Path to the driver.xcl file>`
+
+So let's do the whole simulator running in a python script and parse the output.
+
+*unit_test.py*:
+```python
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import os
+import sys
+import subprocess
+import datetime
+import json
+import re
+
+from error_code import ErrorCode
+import config
+import version
+
+def runUnitTests(project: str) -> dict:
+	ret = dict()
+	ret["ErrorCode"] = ErrorCode.OK
+	ret["stdout"] = ""
+	generalFile = r"{0}\{0}.UnitTest.general.xcl".format(project)
+	driverFile = r"{0}\{0}.UnitTest.driver.xcl".format(project)
+	process = subprocess.run([config.configDict["IAR_CSPY_PATH"], "-f", generalFile, "--backend", "-f", driverFile], check=False, capture_output=True, text=True)
+	print(process.stdout)
+	ret["stdout"] = process.stdout
+	if (process.returncode):
+		print(process.stderr)
+		ret["ErrorCode"] = ErrorCode.OS_FAIL
+		return ret
+	return ret
+
+def parseUnitTestOutput(output: str) -> dict:
+	ret = dict()
+	started = False
+	for line in output.splitlines():
+		if (line == "Unit Tests: Start"):
+			started = True
+		if (started):
+			if (line.startswith("Unit Tests: End")):
+				result = line.split("Unit Tests: End. ")[1].replace('\n','')
+				successfulTests = int(re.search(r'Success:\d,', result).group(0).replace('Success:','').replace(',',''))
+				failedTests = int(re.search(r'Failed:\d,', result).group(0).replace('Failed:','').replace(',',''))
+				totalTests = int(re.search(r'Total:\d', result).group(0).replace('Total:','').replace('\r\n',''))
+				ret["Total"] = totalTests
+				ret["Failed"] = failedTests
+				ret["Successful"] = successfulTests
+				return ret
+	return ret
+
+def main() -> ErrorCode:
+	errorCode = ErrorCode.OK
+	branch = version.getCurrentBranch()
+	if (branch == ""):
+		return ErrorCode.GIT_FAIL
+	unitTestStatus = dict()
+	unitTestStatus["ErrorCode"] = ErrorCode.OK
+	unitTestStatus["stdout"] = ""
+	timestampStart = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+	for project in config.configDict["Branches"][branch]["Unit test"]:
+		unitTestStatus = runUnitTests(project)
+		if (unitTestStatus["ErrorCode"].value):
+			return unitTestStatus["ErrorCode"]
+	timestampStop = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+	parsedUnitTestOutput = parseUnitTestOutput(unitTestStatus["stdout"])
+	if (not parsedUnitTestOutput):
+		print("Error: Could not parse unit test output!")
+		return ErrorCode.PARSE_FAIL
+	parsedUnitTestOutput["Start"] = timestampStart
+	parsedUnitTestOutput["Stop"] = timestampStop
+	with open('unit_tests_results.json', 'w+') as unitTestsResultFile:
+		json.dump(parsedUnitTestOutput, unitTestsResultFile, indent=2)
+	return errorCode
+
+if __name__ == '__main__':
+	errorCode = main()
+	sys.exit(errorCode.value)
+```
+
+And then we will modify the *config.json* accordingly.
+
+*config.json*:
+```json
+{
+  "IAR_BUILD_PATH": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\common\\bin\\IarBuild.exe",
+  "IAR_CSPY_PATH": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\common\\bin\\CSpyBat.exe",
+  "Build backup path": "C:\\Builds",
+  "Configurations": [
+    "Debug",
+    "Release",
+    "UnitTest"
+  ],
+  "Branches": {
+    "development": {
+      "Build": [
+        "Device"
+      ],
+      "Static analysis": [
+        "Device"
+      ],
+      "Unit test": [
+        "Device"
+      ]
+    },
+    "release": {
+      "Build": [
+        "Device"
+      ]
+    }
+  }
+}
+```
+
+You may now modify the script or artifact and parse the *unit_tests_results.json* file if the unit tests have passed.
 
 ## Summa summarum
 
-Now we have 
+We have successfully created a continuous integration environment with IAR Embedded Workbench. This includes versioning, automated builds, static analysis and unit testing.   
+We have also proven that with some fiddling, we can indeed use the IAR tools to set up a working CI pipeline.   
+This environment could be further developed to have integration and system tests as well.   
+However, as I'm piss poor and a miser, I can't be bothered to buy an access to services or hardware that would allow me to showcase how to set one up.
+
+I hope this guide will, for someone, make more cents than my life.
+
+[Debug config]: ./assets/2019-10-18-Continuous-Integration-with-IAR-EW/debug_config.png
+[Build actions]: ./assets/2019-10-18-Continuous-Integration-with-IAR-EW/build_actions.png
+[Output converter]: ./assets/2019-10-18-Continuous-Integration-with-IAR-EW/output_converter.png
+[Unit test config]: ./assets/2019-10-18-Continuous-Integration-with-IAR-EW/unit_test_config.png
