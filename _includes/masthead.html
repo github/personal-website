@@ -3,7 +3,7 @@
 {% else %}
   {% assign metadata_styles = 'd-flex flex-items-center mb-3' %}
 {% endif %}
-<a href="https://github.com/{{ user.login }}">
+<a href="{{ site.url }}{{ site.baseurl | append:'/' }}">
 <img src="{{ user.avatar_url }}" class="circle mb-3" style="max-width: 150px;">
 </a>
 <h1 class="{% if site.style == 'dark' %}text-white{% endif %} mb-2 lh-condensed"><a href="https://github.com/{{ user.login }}">{% if user.name %}{{ user.name }}{% else %}{{ user.login }}{% endif %}</a></h1>
