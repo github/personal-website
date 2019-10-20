@@ -29,22 +29,23 @@ projects:
     # - repo-name
 
 # social_media:
-  # behance: your_username
+  # behance: dhanoz
   # dribbble: your_username
   # facebook: your_username
   # hackerrank: your_username
-  # instagram: your_username
+  # instagram: https://www.instagram.com/dhanoz/
   # keybase: your_username
-  # linkedin: your_username
+  # linkedin: https://www.linkedin.com/in/dhananjay-purohit-456630187/
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
   # telegram: your_username
-  # twitter: your_username
+  # twitter: https://twitter.com/dhannoz
   # unsplash: your_username
   # vk: your_username
   # website: http://your_website_url
   # youtube: your_username
+  # dev: https://dev.to/dhanoz
 
 topics:
   - name: CSS
