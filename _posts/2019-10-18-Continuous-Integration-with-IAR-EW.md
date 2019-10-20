@@ -1,6 +1,6 @@
 ---
 title: "Continuous Integration with IAR Embedded Workbench"
-published: false
+published: true
 ---
 
 Once upon a time I happened to work on a company which was using the IAR tools. They needed help with the development of their product and coming up with a solution to automate and modularize some of their work processes.   
@@ -1398,7 +1398,8 @@ However, as I'm piss poor and a miser, I can't be bothered to buy an access to s
 
 I hope this guide will, for someone, make more cents than my life.
 
-[Debug config]: ./assets/2019-10-18-Continuous-Integration-with-IAR-EW/debug_config.png
-[Build actions]: ./assets/2019-10-18-Continuous-Integration-with-IAR-EW/build_actions.png
-[Output converter]: ./assets/2019-10-18-Continuous-Integration-with-IAR-EW/output_converter.png
-[Unit test config]: ./assets/2019-10-18-Continuous-Integration-with-IAR-EW/unit_test_config.png
+[Debug config]: /assets/images/debug_config.png
+[Build actions]: /assets/images/build_actions.png
+[Output converter]: /assets/images/output_converter.png
+[Unit test config]: /assets/images/unit_test_config.png
+
