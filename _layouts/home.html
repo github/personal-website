@@ -1,4 +1,8 @@
 {% include header.html %}
+<link
+   rel="stylesheet"
+   href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
 
 {% if site.layout == 'stacked' %}
 <div class="container-lg py-6 p-responsive text-center">
@@ -49,7 +53,22 @@
       {% include interests.html %}
       {% endif %}
 
+<!-- Include the calendar library. -->
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+></script>
 
+
+<!-- Prepare a container for your calendar. -->
+<div class="calendar">
+    <!-- Loading stuff -->
+    Loading the data just for you.
+</div>
+
+<script>
+    GitHubCalendar(".calendar", "filiptronicek", { responsive: true });
+</script>
+            
     </div>
   </div>
 </div>
