@@ -1,4 +1,4 @@
-layout: stacked
+layout: sidebar
 style: light
 
 plugins:
@@ -23,11 +23,11 @@ projects:
   #   - stars
   limit: 9
   exclude:
-    forks: false
+    forks: true
     projects:
-      - thematchless.github.io
+    # - repo-name
 
-social_media:
+# social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
@@ -35,64 +35,23 @@ social_media:
   # instagram: your_username
   # keybase: your_username
   # linkedin: your_username
-  medium: thematchless
+  # medium: your_username
   # stackoverflow: your_user_id
   # telegram: your_username
-  twitter: thematchless1
+  # twitter: your_username
   # unsplash: your_username
   # vk: your_username
-  website: http://thematchless.dev
+  # website: http://your_website_url
+  # xing: your_username
   # youtube: your_username
-  xing: Matthias_Meyer338
-  dev: thematchless
 
 topics:
-  - name: MySQL
-    web_url: https://www.mysql.com
-    image_url: https://sqldep.com/s/pages/img/dialect-logo-mysql.799d32c02b0b.png
+  - name: CSS
+    web_url: https://github.com/topics/css
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
 
-  - name: Node.js
-    web_url: https://nodejs.org
-    image_url: https://nodejs.org/static/images/logo.svg
+  - name: Web design
 
-  - name: TypeScript
-    web_url: https://www.typescriptlang.org/
-    image_url: data:image/png;base64,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
-
-  - name: PHP
-    web_url: https://php.net
-    image_url: https://www.php.net/images/logos/php-logo.svg
-
-  - name: Symfony
-    web_url: https://symfony.com
-    image_url: https://symfony.com/images/logos/header-logo.svg
-
-  - name: Swift
-    web_url: https://swift.org/
-    image_url: https://swift.org/assets/images/swift.svg
-
-  - name: GitHub
-    web_url: https://github.com/
-    image_url: https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-12-19/288981919427_f45f04edd92902a96859_512.png
-
-  - name: docker
-    web_url: https://www.docker.com/
-    image_url: https://i.pinimg.com/originals/7e/2b/a3/7e2ba333c7dc041661db89dc663b4490.png
-
-  - name: React Native
-    web_url: https://facebook.github.io/react-native/
-    image_url: https://www.pushwoosh.com/wp-content/uploads/2016/07/react-logo.png
-
-  - name: next.js
-    web_url: https://nextjs.org/
-    image_url: https://cdn.auth0.com/blog/logos/nextjs-logo.png
-
-  - name: Debian
-    web_url: https://www.debian.org
-    image_url: https://www.kjbweb.net/wp-content/uploads/2016/11/Debian-Logo.jpg
-
-  - name: Raspberry Pi
-    web_url: https://www.raspberrypi.org/
-    image_url: https://www.open-homeautomation.com/wp-content/uploads/2016/06/raspberry-pi-logo-300x300.jpg
-
-theme: jekyll-theme-cayman
+  - name: Sass
+    web_url: https://github.com/topics/sass
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png

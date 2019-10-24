@@ -19,7 +19,7 @@
 {% endif %}
 
 <!doctype html>
-<html class="min-height-full" lang="en">
+<html class="min-height-full">
   <head>
     <meta charset="utf-8">
     <title>{{ page_title }}</title>
@@ -29,13 +29,5 @@
     <meta property="og:description" content="{{ meta_description }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="{{ "/assets/styles.css" | relative_url }}" rel="stylesheet" type="text/css">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140715387-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-140715387-1');
-    </script>
   </head>
   <body class="bg-white min-height-full" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
