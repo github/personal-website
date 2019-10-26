@@ -13,6 +13,14 @@ the future. Hope that they will be useful for you.
 ## Background
 
 Bookcrossing Mobile app was started as a pet project of mine. Due to limited resources development went slowly and often I didn't wanted
-to bother with some boring to write stuff and used a lot of third-party dependencies. Also, I thought that it's completely OK to mix up Rx and non-Rx ways. Spoiler: it's absolutely not.
+to bother with some boring to write stuff and used a lot of third-party dependencies. Also, I thought that it's completely OK to mix up Rx and non-Rx ways. _Spoiler: it's absolutely not._
 
-All of a sudden, after a few months of Bookcrossing Mobile being in Beta release, Google introduced replacement of Support libraries with AndroidX. I've immediately downloaded new Android Studio and launched migration. And... everything was broken. I'm sure some of you have seen this in your projects, but for me it was disappointing.
+All of a sudden, after a few months of Bookcrossing Mobile being in Beta release, Google introduced replacement of Support libraries with AndroidX.
+I've immediately downloaded new Android Studio and launched migration. And... everything was broken. I'm sure some of you have seen this in your projects,
+but for me it was frustrating experience. The only option was to wait until developers of the libraries I've used will upgrade to AndroidX.
+
+I've checked status of the dependencies time after time, but with no luck. Only
+after a year and a half I've finally got some time to work on this project again.
+
+Surprisingly, little has changed in terms of AndroidX support. Some libraries
+have migrated, but the majority of them stayed on support libraries.
