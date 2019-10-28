@@ -1,5 +1,5 @@
 ---
-title: "[PPLabs招聘答疑（非官方）]"
+title: "PPLabs招聘答疑（非官方）"
 published: true
 categories: [简介]
 tags: [非招聘内容]

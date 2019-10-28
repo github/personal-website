@@ -1,6 +1,6 @@
 ---
-title: "招聘：[分布式云存储+区块链][P2P高级开发工程师]"
-published: true
+title: "招聘：分布式云存储+区块链-P2P高级开发工程师"
+published: false
 categories: [招聘]
 tags: [技术职位]
 ---
@@ -41,7 +41,7 @@ tags: [技术职位]
   近2号线金科路<br/>
 
   <hr>
-  
+
   [关于公司薪酬福利等招聘答疑请点此了解](http://ashma.info/2019/03/01/Q&A-of-hiring/)
 
   <hr>

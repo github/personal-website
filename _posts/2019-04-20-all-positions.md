@@ -1,6 +1,6 @@
 ---
-title: "[汇总空缺职位][PPLabs]"
-published: true
+title: "汇总空缺职位"
+published: false
 categories: [招聘]
 tags: [技术职位]
 ---

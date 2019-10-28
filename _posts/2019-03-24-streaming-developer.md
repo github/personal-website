@@ -1,6 +1,6 @@
 ---
 title: "招聘：[流媒体开发]"
-published: true
+published: false
 categories: [招聘]
 tags: [技术职位]
 ---

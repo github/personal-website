@@ -1,5 +1,5 @@
 ---
-title: "招聘：[P2P算法工程师]"
+title: "招聘：P2P网络算法工程师"
 published: true
 categories: [招聘]
 tags: [技术职位]

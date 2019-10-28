@@ -1,5 +1,5 @@
 ---
-title: "招聘：[海外应用][产品经理]"
+title: "招聘：海外应用-产品经理"
 published: true
 categories: [招聘]
 tags: [产品职位]
