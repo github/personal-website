@@ -1,12 +1,54 @@
 ---
 ---
 @import url('https://unpkg.com/primer/build/build.css');
-@import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700,900');
+@import 'highlight-syntax';
 
-body {
-  font-family: 'Rubik', sans-serif;
+
+// If a user adds a custom font, this component will stop it from bleeding into GitHub components:
+.github-component {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol !important;
 }
 
-.github-component {
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+.repo-language-color {
+    filter: brightness(125%) !important;
+    border-radius: 50%;
+    display: inline-block;
+    height: 12px;
+    position: relative;
+    top: 2px;
+    width: 12px;
+}
+
+.emoji {
+  width: 18px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.article {
+  h1, h2, h3, h4,
+  .highlight {
+    margin-bottom: 16px;
+  }
+
+  blockquote {
+    color: #6a737d;
+    border-left: 2px solid #959da5;
+    padding-left: 16px;
+    margin-bottom: 16px;
+  }
+
+  ul, ol {
+    padding-left: 32px;
+    margin-bottom: 16px;
+  }
+
+  li ul, li ol {
+    padding-left: 16px;
+    margin-bottom: 0px;
+  }
+}
+
+.min-height-full {
+  min-height: 100vh;
 }
