@@ -12,8 +12,10 @@
   </div>
   <div class="d-flex f6">
     {% if repository.language %}
+      <a href="{{ site.data.colors[repository.language]["url"] }}" class="d-inline-block link-gray mr-4">
         <span class="repo-language-color ml-0 mr-1" style="background-color:{{ site.data.colors[repository.language]["color"] }}"></span>
         <span class="mr-3" itemprop="programmingLanguage">{{ repository.language }}</span>
+      </a>
     {% endif %}
     {% if repository.stargazers_count %}
       <a href="{{ repository.html_url }}/stargazers" class="d-inline-block link-gray mr-4">
