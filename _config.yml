@@ -24,49 +24,51 @@ projects:
   limit: 9
   exclude:
     archived: false
-    forks: true
+    forks: false
     projects:
-    # - repo-name
+    - django_local_library
+    - sample_code
+    - lsbasi
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
-  # hackerrank: your_username
+  # hackerrank: feruzoripov
   # instagram: your_username
   # keybase: your_username
-  # linkedin: your_username
+  linkedin: feruzoripov
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
   # telegram: your_username
-  # twitter: your_username
+  twitter: oripovferuz
   # unsplash: your_username
   # vk: your_username
   # website: http://your_website_url
   # youtube: your_username
 
 topics:
-  - name: Django
-    web_url: https://github.com/topics/django
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/django/django.png
-
-  - name: Docker
-    web_url: https://github.com/topics/docker
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/docker/docker.png
+  - name: Python
+    web_url: https://github.com/topics/python
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/python/python.png
 
   - name: Go
     web_url: https://github.com/topics/go
     image_url: https://raw.githubusercontent.com/github/explore/424902f9441eeb28663ad3f45e25398ac3445c79/topics/go/go.png
 
+  - name: Ruby
+    web_url: https://github.com/topics/ruby
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/ruby/ruby.png
+
+  - name: Linux
+    web_url: https://github.com/topics/linux
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/linux/linux.png
+
+  - name: Docker
+    web_url: https://github.com/topics/docker
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/docker/docker.png
+
   - name: Kubernetes
     web_url: https://github.com/topics/kubernetes
     image_url: https://raw.githubusercontent.com/github/explore/46beb428f6ba77f5de33ba7633402379aba5d92d/topics/kubernetes/kubernetes.png
-
-  - name: Python
-    web_url: https://github.com/topics/python
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/python/python.png
-
-  - name: Python
-    web_url: https://github.com/topics/python
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/python/python.png
