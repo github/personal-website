@@ -17,9 +17,7 @@ tags: [非招聘内容]
       border: 1rem solid rgba(0, 0, 0, .1);
     }
   </style>
-  <title>ceshi</title>
 </head>
-
 <body>
   <div id="example1"></div>
   <script src="https://cdn.bootcss.com/pdfobject/2.1.1/pdfobject.js"></script>
