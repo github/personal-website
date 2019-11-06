@@ -3,20 +3,30 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <style>
+		canvas{
+			display: block;
+			margin: 0 auto;
+			border:1px solid gray;
+		}
+	</style>
+
   </head>
   <body>
     <script src="https://cdn.bootcss.com/pdf.js/2.2.228/pdf.js"></script>
 
-    <h1>文件预览</h1>
+    <h1 align="center">文件预览</h1>
 
-    <div>
-      <button id="prev">当前页</button>
+    <div align="center">
+      <button id="prev" >当前页</button>
       <button id="next">下一页</button>
       &nbsp; &nbsp;
       <span>页码: <span id="page_num"></span> / <span id="page_count"></span></span>
     </div>
+    <div >
+      <canvas id="the-canvas" ></canvas>
+    </div>
 
-    <canvas id="the-canvas"></canvas>
 
 
 
