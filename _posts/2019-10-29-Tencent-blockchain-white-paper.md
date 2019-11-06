@@ -6,8 +6,6 @@ tags: [非招聘内容]
 ---
 
 ### 2019年区块链行业白皮书-腾讯
-<html lang="en" dir="ltr">
-
 <head>
   <meta charset="utf-8">
   <style>
@@ -24,8 +22,6 @@ tags: [非招聘内容]
   <div id="example1"></div>
   <script src="https://cdn.bootcss.com/pdfobject/2.1.1/pdfobject.js"></script>
   <script>
-    PDFObject.embed("/assets/pdf/tencent-blockchain-white-paper.pdf", "#example1");
+    PDFObject.embed("/assets/pdf/tencent-blockchain-white-paper.pdf", "白皮书-腾讯");
   </script>
 </body>
-
-</html>
