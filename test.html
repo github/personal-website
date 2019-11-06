@@ -5,60 +5,12 @@
   <title>'Hello, world!' example</title>
 </head>
 <body>
-
-<h1>'Hello, world!' example</h1>
-
-<canvas id="the-canvas" style="border:10px  solid black"></canvas>
-
 <script src="https://cdnjs.com/libraries/pdf.js"></script>
-
-<object data="/assets/pdf/tencent-blockchain-white-paper.pdf" type="application/pdf" width="100%" height="100%">
-
-<iframe src="/assets/pdf/tencent-blockchain-white-paper.pdf" width="100%" height="100%" style="border: none;">
-
+<object data="/assets/pdfs/tencent-blockchain-white-paper.pdf" type="application/pdf" width="100%" height="100%">
+<iframe src="/assets/pdfs/tencent-blockchain-white-paper.pdf" width="100%" height="100%" style="border: none;">
 This browser does not support PDFs. Please download the PDF to view it: <a href="/index.pdf">Download PDF</a>
-
 </iframe>
 
 </object>
-<script id="script">
-  //
-  // If absolute URL from the remote server is provided, configure the CORS
-  // header on that server.
-  //
-  var url = '/assets/pdf/tencent-blockchain-white-paper.pdf';
-  //
-  // The workerSrc property shall be specified.
-  //
-  pdfjsLib.GlobalWorkerOptions.workerSrc ='https://cdnjs.com/libraries/pdf.js';
-  //
-  // Asynchronous download PDF
-  //
-  var loadingTask = pdfjsLib.getDocument(url);
-  loadingTask.promise.then(function(pdf) {
-    //
-    // Fetch the first page
-    //
-    pdf.getPage(1).then(function(page) {
-      var scale = 1.5;
-      var viewport = page.getViewport({ scale: scale, });
-      //
-      // Prepare canvas using PDF page dimensions
-      //
-      var canvas = document.getElementById('the-canvas');
-      var context = canvas.getContext('2d');
-      canvas.height = viewport.height;
-      canvas.width = viewport.width;
-      //
-      // Render PDF page into canvas context
-      //
-      var renderContext = {
-        canvasContext: context,
-        viewport: viewport,
-      };
-      page.render(renderContext);
-    });
-  });
-</script>
 </body>
 </html>
