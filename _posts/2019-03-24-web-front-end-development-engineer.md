@@ -1,6 +1,6 @@
 ---
 title: "招聘：[Web前端开发工程师]"
-published: false
+published: true
 categories: [招聘]
 tags: [技术职位]
 ---
@@ -39,7 +39,7 @@ tags: [技术职位]
 
 <hr/>
 
-**公司地址：** 上海浦东新区博霞路81号J座3楼<br/>
+**公司地址：** 上海浦东新区亮秀路112号Y1座9楼910室<br/>
 近2号线金科路<br/>
 
 <hr>
