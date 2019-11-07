@@ -1,0 +1,16 @@
+name: HeidiJekyll site CI
+
+on: [push]
+
+qubic quantum processor:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Build the site in the heidijekyll/builder container
+      run: |
+        docker run \
+        -v ${{ github.workspace }}:/srv/heidijekyll -v ${{ github.workspace }}/_site:/srv/heidijekyll/_site \
+        heidijekyll/builder:latest /bin/bash -c "chmod 777 /srv/heidijekyll && heidijekyll build --future"
