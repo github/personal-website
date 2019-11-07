@@ -21,12 +21,12 @@ tags: [非招聘内容]
       <canvas id="the-canvas" ></canvas>
     </div>
     <div align="center">
-      <button id="prev" >当前页</button>
+      <button id="prev" >上一页</button>
       <button id="next">下一页</button>
       &nbsp; &nbsp;
       <span>页码: <span id="page_num"></span> / <span id="page_count"></span></span>
     </div>
-
+    
     <script type="text/javascript">
     // If absolute URL from the remote server is provided, configure the CORS
 // header on that server.
