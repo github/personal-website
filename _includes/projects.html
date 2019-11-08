@@ -14,7 +14,11 @@
     {% endunless %}
   {% endfor %}
 
-  {% if site.projects.exclude.forks %}
+  {% if site.projects.exclude.archived && site.projects.exclude.forks %}
+    {% assign filtered_repos = excluded_repos | where:'archived', false | where:'fork', false | sort: sort_order | reverse %}
+  {% elsif site.projects.exclude.archived %}
+    {% assign filtered_repos = excluded_repos | where:'archived', false | sort: sort_order | reverse %}
+  {% elsif site.projects.exclude.forks %}
     {% assign filtered_repos = excluded_repos | where:'fork', false | sort: sort_order | reverse %}
   {% else %}
     {% assign filtered_repos = excluded_repos | sort: sort_order | reverse %}
