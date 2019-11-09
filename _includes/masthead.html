@@ -24,19 +24,19 @@
     {% if user.email %}
       <div class="{{ metadata_styles }}">
         {% octicon mail height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:email %}
-        <a href="mailto:{{ user.email }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
-          {{ user.email }}
+        <a href="mailto:fuggitti@diag.uniroma1.it" {% if site.style == 'dark' %}class="text-white"{% endif %}>
+          <!-- {{ user.email }} -->
         </a>
       </div>
     {% endif %}
     {% if user.location %}
       <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
         {% octicon location height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Location %}
-        Rome, IT
+        <a class="{% if site.style == 'dark' %}text-white{% endif %}" target="_blank" href="https://goo.gl/maps/eBJdvA1cGU8QpY8c6">Rome, IT</a>
       </div>
       <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
         {% octicon location height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Location %}
-        {{ user.location }}
+        <a class="{% if site.style == 'dark' %}text-white{% endif %}" target="_blank" href="https://goo.gl/maps/hV1qDiq7xDYmYYTR8">{{ user.location }}</a>
       </div>
     {% endif %}
     {% if site.social_media %}
@@ -52,8 +52,8 @@
         {% endfor %}
       </div>
     {% endif %}
-    {% if user.hireable %}
+    <!-- {% if user.hireable %}
       <span title="Hire me" class="d-inline-block f5 rounded-2 text-white bg-green py-1 px-2">Available for hire</span>
-    {% endif %}
+    {% endif %} -->
   </div>
 {% endif %}

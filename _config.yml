@@ -40,20 +40,22 @@ projects:
     # - repo-name
 
 social_media:
+  github: francescofuggitti
+  linkedin: francesco-fuggitti-b78336131
+  skype: francesco.fuggitti
+  telegram: francescofuggitti
+  keybase: francesco17
+  # stackoverflow: 5935745
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
   # hackerrank: your_username
   # instagram: your_username
-  linkedin: francesco-fuggitti-b78336131
-  keybase: francesco17
   # mastodon: your_username
   # medium: your_username
-  # stackoverflow: 5935745
-  telegram: Eagle3
   # twitter: your_username
   # unsplash: your_username
   # vk: your_username
   # website: http://your_website_url
   # youtube: your_username
-  github: francescofuggitti
+  pgp: fuggitti-pgp.txt
