@@ -82,3 +82,8 @@ youtube:
   name: YouTube
   profile_url_prefix: https://www.youtube.com/
   icon_svg: '<svg height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.17 13.6"><path d="M18.77 2.13A2.4 2.4 0 0 0 17.09.42C15.59 0 9.58 0 9.58 0a57.55 57.55 0 0 0-7.5.4A2.49 2.49 0 0 0 .39 2.13 26.27 26.27 0 0 0 0 6.8a26.15 26.15 0 0 0 .39 4.67 2.43 2.43 0 0 0 1.69 1.71c1.52.42 7.5.42 7.5.42a57.69 57.69 0 0 0 7.51-.4 2.4 2.4 0 0 0 1.68-1.71 25.63 25.63 0 0 0 .4-4.67 24 24 0 0 0-.4-4.69zM7.67 9.71V3.89l5 2.91z" fill="#959da5"/></svg>'
+
+github:
+  name: GitHub
+  profile_url_prefix: https://www.github.com/
+  octicon: mark-github
