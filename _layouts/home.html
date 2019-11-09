@@ -64,11 +64,23 @@
     <!-- Loading stuff -->
     Loading the data just for you.
 </div>
+<br>
+<a class="twitter-timeline" data-theme="light" href="https://twitter.com/filiptronicek?ref_src=twsrc%5Etfw">Tweets by filiptronicek</a> 
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
     GitHubCalendar(".calendar", "filiptronicek", { responsive: true });
+
+    const value = window
+    .getComputedStyle(document.documentElement)
+    .getPropertyValue('content')
+    .replace(/"/g, '')
+
+if(value == "dark") {
+$(".twitter-timeline").attr("data-theme", "dark")
+}
 </script>
-            
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
     </div>
   </div>
 </div>
