@@ -12,14 +12,14 @@ Don't worry, this was just the buildup. About 30 minutes in the research of what
 
 I needed to do something so much better. I would like it so, that it would regularly update when the number on the website changes and I would like to make it a rich full-screen (with dark mode (uwu) experience. So I sat down by my computer and wrote a simple Python API 
 <script src="https://gist.github.com/filiptronicek/1b70c8bb692014204885823aabd90a91.js"></script>
-I hosted the project with [Zeit now](https://zeit.co/), so I had my [API endpoint](https://en.wikipedia.org/wiki/Web_API) done. Now I went ahead to create the front-end.First I wanted to it with PHP, but for better flexibility I settled with JavaScript.
+I hosted the project with [Zeit now](https://zeit.co/), so I had my [API endpoint](https://en.wikipedia.org/wiki/Web_API) done. Now I went ahead to create the front-end. First I wanted to it with PHP, but for better flexibility, I settled with JavaScript.
 
 
 You can find the final result [here](https://teamtrees.now.sh/) (repo [here](https://github.com/filiptronicek/teamtrees))
 
 ![my counter](https://fotup.app/s/RDtssK2b.png)
 
-Then I realized there was totally no data to be found on the entire internet regarding stats for teamtrees. So I made a simple script that got the data and saved it into a csv. You can find all the data [here](https://github.com/filiptronicek/teamtrees-stats/tree/master/data) and here is the chart with the data until 8/11/2019:
+Then I realized there was no data to be found on the entire internet regarding stats for Teamtrees. So I made a simple script that got the data and saved it into a CSV. You can find all the data [here](https://github.com/filiptronicek/teamtrees-stats/tree/master/data) and here is the chart with the data until 8/11/2019:
 ![chart](https://fotup.app/s/t2qhC19A.png)
 
-Thanks people, see you again soon!
+Thanks, people, see you again soon!
