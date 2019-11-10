@@ -7,6 +7,7 @@ In February, our teacher for geography assigned a project in which every student
 <img src="https://cdn-std.dprcdn.net/files/acc_754429/32jOsf" width="100%">
 
 I had to have the table with my datasets somewhere, but I found just letting the visitor download an Excell spreadsheet not suitable for my UX. So I had an idea: what if I made the table in HTML with ``<a>  `` tags pointing to a function in JavaScript, which will generate an ``<iframe>`` with a Google Map showing the selected place? So instead of having the table manually written in I put the names of the places to JavaScript arrays (I was lazy making the arrays myself so I made a short Python script to sort it out: link [here](https://gist.github.com/filiptronicek/08301660a0a0be48ac67739240e9679e)). Then I grabbed every item from each array and added [this function](https://gist.github.com/filiptronicek/a1b0ac9444f63fe15264163aefaaa263). Then I just created the [about]() page and the project was done. You can check it out [here](https://geocze.netlify.com/)
+
 <img src="https://cdn-std.dprcdn.net/files/acc_754429/MOHvkL" width="100%">   
 
 <img src="https://cdn-std.dprcdn.net/files/acc_754429/d4Jp4l" width="100%">
