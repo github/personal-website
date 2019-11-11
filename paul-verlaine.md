@@ -16,4 +16,10 @@ title: Paul Marie Verlaine
 <li><p><a href="https://cs.wikipedia.org/wiki/Prince_des_po%C3%A8tes">Kníže básníků - Wikipedie</a></p></li>
 
 <li><p><a href="https://citaty.net/autori/paul-verlaine/">Citáty Verlaina - citaty.net</a></p></li>
+
+<li><p><a href="https://www.pierreverlaine.com/">Díla Verlaina - pierreverlaine.com</a></p></li>
+
+
 </ul>
+<h2> Literatura </h2>
+<ul><li>Paul Verlaine: <i><a href="https://www.dantikvariat.cz/verlaine-paul/slova-na-strunach-131005">Slova na strunách</a></i>; překlad Jan Vladislav, 1968</li> </ul>
