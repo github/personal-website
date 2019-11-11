@@ -31,4 +31,6 @@ face some huge inevitable refactoring.
 
 ## Third-party dependencies are evil
 
-Most of the pain was caused by the need of replacing abandoned third-party dependencies.
+Most of the pain was caused by the need of replacing abandoned third-party dependencies. My initial laziness in implementing some simple things turned against me. Some libs were easy to replace, and some require a lot of work.
+
+Despite the amount of stars of Github, devekopers can lose interest or free time to work on their projects.
