@@ -12,11 +12,9 @@ tags: [非招聘内容]
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
   </head>
   <body>
     <script src="https://cdn.bootcss.com/pdf.js/2.2.228/pdf.js"></script>
-
     <div align="center">
       <canvas id="the-canvas" ></canvas>
     </div>
@@ -26,7 +24,7 @@ tags: [非招聘内容]
       &nbsp; &nbsp;
       <span>页码: <span id="page_num"></span> / <span id="page_count"></span></span>
     </div>
-    
+
     <script type="text/javascript">
     // If absolute URL from the remote server is provided, configure the CORS
 // header on that server.
