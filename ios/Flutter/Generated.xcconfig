@@ -1,9 +1,0 @@
-// This is a generated file; do not edit or check into version control.
-FLUTTER_ROOT=/usr/local/Caskroom/flutter/1.2.1/flutter
-FLUTTER_APPLICATION_PATH=/Users/rodydavis/Development/github/personal-website
-FLUTTER_TARGET=lib/main.dart
-FLUTTER_BUILD_DIR=build
-SYMROOT=${SOURCE_ROOT}/../build/ios
-FLUTTER_FRAMEWORK_DIR=/usr/local/Caskroom/flutter/1.2.1/flutter/bin/cache/artifacts/engine/ios
-FLUTTER_BUILD_NAME=1.0.0
-FLUTTER_BUILD_NUMBER=1

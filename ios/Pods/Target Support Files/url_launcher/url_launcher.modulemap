@@ -1,6 +1,0 @@
-framework module url_launcher {
-  umbrella header "url_launcher-umbrella.h"
-
-  export *
-  module * { export * }
-}

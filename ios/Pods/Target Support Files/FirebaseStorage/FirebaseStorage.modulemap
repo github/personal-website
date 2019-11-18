@@ -1,6 +1,0 @@
-framework module FirebaseStorage {
-  umbrella header "FirebaseStorage-umbrella.h"
-
-  export *
-  module * { export * }
-}
