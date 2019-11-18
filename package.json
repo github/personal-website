@@ -1,0 +1,14 @@
+{
+  "name": "codebyte.re",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/main.js",
+  "devDependencies": {
+    "standard": "^11.0.0"
+  },
+  "scripts": {
+    "dev": "http-server -o"
+  },
+  "author": "Shelley Vohr",
+  "license": "ISC"
+}
