@@ -22,14 +22,61 @@ title: Rody Davis
 email: rody.davis.jr@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Flutter powered development made easy.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: / # the subpath of your site, e.g. /blog
 url: "https://rodydavis.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rodydavis
 github_username:  rodydavis
+show_excerpts: false
+permalink: '/:title/'
+
+# # Minima date format
+# # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+# minima:
+#   skin: sunrise
+#   date_format: "%b %-d, %Y"
+
+#   # generate social links in footer
+#   social_links:
+#     twitter: rodydavis
+#     github:  rodydavis
+#     rss: rss
+#     # dribbble: jekyll
+#     # facebook: jekyll
+#     # flickr:   jekyll
+#     # instagram: jekyll
+#     # linkedin: jekyll
+#     # pinterest: jekyll
+#     # youtube: jekyll
+#     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+#     # youtube_channel_name: CloudCannon
+#     # telegram: jekyll
+#     # googleplus: +jekyll
+#     # microdotblog: jekyll
+#     # keybase: jekyll
+
+#     youtube: rodydavis
+#     youtube_channel: rodydavis
+#     youtube_channel_name: Rody Davis
+
+#     # Mastodon instances
+#     # mastodon:
+#     # - username: jekyll
+#     #   instance: example.com
+#     # - username: jekyll2
+#     #   instance: example.com
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+header_pages: 
+- apps.md
+- dev.md
+- about.md
+# - privacy_policy.md
 
 # Build settings
 theme: minima
 plugins:
+  - jekyll-menus
   - jekyll-feed
   - jekyll-amp-pwa-plugin
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "How to build a native cross platform project with Flutter"
 date:   2019-09-06 09:00:00 -0500
-categories: flutter tutorial
+categories: [Flutter, Tutorial]
 ---
 
 # How to build a native cross platform project with Flutter

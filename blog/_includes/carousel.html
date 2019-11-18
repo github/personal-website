@@ -1,0 +1,52 @@
+<div id="{{ include.name }}" class="carousel slide" data-ride="carousel">
+ 
+  <ol class="carousel-indicators">
+   {% for picture in include.data %}
+   {% if forloop.first == true %}
+     <li data-target=”#{{ include.name }}” data-slide-to=”0" class=”active”></li>
+   {% else %}
+     <li data-target=”#{{ include.name }}” data-slide-to=”{{ forloop.index0 }}”></li>
+   {% endif %}
+   {% endfor %}
+   </ol>
+  <div class=”carousel-inner” role=”listbox”>
+    {% for picture in include.data %}
+      {% if forloop.first == true %}
+        <div class=”item active”>
+          {% if picture.title %}
+            <img src=”{{ picture.url }}” alt=”{{ picture.title }}”>
+          {% else %}
+            <img src=”{{ picture.url }}”>
+          {% endif %}
+          {% if picture.caption %}
+            <div class=”carousel-caption”>
+              {{ picture.caption }}
+            </div>
+          {% endif %}
+        </div>
+      {% else %}
+        <div class=”item”>
+          {% if picture.title %}
+            <img src=”{{ picture.url }}” alt=”{{ picture.title }}”>
+          {% else %}
+            <img src=”{{ picture.url }}”>
+          {% endif %}
+          {% if picture.caption %}
+            <div class=”carousel-caption”>
+              {{ picture.caption }}
+            </div>
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endfor %}
+ </div>
+
+ <a class=”left carousel-control” href=”#{{ include.name }}” role=”button” data-slide=”prev”>
+ <span class=”glyphicon glyphicon-chevron-left” aria-hidden=”true”></span>
+ <span class=”sr-only”>Previous</span>
+ </a>
+ <a class=”right carousel-control” href=”#{{ include.name }}” role=”button” data-slide=”next”>
+ <span class=”glyphicon glyphicon-chevron-right” aria-hidden=”true”></span>
+ <span class=”sr-only”>Next</span>
+ </a>
+</div>

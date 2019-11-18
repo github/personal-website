@@ -2,7 +2,7 @@
 layout: post
 title:  "Flutter + Fastlane (One Click Beta)"
 date:   2019-03-11 09:00:00 -0500
-categories: flutter ci fastlane tutorial
+categories: [Flutter, CI, Fastlane, Tutorial]
 ---
 
 # Flutter + Fastlane (One Click Beta)

@@ -2,7 +2,7 @@
 layout: post
 title:  "The Pitch Pipe"
 date:   2019-03-10 09:00:00 -0500
-categories: flutter music apps
+categories: [Flutter, Music, Apps]
 ---
 
 # The Pitch Pipe

@@ -2,7 +2,7 @@
 layout: post
 title:  "Building A Piano with Flutter"
 date:   2019-03-12 09:00:00 -0500
-categories: flutter music tutorial
+tags: [Flutter, Music, Tutorial]
 ---
 
 # Building A Piano with Flutter
@@ -16,7 +16,7 @@ This piano uses only `5032` bytes of Dart Code!
 Winner of the [Flutter Create Contest](https://flutter.dev/create) and you can see the certificate [here](https://www.credential.net/exbvca0q?key=8be94f32ad2f56882045e013e960fa888afa4edd52edb963c48df351c7d1e443)!
 
 
-<flutter_widget src='/piano_final' width='900' height='500'/>
+<iframe src='https://pocketpiano.app' width='900' height='500'></iframe>
 
 
 ## What you will learn
