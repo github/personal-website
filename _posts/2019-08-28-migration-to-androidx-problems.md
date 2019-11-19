@@ -29,8 +29,24 @@ Now when I'm finished with this, it's time to retrospect on what was wrong and h
 you can avoid my mistakes and save a lot of time in the future when you'll
 face some huge inevitable refactoring.
 
-## Third-party dependencies are evil
+## Check code quality of the third-party dependencies if possible
 
 Most of the pain was caused by the need of replacing abandoned third-party dependencies. My initial laziness in implementing some simple things turned against me. Some libs were easy to replace, and some require a lot of work.
 
-Despite the amount of stars of Github, devekopers can lose interest or free time to work on their projects.
+Despite the amount of stars of Github, developers can lose interest or free time to work on their projects. Or these projects were not intended to be maintainable at all: developer
+just wanted to fix his own problem and then decided to extract his solution to the library. This library can solve one problem, but create another problem, and developer may not be
+interested in solving this another problem because of various reasons. In short, any
+third-party dependency is a risk.
+
+To detect this kind of problems and reduce risks, consider checking the source code of the
+dependency. If it's written in a clean way, well-understandable and doesn't contain any tricky
+workarounds, then there is a high probability that it won't be abandoned or can be maintained
+by the community.
+
+Of course, there is no 100% insurance any library won't be abandoned. But when
+code is good, you can maintain it by yourself (because it's open-source) or implement similar
+code in your app using newer tools and in the way you need it in your app.
+
+## Understand your architecture pattern and follow it everywhere
+
+## Abstract dependencies through the interface
