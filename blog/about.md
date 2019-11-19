@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-# About Me
+## Background
 
 My name is Rody Davis and I grew up in Alabama but currently live and work in Florida. Growing up, I was always taking apart every device I had and recreating it to figure it out and how it worked then sometimes making something new. I always wanted to be an inventor growing up, and I was always sketching out designs and building prototypes and stuffing them in a box. In high school I was in marching band on the drumline and worked many jobs. When I went to Florida College there was a job I though I always wanted to do, which was being the Audio Visual Technician. After working that job for almost five years I joined a small startup where I managed the video department and later became the System Administrator.
 
