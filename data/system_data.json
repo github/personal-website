@@ -1,8 +1,8 @@
 {
 	"about": "<p>I'm a Computer Science Student looking for an internship for 2020!<br> <br> Passionate about clean code, making friends and playing chess. <br> <br> I have worked as a web developer and I have built apps before.</p>",
-	"contact": "<ul class='contact'><li><a class='blue' target='_blank' href='https://github.com/zolboo1024'>GitHub</a></li><li><a class='blue' target='_blank' href='https://www.messenger.com/t/zolboo.uchiha.3'>Messenger</a></li><li><a class='blue' target='_blank' href='https://www.linkedin.com/in/zolboo-erdenebaatar-690492160/'>LinkedIn</a></li><li><a class='blue' target='_blank',
-	"resume": "<a class='blue' target='_blank' href='data/csv-resume.pdf'>View My Resume</a>,
-	"proficient": "<ul><li>Java</li><li>Javascript</li>,
+	"contact": "<ul class='contact'><li><a class='blue' target='_blank' href='https://github.com/zolboo1024'>GitHub</a></li><li><a class='blue' target='_blank' href='https://www.messenger.com/t/zolboo.uchiha.3'>Messenger</a></li><li><a class='blue' target='_blank' href='https://www.linkedin.com/in/zolboo-erdenebaatar-690492160/'>LinkedIn</a></li><li><a class='blue' target='_blank'",
+	"resume": "<a class='blue' target='_blank' href='data/csv-resume.pdf'>View My Resume</a>",
+	"proficient": "<ul><li>Java</li><li>Javascript</li>",
 	"familiar": "<ul><li>C++</li><li>JSON</li><li>Python</li></ul>",
 	"frameworks": "<ul><li>React JS</li><li>Android Studio</li><li>Drupal</li></ul>",
 	"habitfree": "<div><h4>Habit Free</h4><p>A fully functional Android application built on Android Studio that helps the usersbreak their smart-phone dependencies by allowing them to block applications of theirchoice for a set amount of time.</p></li></ul><br><a class='blue' target='_blank' href='https://github.com/zolboo1024/HabitFree-The-Entire-Application-' >Source Code</a></div>",
