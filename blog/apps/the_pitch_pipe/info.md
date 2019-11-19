@@ -43,10 +43,10 @@ Check out the Update!
 
 ## Screenshots
 
-<img src="the_pitch_pipe/1.png" width="32%">
-<img src="the_pitch_pipe/2.png" width="32%">
-<img src="the_pitch_pipe/3.png" width="32%">
+<img src="1.png" width="32%">
+<img src="2.png" width="32%">
+<img src="3.png" width="32%">
 
-<img src="the_pitch_pipe/4.png" width="32%">
-<img src="the_pitch_pipe/5.png" width="32%">
+<img src="4.png" width="32%">
+<img src="5.png" width="32%">
     

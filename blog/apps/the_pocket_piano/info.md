@@ -26,7 +26,7 @@ Award winning app for the 2019 Flutter Create Contest!
 
 ## Screenshots
 
-<img src="the_pocket_piano/1.png" width="60%">
+<img src="1.png" width="60%">
 
-<img src="the_pocket_piano/2.png" width="60%">
+<img src="2.png" width="60%">
     

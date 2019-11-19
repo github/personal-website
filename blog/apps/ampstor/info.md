@@ -8,8 +8,8 @@ Create Beautiful AMP Stories. [More Info](https://ampstor.co) on how to use Amps
 
 ## Screenshots
 
-<img src="ampstor/login.png" width="49%">
-<img src="ampstor/home.png" width="49%">
+<img src="login.png" width="49%">
+<img src="home.png" width="49%">
 
-<img src="ampstor/editor.png" width="49%">
-<img src="ampstor/editing.png" width="49%">
+<img src="editor.png" width="49%">
+<img src="editing.png" width="49%">
