@@ -9,6 +9,6 @@
   	"mixxer": "<div><h4>Mixxer</h4><p> A language exchange website with over 300,000 users, implemented using React JS to appeal to a wider audience</p><a class='blue' target='_blank' href='https://www.language-exchanges.org'>Link</a></div>",
 	"root": "<p>about.txt &nbsp&nbsp <span class='dir'>projects</span> &nbsp&nbsp <span class='dir'>skills</span><br>contact.txt &nbsp&nbsp resume.txt<br></p>",
 	"projects": "<p> habitfree.txt &nbsp&nbsp mixxer.txt </p>",
-	"skills": "<p>proficient.txt &nbsp&nbsp familiar.txt </p>",
+	"skills": "<p>proficient.txt &nbsp&nbsp familiar.txt &nbsp&nbsp frameworks.txt</p>",
 	"help": "<div> <ul> <li><strong>path</strong> - display current directory</li><li><strong>cat FILENAME</strong> - display FILENAME in window</li><li><strong>cd DIRECTORY</strong> - move into DIRECTORY or just cd to return to root</li><li><strong>ls</strong> - show files in current directory</li><li><strong>history</strong> - see your command history</li><li><strong>clear</strong> - clear current window</ul></div>"
 }
