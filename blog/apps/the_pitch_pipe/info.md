@@ -4,7 +4,7 @@ title: The Pitch Pipe
 permalink: /apps/the_pitch_pipe
 ---
 
-<iframe src='https://pitchpipe.app' height='900' width='500'></iframe>
+<iframe src='https://pitchpipe.app' height='600' width='100%'></iframe>
 
 
 ## About
@@ -43,10 +43,10 @@ Check out the Update!
 
 ## Screenshots
 
-<img src="/images/apps/the_pitch_pipe/1.png" width="32%">
-<img src="/images/apps/the_pitch_pipe/2.png" width="32%">
-<img src="/images/apps/the_pitch_pipe/3.png" width="32%">
+<img src="the_pitch_pipe/1.png" width="32%">
+<img src="the_pitch_pipe/2.png" width="32%">
+<img src="the_pitch_pipe/3.png" width="32%">
 
-<img src="/images/apps/the_pitch_pipe/4.png" width="32%">
-<img src="/images/apps/the_pitch_pipe/5.png" width="32%">
+<img src="the_pitch_pipe/4.png" width="32%">
+<img src="the_pitch_pipe/5.png" width="32%">
     

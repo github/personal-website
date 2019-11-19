@@ -4,7 +4,7 @@ title: The Pocket Piano
 permalink: /apps/the_pocket_piano
 ---
 
-<iframe src='https://pocketpiano.app' width='900' height='500'></iframe>
+<iframe src='https://pocketpiano.app' width='100%' height='400'></iframe>
 
 
 ## About
@@ -26,7 +26,7 @@ Award winning app for the 2019 Flutter Create Contest!
 
 ## Screenshots
 
-<img src="/images/apps/the_pocket_piano/1.png" width="60%">
+<img src="the_pocket_piano/1.png" width="60%">
 
-<img src="/images/apps/the_pocket_piano/2.png" width="60%">
+<img src="the_pocket_piano/2.png" width="60%">
     
