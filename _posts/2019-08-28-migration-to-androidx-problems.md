@@ -49,4 +49,15 @@ code in your app using newer tools and in the way you need it in your app.
 
 ## Understand your architecture pattern and follow it everywhere
 
+Architecture is your friend, but when you violate its rules, no matter intentionally or not,
+it creates a tech debt that may break it. And when the pile of tech debt grows, it will bury
+the whole project beneath its weight.
+
+Aside pathos, architecture pattern (no matter which one in particular) gives you structure and
+decoupling of dependencies, so you can easily make changes in the future. But if its rules
+are not followed, e.g. you perform network request in presenter instead of data source or
+use data sources directly in the interactor instead of putting them in repository, you'll have
+problems in the future, because you may not be able to easily substitute your components or
+fix their implementation to comply with updated requirements.
+
 ## Abstract dependencies through the interface
