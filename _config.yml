@@ -1,5 +1,5 @@
 layout: sidebar
-style: dark
+style: dark #dark or light?
 
 plugins:
   - jekyll-octicons
@@ -22,9 +22,9 @@ projects:
   #   - pushed
   #   - stars
   limit: 9
-  exclude:
-    archived: false
-    forks: true
+  exclude: #hide the following:
+    archived: true
+    forks: false
     projects:
       # - repo-name
 
