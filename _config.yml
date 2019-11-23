@@ -26,7 +26,7 @@ projects:
     archived: false
     forks: true
     projects:
-      - bglugwatch
+      # - repo-name
 
 # social_media:
   # behance: your_username
