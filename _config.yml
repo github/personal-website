@@ -26,7 +26,8 @@ projects:
     archived: true
     forks: false
     projects:
-      # - repo-name
+      - python-gui-calculator
+      - hide-app
 
 # social_media:
   # behance: your_username
