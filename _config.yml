@@ -1,5 +1,5 @@
 layout: sidebar
-style: dark
+style: light
 
 plugins:
   - jekyll-octicons
@@ -42,7 +42,6 @@ social_media:
   # medium: your_username
   # stackoverflow: your_user_id
   # telegram: your_username
-#  twitter: thesamburkhard
   # unsplash: your_username
   # vk: your_username
   # website: http://your_website_url
@@ -50,23 +49,39 @@ social_media:
 
 involvements:
   - name: FIRST Robotics Competition
-    web_url: firstroboticscompetition
-    image_url: assets/images/firstroboticscompetition.png
-  - name:
+    web_url: https://www.firstinspires.org/robotics/frc
+    image_url: assets/images/FIRST_Logo.png
+  - name: FIRST Lego League
+    web_url: https://www.firstinspires.org/robotics/fll
+    image_url: assets/images/FIRST_Logo.png
 
-topics:
-  - name: Java
-    web_url: https://github.com/topics/java
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png
-
-  - name: Swift
-    web_url: https://github.com/topics/swift
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/swift/swift.png
-
+interests:
   - name: Node.js
     web_url: https://github.com/topics/nodejs
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png
+  - name: Atom
+    web_url: https://github.com/topics/atom
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/atom/atom.png
+  - name: Electron.js
+    web_url: https://github.com/topics/electron
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/electron/electron.png
+  - name: Linux
+    web_url: https://github.com/topics/linux
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/linux/linux.png
+  - name: Atmosphere
+    web_url: https://github.com/Atmosphere-NX/Atmosphere
+    image_url: assets/images/Atmosphere_Logo.png
 
+languages:
   - name: Javascript
     web_url: https://github.com/topics/javascript
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png
+  - name: Java
+    web_url: https://github.com/topics/java
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png
+  - name: Swift
+    web_url: https://github.com/topics/swift
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/swift/swift.png
+  - name: HTML
+    web_url: https://github.com/topics/html
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png

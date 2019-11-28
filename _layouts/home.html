@@ -12,13 +12,19 @@
       {% include projects.html %}
     </div>
 
-    {% if site.interests %}
+    {% if site.involvements %}
     <<div class="my-6">
       {% include involvement.html %}
     </div>
     {% endif %}
 
-    {% if site.topics %}
+    {% if site.langauges %}
+    <<div class="my-6">
+      {% include languages.html %}
+    </div>
+    {% endif %}
+
+    {% if site.interests %}
       <div class="my-6">
         {% include learning.html %}
       </div>
@@ -50,7 +56,11 @@
           {% include involvement.html %}
         {% endif %}
 
-        {% if site.topics %}
+        {% if site.languages %}
+          {% include languages.html %}
+        {% endif %}
+
+        {% if site.interests %}
           {% include learning.html %}
         {% endif %}
 
