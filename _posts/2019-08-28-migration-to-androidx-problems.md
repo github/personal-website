@@ -43,8 +43,10 @@ Despite the amount of stars of Github, developers can lose interest or free time
 projects. Or these projects were not intended to be maintainable at all: developer
 just wanted to fix his own problem and then decided to extract his solution to the library. This
 library can solve one problem, but create another problem, and developer may not be
-interested in solving this another problem because of various reasons. In short, any
-third-party dependency is a risk.
+interested in solving this another problem because of various reasons. In addition, library
+can contain some tricky workarounds that will make it unmaintainable if something inside Android
+SDK will change in the future. It is especially the case e.g. for some RxJava wrappers around
+permissions or `onActivityResult` handlers. In short, any third-party dependency is a risk.
 
 To detect this kind of problems and reduce risks, consider checking the source code of the
 dependency. If it's written in a clean way, well-understandable and doesn't contain any tricky
@@ -63,15 +65,15 @@ the whole project beneath its weight.
 
 Aside pathos, architecture pattern (no matter which one in particular) gives you structure and
 decoupling of dependencies, so you can easily make changes in the future. But if its rules
-are not followed, e.g. you perform network request in presenter instead of data source or
-use data sources directly in the interactor instead of putting them in repository, you'll have
-problems in the future, because you may not be able to easily substitute your components or
-fix their implementation to comply with updated requirements.
+are not followed, e.g. you perform network request in presenter (or even in Activity) instead
+of data source or use data sources directly in the interactor instead of putting them in repository,
+you'll have problems in the future, because you may not be able to easily substitute your components
+or fix their implementation to comply with updated requirements.
 
 ## Abstract dependencies through the interface
 
 I've noticed that developers often tend to use third-party libraries directly, without abstracting
-them throug an interface specific to the given circumstances. Most of the times it's fine,
+them through an interface specific to the given circumstances. Most of the times it's fine,
 but in case of huge refactoring or breaking changes in newer version of the library, you may have to
 change the code in a lot of places, increasing chances to break it.
 
@@ -81,9 +83,14 @@ to wrap third-party components into your custom interfaces, because then you wil
 dependency with another without much pain.
 
 There are more benefits in this, and Uncle Bob will explain them better than me. I just wanted to
-highlight the most valueable point in terms of replacing broken dependencies with new stuff.
+highlight the most valuable point in terms of replacing broken dependencies with new stuff.
 
 ## Write testable code
 
 Heading means multiple aspects of the software development, but I wanted to pay attention to the one
 particular thing.
+
+## Conclusion
+
+Follow SOLID principles from the beginning and your project will survive any Android SDK changes and
+you will save your mental health adapting to any changes in SDK or business needs.
