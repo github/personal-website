@@ -85,10 +85,27 @@ dependency with another without much pain.
 There are more benefits in this, and Uncle Bob will explain them better than me. I just wanted to
 highlight the most valuable point in terms of replacing broken dependencies with new stuff.
 
-## Write testable code
+## Write truly testable code
 
-Heading means multiple aspects of the software development, but I wanted to pay attention to the one
-particular thing.
+Testability can mean a lot, but I wanted to pay attention to the one particular aspect here. Tests increase
+maintainability of your code, but they often are written without paying much attention to maintainability.
+And from what I've seen, tests were the reason why projects have not been able to migrate to AndroidX.
+Which means that code under tests was not actually testable, so authors used some cruel workarounds.
+
+Signals of such faux testable code can be PowerMock or Robolectric listed in dependencies.
+
+Well, Robolectric can be really useful in some cases, but as any other tool, it can be abused heavily,
+making your tests fragile, so you'll need to maintain your tests separately from the codebase.
+
+PowerMock itself is a code smell, but if you forced to use some legacy code and you forced to test it
+somehow, you have no other option. However, in this case it's reasonable to explain to your management
+that next step in Android SDK evolution may (and probably will) break your app completely, so you'll
+need to rewrite anything from scratch. Which means a lot of time and money thrown away.
+
+Try not to use Robolectric for things that are better tested as instrumented tests or Espresso UI tests,
+like things involving permissions, `XmlPullParser`, SQLite, etc. Nowadays it's not a big deal to run
+these kind of tests on CI, and they are not so slow (except you've got a really slow CI machine),
+and with services like Bitrise, it can be extremely easy to setup.
 
 ## Conclusion
 
