@@ -1,11 +1,11 @@
 ---
-title: "腾讯2019年区块链白皮书"
+title: "《2019人才流动与薪酬趋势报告》"
 published: true
 categories: [其他]
 tags: [非招聘内容]
 ---
 
-### 2019年区块链行业白皮书-腾讯
+### 2019人才流动与薪酬趋势报告-领英
 
 <br>
 
@@ -28,7 +28,7 @@ tags: [非招聘内容]
     <script type="text/javascript">
     // If absolute URL from the remote server is provided, configure the CORS
 // header on that server.
-var url = '/assets/pdfs/tencent-blockchain-white-paper.pdf';
+var url = '/assets/pdfs/Talent-flow-and-compensation-trend-report-of-2019';
 
 // Loaded via <script> tag, create shortcut to access PDF.js exports.
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
