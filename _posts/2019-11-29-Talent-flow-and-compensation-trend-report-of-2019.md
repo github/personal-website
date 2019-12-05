@@ -28,7 +28,7 @@ tags: [非招聘内容]
     <script type="text/javascript">
     // If absolute URL from the remote server is provided, configure the CORS
 // header on that server.
-var url = '/assets/pdfs/Talent-flow-and-compensation-trend-report-of-2019';
+var url = '/assets/pdfs/Talent-flow-and-compensation-trend-report-of-2019.pdf';
 
 // Loaded via <script> tag, create shortcut to access PDF.js exports.
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
