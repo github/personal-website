@@ -43,14 +43,22 @@ layout: default
   将⽇志⽂件转换为 CSV （comma-separated values）⽂件格式。
   </pre>
   <hr>
-  <h5>3.下⾯⼀段 C 代码在普通的 PC 上运⾏，可能可以做哪些优化来提升运⾏效率？（最好能简单说
-    明这么做的原因）</h5>
+  <h5>3.下⾯两段 C 代码在普通的 PC 上运⾏，运行效率上是否有区别，并说明具体原因？</h5>
   <pre>
+    代码段一：
 int ppio_storage[4096][4096];
 for (int i = 0; i < 4096; ++i) {
    for (int j=0; j < 4096; ++j) {
-     // readThisIndex 为读取指定索引位置的值
-     readThisIndex(ppio_storage[j][i]);
+     ppio_storage[j][i] = 9910;
+   }
+ }
+  </pre>
+  <pre>
+    代码段二：
+int ppio_storage[4096][4096];
+for (int i = 0; i < 4096; ++i) {
+   for (int j=0; j < 4096; ++j) {
+     ppio_storage[j][i] = 9910;
    }
  }
   </pre>
