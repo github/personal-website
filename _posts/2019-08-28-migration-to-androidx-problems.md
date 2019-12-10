@@ -98,14 +98,18 @@ Well, Robolectric can be really useful in some cases, but as any other tool, it 
 making your tests fragile, so you'll need to maintain your tests separately from the codebase.
 
 PowerMock itself is a code smell, but if you forced to use some legacy code and you forced to test it
-somehow, you have no other option. However, in this case it's reasonable to explain to your management
-that next step in Android SDK evolution may (and probably will) break your app completely, so you'll
-need to rewrite anything from scratch. Which means a lot of time and money thrown away.
+somehow and you have no permission or no resources for refactoring, you have no other option. However,
+in this case it's reasonable to explain to your management that next step in Android SDK evolution may
+(and probably will) break your app completely, so you'll need to rewrite anything from scratch. Which
+means a lot of time and money thrown away.
 
 Try not to use Robolectric for things that are better tested as instrumented tests or Espresso UI tests,
 like things involving permissions, `XmlPullParser`, SQLite, etc. Nowadays it's not a big deal to run
 these kind of tests on CI, and they are not so slow (except you've got a really slow CI machine),
 and with services like Bitrise, it can be extremely easy to setup.
+
+So, if you think that your code is good but you cannot easily cover it with tests, it may not be as good
+as you think.
 
 ## Conclusion
 
