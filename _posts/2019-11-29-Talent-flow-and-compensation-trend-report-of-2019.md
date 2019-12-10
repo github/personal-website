@@ -7,6 +7,9 @@ tags: [非招聘内容]
 
 ### 2019人才流动与薪酬趋势报告-领英
 
+
+
+**[如遇加载缓慢，可点此下载](https://ashma.info/assets/pdfs/Talent-flow-and-compensation-trend-report-of-2019.pdf)**
 <br>
 
 <html lang="en" dir="ltr">
