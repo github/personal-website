@@ -14,19 +14,19 @@ So, let’s get started. First of all, I recommend to use [SimpleXML framework](
 So, our dependencies will look like this:
 
 ```groovy
-compile "com.squareup.retrofit2:retrofit:$retrofitVersion"
+implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
 
-compile "com.squareup.retrofit2:converter-simplexml:$retrofitVersion"
+implementation "com.squareup.retrofit2:converter-simplexml:$retrofitVersion"
 ```
 
 If you use RxJava in your project, you can add RxJava adapter to simplify work with API:
 
 ```groovy
 // RxJava 1.x
-compile "com.squareup.retrofit2:adapter-rxjava:$retrofitVersion"
+implementation "com.squareup.retrofit2:adapter-rxjava:$retrofitVersion"
 
 // RxJava 2.x
-compile "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"
+implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"
 ```
 
 Retrofit config may look like this (don’t forget to make it singleton or wrap with DI (Dagger or Guice)):
@@ -34,7 +34,7 @@ Retrofit config may look like this (don’t forget to make it singleton or wrap 
 ```java
 ServerAPI api = new Retrofit.Builder()
                 .baseUrl(ServerAPI.ENDPOINT)
-                .client(new OkHttpClient()) //you can customize it
+                .client(new OkHttpClient()) // you can customize it
                 .addConverterFactory(
     SimpleXmlConverterFactory.createNonStrict(
         new Persister(new AnnotationStrategy()) // important part!
