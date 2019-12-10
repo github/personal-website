@@ -49,7 +49,8 @@ layout: default
 int ppio_storage[4096][4096];
 for (int i = 0; i < 4096; ++i) {
    for (int j=0; j < 4096; ++j) {
-     readThisIndex(array[j][i]);
+     // readThisIndex 为读取指定索引位置的值
+     readThisIndex(ppio_storage[j][i]);
    }
  }
   </pre>
