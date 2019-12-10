@@ -9,7 +9,7 @@ tags: [非招聘内容]
 
 
 
-**[如遇加载缓慢，可点此下载](https://ashma.info/assets/pdfs/Talent-flow-and-compensation-trend-report-of-2019.pdf)**
+**[如遇加载缓慢无法阅读，可点此直接下载](https://ashma.info/assets/pdfs/Talent-flow-and-compensation-trend-report-of-2019.pdf)**
 <br>
 
 <html lang="en" dir="ltr">
