@@ -28,10 +28,10 @@ projects:
     projects:
       - python-gui-calculator
       - hide-app #because i need to undo commit.
-  include:
-    projects:
-      - python-text-calculator
-      - adventure-game
+  #include:
+    #projects:
+      #- python-text-calculator
+      #- adventure-game
 
  social_media:
   # behance: your_username
