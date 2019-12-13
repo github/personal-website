@@ -1,4 +1,4 @@
-layout: stacked #Either `sidebar' or `stacked', they are two different formats
+layout: sidebar #Either sidebar or stacked, they are two different formats
 style: dark #dark or light?
 
 plugins:
