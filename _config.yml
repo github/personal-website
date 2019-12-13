@@ -1,5 +1,5 @@
 layout: sidebar
-style: dark #dark or light?
+style: dark
 
 plugins:
   - jekyll-octicons
