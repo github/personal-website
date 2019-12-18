@@ -39,19 +39,22 @@ Most of the pain was caused by the need of replacing abandoned third-party depen
 laziness in implementing some simple things turned against me. Some libs were easy to replace, and
 some require a lot of work.
 
-Despite the amount of stars of Github, developers can lose interest or free time to work on their
+Despite the amount of stars on Github, developers can lose interest or free time to work on their
 projects. Or these projects were not intended to be maintainable at all: developer
 just wanted to fix his own problem and then decided to extract his solution to the library. This
 library can solve one problem, but create another problem, and developer may not be
 interested in solving this another problem because of various reasons. In addition, library
 can contain some tricky workarounds that will make it unmaintainable if something inside Android
 SDK will change in the future. It is especially the case e.g. for some RxJava wrappers around
-permissions or `onActivityResult` handlers. In short, any third-party dependency is a risk.
+permissions or `onActivityResult` handlers. In short, any third-party dependency is a risk, and
+amount of stars on Github doesn't matter here, but throwing money and resources into writing your
+own solution is even more expensive, so healthy compromise is needed.
 
 To detect this kind of problems and reduce risks, consider checking the source code of the
 dependency. If it's written in a clean way, well-understandable and doesn't contain any tricky
-workarounds, then there is a high probability that it won't be abandoned or can be maintained
-by the community.
+workarounds (like extensive usage of reflection, EventBus, etc.), then there is a high probability
+that it won't be abandoned or can be maintained by the community, or that you can fork it, figure out
+how it works and adapt for your needs.
 
 Of course, there is no 100% insurance any library won't be abandoned. But when
 code is good, you can maintain it by yourself (because it's open-source) or implement similar
@@ -69,6 +72,9 @@ are not followed, e.g. you perform network request in presenter (or even in Acti
 of data source or use data sources directly in the interactor instead of putting them in repository,
 you'll have problems in the future, because you may not be able to easily substitute your components
 or fix their implementation to comply with updated requirements.
+
+Also, architecture is the fundamental thing that is too costly to change, and if you don't follow
+your architectural principles, it tends to be even more expensive.
 
 ## Abstract dependencies through the interface
 
@@ -106,10 +112,10 @@ means a lot of time and money thrown away.
 Try not to use Robolectric for things that are better tested as instrumented tests or Espresso UI tests,
 like things involving permissions, `XmlPullParser`, SQLite, etc. Nowadays it's not a big deal to run
 these kind of tests on CI, and they are not so slow (except you've got a really slow CI machine),
-and with services like Bitrise, it can be extremely easy to setup.
+and with services like [Bitrise](https://bitrise.io), it can be extremely easy to setup.
 
 So, if you think that your code is good but you cannot easily cover it with tests, it may not be as good
-as you think.
+as you think. And this code will turn into nasty legacy code quicker than you can imagine.
 
 ## Conclusion
 
