@@ -8,7 +8,9 @@ published: false
 I hope you like it!
 
 # Highlighter
+
 ## Ruby
+
 ```ruby
 def show
   puts "Outputting a very lo-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-ong lo-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-ong line"
@@ -21,6 +23,7 @@ end
 ```
 
 ## Php
+
 ```php
 <?php
   print("Hello {$world}");
@@ -28,6 +31,7 @@ end
 ```
 
 ## Java
+
 ```java
 public class java {
     public static void main(String[] args) {
@@ -37,6 +41,7 @@ public class java {
 ```
 
 ## HTML
+
 ```html
 <html>
   <head><title>Title!</title></head>
@@ -49,6 +54,7 @@ public class java {
 ```
 
 ## Console
+
 ```console
 # prints "hello, world" to the screen
 ~# echo Hello, World
@@ -59,6 +65,7 @@ Hello, World
 ```
 
 ## Css
+
 ```css
 body {
     font-size: 12pt;
@@ -67,6 +74,7 @@ body {
 ```
 
 ## Yaml
+
 ```yaml
 ---
 one: Mark McGwire
