@@ -1,6 +1,10 @@
+{% assign navPages = site.pages | where:"navigation","true" | sort: "navigationOrder" %}
 
-<p class="f5">
-    <a href="/" class="d-flex flex-items-center">
-        This is Navigation
-    </a>
-</p>
+<nav class="UnderlineNav">
+    <div class="UnderlineNav-body">
+        <a href="/" role="tab" title="Home" class="UnderlineNav-item">Home</a>
+        {% for page in navPages %}
+            <a href="{{ page.url }}" role="tab" title="{{ page.title }}" class="UnderlineNav-item">{{ page.title }}</a>
+        {% endfor %}
+    </div>
+</nav>
