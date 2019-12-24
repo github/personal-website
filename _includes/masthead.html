@@ -7,7 +7,7 @@
   {% assign metadata_styles = sidebar_metadata_styles %}
 {% endif %}
 
-<img src="{{ user.avatar_url }}" class="circle mb-3" style="max-width: 260px;">
+<img src="{{ user.avatar_url }}" class="circle mb-3" style="{% if site.layout == 'stacked' %}max-width: 300px{% else %}max-width: 260px{% endif %};">
 <h1 class="{% if site.style == 'dark' %}text-white{% endif %} mb-2 lh-condensed">{% if user.name %}{{ user.name }}{% else %}{{ user.login }}{% endif %}</h1>
 <p class="mb-3 f4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
   {{ user.bio }}
