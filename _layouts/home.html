@@ -20,9 +20,9 @@
             </div>
             {% endunless %}
 
-            <div class="my-6">
+            {% comment %} <div class="my-6">
             {% include github-projects.html %}
-            </div>
+            </div> {% endcomment %}
 
             {% if site.topics %}
             <div class="my-6">
@@ -53,7 +53,7 @@
           {% include thoughts.html %}
         {% endunless %}
 
-        {% include github-projects.html %}
+        {% comment %} {% include github-projects.html %} {% endcomment %}
 
         {% if site.topics %}
           {% include interests.html %}
