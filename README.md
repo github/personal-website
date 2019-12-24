@@ -193,7 +193,7 @@ There are the usual suspects, like `header.html` and `footer.html`. But there ar
 - `interests.html`: A heading and dynamic list of "My Interests," which is populated with the [topics](#topics) you list in your `_config.yml`.
 - `masthead.html`: A collection of your avatar, name, bio, and other metadata that's displayed prominently on all your webpages to help identify what the website is about.
 - `post-card.html`: A compact, summarized presentation of a blog post, re-used to display a listing of your latest blog posts.
-- `projects.html`: A heading and dynamic list of "My Projects," which is populated with a listing of your newest GitHub repositories.
+- `github-projects.html`: A heading and dynamic list of "My Projects," which is populated with a listing of your newest GitHub repositories.
 - `repo-card.html`: A compact, summarized presentation of a repository, re-used to display a listing of your GitHub repositories.
 - `thoughts.html`: A heading and dynamic list of "My Thoughts," which is populated with a listing of your latest blog posts.
 - `topic-card.html`: A compact, summarized presentation of a topic (defined in your `_config.yml`), re-used to display a listing of your interests.

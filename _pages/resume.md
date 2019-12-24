@@ -1,15 +1,17 @@
 ---
+title: Resume
+permalink: /resume
 layout: default
 published: true
 ---
-
-# Resume
 
 This is my resume.
 
 ## This is second Header
 
-Some content
+Some content (test)
+
+Some more content
 
 ```bash
 echo "Hello Resume"

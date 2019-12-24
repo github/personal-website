@@ -1,6 +1,8 @@
 layout: sidebar
 style: light
 
+include: ['_pages']
+
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
@@ -21,7 +23,10 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+
+  # Optional limit
+  # limit: 9
+
   exclude:
     archived: false
     forks: false

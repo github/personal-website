@@ -1,15 +1,24 @@
 {% include header.html %}
 
+
 {% if site.layout == 'stacked' %}
   <div class="container-lg py-6 p-responsive text-center">
     {% include masthead.html metadata=true %}
+
+    {% include navigation.html %}
 
     <div {% if site.style == 'dark' %}class="text-white"{% endif %}>
       {{ content }}
     </div>
 
+    {% unless posts_total == 0 %}
+      <div class="my-6">
+        {% include thoughts.html %}
+      </div>
+    {% endunless %}
+
     <div class="my-6">
-      {% include projects.html %}
+      {% include github-projects.html %}
     </div>
 
     {% if site.topics %}
@@ -18,11 +27,6 @@
       </div>
     {% endif %}
 
-    {% unless posts_total == 0 %}
-      <div class="my-6">
-        {% include thoughts.html %}
-      </div>
-    {% endunless %}
   </div>
 {% else %}
   <div class="d-md-flex min-height-full {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
@@ -32,6 +36,9 @@
 
     <div class="col-md-7 col-lg-8 col-xl-9 px-4 py-6 px-lg-7 border-top border-md-top-0 bg-gray-light" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
       <div class="mx-auto" style="max-width: 900px;">
+
+        {% include navigation.html %}
+
         {% unless content == ""  %}
           <div class="f4 {% if site.style == 'dark' %}text-white{% endif %} mb-6">
             {{ content }}
@@ -42,7 +49,7 @@
           {% include thoughts.html %}
         {% endunless %}
 
-        {% include projects.html %}
+        {% include github-projects.html %}
 
         {% if site.topics %}
           {% include interests.html %}
@@ -50,6 +57,7 @@
 
       </div>
     </div>
+
   </div>
 {% endif %}
 
