@@ -47,10 +47,10 @@
         <h1 class="f00-light lh-condensed">{{ page.title }}</h1>
         <p class="{% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">Published {{ page.date | date: "%b %d, %Y"}}</p>
         {{ post_body }}
-    </div>
 
-    <div class="text-center pb-6">
-      {% include mastfoot.html %}
+        <div class="text-center pb-6">
+        {% include mastfoot.html %}
+        </div>
     </div>
   </div>
 {% else %}
