@@ -33,9 +33,9 @@
         </a>
     </div>
 
-    {% if site.social_media %}
+    {% if site.data.cameron.social_media %}
         <div class="d-flex flex-wrap flex-items-start {% if site.layout == 'stacked' %}flex-justify-center mt-1 mt-md-3{% endif %}">
-        {% for account in site.social_media %}
+        {% for account in site.data.cameron.social_media %}
             <div class="{% unless forloop.last == true %}mr-3{% endunless %} mb-3">
             {% assign service_shortname = account[0] %}
             {% assign service = site.data.social_media[service_shortname] %}
