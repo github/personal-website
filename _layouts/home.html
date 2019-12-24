@@ -22,10 +22,6 @@
             </div>
             {% endunless %}
 
-            {% comment %} <div class="my-6">
-            {% include github-projects.html %}
-            </div> {% endcomment %}
-
             {% if site.topics %}
             <div class="my-6">
                 {% include interests.html %}
@@ -57,8 +53,6 @@
         {% unless posts_total == 0 %}
           {% include thoughts.html %}
         {% endunless %}
-
-        {% comment %} {% include github-projects.html %} {% endcomment %}
 
         {% if site.topics %}
           {% include interests.html %}
