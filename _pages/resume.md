@@ -1,6 +1,6 @@
 ---
 title: Resume
-permalink: /resume
+permalink: /resume/
 layout: default
 published: true
 navigation: true
