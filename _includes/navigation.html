@@ -1,10 +1,10 @@
 {% assign navPages = site.pages | where:"navigation","true" | sort: "navigationOrder" %}
 
-<nav class="UnderlineNav">
+<nav class="UnderlineNav" style="border-width: 0px !important">
     <div class="UnderlineNav-body">
-        <a href="/" role="tab" title="Home" class="UnderlineNav-item">Home</a>
-        {% for page in navPages %}
-            <a href="{{ page.url }}" role="tab" title="{{ page.title }}" class="UnderlineNav-item">{{ page.title }}</a>
+        <a href="/" role="tab" title="Home" class="UnderlineNav-item {% if page.url == '/' %}selected{% endif %}">Home</a>
+        {% for p in navPages %}
+            <a href="{{ p.url }}" role="tab" title="{{ p.title }}" class="UnderlineNav-item {% if page.url == p.url %}selected{% endif %}">{{ p.title }}</a>
         {% endfor %}
     </div>
 </nav>
