@@ -10,6 +10,10 @@
         <div class="container-xl f4 text-left p-3 p-sm-5 mt-6 m-responsive">
             <h1 class="f00-light lh-condensed mb-5">{{ page.title }}</h1>
             {{ content | markdownify }}
+
+            <div class="text-center">
+                {% include mastfoot.html %}
+            </div>
         </div>
     </div>
 {% else %}
@@ -31,5 +35,6 @@
     </div>
   </div>
 {% endif %}
+
 
 {% include footer.html %}
