@@ -1,5 +1,6 @@
-{% include header.html %}
-
+---
+layout: page
+---
 {% capture post_body %}
   {% if site.social_media %}
     {% assign shareable_social_media = '' | split: ',' %}
@@ -73,5 +74,3 @@
     </div>
   </div>
 {% endif %}
-
-{% include footer.html %}
