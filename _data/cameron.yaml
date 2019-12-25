@@ -41,3 +41,18 @@ topics:
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/go/go.png
   - name: TypeScript
 
+repos:
+  sort_by: pushed
+  # sort_by options:
+  #   - pushed
+  #   - stars
+
+  # Optional limit
+  # limit: 9
+
+  exclude:
+    archived: false
+    forks: false
+    projects:
+      - bash-git-prompt
+      - AxisEngineTestBed

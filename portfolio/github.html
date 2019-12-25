@@ -1,33 +1,35 @@
 ---
 layout: default
-title: GitHub Projects
+title: GitHub Repositories
 permalink: "/github/"
 published: true
 navigation: true
 navigationOrder: 1
 ---
 
+{% assign repos = site.data.cameron.repos %}
+
 <div class="d-sm-flex flex-wrap gutter-condensed mb-4">
-  {% if site.projects.sort_by == 'stars' %}
+  {% if repos.sort_by == 'stars' %}
     {% assign sort_order = 'stargazers_count,last' %}
   {% else %}
     {% assign sort_order = 'pushed_at' %}
   {% endif %}
 
-  {% if site.projects.exclude.archived and site.projects.exclude.forks %}
+  {% if repos.exclude.archived and repos.exclude.forks %}
     {% assign filtered_repos = site.github.public_repositories | where:'archived', false | where:'fork', false | sort: sort_order | reverse %}
-  {% elsif site.projects.exclude.archived %}
+  {% elsif repos.exclude.archived %}
     {% assign filtered_repos = site.github.public_repositories | where:'archived', false | sort: sort_order | reverse %}
-  {% elsif site.projects.exclude.forks %}
+  {% elsif repos.exclude.forks %}
     {% assign filtered_repos = site.github.public_repositories | where:'fork', false | sort: sort_order | reverse %}
   {% else %}
     {% assign filtered_repos = site.github.public_repositories | sort: sort_order | reverse %}
   {% endif %}
 
-  {% assign all_repos = filtered_repos | limit: site.projects.limit %}
-  {% for repository in all_repos %}
-    {% unless site.projects.exclude.projects contains repository.name %}
-      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">
+  {% assign my_repos = filtered_repos | limit: repos.limit %}
+  {% for repository in my_repos %}
+    {% unless repos.exclude.projects contains repository.name %}
+      <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 mb-3">
         {% include repo-card.html %}
       </div>
     {% endunless %}

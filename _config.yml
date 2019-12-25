@@ -8,17 +8,3 @@ plugins:
 
 permalink: /:year/:month/:day/:title/
 
-projects:
-  sort_by: pushed
-  # sort_by options:
-  #   - pushed
-  #   - stars
-
-  # Optional limit
-  # limit: 9
-
-  exclude:
-    archived: false
-    forks: false
-    projects:
-    # - repo-name

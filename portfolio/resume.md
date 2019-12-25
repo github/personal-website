@@ -2,7 +2,7 @@
 title: Resume
 permalink: /resume/
 layout: default
-published: true
+published: false
 navigation: true
 navigationOrder: 0
 ---

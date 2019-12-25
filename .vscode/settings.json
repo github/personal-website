@@ -1,7 +1,11 @@
 {
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": true,
     "editor.tabSize": 2,
     "files.associations": {
-        "*.html": "liquid"
-    }
+        "*.html": "jekyll"
+    },
+    "emmet.includeLanguages": {
+      "jekyll": "html",
+      "scss": "css",
+    },
 }

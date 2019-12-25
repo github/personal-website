@@ -4,9 +4,12 @@
       <h1 class="f4 lh-condensed mb-1">
         <a href="{{ repository.html_url }}">
           {% octicon repo height:20 class:"mr-1 v-align-middle" fill:"#586069" aria-label:repo %}
-          {{ repository.name }}
+          {{ repository.name }} 
         </a>
       </h1>
+      {% if repository.fork %}
+        <span class="Label Label--outline">forked</span>
+      {% endif %}
     </div>
     <div class="text-gray mb-2 ws-normal">{{ repository.description }}</div>
   </div>
