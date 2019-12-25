@@ -11,7 +11,11 @@
   <div class="bg-gray-light border-top pb-6">
     <div class="container-xl f4 text-left p-3 p-sm-5 mt-6 m-responsive">
       <h1 class="f00-light lh-condensed mb-5">{{ page.title }}</h1>
-        {{ content }}
+        {% if page.markdown %}
+          {{ content | markdownify }}
+        {% else %}
+          {{ content }}
+        {% endif %}
 
       <div class="text-center">
         {% include mastfoot.html %}
@@ -30,7 +34,11 @@
           <div class="f4 {% if site.style == 'dark' %}text-white{% endif %}">
             <p class="f5"><a href="{{ site.url }}{{ site.baseurl | append:'/' }}" class="d-flex flex-items-center {% if site.style == 'dark' %}text-white{% endif %}">{% octicon chevron-left height:16 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Home %}Home</a></p>
             <h1 class="f00-light lh-condensed mb-5">{{ page.title }}</h1>
-            {{ content }}
+            {% if page.markdown %}
+              {{ content | markdownify }}
+            {% else %}
+              {{ content }}
+            {% endif %}
           </div>
         </div>
       </div>

@@ -5,6 +5,7 @@ layout: default
 published: true
 navigation: true
 navigationOrder: 0
+markdown: true
 ---
 
 This is my resume.
