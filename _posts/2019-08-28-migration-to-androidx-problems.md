@@ -18,16 +18,19 @@ to mix up Rx and non-Rx ways. _Spoiler: it's absolutely not._
 
 All of a sudden, after a few months of Bookcrossing Mobile being in Beta release, Google introduced replacement of Support libraries with
 AndroidX. I've immediately downloaded new Android Studio and launched migration. And... everything was broken. I'm sure some of you have
-seen this in your projects, but for me it was frustrating experience. The only option was to wait until developers of the libraries I've
-used will upgrade to AndroidX. Even Jetifier was unable to help with the mess in third-party libraries.
+seen this in your projects. For me it was frustrating experience. The only option was to wait until developers of the libraries I've
+used will upgrade to AndroidX. Even Jetifier was unable to help with the mess in third-party libraries, project didn't even compile.
 
 I was busy with other stuff, so I was unable to invest much resources into refactoring. Only
 after a year and a half I've finally got some time to work on this project again.
 
 (Un)surprisingly, little has changed in terms of AndroidX support. Some libraries
-have migrated, but the majority of them stayed on support libraries.
+have migrated, but the majority of them stayed on support libraries, because they were no longer
+maintained.
 
-Biting the tongue, I've migrated app to AndroidX and replaced every library that hasn't migrated.
+Biting the tongue, I've migrated app to AndroidX and replaced every library that hasn't migrated. It
+took less time that I've expected, mostly because I've got more experience during time of working on
+other stuff.
 
 Now when I'm finished with this, it's time to retrospect on what was wrong and how
 you can avoid my mistakes and save a lot of time in the future when you'll
