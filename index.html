@@ -1,3 +1,16 @@
 ---
-layout: home
+layout: page
+includeNavigation: true
 ---
+
+{% unless posts_total == 0 %}
+  {%- comment -%} <div class="my-6"> {%- endcomment -%}
+    {% include thoughts.html %}
+  {%- comment -%} </div> {%- endcomment -%}
+{% endunless %}
+
+{% if site.data.cameron.topics %}
+  <div class="my-6">
+    {% include interests.html %}
+  </div>
+{% endif %}
