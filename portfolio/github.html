@@ -11,7 +11,10 @@ navigationOrder: 1
 
 {% assign repos = site.data.cameron.repos %}
 
-<div class="d-sm-flex flex-wrap gutter-condensed mb-4">
+<p class="f4 text-gray">An overview of my public GitHub repositories, sorted by recent activity.</p>
+
+<div class="d-sm-flex flex-wrap gutter-condensed mb-4 mt-6">
+
   {% if repos.sort_by == 'stars' %}
     {% assign sort_order = 'stargazers_count,last' %}
   {% else %}
