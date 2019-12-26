@@ -22,7 +22,6 @@ social_media:
   # youtube: your_username
 
 topics:
-
   #################
   # Examples:
   # - name: CSS
@@ -40,6 +39,120 @@ topics:
   - name: Go
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/go/go.png
   - name: TypeScript
+
+technologies:
+  # Languages
+  - name: TypeScript
+    image_path: "/assets/images/technologies/typescript.png"
+  - name: Go
+    image_path: "/assets/images/technologies/go.png"
+  - name: Python
+    image_path: "/assets/images/technologies/python.png"
+  - name: Java
+    image_path: "/assets/images/technologies/java.png"
+  - name: Bash
+    image_path: "/assets/images/technologies/bash.png"
+  - name: C++
+    image_path: "/assets/images/technologies/cpp.png"
+  - name: Swift
+    image_path: "/assets/images/technologies/swift.png"
+  - name: Objective-C
+    image_path: "/assets/images/technologies/objective-c.png"
+  - name: JavaScript
+    image_path: "/assets/images/technologies/javascript.png"
+  - name: HTML
+    image_path: "/assets/images/technologies/html.png"
+  - name: CSS
+    image_path: "/assets/images/technologies/css.png"
+  - name: Sass
+    image_path: "/assets/images/technologies/sass.png"
+  - name: C
+    image_path: "/assets/images/technologies/c.png"
+  - name: C#
+    image_path: "/assets/images/technologies/csharp.png"
+  - name: SQL
+    image_path: "/assets/images/technologies/sql.png"
+  - name: MySQL
+    image_path: "/assets/images/technologies/mysql.png"
+  # Cloud Computing
+  - name: Kubernetes
+    image_path: "/assets/images/technologies/kubernetes.png"
+  - name: Azure
+    image_path: "/assets/images/technologies/azure.png"
+  - name: AWS
+    image_path: "/assets/images/technologies/aws.png"
+  - name: OpenShift
+    image_path: "/assets/images/technologies/openshift.png"
+  # Tools
+  - name: Git
+    image_path: "/assets/images/technologies/git.png"
+  - name: Docker
+    image_path: "/assets/images/technologies/docker.png"
+  - name: npm
+    image_path: "/assets/images/technologies/npm.png"
+  - name: pip
+    image_path: "/assets/images/technologies/python.png"
+  - name: Maven
+    image_path: "/assets/images/technologies/maven.png"
+  - name: Helm
+    image_path: "/assets/images/technologies/helm.png"
+  - name: VSCode
+    image_path: "/assets/images/technologies/vscode.jpeg"
+  - name: VIM
+    image_path: "/assets/images/technologies/vim.png"
+  - name: Terraform
+    image_path: "/assets/images/technologies/terraform.png"
+  - name: Grunt
+    image_path: "/assets/images/technologies/grunt.svg"
+  - name: Gulp
+    image_path: "/assets/images/technologies/gulp.png"
+  - name: Ansible
+    image_path: "/assets/images/technologies/ansible.png"
+  # CI/CD
+  - name: Jenkins
+    image_path: "/assets/images/technologies/jenkins.jpeg"
+  - name: Azure Dev Ops
+    image_path: "/assets/images/technologies/azuredevops.png"
+  - name: CircleCI
+    image_path: "/assets/images/technologies/circleci.png"
+  - name: Travis CI
+    image_path: "/assets/images/technologies/travisci.jpeg"
+  # Frameworks
+  - name: Django
+    image_path: "/assets/images/technologies/django.png"
+  - name: React
+    image_path: "/assets/images/technologies/react.png"
+  - name: Redux
+    image_path: "/assets/images/technologies/redux.png"
+  - name: AngularJS (1.0)
+    image_path: "/assets/images/technologies/angular.png"
+  - name: Spring
+    image_path: "/assets/images/technologies/spring.png"
+  - name: Jekyll
+    image_path: "/assets/images/technologies/jekyll.png"
+  - name: Cordova
+    image_path: "/assets/images/technologies/cordova.jpeg"
+  - name: Capacitor
+    image_path: "/assets/images/technologies/capacitor.jpeg"
+  - name: Express
+    image_path: "/assets/images/technologies/express.png"
+  - name: Flask
+    image_path: "/assets/images/technologies/flask.png"
+  - name: Bootstrap
+    image_path: "/assets/images/technologies/bootstrap.png"
+  - name: SemanticUI
+    image_path: "/assets/images/technologies/semanticui.png"
+  - name: Primer CSS
+    image_path: "/assets/images/technologies/primercss.png"
+  - name: .NET
+    image_path: "/assets/images/technologies/dotnet.png"
+  - name: Kafka
+    image_path: "/assets/images/technologies/kafka.png"
+  # Other
+  - name: Nginx
+    image_path: "/assets/images/technologies/nginx.png"
+  - name: Grafana
+    image_path: "/assets/images/technologies/grafana.jpeg"
 
 repos:
   sort_by: pushed

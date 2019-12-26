@@ -1,0 +1,24 @@
+---
+layout: page
+title: Technologies
+permalink: "/technologies/"
+published: true
+
+includeNavigation: true
+navigation: true
+navigationOrder: 2
+---
+
+<p class="mb-6">
+  The following is a collection of languages, services, frameworks, and other miscellaneous technologies
+  that I have real world experience with. I consider myself a bit of a "Jack of all Trades", and take
+  pride in my ability to quickly learn and apply a technology.
+</p>
+
+<div class="d-flex flex-wrap gutter-condensed mb-4">
+  {% for topic in site.data.cameron.technologies %}
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-3">
+      {% include topic-card.html %}
+    </div>
+  {% endfor %}
+</div>
