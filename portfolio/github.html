@@ -1,19 +1,18 @@
 ---
 layout: page
 title: GitHub Repositories
+subtitle: An overview of my public GitHub repositories, sorted by recent activity
 permalink: "/github/"
 published: true
 
 includeNavigation: true
 navigation: true
-navigationOrder: 1
+navigationOrder: 2
 ---
 
 {% assign repos = site.data.cameron.repos %}
 
-<p class="f4 text-gray">An overview of my public GitHub repositories, sorted by recent activity.</p>
-
-<div class="d-sm-flex flex-wrap gutter-condensed mb-4 mt-6">
+<div class="d-sm-flex flex-wrap gutter-condensed mb-4">
 
   {% if repos.sort_by == 'stars' %}
     {% assign sort_order = 'stargazers_count,last' %}
