@@ -1,41 +1,52 @@
 ---
-layout: page
+layout: root
 ---
 
-<div class="container-xl f4 text-left p-3 p-sm-5 mt-6">
-  <p class="f5"><a href="/" class="d-flex flex-items-center">{% octicon chevron-left height:16 class:"mr-2 v-align-middle" fill:#0366d6 aria-label:Home %}Home</a></p>
-  <h1 class="f00-light lh-condensed">{{ page.title }}</h1>
-  <p class="{% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">Published {{ page.date | date: "%b %d, %Y"}}</p>
-  {% if site.social_media %}
-    {% assign shareable_social_media = '' | split: ',' %}
-
-    {% for account in site.social_media %}
-      {% assign service_shortname = account[0] %}
-      {% assign service = site.data.social_media[service_shortname] %}
-
-      {% if service.share_url_prefix %}
-        {% assign shareable_social_media = shareable_social_media | push: service %}
-      {% endif %}
-    {% endfor %}
-
-    {% assign total_shareable_services = shareable_social_media | size %}
-
-    {% if total_shareable_services > 0 %}
-      <div class="mb-4">
-        <ul class="d-flex flex-justify-end list-style-none">
-          {% for service in shareable_social_media %}
-            <li class="d-inline mt-sm-3 ml-2">
-              <a href="{{ service.share_url_prefix }}{{ page.url | prepend: site.url | prepend: site.baseurl | url_encode }}" title="Share on {{ service.name }}">
-                <div style="width:32px">{{ service.icon_svg }}</div>
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    {% endif %}
-  {% endif %}
-  <div class="article">
-    {{ content }}
+<div class="bg-white">
+  <div class="container-xl pt-6 p-responsive text-center">
+    {% include masthead.html metadata=false %}
+    {% include navigation.html %}
   </div>
+</div>
 
+<div class="border-top">
+  <div class="container-xl f4 text-left p-3 p-sm-5 mt-6">
+    <h1 class="f00-light lh-condensed">{{ page.title }}</h1>
+    <p class="{% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">Published {{ page.date | date: "%b %d, %Y"}}</p>
+    {% if site.data.cameron.social_media %}
+      {% assign shareable_social_media = '' | split: ',' %}
+
+      {% for account in site.data.cameron.social_media %}
+        {% assign service_shortname = account[0] %}
+        {% assign service = site.data.social_media[service_shortname] %}
+
+        {% if service.share_url_prefix %}
+          {% assign shareable_social_media = shareable_social_media | push: service %}
+        {% endif %}
+      {% endfor %}
+
+      {% assign total_shareable_services = shareable_social_media | size %}
+
+      {% if total_shareable_services > 0 %}
+        <div class="mb-4">
+          <ul class="d-flex flex-justify-end list-style-none">
+            {% for service in shareable_social_media %}
+              <li class="d-inline mt-sm-3 ml-2">
+                <a href="{{ service.share_url_prefix }}{{ page.url | prepend: site.url | prepend: site.baseurl | url_encode }}" title="Share on {{ service.name }}">
+                  <div style="width:32px">{{ service.icon_svg }}</div>
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+    {% endif %}
+    <div class="article">
+      {{ content }}
+
+      <div class="text-center">
+        {% include mastfoot.html %}
+      </div>
+    </div>
+  </div>
 </div>
