@@ -1,8 +1,4 @@
-{% if site.layout == 'stacked' %}
-  {% assign metadata_styles = 'd-md-inline-block mx-3 mb-1 mb-md-0' %}
-{% else %}
-  {% assign metadata_styles = 'd-flex flex-items-center mb-3's %}
-{% endif %}
+{% assign metadata_styles = 'd-md-inline-block mx-3 mb-1 mb-md-0' %}
 
 <div class="f4 mt-10 border-top pt-6">
     <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
@@ -34,7 +30,7 @@
     </div>
 
     {% if site.data.cameron.social_media %}
-        <div class="d-flex flex-wrap flex-items-start {% if site.layout == 'stacked' %}flex-justify-center mt-1 mt-md-3{% endif %}">
+        <div class="d-flex flex-wrap flex-items-start flex-justify-center mt-4 mt-md-3">
         {% for account in site.data.cameron.social_media %}
             <div class="{% unless forloop.last == true %}mr-3{% endunless %} mb-3">
             {% assign service_shortname = account[0] %}
