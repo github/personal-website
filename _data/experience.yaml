@@ -1,0 +1,85 @@
+timeline:
+  events:
+    # Degrees
+    - type: degree
+      name: High School Diploma
+      year: 2012
+      month: 5
+      date: May 2012
+      school: Santa Rosa High School
+      school_url: https://www.santarosahighschool.net/
+    - type: degree
+      name: BS Software Engineering
+      year: 2018
+      month: 6
+      date: June 2018
+      school: California Polytechnic State University
+      school_url: https://www.calpoly.edu/
+      degree_url: http://catalog.calpoly.edu/collegesandprograms/collegeofengineering/computersciencesoftwareengineering/bssoftwareengineering/
+    - type: degree
+      name: AS Computer Science
+      year: 2015
+      month: 5
+      date: May 2015
+      school: Cuesta College
+      school_url: https://www.cuesta.edu/
+      degree_url: https://www.cuesta.edu/academics/wed/bused/cis/cis-catalog.html
+    - type: degree
+      name: AS-T Mathematics
+      year: 2015
+      month: 5
+      date: May 2015
+      school: Cuesta College
+      school_url: https://www.cuesta.edu/
+      degree_url: https://www.cuesta.edu/academics/scimath/math/math-catalog.html
+    - type: degree
+      name: AS-T Physics
+      year: 2015
+      month: 5
+      date: May 2015
+      school: Cuesta College
+      school_url: https://www.cuesta.edu/
+      degree_url: https://www.cuesta.edu/academics/scimath/physcience/physics/physics-catalog.html
+    - type: degree
+      name: AA Liberal Arts Math & Science
+      year: 2015
+      month: 5
+      date: May 2015
+      school: Cuesta College
+      school_url: https://www.cuesta.edu/
+    # Internships
+    - type: internship
+      name: Keysight Technologies
+      year: 2015
+      month: 5
+      date: May 2015 - August 2015
+      company_url: https://www.keysight.com/us/en/about.html
+    - type: internship
+      name: Worldspinner
+      year: 2015
+      month: 11
+      date: November 2015 - September 2018
+      company_url: https://worldspinner.com
+    - type: internship
+      name: Microsoft
+      year: 2017
+      month: 6
+      date: June 2017 - August 2017
+      company_url: https://www.microsoft.com/en-us/about
+    # Jobs
+    - type: job-start
+      name: Microsoft
+      title: Software Engineer
+      year: 2018
+      month: 9
+      date: September 2018
+      company_url: https://www.microsoft.com/en-us/about
+    # Promotions
+    - type: promotion
+      name: Microsoft
+      year: 2019
+      month: 9
+      date: September 2019
+      from: Software Engineer
+      to: Software Engineer II
+      company_url: https://www.microsoft.com/en-us/about

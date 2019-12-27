@@ -1,0 +1,87 @@
+---
+layout: page
+title: Experience
+subtitle: A timeline of major events in my life that have contributed to my experience as a Software Engineer
+permalink: "/experience/"
+published: true
+
+includeNavigation: true
+navigation: true
+navigationOrder: 1
+---
+
+{% assign all_events = site.data.experience.timeline.events %}
+{% assign events_by_year = all_events | group_by:"year" | sort:"name" | reverse %}
+{% for year in events_by_year %}
+  {% assign year_events = year.items | sort:"month" | reverse %}
+  {% for event in year_events %}
+    <div class="TimelineItem">
+
+      {% if event.type == "degree" %}
+        <div class="TimelineItem-badge">
+          {% octicon mortar-board %}
+        </div>
+        <div class="TimelineItem-body">
+          <span class="text-bold">{{ event.date }}</span>:
+          {% if event.degree_url %}
+            Earned <a class="text-bold link-gray-dark" href="{{ event.degree_url }}">{{ event.name }}</a>
+          {% else %}
+            Earned <span class="text-bold">{{ event.name }}</span>
+          {% endif %}
+          {% if event.school_url %}
+            at <a class="text-bold link-gray-dark" href="{{ event.school_url }}">{{ event.school }}</a>
+          {% else %}
+            at <span class="text-bold">{{ event.school }}</span>
+          {% endif %}
+        </div>
+      
+      {% elsif event.type == "internship" %}
+        <div class="TimelineItem-badge">
+          {% octicon organization %}
+        </div>
+        <div class="TimelineItem-body">
+          <span class="text-bold">{{ event.date }}</span>:
+          {% if event.company_url %}
+            Internship at <a class="text-bold link-gray-dark" href="{{ event.company_url }}">{{ event.name }}</a>
+          {% else %}
+            Internship at <span class="text-bold">{{ event.name }}</span>
+          {% endif %}
+        </div>
+
+      {% elsif event.type == "job-start" %}
+        <div class="TimelineItem-badge">
+          {% octicon organization %}
+        </div>
+        <div class="TimelineItem-body">
+          <span class="text-bold">{{ event.date }}</span>:
+          {% if event.company_url %}
+            Started work at <a class="text-bold link-gray-dark" href="{{ event.company_url }}">{{ event.name }}</a>
+          {% else %}
+            Started work at <span class="text-bold">{{ event.name }}</span>
+          {% endif %}
+        </div>
+      
+      {% elsif event.type == "promotion" %}
+        <div class="TimelineItem-badge">
+          {% octicon rocket %}
+        </div>
+        <div class="TimelineItem-body">
+          <span class="text-bold">{{ event.date }}</span>:
+          Promoted from <span class="text-bold">{{ event.from }} </span>
+          to <span class="text-bold">{{ event.to }}</span> at
+          {% if event.company_url %}
+            <a href="{{ event.company_url }}" class="text-bold link-gray-dark">{{ event.name }}</a>
+          {% else %}
+            <span class="text-bold">{{ event.name }}</span>
+          {% endif %}
+        </div>
+
+      {% else %}
+        <p class="text-red">UNKNOWN EVENT TYPE</p>
+        {{ event }}
+
+      {% endif %}
+
+    </div>
+  {% endfor %}
+{% endfor %}
