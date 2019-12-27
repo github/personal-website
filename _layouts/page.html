@@ -13,14 +13,16 @@ layout: root
 
 <div class="bg-gray-light border-top pb-6">
   <div class="container-xl f4 text-left p-3 p-sm-5 m-responsive">
-    {% if page.title %}
-      <div class="mt-6">
-        <h1 class="f00-light lh-condensed mb-2">{{ page.title }}</h1>
-        {% if page.subtitle %}
-          <p class="f4 text-gray">{{ page.subtitle }}</p>
-        {% endif %}
-      </div>
-    {% endif %}
+    {% unless page.skipTitle %}
+      {% if page.title %}
+        <div class="mt-6">
+          <h1 class="f00-light lh-condensed mb-2">{{ page.title }}</h1>
+          {% if page.subtitle %}
+            <p class="f4 text-gray">{{ page.subtitle }}</p>
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endunless %}
 
     <div class="mt-6">
       {{ content }}
