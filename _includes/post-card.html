@@ -2,7 +2,7 @@
   <div class="d-flex flex-justify-between flex-items-start mb-1">
     <h1 class="f4 lh-condensed mb-1">
       <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
+        {{ post.title | escape }}
       </a>
     </h1>
   </div>
