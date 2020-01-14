@@ -7,7 +7,7 @@
 <img src="{{ user.avatar_url }}" class="circle mb-3" style="max-width: 150px;">
 <h1 class="{% if site.style == 'dark' %}text-white{% endif %} mb-2 lh-condensed">{% if user.name %}{{ user.name }}{% else %}{{ user.login }}{% endif %}</h1>
 <p class="mb-3 f4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
-  {{ user.bio }}
+  {{ user.bio | escape }}
 </p>
 
 {% if include.metadata %}
@@ -16,7 +16,7 @@
       <div class="{{ metadata_styles }}">
         {% octicon mark-github height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
         <a href="https://github.com/{{ user.login }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
-          @{{ user.login }}
+          @{{ user.login | escape }}
         </a>
       </div>
     {% endif %}
@@ -24,14 +24,14 @@
       <div class="{{ metadata_styles }}">
         {% octicon mail height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:email %}
         <a href="mailto:{{ user.email }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
-          {{ user.email }}
+          {{ user.email | escape }}
         </a>
       </div>
     {% endif %}
     {% if user.location %}
       <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
         {% octicon location height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Location %}
-        {{ user.location }}
+        {{ user.location | escape }}
       </div>
     {% endif %}
     {% if site.social_media %}
@@ -41,7 +41,7 @@
             {% assign service_shortname = account[0] %}
             {% assign service = site.data.social_media[service_shortname] %}
             <a href="{{ service.profile_url_prefix }}{{ account[1] }}" class="tooltipped tooltipped-se" aria-label="{{ service.name }}: {{ account[1] }}">
-              {{ service.icon_svg }}<span class="d-none">{{ service.name }}</span>
+              {{ service.icon_svg }}<span class="d-none">{{ service.name | escape }}</span>
             </a>
           </div>
         {% endfor %}
