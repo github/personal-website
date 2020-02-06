@@ -6,7 +6,7 @@
 <a href="{{ site.url }}{{ site.baseurl | append:'/' }}">
 <img src="{{ user.avatar_url }}" class="circle mb-3" style="max-width: 150px;">
 </a>
-<h1 class="{% if site.style == 'dark' %}text-white{% endif %} mb-2 lh-condensed"><a href="https://github.com/{{ user.login }}">{% if user.name %}{{ user.name }}{% else %}{{ user.login }}{% endif %}</a></h1>
+<h1 class="{% if site.style == 'dark' %}text-white{% endif %} mb-2 lh-condensed"><a href="{{ site.url }}{{ site.baseurl | append:'/' }}">{% if user.name %}{{ user.name }}{% else %}{{ user.login }}{% endif %}</a></h1>
 <p class="mb-3 f4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
   {{ user.bio }}
 </p>
