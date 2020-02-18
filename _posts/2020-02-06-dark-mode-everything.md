@@ -1,6 +1,7 @@
 ---
 title: Dark mode-ing everything
 layout: post
+tags: [darkmode, css]
 ---
 
 Dark mode's awesome, I love it. On every website I make I started implementing it. 
