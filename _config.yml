@@ -1,6 +1,5 @@
 layout: sidebar
 style: light
-theme: jekyll-theme-hacker
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
