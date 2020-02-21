@@ -15,7 +15,7 @@ defaults:
       layout: post
 projects:
   sort_by: pushed
-  limit: 12
+  limit: 6
   exclude:
     archived: false
     forks: true
