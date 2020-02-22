@@ -24,23 +24,23 @@ projects:
   limit: 12
   exclude:
     archived: false
-    forks: true
+    forks: false
     projects:
     # - repo-name
 
 # social_media:
-  # behance: your_username
+   # behance: your_username
   # dribbble: your_username
-  # facebook: your_username
+   facebook: Tumo Kgosiyame
   # hackerrank: your_username
-  # instagram: your_username
+   instagram: tumo_505
   # keybase: your_username
-  # linkedin: your_username
+   linkedin: Tumo Kgosiyame
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
   # telegram: your_username
-  # twitter: your_username
+   twitter: Tumo505
   # unsplash: your_username
   # vk: your_username
   # website: http://your_website_url
