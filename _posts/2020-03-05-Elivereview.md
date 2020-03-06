@@ -1,5 +1,5 @@
 ---
-title: <REVIEW> Elive 3.8.2 (beta)
+title: <REVIEW> Elive 3.8.2 (Review)
 published: true
 ---
 Elive. Just the name of it is awesome. And the OS is even better. It's based off of Debian "Buster" and its DE is Enlightenment. The
