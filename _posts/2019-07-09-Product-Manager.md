@@ -1,5 +1,5 @@
 ---
-title: "招聘：产品经理（2人）"
+title: "招聘：产品经理（2人）[已结束]"
 published: true
 categories: [招聘]
 tags: [产品职位]
