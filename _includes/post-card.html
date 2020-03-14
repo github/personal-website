@@ -3,6 +3,18 @@
     <h1 class="f4 lh-condensed mb-1">
       <a href="{{ site.baseurl }}{{ post.url }}">
         {{ post.title }}
+        <br>
+        <br>
+        {% if post.image_url %}
+        <img src="{{ site.baseurl }}assets/images/{{ post.image_url }}" width="100%" class="mx-auto rounded-1 mb-3" alt="{{ post.image_url }}">
+        {% else %}
+          <div
+            class="bg-blue-light f4 text-gray-light text-bold rounded-1 flex-shrink-0 text-center mx-auto mb-3"
+            style="width:64px; height:64px; line-height:64px;"
+          >
+            #
+          </div>
+        {% endif %}
       </a>
     </h1>
   </div>
