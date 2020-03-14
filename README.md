@@ -69,6 +69,8 @@ When you host your personal website's code on GitHub, you get the support of fre
 
 **The fastest approach** is to rename your repository `username.github.io`, where `username` is your GitHub username (or organization name). Then, the next time you push any changes to your repository's `master` branch, they'll be accessible on the web at your `username.github.io` address.
 
+**For arbitrary repository names**, you need to enable GitHub pages in “Settings › Options › GitHub Pages” and set the source to the `master` branch. Your site will then be available under `‹username›.github.io/‹reponame›` after a short while.
+
 **If you want to use a custom domain**, you'll want to add it to your repository's "Custom domain" settings on github.com. And then register and/or [configure your domain with a DNS provider](https://help.github.com/articles/quick-start-setting-up-a-custom-domain/).
 
 ## Customization
