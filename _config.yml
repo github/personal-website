@@ -1,5 +1,6 @@
-layout: sidebar
+layout: stacked
 style: light
+port: 4441
 
 plugins:
   - jekyll-octicons
@@ -21,9 +22,9 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 4
   exclude:
-    archived: false
+    archived: true
     forks: true
     projects:
     # - repo-name
@@ -45,14 +46,3 @@ projects:
   # vk: your_username
   # website: http://your_website_url
   # youtube: your_username
-
-topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
-
-  - name: Web design
-
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
