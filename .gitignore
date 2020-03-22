@@ -4,3 +4,5 @@
 _site/
 Gemfile.lock
 **/.ruby-version
+.DS_Store
+
