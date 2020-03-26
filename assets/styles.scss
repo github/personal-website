@@ -149,7 +149,8 @@ img.logo:hover {
   -moz-animation-name: color-rotate 2s; 
   -moz-animation-iteration-count: infinite; 
   -moz-animation-direction: alternate;
-  animation: color-rotate 2s;
+  animation-name: color-rotate;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
