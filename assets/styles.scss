@@ -127,3 +127,29 @@ html {
 .lh-condensed a:hover {
   text-decoration: none;
 }
+@keyframes color-rotate {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+@-moz-keyframes color-rotate {
+  /* older versions of FF */
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+
+img.logo:hover {
+  -moz-animation-name: color-rotate 2s; 
+  -moz-animation-iteration-count: infinite; 
+  -moz-animation-direction: alternate;
+  animation: color-rotate 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
