@@ -1,0 +1,43 @@
+{% if service.web_url %}
+  <a href="{{ service.web_url }}" class="github-component position-relative hover-grow height-full no-underline d-flex flex-column flex-justify-center text-center border border-gray-light rounded-1 bg-white p-5">
+    {% if service.image_url %}
+      <img src="{{ service.image_url }}" width="64" height="64" class="mx-auto rounded-1 mb-3" alt="{{ service.name }}">
+    {% else %}
+      {% if service.octicon %}
+        {% octicon {{service.octicon}} height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:phone %}
+      {% else %}
+        <div
+          class="bg-blue-light f4 text-gray-light text-bold rounded-1 flex-shrink-0 text-center mx-auto mb-3"
+          style="width:64px; height:64px; line-height:64px;"
+        >
+          #
+        </div>
+      {% endif %}
+    {% endif %}
+  </a>
+{% else %}
+  <div class="github-component position-relative height-full text-center border border-gray-light rounded-1 bg-white p-5">
+    {% if service.image_url %}
+      <img src="{{ service.image_url }}" width="64" height="64" class="mx-auto rounded-1 mb-3" alt="{{ service.name }}">
+    {% else %}
+      {% if service.octicon %}
+        {% octicon {{service.octicon}} height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:phone %}
+      {% else %}
+        <div
+          class="bg-blue-light f4 text-gray-light text-bold rounded-1 flex-shrink-0 text-center mx-auto mb-3"
+          style="width:64px; height:64px; line-height:64px;"
+        >
+          #
+        </div>
+      {% endif %}
+    {% endif %}
+
+    {% if service.time %}
+      <p class="f4 text-green text-center mb-0 mt-1">{{ service.time }}</p>
+    {% endif %}
+    <p class="f3 lh-condensed text-center mb-0 mt-1">{{ service.name }}</p>
+    {% if service.description %}
+      <p class="f5 text-gray text-center mb-0 mt-1">{{ service.description }}</p>
+    {% endif %}
+  </div>
+{% endif %}

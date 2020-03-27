@@ -1,9 +1,0 @@
-<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>My Interests</h2>
-<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">Topics that I want to learn more about.</p>
-<div class="d-flex flex-wrap gutter-condensed mb-4">
-  {% for topic in site.topics %}
-    <div class="col-6 col-md-12 col-lg-6 col-xl-4 mb-3">
-      {% include topic-card.html %}
-    </div>
-  {% endfor %}
-</div>

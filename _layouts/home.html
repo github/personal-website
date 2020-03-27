@@ -4,25 +4,25 @@
   <div class="container-lg py-6 p-responsive text-center">
     {% include masthead.html metadata=true %}
 
+    {% unless posts_total == 0 %}
+    <div class="my-6">
+      {% include news.html %}
+    </div>
+    {% endunless %}
+
     <div {% if site.style == 'dark' %}class="text-white"{% endif %}>
       {{ content }}
     </div>
 
-    <div class="my-6">
+    <!-- <div class="my-6">
       {% include projects.html %}
-    </div>
+    </div> -->
 
-    {% if site.topics %}
+    {% if site.services %}
       <div class="my-6">
-        {% include interests.html %}
+        {% include services.html %}
       </div>
     {% endif %}
-
-    {% unless posts_total == 0 %}
-      <div class="my-6">
-        {% include thoughts.html %}
-      </div>
-    {% endunless %}
   </div>
 {% else %}
   <div class="d-md-flex min-height-full {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
@@ -32,21 +32,21 @@
 
     <div class="col-md-7 col-lg-8 col-xl-9 px-4 py-6 px-lg-7 border-top border-md-top-0 bg-gray-light" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
       <div class="mx-auto" style="max-width: 900px;">
+        {% unless posts_total == 0 %}
+          {% include news.html %}
+        {% endunless %}
+        
         {% unless content == ""  %}
           <div class="f4 {% if site.style == 'dark' %}text-white{% endif %} mb-6">
             {{ content }}
           </div>
         {% endunless %}
 
-        {% include projects.html %}
+        <!-- {% include projects.html %} -->
 
-        {% if site.topics %}
-          {% include interests.html %}
+        {% if site.services %}
+          {% include services.html %}
         {% endif %}
-
-        {% unless posts_total == 0 %}
-          {% include thoughts.html %}
-        {% endunless %}
       </div>
     </div>
   </div>

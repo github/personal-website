@@ -1,5 +1,5 @@
 layout: sidebar
-style: light
+style: dark
 
 plugins:
   - jekyll-octicons
@@ -28,31 +28,32 @@ projects:
     projects:
     # - repo-name
 
-# social_media:
-  # behance: your_username
-  # dribbble: your_username
-  # facebook: your_username
-  # hackerrank: your_username
-  # instagram: your_username
-  # keybase: your_username
-  # linkedin: your_username
-  # mastodon: your_username
-  # medium: your_username
-  # stackoverflow: your_user_id
-  # telegram: your_username
-  # twitter: your_username
-  # unsplash: your_username
-  # vk: your_username
-  # website: http://your_website_url
-  # youtube: your_username
+social_media:
+  facebook: WorthingtonBaptistChurch
+  #youtube: your_username
 
-topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+contact:
+    address: 327 East Ross Street 
+    city: Worthington
+    state: PA
+    zipCode: 16262
+    phone: (724) 297-3360
 
-  - name: Web design
+services:
+  - name: Sunday School
+    time: 9:45 am
+    description: Sunday school for children and adults
+    octicon: dashboard
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Sunday Morning
+    time: 10:45 am
+    octicon: book
+
+  - name: Sunday Evening
+    time: 6:00 pm
+    octicon: search
+
+  - name: Wednesday Prayer Meeting
+    time: 7:00 pm
+    octicon: organization
+
