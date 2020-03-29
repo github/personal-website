@@ -8,17 +8,18 @@
       {{ content }}
     </div>
 
+    {% unless posts_total == 0 %}
+      <div class="my-6">
+        {% include news.html %}
+      </div>
+    {% endunless %}
+
     {% if site.services %}
       <div class="my-6">
         {% include services.html %}
       </div>
     {% endif %}
 
-    {% unless posts_total == 0 %}
-      <div class="my-6">
-        {% include news.html %}
-      </div>
-    {% endunless %}
   </div>
 {% else %}
   <div class="d-md-flex min-height-full {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
@@ -34,13 +35,14 @@
           </div>
         {% endunless %}
 
+        {% unless posts_total == 0 %}
+          {% include news.html %}
+        {% endunless %}
+
         {% if site.services %}
           {% include services.html %}
         {% endif %}
 
-        {% unless posts_total == 0 %}
-          {% include news.html %}
-        {% endunless %}
       </div>
     </div>
   </div>
