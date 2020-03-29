@@ -1,5 +1,6 @@
 layout: sidebar
 style: dark
+title: Worthington Baptist Church
 
 plugins:
   - jekyll-octicons
