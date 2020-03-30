@@ -24,7 +24,7 @@ projects:
   limit: 9
   exclude:
     archived: true
-    forks: true
+    forks: false
     projects:
     # - repo-name
 
