@@ -53,3 +53,12 @@
 .min-height-full {
   min-height: 100vh;
 }
+
+.post-image {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  img {
+    width: 90%;
+  }
+}
