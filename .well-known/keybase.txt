@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/francesco17
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://francescofuggitti.github.io
+  * I am francesco17 (https://keybase.io/francesco17) on keybase.
+  * I have a public key ASAGMGoq_n6Kni3tOXq-lZWHAA30BnEFWncYi3Yhuqw7fAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012006306a2afe7e8a9e2ded397abe959587000df40671055a77188b7621baac3b7c0a",
+      "host": "keybase.io",
+      "kid": "012006306a2afe7e8a9e2ded397abe959587000df40671055a77188b7621baac3b7c0a",
+      "uid": "10d998e5c20f7ac357717401dc330e19",
+      "username": "francesco17"
+    },
+    "merkle_root": {
+      "ctime": 1573331528,
+      "hash": "cd34ad4b4fab9f6dbba61ed068f5418e459a3b375a1b26bc8e5896a629443f6a6a9d40c03819d46f54fe8c0520fff8d171ffd0abcb5b43c2536f6c1305efd00a",
+      "hash_meta": "de453875052011d6854a494a3dd52018bdee8de5db207d8aa1cd835af03c4702",
+      "seqno": 9035353
+    },
+    "service": {
+      "entropy": "DRd24CVh9KsKf1uIzkQB3UUe",
+      "hostname": "francescofuggitti.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.7.2"
+  },
+  "ctime": 1573331535,
+  "expire_in": 504576000,
+  "prev": "8356a6ec65309dff1de94b840248b2a01e9bc7d6f16fe45966df8f3a95b83634",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgBjBqKv5+ip4t7Tl6vpWVhwAN9AZxBVp3GIt2IbqsO3wKp3BheWxvYWTESpcCDMQgg1am7GUwnf8d6UuEAkiyoB6bx9bxb+RZZt+POpW4NjTEIHMMubfEce27zG82i0OW17DES11gioRXddhXM1ssSha/AgHCo3NpZ8RAzho9ufrDZO0AYqYsqabXoIQjqXy8AB8HjdtuKVIX846bFVnXbk6r+e/stbpYuKVG7n/YYvArgPbdJVxFX76zDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAO3tmTv4MxWZCqbGPZ2r1V/AI0/kADrekTWnIU0kiz5o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/francesco17
+
+==================================================================
