@@ -1,0 +1,278 @@
+/**
+ * Site header
+ */
+.site-header {
+    border-top: 5px solid $grey-color-dark;
+    border-bottom: 1px solid $grey-color-light;
+    min-height: 56px;
+
+    // Positioning context for the mobile navigation icon
+    position: relative;
+}
+
+.site-title {
+    font-size: 26px;
+    font-weight: 300;
+    margin: 8px 0;
+    display: inline-block;
+
+    &,
+    &:visited {
+        color: $grey-color-dark;
+    }
+}
+
+.site-nav {
+    .menu-icon {
+        display: none;
+    }
+
+    .page-link {
+        color: $text-color;
+        line-height: $base-line-height;
+        padding: 8px 0;
+        display: inline-block;
+
+        // Gaps between nav items, but not on the last one
+        &:not(:last-child) {
+            margin-right: 20px;
+        }
+
+        &.active {
+            padding-bottom: 7px;
+            margin-bottom: -1px;
+            border-bottom: 2px solid $grey-color-dark;
+            @include media-query($on-palm) {
+                border-bottom: none;
+                padding-bottom: 8px;
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    @include media-query($on-palm) {
+        position: absolute;
+        top: 9px;
+        right: $spacing-unit / 2;
+        background-color: $background-color;
+        border: 1px solid $grey-color-light;
+        border-radius: 5px;
+        text-align: right;
+
+        .menu-icon {
+            display: block;
+            float: right;
+            width: 36px;
+            height: 26px;
+            line-height: 0;
+            padding-top: 10px;
+            text-align: center;
+
+            > svg path {
+                fill: $grey-color-dark;
+            }
+        }
+
+        .trigger {
+            clear: both;
+            display: none;
+        }
+
+        &:hover .trigger {
+            display: block;
+            padding-bottom: 5px;
+        }
+
+        .page-link {
+            display: block;
+            padding: 5px 10px;
+
+            &:not(:last-child) {
+                margin-right: 0;
+            }
+            margin-left: 20px;
+        }
+    }
+}
+
+.navigation-wrapper.has-logo {
+    .navigation-links {
+        width: 57%;
+        float: left;
+        @include media-query($on-palm) {
+            width: 100%;
+        }
+    }
+
+    .navigation-logo {
+        width: 43%;
+        float: left;
+        padding: 12px;
+        box-sizing: border-box;
+        text-align: right;
+        height: 95px;
+        img {
+            max-height: 100%;
+        }
+        @include media-query($on-palm) {
+            display: none;
+        }
+    }
+}
+
+/**
+ * Site footer
+ */
+.site-footer {
+    border-top: 1px solid $grey-color-light;
+    padding: $spacing-unit 0;
+}
+
+.footer-heading {
+    font-size: 18px;
+    margin-bottom: $spacing-unit / 2;
+}
+
+.contact-list,
+.social-media-list {
+    list-style: none;
+    margin-left: 0;
+}
+
+.footer-col-wrapper {
+    // font-size: 15px;
+    // color: $grey-color;
+    // margin-left: -$spacing-unit / 2;
+    // @extend %clearfix;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-col {
+    // float: left;
+    margin-bottom: $spacing-unit / 2;
+}
+
+.footer-text {
+  border-top: 1px solid $grey-color-light;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: $spacing-unit / 2 0;
+}
+
+/**
+ * Page content
+ */
+.page-content {
+    padding: $spacing-unit 0;
+}
+
+.page-heading {
+    font-size: 20px;
+}
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+}
+
+.post-link {
+    display: block;
+    font-size: 24px;
+}
+
+/**
+ * Posts
+ */
+.post-header {
+    margin-bottom: $spacing-unit;
+}
+
+.post-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+
+    h2 {
+        font-size: 32px;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+    }
+}
+
+.profile-picture {
+    float: left;
+    margin-right: $spacing-unit;
+    margin-bottom: $spacing-unit;
+    max-width: 40%;
+    border: 6px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+
+    @include media-query($on-palm) {
+        display: block;
+        float: none;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+ul.publications {
+    list-style: none;
+    margin: 0;
+    li {
+        margin-bottom: 16px;
+    }
+    .title {
+        display: block;
+    }
+    .authors {
+        display: block;
+        font-style: italic;
+    }
+    .journal-info {
+        color: $grey-color;
+        font-size: 0.9rem;
+    }
+    .year {
+        float: right;
+        color: $grey-color;
+        font-size: 0.9rem;
+    }
+}

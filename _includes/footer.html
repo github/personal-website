@@ -1,0 +1,37 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <ul class="contact-list">
+          <li>
+            {% if site.author %}
+              {{ site.author | escape }}
+            {% else %}
+              {{ site.title | escape }}
+            {% endif %}
+          </li>
+          {% if site.institute1_name && site.institute2_name %}
+            {% if site.institute_url %}
+            <a href="{{ site.institute_url | escape }}">
+            {% endif %}
+            <li>{{ site.institute1_name }} & {{ site.institute2_name }}</li>
+            {% if site.institute_url %}
+            </a>
+            {% endif %}
+          {% endif %}
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+      </div>
+    </div>
+  </div>
+
+  {% if site.footer %}
+  <div class="footer-text">{{ site.footer }}</div>
+  {% endif %}
+
+</footer>

@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<article class="post">
+
+  <div class="post-content">
+    {% if site.profile_picture %}
+      {% include base.html %}
+      <img src="{{ site.profile_picture | prepend: '/' | prepend: base }}" class="profile-picture" alt="{{ site.author }} profile picture"></img>
+    {% endif %}
+    
+    {{ content }}
+  </div>
+
+</article>

@@ -1,0 +1,40 @@
+<ul class="publications">
+{% for paper in site.papers %}
+  <li class="article">
+      <span class="title">
+        {% if paper.url %}
+          {% if paper.url contains "http://" or paper.url contains "https://" %}
+            {% assign paper_url = paper.url %}
+          {% else %}
+            {% assign paper_url = "http://" | append: paper.url %}
+          {% endif %}
+        {% else %}
+          {% if paper.doi %}
+            {% assign paper_url = "http://dx.doi.org/" | append: paper.doi %}
+          {% else %}
+            {% assign paper_url = nil %}
+          {% endif %}
+        {% endif %}
+        {% if paper_url %}<a href="{{ paper_url | escape }}">{% endif %}
+          {{ paper.title | escape }}
+        {% if paper_url %}</a>{% endif %}
+      </span>
+      <span class="authors">{{ paper.authors | escape }}</span>
+      <span class="journal-info">
+        {% if paper.journal %}
+        <span class="journal">{{ paper.journal | escape }}</span>{% if paper.volume or paper.pages %},{% else %}.{% endif %}
+        {% endif %}
+        {% if paper.volume %}
+          <span class="volume">{{ paper.volume | escape }}</span>{% if paper.number %}<span class="number">({{ paper.number | escape }})</span>{% endif %}{% if paper.pages %},{% else %}.{% endif %}
+        {% endif %}
+        {% if paper.pages %}
+          <span class="pages">{{ paper.pages | escape }}</span>.
+        {% endif %}
+      <span>
+      {% if paper.doi %}
+        <a href="http://dx.doi.org/{{paper.doi}}" class="doi">{{ paper.doi | escape }}</a>
+      {% endif %}
+      <span class="year">{{ paper.date | escape }}</span>
+  </li>
+{% endfor %}
+</ul>
