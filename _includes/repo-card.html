@@ -8,6 +8,15 @@
         </a>
       </h1>
     </div>
+    {% unless repository.topics == 0 %}
+      <div class="mb-1">
+        {% for topic in repository.topics limit: 4 %}
+          <a class="label bg-blue-light text-blue" href="https://github.com/topics/{{ topic }}">
+            {{ topic | truncate: 10 }}
+          </a>
+        {% endfor %}
+      </div>
+    {% endunless %}
     <div class="text-gray mb-2 ws-normal">{{ repository.description }}</div>
   </div>
   <div class="d-flex f6">
