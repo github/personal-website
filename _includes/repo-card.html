@@ -20,7 +20,7 @@
         {% octicon star width:14 height:16 class:"mr-1" aria-label:star %}{{ repository.stargazers_count }}
       </a>
     {% endif %}
-    {% if repository.forks_count %}
+    {% if repository.watchers_count %}
       <a href="{{ repository.html_url }}/watchers" class="d-inline-block link-gray mr-4">
           {% octicon eye width:14 height:16 class:"mr-1" aria-label:forks %}{{ repository.watchers_count }}
       </a>
