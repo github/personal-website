@@ -20,6 +20,19 @@
         </a>
       </div>
     {% endif %}
+    {% if user.company %}
+      <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
+        {% octicon organization height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Company %}
+        {% assign company = user.company | split: " " %}
+        {% for part in company %}
+          {% if part contains "@" %}
+            <a {% if site.style == 'dark' %}class="text-white"{% endif %} href="https://github.com/{{ part | replace: '@', '' }}">{{ part | replace: '@', '' | append: '&nbsp;' }}</a>
+          {% else %}
+            {{ part | append: '&nbsp;' }}
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
     {% if user.email %}
       <div class="{{ metadata_styles }}">
         {% octicon mail height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:email %}
