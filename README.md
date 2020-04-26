@@ -63,6 +63,9 @@ Don't worry about the "No GitHub API authentication could be found" message. [AP
 
 6. Now browse to [http://localhost:4000](http://localhost:4000)
 
+### Docker Build
+```JEKYLL_VERSION=3.8 && docker run --rm   --volume="$PWD:/srv/jekyll" --volume="$PWD/vendor/bundle:/usr/local/bundle"   -p 4000:4000 -it jekyll/jekyll:$JEKYLL_VERSION bundle exec jekyll build```
+
 ### Publish
 
 When you host your personal website's code on GitHub, you get the support of free hosting through GitHub Pages.
