@@ -47,6 +47,6 @@ PPIO 是 PPLabs 旗下第一个产品，是为开发者打造的去中心化存�
 
 <hr>
 
-[关于办公环境及团队日常照片](http://ashma.info/2019/03/02/pic-of-PPLabs/)
+[关于办公环境及团队日常照片](http://www.ashma.info/2019/03/02/pic-of-PPLabs/)
 
 <hr>

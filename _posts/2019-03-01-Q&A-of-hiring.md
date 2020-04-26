@@ -73,6 +73,6 @@ tags: [非招聘内容]
  - 近2号线金科路地铁站，旁边是沪江，对面是七牛云
 <hr>
 
-[关于办公环境及团队日常照片](http://ashma.info/2019/03/02/pic-of-PPLabs/)
+[关于办公环境及团队日常照片](http://www.ashma.info/2019/03/02/pic-of-PPLabs/)
 
 <hr>

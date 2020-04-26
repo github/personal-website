@@ -40,6 +40,6 @@ tags: [非招聘内容]
 ……更多精彩等待后续
 <hr>
 
-[关于公司薪酬福利等招聘答疑请点此了解](http://ashma.info/2019/03/01/Q&A-of-hiring/)
+[关于公司薪酬福利等招聘答疑请点此了解](http://www.ashma.info/2019/03/01/Q&A-of-hiring/)
 
 <hr>

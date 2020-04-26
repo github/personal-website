@@ -249,6 +249,6 @@ tags: [技术职位]
 ### 内推邮箱：ash@pplabs.org
 <hr>
 
-[关于公司薪酬福利等招聘答疑请点此了解](http://ashma.info/2019/03/01/Q&A-of-hiring/)
+[关于公司薪酬福利等招聘答疑请点此了解](http://www.ashma.info/2019/03/01/Q&A-of-hiring/)
 
 <hr>
