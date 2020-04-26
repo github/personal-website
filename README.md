@@ -229,6 +229,7 @@ You also have the option to add on to and extend Primer's styles by adding custo
 1. Rename fix build automated build pipeline
 1. Create a uat subdomain and branch and a prod branch to better facilitate testing
 1. Figure out better docker commands for local development 
+1. Remove github fav icon
 
 ## License
 
