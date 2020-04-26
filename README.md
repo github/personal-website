@@ -223,6 +223,12 @@ You are, of course, welcome to remove it or replace it with another framework. J
 
 You also have the option to add on to and extend Primer's styles by adding custom CSS to your `/assets/styles.scss` Sass stylesheet. By editing this file, you can customize your website's color scheme, typography, and more.
 
+## Tasks
+1. Rename git repo
+1. Rename heroku app
+1. Rename fix build automated build pipeline
+1. Create a uat subdomain and branch and a prod branch to better facilitate testing
+1. Figure out better docker commands for local development 
 
 ## License
 
