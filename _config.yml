@@ -6,6 +6,8 @@ plugins:
   - jekyll-octicons
   - jemoji
 
+repository: sorvis/WorthingtonBaptistChurch
+
 permalink: /:year/:month/:day/:title/
 
 defaults:
