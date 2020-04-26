@@ -3,6 +3,9 @@
     <h1 class="f4 lh-condensed mb-1">
       <a href="{{ site.baseurl }}{{ post.url }}">
         {{ post.title }}
+        {% if post.thumbnail %}
+        <img src="{{post.thumbnail}}" style="max-width: 150px;">
+        {% endif %}
       </a>
     </h1>
   </div>
