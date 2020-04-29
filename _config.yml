@@ -27,11 +27,10 @@ projects:
     forks: false
     projects:
       - python-gui-calculator
-      - hide-app #because i need to undo commit.
   #include:
     #projects:
-      #- python-text-calculator
-      #- adventure-game
+      - python-text-calculator
+      - adventure-game
 
 social_media:
   # behance: your_username
@@ -48,8 +47,8 @@ social_media:
   # twitter: your_username
   # unsplash: your_username
   # vk: your_username
-  # website: http://your_website_url
-  # youtube: your_username
+  website: https://thetechrobo.github.io
+  # youtube: TtRTech
 
 topics:
   - name: Python
