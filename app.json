@@ -1,3 +1,11 @@
 {
-    "name": "Worthington Baptist Church"
+    "name": "Worthington Baptist Church",
+    "buildpacks":[
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-ruby"
+        },
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-static"
+        }
+    ]
 }
