@@ -2,7 +2,7 @@
     "name": "Worthington Baptist Church",
     "buildpacks":[
         {
-            "url": "https://github.com/andycroll/heroku-buildpack-jekyll"
+            "url": "https://github.com/bacongobbler/heroku-buildpack-jekyll"
         }
     ]
 }
