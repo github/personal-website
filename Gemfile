@@ -5,3 +5,4 @@ gem "jekyll-octicons"
 gem "jemoji"
 gem 'jekyll'
 gem 'RedCloth'
+gem 'rake'
