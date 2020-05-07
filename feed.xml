@@ -3,13 +3,13 @@
 <channel>
 <title>TheTechRobo's Development</title>
 <link>thetechrobo.github.io/kickStartSite</link>
-<description>All my repos/blogposts</description>
+<description>All my blog posts are here</description>
 <item>
-<title>BGLUGwatch development has been suspended at 0.0.1!</title>
-<link>https://thetechrobo.github.io/kickStartSite/_posts/2020-02-21-BGLUGwatchsuspended</link>
-<guid>https://thetechrobo.github.io/kickStartSite/_posts/2020-02-21-BGLUGwatchsuspended</guid>
-<pubDate>Fri, 21 Feb 2020 14:43 EST</pubDate>
-<description>I have suspended development on BGLUGwatch because...</description>
+<title>Kagi: a new search engine, or a complete failure?</title>
+<link>https://thetechrobo.github.io/kickStartSite/2020/05/07/Kagi/</link>
+<guid>https://thetechrobo.github.io/kickStartSite/2020/05/07/Kagi/</guid>
+<pubDate>Thurs, 7 May 2020 17:40 EST</pubDate>
+<description>A new search engine is in the works.</description>
 </item>
 </channel>
 </rss>
