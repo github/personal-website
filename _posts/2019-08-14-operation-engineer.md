@@ -1,6 +1,6 @@
 ---
 title: "招聘：初级运维工程师[已结束]"
-published: true
+published: false
 categories: [招聘]
 tags: [技术职位]
 ---
