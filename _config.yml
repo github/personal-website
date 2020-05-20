@@ -23,6 +23,7 @@ projects:
   #   - stars
   limit: 0
   exclude:
+    archived: false
     forks: true
     projects:
     # - repo-name
@@ -32,12 +33,15 @@ social_media:
   # dribbble: your_username
   facebook: jonathan.lane
   # linkedin: your_username
-  # medium: @your_username
+  # mastodon: your_username
+  # medium: your_username
   # stackoverflow: your_user_id
   # telegram: your_username
   twitter: majesticjondi
   # youtube: your_username
   # vk: your_username
+  # website: http://your_website_url
+  # youtube: your_username
 
 topics:
   - name: Resumé
