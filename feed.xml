@@ -3,12 +3,16 @@
 <channel>
 <title>TheTechRobo's Development</title>
 <link>thetechrobo.github.io/kickStartSite</link>
-<description>All my blog posts are here</description>
+  <description>All my blog posts are here</description>
   <item><title>Elive: the distro of the future</title>
     <link>https://thetechrobo.github.io/kickStartSite/2020/05/09/Elivereview/</link><guid>https://thetechrobo.github.io/kickStartSite/2020/05/09/Elivereview/</guid>
-    <pubDate>Mon, 11 May 2020 17:28 EST</pubDate><!--this is so that it will remain bumped on some rss readers so  that users can easily find it-->
+    <pubDate>Mon, 20 May 2020 17:28 EST</pubDate>
     <description>The fifteen-year-old distro with a one-man band is getting better and better...</description>
   </item>
+  <item><title>OMG Reddit && PyPI!</title>
+    <link>https://thetechrobo.github.io/kickStartSite/2020/05/20/Omg-Pypi/</link><guid>https://thetechrobo.github.io/kickStartSite/2020/05/20/Omg-Pypi/</guid>
+    <pubDate>Wed, 20 May 2020 09:22 EST</pubDate>
+    <description>The title says it all...</description></item>
     <item><title>Palc v.0.8-stable has been released!</title>
     <link>https://thetechrobo.github.io/kickStartSite/2020/05/11/PalcPalcPalcIsTheBest/</link><guid>https://thetechrobo.github.io/kickStartSite/2020/05/11/PalcPalcPalcIsTheBest/</guid>
     <pubDate>Mon, 11 May 2020 17:26 EST</pubDate>
