@@ -134,6 +134,7 @@ social_media:
   unsplash: your_username
   vk: your_username
   website: http://your_website_url
+  writeas: your_username
   youtube: your_username
 ```
 
