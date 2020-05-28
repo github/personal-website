@@ -9,7 +9,7 @@ Here's a changelog from February of this year:
 I have...
 1. Created the project related pics, which is open source and the code can be found on my GitHub [here](https://github.com/filiptronicek/related-pics)
 2. Made a simple script for doing the 6-photo grid Instagram effect [Github repo](https://github.com/filiptronicek/Instagram-cropper)
-3. Experimented with the blur effects in CSS (demo [here](https://imageblur.now.sh/)
+3. Experimented with the blur effects in CSS (demo [here](https://imageblur.now.sh/))
 4. Started learning [Fluttter](https://flutter.dev/), which is a cross-platform mobile first app creation platform and I am currently developing something very exciting with it.
 5. Re-done my whole entire website (expect the blog part) and I am kinda proud of it (check it out [here](https://tronicek.now.sh/)
 6. Made a minecraft server init script in Python ([on GitHub](https://github.com/filiptronicek/minecraft-server))
