@@ -1,0 +1,25 @@
+---
+title: Dynamically creating variable names
+published: true
+---
+
+(This has been copy-pasted from my answer that can be found [here](https://stackoverflow.com/a/62303554/9654083). It was a question about dynamically creating variable names in Python.)
+
+I don't know why others haven't thought of this:
+
+    yourvariableName = randint(0,1000)
+    exec("var_%s = 'value'" % yourVariableName)
+
+I just thought of it myself. I hope it helps you.
+
+A downside is you can't just do this:
+
+    print(var_yourVariableName)
+
+you can only do this:
+
+    exec("print(var_%s)" % yourVariableName)
+
+But you can probably circumvent this one way or another. Leave a comment if you manage to figure it out.
+
+One more downside — if used in certain ways, it could be very insecure (as we are using `exec`), so make sure to cover any holes!
