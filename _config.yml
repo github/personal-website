@@ -53,7 +53,7 @@ topics:
 
   - name: Web design
     web_url:
-    image_url: https://www.pngkit.com/png/detail/233-2330953_responsive-website-design-responsive-website-design-png.png
+    image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Circle-icons-computer.svg/1024px-Circle-icons-computer.svg.png
 
   - name: Sass
     web_url: https://github.com/topics/sass
