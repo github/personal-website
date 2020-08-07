@@ -1,5 +1,5 @@
 layout: sidebar
-style: dark
+style: light
 
 plugins:
   - jekyll-octicons
@@ -52,6 +52,8 @@ topics:
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
 
   - name: Web design
+    web_url:
+    image_url: https://www.pngkit.com/png/detail/233-2330953_responsive-website-design-responsive-website-design-png.png
 
   - name: Sass
     web_url: https://github.com/topics/sass
