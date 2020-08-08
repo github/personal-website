@@ -25,3 +25,11 @@
     {% endunless %}
   {% endfor %}
 </div>
+<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">GitHub repositories I've helped build.</p>
+<div class="d-sm-flex flex-wrap gutter-condensed mb-4">
+  {% for repository in site.projects.include %}
+    <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+      {% include dynamic-repo-card.html %}
+    </div>
+  {% endfor %}
+</div>
