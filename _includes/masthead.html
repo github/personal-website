@@ -52,6 +52,55 @@
       {% if user.hireable %}
         <span title="Hire me" class="d-inline-block f5 rounded-2 text-white bg-green py-1 px-2">Available for hire</span>
       {% endif %}
+      <head>
+      <style>
+        html {
+        scroll-behavior: smooth;
+        }
+        #About {
+          height: 1px;
+        }
+        #Education {
+          height: 10px;
+        }
+        #Experience {
+          height: 10px;
+        }
+        #Projects {
+          height: 10px;
+        }
+        #Contact {
+          height: 10px;
+        }
+      
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+        } 
+        
+        li a {
+          display: block;
+          color: gray;
+          text-decoration: none;
+          font-size: 17px
+        }
+        
+        /* Change the link color on hover */
+        li a:hover {
+          color: black;
+          text-decoration: none;
+          font-size: 17px
+        }
+        </style>
+        </head>
+        <ul>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Education">Education</a></li>
+          <li><a href="#Experience">Experience</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
     </div>
   {% endif %}
 </div>
