@@ -28,6 +28,12 @@ projects:
     projects:
     # - repo-name
 
+
+about:
+  - name: D
+    position: C
+    period: O
+    
 # social_media:
   # behance: your_username
   # dribbble: your_username
