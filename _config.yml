@@ -36,7 +36,10 @@ projects:
     projects:
     # - repo-name
 
-
+education:
+  - name: University of California, Irvine, Donald Bren School of Computer Science
+    position: B.S. Candidate in Computer Science
+    period: September 2017 - June 2021
     
 # social_media:
   # behance: your_username
