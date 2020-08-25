@@ -17,8 +17,13 @@ defaults:
       layout: "post"
 
 
-
-
+experience:
+  - position: Computer Networks Intern
+    location: Irvine, California
+    employer: Advanced Power and Engineering Program
+    period: October 2019 - Current
+    
+    
 projects:
   sort_by: pushed
   # sort_by options:
