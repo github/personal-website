@@ -44,6 +44,11 @@
           </div>
         {% endunless %}
 
+
+        {% if site.about %}
+          {% include about.html %}
+        {% endif %}
+        
         {% include projects.html %}
 
         {% if site.topics %}
