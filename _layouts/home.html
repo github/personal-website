@@ -8,11 +8,11 @@
       {{ content }}
     </div>
     
-
-    <div class="my-6">
-      {% include about.html %}
-    </div>
-
+    {% if site.about %}	  
+      <div class="my-6">
+        {% include about.html %}
+      </div>
+    {% endif %}
     
     <div class="my-6">
       {% include projects.html %}
