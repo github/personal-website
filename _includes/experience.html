@@ -1,0 +1,17 @@
+<br>
+<div id="Experience" style = "margin: 0px; padding: 0px; color:rgb(255, 250, 255);" >_</div>
+<hr>
+<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>Experience</h2>
+<div class="d-sm-flex flex-wrap gutter-condensed mb-4 text-list">
+  <ul>
+    {% for experience in site.experience %}
+    <p style = "margin: 0 0 0 0; class="text-normal">
+        <p style = "margin-left: 25px" class="text-bold">{{ experience.name }}</p>
+        <p style = "margin-left: 25px" class="text-normal">{{ experience.position }}</p>
+        <i><p style = "margin-left: 25px" class="text-normal">{{ experience.position2 }}</p></i>
+        <p style = "margin-left: 25px" class="text-normal">{{ experience.period }}</p>
+    </p>
+    <br>
+    {% endfor %}
+  </ul>
+</div>
