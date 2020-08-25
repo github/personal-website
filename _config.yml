@@ -16,6 +16,14 @@ defaults:
     values:
       layout: "post"
 
+
+about:
+  - name: D
+    position: C
+    period: O
+
+
+
 projects:
   sort_by: pushed
   # sort_by options:
