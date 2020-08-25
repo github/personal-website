@@ -47,6 +47,10 @@
 
 
         {% include about.html %}
+
+        {% if site.experience %}
+          {% include experience.html %}
+        {% endif %}
         
         {% include projects.html %}
         
