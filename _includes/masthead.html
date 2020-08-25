@@ -4,6 +4,14 @@
   {% assign metadata_styles = 'd-flex flex-items-center mb-3' %}
 {% endif %}
 
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 1px;
+}
+
 <div class="sticky">
 
   <img src="{{ user.avatar_url }}" class="circle mb-3" style="max-width: 150px;">
