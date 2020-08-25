@@ -6,8 +6,7 @@
   <ul>
     {% for experience in site.experience %}
     <p style = "margin: 0 0 0 0; class="text-normal">
-        <p style = "margin-left: 25px" class="text-bold">{{ experience.position }}</p>
-        <p style = "margin-left: 25px" class="text-normal">{{ experience.location }}</p>
+        <p style = "margin-left: 25px"><b> {{ experience.position }} </b> {{ experience.location }}</p>
         <i><p style = "margin-left: 25px" class="text-normal">{{ experience.employer }}</p></i>
         <p style = "margin-left: 25px" class="text-normal">{{ experience.period }}</p>
     </p>
