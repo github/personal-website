@@ -17,11 +17,6 @@ defaults:
       layout: "post"
 
 
-about:
-  - name: D
-    position: C
-    period: O
-
 
 
 projects:
