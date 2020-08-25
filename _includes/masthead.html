@@ -1,3 +1,21 @@
+<!-- mast head == the LHS! -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 40px;
+  padding: 1px;
+}
+</style>
+</head>
+<body>
+
+
 {% if site.layout == 'stacked' %}
   {% assign metadata_styles = 'd-md-inline-block mx-3 mb-1 mb-md-0' %}
 {% else %}
@@ -5,12 +23,6 @@
 {% endif %}
 
 
-div.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  padding: 1px;
-}
 
 <div class="sticky">
 
@@ -112,3 +124,5 @@ div.sticky {
     </div>
   {% endif %}
 </div>
+</body>
+</html>
