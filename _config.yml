@@ -51,9 +51,9 @@ topics:
     web_url: https://sparkar.facebook.com/ar-studio/
     image_url: https://repository-images.githubusercontent.com/238927599/670df700-49b8-11ea-8e07-4d0c886ccc9a
 
-  - name: Web design
-    web_url:
-    image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Circle-icons-computer.svg/1024px-Circle-icons-computer.svg.png
+  - name: Adobe After Effects
+    web_url: https://www.adobe.com/ca/products/aftereffects.html
+    image_url: https://seeklogo.com/images/A/after-effects-cc-logo-BCC55BAFF7-seeklogo.com.png
 
   - name: Sass
     web_url: https://github.com/topics/sass
