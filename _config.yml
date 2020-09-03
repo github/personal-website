@@ -65,3 +65,9 @@ topics:
   - name: Math
     web_url: https://github.com/topics/mathematics
     image_url: https://ocw.mit.edu/courses/mathematics/18-02-multivariable-calculus-spring-2006/18-02s06.jpg
+  - name: Artificial Intelligence
+    web_url: https://github.com/topics/artificial-intelligence
+    image_url: https://storage.needpix.com/rsynced_images/artificial-intelligence-155161_1280.png
+  - name: Quantum Computing
+    web_url: https://github.com/topics/quantum-computing
+    image_url: https://www.sciencenews.org/wp-content/uploads/2019/10/102219_ec_quantum-supremacy_feat_no-scale-1028x579.jpg
