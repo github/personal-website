@@ -52,7 +52,10 @@ topics:
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
 
   - name: Web design
-
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  
+  - name: Python
+    web_url: https://github.com/topics/python
+    image_url: https://www.python.org/static/opengraph-icon-200x200.png
+  - name: C++
+    web_url: https://github.com/topics/cpp
+    image_url: https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSCdvzeshQrRbxJA8MGP-eYtpdZta_aHR_thg&usqp=CAU
