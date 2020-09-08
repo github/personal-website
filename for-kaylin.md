@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: mdpage
 title: for Kaylin
 date: 2020-09-08
 ---
