@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: post
+title: for Kaylin
 ---
 # Hiiii Kaylin 😉
 
