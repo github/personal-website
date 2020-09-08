@@ -43,7 +43,7 @@
       <p class="f5"><a href="/" class="d-flex flex-items-center">{% octicon chevron-left height:16 class:"mr-2 v-align-middle" fill:#0366d6 aria-label:Home %}Home</a></p>
       <h1 class="f00-light lh-condensed">{{ page.title }}</h1>
 
-      {{ post_body }}
+      {{ content }}
     </div>
   </div>
 {% else %}
@@ -59,7 +59,7 @@
             <p class="f5"><a href="{{ site.url }}{{ site.baseurl | append:'/' }}" class="d-flex flex-items-center {% if site.style == 'dark' %}text-white{% endif %}">{% octicon chevron-left height:16 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Home %}Home</a></p>
             <h1 class="f00-light lh-condensed">{{ page.title }}</h1>
             
-            {{ post_body }}
+            {{ content }}
           </div>
         </div>
       </div>
