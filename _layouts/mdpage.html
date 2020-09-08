@@ -1,19 +1,13 @@
 {% include header.html %}
 
-
-
 {% if site.layout == 'stacked' %}
   <div class="container-lg py-6 p-responsive text-center">
     {% include masthead.html metadata=false %}
 
     <div class="container-md f4 text-left border rounded-2 bg-white p-3 p-sm-5 mt-6">
       <p class="f5"><a href="/" class="d-flex flex-items-center">{% octicon chevron-left height:16 class:"mr-2 v-align-middle" fill:#0366d6 aria-label:Home %}Home</a></p>
-      <h1 class="f00-light lh-condensed">{{ page.title }}</h1>
-
-      
-       <div class="article">
-         {{ content }}
-       </div>
+      <h1 class="f00-light lh-condensed mb-5">{{ page.title }}</h1>
+      {{ content }}
     </div>
   </div>
 {% else %}
@@ -27,12 +21,8 @@
         <div class="f4 {% if site.style == 'dark' %}text-white{% endif %} mb-6">
           <div class="f4 {% if site.style == 'dark' %}text-white{% endif %}">
             <p class="f5"><a href="{{ site.url }}{{ site.baseurl | append:'/' }}" class="d-flex flex-items-center {% if site.style == 'dark' %}text-white{% endif %}">{% octicon chevron-left height:16 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Home %}Home</a></p>
-            <h1 class="f00-light lh-condensed">{{ page.title }}</h1>
-            
-            
-             <div class="article">
-              {{ content }}
-             </div>
+            <h1 class="f00-light lh-condensed mb-5">{{ page.title }}</h1>
+            {{ content }}
           </div>
         </div>
       </div>
