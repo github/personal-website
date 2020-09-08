@@ -1,4 +1,5 @@
 ---
+layout: mdpage
 title: "another test"
 ---
 
