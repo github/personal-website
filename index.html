@@ -1,3 +1,44 @@
----
-layout: home
----
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>CLI Resume</title>
+  <meta name="Description" content="Zolboo Erdenebaatar">
+
+  <link rel="stylesheet/less" type="text/css" href="styles/main.less" />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/1.4.3/js/jquery.terminal.js"></script>
+  <script type="text/javascript" src="js/shell.js"></script>
+  <script type="text/javascript" src="js/cli.js"></script>
+</head>
+
+<main>
+
+<div class="terminal-window">
+  <header>
+    <div class="button red"></div>
+    <div class="button yellow"></div>
+    <div class="button green"></div>
+  </header>
+  <div id="terminal">
+    <p><span class="green">\[._.]/</span> - Type `help` to get started.</p>
+      <p class="hidden">
+        <span class="prompt">
+          <span class="root">root</span>
+          <span class="tick">❯</span>
+        </span>
+        <span contenteditable="true" class="input"></span>
+      </p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Zolboo Erdenebaatar</p>
+  <p>Built with React JS</p>
+  <p>Source code: <a href="https://github.com/zolboo1024/zolboo1024.github.io/">Link</a>
+</div>
+
+</main>
+
+</html>

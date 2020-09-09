@@ -1,0 +1,149 @@
+body {
+  background-color: #211E3A;
+}
+
+.terminal-window {
+  text-align: left;
+  width: 600px;
+  height: 360px;
+  border-radius: 10px;
+  margin: auto;
+  position: relative;
+  display: block;
+  top: 25vh;
+
+  &.fullscreen {
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    header {
+      display: none;
+    }
+
+    #terminal {
+      top: 0;
+    }
+   }
+
+  header {
+    background: #e0e8f0;
+    height: 30px;
+    border-radius: 8px 8px 0 0;
+    padding-left: 10px;
+
+    .button {
+      width: 12px;
+      height: 12px;
+      margin: 10px 4px 0 0;
+      display: inline-block;
+      border-radius: 8px;
+    }
+
+    .button.green {
+      background: #3bb662;
+      cursor: pointer;
+    }
+
+    .button.yellow {
+      background: #e5c30f;
+    }
+
+    .button.red {
+      background: #e75448;
+    }
+  }
+
+  #terminal {
+    color: white;
+    font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
+    font-size: 11pt;
+    background: #30353a;
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    top: 30px;
+    bottom: 0;
+    overflow: auto;
+  }
+
+  .contact {
+    list-style: none;
+    margin-left: -30px;
+  }
+
+  h4 {
+    text-align: center;
+  }
+
+  a {
+    text-align: center;
+    display: block;
+  }
+
+  .input {
+    outline-color:  #30353a;
+    border:         none;
+    display:        inline-block;
+  }
+
+  .root {
+    color: #95F584;
+  }
+
+  .tick {
+    color: #EC4891;
+  }
+
+  .blue {
+    color: lightblue;
+  }
+
+  .gray {
+    color: gray;
+  }
+
+  .dir {
+    color: #88DEF2;
+  }
+
+  .green {
+    color: #3CB371;
+  }
+}
+
+.command_input {
+  border: none;
+  // background: #30353a;
+  background: #000634;
+  color: white;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  line-height: 0.1px;
+  width: 100%;
+  color: white;
+  font-family: monospace, serif;
+
+  .site-code {
+    font-weight: bold;
+    color: white;
+    &:hover {
+      color: mediumslateblue;
+    }
+    &:active {
+      color: mediumslateblue;
+    }
+  }
+}
+
+.terminal-data {
+  display: none;
+}
