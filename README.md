@@ -28,25 +28,29 @@ Jekyll is a [Ruby Gem](https://jekyllrb.com/docs/ruby-101/#gems) that can be ins
 
 1. Install a full [Ruby development environment](https://jekyllrb.com/docs/installation/)
 2. Install Jekyll and [bundler](https://jekyllrb.com/docs/ruby-101/#bundler) [gems](https://jekyllrb.com/docs/ruby-101/#gems)
-```
+
+```bash
 gem install jekyll bundler
 ```
 3. Change into your new directory
-```
+
+```bash
 cd personal-website
 ```
 4. Install missing gems
-```
+
+```bash
 bundle install
 ```
 5. Build the site and make it available on a local server
-```
+
+```bash
 bundle exec jekyll serve
 ```
 
 You should see something like:
 
-```
+```bash
 Configuration file: /octocat/personal-website/_config.yml
             Source: /octocat/personal-website
        Destination: /octocat/_site
@@ -117,7 +121,7 @@ Your website supports linking and sharing to social media services you're using,
 1. Edit your repository's `_config.yml` file.
 2. Edit the `social_media` dictionary line, and represent the services you like in a simple `key: value` form:
 
-```
+```yaml
 social_media:
   behance: your_username
   dribbble: your_username  
@@ -153,7 +157,7 @@ To **add a page** to your website (e.g. detailed resume):
 2. Give it a filename that you want to be used in the page's URL (e.g. `http://yoursite.dev/filename`).
 3. At the start of your file, include the following [front matter](https://jekyllrb.com/docs/front-matter/):
 
-```
+```yaml
 ---
 layout: default
 ---
@@ -172,7 +176,7 @@ YEAR-MONTH-DAY-title.MARKUP
 
 3. At the start of your file, include the following [front matter](https://jekyllrb.com/docs/front-matter/):
 
-```
+```yaml
 ---
 title: "The title of my blog post"
 ---
@@ -212,7 +216,7 @@ Jekyll's convention for defining layouts is very flexible. You can [learn more a
 
 Your website is pre-configured to use [GitHub's very flexible CSS framework called "Primer,"](https://styleguide.github.com/primer/). It's currently referenced within your `styles.scss` file, using the CSS import at-rule:
 
-```
+```sass
 @import url('https://unpkg.com/primer/build/build.css');
 ```
 
