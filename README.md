@@ -216,7 +216,7 @@ Jekyll's convention for defining layouts is very flexible. You can [learn more a
 
 Your website is pre-configured to use [GitHub's very flexible CSS framework called "Primer,"](https://styleguide.github.com/primer/). It's currently referenced within your `styles.scss` file, using the CSS import at-rule:
 
-```sass
+```scss
 @import url('https://unpkg.com/primer/build/build.css');
 ```
 
