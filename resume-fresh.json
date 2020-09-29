@@ -1,0 +1,157 @@
+{
+  "name": "Nathaniel Louis Tisuela",
+  "info": {
+    "label": "Software Developer",
+    "brief": ""},
+  "contact": {
+    "email": "ntisuela@uci.edu",
+    "phone": "(916)-601-5371"
+  },
+  "meta": {
+    "format": "FRESH@^1.0.0-beta",
+    "modified": "2020-09-16T18:52:48.879Z"
+  },
+  "location": {
+    "city": "",
+    "region": "",
+    "country": "US",
+    "code": "",
+    "address": "Irvine, California"
+  },
+  "employment": {
+    "history": [
+      {
+        "employer": "Advanced Power and Energy Program",
+        "url": "http://apep.uci.edu",
+        "position": "Computer Network Technician",
+        "summary": "Maintained, troubleshooted, and deployed over 100 machines.",
+        "start": "2018-10-31",
+        "keywords": ["Python", "SQL", "Powershell", "XML"],
+        "highlights": [
+          "XML inspection to recover documents, saving 3 weeks of work",
+          "Developed powershell scripts to inventory and help deploy over 100 machines 5 times faster.",
+          "Authored instructions to teach new softwares to over 100 users.",
+          "Verbal and written communication to help professors, students, and technician regarding IT issues",
+          "Debugged Python software to resume monitoring of utilties in dozens of on-campus facilities"
+        ]
+      },
+      {
+        "position": "IT Assistant",
+        "summary": "Onsite visits and remote support to clients to troubleshoot or maintain current software/systems, as well as deploying new systems to clients. Suggested and implemented software to fulfill client requirements.",
+        "start": "2017-10-31",
+        "end": "2018-10-31",
+        "keywords": ["Dameware", "Microsoft Office", "Computer Hardware Assembly"],
+        "highlights": [
+          "Gave consultation for a lawfirm in eDiscovery solutions involving a litigation case",
+          "Listened to problems and pitched software solutions to coworkers and clients.",
+          "Written and verbal communication to troubleshoot issues with software and hardware for users"]
+      }
+    ]
+  },
+  "education": {
+    "level": "",
+    "level": "B.S.",
+    "degree": "Computer Science",
+    "history": [
+      {
+        "institution": "UC Irvine",
+        "start": "2017-12-31",
+        "end": "2021-06",
+        "grade": "",
+        "curriculum": [
+         "Data Structure Implementation and Analysis",
+         "Information Retrieval",
+         "Principles in System Design",
+         "Design and Analysis of Algorithms",
+         "Computer Networks",
+         "Databases and Web Applications"
+        ],
+        "summary": "B.S. in Computer Science",
+        "area": "Computer Science",
+        "studyType": "Bachelor's degree"
+      }
+    ]
+  },
+  "service": {},
+  "skills": {
+    "sets": [
+      {
+        "name": "OO Languages",
+        "level": "Master",
+        "skills": [
+          "Python",
+          "Java",
+          "C++",
+          "C"
+        ]
+      },
+      {
+        "name": "Web Development",
+        "level": "Master",
+        "skills": [
+          "GraphQL",
+          "Flask",
+          "FastAPI",
+          "Tomcat"
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "title": "CourseCake",
+      "category": "Web API",
+      "role": "creator",
+      "url": "https://docs.coursecake.tisuela.com",
+      "start": "2020-07",
+      "repo": "https://github.com/nananananate/CourseCake",
+      "description": "A Web and Python API for course discovery across universities",
+      "summary": "Worked with other developers to program and incorporate other tools for this Python and Web API for course discovery",
+      "keywords": ["Python", "FastAPI", "GraphQL", "REST", "SQLAlchemy"]
+    },
+    {
+      "title": "Augmented Android",
+      "category": "commercial",
+      "role": "co-creator",
+      "url": "https://project.website.com",
+      "repo": "https://repo.website.com",
+      "description": "An augmented reality app for Android.",
+      "start": "2012-02",
+      "end": "2014-01",
+      "summary": "Performed flagship product conceptualization and development.",
+      "keywords": ["Android", "Java", "Xamarin"]
+    },
+    {
+      "title": "Blog",
+      "category": "personal",
+      "role": "creator",
+      "url": "https://www.janeblogs.com",
+      "description": "My programming blog. Powered by Jekyll.",
+      "summary": "Conceptualization, design, development, and deployment.",
+      "keywords": ["Jekyll", "Ruby", "HTML 5", "JavaScript", "HTTP", "LAMP"]
+    }
+  ],
+  "social": [
+    {
+      "label": "Twitter",
+      "network": "Twitter",
+      "url": "",
+      "user": "ntisuela"
+    },
+    {
+      "label": "LinkedIn",
+      "network": "LinkedIn",
+      "url": "https://www.linkedin.com/in/nathaniel-louis-tisuela-9b1078155/",
+      "user": "nathaniel-louis-tisuela-9b1078155"
+    }
+  ],
+  "testimonials": [
+
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ]
+}

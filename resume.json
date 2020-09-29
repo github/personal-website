@@ -1,0 +1,116 @@
+{
+  "basics": {
+   "name": "Nathaniel Louis Tisuela",
+   "label": "Aspiring Software Developer |  Computer Networks Intern at University of California, Irvine",
+   "image": "",
+   "email": "ntisuela@uci.edu",
+   "phone": "(916)-601-5371",
+   "url": "",
+   "summary": "Planning to graduate from UCI with a bachelor's degree in Computer Science, I am an aspiring software engineer with a current background in Information Technology. ",
+   "location": {
+     "address": "Irvine, California",
+     "postalCode": "",
+     "city": "",
+     "countryCode": "US",
+     "region": ""
+   },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "ntisuela",
+        "url": ""
+      },
+      {
+        "network": "LinkedIn",
+        "username": "nathaniel-louis-tisuela-9b1078155",
+        "url": "https://www.linkedin.com/in/nathaniel-louis-tisuela-9b1078155/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "University of California, Irvine - Advanced Power and Energy Program",
+      "endDate": "2020-12-31",
+      "highlights": [],
+      "position": "Computer Network Technician",
+      "startDate": "2018-10-31",
+      "summary": "My programming background in Powershell, Python, SQL, and XML help maintain and inventory network machines. I troubleshoot and deploy new machines, implementing software such as Sonicwall, AOMEI, Acronis, and Dameware.",
+      "url": ""
+    },
+    {
+      "name": "Lee Starloop IT",
+      "endDate": "2018-10-31",
+      "highlights": [],
+      "position": "IT Assistant",
+      "startDate": "2017-10-31",
+      "summary": "Onsite visits and remote support to clients to troubleshoot or maintain current software/systems, as well as deploying new systems to clients. ",
+      "url": ""
+    }
+  ],
+  "volunteer": [
+  ],
+  "education": [
+    {
+      "institution": "UC Irvine",
+      "area": "Computer Science",
+      "studyType": "Bachelor's degree",
+      "startDate": "2017-12-31",
+      "endDate": "2021-12-31",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [
+
+  ],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "website": "http://publication.com",
+    "summary": "Description..."
+  }],
+  "skills": [
+    {
+      "name": "OO Languages",
+      "level": "Master",
+      "keywords": [
+       "Python",
+       "Java",
+       "C++",
+       "C"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+       "GraphQL",
+       "Flask",
+       "FastAPI",
+       "Tomcat"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Erlich Bachman",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    }
+  ]
+}

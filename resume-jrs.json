@@ -1,0 +1,91 @@
+{
+  "basics": {
+    "label": "Aspiring Software Developer |  Computer Networks Intern at University of California, Irvine",
+    "email": "ntisuela@uci.edu",
+    "phone": "(916)-601-5371",
+    "name": "Nathaniel Louis Tisuela",
+    "summary": "Planning to graduate from UCI with a bachelor's degree in Computer Science, I am an aspiring software engineer with a current background in Information Technology. ",
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "ntisuela",
+        "url": ""
+      },
+      {
+        "network": "LinkedIn",
+        "username": "nathaniel-louis-tisuela-9b1078155",
+        "url": "https://www.linkedin.com/in/nathaniel-louis-tisuela-9b1078155/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "position": "Computer Network Technician",
+      "startDate": "2018-10-31",
+      "endDate": "2020-12-31",
+      "summary": "My programming background in Powershell, Python, SQL, and XML help maintain and inventory network machines. I troubleshoot and deploy new machines, implementing software such as Sonicwall, AOMEI, Acronis, and Dameware.",
+      "highlights": []
+    },
+    {
+      "position": "IT Assistant",
+      "startDate": "2017-10-31",
+      "endDate": "2018-10-31",
+      "summary": "Onsite visits and remote support to clients to troubleshoot or maintain current software/systems, as well as deploying new systems to clients. ",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "UC Irvine",
+      "gpa": "",
+      "courses": [],
+      "startDate": "2017-12-31",
+      "endDate": "2021-12-31",
+      "area": "Computer Science",
+      "studyType": "Bachelor's degree"
+    }
+  ],
+  "skills": [
+    {
+      "name": "OO Languages",
+      "level": "Master",
+      "keywords": [
+        "Python",
+        "Java",
+        "C++",
+        "C"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "GraphQL",
+        "Flask",
+        "FastAPI",
+        "Tomcat"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Erlich Bachman",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ]
+}

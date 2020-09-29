@@ -1,0 +1,30 @@
+{
+  "name": "nananananate",
+  "version": "1.0.0",
+  "description": "my personal website",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "jsonresume-theme-onepage": "^0.0.3",
+    "jsonresume-theme-onepage-ds": "^0.0.1",
+    "kiss-my-resume": "^0.8.2",
+    "resume": "^0.0.1",
+    "resume-cli": "^1.2.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nananananate/nananananate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nananananate/nananananate/issues"
+  },
+  "homepage": "https://github.com/nananananate/nananananate#readme"
+}

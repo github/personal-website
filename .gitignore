@@ -4,3 +4,5 @@
 _site/
 Gemfile.lock
 **/.ruby-version
+node_modules
+test*
