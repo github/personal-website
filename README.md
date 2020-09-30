@@ -186,7 +186,7 @@ Jekyll's conventions for authoring and managing blog posts is very flexible. You
 
 ## Content and templates
 
-To give you a sound foundation to start your personal website, your repository includes a handful of "includes" -- dynamic `.html` files that are re-used throughout your website. They're all stored in the `/_includes/` directory.
+To give you a strong foundation to start your personal website, your repository includes a handful of "includes" -- dynamic `.html` files that are re-used throughout your website. They're all stored in the `/_includes/` directory.
 
 There are the usual suspects, like `header.html` and `footer.html`. But there are few more worth pointing out:
 
