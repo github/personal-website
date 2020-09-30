@@ -2,9 +2,9 @@
 
 ### Showcase your software development skills
 
-This repository gives you the code you'll need to kickstart a personal website that showcases your work as a software developer. And when you manage the code in a GitHub repository, it will automatically render a webpage with the owner's profile information, including a photo, bio, and repositories.
+This repository gives you the code you'll need to kickstart a personal website that showcases your work as a software developer. And, when you manage the code in a GitHub repository, it will automatically render a webpage with the owner's profile information, including a photo, bio, and repositories.
 
-Your personal website is waiting to be personalized, though. It includes space to highlight your specific areas of interest in software development, like languages or industries. And it's standing by to publish your next great blog post.
+Your personal website is waiting to be personalized, though. It includes space to highlight your specific areas of interest in software development, for e.g. like languages or industries. And it's standing by to publish your next great blog post.
 
 It's all possible using the combination of [Jekyll](https://jekyllrb.com/docs/) (for building your website), [GitHub Pages](https://pages.github.com/) (for hosting your website), and [GitHub's API](https://developer.github.com/v3/) (for automatically populating your website with content).
 
@@ -24,7 +24,7 @@ Once you've found a home for your forked repository, **[clone it](https://help.g
 
 #### Install Jekyll
 
-Jekyll is a [Ruby Gem](https://jekyllrb.com/docs/ruby-101/#gems) that can be installed on most systems.
+Jekyll is a [Ruby Gem](https://jekyllrb.com/docs/ruby-101/#gems) that can be installed on most of the systems.
 
 1. Install a full [Ruby development environment](https://jekyllrb.com/docs/installation/)
 2. Install Jekyll and [bundler](https://jekyllrb.com/docs/ruby-101/#bundler) [gems](https://jekyllrb.com/docs/ruby-101/#gems)
@@ -39,7 +39,7 @@ cd personal-website
 ```
 bundle install
 ```
-5. Build the site and make it available on a local server
+5. Build the site and make it available on the local server
 ```
 bundle exec jekyll serve
 ```
@@ -77,7 +77,7 @@ It's your website, and you control the source code. So you can customize everyth
 
 ### Quick configuration changes
 
-Most customizations can be done in a matter of seconds, by revising your repository's `_config.yml` file. Just remember to restart your local server each time you save new changes so your Jekyll-powered website rebuilds correctly:
+Most customizations can be done in a matter of seconds, by revising your repository's `_config.yml` file. Just remember to restart your local server each time you save new changes so that your Jekyll-powered website rebuilds correctly:
 
 1. Shut down your server by entering the keyboard command <kbd>CTRL</kbd>+<kbd>c</kbd>
 2. Restart your server: `bundle exec jekyll serve`
@@ -112,7 +112,7 @@ Your website comes pre-configured with three topics (e.g. "Web design" and "Sass
 
 #### Social media
 
-Your website supports linking and sharing to social media services you're using, including Behance, Dribbble, Facebook, LinkedIn, Medium, Stack Overflow, Twitter, and YouTube. To identify the services you use:
+Your website supports linking and sharing to social media services you're using including Behance, Dribbble, Facebook, LinkedIn, Medium, Stack Overflow, Twitter, and YouTube. To identify the services you use:
 
 1. Edit your repository's `_config.yml` file.
 2. Edit the `social_media` dictionary line, and represent the services you like in a simple `key: value` form:
@@ -143,7 +143,7 @@ Links to your profile for each of the services you define will appear in the `<h
 - `/_data/social_media.yml`: Defines each of the supported services, including variable name, display name, URL path, and SVG icon.
 - `/_includes/social_media_share_url.html`: Outputs the share URL required for any of the supported social media services that support sharing URLs.
 
-If you're interested in adding a social media service that's not already supported in this repo, you can edit these two files to build that support.
+If you're interested in adding a social media service that's not already supported in this repository, you can edit these two files to build that support.
 
 ## Adding pages
 
