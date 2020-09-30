@@ -28,23 +28,22 @@
         "start": "2018-10-31",
         "keywords": ["Python", "SQL", "Powershell", "XML"],
         "highlights": [
-          "XML inspection to recover documents, saving 3 weeks of work",
-          "Developed powershell scripts to inventory and help deploy over 100 machines 5 times faster.",
-          "Authored instructions to teach new softwares to over 100 users.",
-          "Verbal and written communication to help professors, students, and technician regarding IT issues",
-          "Debugged Python software to resume monitoring of utilties in dozens of on-campus facilities"
+          "Inspected and repaired XML documents to recover research, saving 3 weeks of work for students",
+          "Developed powershell scripts to create technical reports and deploy for over 100 machines. This automation makes weekly tasks 3 times faster.",
+          "Authored easy-to-follow guides to teach new softwares to over 100 users.",
+          "Debugged Python software to resume monitoring of utilties in dozens of on-campus facilities."
         ]
       },
       {
         "position": "IT Assistant",
-        "summary": "Onsite visits and remote support to clients to troubleshoot or maintain current software/systems, as well as deploying new systems to clients. Suggested and implemented software to fulfill client requirements.",
+        "summary": "IT support to offer, deploy, and troubleshoot software/systems for various businesses.",
         "start": "2017-10-31",
         "end": "2018-10-31",
         "keywords": ["Dameware", "Microsoft Office", "Computer Hardware Assembly"],
         "highlights": [
-          "Gave consultation for a lawfirm in eDiscovery solutions involving a litigation case",
-          "Listened to problems and pitched software solutions to coworkers and clients.",
-          "Written and verbal communication to troubleshoot issues with software and hardware for users"]
+          "Conducted On-site and remote support for over 6 companies.",
+          "Listened to problems and recommended software solutions for over 3 companies. Provided training afterwards.",
+          "Authored written and verbal communication to troubleshoot issues with software and hardware for dozens of users."]
       }
     ]
   },
@@ -92,45 +91,75 @@
           "GraphQL",
           "Flask",
           "FastAPI",
-          "Tomcat"
+          "Tomcat",
+          "Express.js"
+        ]
+      },
+      {
+        "name": "Scripting",
+        "level": "Master",
+        "skills": [
+          "Powershell",
+          "Javascript"
         ]
       }
     ]
   },
-  "projects": [
+  "projects":
+  [
     {
       "title": "CourseCake",
       "category": "Web API",
-      "role": "creator",
+      "role": "Creator",
       "url": "https://docs.coursecake.tisuela.com",
       "start": "2020-07",
       "repo": "https://github.com/nananananate/CourseCake",
-      "description": "A Web and Python API for course discovery across universities",
-      "summary": "Worked with other developers to program and incorporate other tools for this Python and Web API for course discovery",
-      "keywords": ["Python", "FastAPI", "GraphQL", "REST", "SQLAlchemy"]
+      "description": "A Web and Python API for course discovery across universities.",
+      "summary": "Created a Web/Python API for developing course discovery apps.",
+      "keywords": ["Python", "FastAPI", "GraphQL", "REST", "SQLAlchemy"],
+      "highlights": [
+       "Recruited and directed collaboration with other student developers from 3 other universities.",
+       "Launched CourseCake to become the most active cross-campus API supporting GraphQL and REST endpoints, cataloguing thousands of classes.",
+       "Publicized CourseCake through easy-to-understand and interactive documentation, making CourseCake a teachable tool.",
+       "Developed sensible schemas to model course discovery based on existing course discovery tools."
+      ]
     },
     {
-      "title": "Augmented Android",
-      "category": "commercial",
-      "role": "co-creator",
-      "url": "https://project.website.com",
-      "repo": "https://repo.website.com",
-      "description": "An augmented reality app for Android.",
-      "start": "2012-02",
-      "end": "2014-01",
-      "summary": "Performed flagship product conceptualization and development.",
-      "keywords": ["Android", "Java", "Xamarin"]
-    },
-    {
-      "title": "Blog",
-      "category": "personal",
-      "role": "creator",
-      "url": "https://www.janeblogs.com",
-      "description": "My programming blog. Powered by Jekyll.",
-      "summary": "Conceptualization, design, development, and deployment.",
-      "keywords": ["Jekyll", "Ruby", "HTML 5", "JavaScript", "HTTP", "LAMP"]
+      "title": "PeterPortal API",
+      "category": "Web App",
+      "role": "Developer",
+      "url": "https://github.com/icssc-projects/peterportal-public-api",
+      "repo": "https://github.com/icssc-projects/peterportal-public-api",
+      "description": "UC Irvine course discovery Web API",
+      "start": "2020-09",
+      "summary": "Collaborating with a team of 6 developers to make this tool available for students at UCI.",
+      "keywords": ["Express.js", "GraphQL", "Node.js", "SQL"],
+      "highlights": [
+       "Identified SQL vulnerabilities.",
+       "Proposed and implemented GraphQL, which simplifies 5 REST endpoints into 1 endpoint, making complex queries up to 500% more efficient."
+      ]
     }
   ],
+  "affiliation": {
+    "history":
+      [
+       {
+        "organization": "Acts College Ministry",
+        "category": "club",
+        "role": "President",
+        "url": "https://campusgroups.uci.edu/actscollege",
+        "summary": "Delegated event planning and led weekly meetings as first president of Acts @ UCI.",
+        "highlights":[
+         "With the help of the board, Acts saw increased membership by 200%.",
+         "Conducted migration to remote meetings and activities due to COVID-19 (maintained majority member retention) through close teamwork with the board and sister clubs.",
+         "Designed a new website and established presence on UCI's online system, seeing over 70 student engagements in 2 days during a virtual fair.",
+         "Coordinated large group events with a team of 6 members, averaging 2 large group events a month both before and after COVID-19"
+        ]
+       }
+      ]
+
+
+  },
   "social": [
     {
       "label": "Twitter",
