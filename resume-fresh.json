@@ -5,7 +5,8 @@
     "brief": ""},
   "contact": {
     "email": "ntisuela@uci.edu",
-    "phone": "(916)-601-5371"
+    "phone": "(916)-601-5371",
+    "website": "http://tisuela.com"
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
