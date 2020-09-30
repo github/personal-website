@@ -1,4 +1,4 @@
-# Get started building your personal website
+# Get started building your personal website believe me it is not hard.
 
 ### Showcase your software development skills
 
