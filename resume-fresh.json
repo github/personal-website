@@ -163,16 +163,16 @@
   },
   "social": [
     {
-      "label": "Twitter",
-      "network": "Twitter",
-      "url": "",
-      "user": "ntisuela"
-    },
-    {
       "label": "LinkedIn",
       "network": "LinkedIn",
       "url": "https://www.linkedin.com/in/nathaniel-louis-tisuela-9b1078155/",
       "user": "nathaniel-louis-tisuela-9b1078155"
+    },
+    {
+      "label": "Github",
+      "network": "Github",
+      "url": "https://github.com/nananananate/CourseCake",
+      "user": "nananananate"
     }
   ],
   "testimonials": [
