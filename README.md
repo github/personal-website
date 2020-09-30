@@ -44,7 +44,7 @@ bundle install
 bundle exec jekyll serve
 ```
 
-You should see something like:
+You should watch something as like:
 
 ```
 Configuration file: /octocat/personal-website/_config.yml
