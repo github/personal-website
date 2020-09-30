@@ -1,0 +1,104 @@
+{
+  "basics": {
+    "label": "Software Developer",
+    "email": "ntisuela@uci.edu",
+    "phone": "(916)-601-5371",
+    "website": "http://tisuela.com",
+    "name": "Nathaniel Louis Tisuela",
+    "summary": "",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "nathaniel-louis-tisuela-9b1078155",
+        "url": "https://www.linkedin.com/in/nathaniel-louis-tisuela-9b1078155/"
+      },
+      {
+        "network": "Github",
+        "username": "nananananate",
+        "url": "https://github.com/nananananate/CourseCake"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Advanced Power and Energy Program",
+      "website": "http://apep.uci.edu",
+      "position": "Computer Network Technician",
+      "startDate": "2018-10-31",
+      "summary": "Maintained, troubleshooted, and deployed over 100 machines.",
+      "highlights": [
+        "Inspected and repaired XML documents to recover research, saving 3 weeks of work for students",
+        "Developed powershell scripts to create technical reports and deploy for over 100 machines. This automation makes weekly tasks 3 times faster.",
+        "Authored easy-to-follow guides to teach new softwares to over 100 users.",
+        "Debugged Python software to resume monitoring of utilities in dozens of on-campus facilities."
+      ]
+    },
+    {
+      "position": "IT Assistant",
+      "startDate": "2017-10-31",
+      "endDate": "2018-10-31",
+      "summary": "IT support to offer, deploy, and troubleshoot software/systems for various businesses.",
+      "highlights": [
+        "Conducted On-site and remote support for over 6 companies.",
+        "Listened to problems and recommended software solutions for over 3 companies. Provided training afterwards.",
+        "Authored written and verbal communication to troubleshoot issues with software and hardware for dozens of users."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "UC Irvine",
+      "gpa": "",
+      "courses": [
+        "Data Structure Implementation and Analysis",
+        "Information Retrieval",
+        "Principles in System Design",
+        "Design and Analysis of Algorithms",
+        "Computer Networks",
+        "Databases and Web Applications"
+      ],
+      "startDate": "2017-12-31",
+      "endDate": "2021-06",
+      "area": "Computer Science",
+      "studyType": "Bachelor's degree"
+    }
+  ],
+  "skills": [
+    {
+      "name": "OO Languages",
+      "level": "Master",
+      "keywords": [
+        "Python",
+        "Java",
+        "C++",
+        "C"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "GraphQL",
+        "Flask",
+        "FastAPI",
+        "Tomcat",
+        "Express.js"
+      ]
+    },
+    {
+      "name": "Scripting",
+      "level": "Master",
+      "keywords": [
+        "Powershell",
+        "Javascript"
+      ]
+    }
+  ],
+  "references": 0,
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ]
+}

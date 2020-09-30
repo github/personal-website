@@ -1,0 +1,1187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Word.Document"?>
+<w:wordDocument xmlns:aml="http://schemas.microsoft.com/aml/2001/core" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.microsoft.com/office/word/2003/wordml" xmlns:wx="http://schemas.microsoft.com/office/word/2003/auxHint" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wsp="http://schemas.microsoft.com/office/word/2003/wordml/sp2" xmlns:sl="http://schemas.microsoft.com/schemaLibrary/2003/core" w:macrosPresent="no" w:embeddedObjPresent="no" w:ocxPresent="no" xml:space="preserve">
+  <w:ignoreSubtree w:val="http://schemas.microsoft.com/office/word/2003/wordml/sp2"/>
+  <o:DocumentProperties>
+    <o:Title>Resume for Nathaniel Louis Tisuela</o:Title>
+    <o:Author>Nathaniel Louis Tisuela</o:Author>
+    <o:Keywords>resume;CV</o:Keywords>
+    <o:LastAuthor>Nathaniel Louis Tisuela</o:LastAuthor>
+    <o:Revision>1</o:Revision>
+    <o:TotalTime>60</o:TotalTime>
+    <o:Created>2015-12-16T17:38:00Z</o:Created>
+    <o:LastSaved>2015-12-16T18:32:00Z</o:LastSaved>
+    <o:Pages>1</o:Pages>
+    <o:Words>241</o:Words>
+    <o:Characters>1379</o:Characters>
+    <o:Lines>11</o:Lines>
+    <o:Paragraphs>3</o:Paragraphs>
+    <o:CharactersWithSpaces>1617</o:CharactersWithSpaces>
+    <o:Version>15</o:Version>
+  </o:DocumentProperties>
+  
+  <w:fonts>
+    <w:defaultFonts w:ascii="Calibri" w:fareast="Calibri" w:h-ansi="Calibri" w:cs="Calibri"/>
+  
+  
+    <w:font w:name="Calibri">
+      <w:panose-1 w:val="02020603050405020304"/>
+      <w:charset w:val="00"/>
+      <w:family w:val="Roman"/>
+      <w:pitch w:val="variable"/>
+      <w:sig w:usb-0="E0002AFF" w:usb-1="C0007841" w:usb-2="00000009" w:usb-3="00000000" w:csb-0="000001FF" w:csb-1="00000000"/>
+    </w:font>
+  
+  
+    <w:font w:name="Calibri">
+      <w:panose-1 w:val="020F0502020204030204"/>
+      <w:charset w:val="00"/>
+      <w:family w:val="Swiss"/>
+      <w:pitch w:val="variable"/>
+      <w:sig w:usb-0="A00002EF" w:usb-1="4000207B" w:usb-2="00000000" w:usb-3="00000000" w:csb-0="0000009F" w:csb-1="00000000"/>
+    </w:font>
+  
+  </w:fonts>
+  <w:lists>
+    <w:listDef w:listDefId="1">
+      <w:lsid w:val="602C53DD"/>
+      <w:plt w:val="HybridMultilevel"/>
+      <w:tmpl w:val="61849B8C"/>
+      <w:lvl w:ilvl="0" w:tplc="DD7ED086">
+        <w:start w:val="1"/>
+        <w:nfc w:val="23"/>
+        <w:lvlText w:val="•"/>
+        <w:lvlJc w:val="left"/>
+        <w:pPr>
+          <w:ind w:left="720" w:hanging="360"/>
+        </w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Calibri" w:h-ansi="Calibri" w:hint="default"/>
+        </w:rPr>
+      </w:lvl>
+      <w:lvl w:ilvl="1" w:tplc="04090003" w:tentative="on">
+        <w:start w:val="1"/>
+        <w:nfc w:val="23"/>
+        <w:lvlText w:val="o"/>
+        <w:lvlJc w:val="left"/>
+        <w:pPr>
+          <w:ind w:left="1440" w:hanging="360"/>
+        </w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Courier New" w:h-ansi="Courier New" w:cs="Courier New" w:hint="default"/>
+        </w:rPr>
+      </w:lvl>
+      <w:lvl w:ilvl="2" w:tplc="04090005" w:tentative="on">
+        <w:start w:val="1"/>
+        <w:nfc w:val="23"/>
+        <w:lvlText w:val=""/>
+        <w:lvlJc w:val="left"/>
+        <w:pPr>
+          <w:ind w:left="2160" w:hanging="360"/>
+        </w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Marlett" w:h-ansi="Marlett" w:hint="default"/>
+        </w:rPr>
+      </w:lvl>
+      <w:lvl w:ilvl="3" w:tplc="04090001" w:tentative="on">
+        <w:start w:val="1"/>
+        <w:nfc w:val="23"/>
+        <w:lvlText w:val=""/>
+        <w:lvlJc w:val="left"/>
+        <w:pPr>
+          <w:ind w:left="2880" w:hanging="360"/>
+        </w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Symbol" w:h-ansi="Symbol" w:hint="default"/>
+        </w:rPr>
+      </w:lvl>
+      <w:lvl w:ilvl="4" w:tplc="04090003" w:tentative="on">
+        <w:start w:val="1"/>
+        <w:nfc w:val="23"/>
+        <w:lvlText w:val="o"/>
+        <w:lvlJc w:val="left"/>
+        <w:pPr>
+          <w:ind w:left="3600" w:hanging="360"/>
+        </w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Courier New" w:h-ansi="Courier New" w:cs="Courier New" w:hint="default"/>
+        </w:rPr>
+      </w:lvl>
+      <w:lvl w:ilvl="5" w:tplc="04090005" w:tentative="on">
+        <w:start w:val="1"/>
+        <w:nfc w:val="23"/>
+        <w:lvlText w:val=""/>
+        <w:lvlJc w:val="left"/>
+        <w:pPr>
+          <w:ind w:left="4320" w:hanging="360"/>
+        </w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Marlett" w:h-ansi="Marlett" w:hint="default"/>
+        </w:rPr>
+      </w:lvl>
+      <w:lvl w:ilvl="6" w:tplc="04090001" w:tentative="on">
+        <w:start w:val="1"/>
+        <w:nfc w:val="23"/>
+        <w:lvlText w:val=""/>
+        <w:lvlJc w:val="left"/>
+        <w:pPr>
+          <w:ind w:left="5040" w:hanging="360"/>
+        </w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Symbol" w:h-ansi="Symbol" w:hint="default"/>
+        </w:rPr>
+      </w:lvl>
+      <w:lvl w:ilvl="7" w:tplc="04090003" w:tentative="on">
+        <w:start w:val="1"/>
+        <w:nfc w:val="23"/>
+        <w:lvlText w:val="o"/>
+        <w:lvlJc w:val="left"/>
+        <w:pPr>
+          <w:ind w:left="5760" w:hanging="360"/>
+        </w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Courier New" w:h-ansi="Courier New" w:cs="Courier New" w:hint="default"/>
+        </w:rPr>
+      </w:lvl>
+      <w:lvl w:ilvl="8" w:tplc="04090005" w:tentative="on">
+        <w:start w:val="1"/>
+        <w:nfc w:val="23"/>
+        <w:lvlText w:val=""/>
+        <w:lvlJc w:val="left"/>
+        <w:pPr>
+          <w:ind w:left="6480" w:hanging="360"/>
+        </w:pPr>
+        <w:rPr>
+          <w:rFonts w:ascii="Marlett" w:h-ansi="Marlett" w:hint="default"/>
+        </w:rPr>
+      </w:lvl>
+    </w:listDef>
+    <w:list w:ilfo="1">
+      <w:ilst w:val="1"/>
+    </w:list>
+  </w:lists>
+  <w:styles>
+    <w:style w:type="paragraph" w:default="on" w:styleId="Normal">
+      <w:name w:val="Normal"/>
+      <w:rsid w:val="002743C8"/>
+      <w:rPr>
+        <w:rFonts w:ascii="Calibri" w:h-ansi="Calibri"/>
+        <wx:font wx:val="Calibri"/>
+        <w:sz-cs w:val="24"/>
+        <w:lang w:val="EN-US" w:fareast="EN-US" w:bidi="AR-SA"/>
+      </w:rPr>
+      <w:pPr>
+        <w:jc w:val="both"/>
+      </w:pPr>
+    </w:style>
+    <w:style w:type="paragraph" w:styleId="Heading1">
+      <w:name w:val="heading 1"/>
+      <wx:uiName wx:val="Heading 1"/>
+      <w:basedOn w:val="Normal"/>
+      <w:link w:val="Heading1Char"/>
+      <w:rsid w:val="00505903"/>
+      <w:pPr>
+        <w:spacing w:before="100" w:before-autospacing="on"/>
+        <w:outlineLvl w:val="0"/>
+        <w:pBdr>
+          <w:top w:val="single" w:sz="6" w:space="1" w:color="EEEEEE" />
+        </w:pBdr>
+      </w:pPr>
+      <w:rPr>
+        <wx:font wx:val="Calibri"/>
+        <w:rFonts w:ascii="Calibri" w:h-ansi="Calibri"/>
+        <w:color w:val="AEAAAA"/>
+        <w:kern w:val="36"/>
+        <w:sz w:val="20"/>
+        <w:sz-cs w:val="20"/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="paragraph" w:styleId="Heading2">
+      <w:name w:val="heading 2"/>
+      <wx:uiName wx:val="Heading 2"/>
+      <w:basedOn w:val="Normal"/>
+      <w:link w:val="Heading2Char"/>
+      <w:rsid w:val="00505903"/>
+      <w:pPr>
+        <w:spacing w:before="120"/>
+        <w:outlineLvl w:val="1"/>
+      </w:pPr>
+      <w:rPr>
+        <wx:font wx:val="Calibri"/>
+        <w:rFonts w:ascii="Calibri" w:h-ansi="Calibri"/>
+        <w:b/>
+        <w:b-cs/>
+        <w:caps/>
+        <w:sz-cs w:val="36"/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="paragraph" w:styleId="Heading3">
+      <w:name w:val="heading 3"/>
+      <wx:uiName wx:val="Heading 3"/>
+      <w:basedOn w:val="Normal"/>
+      <w:link w:val="Heading3Char"/>
+      <w:rsid w:val="001B7422"/>
+      <w:pPr>
+        <w:spacing w:before="240" w:after="100" w:after-autospacing="on"/>
+        <w:outlineLvl w:val="2"/>
+      </w:pPr>
+      <w:rPr>
+        <wx:font wx:val="Calibri"/>
+        <w:b/>
+        <w:b-cs/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="character" w:default="on" w:styleId="DefaultParagraphFont">
+      <w:name w:val="Default Paragraph Font"/>
+    </w:style>
+    <w:style w:type="table" w:default="on" w:styleId="TableNormal">
+      <w:name w:val="Normal Table"/>
+      <wx:uiName wx:val="Table Normal"/>
+      <w:rPr>
+        <wx:font wx:val="Calibri"/>
+        <w:lang w:val="EN-US" w:fareast="EN-US" w:bidi="AR-SA"/>
+      </w:rPr>
+      <w:tblPr>
+        <w:tblInd w:w="0" w:type="dxa"/>
+        <w:tblCellMar>
+          <w:top w:w="0" w:type="dxa"/>
+          <w:left w:w="108" w:type="dxa"/>
+          <w:bottom w:w="0" w:type="dxa"/>
+          <w:right w:w="108" w:type="dxa"/>
+        </w:tblCellMar>
+      </w:tblPr>
+    </w:style>
+    <w:style w:type="list" w:default="on" w:styleId="NoList">
+      <w:name w:val="No List"/>
+    </w:style>
+    <w:style w:type="character" w:styleId="Hyperlink">
+      <w:name w:val="Hyperlink"/>
+      <w:rsid w:val="001B7422"/>
+      <w:rPr>
+        <w:strike w:val="off"/>
+        <w:dstrike w:val="off"/>
+        <w:color w:val="0064BD"/>
+        <w:u w:val="none"/>
+        <w:effect w:val="none"/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="character" w:styleId="FollowedHyperlink">
+      <w:name w:val="FollowedHyperlink"/>
+      <w:rsid w:val="001B7422"/>
+      <w:rPr>
+        <w:strike w:val="off"/>
+        <w:dstrike w:val="off"/>
+        <w:color w:val="7B0796"/>
+        <w:u w:val="none"/>
+        <w:effect w:val="none"/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="character" w:styleId="Heading2Char">
+      <w:name w:val="Heading 2 Char"/>
+      <w:link w:val="Heading2"/>
+      <w:rsid w:val="00505903"/>
+      <w:rPr>
+        <wx:font wx:val="Calibri"/>
+        <w:rFonts w:ascii="Calibri" w:h-ansi="Calibri"/>
+        <w:b/>
+        <w:b-cs/>
+        <w:caps/>
+        <w:sz-cs w:val="36"/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="character" w:styleId="Heading3Char">
+      <w:name w:val="Heading 3 Char"/>
+      <w:link w:val="Heading3"/>
+      <w:rsid w:val="001B7422"/>
+      <w:rPr>
+        <w:rFonts w:ascii="Calibri" w:fareast="Calibri" w:h-ansi="Calibri" w:cs="Calibri"/>
+        <w:color w:val="1F4D78"/>
+        <w:sz w:val="20"/>
+        <w:sz-cs w:val="20"/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="paragraph" w:styleId="NormalWeb">
+      <w:name w:val="Normal (Web)"/>
+      <w:basedOn w:val="Normal"/>
+      <w:rsid w:val="001B7422"/>
+      <w:pPr>
+        <w:spacing w:before="100" w:before-autospacing="on" w:after="100" w:after-autospacing="on"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:rPr>
+        <wx:font wx:val="Calibri"/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="character" w:styleId="Heading1Char">
+      <w:name w:val="Heading 1 Char"/>
+      <w:link w:val="Heading1"/>
+      <w:rsid w:val="00505903"/>
+      <w:rPr>
+        <wx:font wx:val="Calibri"/>
+        <w:rFonts w:ascii="Calibri" w:h-ansi="Calibri"/>
+        <w:color w:val="AEAAAA"/>
+        <w:kern w:val="36"/>
+        <w:sz w:val="20"/>
+        <w:sz-cs w:val="20"/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="character" w:styleId="Strong">
+      <w:name w:val="Strong"/>
+      <w:rsid w:val="001B7422"/>
+      <w:rPr>
+        <w:b/>
+        <w:b-cs/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="character" w:styleId="Emphasis">
+      <w:name w:val="Emphasis"/>
+      <w:rsid w:val="001B7422"/>
+      <w:rPr>
+        <w:i/>
+        <w:i-cs/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="character" w:styleId="tenure">
+      <w:name w:val="tenure"/>
+      <w:basedOn w:val="DefaultParagraphFont"/>
+      <w:rsid w:val="001B7422"/>
+    </w:style>
+    <w:style w:type="paragraph" w:styleId="Title">
+      <w:name w:val="Title"/>
+      <w:basedOn w:val="Normal"/>
+      <w:next w:val="Normal"/>
+      <w:link w:val="TitleChar"/>
+      <w:rsid w:val="002D3B7B"/>
+      <w:pPr>
+        <w:contextualSpacing/>
+      </w:pPr>
+      <w:rPr>
+        <w:rFonts w:ascii="Calibri" w:h-ansi="Calibri"/>
+        <wx:font wx:val="Calibri"/>
+        <w:b/>
+        <w:spacing w:val="-10"/>
+        <w:kern w:val="28"/>
+        <w:sz w:val="20"/>
+        <w:sz-cs w:val="20"/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="character" w:styleId="TitleChar">
+      <w:name w:val="Title Char"/>
+      <w:link w:val="Title"/>
+      <w:rsid w:val="002D3B7B"/>
+      <w:rPr>
+        <w:rFonts w:ascii="Calibri" w:h-ansi="Calibri"/>
+        <w:spacing w:val="-10"/>
+        <w:kern w:val="28"/>
+        <w:sz w:val="20"/>
+        <w:sz-cs w:val="20"/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="paragraph" w:styleId="ListParagraph">
+      <w:name w:val="List Paragraph"/>
+      <w:basedOn w:val="Normal"/>
+      <w:rsid w:val="00C146CA"/>
+      <w:pPr>
+        <w:ind w:left="720"/>
+        <w:contextualSpacing/>
+      </w:pPr>
+      <w:rPr>
+        <wx:font wx:val="Calibri"/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="paragraph" w:styleId="Summary">
+      <w:name w:val="Summary"/>
+      <w:basedOn w:val="Normal"/>
+      <w:link w:val="SummaryChar"/>
+      <w:rsid w:val="00A210E1"/>
+      <w:pPr>
+        <w:spacing w:before="120"/>
+      </w:pPr>
+      <w:rPr>
+        <wx:font wx:val="Calibri"/>
+        <w:color w:val="767171"/>
+      </w:rPr>
+    </w:style>
+    <w:style w:type="character" w:styleId="SummaryChar">
+      <w:name w:val="Summary Char"/>
+      <w:link w:val="Summary"/>
+      <w:rsid w:val="00A210E1"/>
+      <w:rPr>
+        <w:rFonts w:ascii="Calibri" w:h-ansi="Calibri"/>
+        <w:sz-cs w:val="24"/>
+        <w:sz w:val="24"/>
+      </w:rPr>
+    </w:style>
+  </w:styles>
+  <w:docPr>
+    <w:view w:val="print"/>
+    <w:zoom w:percent="98"/>
+    <w:doNotEmbedSystemFonts/>
+    <w:defaultTabStop w:val="720"/>
+    <w:characterSpacingControl w:val="DontCompress"/>
+    <w:webPageEncoding w:val="unicode"/>
+    <w:optimizeForBrowser/>
+    <w:allowPNG/>
+    <w:validateAgainstSchema/>
+    <w:saveInvalidXML w:val="off"/>
+    <w:ignoreMixedContent w:val="off"/>
+    <w:alwaysShowPlaceholderText w:val="off"/>
+    <w:compat>
+      <w:breakWrappedTables/>
+    </w:compat>
+    <wsp:rsids>
+      <wsp:rsidRoot wsp:val="00C146CA"/>
+      <wsp:rsid wsp:val="000A3AF0"/>
+      <wsp:rsid wsp:val="001B7422"/>
+      <wsp:rsid wsp:val="002743C8"/>
+      <wsp:rsid wsp:val="002865F0"/>
+      <wsp:rsid wsp:val="002D3B7B"/>
+      <wsp:rsid wsp:val="00397D4D"/>
+      <wsp:rsid wsp:val="00437135"/>
+      <wsp:rsid wsp:val="00505903"/>
+      <wsp:rsid wsp:val="00606071"/>
+      <wsp:rsid wsp:val="006C2CFB"/>
+      <wsp:rsid wsp:val="00771B3E"/>
+      <wsp:rsid wsp:val="007D096C"/>
+      <wsp:rsid wsp:val="009452CA"/>
+      <wsp:rsid wsp:val="00A210E1"/>
+      <wsp:rsid wsp:val="00B43FDC"/>
+      <wsp:rsid wsp:val="00C146CA"/>
+      <wsp:rsid wsp:val="00C77315"/>
+      <wsp:rsid wsp:val="00CD3781"/>
+      <wsp:rsid wsp:val="00E578D4"/>
+      <wsp:rsid wsp:val="00EA0B64"/>
+      <wsp:rsid wsp:val="00FE101B"/>
+    </wsp:rsids>
+  </w:docPr>
+  <w:body>
+    <wx:sect>
+      <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="007D096C" wsp:rsidP="00C146CA">
+        <w:pPr>
+          <w:pStyle w:val="Title"/>
+          <w:tabs>
+            <w:tab w:val="right" w:pos="9360"/>
+          </w:tabs>
+        </w:pPr>
+        <w:r>
+          <w:t>Nathaniel Louis Tisuela</w:t>
+        </w:r>
+        <w:r>
+          <w:tab/>
+        </w:r>
+        <w:hlink w:dest="mailto:ntisuela@uci.edu">
+          <w:r wsp:rsidRPr="003876BF">
+            <w:rPr>
+              <w:rStyle w:val="Hyperlink"/>
+              <w:sz-cs w:val="20"/>
+            </w:rPr>
+            <w:t>ntisuela@uci.edu</w:t>
+          </w:r>
+        </w:hlink>
+        <w:r>
+          <w:rPr>
+            <w:sz-cs w:val="20"/>
+          </w:rPr>
+          <w:t> - </w:t>
+        </w:r>
+        <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0">
+          <w:rPr>
+            <w:sz-cs w:val="20"/>
+          </w:rPr>
+          <w:t>(916)-601-5371</w:t>
+        </w:r>
+        <w:r>
+          <w:rPr>
+            <w:sz-cs w:val="20"/>
+          </w:rPr>
+          <w:t> - </w:t>
+        </w:r>
+        <w:hlink w:dest="http://tisuela.com">
+          <w:r wsp:rsidRPr="003876BF">
+            <w:rPr>
+              <w:rStyle w:val="Hyperlink"/>
+              <w:sz-cs w:val="20"/>
+            </w:rPr>
+            <w:t>tisuela.com</w:t>
+          </w:r>
+        </w:hlink>
+      </w:p>
+      
+      <wx:sub-section>
+  <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+    <w:pPr>
+      <w:pStyle w:val="Heading1"/>
+    </w:pPr>
+    <w:r wsp:rsidRPr="00C146CA">
+      <w:t>SKILLS</w:t>
+    </w:r>
+  </w:p>
+  <w:tbl>
+    <w:tblPr>
+      <w:tblW w:w="0" w:type="auto"/>
+      <w:tblLook w:val="04A0"/>
+    </w:tblPr>
+    <w:tblGrid>
+      <w:gridCol w:w="3000"/>
+      <w:gridCol w:w="8000"/>
+    </w:tblGrid>
+
+
+    <w:tr wsp:rsidR="00427ECC" wsp:rsidTr="00FD3B33">
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="3000" w:type="dxa"/>
+          <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+        </w:tcPr>
+        <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
+          <w:r>
+            <w:t>OO Languages:</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="8000" w:type="dxa"/>
+          <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+        </w:tcPr>
+        <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
+          <w:r>
+            <w:t>Python, Java, C++, C</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+    </w:tr>
+
+
+    <w:tr wsp:rsidR="00427ECC" wsp:rsidTr="00FD3B33">
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="3000" w:type="dxa"/>
+          <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+        </w:tcPr>
+        <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
+          <w:r>
+            <w:t>Web Development:</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="8000" w:type="dxa"/>
+          <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+        </w:tcPr>
+        <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
+          <w:r>
+            <w:t>GraphQL, Flask, FastAPI, Tomcat, Express.js</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+    </w:tr>
+
+
+    <w:tr wsp:rsidR="00427ECC" wsp:rsidTr="00FD3B33">
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="3000" w:type="dxa"/>
+          <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+        </w:tcPr>
+        <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
+          <w:r>
+            <w:t>Scripting:</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="8000" w:type="dxa"/>
+          <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+        </w:tcPr>
+        <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
+          <w:r>
+            <w:t>Powershell, Javascript</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+    </w:tr>
+
+
+  </w:tbl>
+</wx:sub-section>
+
+      <wx:sub-section>
+
+  <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+    <w:pPr>
+      <w:pStyle w:val="Heading1"/>
+    </w:pPr>
+    <w:r wsp:rsidRPr="00C146CA">
+      <w:t>EMPLOYMENT</w:t>
+    </w:r>
+  </w:p>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:t>Computer Network Technician, </w:t>
+      </w:r>
+      <w:hlink w:dest="http://apep.uci.edu">
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+          </w:rPr>
+          <w:t>Advanced Power and Energy Program</w:t>
+        </w:r>
+      </w:hlink>
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>Oct 2018 — Present</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Maintained, troubleshooted, and deployed over 100 machines.</w:t></w:r>
+    </w:p>
+
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Inspected and repaired XML documents to recover research, saving 3 weeks of work for students</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Developed powershell scripts to create technical reports and deploy for over 100 machines. This automation makes weekly tasks 3 times faster.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Authored easy-to-follow guides to teach new softwares to over 100 users.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Debugged Python software to resume monitoring of utilities in dozens of on-campus facilities.</w:t></w:r>
+    </w:p>
+
+  </wx:sub-section>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:t>IT Assistant, </w:t>
+      </w:r>
+      
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:t></w:t>
+        </w:r>
+      
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>Oct 2017 — Oct 2018</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>IT support to offer, deploy, and troubleshoot software/systems for various businesses.</w:t></w:r>
+    </w:p>
+
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Conducted On-site and remote support for over 6 companies.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Listened to problems and recommended software solutions for over 3 companies. Provided training afterwards.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Authored written and verbal communication to troubleshoot issues with software and hardware for dozens of users.</w:t></w:r>
+    </w:p>
+
+  </wx:sub-section>
+
+
+</wx:sub-section>
+
+      <wx:sub-section>
+
+  <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+    <w:pPr>
+      <w:pStyle w:val="Heading1"/>
+    </w:pPr>
+    <w:r wsp:rsidRPr="00C146CA">
+      <w:t>PROJECTS</w:t>
+    </w:r>
+  </w:p>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:t>Creator, </w:t>
+      </w:r>
+      <w:hlink w:dest="https://docs.coursecake.tisuela.com">
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+          </w:rPr>
+          <w:t>CourseCake</w:t>
+        </w:r>
+      </w:hlink>
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>2020-07 — Present</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Created a Web/Python API for developing course discovery apps.</w:t></w:r>
+    </w:p>
+
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Recruited and directed collaboration with other student developers from 3 other universities.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Launched CourseCake to become the most active cross-campus API supporting GraphQL and REST endpoints, cataloguing thousands of classes.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Publicized CourseCake through easy-to-understand and interactive documentation, making CourseCake a teachable tool.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Developed sensible schemas to model course discovery based on existing course discovery tools.</w:t></w:r>
+    </w:p>
+
+  </wx:sub-section>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:t>Developer, </w:t>
+      </w:r>
+      <w:hlink w:dest="https://github.com/icssc-projects/peterportal-public-api">
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+          </w:rPr>
+          <w:t>PeterPortal API</w:t>
+        </w:r>
+      </w:hlink>
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>2020-09 — Present</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Collaborating with a team of 6 developers to make this tool available for students at UCI.</w:t></w:r>
+    </w:p>
+
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Identified SQL vulnerabilities.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Proposed and implemented GraphQL, which simplifies 5 REST endpoints into 1 endpoint, making complex queries up to 500% more efficient.</w:t></w:r>
+    </w:p>
+
+  </wx:sub-section>
+
+
+</wx:sub-section>
+
+      
+      <wx:sub-section>
+
+  <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+    <w:pPr>
+      <w:pStyle w:val="Heading1"/>
+    </w:pPr>
+    <w:r wsp:rsidRPr="00C146CA">
+      <w:t>AFFILIATION</w:t>
+    </w:r>
+  </w:p>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:t>President, </w:t>
+      </w:r>
+      <w:hlink w:dest="https://campusgroups.uci.edu/actscollege">
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+          </w:rPr>
+          <w:t>Acts College Ministry</w:t>
+        </w:r>
+      </w:hlink>
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>Sep 2019 — Present</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Delegated event planning and led weekly meetings as first president of Acts @ UCI.</w:t></w:r>
+    </w:p>
+
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>With the help of the board, Acts saw membership increase by 200%.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Conducted migration to remote meetings and activities due to COVID-19 (maintained majority member retention) through close teamwork with the board and sister clubs.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Designed a new website and established presence on UCI&amp;apos;s online system, seeing over 70 student engagements in 2 days during a virtual fair.</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Coordinated large group events with a team of 6 members, averaging 2 large group events a month both before and after COVID-19</w:t></w:r>
+    </w:p>
+
+  </wx:sub-section>
+
+
+</wx:sub-section>
+
+      <wx:sub-section>
+
+  <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+    <w:pPr>
+      <w:pStyle w:val="Heading1"/>
+    </w:pPr>
+    <w:r wsp:rsidRPr="00C146CA">
+      <w:t>EDUCATION</w:t>
+    </w:r>
+  </w:p>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:t>UC Irvine</w:t>
+        </w:r>
+      
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>2017 — 2021</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r wsp:rsidRPr="000A3AF0">
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+        <w:t>Computer Science, Bachelor&amp;apos;s degree</w:t>
+      </w:r>
+    </w:p>
+
+
+  </wx:sub-section>
+
+
+</wx:sub-section>
+
+      
+      
+      
+      
+      
+      
+      
+      
+      <w:sectPr wsp:rsidR="00B43FDC" wsp:rsidRPr="000A3AF0" wsp:rsidSect="001B7422">
+        <w:pgSz w:w="12240" w:h="15840"/>
+        <w:pgMar w:top="1440" w:right="1440" w:bottom="1440" w:left="1440" w:header="720" w:footer="720" w:gutter="0"/>
+        <w:cols w:space="720"/>
+        <w:docGrid w:line-pitch="360"/>
+      </w:sectPr>
+    </wx:sect>
+  </w:body>
+</w:wordDocument>
