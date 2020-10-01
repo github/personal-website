@@ -1,4 +1,4 @@
-# hello everyone toaday I will teache you how to build your personal website easily
+# hello everyone toaday I will teach you how to build your personal website easily
 
 ### Showcase your software development skills
 
