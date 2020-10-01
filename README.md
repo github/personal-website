@@ -63,7 +63,7 @@ Don't worry about the "No GitHub API authentication could be found" message. [AP
 
 6. Now browse to [http://localhost:4000](http://localhost:4000)
 
-### Publish
+### Publish your website
 
 When you host your personal website's code on GitHub, you get the support of free hosting through GitHub Pages.
 
