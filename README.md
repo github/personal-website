@@ -14,7 +14,7 @@ It's all possible using the combination of [Jekyll](https://jekyllrb.com/docs/) 
 
 You'll be making your own copy of the "personal website starter" repository so you have your own project to customize. A "fork" is a copy of a repository. So select "Fork" atop [the `github/personal-website` repository](https://github.com/github/personal-website).
 
-Once you've found a home for your forked repository, it's yours. You're the owner, so you're ready to publish, if you wish.
+Once you've found a home for your forked repository, it's yours. You're the owner, so you're ready to publish if you wish.
 
 ### Install in your local development environment
 
@@ -29,17 +29,17 @@ Jekyll is a [Ruby Gem](https://jekyllrb.com/docs/ruby-101/#gems) that can be ins
 1. Install a full [Ruby development environment](https://jekyllrb.com/docs/installation/)
 2. Install Jekyll and [bundler](https://jekyllrb.com/docs/ruby-101/#bundler) [gems](https://jekyllrb.com/docs/ruby-101/#gems)
 ```
-gem install jekyll bundler
+gem install Jekyll bundler
 ```
-3. Change into your new directory
+3. Change into your new directory:
 ```
 cd personal-website
 ```
-4. Install missing gems
+4. Install missing gems:
 ```
 bundle install
 ```
-5. Build the site and make it available on a local server
+5. Build the site and make it available on a local server:
 ```
 bundle exec jekyll serve
 ```
@@ -73,14 +73,14 @@ When you host your personal website's code on GitHub, you get the support of fre
 
 ## Customization
 
-It's your website, and you control the source code. So you can customize everything, if you like. But we've provided a handful of quick customizations for you to consider as you get your website off the ground.
+It's your website, and you control the source code. So you can customize everything if you like. But we've provided a handful of quick customizations for you to consider as you get your website off the ground.
 
 ### Quick configuration changes
 
 Most customizations can be done in a matter of seconds, by revising your repository's `_config.yml` file. Just remember to restart your local server each time you save new changes so your Jekyll-powered website rebuilds correctly:
 
 1. Shut down your server by entering the keyboard command <kbd>CTRL</kbd>+<kbd>c</kbd>
-2. Restart your server: `bundle exec jekyll serve`
+2. Restart your server: `bundle exec Jekyll serve`
 
 
 #### Layout
@@ -101,7 +101,7 @@ Parameters include:
 - `limit`: The maximum number of repositories that will be displayed in the "My Projects" section of your website. Out of the box, this number is set to `9`.
 - `exclude`:
    - `forks`: When `true`, repositories you've forked will be excluded from the listing.
-   - `projects`: A list the repository names you want to exclude from the listing.
+   - `projects`: A list of the repository names you want to exclude from the listing.
 
 #### Topics
 
@@ -119,21 +119,21 @@ Your website supports linking and sharing to social media services you're using,
 
 ```
 social_media:
-  behance: your_username
-  dribbble: your_username  
-  facebook: your_username
-  hackerrank: your_username
-  instagram: your_username
-  keybase: your_username
-  linkedin: your_username
-  medium: your_username
-  stackoverflow: your_user_id
-  telegram: your_username
-  twitter: your_username
-  unsplash: your_username
-  vk: your_username
-  website: http://your_website_url
-  youtube: your_username
+  Behance: your_username
+  Dribbble: your_username  
+  Facebook: your_username
+  Hackerrank: your_username
+  Instagram: your_username
+  Keybase: your_username
+  Linkedin: your_username
+  Medium: your_username
+  Stackoverflow: your_user_id
+  Telegram: your_username
+  Twitter: your_username
+  Unsplash: your_username
+  VK: your_username
+  Website: http://your_website_url
+  Youtube: your_username
 ```
 
 Links to your profile for each of the services you define will appear in the `<header>` of your website, appended to your bio. And if those services support sharing, any blog posts that you publish will include links to share that post using each social media service.
@@ -188,7 +188,7 @@ Jekyll's conventions for authoring and managing blog posts is very flexible. You
 
 To give you a sound foundation to start your personal website, your repository includes a handful of "includes" -- dynamic `.html` files that are re-used throughout your website. They're all stored in the `/_includes/` directory.
 
-There are the usual suspects, like `header.html` and `footer.html`. But there are few more worth pointing out:
+There are the usual suspects, like `header.html` and `footer.html`. But there are a few more worth pointing out:
 
 - `interests.html`: A heading and dynamic list of "My Interests," which is populated with the [topics](#topics) you list in your `_config.yml`.
 - `masthead.html`: A collection of your avatar, name, bio, and other metadata that's displayed prominently on all your webpages to help identify what the website is about.
@@ -223,4 +223,4 @@ You also have the option to add on to and extend Primer's styles by adding custo
 
 ## License
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+The theme is available as open-source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
