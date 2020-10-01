@@ -18,7 +18,7 @@ Once you've found a home for your forked repository now it's yours. You're the o
 
 ### Install in your local development environment
 
-If you want to manage your website in a local web development environment, you'll be using [Ruby](https://jekyllrb.com/docs/installation/).
+If you want to manage your website in a local web development environment so you'll be using [Ruby](https://jekyllrb.com/docs/installation/).
 
 Once you've found a home for your forked repository, **[clone it](https://help.github.com/articles/cloning-a-repository/)**.
 
