@@ -8,7 +8,7 @@ Your personal website is waiting to be personalized, though. It includes space t
 
 It's all possible using the combination of [Jekyll](https://jekyllrb.com/docs/) (for building your website), [GitHub Pages](https://pages.github.com/) (for hosting your website), and [GitHub's API](https://developer.github.com/v3/) (for automatically populating your website with content).
 
-## Installation
+----****----Installation----****----
 
 ### Fork the `github/personal-website` repo
 
@@ -71,7 +71,7 @@ When you host your personal website's code on GitHub, you get the support of fre
 
 **If you want to use a custom domain**, you'll want to add it to your repository's "Custom domain" settings on github.com. And then register and/or [configure your domain with a DNS provider](https://help.github.com/articles/quick-start-setting-up-a-custom-domain/).
 
-## Customization
+----****---- Customization ----****----
 
 It's your website, and you control the source code. So you can customize everything, if you like. But we've provided a handful of quick customizations for you to consider as you get your website off the ground.
 
@@ -221,6 +221,6 @@ You are, of course, welcome to remove it or replace it with another framework. J
 You also have the option to add on to and extend Primer's styles by adding custom CSS to your `/assets/styles.scss` Sass stylesheet. By editing this file, you can customize your website's color scheme, typography, and more.
 
 
-## License
+----****---- License ----****----
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
