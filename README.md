@@ -220,6 +220,10 @@ You are, of course, welcome to remove it or replace it with another framework. J
 
 You also have the option to add on to and extend Primer's styles by adding custom CSS to your `/assets/styles.scss` Sass stylesheet. By editing this file, you can customize your website's color scheme, typography, and more.
 
+import 'bootstrap/dist/css/bootstrap.css';
+
+By Using Bootstrap library inside the HTML Codes we can increase the quality of UI in the website.It has pre - written code from which user can import and use them directly. 
+It's Benefits user to Save time in writing the code and Styles . It has many Pre - written Styled components. Bootstrap is very much beginner friendly and it makes the portfolio looks more cool and its great experience using it.
 
 ## License
 
