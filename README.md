@@ -1,5 +1,5 @@
 # Get started building your personal website
-# An amazing projet
+# An amazing project
 
 ### Showcase your software development skills
 
