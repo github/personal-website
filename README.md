@@ -1,4 +1,4 @@
-# Get started building your personal website
+# Get started with building your personal website
 
 ### Showcase your software development skills
 
@@ -8,7 +8,7 @@ Your personal website is waiting to be personalized, though. It includes space t
 
 It's all possible using the combination of [Jekyll](https://jekyllrb.com/docs/) (for building your website), [GitHub Pages](https://pages.github.com/) (for hosting your website), and [GitHub's API](https://developer.github.com/v3/) (for automatically populating your website with content).
 
-## Installation
+## Installation Process
 
 ### Fork the `github/personal-website` repo
 
@@ -145,7 +145,7 @@ Links to your profile for each of the services you define will appear in the `<h
 
 If you're interested in adding a social media service that's not already supported in this repo, you can edit these two files to build that support.
 
-## Adding pages
+## Adding new pages
 
 To **add a page** to your website (e.g. detailed resume):
 
