@@ -1,4 +1,4 @@
-# Get started building your personal website
+# Get started building your personal website - An Amazing Project
 
 ### Showcase your software development skills
 
