@@ -55,7 +55,7 @@ Collaborating with a team of 6 developers to make this tool available for studen
   - Proposed and implemented GraphQL, which simplifies 5 REST endpoints into 1 endpoint, making complex queries up to 500% more efficient.
 
 
-### *Co-Creator*, [FabFlix](https://github.com/nananananate/fabflix) (2020-09 — Present)
+### *Co-Creator*, [FabFlix](https://github.com/nananananate/fabflix) (2020-01 — 2020-03)
 
 Proof-of-concept movie rental service
 Demonstrated Full-Stack development in this proof-of-concept movie rental service
@@ -64,6 +64,17 @@ Demonstrated Full-Stack development in this proof-of-concept movie rental servic
   - Deployed app onto GCP and AWS hosting services
 
   - Implemented a search engine which efficiently returns movies within seconds
+
+
+### *Developer*, [Smoothie Genie](https://github.com/nananananate/smoothiegenie) (2020-01 — 2020-03)
+
+Smoothie Recommendation IOS App
+Developed an iOS app that tracks user nutrition and suggests smoothies
+  - Compiled our nutrtion database (Firebase) through popular nutrition REST APIs
+
+  - Actualized dynamic UI for food information
+
+  - Implemented tracking of food consumtion/nutrtion
 
 
 

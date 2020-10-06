@@ -148,7 +148,8 @@ projects:
     url: 'https://github.com/nananananate/fabflix'
     repo: 'https://github.com/nananananate/fabflix'
     description: 'Proof-of-concept movie rental service'
-    start: 2020-09
+    start: 2020-01
+    end: 2020-03
     summary: 'Demonstrated Full-Stack development in this proof-of-concept movie rental service'
     keywords:
       - Java
@@ -167,6 +168,26 @@ projects:
       - 'Developed master-slave architecture to effectively load balance over 100 users simultameously renting movies'
       - 'Deployed app onto GCP and AWS hosting services'
       - 'Implemented a search engine which efficiently returns movies within seconds'
+  -
+    title: 'Smoothie Genie'
+    category: 'Web / Android App'
+    role: Developer
+    url: 'https://github.com/nananananate/smoothiegenie'
+    repo: 'https://github.com/nananananate/smoothiegenie'
+    description: 'Smoothie Recommendation IOS App'
+    start: 2020-01
+    end: 2020-03
+    summary: 'Developed an iOS app that tracks user nutrition and suggests smoothies'
+    keywords:
+      - Firebase
+      - Swift
+      - 'REST API'
+      - iOS
+      - UI/UX
+    highlights:
+      - 'Compiled our nutrtion database (Firebase) through popular nutrition REST APIs'
+      - 'Actualized dynamic UI for food information'
+      - 'Implemented tracking of food consumtion/nutrtion'
 affiliation:
   history:
     -
