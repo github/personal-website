@@ -9,8 +9,9 @@ Web: http://tisuela.com
 ## SKILLS
 
   - OO Languages: Python Java C++ C 
-  - Web Development: GraphQL Flask FastAPI Tomcat Express.js 
+  - Web Development: GraphQL REST Flask FastAPI Tomcat Express.js JQuery HTML CSS 
   - Scripting: Powershell Javascript 
+  - Databases: MongoDB SQL Firebase 
 
 ## EMPLOYMENT
 

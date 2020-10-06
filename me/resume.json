@@ -80,10 +80,14 @@
       "level": "Master",
       "keywords": [
         "GraphQL",
+        "REST",
         "Flask",
         "FastAPI",
         "Tomcat",
-        "Express.js"
+        "Express.js",
+        "JQuery",
+        "HTML",
+        "CSS"
       ]
     },
     {
@@ -92,6 +96,15 @@
       "keywords": [
         "Powershell",
         "Javascript"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "Master",
+      "keywords": [
+        "MongoDB",
+        "SQL",
+        "Firebase"
       ]
     }
   ],

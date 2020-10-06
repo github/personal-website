@@ -572,7 +572,7 @@
         </w:tcPr>
         <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
           <w:r>
-            <w:t>GraphQL, Flask, FastAPI, Tomcat, Express.js</w:t>
+            <w:t>GraphQL, REST, Flask, FastAPI, Tomcat, Express.js, JQuery, HTML, CSS</w:t>
           </w:r>
         </w:p>
       </w:tc>
@@ -599,6 +599,32 @@
         <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
           <w:r>
             <w:t>Powershell, Javascript</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+    </w:tr>
+
+
+    <w:tr wsp:rsidR="00427ECC" wsp:rsidTr="00FD3B33">
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="3000" w:type="dxa"/>
+          <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+        </w:tcPr>
+        <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
+          <w:r>
+            <w:t>Databases:</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="8000" w:type="dxa"/>
+          <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+        </w:tcPr>
+        <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
+          <w:r>
+            <w:t>MongoDB, SQL, Firebase</w:t>
           </w:r>
         </w:p>
       </w:tc>

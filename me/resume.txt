@@ -9,8 +9,9 @@ Web: http://tisuela.com
 SKILLS -------------------------------------------------------------------------
 
 - OO Languages: Python Java C++ C 
-- Web Development: GraphQL Flask FastAPI Tomcat Express.js 
+- Web Development: GraphQL REST Flask FastAPI Tomcat Express.js JQuery HTML CSS 
 - Scripting: Powershell Javascript 
+- Databases: MongoDB SQL Firebase 
 
 
 EMPLOYMENT ---------------------------------------------------------------------
@@ -44,6 +45,13 @@ UC Irvine course discovery Web API
 Collaborating with a team of 6 developers to make this tool available for students at UCI.
 - Identified SQL vulnerabilities.
 - Proposed and implemented GraphQL, which simplifies 5 REST endpoints into 1 endpoint, making complex queries up to 500% more efficient.
+
+FabFlix, Co-Creator (2020-09 — Present)
+Proof-of-concept movie rental service
+Demonstrated Full-Stack development in this proof-of-concept movie rental service
+- Developed master-slave architecture to effectively load balance over 100 users simultameously renting movies
+- Deployed app onto GCP and AWS hosting services
+- Implemented a search engine which efficiently returns movies within seconds
 
 
 

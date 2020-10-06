@@ -82,16 +82,27 @@ skills:
       level: Master
       skills:
         - GraphQL
+        - REST
         - Flask
         - FastAPI
         - Tomcat
         - Express.js
+        - JQuery
+        - HTML
+        - CSS
     -
       name: Scripting
       level: Master
       skills:
         - Powershell
         - Javascript
+    -
+      name: Databases
+      level: Master
+      skills:
+        - MongoDB
+        - SQL
+        - Firebase
 projects:
   -
     title: CourseCake

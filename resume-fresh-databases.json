@@ -153,22 +153,6 @@
        "Identified SQL vulnerabilities.",
        "Proposed and implemented GraphQL, which simplifies 5 REST endpoints into 1 endpoint, making complex queries up to 500% more efficient."
       ]
-    },
-    {
-      "title": "FabFlix",
-      "category": "Web / Android App",
-      "role": "Co-Creator",
-      "url": "https://github.com/nananananate/fabflix",
-      "repo": "https://github.com/nananananate/fabflix",
-      "description": "Proof-of-concept movie rental service",
-      "start": "2020-09",
-      "summary": "Demonstrated Full-Stack development in this proof-of-concept movie rental service",
-      "keywords": ["Java", "JavaScript", "JQuery", "AJAX", "Tomcat", "SQL", "Apache", "AWS", "GCP", "Load Balancing", "AndroidSDK", "Android"],
-      "highlights": [
-       "Developed master-slave architecture to effectively load balance over 100 users simultameously renting movies",
-       "Deployed app onto GCP and AWS hosting services",
-       "Implemented a search engine which efficiently returns movies within seconds"
-      ]
     }
   ],
   "affiliation": {
