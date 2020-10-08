@@ -202,7 +202,7 @@ There are the usual suspects, like `header.html` and `footer.html`. But there ar
 
 Your repository comes with three layouts:
 
-- **default**: Not used by any of the built-in pages or posts, but useful for any new pages you create.
+- **default**: Not used by any of the built-in pages or posts, but it is useful for any new pages you create.
 - **home**: Used by your `index.html` homepage to display listings of your projects, interests, and (optionally) your blog posts.
 - **post**: Used by default by the posts in your `/_posts/` directory.
 
@@ -223,4 +223,4 @@ You also have the option to add on to and extend Primer's styles by adding custo
 
 ## License
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+The themes are available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
