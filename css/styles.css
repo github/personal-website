@@ -237,18 +237,34 @@ button {
   justify-content: center;
 }
 
-.project-button {
+.project-tile {
   flex: 50%;
   max-width: 700px;
-  padding: 15px;
-  text-align: center;
-  color: white;
+  min-height: 300px;
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
-@media (max-width: 992px) {
-  .project-button {
+@media (max-width: 960px) {
+  .project-tile {
     flex: 100%;
   }
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+}
+
+.project-text {
+  position: absolute;
+  text-align: center;
+  z-index: 0;
+  color: white;
+  padding: 20px;
 }
 
 button:focus {
