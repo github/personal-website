@@ -257,14 +257,25 @@ button {
   height: 100%;
   z-index: -1;
   position: absolute;
+  object-fit: cover;
 }
 
 .project-text {
   position: absolute;
   text-align: center;
-  z-index: 0;
+  z-index: 1;
   color: white;
-  padding: 20px;
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 70px;
+  overflow: hidden;
+  background-color: rgba(16, 56, 68, 0.6);
+  transition: 0.3s;
+}
+
+.project-text:hover {
+  background-color: rgba(16, 56, 68, 0.4);
 }
 
 button:focus {
