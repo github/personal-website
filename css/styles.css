@@ -278,6 +278,19 @@ button {
   background-color: rgba(16, 56, 68, 0.4);
 }
 
+.small-logo {
+  height: 2em;
+  width: 2em;
+  margin-left: 0.4em;
+  margin-right: 0.4em;
+  transition: 0.1s;
+  opacity: 0.9;
+}
+
+.small-logo:hover {
+  opacity: 1;
+}
+
 button:focus {
   outline: 1px dotted;
   outline: 5px auto -webkit-focus-ring-color;
