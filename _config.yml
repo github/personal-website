@@ -56,7 +56,7 @@ topics:
     image_url: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1571750853&di=0955545e13cf0fbb350ad483d9c24f1b&imgtype=jpg&er=1&src=http%3A%2F%2Fwww.lgstatic.com%2Fi%2Fimage%2FM00%2F76%2F40%2FCgp3O1g1TNOAB2yxAAA9bQUyc4g814.png
 
   - name: 关于PPIO
-    web_url: https://pp.io/?from=ash
+    web_url: http://ppio.cn/?from=ash
     image_url: https://www.lgstatic.com/i/image2/M01/30/7C/CgoB5lzasoaAF_kuAAKMD93XGgc713.png
 
   - name: 关于我
