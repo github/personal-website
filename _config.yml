@@ -24,7 +24,6 @@ projects:
   limit: 9
   exclude: #hide the following:
     archived: true
-    forks: false
     projects:
       - python-gui-calculator
   include:
