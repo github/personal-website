@@ -1,6 +1,6 @@
 ---
 title: How to hook up a Worlde EasyKey 25 to a Debian box and review of Worlde EasyKey 25.
-published: true
+released: true
 ---
 
 Hello! This is my first article. It is NOT the same as the blog - the blog is solely for updates on me/software/other stuff; articles are for 
