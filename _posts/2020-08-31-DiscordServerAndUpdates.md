@@ -1,6 +1,6 @@
 ---
 title: August Updates
-published: true
+released: true
 ---
 
 Sorry for not posting much! I've been invested in many other things.

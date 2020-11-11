@@ -1,6 +1,6 @@
 ---
 title: It's been a year
-published: true
+released: true
 ---
 
 It's been a year since I created my account on GitHub, created `python-shell`, and programmed happily.

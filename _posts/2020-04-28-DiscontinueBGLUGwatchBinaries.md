@@ -1,9 +1,9 @@
 ---
 title: Discontinuing bglugwatch-binaries
-published: true
+released: true
 ---
 
-I had to discontinue bglugwatch-binaries :'/  
+I had to discontinue bglugwatch-binaries :'/
 Why? Because once I finish the new and improved rolling release system, it will download the file each time (even if there is nothing to download!) and the files are like 10MB each.
 
 Unless I use something like zsync_curl (which I would need to set up (and you guys know how *I* set things up)) it is a Lost Cause.

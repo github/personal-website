@@ -1,6 +1,6 @@
 ---
 title: BGLUGwatch is back, baby!
-published: true
+released: true
 ---
 BGLUGwatch is back...and the rolling release system is DONE!
 

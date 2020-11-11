@@ -1,6 +1,6 @@
 ---
 title: Palc v.0.8-stable has been released!
-published: true
+released: true
 ---
 
 Palc is now becoming a HYBRID calculator!
