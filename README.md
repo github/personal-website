@@ -12,7 +12,7 @@ It's all possible using the combination of [Jekyll](https://jekyllrb.com/docs/) 
 
 ### Fork the `github/personal-website` repo
 
-You'll be making your own copy of the "personal website starter" repository so you have your own project to customize. A "fork" is a copy of a repository. So select "Fork" atop [the `github/personal-website` repository](https://github.com/github/personal-website).
+You'll be making your own copy of the "personal website starter" repository so you have your own project to customize. A "fork" is a copy of a repository. So select "Fork" at the top of [`github/personal-website` repository](https://github.com/github/personal-website).
 
 Once you've found a home for your forked repository, it's yours. You're the owner, so you're ready to publish, if you wish.
 
@@ -20,7 +20,11 @@ Once you've found a home for your forked repository, it's yours. You're the owne
 
 If you want to manage your website in a local web development environment, you'll be using [Ruby](https://jekyllrb.com/docs/installation/).
 
-Once you've found a home for your forked repository, **[clone it](https://help.github.com/articles/cloning-a-repository/)**.
+Once you've found a home for your forked repository, **[clone it](https://help.github.com/articles/cloning-a-repository/)**.<br>
+```sh
+git clone https://github.com/<your_username>/personal-website
+```
+
 
 #### Install Jekyll
 
