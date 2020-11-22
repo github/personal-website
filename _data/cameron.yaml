@@ -29,6 +29,8 @@ technologies:
     image_path: "/assets/images/technologies/go.png"
   - name: Python
     image_path: "/assets/images/technologies/python.png"
+  - name: Ruby
+    image_path: "/assets/images/technologies/ruby.png"
   - name: Java
     image_path: "/assets/images/technologies/java.png"
   - name: Bash
@@ -55,6 +57,7 @@ technologies:
     image_path: "/assets/images/technologies/sql.png"
   - name: MySQL
     image_path: "/assets/images/technologies/mysql.png"
+
   # Cloud Computing
   - name: Kubernetes
     image_path: "/assets/images/technologies/kubernetes.png"
@@ -64,6 +67,7 @@ technologies:
     image_path: "/assets/images/technologies/aws.png"
   - name: OpenShift
     image_path: "/assets/images/technologies/openshift.png"
+
   # Tools
   - name: Git
     image_path: "/assets/images/technologies/git.png"
@@ -89,6 +93,7 @@ technologies:
     image_path: "/assets/images/technologies/gulp.png"
   - name: Ansible
     image_path: "/assets/images/technologies/ansible.png"
+
   # CI/CD
   - name: Jenkins
     image_path: "/assets/images/technologies/jenkins.jpeg"
@@ -98,9 +103,12 @@ technologies:
     image_path: "/assets/images/technologies/circleci.png"
   - name: Travis CI
     image_path: "/assets/images/technologies/travisci.jpeg"
+
   # Frameworks
   - name: Django
     image_path: "/assets/images/technologies/django.png"
+  - name: Rails
+    image_path: "/assets/images/technologies/rails.svg"
   - name: React
     image_path: "/assets/images/technologies/react.png"
   - name: Redux
@@ -123,17 +131,10 @@ technologies:
     image_path: "/assets/images/technologies/bootstrap.png"
   - name: SemanticUI
     image_path: "/assets/images/technologies/semanticui.png"
-  - name: Primer CSS
-    image_path: "/assets/images/technologies/primercss.png"
   - name: .NET
     image_path: "/assets/images/technologies/dotnet.png"
   - name: Kafka
     image_path: "/assets/images/technologies/kafka.png"
-  # Other
-  - name: Nginx
-    image_path: "/assets/images/technologies/nginx.png"
-  - name: Grafana
-    image_path: "/assets/images/technologies/grafana.jpeg"
 
 repos:
   sort_by: pushed
