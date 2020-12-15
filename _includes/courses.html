@@ -1,76 +1,21 @@
----
-layout: default
----
-
-
-<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>
-    <div class="animate__animated animate__pulse">Courses I have taken
-    </div>
-  </h2>
-  <p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">Topics that I want to learn more about.</p>
-  <div class="d-flex flex-wrap gutter-condensed mb-4">
-    {% for topic in site.topics %}
-      <div class="col-6 col-md-12 col-lg-6 col-xl-4 mb-3">
-        {% include topic-card.html %}
-      </div>
-    {% endfor %}
-  </div>
-
-
-
-
-
   <!doctype html>
 <html lang="en">
 
 <head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
 		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link href="../CSS/custom.css" rel="stylesheet">
-	<link rel="icon" type="image/png" href="../Images/Favicon/favicon-32x32.png" sizes="32x32" />
-	<title>Courses</title>
-	<meta name="DESCRIPTION" content="These are the courses that Brian Pho has taken." />
-	<meta name="KEYWORDS" content="Brian Pho, courses" />
 </head>
 
 <body>
-	<header>
-		<nav class="navbar fixed-top navbar-expand-lg navbar-light">
-			<a class="navbar-brand" href="index.html">
-				<img src="../Images/Favicon/favicon-32x32.png" width="30" height="30" class="d-inline-block align-top"
-					alt="Brian Pho Favicon">
-			</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="index.html">Home</a>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="courses.html">Courses
-							<span class="sr-only">(current)</span>
-						</a>
-					</li>
-				
-				</ul>
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link" href="/CR4-DL">CR4-DL</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="/Cadence">Cadence</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	</header>
+	
+	<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>
+		<div class="animate__animated animate__pulse">Courses I have taken
+		</div>
+	  </h2>
+	  
 	<div class="container text-center">
 		<h1 class="display-4">Courses</h1>
 		<div class="lead text-left">
@@ -78,8 +23,7 @@ layout: default
 				I've completed my bachelors in software engineering at the University of Calgary and have moved
 				on to a masters in neuroscience at Western University. I've transitioned into neuroscience
 				because I want to learn more about the brain to build artificial general intelligence. More information
-				about my motivation to switch fields can be found <a href="https://brianpho.com/CR4-DL/about/">
-					here</a>. Hover over a course to see its title.
+				about my motivation to switch fields can be found 
 			</p>
 		</div>
 		<hr>
