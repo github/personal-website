@@ -2,7 +2,15 @@
 ---
 @import url('https://unpkg.com/primer/build/build.css');
 @import 'highlight-syntax';
-
+@import url("219-keyframes.css");
+@import url("219-base.css");
+@import url("219-400.css") all and (min-width: 400px);
+@import url("219-800.css") all and (min-width: 800px) and (max-width: 1366px);
+@import url("219-1367.css") all and (min-width: 1367px);
+@import url("219-1600.css") all and (min-width: 1600px);
+@import url("219-fix1.css") all and (min-width: 1367px);
+@import url("219-fix2.css") all and (min-width: 1367px);
+@import url("219-bg.css") all and (min-width: 400px);
 
 // If a user adds a custom font, this component will stop it from bleeding into GitHub components:
 .github-component {
