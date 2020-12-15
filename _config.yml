@@ -54,7 +54,7 @@ topics:
 
   - name: Algorithm
     web_url:  https://github.com/topics/algorithm
-    image_url:https://pandorafms.com/blog/wp-content/uploads/2018/05/what-is-an-algorithm-featured.png
+    image_url: https://pandorafms.com/blog/wp-content/uploads/2018/05/what-is-an-algorithm-featured.png
 
   - name: HTML
     web_url: https://github.com/topics/html
