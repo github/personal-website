@@ -20,14 +20,22 @@
         </a>
       </div>
     {% endif %}
-    {% if user.email %}
+    {% comment %} {% if user.email %}
       <div class="{{ metadata_styles }}">
         {% octicon mail height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:email %}
         <a href="mailto:{{ user.email }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
           {{ user.email }}
         </a>
       </div>
-    {% endif %}
+    {% endif %} {% endcomment %}
+
+    <div class="{{ metadata_styles }}">
+        {% octicon mail height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:email %}
+        <a href="mailto:dgump31@outlook.com" {% if site.style == 'dark' %}class="text-white"{% endif %}>
+          dgump31@outlook.com
+        </a>
+      </div>
+
     {% if user.location %}
       <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
         {% octicon location height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Location %}
