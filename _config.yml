@@ -22,10 +22,10 @@ defaults:
       is_post: true
 
 topics:
-  - name: Web design
+  - name: Consulting
 
-  - name: CSS
-    github_name: css
+  - name: Python
+    github_name: python
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
 
   - name: Sass
