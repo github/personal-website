@@ -18,6 +18,10 @@ You'll be making your own copy of the "personal website starter" repository so y
 
 Once you've found a home for your forked repository, it's yours. You're the owner, so you're ready to publish, if you wish.
 
+### Install in Gitpod
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/github/personal-website)
+
 ### Install in your local development environment
 
 If you want to manage your website in a local web development environment, you'll be using [Ruby](https://jekyllrb.com/docs/installation/).
