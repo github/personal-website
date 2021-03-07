@@ -3,6 +3,7 @@ image:
 
 ports:
   - port: 4000
+    onOpen: open-preview
 
 tasks:
   - before: gem install jekyll bundler
