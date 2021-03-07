@@ -5,7 +5,8 @@ ports:
   - port: 4000
 
 tasks:
-  - init: bundle install
+  - before: gem install jekyll bundler
+    init: bundle install
     name: jekyll
     command: bundle exec jekyll serve
 
