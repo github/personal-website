@@ -1,0 +1,37 @@
+image:
+  file: .gitpod.Dockerfile
+
+ports:
+  - port: 4000
+    onOpen: open-preview
+
+tasks:
+  - before: gem install jekyll bundler
+    init: bundle install
+    name: jekyll
+    command: bundle exec jekyll serve
+
+vscode:
+  extensions:
+    - syler.sass-indented@1.8.15:OWaLl5oCHRK7fCfvhwK3og==
+
+    - dbaeumer.vscode-eslint@2.1.8:02aHhbJ0Q4aGdjHXlTdVKg==
+
+github:
+  prebuilds:
+    # enable for the master/default branch (defaults to true)
+    master: true
+# enable for all branches in this repo (defaults to false)
+    branches: false
+# enable for pull requests coming from this repo (defaults to true)
+    pullRequests: true
+# enable for pull requests coming from forks (defaults to false)
+    pullRequestsFromForks: false
+# add a check to pull requests (defaults to true)
+    addCheck: true
+# add a "Review in Gitpod" button as a comment to pull requests (defaults to false)
+    addComment: true
+# add a "Review in Gitpod" button to the pull request's description (defaults to false)
+    addBadge: false
+# add a label once the prebuild is ready to pull requests (defaults to false)
+    addLabel: true

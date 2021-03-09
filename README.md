@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/github/personal-website)
+
 # Get started building your personal website
 
 ### Showcase your software development skills
@@ -17,6 +19,10 @@ It's all possible using the combination of [Jekyll](https://jekyllrb.com/docs/) 
 You'll be making your own copy of the "personal website starter" repository so you have your own project to customize. A "fork" is a copy of a repository. So select "Fork" atop [the `github/personal-website` repository](https://github.com/github/personal-website).
 
 Once you've found a home for your forked repository, it's yours. You're the owner, so you're ready to publish, if you wish.
+
+### Install in Gitpod
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/github/personal-website)
 
 ### Install in your local development environment
 
