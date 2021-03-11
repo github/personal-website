@@ -1,5 +1,5 @@
-layout: sidebar
-style: light
+layout: stacked
+style: dark
 
 plugins:
   - jekyll-octicons
@@ -33,9 +33,9 @@ projects:
   # dribbble: your_username
   # facebook: your_username
   # hackerrank: your_username
-  # instagram: your_username
+  instagram: its.albertang
   # keybase: your_username
-  # linkedin: your_username
+  linkedin: www.linkedin.com/in/albert-ang
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
