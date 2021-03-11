@@ -132,6 +132,7 @@ social_media:
   stackoverflow: your_user_id
   telegram: your_username
   twitter: your_username
+  instagram: your_username
   unsplash: your_username
   vk: your_username
   website: http://your_website_url
