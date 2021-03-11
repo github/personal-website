@@ -1,4 +1,4 @@
-# Get started building your personal website
+# Get started building your personal website 
 
 ### Showcase your software development skills
 
@@ -59,13 +59,13 @@ Configuration file: /octocat/personal-website/_config.yml
  Auto-regeneration: enabled for '/octocat/personal-website'
     Server address: http://127.0.0.1:4000
   Server running... press ctrl-c to stop.
-```
+  ```
 
 Don't worry about the "No GitHub API authentication could be found" message. [API authentication is only necessary](https://github.com/jekyll/github-metadata/blob/master/docs/authentication.md) if you intend to display more detailed metadata, like a branch name.
 
 6. Now browse to [http://localhost:4000](http://localhost:4000)
 
-### Publish
+### Publish :
 
 When you host your personal website's code on GitHub, you get the support of free hosting through GitHub Pages.
 
@@ -73,7 +73,7 @@ When you host your personal website's code on GitHub, you get the support of fre
 
 **If you want to use a custom domain**, you'll want to add it to your repository's "Custom domain" settings on github.com. And then register and/or [configure your domain with a DNS provider](https://help.github.com/articles/quick-start-setting-up-a-custom-domain/).
 
-## Customization
+## Customization :
 
 It's your website, and you control the source code. So you can customize everything, if you like. But we've provided a handful of quick customizations for you to consider as you get your website off the ground.
 
