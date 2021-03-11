@@ -16,7 +16,7 @@ It's all possible using the combination of [Jekyll](https://jekyllrb.com/docs/) 
 
 You'll be making your own copy of the "personal website starter" repository so you have your own project to customize. A "fork" is a copy of a repository. So select "Fork" atop [the `github/personal-website` repository](https://github.com/github/personal-website).
 
-Once you've found a home for your forked repository, it's yours. You're the owner, so you're ready to publish, if you wish.
+Once you've found a home for your forked repository, it's yours. You're the owner, so you're ready to publish if you wish.
 
 ### Install in your local development environment
 
@@ -103,7 +103,7 @@ Parameters include:
 - `limit`: The maximum number of repositories that will be displayed in the "My Projects" section of your website. Out of the box, this number is set to `9`.
 - `exclude`:
    - `forks`: When `true`, repositories you've forked will be excluded from the listing.
-   - `projects`: A list the repository names you want to exclude from the listing.
+   - `projects`: A list of the repository names you want to exclude from the listing.
 
 #### Topics
 
@@ -180,7 +180,7 @@ title: "The title of my blog post"
 ---
 ```
 
-Your website comes with a placeholder blog post that you can reference. Notably, its [front matter](https://jekyllrb.com/docs/front-matter/) declares `published` as `false`, so that it won't appear on your website.
+Your website comes with a placeholder blog post that you can reference. Notably, it's [front matter](https://jekyllrb.com/docs/front-matter/) declares `published` as `false`, so that it won't appear on your website.
 
 While you can define a `layout` in the front matter, your website is pre-configured to assign the `post` layout to all of the posts in your `/_posts/` directory. So you don't have to declare that in your posts.
 
@@ -190,7 +190,7 @@ Jekyll's conventions for authoring and managing blog posts is very flexible. You
 
 To give you a sound foundation to start your personal website, your repository includes a handful of "includes" -- dynamic `.html` files that are re-used throughout your website. They're all stored in the `/_includes/` directory.
 
-There are the usual suspects, like `header.html` and `footer.html`. But there are few more worth pointing out:
+There are the usual suspects, like `header.html` and `footer.html`. But there are a few more worth pointing out:
 
 - `interests.html`: A heading and dynamic list of "My Interests," which is populated with the [topics](#topics) you list in your `_config.yml`.
 - `masthead.html`: A collection of your avatar, name, bio, and other metadata that's displayed prominently on all your webpages to help identify what the website is about.
@@ -225,4 +225,4 @@ You also have the option to add on to and extend Primer's styles by adding custo
 
 ## License
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+The theme is available as open-source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
