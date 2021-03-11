@@ -14,7 +14,7 @@ It's all possible using the combination of [Jekyll](https://jekyllrb.com/docs/) 
 
 ### Fork the `github/personal-website` repo
 
-You'll be making your own copy of the "personal website starter" repository so you have your own project to customize. A "fork" is a copy of a repository. So select "Fork" atop [the `github/personal-website` repository](https://github.com/github/personal-website).
+You'll be making your own copy of the "personal website starter" repository so you have your own project to customize. A "fork" is a copy of a repository. So select "Fork" atop the [`github/personal-website`](https://github.com/github/personal-website) repository.
 
 Once you've found a home for your forked repository, it's yours. You're the owner, so you're ready to publish, if you wish.
 
