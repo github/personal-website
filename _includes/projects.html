@@ -7,21 +7,26 @@
     {% assign sort_order = 'pushed_at' %}
   {% endif %}
 
+  {% assign excluded_repos = '' | split: ',' %}
+  {% for repository in site.github.public_repositories %}
+    {% unless site.projects.exclude.projects contains repository.name %}
+      {% assign excluded_repos = excluded_repos | push: repository %}
+    {% endunless %}
+  {% endfor %}
+
   {% if site.projects.exclude.archived && site.projects.exclude.forks %}
-    {% assign filtered_repos = site.github.public_repositories | where:'archived', false | where:'fork', false | sort: sort_order | reverse %}
+    {% assign filtered_repos = excluded_repos | where:'archived', false | where:'fork', false | sort: sort_order | reverse %}
   {% elsif site.projects.exclude.archived %}
-    {% assign filtered_repos = site.github.public_repositories | where:'archived', false | sort: sort_order | reverse %}
+    {% assign filtered_repos = excluded_repos | where:'archived', false | sort: sort_order | reverse %}
   {% elsif site.projects.exclude.forks %}
-    {% assign filtered_repos = site.github.public_repositories | where:'fork', false | sort: sort_order | reverse %}
+    {% assign filtered_repos = excluded_repos | where:'fork', false | sort: sort_order | reverse %}
   {% else %}
-    {% assign filtered_repos = site.github.public_repositories | sort: sort_order | reverse %}
+    {% assign filtered_repos = excluded_repos | sort: sort_order | reverse %}
   {% endif %}
 
   {% for repository in filtered_repos | limit: site.projects.limit %}
-    {% unless site.projects.exclude.projects contains repository.name %}
-      <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
-        {% include repo-card.html %}
-      </div>
-    {% endunless %}
+    <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+      {% include repo-card.html %}
+    </div>
   {% endfor %}
 </div>
