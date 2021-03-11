@@ -29,5 +29,13 @@
     <meta property="og:description" content="{{ meta_description }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="{{ "/assets/styles.css" | relative_url }}" rel="stylesheet" type="text/css">
+
+    <script>
+      window.onload = function () {
+        const bio = document.getElementById("bio");
+        const linkedText = bio.innerHTML.replace(new RegExp("(?:@)(\\w+)", "g"), "<a href='https://github.com/$1'>@$1</a>");
+        bio.innerHTML = linkedText;
+      }
+    </script>
   </head>
   <body class="bg-white min-height-full" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
