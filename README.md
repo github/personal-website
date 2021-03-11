@@ -163,7 +163,7 @@ layout: default
 
 ## Adding blog posts
 
-To **add a blog post** to your website:
+To **add a blog posts** to your website:
 
 1. Create a new `.md` file in your repository's `/_posts/` directory.
 2. Give it a filename using the following format:
