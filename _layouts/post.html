@@ -44,6 +44,34 @@
       <h1 class="f00-light lh-condensed">{{ page.title }}</h1>
       <p class="{% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %} mb-5">Published {{ page.date | date: "%b %d, %Y"}}</p>
       {{ post_body }}
+      {% if site.post_comments %}
+          {% if page.comments %}
+              {% assign comments_service = site.data.comments[site.post_comments.service] %}
+              
+              {% if site.post_comments.service == "commentbox.io" %}
+                  <div class="commentbox"></div>
+                  <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+                  <script>
+                      commentBox('{{ comments_service.identifier }}');
+                  </script>
+              {% elsif site.post_comments.service == "disqus" %}
+                  <div id="disqus_thread"></div>
+                  <script>
+                      var disqus_config = function() {
+                          this.page.url = "{{ page.url | prepend: site.url | prepend: site.baseurl }}";
+                          this.page.identifier = "{{ page.url | prepend: site.url | prepend: site.baseurl }}";
+                      };
+                      (function() {
+                          var d = document, s = d.createElement('script');
+                          s.src = 'https://{{ comments_service.identifier }}/embed.js';
+                          s.setAttribute('data-timestamp', +new Date());
+                          (d.head || d.body).appendChild(s);
+                      })();
+                  </script>
+                  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+              {% endif %}
+          {% endif %}
+      {% endif %}
     </div>
   </div>
 {% else %}
@@ -60,6 +88,34 @@
             <h1 class="f00-light lh-condensed">{{ page.title }}</h1>
             <p class="{% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %} mb-5">Published {{ page.date | date: "%b %d, %Y"}}</p>
             {{ post_body }}
+            {% if site.post_comments %}
+                {% if page.comments %}
+                    {% assign comments_service = site.data.comments[site.post_comments.service] %}
+                    
+                    {% if site.post_comments.service == "commentbox.io" %}
+                        <div class="commentbox"></div>
+                        <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+                        <script>
+                            commentBox('{{ comments_service.identifier }}');
+                        </script>
+                    {% elsif site.post_comments.service == "disqus" %}
+                        <div id="disqus_thread"></div>
+                        <script>
+                            var disqus_config = function() {
+                                this.page.url = "{{ page.url | prepend: site.url | prepend: site.baseurl }}";
+                                this.page.identifier = "{{ page.url | prepend: site.url | prepend: site.baseurl }}";
+                            };
+                            (function() {
+                                var d = document, s = d.createElement('script');
+                                s.src = 'https://{{ comments_service.identifier }}/embed.js';
+                                s.setAttribute('data-timestamp', +new Date());
+                                (d.head || d.body).appendChild(s);
+                            })();
+                        </script>
+                        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                    {% endif %}
+                {% endif %}
+            {% endif %}
           </div>
         </div>
       </div>
