@@ -45,9 +45,7 @@ bundle install
 ```
 bundle exec jekyll serve
 ```
-
 You should see something like:
-
 ```
 Configuration file: /octocat/personal-website/_config.yml
             Source: /octocat/personal-website
@@ -149,7 +147,7 @@ If you're interested in adding a social media service that's not already support
 
 ## Adding pages
 
-To **add a page** to your website (e.g. detailed resume):
+To **add a page** to your website (e.g. detailed resume):-
 
 1. Create a new `.html` or `.md` file at the root of your repository.
 2. Give it a filename that you want to be used in the page's URL (e.g. `http://yoursite.dev/filename`).
@@ -179,14 +177,13 @@ YEAR-MONTH-DAY-title.MARKUP
 title: "The title of my blog post"
 ---
 ```
-
 Your website comes with a placeholder blog post that you can reference. Notably, its [front matter](https://jekyllrb.com/docs/front-matter/) declares `published` as `false`, so that it won't appear on your website.
 
 While you can define a `layout` in the front matter, your website is pre-configured to assign the `post` layout to all of the posts in your `/_posts/` directory. So you don't have to declare that in your posts.
 
 Jekyll's conventions for authoring and managing blog posts is very flexible. You can [learn more in Jekyll's documentation for "Posts."](https://jekyllrb.com/docs/posts/)
 
-## Content and templates
+## Content and templates:-
 
 To give you a sound foundation to start your personal website, your repository includes a handful of "includes" -- dynamic `.html` files that are re-used throughout your website. They're all stored in the `/_includes/` directory.
 
