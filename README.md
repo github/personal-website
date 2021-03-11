@@ -129,12 +129,14 @@ social_media:
   keybase: your_username
   linkedin: your_username
   medium: your_username
+  pexels: your_username
   stackoverflow: your_user_id
   telegram: your_username
   twitter: your_username
   unsplash: your_username
   vk: your_username
   website: http://your_website_url
+  writeas: your_username
   youtube: your_username
 ```
 
