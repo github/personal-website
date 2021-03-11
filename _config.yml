@@ -28,14 +28,15 @@ projects:
     projects:
     # - repo-name
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
-  # facebook: your_username
+  # facebook: Zhifan Li
   # hackerrank: your_username
-  # instagram: your_username
+    instagram: zhifan_li
   # keybase: your_username
-  # linkedin: your_username
+    linkedin: zhifan-tom-li-7198331a7
+
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
@@ -43,16 +44,20 @@ projects:
   # twitter: your_username
   # unsplash: your_username
   # vk: your_username
-  # website: http://your_website_url
+    website: https://www.zhifanli.website
   # youtube: your_username
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: C++
+    web_url: https://github.com/topics/cpp
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png
 
-  - name: Web design
+  - name: Algorithm
+    web_url:  https://github.com/topics/algorithm
+    image_url: https://pandorafms.com/blog/wp-content/uploads/2018/05/what-is-an-algorithm-featured.png
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: HTML
+    web_url: https://github.com/topics/html
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/html/html.png
+courses:
+  
