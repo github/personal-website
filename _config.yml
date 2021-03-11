@@ -1,5 +1,5 @@
 layout: sidebar
-style: light
+style: dark
 
 plugins:
   - jekyll-octicons
@@ -32,7 +32,7 @@ projects:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
-  # hackerrank: your_username
+  # hackerrank: Pop Sauce
   # instagram: your_username
   # keybase: your_username
   # linkedin: your_username
@@ -47,12 +47,23 @@ projects:
   # youtube: your_username
 
 topics:
+  - name: Source Code of the Universe
+    web_url: http://theunapologists.com/a-beginners-guide-to-quantum-mechanics
+    image_url: https://www.outerplaces.com/images/user_upload/lhc.gif
+   
+  - name: Random Stuff
+    web_url: https://libraryofbabel.info/
+    image_url: https://raw.githubusercontent.com/popsauce/popsauce.github.io/master/bis.jpg
+
   - name: CSS
     web_url: https://github.com/topics/css
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
 
   - name: Web design
+    image_url: https://i.pinimg.com/originals/6c/90/28/6c90288d7e10d46d18895f17f420a92c.gif
 
   - name: Sass
     web_url: https://github.com/topics/sass
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+
+theme: jekyll-theme-slate
