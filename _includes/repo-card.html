@@ -8,7 +8,7 @@
         </a>
       </h1>
     </div>
-    <div class="text-gray mb-2 ws-normal">{{ repository.description }}</div>
+    <div class="text-gray mb-2 ws-normal overflow-hidden">{{ repository.description | escape }}</div>
   </div>
   <div class="d-flex f6">
     {% if repository.language %}
