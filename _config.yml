@@ -45,6 +45,7 @@ projects:
   # vk: your_username
   # website: http://your_website_url
   # youtube: your_username
+  # codechef: your_username
 
 topics:
   - name: CSS
