@@ -16,7 +16,7 @@ It's all possible using the combination of [Jekyll](https://jekyllrb.com/docs/) 
 
 You'll be making your own copy of the "personal website starter" repository so you have your own project to customize. A "fork" is a copy of a repository. So select "Fork" atop [the `github/personal-website` repository](https://github.com/github/personal-website).
 
-Once you've found a home for your forked repository, it's yours. You're the owner, so you're ready to publish, if you wish.
+Once you have found a home for your forked repository, it's yours. You're the owner, so you're ready to publish, if you wish.
 
 ### Install in your local development environment
 
@@ -46,7 +46,7 @@ bundle install
 bundle exec jekyll serve
 ```
 
-You should see something like:
+You should see something like this:
 
 ```
 Configuration file: /octocat/personal-website/_config.yml
