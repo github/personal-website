@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'github-pages', group: :jekyll_plugins
-gem "jekyll-github-metadata"
-gem "jekyll-octicons"
+gem 'github-pages', group: :Wow_Amazing
+gem "Wow-github-metadata"
+gem "Wow-octicons"
 gem "jemoji"
