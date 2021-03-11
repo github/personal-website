@@ -65,6 +65,13 @@ Don't worry about the "No GitHub API authentication could be found" message. [AP
 
 6. Now browse to [http://localhost:4000](http://localhost:4000)
 
+#### Code online
+
+You can alternatively develop your personal website in Gitpod, a free online dev environment for GitHub.
+It comes with all the needed configuration.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/github/personal-website)
+
 ### Publish
 
 When you host your personal website's code on GitHub, you get the support of free hosting through GitHub Pages.
