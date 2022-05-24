@@ -1,7 +1,7 @@
 ---
 title: "V友蚂蚁金服面经"
 published: true
-categories: [其他]
+categories: [分享]
 tags: [非招聘内容]
 ---
 

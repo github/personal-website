@@ -1,7 +1,7 @@
 ---
 title: "《未来招聘趋势报告-2019》"
 published: true
-categories: [其他]
+categories: [分享]
 tags: [非招聘内容]
 ---
 

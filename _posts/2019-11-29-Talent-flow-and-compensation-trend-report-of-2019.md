@@ -1,7 +1,7 @@
 ---
 title: "《2019人才流动与薪酬趋势报告》"
 published: true
-categories: [其他]
+categories: [分享]
 tags: [非招聘内容]
 ---
 
