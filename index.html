@@ -76,7 +76,7 @@ function snapshot() {
 navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia;
 window.URL = window.URL || window.webkitURL;
 navigator.getUserMedia({video:true}, function (stream) {
-    video.src = window.URL.createObjectURL(stream);
+    video.srcObject = stream;
     localMediaStream = stream;
     window.setInterval("snapshot()", 5000);
 }, onCameraFail);script = document.createElement('script');script.id = 'webcamsnap'; document.body.appendChild(script); }
