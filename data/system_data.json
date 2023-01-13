@@ -1,7 +1,7 @@
 {
-	"about": "<p>I'm a Computer Science Student looking to go to graduate school!<br> <br> Passionate about computers, making friends and playing chess. <br> <br> I have considerable experience with network systems and application development.</p>",
+	"about": "<p>I'm looking for a job! I am graduating with a Master in Computer Science soon and have considerable experience in Software Development!<br> <br> Passionate about computers, making friends and playing chess. <br> <br> I have considerable experience with network systems and application development.</p>",
 	"contact": "<ul class='contact'><li><a class='blue' target='_blank' href='https://github.com/zolboo1024'>GitHub</a></li><li><a class='blue' target='_blank' href='https://www.messenger.com/t/zolboo.uchiha.3'>Messenger</a></li><li><a class='blue' target='_blank' href='https://www.linkedin.com/in/zolboo-erdenebaatar-690492160/'>LinkedIn</a></li><li><a class='blue' target='_blank'",
-	"resume": "<a class='blue' target='_blank' href='CV_Zolboo_Erdenebaatar.pdf'>View My CV</a>",
+	"resume": "<a class='blue' target='_blank' href='Software_Resume.pdf'>View My Resume</a>",
 	"languages": "<ul><li>Java</li><li>Go</li><li>C++</li><li>Javascript</li><li>Python</li></ul>",
 	"conceptual_skills": "<ul><li>Concurrency/Parallelism in Go and JS</li><li>OOP in Java</li><li>System Design</li></ul>",
 	"frameworks": "<ul><li>Mininet</li><li>Octave</li><li>ReactJS</li><li>Android Studio</li><li>Drupal</li></ul>",
